@@ -34,6 +34,26 @@ img { max-width: 100%; }
 .flat { color: var(--flat); }
 .muted { color: var(--muted); }
 
+/* ---------- 開頭動畫 ---------- */
+.intro {
+  position: fixed; inset: 0; z-index: 100;
+  background: #040a18; /* 和影片背景同色，直式手機上下留白才不會有接縫 */
+  display: flex; align-items: center; justify-content: center;
+  transition: opacity .6s ease;
+  cursor: pointer;
+}
+.intro[hidden] { display: none; }
+.intro video { width: 100%; height: 100%; object-fit: contain; }
+.intro-out { opacity: 0; pointer-events: none; }
+html.intro-on { overflow: hidden; }
+.intro-skip {
+  position: absolute; right: 16px; bottom: max(16px, env(safe-area-inset-bottom));
+  font: inherit; font-size: 14px; color: var(--text); cursor: pointer;
+  background: rgba(17, 22, 30, .7); border: 1px solid var(--line); border-radius: 999px;
+  padding: 6px 16px; backdrop-filter: blur(6px);
+}
+.intro-skip:hover, .intro-skip:focus-visible { border-color: var(--accent); color: var(--accent); outline: none; }
+
 /* ---------- 頂部列 ---------- */
 .topbar {
   position: sticky; top: 0; z-index: 10;

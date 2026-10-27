@@ -12,6 +12,49 @@
   <link rel="stylesheet" href="assets/style.css">
 </head>
 <body>
+  <!-- 開頭動畫：每個瀏覽器每天播一次，可略過；網址加 ?intro=1 可強制重播 -->
+  <div class="intro" id="intro" hidden>
+    <video id="intro-video" muted playsinline preload="auto" poster="assets/intro/poster.jpg" aria-hidden="true">
+      <source src="assets/intro/intro.mp4" type='video/mp4; codecs="avc1.64001F"'>
+    </video>
+    <button class="intro-skip" id="intro-skip" type="button">略過 ›</button>
+  </div>
+  <script>
+    (function () {
+      var box = document.getElementById("intro");
+      var video = document.getElementById("intro-video");
+      var force = /[?&]intro=1/.test(location.search);
+      var today = new Date().toLocaleDateString("en-CA", { timeZone: "Asia/Taipei" });
+      var seen = null;
+      try { seen = localStorage.getItem("intro_seen"); } catch (e) { /* 無痕模式等 */ }
+      var reduce = window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+      var canPlay = video.canPlayType('video/mp4; codecs="avc1.64001F"') !== ""; // H.264 High@3.1
+      if (!canPlay || (!force && (reduce || seen === today))) { box.remove(); return; }
+      try { localStorage.setItem("intro_seen", today); } catch (e) { /* 忽略 */ }
+
+      box.hidden = false;
+      document.documentElement.classList.add("intro-on");
+      var closed = false;
+      function close() {
+        if (closed) return;
+        closed = true;
+        box.classList.add("intro-out");
+        document.documentElement.classList.remove("intro-on");
+        setTimeout(function () { box.remove(); }, 600);
+      }
+      video.addEventListener("ended", close);
+      video.addEventListener("error", close, true); // 影片載入失敗就直接進網站
+      video.querySelector("source").addEventListener("error", close);
+      box.addEventListener("click", close);
+      document.addEventListener("keydown", function (e) {
+        if (e.key === "Escape" || e.key === "Enter" || e.key === " ") close();
+      });
+      var playing = video.play();
+      if (playing && playing.catch) playing.catch(close); // 瀏覽器不允許自動播放時也直接進網站
+      setTimeout(function () { if (video.currentTime === 0) close(); }, 3000); // 網路太慢、3 秒還沒開始播就直接進網站
+      setTimeout(close, 8000); // 保險：最多 8 秒
+    })();
+  </script>
   <header class="topbar">
     <div class="topbar-inner">
       <a class="brand" href="#top"><span class="brand-mark"></span><span class="brand-text">台股盤後看板</span></a>
