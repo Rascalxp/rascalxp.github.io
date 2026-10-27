@@ -1,9 +1,25 @@
 {
-  "updated": "2026-10-27T13:45:01+08:00",
+  "updated": "2026-10-27T13:53:34+08:00",
   "ai_summary": false,
   "model": null,
-  "candidates_sig": "c3e6f58c034cb17840ba8e93d1d7fc3f2d85574b",
+  "candidates_sig": "64cbdf3208f899ec721f8b9e1f4eaa6b10e44126",
   "items": [
+    {
+      "title": "光通訊股強勢反彈！Lumentum大漲8.19% AI需求、中國供應限制成利多",
+      "url": "https://news.cnyes.com/news/id/6638041",
+      "source": "鉅亨網",
+      "published": "2026-10-27T13:50+08:00",
+      "summary": "AI基礎建設需求撐盤，Lumentum漲8.19%、Coherent漲5.83%、Ciena漲4.89%。 Anthropic週一提交IPO申請，Meta發行股票籌資、SpaceX承諾投入400億美元採購晶片與AI硬體。 市場憂FCC明年初",
+      "tags": []
+    },
+    {
+      "title": "警示「人類毀滅風險」卻吸金千億美元 解析AI獨角獸Anthropic招股書",
+      "url": "https://news.cnyes.com/news/id/6638283",
+      "source": "鉅亨網",
+      "published": "2026-10-27T13:46+08:00",
+      "summary": "Anthropic向SEC遞交S-1，申請納斯達克上市，股票代碼ANT；傳最快2026年11月16日當周掛牌。 公司2026年上半年營收162.86億美元、年化達650億美元，但淨虧損807.48億美元。 S-1警示AI可能帶來毀滅性風險，",
+      "tags": []
+    },
     {
       "title": "南韓 Dunamu & Partners 獨投美太空資料中心新創 Starcloud 獲 23 億美元",
       "url": "https://tw.stock.yahoo.com/news/%E5%8D%97%E9%9F%93-dunamu-partners-%E7%8D%A8%E6%8A%95%E7%BE%8E%E5%A4%AA%E7%A9%BA%E8%B3%87%E6%96%99%E4%B8%AD%E5%BF%83%E6%96%B0%E5%89%B5-starcloud-053440811.html",
@@ -66,22 +82,6 @@
       "source": "鉅亨網",
       "published": "2026-10-27T13:15+08:00",
       "summary": "三星、SK海力士擬於明年第2季量產8Hi HBM4並出貨輝達。 《ZDNET Korea》指兩廠現產HBM4以12Hi為主，堆疊更高但良率下滑、成本更高。 輝達已與兩廠討論改用8Hi HBM4(E)，並將HGX Vera Rubin NVL",
-      "tags": []
-    },
-    {
-      "title": "美股有驚就是買點？Yardeni點名四大風險：牛市仍將延續",
-      "url": "https://news.cnyes.com/news/id/6638268",
-      "source": "鉅亨網",
-      "published": "2026-10-27T13:09+08:00",
-      "summary": "Yardeni Research 指出，伊朗戰事、Fed 意外升息、11月3日期中選舉與AI投資限制，未來幾週都可能引發美股賣壓。 該機構將標普500今年底目標調為7,900點，主因公債殖利率升、地緣政治緊張與AI融資疑慮。 只要美國經濟與",
-      "tags": []
-    },
-    {
-      "title": "抄底時機到了？AI融資鏈成新風險源頭 高盛兩週淨賣超科技股200億美元",
-      "url": "https://news.cnyes.com/news/id/6638141",
-      "source": "鉅亨網",
-      "published": "2026-10-27T13:00+08:00",
-      "summary": "高盛數據顯示，過去兩週TMT淨賣超約200億美元，拋售強度達-3.3個標準差，接近7月230億美元拋售烈度。 那指100仍困於5月以來區間，29000點與約28500點200日均線成關鍵支撐；費半亦正測試200日均線。 小摩指AI融資環境快",
       "tags": []
     }
   ]
