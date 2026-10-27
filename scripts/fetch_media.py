@@ -13,8 +13,9 @@ from datetime import datetime
 from common import TW, load_json, log_error, now_iso, save_json, session, write_status
 
 SOURCES = [
+    # 理財達人秀同一集會拆成 part1～part3，同一天只留最新上傳的一支
     {"kind": "youtube", "name": "理財達人秀", "channel_id": "UCQvsuaih5lE0n_Ne54nNezg",
-     "url": "https://www.youtube.com/@EBCmoneyshow"},
+     "url": "https://www.youtube.com/@EBCmoneyshow", "one_per_day": True},
     # 錢線百分百每天會切成好幾段上傳，只抓標題有「完整版」的；
     # 完整版有時又拆成上中下集，所以同一天只留最新上傳的一支
     {"kind": "youtube", "name": "錢線百分百", "channel_id": "UC_ObC9O0ZQ2FhW6u9_iFlZA",
@@ -124,7 +125,8 @@ def youtube_from_pages(src):
             break
         d = None
         if src.get("one_per_day"):
-            m = re.search(r"(20\d{2})(\d{2})(\d{2})", v["title"])  # 標題裡的節目日期，例如 20261022
+            # 標題裡的節目日期，例如 20261022 或 2026.10.22
+            m = re.search(r"(20\d{2})[./-]?(\d{2})[./-]?(\d{2})(?!\d)", v["title"])
             if m:
                 day = f"{m[1]}-{m[2]}-{m[3]}"
             else:
