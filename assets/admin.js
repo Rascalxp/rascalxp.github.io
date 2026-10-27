@@ -153,7 +153,7 @@
   function renderPreview() {
     const md = $("post-content").value;
     $("preview-title").textContent = $("post-title").value;
-    const html = window.marked ? window.marked.parse(md) : md;
+    const html = window.marked ? window.marked.parse(md, { breaks: true }) : md;
     $("preview").innerHTML = window.DOMPurify ? window.DOMPurify.sanitize(html) : "";
     // 剛上傳的圖片網站還沒更新，預覽時先從 GitHub 原始檔讀
     $("preview").querySelectorAll('img[src^="uploads/"]').forEach((img) => {

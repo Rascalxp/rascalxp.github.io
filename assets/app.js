@@ -106,13 +106,74 @@
 
   // ---------- 02 大盤分析 ----------
   function renderMarkdown(md) {
-    const html = window.marked ? window.marked.parse(md || "") : md;
+    const html = window.marked ? window.marked.parse(md || "", { breaks: true }) : md;
     const safe = window.DOMPurify ? window.DOMPurify.sanitize(html) : "";
     const div = el("div", { class: "md" });
     div.innerHTML = safe;
     div.querySelectorAll("a").forEach((a) => { a.target = "_blank"; a.rel = "noopener"; });
+    div.querySelectorAll("img").forEach((img) => {
+      img.loading = "lazy";
+      img.tabIndex = 0;
+      img.setAttribute("role", "button");
+      img.title = "點一下放大";
+      img.addEventListener("click", () => openLightbox(img));
+      img.addEventListener("keydown", (e) => { if (e.key === "Enter") openLightbox(img); });
+    });
     return div;
   }
+
+  // ---------- 圖片放大檢視 ----------
+  // 點文章裡的圖片：全螢幕顯示；在大圖上點一下切換放大（可拖曳移動），手機也能雙指縮放。
+  // 關閉：右上角 ×、點黑色背景、Esc，或手機的「返回」。
+  let lightbox = null;
+
+  function closeLightbox(fromHistory) {
+    if (!lightbox) return;
+    lightbox.remove();
+    lightbox = null;
+    document.documentElement.classList.remove("lightbox-on");
+    if (!fromHistory && history.state && history.state.lightbox) history.back();
+  }
+
+  function openLightbox(src) {
+    closeLightbox();
+    const big = el("img", { src: src.currentSrc || src.src, alt: src.alt || "" });
+    const stage = el("div", { class: "lb-stage" }, big);
+    const caption = src.alt ? el("div", { class: "lb-caption" }, src.alt) : null;
+    const hint = el("div", { class: "lb-hint" }, "點圖片放大／縮小，雙指可縮放");
+    const closeBtn = el("button", { class: "lb-close", type: "button", "aria-label": "關閉" }, "×");
+    lightbox = el("div", { class: "lightbox", role: "dialog", "aria-modal": "true", "aria-label": src.alt || "圖片" },
+      stage, caption, hint, closeBtn);
+    document.body.append(lightbox);
+    document.documentElement.classList.add("lightbox-on");
+    history.pushState({ lightbox: true }, "");
+    closeBtn.focus();
+
+    closeBtn.addEventListener("click", () => closeLightbox());
+    stage.addEventListener("click", (e) => {
+      if (e.target !== big) {
+        if (!stage.classList.contains("zoomed")) closeLightbox();
+        return;
+      }
+      if (stage.classList.contains("zoomed")) {
+        stage.classList.remove("zoomed");
+        big.style.width = "";
+        return;
+      }
+      // 以點擊位置為中心放大
+      const rect = big.getBoundingClientRect();
+      const rx = (e.clientX - rect.left) / rect.width;
+      const ry = (e.clientY - rect.top) / rect.height;
+      const width = Math.max(rect.width * 2.5, Math.min(big.naturalWidth, window.innerWidth * 3));
+      stage.classList.add("zoomed");
+      big.style.width = `${width}px`;
+      stage.scrollLeft = rx * big.offsetWidth - stage.clientWidth / 2 + big.offsetLeft;
+      stage.scrollTop = ry * big.offsetHeight - stage.clientHeight / 2 + big.offsetTop;
+    });
+  }
+
+  window.addEventListener("popstate", () => closeLightbox(true));
+  document.addEventListener("keydown", (e) => { if (e.key === "Escape") closeLightbox(); });
 
   function showPost(posts, idx) {
     const p = posts[idx];
