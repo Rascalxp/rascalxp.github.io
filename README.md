@@ -98,6 +98,7 @@
 
 - **增減節目**：修改 `scripts/fetch_media.py` 最上面的 `SOURCES`
   - YouTube 頻道要填頻道 ID（`UC` 開頭），只有 Shorts 的頻道抓不到
+  - 加上 `"title_contains": "完整版"` 就只抓標題含有這幾個字的影片（目前錢線百分百有用）
   - Podcast 填 Apple Podcasts 網址最後的數字 id，例如 `.../id1500839292` 就填 `1500839292`
 - **調整新聞關鍵字**：修改 `scripts/fetch_news.py` 裡的 `AI_PATTERN`
 - **修改網站名稱**：修改 `index.html` 裡的「台股盤後看板」

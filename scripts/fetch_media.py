@@ -15,8 +15,9 @@ from common import TW, load_json, log_error, now_iso, save_json, session, write_
 SOURCES = [
     {"kind": "youtube", "name": "理財達人秀", "channel_id": "UCQvsuaih5lE0n_Ne54nNezg",
      "url": "https://www.youtube.com/@EBCmoneyshow"},
+    # 錢線百分百每天會切成好幾段上傳，只抓標題有「完整版」的
     {"kind": "youtube", "name": "錢線百分百", "channel_id": "UC_ObC9O0ZQ2FhW6u9_iFlZA",
-     "url": "https://www.youtube.com/@ustvmoney100"},
+     "url": "https://www.youtube.com/@ustvmoney100", "title_contains": "完整版"},
     {"kind": "podcast", "name": "股癌 Gooaye", "apple_id": "1500839292",
      "url": "https://podcasts.apple.com/tw/podcast/id1500839292"},
 ]
@@ -113,8 +114,11 @@ def watch_details(video_id):
 
 
 def youtube_from_pages(src):
+    videos = channel_videos(src["channel_id"])
+    if src.get("title_contains"):
+        videos = [v for v in videos if src["title_contains"] in v["title"]]
     items = []
-    for v in channel_videos(src["channel_id"])[:PER_SOURCE]:
+    for v in videos[:PER_SOURCE]:
         d = watch_details(v["id"])
         items.append({
             "id": v["id"],
