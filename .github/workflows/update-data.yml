@@ -34,20 +34,20 @@ jobs:
 
       - name: 籌碼（三大法人、散戶微台）
         continue-on-error: true
-        run: python scripts/fetch_chips.py
+        run: python scripts/chips_debug.py
 
       - name: 財經節目（YouTube、Podcast）
         continue-on-error: true
         env:
           YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
-        run: python scripts/fetch_media.py
+        run: echo skip
 
       - name: AI 新聞與摘要
         continue-on-error: true
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           CLAUDE_MODEL: ${{ vars.CLAUDE_MODEL }}
-        run: python scripts/fetch_news.py
+        run: echo skip
 
       - name: 有變動就存檔
         run: |
