@@ -15,9 +15,10 @@ from common import TW, load_json, log_error, now_iso, save_json, session, write_
 SOURCES = [
     {"kind": "youtube", "name": "理財達人秀", "channel_id": "UCQvsuaih5lE0n_Ne54nNezg",
      "url": "https://www.youtube.com/@EBCmoneyshow"},
-    # 錢線百分百每天會切成好幾段上傳，只抓標題有「完整版」的
+    # 錢線百分百每天會切成好幾段上傳，只抓標題有「完整版」的；
+    # 完整版有時又拆成上中下集，所以同一天只留最新上傳的一支
     {"kind": "youtube", "name": "錢線百分百", "channel_id": "UC_ObC9O0ZQ2FhW6u9_iFlZA",
-     "url": "https://www.youtube.com/@ustvmoney100", "title_contains": "完整版"},
+     "url": "https://www.youtube.com/@ustvmoney100", "title_contains": "完整版", "one_per_day": True},
     {"kind": "podcast", "name": "股癌 Gooaye", "apple_id": "1500839292",
      "url": "https://podcasts.apple.com/tw/podcast/id1500839292"},
 ]
@@ -117,9 +118,22 @@ def youtube_from_pages(src):
     videos = channel_videos(src["channel_id"])
     if src.get("title_contains"):
         videos = [v for v in videos if src["title_contains"] in v["title"]]
-    items = []
-    for v in videos[:PER_SOURCE]:
-        d = watch_details(v["id"])
+    items, days = [], set()
+    for v in videos:  # 頁面順序是新到舊
+        if len(items) == PER_SOURCE:
+            break
+        d = None
+        if src.get("one_per_day"):
+            m = re.search(r"(20\d{2})(\d{2})(\d{2})", v["title"])  # 標題裡的節目日期，例如 20261022
+            if m:
+                day = f"{m[1]}-{m[2]}-{m[3]}"
+            else:
+                d = watch_details(v["id"])
+                day = d["date"]
+            if day and day in days:
+                continue
+            days.add(day)
+        d = d or watch_details(v["id"])
         items.append({
             "id": v["id"],
             "title": v["title"],
