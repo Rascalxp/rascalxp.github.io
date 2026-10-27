@@ -1,16 +1,34 @@
 {
   "chips": {
-    "time": "2026-10-27T14:03:17+08:00",
+    "time": "2026-10-27T14:10:21+08:00",
     "ok": true,
-    "errors": []
+    "errors": [
+      "  tmf_net_from_csv 2026-10-27 失敗：403 Client Error: Forbidden for url: https://www.taifex.com.tw/cht/3/futContractsDateDown",
+      "  tmf_net_from_html 2026-10-27 失敗：403 Client Error: Forbidden for url: https://www.taifex.com.tw/cht/3/futContractsDate",
+      "  tmf_net_from_csv 2026-10-26 失敗：403 Client Error: Forbidden for url: https://www.taifex.com.tw/cht/3/futContractsDateDown",
+      "  tmf_net_from_html 2026-10-26 失敗：403 Client Error: Forbidden for url: https://www.taifex.com.tw/cht/3/futContractsDate",
+      "  tmf_net_from_csv 2026-10-23 失敗：403 Client Error: Forbidden for url: https://www.taifex.com.tw/cht/3/futContractsDateDown",
+      "  tmf_net_from_html 2026-10-23 失敗：403 Client Error: Forbidden for url: https://www.taifex.com.tw/cht/3/futContractsDate",
+      "  tmf_net_from_csv 2026-10-22 失敗：403 Client Error: Forbidden for url: https://www.taifex.com.tw/cht/3/futContractsDateDown",
+      "  tmf_net_from_html 2026-10-22 失敗：403 Client Error: Forbidden for url: https://www.taifex.com.tw/cht/3/futContractsDate",
+      "  tmf_net_from_csv 2026-10-21 失敗：403 Client Error: Forbidden for url: https://www.taifex.com.tw/cht/3/futContractsDateDown",
+      "  tmf_net_from_html 2026-10-21 失敗：403 Client Error: Forbidden for url: https://www.taifex.com.tw/cht/3/futContractsDate",
+      "  tmf_net_from_csv 2026-10-20 失敗：403 Client Error: Forbidden for url: https://www.taifex.com.tw/cht/3/futContractsDateDown",
+      "  tmf_net_from_html 2026-10-20 失敗：403 Client Error: Forbidden for url: https://www.taifex.com.tw/cht/3/futContractsDate",
+      "  tmf_net_from_csv 2026-10-19 失敗：403 Client Error: Forbidden for url: https://www.taifex.com.tw/cht/3/futContractsDateDown",
+      "  tmf_net_from_html 2026-10-19 失敗：403 Client Error: Forbidden for url: https://www.taifex.com.tw/cht/3/futContractsDate",
+      "  tmf_net_from_csv 2026-10-16 失敗：403 Client Error: Forbidden for url: https://www.taifex.com.tw/cht/3/futContractsDateDown",
+      "  tmf_net_from_html 2026-10-16 失敗：403 Client Error: Forbidden for url: https://www.taifex.com.tw/cht/3/futContractsDate",
+      "散戶微台：找不到資料"
+    ]
   },
   "news": {
-    "time": "2026-10-27T14:03:26+08:00",
+    "time": "2026-10-27T14:10:29+08:00",
     "ok": true,
     "errors": []
   },
   "media": {
-    "time": "2026-10-27T14:03:23+08:00",
+    "time": "2026-10-27T14:10:27+08:00",
     "ok": true,
     "errors": []
   }
