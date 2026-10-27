@@ -36,11 +36,11 @@ jobs:
         continue-on-error: true
         run: python scripts/fetch_chips.py
 
-      - name: YouTube 最新影片
+      - name: 財經節目（YouTube、Podcast）
         continue-on-error: true
         env:
           YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
-        run: python scripts/yt_debug.py
+        run: python scripts/fetch_media.py
 
       - name: AI 新聞與摘要
         continue-on-error: true

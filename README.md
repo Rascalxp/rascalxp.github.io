@@ -7,9 +7,9 @@
 
 1. **法人籌碼**：三大法人（外資、投信、自營商）買賣超金額，以及散戶微台口數增減與淨未平倉
 2. **每日大盤分析**：管理者從後台發文
-3. **股市新聞**：左邊是 AI 產業新聞 10 則（附 AI 重點摘要），右邊是財經 YouTube 頻道的最新 3 支影片
+3. **股市新聞**：左邊是 AI 產業新聞 10 則（附 AI 重點摘要），右邊是財經節目的最新 3 集（YouTube 頻道與 Podcast）
 
-籌碼、新聞和影片都由 GitHub Actions 自動抓取，不需要另外架主機。
+籌碼、新聞和節目都由 GitHub Actions 自動抓取，不需要另外架主機。
 
 ---
 
@@ -71,8 +71,8 @@
 
 | 時間 | 更新內容 |
 |---|---|
-| 週一至週五 15:40、17:30 | 籌碼、新聞、影片 |
-| 每天 07:00、12:00、20:00 | 新聞、影片（籌碼若沒有新資料就不變） |
+| 週一至週五 15:40、17:30 | 籌碼、新聞、節目 |
+| 每天 07:00、12:00、20:00 | 新聞、節目（籌碼若沒有新資料就不變） |
 
 - GitHub 的排程常會延遲 5～30 分鐘，屬正常現象
 - 想立刻更新，可以到 Actions 手動按 **Run workflow**
@@ -88,16 +88,20 @@
   - 口數增減 = 今日散戶淨未平倉 − 前一交易日散戶淨未平倉
   - 顯示格式：`+5,000（-12,000）`，散戶是反指標，所以增加為綠、減少為紅
 - **AI 新聞**：從鉅亨網、Yahoo 股市、Google 新聞抓最近 48 小時的新聞，篩出 AI 相關的，再請 AI 挑 10 則寫摘要
-- **YouTube**：用 YouTube 公開的 RSS 抓各頻道最新 3 支影片（不含 Shorts）
+- **YouTube**：讀取頻道「影片」與「直播」分頁，抓最新 3 支（不含 Shorts）。YouTube 的 RSS 會擋 GitHub 的主機，所以沒有用 RSS
+- **Podcast**：用 Apple Podcasts 公開查詢 API 抓最新 3 集
+- **除錯**：每次自動更新的結果記在 `data/status.json`，哪個來源失敗會寫在 `errors` 裡
 
 ---
 
 ## 五、常見修改
 
-- **增減 YouTube 頻道**：修改 `scripts/fetch_youtube.py` 最上面的 `CHANNELS`
+- **增減節目**：修改 `scripts/fetch_media.py` 最上面的 `SOURCES`
+  - YouTube 頻道要填頻道 ID（`UC` 開頭），只有 Shorts 的頻道抓不到
+  - Podcast 填 Apple Podcasts 網址最後的數字 id，例如 `.../id1500839292` 就填 `1500839292`
 - **調整新聞關鍵字**：修改 `scripts/fetch_news.py` 裡的 `AI_PATTERN`
 - **修改網站名稱**：修改 `index.html` 裡的「台股盤後看板」
-- **YouTube RSS 抓不到時（選用）**：到 Google Cloud 申請 YouTube Data API 金鑰，並加一個名為 `YOUTUBE_API_KEY` 的 repository secret，程式會自動改用 API
+- **YouTube 頁面抓不到時（選用）**：到 Google Cloud 申請 YouTube Data API 金鑰，加一個名為 `YOUTUBE_API_KEY` 的 repository secret，程式會自動改用 API
 
 ## 檔案結構
 
@@ -105,7 +109,7 @@
 index.html                  首頁
 admin.html                  管理後台
 assets/                     樣式與程式
-data/                       自動更新的資料（chips / news / youtube / analysis）
+data/                       自動更新的資料（chips / news / media / analysis / status）
 uploads/                    後台上傳的圖片
 scripts/                    抓資料的 Python 程式
 .github/workflows/          自動排程設定
