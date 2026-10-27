@@ -101,6 +101,7 @@ main { max-width: 1240px; margin: 0 auto; padding: 8px 16px 48px; }
 
 /* ---------- 02 大盤分析 ---------- */
 .analysis-wrap { display: grid; grid-template-columns: minmax(0, 1fr) 240px; gap: 16px; align-items: start; }
+.analysis-wrap:has(> .archive[hidden]) { grid-template-columns: minmax(0, 1fr); }
 .article { padding: 24px 28px; min-width: 0; }
 .article-date { font-family: var(--mono); color: var(--accent); font-size: 13px; }
 .article h3.article-title { font-size: 24px; margin: 4px 0 16px; line-height: 1.4; }

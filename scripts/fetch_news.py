@@ -35,7 +35,8 @@ YAHOO_FEEDS = ["https://tw.stock.yahoo.com/rss?category=tw-market",
 
 
 def clean(text):
-    text = html.unescape(re.sub(r"<[^>]+>", " ", text or ""))
+    # 有些來源把 HTML 標籤跳脫過（&lt;p&gt;），先還原再去掉標籤
+    text = html.unescape(re.sub(r"<[^>]+>", " ", html.unescape(text or "")))
     return re.sub(r"\s+", " ", text).strip()
 
 
