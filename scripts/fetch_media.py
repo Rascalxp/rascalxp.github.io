@@ -1,6 +1,6 @@
 """抓財經節目最新內容（YouTube 頻道影片、Podcast 單集），寫入 data/media.json。
 
-- YouTube 的 RSS 會擋 GitHub 的主機，所以改讀頻道「影片」「直播」分頁的資料；
+- YouTube 的 RSS 會擋 GitHub 的主機，所以改讀頻道「影片」分頁的資料（不含 Shorts、會員專屬）；
   如果有設定 YOUTUBE_API_KEY，頁面讀不到時會改用 YouTube Data API。
 - Podcast 用 Apple Podcasts 的公開查詢 API，填 Apple Podcasts 網址裡的 id 即可。
 要增減節目，改下面的 SOURCES。
@@ -50,13 +50,13 @@ def _walk(obj, fn):
             _walk(v, fn)
 
 
-def tab_videos(channel_id, tab):
-    """讀頻道某個分頁（videos / streams）上的影片 id 與標題，依頁面順序（新到舊）。"""
-    r = session.get(f"https://www.youtube.com/channel/{channel_id}/{tab}", timeout=30, cookies=YT_COOKIES)
+def channel_videos(channel_id):
+    """讀頻道「影片」分頁上的影片（新到舊），略過會員專屬影片。"""
+    r = session.get(f"https://www.youtube.com/channel/{channel_id}/videos", timeout=30, cookies=YT_COOKIES)
     r.raise_for_status()
     data = _json_after(r.text, "ytInitialData")
     if not data:
-        raise ValueError(f"{tab} 分頁讀不到資料")
+        raise ValueError("影片分頁讀不到資料")
 
     selected, found = [], []
 
@@ -67,67 +67,64 @@ def tab_videos(channel_id, tab):
                             .get("webCommandMetadata", {}).get("url", ""))
         lv = o.get("lockupViewModel")
         if lv and lv.get("contentType") == "LOCKUP_CONTENT_TYPE_VIDEO" and lv.get("contentId"):
+            if "BADGE_MEMBERS_ONLY" in json.dumps(lv):
+                return
             title = (lv.get("metadata", {}).get("lockupMetadataViewModel", {})
                      .get("title", {}).get("content", ""))
             found.append({"id": lv["contentId"], "title": title})
-        vr = o.get("videoRenderer")  # 舊版頁面格式
-        if vr and vr.get("videoId"):
-            runs = vr.get("title", {}).get("runs", [{}])
-            found.append({"id": vr["videoId"], "title": runs[0].get("text", "")})
 
     _walk(data, visit)
-    # 頻道沒有這個分頁時，YouTube 會導回首頁，首頁上的影片不算
-    if not selected or not selected[0].endswith("/" + tab):
-        return []
+    # 頻道沒有「影片」分頁時，YouTube 會導回首頁或 Shorts，那些不算
+    if not selected or not selected[0].endswith("/videos"):
+        raise ValueError("這個頻道沒有一般影片（可能只有 Shorts）")
     return found
 
 
 def watch_details(video_id):
-    """從影片頁讀精確發布時間與說明欄；讀不到時回傳 None。"""
+    """從影片頁讀發布日期與說明欄。
+
+    YouTube 會擋 GitHub 主機讀播放資料，但頁面上的 ytInitialData 還在，
+    日期（例如「2026年10月22日」）和說明欄從那裡取；讀不到就留空。
+    """
     try:
         r = session.get("https://www.youtube.com/watch", params={"v": video_id}, timeout=30, cookies=YT_COOKIES)
         r.raise_for_status()
-        player = _json_after(r.text, "ytInitialPlayerResponse") or {}
-        vd = player.get("videoDetails", {})
-        mf = player.get("microformat", {}).get("playerMicroformatRenderer", {})
-        return {
-            "title": vd.get("title"),
-            "description": (vd.get("shortDescription") or mf.get("description", {}).get("simpleText", "")).strip(),
-            "published": mf.get("publishDate") or mf.get("uploadDate") or "",
-            "upcoming": bool(vd.get("isUpcoming")),
-        }
+        data = _json_after(r.text, "ytInitialData") or {}
+        info = {"date": "", "description": ""}
+
+        def visit(o):
+            prim = o.get("videoPrimaryInfoRenderer")
+            if prim and not info["date"]:
+                m = re.search(r"(\d{4})年(\d{1,2})月(\d{1,2})日", prim.get("dateText", {}).get("simpleText", ""))
+                if m:
+                    info["date"] = f"{int(m[1]):04d}-{int(m[2]):02d}-{int(m[3]):02d}"
+            sec = o.get("videoSecondaryInfoRenderer")
+            if sec and not info["description"]:
+                desc = sec.get("attributedDescription", {}).get("content")
+                if desc is None:
+                    desc = "".join(x.get("text", "") for x in sec.get("description", {}).get("runs", []))
+                info["description"] = (desc or "").strip()
+
+        _walk(data, visit)
+        return info
     except Exception as e:  # noqa: BLE001
         log_error(f"影片 {video_id} 詳細資料讀取失敗：{e}")
-        return None
+        return {"date": "", "description": ""}
 
 
 def youtube_from_pages(src):
-    candidates, seen = [], set()
-    for tab in ("videos", "streams"):
-        try:
-            for v in tab_videos(src["channel_id"], tab)[:PER_SOURCE + 2]:
-                if v["id"] not in seen:
-                    seen.add(v["id"])
-                    candidates.append(v)
-        except Exception as e:  # noqa: BLE001
-            log_error(f"{src['name']} {tab} 分頁失敗：{e}")
-
     items = []
-    for v in candidates:
-        d = watch_details(v["id"]) or {}
-        if d.get("upcoming"):
-            continue  # 還沒開播的預告直播
+    for v in channel_videos(src["channel_id"])[:PER_SOURCE]:
+        d = watch_details(v["id"])
         items.append({
             "id": v["id"],
-            "title": d.get("title") or v["title"],
+            "title": v["title"],
             "url": f"https://www.youtube.com/watch?v={v['id']}",
-            "published": to_tw(d.get("published", "")),
+            "published": d["date"],  # 只有日期（YYYY-MM-DD）
             "thumbnail": f"https://i.ytimg.com/vi/{v['id']}/mqdefault.jpg",
-            "description": d.get("description", ""),
+            "description": d["description"],
         })
-    # 有精確時間的依時間排序；沒有的維持頁面順序排在後面
-    items.sort(key=lambda x: x["published"] or "", reverse=True)
-    return items[:PER_SOURCE]
+    return items
 
 
 def youtube_from_api(src, key):

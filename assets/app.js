@@ -36,6 +36,7 @@
 
   function fmtTime(iso) {
     if (!iso) return "";
+    if (/^\d{4}-\d{2}-\d{2}$/.test(iso)) return iso.slice(5).replace("-", "/"); // 只有日期
     const d = new Date(iso);
     if (isNaN(d)) return "";
     return d.toLocaleString("zh-TW", {
