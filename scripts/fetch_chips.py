@@ -7,7 +7,6 @@
 口數增減 = 今日散戶淨未平倉 − 前一交易日散戶淨未平倉
 """
 import csv
-import html
 import io
 import re
 import sys
@@ -18,7 +17,8 @@ from common import log_error, write_status, load_json, now_iso, now_tw, save_jso
 
 TWSE_URL = "https://www.twse.com.tw/rwd/zh/fund/BFI82U"
 TAIFEX_CSV_URL = "https://www.taifex.com.tw/cht/3/futContractsDateDown"
-TAIFEX_HTML_URL = "https://www.taifex.com.tw/cht/3/futContractsDate"
+TAIFEX_OPENAPI_URL = ("https://openapi.taifex.com.tw/v1/"
+                      "MarketDataOfMajorInstitutionalTradersDetailsOfFuturesContractsBytheDate")
 TMF = "TMF"  # 微型臺指期貨
 LOOKBACK_DAYS = 12
 
@@ -99,91 +99,88 @@ def _decode(content):
     return content.decode("utf-8", errors="replace")
 
 
-def tmf_net_from_csv(day):
-    d = day.strftime("%Y/%m/%d")
-    data = {"queryStartDate": d, "queryEndDate": d, "commodityId": TMF}
-    r = session.post(TAIFEX_CSV_URL, data=data, timeout=30)
-    r.raise_for_status()
-    text = _decode(r.content)
+def _parse_tmf_rows(text):
+    """解析期交所「三大法人－區分各期貨契約」CSV（官網下載和 OpenAPI 格式相同）。
+
+    回傳 {日期: 三大法人微台多空未平倉淨額}。三種身份要到齊、而且當天有成交量才算，
+    避免把還沒公布或休市的日期當成 0。
+    """
     rows = list(csv.reader(io.StringIO(text)))
     if len(rows) < 2:
-        return None
-    header = [h.strip() for h in rows[0]]
-    try:
-        i_name = next(i for i, h in enumerate(header) if "商品" in h)
-        i_who = next(i for i, h in enumerate(header) if "身份" in h)
-        i_net = next(i for i, h in enumerate(header)
-                     if "未平倉" in h and "淨額" in h and "口數" in h)
-    except StopIteration:
-        return None
-    total, count = 0, 0
+        return {}
+    header = [h.strip().lstrip("\ufeff") for h in rows[0]]
+
+    def col(*keys):
+        for i, h in enumerate(header):
+            if all(k in h for k in keys):
+                return i
+        raise ValueError(f"期交所欄位和預期不同：{header}")
+
+    i_date, i_name, i_who = col("日期"), col("商品"), col("身份")
+    i_long, i_short = col("多方", "交易口數"), col("空方", "交易口數")
+    i_net = col("未平倉", "淨額", "口數")
+
+    by_day = {}
     for row in rows[1:]:
-        if len(row) <= i_net or "微型" not in row[i_name]:
+        if len(row) <= i_net or not re.search(r"微型|微台|微臺", row[i_name]):
             continue
-        if any(k in row[i_who] for k in ("自營商", "投信", "外資")):
-            v = to_int(row[i_net])
-            if v is not None:
-                total += v
-                count += 1
-    return total if count == 3 else None
+        if not any(k in row[i_who] for k in ("自營商", "投信", "外資")):
+            continue
+        net = to_int(row[i_net])
+        digits = re.sub(r"\D", "", row[i_date])
+        if net is None or len(digits) != 8:
+            continue
+        day = f"{digits[:4]}-{digits[4:6]}-{digits[6:]}"
+        g = by_day.setdefault(day, {"net": 0, "count": 0, "volume": 0})
+        g["net"] += net
+        g["count"] += 1
+        g["volume"] += (to_int(row[i_long]) or 0) + (to_int(row[i_short]) or 0)
+    return {d: g["net"] for d, g in by_day.items() if g["count"] == 3 and g["volume"] > 0}
 
 
-def tmf_net_from_html(day):
-    data = {"queryType": "1", "queryDate": day.strftime("%Y/%m/%d"), "commodityId": TMF}
-    r = session.post(TAIFEX_HTML_URL, data=data, timeout=30)
+def tmf_from_taifex():
+    # 一次抓最近 20 天，只發一個請求，避免被期交所的防火牆擋
+    end = now_tw()
+    start = end - timedelta(days=20)
+    data = {"queryStartDate": f"{start:%Y/%m/%d}", "queryEndDate": f"{end:%Y/%m/%d}", "commodityId": TMF}
+    r = session.post(TAIFEX_CSV_URL, data=data, timeout=30)
     r.raise_for_status()
-    page = _decode(r.content)
-    total, count = 0, 0
-    for tr in re.findall(r"<tr[^>]*>(.*?)</tr>", page, flags=re.S | re.I):
-        cells = [html.unescape(re.sub(r"<[^>]+>", "", c)).strip()
-                 for c in re.findall(r"<t[dh][^>]*>(.*?)</t[dh]>", tr, flags=re.S | re.I)]
-        who = next((c for c in cells if c in ("自營商", "投信", "外資", "外資及陸資")), None)
-        if not who:
-            continue
-        nums = [to_int(c) for c in cells if re.fullmatch(r"-?[\d,]+", c)]
-        # 每列 12 個數字：交易(多/空/淨)×(口數,金額) + 未平倉(多/空/淨)×(口數,金額)
-        if len(nums) >= 12:
-            total += nums[-2]
-            count += 1
-    return total if count == 3 else None
+    return _parse_tmf_rows(_decode(r.content))
 
 
-def tmf_inst_net(day):
-    for fn in (tmf_net_from_csv, tmf_net_from_html):
+def tmf_from_openapi():
+    # 備用：期交所 OpenAPI，只有最新一天，而且更新比官網慢
+    r = session.get(TAIFEX_OPENAPI_URL, timeout=30)
+    r.raise_for_status()
+    return _parse_tmf_rows(_decode(r.content))
+
+
+def latest_retail_tmf(history):
+    """回傳（散戶微台資料, 更新後的歷史紀錄）。歷史紀錄用來在只拿到一天資料時計算口數增減。"""
+    found = {}
+    for fn in (tmf_from_taifex, tmf_from_openapi):
         try:
-            v = fn(day)
-            if v is not None:
-                return v
-        except Exception as e:  # noqa: BLE001 — 一個方法失敗就換下一個
-            log_error(f"  {fn.__name__} {day:%Y-%m-%d} 失敗：{e}")
-        time.sleep(1)
-    return None
-
-
-def latest_retail_tmf():
-    found = []  # [(date, 三大法人淨未平倉)]
-    day = now_tw()
-    for _ in range(LOOKBACK_DAYS):
-        if day.weekday() < 5:
-            v = tmf_inst_net(day)
-            if v is not None:
-                found.append((day, v))
-                if len(found) == 2:
-                    break
-        day -= timedelta(days=1)
+            found = fn()
+            if found:
+                break
+            log_error(f"{fn.__name__}：沒有可用的資料")
+        except Exception as e:  # noqa: BLE001 — 一個來源失敗就換下一個
+            log_error(f"{fn.__name__} 失敗：{e}")
     if not found:
-        return None
-    today_date, today_inst = found[0]
-    retail_net = -today_inst
-    change = None
-    if len(found) == 2:
-        change = retail_net - (-found[1][1])
+        return None, history
+
+    merged = {**history, **found}
+    days = sorted(merged)[-30:]
+    history = {d: merged[d] for d in days}
+    latest = days[-1]
+    prev = days[-2] if len(days) > 1 else None
+    retail = -history[latest]
     return {
-        "date": today_date.strftime("%Y-%m-%d"),
-        "net_oi": retail_net,
-        "change": change,
-        "prev_date": found[1][0].strftime("%Y-%m-%d") if len(found) == 2 else None,
-    }
+        "date": latest,
+        "net_oi": retail,
+        "change": retail - (-history[prev]) if prev else None,
+        "prev_date": prev,
+    }, history
 
 
 def main():
@@ -202,7 +199,7 @@ def main():
         log_error(f"三大法人抓取失敗：{e}")
 
     try:
-        tmf = latest_retail_tmf()
+        tmf, out["tmf_history"] = latest_retail_tmf(out.get("tmf_history", {}))
         if tmf:
             out["retail_tmf"] = tmf
             ok = True
