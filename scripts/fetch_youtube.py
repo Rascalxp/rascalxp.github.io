@@ -8,7 +8,7 @@ import re
 import sys
 import xml.etree.ElementTree as ET
 
-from common import load_json, now_iso, save_json, session
+from common import log_error, write_status, load_json, now_iso, save_json, session
 
 # handle 或 id 擇一填寫即可；只填 handle 時，第一次執行會自動查出 id 並記在 youtube.json
 CHANNELS = [
@@ -42,9 +42,10 @@ def thumb(video_id):
     return f"https://i.ytimg.com/vi/{video_id}/mqdefault.jpg"
 
 
-def from_rss(channel_id):
-    r = session.get("https://www.youtube.com/feeds/videos.xml",
-                    params={"channel_id": channel_id}, timeout=30)
+def parse_feed(params):
+    r = session.get("https://www.youtube.com/feeds/videos.xml", params=params, timeout=30)
+    if r.status_code == 404:
+        return []  # 例如頻道沒有直播清單
     r.raise_for_status()
     root = ET.fromstring(r.content)
     videos = []
@@ -64,13 +65,22 @@ def from_rss(channel_id):
             "thumbnail": thumb(vid),
             "description": desc.strip(),
         })
-        if len(videos) == PER_CHANNEL:
-            break
     return videos
 
 
+def from_rss(channel_id):
+    # 頻道總 feed 只有最新 15 支，Shorts 一多就會把一般影片擠掉，
+    # 所以改抓「一般影片」(UULF) 和「直播」(UULV) 這兩個系統清單
+    suffix = channel_id[2:]
+    videos = parse_feed({"playlist_id": "UULF" + suffix}) + parse_feed({"playlist_id": "UULV" + suffix})
+    if not videos:
+        videos = parse_feed({"channel_id": channel_id})
+    unique = {v["id"]: v for v in videos}.values()
+    return sorted(unique, key=lambda v: v["published"], reverse=True)[:PER_CHANNEL]
+
+
 def from_api(channel_id, key):
-    uploads = "UU" + channel_id[2:]
+    uploads = "UULF" + channel_id[2:]  # 一般影片（不含 Shorts）
     r = session.get("https://www.googleapis.com/youtube/v3/playlistItems", timeout=30, params={
         "part": "snippet", "playlistId": uploads, "maxResults": PER_CHANNEL, "key": key,
     })
@@ -108,7 +118,7 @@ def main():
             except Exception as e:  # noqa: BLE001
                 if not api_key:
                     raise
-                print(f"{name} RSS 失敗（{e}），改用 API", file=sys.stderr)
+                log_error(f"{name} RSS 失敗（{e}），改用 API")
                 videos = from_api(cid, api_key)
             if not videos:
                 raise ValueError("沒有影片")
@@ -118,10 +128,11 @@ def main():
             any_ok = True
             print(f"{name}：{len(videos)} 支")
         except Exception as e:  # noqa: BLE001 — 抓不到就沿用上次的資料
-            print(f"{name} 抓取失敗：{e}", file=sys.stderr)
+            log_error(f"{name} 抓取失敗：{e}")
             if name in old_by_name:
                 channels.append(old_by_name[name])
 
+    write_status("youtube", any_ok)
     if not any_ok:
         sys.exit(1)
     save_json("youtube.json", {"updated": now_iso(), "channel_ids": known_ids, "channels": channels})

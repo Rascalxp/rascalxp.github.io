@@ -13,7 +13,7 @@ import xml.etree.ElementTree as ET
 from datetime import datetime, timedelta, timezone
 from email.utils import parsedate_to_datetime
 
-from common import TW, load_json, now_iso, now_tw, save_json, session
+from common import log_error, write_status, TW, load_json, now_iso, now_tw, save_json, session
 
 TOP_N = 10
 MAX_CANDIDATES = 30
@@ -104,7 +104,7 @@ def collect():
             print(f"{fn.__name__}：{len(got)} 則")
             raw.extend(got)
         except Exception as e:  # noqa: BLE001 — 單一來源失敗不影響其他來源
-            print(f"{fn.__name__} 失敗：{e}", file=sys.stderr)
+            log_error(f"{fn.__name__} 失敗：{e}")
 
     seen, out = set(), []
     for it in sorted(raw, key=lambda x: x["published"] or cutoff, reverse=True):
@@ -204,13 +204,15 @@ def main():
     old = load_json("news.json", {})
     candidates = collect()
     if not candidates:
-        print("沒有抓到任何 AI 相關新聞，保留上次資料", file=sys.stderr)
+        log_error("沒有抓到任何 AI 相關新聞，保留上次資料")
+        write_status("news", False)
         sys.exit(1)
 
     sig = hashlib.sha1("|".join(c["url"] for c in candidates).encode()).hexdigest()
     has_key = bool(os.environ.get("ANTHROPIC_API_KEY", "").strip())
     if sig == old.get("candidates_sig") and old.get("ai_summary") == has_key:
         print("新聞清單沒有變化，不重新產生摘要")
+        write_status("news", True)
         return
 
     items, ai = None, False
@@ -219,7 +221,7 @@ def main():
             items = summarize(candidates)
             ai = bool(items)
         except Exception as e:  # noqa: BLE001 — AI 摘要失敗就改用原文片段
-            print(f"AI 摘要失敗，改用原文片段：{e}", file=sys.stderr)
+            log_error(f"AI 摘要失敗，改用原文片段：{e}")
     if not items:
         items = [{**c, "summary": c["snippet"][:120], "tags": []} for c in candidates[:TOP_N]]
 
@@ -230,6 +232,7 @@ def main():
         "candidates_sig": sig,
         "items": [to_output(it) for it in items],
     })
+    write_status("news", True)
     print(f"已寫入 {len(items)} 則（AI 摘要：{'是' if ai else '否'}）")
 
 

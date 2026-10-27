@@ -14,7 +14,7 @@ import sys
 import time
 from datetime import timedelta
 
-from common import load_json, now_iso, now_tw, save_json, session, to_int
+from common import log_error, write_status, load_json, now_iso, now_tw, save_json, session, to_int
 
 TWSE_URL = "https://www.twse.com.tw/rwd/zh/fund/BFI82U"
 TAIFEX_CSV_URL = "https://www.taifex.com.tw/cht/3/futContractsDateDown"
@@ -155,7 +155,7 @@ def tmf_inst_net(day):
             if v is not None:
                 return v
         except Exception as e:  # noqa: BLE001 — 一個方法失敗就換下一個
-            print(f"  {fn.__name__} {day:%Y-%m-%d} 失敗：{e}", file=sys.stderr)
+            log_error(f"  {fn.__name__} {day:%Y-%m-%d} 失敗：{e}")
         time.sleep(1)
     return None
 
@@ -197,9 +197,9 @@ def main():
             ok = True
             print(f"三大法人：{inst['date']}")
         else:
-            print("三大法人：找不到資料", file=sys.stderr)
+            log_error("三大法人：找不到資料")
     except Exception as e:  # noqa: BLE001
-        print(f"三大法人抓取失敗：{e}", file=sys.stderr)
+        log_error(f"三大法人抓取失敗：{e}")
 
     try:
         tmf = latest_retail_tmf()
@@ -208,10 +208,11 @@ def main():
             ok = True
             print(f"散戶微台：{tmf['date']} {tmf['change']} ({tmf['net_oi']})")
         else:
-            print("散戶微台：找不到資料", file=sys.stderr)
+            log_error("散戶微台：找不到資料")
     except Exception as e:  # noqa: BLE001
-        print(f"散戶微台抓取失敗：{e}", file=sys.stderr)
+        log_error(f"散戶微台抓取失敗：{e}")
 
+    write_status("chips", ok)
     if ok:
         out["updated"] = now_iso()
         save_json("chips.json", out)

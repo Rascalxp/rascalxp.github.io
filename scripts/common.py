@@ -1,6 +1,7 @@
 """各抓資料腳本共用的小工具。"""
 import json
 import os
+import sys
 from datetime import datetime, timedelta, timezone
 
 import requests
@@ -51,3 +52,18 @@ def to_int(text):
         return int(float(s))
     except ValueError:
         return None
+
+
+_errors = []
+
+
+def log_error(msg):
+    """記錄錯誤：印到 Actions log，並在 write_status 時寫進 data/status.json 方便除錯。"""
+    print(msg, file=sys.stderr)
+    _errors.append(msg)
+
+
+def write_status(name, ok):
+    status = load_json("status.json", {})
+    status[name] = {"time": now_iso(), "ok": ok, "errors": _errors[-20:]}
+    save_json("status.json", status)
