@@ -13,9 +13,10 @@ from datetime import datetime
 from common import TW, load_json, log_error, now_iso, save_json, session, write_status
 
 SOURCES = [
-    # 理財達人秀同一集會拆成 part1～part3，同一天只留最新上傳的一支
+    # 理財達人秀頻道裡還有其他節目（如兆華艾綸說），只抓標題有【理財達人秀】的；
+    # 同一集會拆成 part1～part3，同一天只留最新上傳的一支
     {"kind": "youtube", "name": "理財達人秀", "channel_id": "UCQvsuaih5lE0n_Ne54nNezg",
-     "url": "https://www.youtube.com/@EBCmoneyshow", "one_per_day": True},
+     "url": "https://www.youtube.com/@EBCmoneyshow", "title_contains": "【理財達人秀】", "one_per_day": True},
     # 錢線百分百每天會切成好幾段上傳，只抓標題有「完整版」的；
     # 完整版有時又拆成上中下集，所以同一天只留最新上傳的一支
     {"kind": "youtube", "name": "錢線百分百", "channel_id": "UC_ObC9O0ZQ2FhW6u9_iFlZA",
