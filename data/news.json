@@ -1,87 +1,87 @@
 {
-  "updated": "2026-10-27T14:10:29+08:00",
+  "updated": "2026-10-27T16:40:10+08:00",
   "ai_summary": false,
   "model": null,
-  "candidates_sig": "e117e3616e4d1a3389d455a460d23dcf24002921",
+  "candidates_sig": "3964b47e6a43c7baa7d696d6e576146044b808f2",
   "items": [
     {
-      "title": "〈焦點股〉美系外資調高緯穎目標價 價量齊揚漲逾半根停板",
-      "url": "https://news.cnyes.com/news/id/6638259",
+      "title": "〈央行報告搶先看〉楊金龍示警二種狀況傳遞效果 恐放大金融市場波動",
+      "url": "https://news.cnyes.com/news/id/6638367",
       "source": "鉅亨網",
-      "published": "2026-10-27T13:57+08:00",
-      "summary": "美系外資近日上調緯穎目標價至4000元，並看好緯穎AI伺服器動能，且動能從第四季延續至明年，激勵緯穎(6669-TW)今(27)日無懼大盤表現弱勢，價量齊揚，大漲逾半根停板。 緯穎今天早盤以1895元開高走高，盤中最高漲至1945元，大漲逾",
+      "published": "2026-10-27T16:38+08:00",
+      "summary": "央行總裁楊金龍明赴立院報告，稱明年台灣GDP預測5.82%，屬穩健成長。 他警告AI獲利與投資回報若不如預期，恐引發資產重估、信用風險相互傳遞，進而造成股市波動。 主要國家財政壓力大，包括美、法、英、日等主要國家財政赤字皆居高。",
       "tags": []
     },
     {
-      "title": "機器人商機大爆發！ 小摩點名「這2檔」喜迎黃金成長期",
-      "url": "https://tw.stock.yahoo.com/news/%E6%A9%9F%E5%99%A8%E4%BA%BA%E5%95%86%E6%A9%9F%E5%A4%A7%E7%88%86%E7%99%BC-%E5%B0%8F%E6%91%A9%E9%BB%9E%E5%90%8D-%E9%80%992%E6%AA%94-%E5%96%9C%E8%BF%8E%E9%BB%83%E9%87%91%E6%88%90%E9%95%B7%E6%9C%9F-055500244.html",
-      "source": "Yahoo 股市",
-      "published": "2026-10-27T13:55+08:00",
-      "summary": "摩根大通發布最新台灣工業自動化產業報告指出，在機器需求回溫、中國政策推動製造業升級以及結構性人工智慧與半導體投資的支撐下，產業正迎來一波上升循環。",
-      "tags": []
-    },
-    {
-      "title": "早盤衝漲5百點後卻震盪翻黑！台股終場驚險收紅小漲54點",
-      "url": "https://tw.stock.yahoo.com/news/%E6%97%A9%E7%9B%A4%E8%A1%9D%E6%BC%B25%E7%99%BE%E9%BB%9E%E5%BE%8C%E5%8D%BB%E9%9C%87%E7%9B%AA%E7%BF%BB%E9%BB%91-%E5%8F%B0%E8%82%A1%E7%B5%82%E5%A0%B4%E9%A9%9A%E9%9A%AA%E6%94%B6%E7%B4%85%E5%B0%8F%E6%BC%B254%E9%BB%9E-055308104.html",
-      "source": "Yahoo 股市",
-      "published": "2026-10-27T13:53+08:00",
-      "summary": "即時中心／綜合報導AI巨頭Anthropic提交首次公開發行（IPO）申請，為AI概念股注入投資熱情，同時油價回落緩解通膨疑慮，美股週一（26日）全面收高，費半勁揚近3％。台股今（27）日早盤一度來到",
-      "tags": []
-    },
-    {
-      "title": "IMF上調台灣今年成長率至10.7% AI需求推升經濟規模",
-      "url": "https://tw.stock.yahoo.com/news/imf%E4%B8%8A%E8%AA%BF%E5%8F%B0%E7%81%A3%E4%BB%8A%E5%B9%B4%E6%88%90%E9%95%B7%E7%8E%87%E8%87%B310-7-ai%E9%9C%80%E6%B1%82%E6%8E%A8%E5%8D%87%E7%B6%93%E6%BF%9F%E8%A6%8F%E6%A8%A1-055300104.html",
-      "source": "Yahoo 股市",
-      "published": "2026-10-27T13:53+08:00",
-      "summary": "圖／示意圖商傳媒｜何映辰／台北報導國際貨幣基金（IMF）2026年10月經濟預測顯示，台灣今年經濟成長動能明顯優於先前預期，實質國內生產毛額（GDP）成長率由4月預估的5.2%，大幅上修至10.7%。",
-      "tags": []
-    },
-    {
-      "title": "終端售價續升，企業/政府AI換機潮湧現，華碩看旺明年商用PC市場",
-      "url": "https://tw.stock.yahoo.com/news/%E7%B5%82%E7%AB%AF%E5%94%AE%E5%83%B9%E7%BA%8C%E5%8D%87-%E4%BC%81%E6%A5%AD-%E6%94%BF%E5%BA%9Cai%E6%8F%9B%E6%A9%9F%E6%BD%AE%E6%B9%A7%E7%8F%BE-%E8%8F%AF%E7%A2%A9%E7%9C%8B%E6%97%BA%E6%98%8E%E5%B9%B4%E5%95%86%E7%94%A8pc%E5%B8%82%E5%A0%B4-052629888.html",
-      "source": "Yahoo 股市",
-      "published": "2026-10-27T13:26+08:00",
-      "summary": "【財訊快報／記者王宜弘報導】隨著企業與政府機關預算重回正軌，加上AI應用帶動的硬需求升溫，商用PC市場正迎來新一輪換機潮。華碩(2357)指出，企業與政府已接受現階段的PC市場售價，新一波的採購預算出",
-      "tags": []
-    },
-    {
-      "title": "英飛凌與祥碩戰略合作 搶實體AI商機",
-      "url": "https://tw.stock.yahoo.com/news/%E8%8B%B1%E9%A3%9B%E5%87%8C%E8%88%87%E7%A5%A5%E7%A2%A9%E6%88%B0%E7%95%A5%E5%90%88%E4%BD%9C-%E6%90%B6%E5%AF%A6%E9%AB%94ai%E5%95%86%E6%A9%9F-052255489.html",
-      "source": "Yahoo 股市",
-      "published": "2026-10-27T13:22+08:00",
-      "summary": "（中央社記者張建中新竹2026年10月27日電）英飛凌科技（Infineon）宣布與祥碩科技(5269)戰略合作，共同加速USB 20Gbps技術普及，搶攻機器學習相機與實體AI系統日益增長的商機。英",
-      "tags": []
-    },
-    {
-      "title": "焦點股：大銀微系統三利多加持，股價回測季線後急彈",
-      "url": "https://tw.stock.yahoo.com/news/%E7%84%A6%E9%BB%9E%E8%82%A1-%E5%A4%A7%E9%8A%80%E5%BE%AE%E7%B3%BB%E7%B5%B1%E4%B8%89%E5%88%A9%E5%A4%9A%E5%8A%A0%E6%8C%81-%E8%82%A1%E5%83%B9%E5%9B%9E%E6%B8%AC%E5%AD%A3%E7%B7%9A%E5%BE%8C%E6%80%A5%E5%BD%88-045810823.html",
-      "source": "Yahoo 股市",
-      "published": "2026-10-27T12:58+08:00",
-      "summary": "【財訊快報／研究員周佳蓉】上銀集團旗下大銀微系統(4576)近期上漲並非只有機器人題材，而是半導體精密定位平台出貨增加、CPO由送樣轉為穩定交貨、擴產支應2027年訂單三項利多交會，再疊加上銀集團參展",
-      "tags": []
-    },
-    {
-      "title": "V轉期待落空！台股開高逾500點賣壓湧現 盤中翻黑震盪、上演4萬6拉鋸戰",
-      "url": "https://tw.news.yahoo.com/%E5%8F%B0%E7%A9%8D%E9%9B%BBadr%E7%BF%BB%E7%B4%85-%E5%8F%B0%E8%82%A1%E9%96%8B%E9%AB%98490%E9%BB%9E-v%E8%BD%89%E5%BE%85%E6%9C%9F%E4%B8%AD%E9%81%B8%E8%88%89-020409332.html",
-      "source": "Yahoo 股市",
-      "published": "2026-10-27T12:42+08:00",
-      "summary": "台股AI半導體與連假賣壓衝擊，但Anthropic申請IPO重燃AI投資熱情，美股全面反彈、費半大漲2.82%，台積電ADR翻紅漲1.4%，然而美國期中選舉成AI交易新變數，台指期夜盤重摔580點，摜",
-      "tags": []
-    },
-    {
-      "title": "1萬元當AI股東！施羅德攜LINE Bank開放預購 首檔主動台股ETF 00419A 11/2開募",
-      "url": "https://news.cnyes.com/news/id/6638237",
-      "source": "鉅亨網",
-      "published": "2026-10-27T12:40+08:00",
-      "summary": "施羅德投信將募集首檔主動式台股ETF「施羅德AI科技台股主動式ETF基金」00419A，11/2-6募集，發行價10元最低申購1萬元。 投信指AI商機由半導體擴散至PCB、散熱、高速傳輸、電源與基礎建設，台灣受惠於規格升級，主動選股更有發揮",
-      "tags": []
-    },
-    {
-      "title": "傳動元件與機器人需求大增！訂單能見度達2027年，上銀等台廠逆勢突圍-財經焦點情報站",
-      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNQTJyd3gzUE13bFlUNGRJeE5rYzJtdzhWeVlCN09tZXJTUXluMTlYQk4zME5uYU54Vzg3YjgzZzBYR2dyaXl3N2NMZFllLVRCLVN2bE00ZmZ0bnFaMVlaX3FTYWk2RjNPMWFpSUwwekVyMUVSWE1zMTZlTTNqUlUyUlp3?oc=5",
-      "source": "CMoney投資網誌",
-      "published": "2026-10-27T12:39+08:00",
+      "title": "台燿盤中跌停、台光電重挫！高階PCB材料股為何突然承壓？AI訂單成長面臨獲利考驗",
+      "url": "https://news.google.com/rss/articles/CBMiuARBVV95cUxOYWNWSlhpRFUybTVHLVNEczVsZWlVOWZiUzUyd2R3R1h5M0hEV0RPekljNTAxZkFVamZreWFjTzZtaDBYWHpHMzl0WmpocUUzR3VlMzgydDlGNVl0TDExWXFCeGh0RzhmVmRHZE5QTEc3bElJbVNtNEZDcHVqRXZueldCYTRpdTJWZEhtLUJ3S2NzeVdOQnBlVHJrZ0dfNHFSUkszd254SFpMR2VSNTlaQ3JTVlpvVmpaOTdsOVNCNnE3bURiVWdGRDBwUHFVOThpRmh6SUNzZDRMdkkxNlhjOEJ4OUJuZm1melNpTUdiUHYtY3cyQnJsMVdYeUtIcGRpRElrMUpPcUJMNld6cEI2VlNMVnRVOUtLcEhrSUxETzF5NV8yOTJWd1Y5U0JvWFhkQ3VGOHdPZ3o4NmJUZm5oOHdoTk93T3FfdzhDcnpPeDlaWVp3ZEJpLUVTTENJdE4tNTVkTXBxMElFb2RwQ2g3SE0tSk9DT2xHN3JiQmc2dVJpS3hiU1JFOF9GelVaekxsZmdnREpydWxMaUdpTTZoX2ZfbGZ1T2RGRjZoa2VCSnZ2dnJCeERyMklZVl9BWUhhQUJ3aFFEcnJ1WWpDdXlrS2dabjJnMVRhbkJiWXZFZ1Bza3hnZ2RHZnJmLXFZUGpxbGpEMnlxUmhaR3lDVVVIU19td0g0QVU4NTJoWmp5bjJoNXFZd3JIMVdmb3g5VTlfNllkOGxxNTVEODZhTUh6UWNESFJ6SWIw?oc=5",
+      "source": "台灣好新聞",
+      "published": "2026-10-27T16:31+08:00",
       "summary": "",
+      "tags": []
+    },
+    {
+      "title": "仁寶AI業務再下一城，與ARC Cloud簽署MOU，擴大AI基建佈局",
+      "url": "https://tw.stock.yahoo.com/news/%E4%BB%81%E5%AF%B6ai%E6%A5%AD%E5%8B%99%E5%86%8D%E4%B8%8B-%E5%9F%8E-%E8%88%87arc-cloud%E7%B0%BD%E7%BD%B2mou-%E6%93%B4%E5%A4%A7ai%E5%9F%BA%E5%BB%BA%E4%BD%88%E5%B1%80-081914415.html",
+      "source": "Yahoo 股市",
+      "published": "2026-10-27T16:19+08:00",
+      "summary": "【財訊快報／記者王宜弘報導】仁寶(2324)持續佈局AI基建商機，週二(27日)宣布與ARC Cloud簽署合作備忘錄(MOU)，將深化雙方在大型AI運算基礎建設領域的策略合作。仁寶表示，雙方於202",
+      "tags": []
+    },
+    {
+      "title": "智原第三季每股賺1.07元，成功搶下2奈米AI專案明年上半年開始入帳",
+      "url": "https://tw.stock.yahoo.com/news/%E6%99%BA%E5%8E%9F%E7%AC%AC%E4%B8%89%E5%AD%A3%E6%AF%8F%E8%82%A1%E8%B3%BA1-07%E5%85%83-%E6%88%90%E5%8A%9F%E6%90%B6%E4%B8%8B2%E5%A5%88%E7%B1%B3ai%E5%B0%88%E6%A1%88%E6%98%8E%E5%B9%B4%E4%B8%8A%E5%8D%8A%E5%B9%B4%E9%96%8B%E5%A7%8B%E5%85%A5%E5%B8%B3-081842933.html",
+      "source": "Yahoo 股市",
+      "published": "2026-10-27T16:18+08:00",
+      "summary": "【財訊快報／記者李純君報導】智原(3035)今日召開法說會，公布第三季成績單，單季本業部分，量產業務大增，業外收益也同時進補，帶動單季每股淨利1.07元，展望第四季，估營收與前季持平，IP持續成長創新",
+      "tags": []
+    },
+    {
+      "title": "台股驚險翻紅收46096點！達人揭本週才是考驗：2大觀察重點曝光",
+      "url": "https://tw.news.yahoo.com/%E5%8F%B0%E8%82%A1%E9%A9%9A%E9%9A%AA%E7%BF%BB%E7%B4%85%E6%94%B646096%E9%BB%9E-%E9%81%94%E4%BA%BA%E6%8F%AD%E6%9C%AC%E9%80%B1%E6%89%8D%E6%98%AF%E8%80%83%E9%A9%97-2%E5%A4%A7%E8%A7%80%E5%AF%9F%E9%87%8D%E9%BB%9E%E6%9B%9D%E5%85%89-080900133.html",
+      "source": "Yahoo 股市",
+      "published": "2026-10-27T16:09+08:00",
+      "summary": "台股今日震盪收紅在46096點！受惠AI獨角獸Anthropic提交IPO申請，輝達帶頭領漲帶動費半暴拉。投資達人小犬解析本週微軟財報與Fed利率決策兩大觀盤重點。（記者唐家興）",
+      "tags": []
+    },
+    {
+      "title": "記憶體漲價筆電恐變貴？網家總座：AI換機需求仍強",
+      "url": "https://tw.stock.yahoo.com/news/%E8%A8%98%E6%86%B6%E9%AB%94%E6%BC%B2%E5%83%B9%E7%AD%86%E9%9B%BB%E6%81%90%E8%AE%8A%E8%B2%B4%EF%BC%9F%E7%B6%B2%E5%AE%B6%E7%B8%BD%E5%BA%A7%EF%BC%9Aai%E6%8F%9B%E6%A9%9F%E9%9C%80%E6%B1%82%E4%BB%8D%E5%BC%B7-082336456.html",
+      "source": "Yahoo 股市",
+      "published": "2026-10-27T16:06+08:00",
+      "summary": "記憶體漲價、3C供應鏈吃緊，會不會影響民眾換筆電的意願？網家（8044）執行長暨總經理張瑜珊今（27）日出席PChome雙11記者會時表示，儘管今年3C供應鏈較為緊張，但AI帶動電腦、手機等設備升級需",
+      "tags": []
+    },
+    {
+      "title": "宏偉11月底上櫃，今年接單倍增、能見度3年，全年挑戰賺一個股本",
+      "url": "https://tw.stock.yahoo.com/news/%E5%AE%8F%E5%81%8911%E6%9C%88%E5%BA%95%E4%B8%8A%E6%AB%83-%E4%BB%8A%E5%B9%B4%E6%8E%A5%E5%96%AE%E5%80%8D%E5%A2%9E-%E8%83%BD%E8%A6%8B%E5%BA%A63%E5%B9%B4-%E5%85%A8%E5%B9%B4%E6%8C%91%E6%88%B0%E8%B3%BA-%E5%80%8B%E8%82%A1%E6%9C%AC-080346471.html",
+      "source": "Yahoo 股市",
+      "published": "2026-10-27T16:03+08:00",
+      "summary": "【財訊快報／記者戴海茜報導】國內工業用及特殊用途電梯專業製造商宏偉電機(4565)預計11月底上櫃掛牌，預計明天舉行上櫃前業績發表會。董事長黃埮城指出，受惠人工智慧（AI）、半導體先進製程及高科技產業",
+      "tags": []
+    },
+    {
+      "title": "AI概念股突變臉！「這兩檔」重挫1跌停1摔半根 AWS訂單傳聞引爆賣壓",
+      "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE5qWk5qcnFGQWNZUXJFNWd0YllqTG1OTFZ6bjBhS1hIU0FHTXAzTjV3ZDllbDloMTZwbllrNDBJSXlyV0N6NWNVNTNxMA?oc=5",
+      "source": "FTNN 新聞網",
+      "published": "2026-10-27T16:00+08:00",
+      "summary": "",
+      "tags": []
+    },
+    {
+      "title": "智原攜手三星、聯電 搶下美國2奈米雲端AI專案訂單",
+      "url": "https://tw.stock.yahoo.com/news/%E6%99%BA%E5%8E%9F%E6%94%9C%E6%89%8B%E4%B8%89%E6%98%9F-%E8%81%AF%E9%9B%BB-%E6%90%B6%E4%B8%8B%E7%BE%8E%E5%9C%8B2%E5%A5%88%E7%B1%B3%E9%9B%B2%E7%AB%AFai%E5%B0%88%E6%A1%88%E8%A8%82%E5%96%AE-075906842.html",
+      "source": "Yahoo 股市",
+      "published": "2026-10-27T15:59+08:00",
+      "summary": "（中央社記者張建中新竹2026年10月27日電）特殊應用晶片廠智原(3035)總經理王國雍今天表示，透過與三星（Samsung）、聯電(2303)和記憶體廠等夥伴合作，成功搶下美國廠商2奈米雲端人工智",
+      "tags": []
+    },
+    {
+      "title": "外資狂賣超台股！央行穩匯 上半年砸5400億",
+      "url": "https://tw.news.yahoo.com/ai%E7%86%B1%E6%BD%AE%E6%8E%A8%E5%8D%87%E6%94%BE%E6%AC%BE-%E6%96%B0%E5%8F%B0%E5%B9%A3%E4%BB%8A%E5%B9%B4%E8%B2%B63-23-%E5%A4%AE%E8%A1%8C%E4%B8%8A%E5%8D%8A%E5%B9%B4%E6%B7%A8%E8%B3%A3%E5%8C%AF170%E5%84%84%E7%BE%8E%E5%85%83-055922466.html",
+      "source": "Yahoo 股市",
+      "published": "2026-10-27T15:43+08:00",
+      "summary": "中央銀行總裁楊金龍明（10/28）日將赴立法院財政委員會進行業務報告，書面報告指出，AI應用需求熱絡、台股交投活絡，帶動銀行放款與投資年增率走升，至8月底達9.43%，貨幣總計數M2年增率也一度升至6",
       "tags": []
     }
   ]
