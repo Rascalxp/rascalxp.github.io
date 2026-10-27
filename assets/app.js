@@ -168,20 +168,25 @@
       : "";
   }
 
-  function renderYouTube(data) {
+  const KIND_LABEL = { youtube: "YouTube", podcast: "Podcast" };
+
+  function renderMedia(data) {
     const box = $("yt-list");
-    const channels = (data && data.channels) || [];
+    const channels = (data && data.sources) || [];
     if (!channels.length) {
-      box.replaceChildren(el("div", { class: "panel empty" }, "影片資料尚未更新。"));
+      box.replaceChildren(el("div", { class: "panel empty" }, "節目資料尚未更新。"));
       return;
     }
     $("yt-meta").textContent = data.updated ? `更新 ${fmtTime(data.updated)}` : "";
     box.replaceChildren(...channels.map((ch) => el("div", { class: "panel yt-channel" },
       el("h4", {},
-        el("a", { href: ch.url, target: "_blank", rel: "noopener" }, ch.name),
-        el("a", { class: "more", href: ch.url, target: "_blank", rel: "noopener" }, "前往頻道 →")),
-      ch.videos.map((v) => el("div", { class: "yt-video" },
-        el("a", { class: "yt-thumb", href: v.url, target: "_blank", rel: "noopener", "aria-label": v.title },
+        el("span", {},
+          el("span", { class: `kind kind-${ch.kind}` }, KIND_LABEL[ch.kind] || ""),
+          el("a", { href: ch.url, target: "_blank", rel: "noopener" }, ch.name)),
+        el("a", { class: "more", href: ch.url, target: "_blank", rel: "noopener" },
+          ch.kind === "podcast" ? "前往節目 →" : "前往頻道 →")),
+      ch.items.map((v) => el("div", { class: "yt-video" },
+        el("a", { class: `yt-thumb${ch.kind === "podcast" ? " square" : ""}`, href: v.url, target: "_blank", rel: "noopener", "aria-label": v.title },
           el("img", { src: v.thumbnail, alt: "", loading: "lazy", width: 320, height: 180 })),
         el("div", {},
           el("a", { class: "yt-title", href: v.url, target: "_blank", rel: "noopener" }, v.title),
@@ -208,5 +213,5 @@
   loadJSON("data/chips.json").then(renderChips).catch(fail("chips-grid", "籌碼資料讀取失敗，請稍後重新整理。"));
   loadJSON("data/analysis.json").then(renderAnalysis).catch(fail("article", "大盤分析讀取失敗，請稍後重新整理。"));
   loadJSON("data/news.json").then(renderNews).catch(fail("news-list", "新聞讀取失敗，請稍後重新整理。"));
-  loadJSON("data/youtube.json").then(renderYouTube).catch(fail("yt-list", "影片資料讀取失敗，請稍後重新整理。"));
+  loadJSON("data/media.json").then(renderMedia).catch(fail("yt-list", "節目資料讀取失敗，請稍後重新整理。"));
 })();

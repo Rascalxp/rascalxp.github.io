@@ -158,6 +158,10 @@ main { max-width: 1240px; margin: 0 auto; padding: 8px 16px 48px; }
 .yt-video:first-of-type { border-top: 0; padding-top: 0; }
 .yt-thumb { display: block; position: relative; aspect-ratio: 16 / 9; border-radius: 6px; overflow: hidden; background: var(--panel-2); }
 .yt-thumb img { width: 100%; height: 100%; object-fit: cover; display: block; }
+.yt-thumb.square img { object-fit: contain; }
+.kind { font-size: 11px; font-weight: 500; border-radius: 4px; padding: 0 6px; margin-right: 8px; vertical-align: 1px; }
+.kind-youtube { color: #ff6b6b; border: 1px solid rgba(255, 107, 107, .45); }
+.kind-podcast { color: #b98cff; border: 1px solid rgba(185, 140, 255, .45); }
 .yt-title { font-size: 14px; font-weight: 600; line-height: 1.45; text-decoration: none; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
 .yt-title:hover { color: var(--accent); }
 .yt-date { font-size: 12px; color: var(--faint); }
