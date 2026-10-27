@@ -21,6 +21,7 @@
     input:focus, textarea:focus { outline: none; border-color: var(--accent); }
     textarea { min-height: 420px; resize: vertical; font-family: var(--mono); font-size: 14px; line-height: 1.7; }
     .row { display: grid; grid-template-columns: 180px 1fr; gap: 12px; }
+    .row-2 { grid-template-columns: 1fr 1fr; }
     .btn {
       font: inherit; font-size: 14px; border-radius: 8px; padding: 9px 16px; cursor: pointer;
       border: 1px solid var(--line); background: var(--panel-2); color: var(--text);
@@ -46,7 +47,7 @@
     .hint code { font-family: var(--mono); background: var(--panel-2); padding: 0 4px; border-radius: 4px; }
     .check { display: flex; align-items: center; gap: 6px; font-size: 14px; color: var(--muted); margin: 0; }
     @media (max-width: 800px) {
-      .editor, .row { grid-template-columns: 1fr; }
+      .editor, .row, .row-2 { grid-template-columns: 1fr; }
       textarea, .preview { min-height: 280px; }
     }
   </style>
@@ -63,14 +64,26 @@
     <!-- 登入 -->
     <section class="panel box" id="login-box" hidden>
       <h1>管理者登入</h1>
-      <p class="muted" style="margin-top:0">請貼上 GitHub 個人存取金鑰（Personal access token）。金鑰只會存在這台裝置的瀏覽器裡，不會傳到其他地方。</p>
-      <label for="token">GitHub 金鑰</label>
-      <input type="password" id="token" autocomplete="off" placeholder="github_pat_...">
-      <div class="actions">
-        <label class="check"><input type="checkbox" id="remember" checked> 記住這台裝置</label>
-        <button class="btn btn-primary" id="login-btn">登入</button>
-        <span class="status" id="login-status"></span>
-      </div>
+      <form id="login-form" autocomplete="on">
+        <!-- 讓瀏覽器的密碼管理員能記住密碼 -->
+        <input type="text" name="username" autocomplete="username" value="rascalxp-admin" hidden>
+        <div id="pw-login" hidden>
+          <p class="muted" style="margin-top:0">請輸入後台密碼。</p>
+          <label for="password">密碼</label>
+          <input type="password" id="password" name="password" autocomplete="current-password">
+        </div>
+        <div id="token-login" hidden>
+          <p class="muted" style="margin-top:0">請貼上 GitHub 個人存取金鑰（Personal access token）。金鑰只會存在這台裝置的瀏覽器裡，不會傳到其他地方。</p>
+          <label for="token">GitHub 金鑰</label>
+          <input type="password" id="token" autocomplete="off" placeholder="github_pat_...">
+        </div>
+        <div class="actions">
+          <label class="check"><input type="checkbox" id="remember" checked> 記住這台裝置</label>
+          <button class="btn btn-primary" id="login-btn" type="submit">登入</button>
+          <a href="#" id="switch-login" class="muted" style="font-size:14px" hidden></a>
+          <span class="status" id="login-status"></span>
+        </div>
+      </form>
     </section>
 
     <!-- 編輯 -->
@@ -123,6 +136,30 @@
       <div class="panel box">
         <h1 style="font-size:18px">已發布的分析</h1>
         <ul class="post-list" id="post-list"><li class="muted">載入中…</li></ul>
+      </div>
+
+      <div class="panel box">
+        <h1 style="font-size:18px">密碼登入設定</h1>
+        <p class="muted" id="pw-state" style="margin:4px 0 0">讀取中…</p>
+        <form id="pw-form" autocomplete="on">
+          <input type="text" name="username" autocomplete="username" value="rascalxp-admin" hidden>
+          <div class="row row-2" style="margin-top:14px">
+            <div>
+              <label for="pw-new">新密碼（至少 12 個字元）</label>
+              <input type="password" id="pw-new" autocomplete="new-password">
+            </div>
+            <div>
+              <label for="pw-confirm">再輸入一次</label>
+              <input type="password" id="pw-confirm" autocomplete="new-password">
+            </div>
+          </div>
+          <div class="actions">
+            <button class="btn btn-primary" id="pw-save" type="submit">設定密碼</button>
+            <button class="btn btn-danger" id="pw-remove" type="button" hidden>停用密碼登入</button>
+            <span class="status" id="pw-status"></span>
+          </div>
+        </form>
+        <p class="hint">設定後，在任何電腦打開後台都只要輸入這組密碼。密碼請設得長一點、難猜一點（例如英文、數字混合 12 字以上），也不要和其他網站共用。GitHub 金鑰到期換新後，要用新金鑰登入一次，再重新設定密碼。</p>
       </div>
     </section>
   </div>

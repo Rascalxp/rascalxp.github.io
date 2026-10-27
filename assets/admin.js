@@ -8,6 +8,10 @@
   const DATA_PATH = "data/analysis.json";
   const TOKEN_KEY = "gh_token";
   const DRAFT_KEY = "analysis_draft";
+  // 用密碼加密過的 GitHub 金鑰（公開檔案，沒有密碼解不開）
+  const KEY_PATH = "data/admin-key.json";
+  const KDF_ITERATIONS = 600000;
+  const MIN_PASSWORD = 12;
 
   const $ = (id) => document.getElementById(id);
   const api = `https://api.github.com/repos/${OWNER}/${REPO}`;
@@ -33,10 +37,47 @@
     return btoa(bin);
   }
   const textToB64 = (s) => bytesToB64(new TextEncoder().encode(s));
-  const b64ToText = (b64) => {
-    const bin = atob(b64.replace(/\n/g, ""));
-    return new TextDecoder().decode(Uint8Array.from(bin, (c) => c.charCodeAt(0)));
-  };
+  const b64ToBytes = (b64) => Uint8Array.from(atob(b64.replace(/\n/g, "")), (c) => c.charCodeAt(0));
+  const b64ToText = (b64) => new TextDecoder().decode(b64ToBytes(b64));
+
+  // ---------- 密碼加密（PBKDF2 + AES-GCM） ----------
+  async function deriveKey(password, salt, iterations) {
+    const base = await crypto.subtle.importKey("raw", new TextEncoder().encode(password), "PBKDF2", false, ["deriveKey"]);
+    return crypto.subtle.deriveKey(
+      { name: "PBKDF2", salt, iterations, hash: "SHA-256" },
+      base, { name: "AES-GCM", length: 256 }, false, ["encrypt", "decrypt"],
+    );
+  }
+
+  async function encryptToken(plain, password) {
+    const salt = crypto.getRandomValues(new Uint8Array(16));
+    const iv = crypto.getRandomValues(new Uint8Array(12));
+    const key = await deriveKey(password, salt, KDF_ITERATIONS);
+    const ct = new Uint8Array(await crypto.subtle.encrypt({ name: "AES-GCM", iv }, key, new TextEncoder().encode(plain)));
+    return {
+      v: 1, kdf: "PBKDF2-SHA256", iterations: KDF_ITERATIONS,
+      salt: bytesToB64(salt), iv: bytesToB64(iv), ct: bytesToB64(ct),
+      updated: new Date().toISOString(),
+    };
+  }
+
+  // 密碼錯誤時 AES-GCM 會驗證失敗並丟出例外
+  async function decryptToken(box, password) {
+    const key = await deriveKey(password, b64ToBytes(box.salt), box.iterations);
+    const plain = await crypto.subtle.decrypt({ name: "AES-GCM", iv: b64ToBytes(box.iv) }, key, b64ToBytes(box.ct));
+    return new TextDecoder().decode(plain);
+  }
+
+  async function loadKeyBox() {
+    try {
+      const res = await fetch(`${KEY_PATH}?t=${Date.now()}`, { cache: "no-store" });
+      if (!res.ok) return null;
+      const box = await res.json();
+      return box && box.ct ? box : null;
+    } catch {
+      return null;
+    }
+  }
 
   function setStatus(msg, kind) {
     const s = $("status");
@@ -234,27 +275,141 @@
     setStatus("圖片已上傳（發布後約 1～2 分鐘才看得到）。", "ok");
   }
 
-  // ---------- 事件 ----------
-  async function login() {
-    const t = $("token").value.trim();
-    if (!t) return;
-    token = t;
+  // ---------- 登入 ----------
+  let keyBox = null;
+  let loginMode = "token"; // "password" 或 "token"
+
+  function setLoginMode(mode) {
+    loginMode = mode;
+    $("pw-login").hidden = mode !== "password";
+    $("token-login").hidden = mode !== "token";
+    const sw = $("switch-login");
+    sw.hidden = !keyBox;
+    sw.textContent = mode === "password" ? "改用 GitHub 金鑰登入" : "改用密碼登入";
+    $("login-status").textContent = "";
+    (mode === "password" ? $("password") : $("token")).focus();
+  }
+
+  function loginMsg(msg, kind) {
+    $("login-status").textContent = msg;
+    $("login-status").className = "status" + (kind ? " " + kind : "");
+  }
+
+  async function login(e) {
+    if (e) e.preventDefault();
     $("login-btn").disabled = true;
-    $("login-status").textContent = "驗證中…";
-    $("login-status").className = "status";
     try {
-      await gh("");
-      await readPosts();
+      let t;
+      if (loginMode === "password") {
+        const pw = $("password").value;
+        if (!pw) return;
+        loginMsg("解鎖中…");
+        try {
+          t = await decryptToken(keyBox, pw);
+        } catch {
+          loginMsg("密碼錯誤。", "err");
+          return;
+        }
+      } else {
+        t = $("token").value.trim();
+        if (!t) return;
+      }
+      loginMsg("驗證中…");
+      token = t;
+      try {
+        await gh("");
+        await readPosts();
+      } catch (err) {
+        token = null;
+        loginMsg(loginMode === "password" && err.status === 401
+          ? "密碼正確，但存起來的 GitHub 金鑰已過期。請改用新金鑰登入，再重新設定密碼。"
+          : explain(err), "err");
+        return;
+      }
       store.set(TOKEN_KEY, t, $("remember").checked);
       showEditor();
-    } catch (err) {
-      token = null;
-      $("login-status").textContent = explain(err);
-      $("login-status").className = "status err";
     } finally {
       $("login-btn").disabled = false;
     }
   }
+
+  async function showLogin() {
+    $("login-box").hidden = false;
+    keyBox = await loadKeyBox();
+    setLoginMode(keyBox ? "password" : "token");
+  }
+
+  // ---------- 密碼登入設定 ----------
+  function pwMsg(msg, kind) {
+    $("pw-status").textContent = msg;
+    $("pw-status").className = "status" + (kind ? " " + kind : "");
+  }
+
+  async function readKeyFile() {
+    try {
+      const file = await gh(`/contents/${KEY_PATH}?ref=${BRANCH}&t=${Date.now()}`);
+      return { sha: file.sha, box: JSON.parse(b64ToText(file.content)) };
+    } catch (err) {
+      if (err.status === 404) return null;
+      throw err;
+    }
+  }
+
+  async function refreshPwState() {
+    try {
+      const f = await readKeyFile();
+      $("pw-state").textContent = f
+        ? `已啟用密碼登入（最後設定：${new Date(f.box.updated).toLocaleString("zh-TW", { timeZone: "Asia/Taipei", hour12: false })}）。可以在下面變更密碼。`
+        : "尚未設定。設定後，其他電腦登入時只要輸入密碼，不用再貼 GitHub 金鑰。";
+      $("pw-save").textContent = f ? "變更密碼" : "設定密碼";
+      $("pw-remove").hidden = !f;
+    } catch (err) {
+      $("pw-state").textContent = explain(err);
+    }
+  }
+
+  async function savePassword(e) {
+    e.preventDefault();
+    const pw = $("pw-new").value;
+    if (pw.length < MIN_PASSWORD) return pwMsg(`密碼至少要 ${MIN_PASSWORD} 個字元。`, "err");
+    if (pw !== $("pw-confirm").value) return pwMsg("兩次輸入的密碼不一樣。", "err");
+    $("pw-save").disabled = true;
+    pwMsg("加密並儲存中…");
+    try {
+      const box = await encryptToken(token, pw);
+      const old = await readKeyFile();
+      const body = { message: "更新後台密碼登入設定", branch: BRANCH, content: textToB64(JSON.stringify(box, null, 2) + "\n") };
+      if (old) body.sha = old.sha;
+      await gh(`/contents/${KEY_PATH}`, { method: "PUT", body: JSON.stringify(body) });
+      $("pw-new").value = "";
+      $("pw-confirm").value = "";
+      pwMsg("已設定！約 1～2 分鐘後，其他電腦就能用密碼登入。", "ok");
+      refreshPwState();
+    } catch (err) {
+      pwMsg(explain(err), "err");
+    } finally {
+      $("pw-save").disabled = false;
+    }
+  }
+
+  async function removePassword() {
+    if (!confirm("確定要停用密碼登入嗎？停用後，其他電腦要用 GitHub 金鑰登入。")) return;
+    try {
+      const old = await readKeyFile();
+      if (old) {
+        await gh(`/contents/${KEY_PATH}`, {
+          method: "DELETE",
+          body: JSON.stringify({ message: "停用後台密碼登入", branch: BRANCH, sha: old.sha }),
+        });
+      }
+      pwMsg("已停用密碼登入。", "ok");
+      refreshPwState();
+    } catch (err) {
+      pwMsg(explain(err), "err");
+    }
+  }
+
+  // ---------- 事件 ----------
 
   function showEditor() {
     $("login-box").hidden = true;
@@ -272,6 +427,7 @@
       fillEditor({ date: todayTW() }, false);
     }
     refreshList().catch((err) => setStatus(explain(err), "err"));
+    refreshPwState();
   }
 
   async function publish() {
@@ -324,8 +480,13 @@
     }
   }
 
-  $("login-btn").addEventListener("click", login);
-  $("token").addEventListener("keydown", (e) => { if (e.key === "Enter") login(); });
+  $("login-form").addEventListener("submit", login);
+  $("switch-login").addEventListener("click", (e) => {
+    e.preventDefault();
+    setLoginMode(loginMode === "password" ? "token" : "password");
+  });
+  $("pw-form").addEventListener("submit", savePassword);
+  $("pw-remove").addEventListener("click", removePassword);
   $("logout").addEventListener("click", (e) => {
     e.preventDefault();
     store.del(TOKEN_KEY);
@@ -355,5 +516,5 @@
   });
 
   if (token) showEditor();
-  else $("login-box").hidden = false;
+  else showLogin();
 })();
