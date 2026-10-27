@@ -1,87 +1,87 @@
 {
-  "updated": "2026-10-27T16:40:10+08:00",
+  "updated": "2026-10-28T01:56:27+08:00",
   "ai_summary": false,
   "model": null,
-  "candidates_sig": "3964b47e6a43c7baa7d696d6e576146044b808f2",
+  "candidates_sig": "e79a9119e9e30ab8cdd472896468deb8b345eb8d",
   "items": [
     {
-      "title": "〈央行報告搶先看〉楊金龍示警二種狀況傳遞效果 恐放大金融市場波動",
-      "url": "https://news.cnyes.com/news/id/6638367",
+      "title": "台股越跌越搶！這6檔年含息報酬全翻倍 22檔受益人創新高",
+      "url": "https://tw.news.yahoo.com/%E5%8F%B0%E8%82%A1%E8%B6%8A%E8%B7%8C%E8%B6%8A%E6%90%B6-%E9%80%996%E6%AA%94%E5%B9%B4%E5%90%AB%E6%81%AF%E5%A0%B1%E9%85%AC%E5%85%A8%E7%BF%BB%E5%80%8D-22%E6%AA%94%E5%8F%97%E7%9B%8A%E4%BA%BA%E5%89%B5%E6%96%B0%E9%AB%98-172600814.html",
+      "source": "Yahoo 股市",
+      "published": "2026-10-28T01:26+08:00",
+      "summary": "進入美科技股財報周，科技股仍具利多題材，且中長期AI半導體等科技產業結構並未轉弱，預期大盤將有機會在季線附近築底，指數表現先蹲後跳，建議逢大盤拉回布局台股AI、半導體、科技等被動ETF，持續掌握明年台",
+      "tags": []
+    },
+    {
+      "title": "科技股陷苦戰！高股息股票10月逆勢走強、今年報酬率逼近30%",
+      "url": "https://tw.stock.yahoo.com/news/%E7%A7%91%E6%8A%80%E8%82%A1%E9%99%B7%E8%8B%A6%E6%88%B0-%E9%AB%98%E8%82%A1%E6%81%AF%E8%82%A1%E7%A5%A810%E6%9C%88%E9%80%86%E5%8B%A2%E8%B5%B0%E5%BC%B7-%E4%BB%8A%E5%B9%B4%E5%A0%B1%E9%85%AC%E7%8E%87%E9%80%BC%E8%BF%9130-170005842.html",
+      "source": "Yahoo 股市",
+      "published": "2026-10-28T01:00+08:00",
+      "summary": "科技股與AI概念股10月遭拋售，高股息股因公債殖利率回落成資金避風港。 iShares核心高股息ETF自10月初漲8.8%，今年來總報酬28.2%；標普500僅漲0.3%。 ETF前五大持股為XOM、",
+      "tags": []
+    },
+    {
+      "title": "趕在財報前獲利了結！女股神砍超微、台積電 大舉佈局這族群",
+      "url": "https://tw.news.yahoo.com/%E8%B6%95%E5%9C%A8%E8%B2%A1%E5%A0%B1%E5%89%8D%E7%8D%B2%E5%88%A9%E4%BA%86%E7%B5%90-%E5%A5%B3%E8%82%A1%E7%A5%9E%E7%A0%8D%E8%B6%85%E5%BE%AE-%E5%8F%B0%E7%A9%8D%E9%9B%BB-%E5%A4%A7%E8%88%89%E4%BD%88%E5%B1%80%E9%80%99%E6%97%8F%E7%BE%A4-160400942.html",
+      "source": "Yahoo 股市",
+      "published": "2026-10-28T00:04+08:00",
+      "summary": "「女股神」伍德旗下的方舟投資近期進行資金大挪移，在半導體概念股交投熱絡之際獲利了結，一口氣出清總值約2250萬美元的超微與台積電持股。同時，方舟看好電動空中計程車產業的發展潛力，砸下約680萬美元加碼",
+      "tags": []
+    },
+    {
+      "title": "台股夜盤狂飆600點！台積電CoWoS傳漲價2成 葉育碩直言：終究靠台灣人",
+      "url": "https://tw.news.yahoo.com/%E5%8F%B0%E8%82%A1%E5%A4%9C%E7%9B%A4%E7%8B%82%E9%A3%86600%E9%BB%9E-%E5%8F%B0%E7%A9%8D%E9%9B%BBcowos%E5%82%B3%E6%BC%B2%E5%83%B92%E6%88%90-%E8%91%89%E8%82%B2%E7%A2%A9%E7%9B%B4%E8%A8%80-%E7%B5%82%E7%A9%B6%E9%9D%A0%E5%8F%B0%E7%81%A3%E4%BA%BA-155800831.html",
+      "source": "Yahoo 股市",
+      "published": "2026-10-27T23:58+08:00",
+      "summary": "台股夜盤大漲600點！財經專家葉育碩解析台積電2330傳出CoWoS先進封裝喊漲20%，搭配投信連11買累計1799億元，展現台灣人第四法人的強大資金實力。（記者唐家興）",
+      "tags": []
+    },
+    {
+      "title": "AI交易點火晶片類股走強！台積電ADR漲近3％ 台股有望延續漲勢",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBhRXJhTlMyLV9BNV9SZ0dkeUpWTjNyeWRzVXJxa3V4Y1Q3WWFvbUJKMUR1Q3hUaXczakhZUlZHcGx2eWNLS0RqWDlIeGN4VW5CSjUtWVFzUy0xWkVURzFB0gFkQVVfeXFMTUNEZF9zZUt5eklXMHY3dWdJNmxaTEVWa3RGNFo1SUxKLVVfNXN3OTc5NEtfM29wOXQ4a29PYksxNVpIVEtVZE5rczhNdzdTX0dGNldxaWk3b2gwTDZFNXpXa1Y5Ng?oc=5",
+      "source": "自由財經",
+      "published": "2026-10-27T23:18+08:00",
+      "summary": "",
+      "tags": []
+    },
+    {
+      "title": "台股驚險守住4萬6 AI真能止跌?Anthropic拚史上最大IPO",
+      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1JR2JRMzdYYVZGYVNDU3NXUUJkdkdWd0FmaUIyU29XWFF1OUFoX25QdUpjZjF0cjRMMG9hMnd2M1JkdGRCWXcwVHozRVpxOFVmWTd5LW94REl4YVRXTHpzQ2tyXzZyUQ?oc=5",
+      "source": "民視財經網",
+      "published": "2026-10-27T22:46+08:00",
+      "summary": "",
+      "tags": []
+    },
+    {
+      "title": "外觀沒大改、內在更強！蘋果兩款Mac換上M6 台灣售價揭曉",
+      "url": "https://news.cnyes.com/news/id/6638779",
       "source": "鉅亨網",
-      "published": "2026-10-27T16:38+08:00",
-      "summary": "央行總裁楊金龍明赴立院報告，稱明年台灣GDP預測5.82%，屬穩健成長。 他警告AI獲利與投資回報若不如預期，恐引發資產重估、信用風險相互傳遞，進而造成股市波動。 主要國家財政壓力大，包括美、法、英、日等主要國家財政赤字皆居高。",
+      "published": "2026-10-27T22:08+08:00",
+      "summary": "蘋果發表搭載M6的24吋iMac與入門款14吋MacBook Pro，外觀近前代，重點升級效能與無線連線。 新iMac AI處理速度最高為前代5倍，14吋MacBook Pro繪圖效能提升30%。 台灣iMac 49,900元起、MacBo",
       "tags": []
     },
     {
-      "title": "台燿盤中跌停、台光電重挫！高階PCB材料股為何突然承壓？AI訂單成長面臨獲利考驗",
-      "url": "https://news.google.com/rss/articles/CBMiuARBVV95cUxOYWNWSlhpRFUybTVHLVNEczVsZWlVOWZiUzUyd2R3R1h5M0hEV0RPekljNTAxZkFVamZreWFjTzZtaDBYWHpHMzl0WmpocUUzR3VlMzgydDlGNVl0TDExWXFCeGh0RzhmVmRHZE5QTEc3bElJbVNtNEZDcHVqRXZueldCYTRpdTJWZEhtLUJ3S2NzeVdOQnBlVHJrZ0dfNHFSUkszd254SFpMR2VSNTlaQ3JTVlpvVmpaOTdsOVNCNnE3bURiVWdGRDBwUHFVOThpRmh6SUNzZDRMdkkxNlhjOEJ4OUJuZm1melNpTUdiUHYtY3cyQnJsMVdYeUtIcGRpRElrMUpPcUJMNld6cEI2VlNMVnRVOUtLcEhrSUxETzF5NV8yOTJWd1Y5U0JvWFhkQ3VGOHdPZ3o4NmJUZm5oOHdoTk93T3FfdzhDcnpPeDlaWVp3ZEJpLUVTTENJdE4tNTVkTXBxMElFb2RwQ2g3SE0tSk9DT2xHN3JiQmc2dVJpS3hiU1JFOF9GelVaekxsZmdnREpydWxMaUdpTTZoX2ZfbGZ1T2RGRjZoa2VCSnZ2dnJCeERyMklZVl9BWUhhQUJ3aFFEcnJ1WWpDdXlrS2dabjJnMVRhbkJiWXZFZ1Bza3hnZ2RHZnJmLXFZUGpxbGpEMnlxUmhaR3lDVVVIU19td0g0QVU4NTJoWmp5bjJoNXFZd3JIMVdmb3g5VTlfNllkOGxxNTVEODZhTUh6UWNESFJ6SWIw?oc=5",
-      "source": "台灣好新聞",
-      "published": "2026-10-27T16:31+08:00",
-      "summary": "",
-      "tags": []
-    },
-    {
-      "title": "仁寶AI業務再下一城，與ARC Cloud簽署MOU，擴大AI基建佈局",
-      "url": "https://tw.stock.yahoo.com/news/%E4%BB%81%E5%AF%B6ai%E6%A5%AD%E5%8B%99%E5%86%8D%E4%B8%8B-%E5%9F%8E-%E8%88%87arc-cloud%E7%B0%BD%E7%BD%B2mou-%E6%93%B4%E5%A4%A7ai%E5%9F%BA%E5%BB%BA%E4%BD%88%E5%B1%80-081914415.html",
+      "title": "抱緊台積電就對了？外媒曝AI需求未見頂 2030年目標超狂",
+      "url": "https://tw.stock.yahoo.com/news/%E6%8A%B1%E7%B7%8A%E5%8F%B0%E7%A9%8D%E9%9B%BB%E5%B0%B1%E5%B0%8D%E4%BA%86-%E5%A4%96%E5%AA%92%E6%9B%9Dai%E9%9C%80%E6%B1%82%E6%9C%AA%E8%A6%8B%E9%A0%82-2030%E5%B9%B4%E7%9B%AE%E6%A8%99%E8%B6%85%E7%8B%82-131131566.html",
       "source": "Yahoo 股市",
-      "published": "2026-10-27T16:19+08:00",
-      "summary": "【財訊快報／記者王宜弘報導】仁寶(2324)持續佈局AI基建商機，週二(27日)宣布與ARC Cloud簽署合作備忘錄(MOU)，將深化雙方在大型AI運算基礎建設領域的策略合作。仁寶表示，雙方於202",
+      "published": "2026-10-27T21:11+08:00",
+      "summary": "人工智慧（AI）基礎建設持續擴張，台積電被外媒視為這波需求成長的重要受惠者。身為全球規模最大的晶圓代工廠，台積電憑藉先進製程技術，為輝達GPU、蘋果智慧型手機等產品生產所需晶片。美國投資媒體《The",
       "tags": []
     },
     {
-      "title": "智原第三季每股賺1.07元，成功搶下2奈米AI專案明年上半年開始入帳",
-      "url": "https://tw.stock.yahoo.com/news/%E6%99%BA%E5%8E%9F%E7%AC%AC%E4%B8%89%E5%AD%A3%E6%AF%8F%E8%82%A1%E8%B3%BA1-07%E5%85%83-%E6%88%90%E5%8A%9F%E6%90%B6%E4%B8%8B2%E5%A5%88%E7%B1%B3ai%E5%B0%88%E6%A1%88%E6%98%8E%E5%B9%B4%E4%B8%8A%E5%8D%8A%E5%B9%B4%E9%96%8B%E5%A7%8B%E5%85%A5%E5%B8%B3-081842933.html",
+      "title": "鴻海科技日30日登場 鎖定AI智造機器人電動車",
+      "url": "https://tw.stock.yahoo.com/news/%E9%B4%BB%E6%B5%B7%E7%A7%91%E6%8A%80%E6%97%A530%E6%97%A5%E7%99%BB%E5%A0%B4-%E9%8E%96%E5%AE%9Aai%E6%99%BA%E9%80%A0%E6%A9%9F%E5%99%A8%E4%BA%BA%E9%9B%BB%E5%8B%95%E8%BB%8A-130456948.html",
       "source": "Yahoo 股市",
-      "published": "2026-10-27T16:18+08:00",
-      "summary": "【財訊快報／記者李純君報導】智原(3035)今日召開法說會，公布第三季成績單，單季本業部分，量產業務大增，業外收益也同時進補，帶動單季每股淨利1.07元，展望第四季，估營收與前季持平，IP持續成長創新",
+      "published": "2026-10-27T21:04+08:00",
+      "summary": "（中央社記者鍾榮峰台北2026年10月27日電）鴻海(2317)年度科技日（HHTD 26）將於30日至31日登場，鴻海董事長劉揚偉將開場致詞，鴻海輪值CEO蔣集恆將進行專題演講，展會期間聚焦AI工廠",
       "tags": []
     },
     {
-      "title": "台股驚險翻紅收46096點！達人揭本週才是考驗：2大觀察重點曝光",
-      "url": "https://tw.news.yahoo.com/%E5%8F%B0%E8%82%A1%E9%A9%9A%E9%9A%AA%E7%BF%BB%E7%B4%85%E6%94%B646096%E9%BB%9E-%E9%81%94%E4%BA%BA%E6%8F%AD%E6%9C%AC%E9%80%B1%E6%89%8D%E6%98%AF%E8%80%83%E9%A9%97-2%E5%A4%A7%E8%A7%80%E5%AF%9F%E9%87%8D%E9%BB%9E%E6%9B%9D%E5%85%89-080900133.html",
-      "source": "Yahoo 股市",
-      "published": "2026-10-27T16:09+08:00",
-      "summary": "台股今日震盪收紅在46096點！受惠AI獨角獸Anthropic提交IPO申請，輝達帶頭領漲帶動費半暴拉。投資達人小犬解析本週微軟財報與Fed利率決策兩大觀盤重點。（記者唐家興）",
-      "tags": []
-    },
-    {
-      "title": "記憶體漲價筆電恐變貴？網家總座：AI換機需求仍強",
-      "url": "https://tw.stock.yahoo.com/news/%E8%A8%98%E6%86%B6%E9%AB%94%E6%BC%B2%E5%83%B9%E7%AD%86%E9%9B%BB%E6%81%90%E8%AE%8A%E8%B2%B4%EF%BC%9F%E7%B6%B2%E5%AE%B6%E7%B8%BD%E5%BA%A7%EF%BC%9Aai%E6%8F%9B%E6%A9%9F%E9%9C%80%E6%B1%82%E4%BB%8D%E5%BC%B7-082336456.html",
-      "source": "Yahoo 股市",
-      "published": "2026-10-27T16:06+08:00",
-      "summary": "記憶體漲價、3C供應鏈吃緊，會不會影響民眾換筆電的意願？網家（8044）執行長暨總經理張瑜珊今（27）日出席PChome雙11記者會時表示，儘管今年3C供應鏈較為緊張，但AI帶動電腦、手機等設備升級需",
-      "tags": []
-    },
-    {
-      "title": "宏偉11月底上櫃，今年接單倍增、能見度3年，全年挑戰賺一個股本",
-      "url": "https://tw.stock.yahoo.com/news/%E5%AE%8F%E5%81%8911%E6%9C%88%E5%BA%95%E4%B8%8A%E6%AB%83-%E4%BB%8A%E5%B9%B4%E6%8E%A5%E5%96%AE%E5%80%8D%E5%A2%9E-%E8%83%BD%E8%A6%8B%E5%BA%A63%E5%B9%B4-%E5%85%A8%E5%B9%B4%E6%8C%91%E6%88%B0%E8%B3%BA-%E5%80%8B%E8%82%A1%E6%9C%AC-080346471.html",
-      "source": "Yahoo 股市",
-      "published": "2026-10-27T16:03+08:00",
-      "summary": "【財訊快報／記者戴海茜報導】國內工業用及特殊用途電梯專業製造商宏偉電機(4565)預計11月底上櫃掛牌，預計明天舉行上櫃前業績發表會。董事長黃埮城指出，受惠人工智慧（AI）、半導體先進製程及高科技產業",
-      "tags": []
-    },
-    {
-      "title": "AI概念股突變臉！「這兩檔」重挫1跌停1摔半根 AWS訂單傳聞引爆賣壓",
-      "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE5qWk5qcnFGQWNZUXJFNWd0YllqTG1OTFZ6bjBhS1hIU0FHTXAzTjV3ZDllbDloMTZwbllrNDBJSXlyV0N6NWNVNTNxMA?oc=5",
-      "source": "FTNN 新聞網",
-      "published": "2026-10-27T16:00+08:00",
-      "summary": "",
-      "tags": []
-    },
-    {
-      "title": "智原攜手三星、聯電 搶下美國2奈米雲端AI專案訂單",
-      "url": "https://tw.stock.yahoo.com/news/%E6%99%BA%E5%8E%9F%E6%94%9C%E6%89%8B%E4%B8%89%E6%98%9F-%E8%81%AF%E9%9B%BB-%E6%90%B6%E4%B8%8B%E7%BE%8E%E5%9C%8B2%E5%A5%88%E7%B1%B3%E9%9B%B2%E7%AB%AFai%E5%B0%88%E6%A1%88%E8%A8%82%E5%96%AE-075906842.html",
-      "source": "Yahoo 股市",
-      "published": "2026-10-27T15:59+08:00",
-      "summary": "（中央社記者張建中新竹2026年10月27日電）特殊應用晶片廠智原(3035)總經理王國雍今天表示，透過與三星（Samsung）、聯電(2303)和記憶體廠等夥伴合作，成功搶下美國廠商2奈米雲端人工智",
-      "tags": []
-    },
-    {
-      "title": "外資狂賣超台股！央行穩匯 上半年砸5400億",
-      "url": "https://tw.news.yahoo.com/ai%E7%86%B1%E6%BD%AE%E6%8E%A8%E5%8D%87%E6%94%BE%E6%AC%BE-%E6%96%B0%E5%8F%B0%E5%B9%A3%E4%BB%8A%E5%B9%B4%E8%B2%B63-23-%E5%A4%AE%E8%A1%8C%E4%B8%8A%E5%8D%8A%E5%B9%B4%E6%B7%A8%E8%B3%A3%E5%8C%AF170%E5%84%84%E7%BE%8E%E5%85%83-055922466.html",
-      "source": "Yahoo 股市",
-      "published": "2026-10-27T15:43+08:00",
-      "summary": "中央銀行總裁楊金龍明（10/28）日將赴立法院財政委員會進行業務報告，書面報告指出，AI應用需求熱絡、台股交投活絡，帶動銀行放款與投資年增率走升，至8月底達9.43%，貨幣總計數M2年增率也一度升至6",
+      "title": "【旺宏法說會 AI 摘要】2026/10/27",
+      "url": "https://news.cnyes.com/news/id/6638451",
+      "source": "鉅亨網",
+      "published": "2026-10-27T20:17+08:00",
+      "summary": "一、2026 年第三季財務與營運詳情 財務表現： 營收與獲利： 第三季營收 242 億元，季增 27%，較去年同期的 82 億元成長近 3 倍，創歷史新高。毛利率 70.5%，前一季為 64.4%；毛利中含存貨迴轉利益約 7,500 萬元。",
       "tags": []
     }
   ]
