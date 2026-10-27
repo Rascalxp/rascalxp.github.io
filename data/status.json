@@ -1,8 +1,10 @@
 {
   "chips": {
-    "time": "2026-10-27T12:58:57+08:00",
+    "time": "2026-10-27T13:00:39+08:00",
     "ok": true,
-    "errors": []
+    "errors": [
+      "  tmf_net_from_csv 2026-10-27 失敗：HTTPSConnectionPool(host='www.taifex.com.tw', port=443): Read timed out. (read timeout=30)"
+    ]
   },
   "youtube": {
     "time": "2026-10-27T12:57:30+08:00",
@@ -14,7 +16,7 @@
     ]
   },
   "news": {
-    "time": "2026-10-27T12:59:02+08:00",
+    "time": "2026-10-27T13:00:44+08:00",
     "ok": true,
     "errors": []
   }
