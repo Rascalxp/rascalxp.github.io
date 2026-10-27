@@ -27,10 +27,19 @@ AI_PATTERN = re.compile(
     r"OpenAI|ChatGPT|大模型|機器人|AMD|超微|博通|先進封裝|液冷|散熱",
 )
 
-GOOGLE_QUERIES = ["AI概念股 when:2d", "AI伺服器 OR 輝達 OR CoWoS 台股 when:2d"]
-CNYES_CATEGORIES = ["tw_stock", "wd_stock", "tech"]
+# 只要台股相關：新聞要提到台股、台廠或台灣個股
+TW_PATTERN = re.compile(
+    r"台股|台廠|台鏈|台積電|台灣|臺灣|加權指數|櫃買|上櫃|上市櫃|集中市場|漲停|跌停|焦點股|概念股|族群|"
+    r"[（(]\d{4}[)）]|\d{4}-TW|鴻海|廣達|緯創|緯穎|英業達|技嘉|華碩|聯發科|日月光|台達電|奇鋐|雙鴻|健策|"
+    r"川湖|勤誠|金像電|台光電|欣興|南電|景碩|創意|世芯|智原|聯亞|穩懋|聯電|南亞科|華邦電|旺宏|京元電|信驊|"
+    r"貿聯|光寶|仁寶|和碩|神達|營邦|嘉澤|致茂|弘塑|辛耘|萬潤|均華|家登|帆宣|漢唐|亞翔|研華|宏達電|鴻準",
+)
+# 標題主角是國外市場的新聞，除非標題本身也提到台股／台廠，否則排除
+FOREIGN_TITLE = re.compile(r"美股|華爾街|道瓊|那斯達克|納斯達克|標普|費半|美國|歐洲|日股|韓股|陸股|港股|中國|大陸")
+
+GOOGLE_QUERIES = ["台股 AI概念股 when:2d", "台股 AI伺服器 OR CoWoS OR 台廠 when:2d"]
+CNYES_CATEGORIES = ["tw_stock", "tech"]
 YAHOO_FEEDS = ["https://tw.stock.yahoo.com/rss?category=tw-market",
-               "https://tw.stock.yahoo.com/rss?category=intl-markets",
                "https://tw.stock.yahoo.com/rss?category=news"]
 
 
@@ -113,7 +122,10 @@ def collect():
             continue
         if it["published"] and it["published"] < cutoff:
             continue
-        if not AI_PATTERN.search(it["title"] + " " + it["snippet"]):
+        text = it["title"] + " " + it["snippet"]
+        if not AI_PATTERN.search(text) or not TW_PATTERN.search(text):
+            continue
+        if FOREIGN_TITLE.search(it["title"]) and not TW_PATTERN.search(it["title"]):
             continue
         key = re.sub(r"[\W_]+", "", it["title"])[:18]
         if key in seen:
@@ -128,12 +140,13 @@ SYSTEM = """你是台灣財經網站的新聞編輯，讀者是關心台股的�
 
 INSTRUCTIONS = """以下是最近的新聞清單（JSON），每則有 id、標題、來源和內文片段。
 
-請挑出和「AI 產業、AI 相關個股或供應鏈」最相關、最值得投資人知道的 {n} 則：
+請挑出和「台股的 AI 產業、台灣 AI 相關個股或供應鏈」最相關、最值得台股投資人知道的 {n} 則：
+- 只選和台股、台灣公司直接相關的新聞；主角是國外公司或國外市場、和台股沒有直接關係的不要選。
 - 同一事件只留一則，盡量涵蓋不同主題。
 - 每則寫一段 2～3 句、60～90 字的重點摘要，說明發生什麼事、對哪些產業或個股可能有影響。
 - 摘要只能根據提供的標題和片段，不要補充片段裡沒有的數字或事實；片段不足時就寫短一點。
 - 不要給買賣建議。
-- tags 給 1～3 個短標籤，例如相關個股或題材（如「台積電」、「AI伺服器」）。
+- tags 給 1～3 個短標籤，優先放相關的台股個股，其次是題材（如「台積電」、「AI伺服器」）。
 - 依重要性由高到低排列。
 
 新聞清單：
