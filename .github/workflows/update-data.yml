@@ -40,7 +40,7 @@ jobs:
         continue-on-error: true
         env:
           YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
-        run: python scripts/fetch_youtube.py
+        run: python scripts/yt_debug.py
 
       - name: AI 新聞與摘要
         continue-on-error: true
