@@ -1,9 +1,25 @@
 {
-  "updated": "2026-10-27T12:54:47+08:00",
+  "updated": "2026-10-27T13:04:14+08:00",
   "ai_summary": false,
   "model": null,
-  "candidates_sig": "9208fc8aab12f5c34ccee29b92c256119c65ad12",
+  "candidates_sig": "8d457e995cb63288ef4c789a0f40bd0fa46387b6",
   "items": [
+    {
+      "title": "抄底時機到了？AI融資鏈成新風險源頭 高盛兩週淨賣超科技股200億美元",
+      "url": "https://news.cnyes.com/news/id/6638141",
+      "source": "鉅亨網",
+      "published": "2026-10-27T13:00+08:00",
+      "summary": "高盛數據顯示，過去兩週TMT淨賣超約200億美元，拋售強度達-3.3個標準差，接近7月230億美元拋售烈度。 那指100仍困於5月以來區間，29000點與約28500點200日均線成關鍵支撐；費半亦正測試200日均線。 小摩指AI融資環境快",
+      "tags": []
+    },
+    {
+      "title": "Copilot整合Teams與GitHub 加速開發者協作流程並分析支出",
+      "url": "https://tw.stock.yahoo.com/news/copilot%E6%95%B4%E5%90%88teams%E8%88%87github-%E5%8A%A0%E9%80%9F%E9%96%8B%E7%99%BC%E8%80%85%E5%8D%94%E4%BD%9C%E6%B5%81%E7%A8%8B%E4%B8%A6%E5%88%86%E6%9E%90%E6%94%AF%E5%87%BA-045330475.html",
+      "source": "Yahoo 股市",
+      "published": "2026-10-27T12:53+08:00",
+      "summary": "圖／示意圖商傳媒｜林昭衡／綜合外電報導微軟的 Copilot 人工智慧工具近期推出新功能，現在可從 Microsoft Teams 直接開啟 Pull Request (PR，程式開發者提出變更請求的",
+      "tags": []
+    },
     {
       "title": "1萬元當AI股東！施羅德攜LINE Bank開放預購 首檔主動台股ETF 00419A 11/2開募",
       "url": "https://news.cnyes.com/news/id/6638237",
@@ -66,22 +82,6 @@
       "source": "Yahoo 股市",
       "published": "2026-10-27T12:10+08:00",
       "summary": "根據高盛證券發布的最新產業研究報告指出，隨著終端客戶需求持續強勁，並首度出現直接出資補助供應鏈擴產的罕見現象，台灣PCB、CCL 與載板產業在2027～2030年間的擴產與升級步伐將全面加速，整體獲利",
-      "tags": []
-    },
-    {
-      "title": "AI半導體和機器人帶動 傳動氣動元件概念股勁揚",
-      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPcmp4YkVFdVNWNmNnMnd1Zjc4eXcyalJQOXpXeVoxS2d1b09ZLTNhNGxMSGpnRnFrX2lMVHhBaWZIX0thSElPSWpSd2pCcmt0X19XcWdPMVRXb2JUdWMyRFFFZWJjMHNpWkFleVdGek5iR1B3aXZSYnFRNHM3UzJINHJHbXZIV08ySVBCZ0twZ03SAV9BVV95cUxQSGxXdlVoR0ItT3dJblc1M3VsYnBTTjNBUEhQZlZHVlFBdTJ4ZW5SSkhtMUQxMlFhTGZRYTU3TFQ2RVVEbjNsS1VMcW4tWUtUblZWWTdhODY5TG1NVWJuUQ?oc=5",
-      "source": "經濟日報",
-      "published": "2026-10-27T12:07+08:00",
-      "summary": "",
-      "tags": []
-    },
-    {
-      "title": "46,000點守不住？AI永動機危機？年底前布局還是逃命？",
-      "url": "https://news.cnyes.com/news/id/6638246",
-      "source": "鉅亨網",
-      "published": "2026-10-27T11:53+08:00",
-      "summary": "傳出台積電CoWoS恐漲1至2成，主因AI晶片需求增、設備交期拉長，產能難擴充 台積電先前已通知晶圓代工明年1月起漲價3-6%，7奈米以下最高漲10% 市場稱台積電遠期本益比僅15-16倍，2400元以下空間有限，成台股定海神針",
       "tags": []
     }
   ]
