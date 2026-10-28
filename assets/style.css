@@ -44,7 +44,16 @@ img { max-width: 100%; }
   cursor: pointer;
 }
 .intro[hidden] { display: none; }
+.intro { overflow: hidden; }
 .intro video { width: 100%; height: 100%; object-fit: contain; }
+/* 直式手機：影片放大 1.5 倍、左右裁掉一點空白背景，主角才不會太小；上下邊緣淡出，和底色融合 */
+@media (max-aspect-ratio: 1/1) {
+  .intro video {
+    width: 150vw; max-width: none; height: auto; flex: none;
+    -webkit-mask-image: linear-gradient(transparent, #000 12%, #000 88%, transparent);
+    mask-image: linear-gradient(transparent, #000 12%, #000 88%, transparent);
+  }
+}
 .intro-out { opacity: 0; pointer-events: none; }
 html.intro-on { overflow: hidden; }
 .intro-skip {
