@@ -150,10 +150,34 @@
   let posts = [];
   let editingDate = null; // 正在編輯的既有文章日期
 
+  // 條列、編號、引言和一般段落之間自動補空行。Markdown 規定要空一行才會分開，
+  // 不然清單後面那段會被併進最後一項、段落後面的「2. 」也不會變成編號。
+  function separateBlocks(md) {
+    const group = (l) => {
+      if (!l.trim()) return "blank";
+      if (/^\s{2,}\S/.test(l)) return "cont";
+      if (/^([-*]|\d+\.) /.test(l)) return "list";
+      if (/^>/.test(l)) return "quote";
+      if (/^#{1,6} /.test(l)) return "heading";
+      return "text";
+    };
+    const out = [];
+    let prev = "blank";
+    for (const line of (md || "").split("\n")) {
+      let g = group(line);
+      if (g === "cont") g = prev;
+      const blockish = (x) => x === "list" || x === "quote";
+      if (prev !== "blank" && g !== "blank" && g !== prev && (blockish(prev) || blockish(g))) out.push("");
+      out.push(line);
+      prev = g;
+    }
+    return out.join("\n");
+  }
+
   function renderPreview() {
     const md = $("post-content").value;
     $("preview-title").textContent = $("post-title").value;
-    const html = window.marked ? window.marked.parse(md, { breaks: true }) : md;
+    const html = window.marked ? window.marked.parse(separateBlocks(md), { breaks: true }) : md;
     $("preview").innerHTML = window.DOMPurify ? window.DOMPurify.sanitize(html) : "";
     // 剛上傳的圖片網站還沒更新，預覽時先從 GitHub 原始檔讀
     $("preview").querySelectorAll('img[src^="uploads/"]').forEach((img) => {
@@ -216,33 +240,99 @@
   }
 
   // ---------- 編輯工具列 ----------
-  function wrapSelection(before, after, placeholder) {
-    const ta = $("post-content");
-    const { selectionStart: s, selectionEnd: e, value } = ta;
-    const sel = value.slice(s, e) || placeholder;
-    ta.value = value.slice(0, s) + before + sel + after + value.slice(e);
-    ta.focus();
-    ta.setSelectionRange(s + before.length, s + before.length + sel.length);
-    ta.dispatchEvent(new Event("input"));
+  // Safari（尤其是 iPhone、iPad）按下工具列按鈕時，文字框會失去焦點，游標位置會被重設到最前面，
+  // 所以平常就把游標位置記下來，按按鈕時用記下來的位置。
+  const editor = $("post-content");
+  let savedSel = { s: 0, e: 0 };
+  function rememberSel() {
+    if (document.activeElement === editor) savedSel = { s: editor.selectionStart, e: editor.selectionEnd };
+  }
+  for (const ev of ["keyup", "mouseup", "touchend", "input", "select", "focus"]) editor.addEventListener(ev, rememberSel);
+  document.addEventListener("selectionchange", rememberSel);
+  const currentSel = () => (document.activeElement === editor
+    ? { s: editor.selectionStart, e: editor.selectionEnd } : savedSel);
+
+  function applyEdit(value, selStart, selEnd) {
+    editor.value = value;
+    editor.focus();
+    editor.setSelectionRange(selStart, selEnd);
+    savedSel = { s: selStart, e: selEnd };
+    editor.dispatchEvent(new Event("input"));
   }
 
-  function prefixLines(makePrefix) {
-    const ta = $("post-content");
-    const { selectionStart: s, selectionEnd: e, value } = ta;
-    const lineStart = value.lastIndexOf("\n", s - 1) + 1;
-    const block = value.slice(lineStart, e) || "";
-    const lines = block.split("\n").map((l, i) => makePrefix(i) + l);
-    ta.value = value.slice(0, lineStart) + lines.join("\n") + value.slice(e);
-    ta.focus();
-    ta.dispatchEvent(new Event("input"));
+  function wrapSelection(before, after, placeholder) {
+    const { s, e } = currentSel();
+    const value = editor.value;
+    const sel = value.slice(s, e) || placeholder;
+    applyEdit(value.slice(0, s) + before + sel + after + value.slice(e),
+      s + before.length, s + before.length + sel.length);
   }
+
+  const lineStartOf = (v, i) => (i <= 0 ? 0 : v.lastIndexOf("\n", i - 1) + 1);
+
+  // 行首格式：小標題、條列、編號、引言
+  const LINE_PREFIX = /^(#{1,6} |[-*] |\d+\. |> )/;
+  const KIND_OF = (line) => {
+    const m = line.match(LINE_PREFIX);
+    if (!m) return null;
+    if (m[1].startsWith("#")) return "h2";
+    if (m[1].startsWith(">")) return "quote";
+    return /\d/.test(m[1]) ? "olist" : "list";
+  };
+
+  function formatLines(kind) {
+    const { s, e } = currentSel();
+    const value = editor.value;
+    const lineStart = lineStartOf(value, s);
+    let lineEnd = value.indexOf("\n", Math.max(e - (e > s && value[e - 1] === "\n" ? 1 : 0), s));
+    if (lineEnd === -1) lineEnd = value.length;
+    const lines = value.slice(lineStart, lineEnd).split("\n");
+
+    // 選到的每一行都已經是這個格式 → 再按一次就取消
+    const remove = lines.every((l) => KIND_OF(l) === kind);
+    // 編號接續上一行的號碼
+    const prevLine = value.slice(lineStartOf(value, lineStart - 1), Math.max(lineStart - 1, 0));
+    const prevNum = lineStart > 0 ? prevLine.match(/^(\d+)\. /) : null;
+    let n = prevNum ? Number(prevNum[1]) + 1 : 1;
+
+    const out = lines.map((l) => {
+      const text = l.replace(LINE_PREFIX, "");
+      if (remove) return text;
+      if (kind === "h2") return `## ${text}`;
+      if (kind === "list") return `- ${text}`;
+      if (kind === "quote") return `> ${text}`;
+      return `${n++}. ${text}`;
+    }).join("\n");
+    const end = lineStart + out.length;
+    applyEdit(value.slice(0, lineStart) + out + value.slice(lineEnd), end, end);
+  }
+
+  // 在條列、編號、引言裡按 Enter：自動接續下一項；空的項目按 Enter 就結束清單
+  editor.addEventListener("keydown", (ev) => {
+    if (ev.key !== "Enter" || ev.shiftKey || ev.isComposing || ev.keyCode === 229) return; // 中文輸入法選字中不處理
+    const { selectionStart: s, selectionEnd: e, value } = editor;
+    if (s !== e) return;
+    const lineStart = lineStartOf(value, s);
+    const line = value.slice(lineStart, s);
+    const m = line.match(/^(\d+)\. |^([-*]) |^> /);
+    if (!m) return;
+    ev.preventDefault();
+    if (line.trim() === m[0].trim()) {
+      // 空的項目：拿掉符號並空一行，結束清單（不空一行的話，下一段會被當成清單的一部分）
+      applyEdit(value.slice(0, lineStart) + "\n" + value.slice(s), lineStart + 1, lineStart + 1);
+      return;
+    }
+    const next = m[1] ? `${Number(m[1]) + 1}. ` : m[2] ? `${m[2]} ` : "> ";
+    const insert = "\n" + next;
+    applyEdit(value.slice(0, s) + insert + value.slice(e), s + insert.length, s + insert.length);
+  });
 
   const actions = {
-    h2: () => prefixLines(() => "## "),
+    h2: () => formatLines("h2"),
     bold: () => wrapSelection("**", "**", "重點文字"),
-    list: () => prefixLines(() => "- "),
-    olist: () => prefixLines((i) => `${i + 1}. `),
-    quote: () => prefixLines(() => "> "),
+    list: () => formatLines("list"),
+    olist: () => formatLines("olist"),
+    quote: () => formatLines("quote"),
     red: () => wrapSelection('<span class="up">', "</span>", "上漲"),
     green: () => wrapSelection('<span class="down">', "</span>", "下跌"),
   };
@@ -503,6 +593,9 @@
   for (const id of ["post-date", "post-title", "post-content"]) {
     $(id).addEventListener("input", () => { renderPreview(); saveDraft(); });
   }
+  document.querySelector(".toolbar").addEventListener("mousedown", (e) => {
+    if (e.target.closest("[data-md]")) e.preventDefault();
+  });
   document.querySelector(".toolbar").addEventListener("click", (e) => {
     const b = e.target.closest("[data-md]");
     if (b) actions[b.dataset.md]();

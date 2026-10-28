@@ -105,8 +105,32 @@
   }
 
   // ---------- 02 大盤分析 ----------
+  // 條列、編號、引言和一般段落之間自動補空行。Markdown 規定要空一行才會分開，
+  // 不然清單後面那段會被併進最後一項、段落後面的「2. 」也不會變成編號。
+  function separateBlocks(md) {
+    const group = (l) => {
+      if (!l.trim()) return "blank";
+      if (/^\s{2,}\S/.test(l)) return "cont";
+      if (/^([-*]|\d+\.) /.test(l)) return "list";
+      if (/^>/.test(l)) return "quote";
+      if (/^#{1,6} /.test(l)) return "heading";
+      return "text";
+    };
+    const out = [];
+    let prev = "blank";
+    for (const line of (md || "").split("\n")) {
+      let g = group(line);
+      if (g === "cont") g = prev;
+      const blockish = (x) => x === "list" || x === "quote";
+      if (prev !== "blank" && g !== "blank" && g !== prev && (blockish(prev) || blockish(g))) out.push("");
+      out.push(line);
+      prev = g;
+    }
+    return out.join("\n");
+  }
+
   function renderMarkdown(md) {
-    const html = window.marked ? window.marked.parse(md || "", { breaks: true }) : md;
+    const html = window.marked ? window.marked.parse(separateBlocks(md), { breaks: true }) : md;
     const safe = window.DOMPurify ? window.DOMPurify.sanitize(html) : "";
     const div = el("div", { class: "md" });
     div.innerHTML = safe;
