@@ -1,24 +1,21 @@
 {
   "chips": {
-    "time": "2026-10-28T23:18:36+08:00",
+    "time": "2026-10-29T02:19:07+08:00",
     "ok": true,
-    "errors": []
+    "errors": [
+      "tmf_from_taifex 失敗：期交所欄位和預期不同：['<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01//EN\" \"http://www.w3.org/TR/html4/strict.dtd\">']",
+      "tmf_from_openapi 失敗：期交所欄位和預期不同：['[{\"Date\":\"20261027\"', 'ContractCode:\"臺股期貨\"', 'Item:\"自營商\"', 'TradingVolume(Long):\"5810\"', 'TradingValue(Long)(Thousands):\"53829327\"', 'TradingVolume(Short):\"7604\"', 'TradingValue(Short)(Thousands):\"70413650\"', 'TradingVolume(Net):\"-1794\"', 'TradingValue(Net)(Thousands):\"-16584322\"', 'OpenInterest(Long):\"5615\"', 'ContractValueofOpenInterest(Long)(Thousands):\"51809485\"', 'OpenInterest(Short):\"4161\"', 'ContractValueofOpenInterest(Short)(Thousands):\"38403547\"', 'OpenInterest(Net):\"1454\"', 'ContractValueofOpenInterest(Net)(Thousands):\"13405938\"}', '']",
+      "散戶微台：找不到資料"
+    ]
   },
   "news": {
-    "time": "2026-10-28T23:18:41+08:00",
+    "time": "2026-10-29T02:19:14+08:00",
     "ok": true,
     "errors": []
   },
   "media": {
-    "time": "2026-10-28T23:18:39+08:00",
+    "time": "2026-10-29T02:19:12+08:00",
     "ok": true,
-    "errors": [
-      "影片 BOnMxB8Xh6M 詳細資料讀取失敗：429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.youtube.com/watch%3Fv%3DBOnMxB8Xh6M&q=EgQE8jSyGMykiNcGIjBkvPaRroUUxnhtu2B7PspXS0AVIChsnEoTeRKrVoXFk9efbNSVdEtzmpEVgyXEFGgyAnJSWgFDYOaH8IbkvfzL3QE",
-      "影片 Qe2SMPogmQ0 詳細資料讀取失敗：429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.youtube.com/watch%3Fv%3DQe2SMPogmQ0&q=EgQE8jSyGM2kiNcGIjAYIVRzIsmKqbx29wjcZM_LJxcXAihtg_IgVhiU0vhNHfLyc27qo7_LCpqSHZ8kO98yAnJSWgFDYL67zIOyi8jspQE",
-      "影片 edfervmMD70 詳細資料讀取失敗：429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.youtube.com/watch%3Fv%3DedfervmMD70&q=EgQE8jSyGM2kiNcGIjAbLFTBJy1HL4WeV7GEGbvwNGSflsFObPcSC8fmmp1kEXV6Vj4PKrEp3sb0vW6OXUEyAnJSWgFDYNjhvouxoNKnIw",
-      "影片 _Rl96Tmsk4Y 詳細資料讀取失敗：429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.youtube.com/watch%3Fv%3D_Rl96Tmsk4Y&q=EgQE8jSyGM6kiNcGIjD30yXxmeuY-pqULrrLkzLqA-qHWxRa9ROBwj5wGVaD_BvDLyaNpzNLRF1CGA03cXIyAnJSWgFDYOP_0PPL0Pf62AE",
-      "影片 OzaxyUJ9KiM 詳細資料讀取失敗：429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.youtube.com/watch%3Fv%3DOzaxyUJ9KiM&q=EgQE8jSyGM6kiNcGIjCnoQXxGS8Eog0f15byw_aXLW5oQxaCJst_MlWI_Lvu20fI5NVLpf42BrZm6pxjWFMyAnJSWgFDYLi1pLWKmJ-l5AE",
-      "影片 4mHACxY7HyY 詳細資料讀取失敗：429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.youtube.com/watch%3Fv%3D4mHACxY7HyY&q=EgQE8jSyGM6kiNcGIjCxTwbMq1roEP-eEUNPWzNhcqFxV7WYH764KHcP9WA0cDqUEanA-l7Fe-16Rl9vzEQyAnJSWgFDYMuLjIuOpM_rdg"
-    ]
+    "errors": []
   }
 }
