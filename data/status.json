@@ -1,20 +1,18 @@
 {
   "chips": {
-    "time": "2026-10-28T01:56:19+08:00",
+    "time": "2026-10-28T10:07:42+08:00",
     "ok": true,
     "errors": [
-      "tmf_from_taifex 失敗：期交所欄位和預期不同：['<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01//EN\" \"http://www.w3.org/TR/html4/strict.dtd\">']",
-      "tmf_from_openapi 失敗：期交所欄位和預期不同：['[{\"Date\":\"20261022\"', 'ContractCode:\"臺股期貨\"', 'Item:\"自營商\"', 'TradingVolume(Long):\"5489\"', 'TradingValue(Long)(Thousands):\"51456640\"', 'TradingVolume(Short):\"3924\"', 'TradingValue(Short)(Thousands):\"36678720\"', 'TradingVolume(Net):\"1565\"', 'TradingValue(Net)(Thousands):\"14777919\"', 'OpenInterest(Long):\"6399\"', 'ContractValueofOpenInterest(Long)(Thousands):\"59198573\"', 'OpenInterest(Short):\"3139\"', 'ContractValueofOpenInterest(Short)(Thousands):\"29067672\"', 'OpenInterest(Net):\"3260\"', 'ContractValueofOpenInterest(Net)(Thousands):\"30130901\"}', '']",
-      "散戶微台：找不到資料"
+      "tmf_from_taifex 失敗：期交所欄位和預期不同：['<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01//EN\" \"http://www.w3.org/TR/html4/strict.dtd\">']"
     ]
   },
   "news": {
-    "time": "2026-10-28T01:56:27+08:00",
+    "time": "2026-10-28T10:07:52+08:00",
     "ok": true,
     "errors": []
   },
   "media": {
-    "time": "2026-10-28T01:56:24+08:00",
+    "time": "2026-10-28T10:07:49+08:00",
     "ok": true,
     "errors": []
   }
