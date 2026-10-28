@@ -1,17 +1,24 @@
 {
   "chips": {
-    "time": "2026-10-28T23:02:07+08:00",
+    "time": "2026-10-28T23:18:36+08:00",
     "ok": true,
     "errors": []
   },
   "news": {
-    "time": "2026-10-28T23:02:15+08:00",
+    "time": "2026-10-28T23:18:41+08:00",
     "ok": true,
     "errors": []
   },
   "media": {
-    "time": "2026-10-28T23:02:12+08:00",
+    "time": "2026-10-28T23:18:39+08:00",
     "ok": true,
-    "errors": []
+    "errors": [
+      "影片 BOnMxB8Xh6M 詳細資料讀取失敗：429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.youtube.com/watch%3Fv%3DBOnMxB8Xh6M&q=EgQE8jSyGMykiNcGIjBkvPaRroUUxnhtu2B7PspXS0AVIChsnEoTeRKrVoXFk9efbNSVdEtzmpEVgyXEFGgyAnJSWgFDYOaH8IbkvfzL3QE",
+      "影片 Qe2SMPogmQ0 詳細資料讀取失敗：429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.youtube.com/watch%3Fv%3DQe2SMPogmQ0&q=EgQE8jSyGM2kiNcGIjAYIVRzIsmKqbx29wjcZM_LJxcXAihtg_IgVhiU0vhNHfLyc27qo7_LCpqSHZ8kO98yAnJSWgFDYL67zIOyi8jspQE",
+      "影片 edfervmMD70 詳細資料讀取失敗：429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.youtube.com/watch%3Fv%3DedfervmMD70&q=EgQE8jSyGM2kiNcGIjAbLFTBJy1HL4WeV7GEGbvwNGSflsFObPcSC8fmmp1kEXV6Vj4PKrEp3sb0vW6OXUEyAnJSWgFDYNjhvouxoNKnIw",
+      "影片 _Rl96Tmsk4Y 詳細資料讀取失敗：429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.youtube.com/watch%3Fv%3D_Rl96Tmsk4Y&q=EgQE8jSyGM6kiNcGIjD30yXxmeuY-pqULrrLkzLqA-qHWxRa9ROBwj5wGVaD_BvDLyaNpzNLRF1CGA03cXIyAnJSWgFDYOP_0PPL0Pf62AE",
+      "影片 OzaxyUJ9KiM 詳細資料讀取失敗：429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.youtube.com/watch%3Fv%3DOzaxyUJ9KiM&q=EgQE8jSyGM6kiNcGIjCnoQXxGS8Eog0f15byw_aXLW5oQxaCJst_MlWI_Lvu20fI5NVLpf42BrZm6pxjWFMyAnJSWgFDYLi1pLWKmJ-l5AE",
+      "影片 4mHACxY7HyY 詳細資料讀取失敗：429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.youtube.com/watch%3Fv%3D4mHACxY7HyY&q=EgQE8jSyGM6kiNcGIjCxTwbMq1roEP-eEUNPWzNhcqFxV7WYH764KHcP9WA0cDqUEanA-l7Fe-16Rl9vzEQyAnJSWgFDYMuLjIuOpM_rdg"
+    ]
   }
 }
