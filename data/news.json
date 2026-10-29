@@ -1,15 +1,63 @@
 {
-  "updated": "2026-10-29T18:50:42+08:00",
+  "updated": "2026-10-29T20:10:34+08:00",
   "ai_summary": false,
   "model": null,
-  "candidates_sig": "0b7b549cd75bc96ec2ea2c58e8cc83249e7b79f6",
+  "candidates_sig": "e28f0022b804da0c766339634b96de876dc6c1f8",
   "items": [
     {
-      "title": "最新AI伺服器出貨估破250萬台！高階機種年增56%，廣達等代工鏈迎爆發-財經焦點情報站",
-      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOWVFCeUJUSTVtSlp3Q3FwbzByNlJSUzNKc0djbGZNLUc1SVJPbXQ3aDlJV2stMjlIR1Q2d3VuX0ZYanYzWlFtQ0FIMkFrYUROSW1NMnYzSUs2Sk9JRFZ3ejloY0Y4NWdmcTFuSjJELVpPZktyd0I4YTRmTm90MGV6N0NB?oc=5",
-      "source": "CMoney投資網誌",
-      "published": "2026-10-29T18:39+08:00",
-      "summary": "",
+      "title": "一塊基板決定算力生死：先進封裝悄悄綁架AI產業 晶片做得出卻「裝不下」怎麼辦？",
+      "url": "https://news.cnyes.com/news/id/6640221",
+      "source": "鉅亨網",
+      "published": "2026-10-29T20:00+08:00",
+      "summary": "集邦諮詢指AI晶片競爭轉向先進封裝，台積電CoWoS-L憑技術成熟與良率，預計後年前仍是主流 台積電CoWoS矽中介層面積擴至3.3倍光罩，今年估5.5倍、2029年14倍；輝達、超微已採用CoWoS-L 英特爾以EMIB-T搶客戶，導入T",
+      "tags": []
+    },
+    {
+      "title": "告別8成台股集中度！摩根首推00421A、00422A兼顧成長與月配息 啖日歐3大紅利",
+      "url": "https://news.cnyes.com/news/id/6640856",
+      "source": "鉅亨網",
+      "published": "2026-10-29T19:47+08:00",
+      "summary": "台灣主動式ETF規模截至2026年9月底達9447億元，聚焦台股占83%，摩根投信推00421A、00422A分散配置日歐。 兩檔月配息主動式ETF主打AI、政策、轉型三大紅利，布局日本工業、科技、金融與歐洲銀行、能源、生技等。 導入掩護性",
+      "tags": []
+    },
+    {
+      "title": "〈TSIA年會〉AI agent帶動ASIC晶片新商業模型崛起 聯發科點出三大關鍵技術指標",
+      "url": "https://news.cnyes.com/news/id/6640874",
+      "source": "鉅亨網",
+      "published": "2026-10-29T19:46+08:00",
+      "summary": "陳冠州指AI agent帶動雲端巨頭加速發展ASIC晶片商模，聯發科鎖定先進運算、極速互連與量產可行性三大指標搶商機。 他表示超大規模雲端服務商單年投資可達1500億美元，推升推論伺服器與客製化晶片需求，台灣半導體須掌握標準制定與定價優勢。",
+      "tags": []
+    },
+    {
+      "title": "台積電秦永沛 與成大學子談AI",
+      "url": "https://tw.news.yahoo.com/%E5%8F%B0%E7%A9%8D%E9%9B%BB%E7%A7%A6%E6%B0%B8%E6%B2%9B-%E8%88%87%E6%88%90%E5%A4%A7%E5%AD%B8%E5%AD%90%E8%AB%87ai-114539925.html",
+      "source": "Yahoo 股市",
+      "published": "2026-10-29T19:45+08:00",
+      "summary": "記者林怡孜∕台南報導 ＡＩ浪潮加速改變產業發展與人才需求，年輕世代該如何掌握機會、規…",
+      "tags": []
+    },
+    {
+      "title": "〈TSIA年會〉晶片驗證壓縮至3個月內 台積電揭AI機櫃面臨百倍算力挑戰",
+      "url": "https://news.cnyes.com/news/id/6640873",
+      "source": "鉅亨網",
+      "published": "2026-10-29T19:19+08:00",
+      "summary": "袁立本：全球AI算力效能暴增百倍，晶片從設計到量產週期壓縮至3個月內。 AI伺服器架構由8顆晶片增至144顆，單一機櫃功耗由40kW升至230kW，未來恐逾600kW，散熱轉向液冷。 台灣具先進製造、封裝、載板與組裝聚落優勢，需從晶片到機櫃",
+      "tags": []
+    },
+    {
+      "title": "德微第3季獲利較去年同期翻倍 爭取AI應用商機",
+      "url": "https://tw.stock.yahoo.com/news/%E5%BE%B7%E5%BE%AE%E7%AC%AC3%E5%AD%A3%E7%8D%B2%E5%88%A9%E8%BC%83%E5%8E%BB%E5%B9%B4%E5%90%8C%E6%9C%9F%E7%BF%BB%E5%80%8D-%E7%88%AD%E5%8F%96ai%E6%87%89%E7%94%A8%E5%95%86%E6%A9%9F-110951081.html",
+      "source": "Yahoo 股市",
+      "published": "2026-10-29T19:09+08:00",
+      "summary": "（中央社記者鍾榮峰台北2026年10月29日電）功率半導體製造廠德微科技(3675)公告第3季財務報告，合併營收9.08億元，季增13.37%、年增32.46%，毛利率40.4%，單季歸屬母公司業主獲",
+      "tags": []
+    },
+    {
+      "title": "搭載聯發科天璣9600 Pro晶片 手機大廠旗艦新機效能暴衝",
+      "url": "https://tw.stock.yahoo.com/news/%E6%90%AD%E8%BC%89%E8%81%AF%E7%99%BC%E7%A7%91%E5%A4%A9%E7%92%A39600-pro%E6%99%B6%E7%89%87-%E6%89%8B%E6%A9%9F%E5%A4%A7%E5%BB%A0%E6%97%97%E8%89%A6%E6%96%B0%E6%A9%9F%E6%95%88%E8%83%BD%E6%9A%B4%E8%A1%9D-104304042.html",
+      "source": "Yahoo 股市",
+      "published": "2026-10-29T18:43+08:00",
+      "summary": "財經中心／陳致帆、曾宸洛 台北報導近期各手機大廠紛紛推出旗艦機款，有業者不只搭載三顆2億畫素鏡頭，內建AI修圖、還原真實色彩，甚至首次採用\"聯發科天璣9600Pro晶片\"，提升效能，對照三星等旗艦機款",
       "tags": []
     },
     {
@@ -21,35 +69,11 @@
       "tags": []
     },
     {
-      "title": "AI資料中心需求看至2030年 台達電：缺電恐拖慢建置",
-      "url": "https://tw.news.yahoo.com/ai%E8%B3%87%E6%96%99%E4%B8%AD%E5%BF%83%E9%9C%80%E6%B1%82%E7%9C%8B%E8%87%B32030%E5%B9%B4-%E5%8F%B0%E9%81%94%E9%9B%BB-%E7%BC%BA%E9%9B%BB%E6%81%90%E6%8B%96%E6%85%A2%E5%BB%BA%E7%BD%AE-102621159.html",
+      "title": "AI行情跑3年開始淘汰賽？台積電、聯電走勢兩樣情 分析師：二三線壓力浮現",
+      "url": "https://tw.stock.yahoo.com/news/ai%E8%A1%8C%E6%83%85%E8%B7%913%E5%B9%B4%E9%96%8B%E5%A7%8B%E6%B7%98%E6%B1%B0%E8%B3%BD-%E5%8F%B0%E7%A9%8D%E9%9B%BB-%E8%81%AF%E9%9B%BB%E8%B5%B0%E5%8B%A2%E5%85%A9%E6%A8%A3%E6%83%85-%E5%88%86%E6%9E%90%E5%B8%AB-%E4%BA%8C%E4%B8%89%E7%B7%9A%E5%A3%93%E5%8A%9B%E6%B5%AE%E7%8F%BE-094756901.html",
       "source": "Yahoo 股市",
-      "published": "2026-10-29T18:26+08:00",
-      "summary": "台達電表示，AI資料中心缺電問題嚴重，恐怕拖累建置進度，但不代表業者會停止投資。公司訂單能見度高，實際出貨時程仍可能受到缺料及產能不足影響，台達電今年AI相關營收已達5成，預期明年將維持成長趨勢。 台",
-      "tags": []
-    },
-    {
-      "title": "別再說「一代不如一代」了！日月光高層爆料被兒子股票存摺驚呆：比我還懂買",
-      "url": "https://tw.stock.yahoo.com/news/%E4%B8%80%E4%BB%A3%E4%B8%8D%E5%A6%82%E4%B8%80%E4%BB%A3%EF%BC%9F%E6%97%A5%E6%9C%88%E5%85%89%E9%AB%98%E5%B1%A4%E7%88%86%E6%96%99%E8%A2%AB%E5%85%92%E5%AD%90%E8%82%A1%E7%A5%A8%E5%AD%98%E6%91%BA%E9%A9%9A%E5%91%86%EF%BC%9A%E6%AF%94%E6%88%91%E9%82%84%E6%87%82%E8%B2%B7-101242211.html",
-      "source": "Yahoo 股市",
-      "published": "2026-10-29T18:12+08:00",
-      "summary": "台灣半導體產業協會（TSIA）今（29）日舉辦 30 週年年會，現場除了聚焦產業競爭，也熱烈討論「AI 原生代」的人才培育。日月光半導體研發總經理李俊哲現場不忘分享自己的家庭故事，他笑稱「下一代真的比",
-      "tags": []
-    },
-    {
-      "title": "全新前3季獲利倍增每股賺4.01元 擬發行15億元公司債",
-      "url": "https://tw.stock.yahoo.com/news/%E5%85%A8%E6%96%B0%E5%89%8D3%E5%AD%A3%E7%8D%B2%E5%88%A9%E5%80%8D%E5%A2%9E%E6%AF%8F%E8%82%A1%E8%B3%BA4-01%E5%85%83-%E6%93%AC%E7%99%BC%E8%A1%8C15%E5%84%84%E5%85%83%E5%85%AC%E5%8F%B8%E5%82%B5-100010270.html",
-      "source": "Yahoo 股市",
-      "published": "2026-10-29T18:00+08:00",
-      "summary": "（中央社記者曾仁凱台北2026年10月29日電）砷化鎵（GaAs）上游磊晶廠全新(2455)今天公布第3季財報，受惠AI帶動高速傳輸需求增加，全新前3季歸屬母公司淨利新台幣7.47億元，較去年同期大幅",
-      "tags": []
-    },
-    {
-      "title": "泓德能源布局AI算力市場 拓展台日澳能源服務",
-      "url": "https://tw.stock.yahoo.com/news/%E6%B3%93%E5%BE%B7%E8%83%BD%E6%BA%90%E5%B8%83%E5%B1%80ai%E7%AE%97%E5%8A%9B%E5%B8%82%E5%A0%B4-%E6%8B%93%E5%B1%95%E5%8F%B0%E6%97%A5%E6%BE%B3%E8%83%BD%E6%BA%90%E6%9C%8D%E5%8B%99-095700174.html",
-      "source": "Yahoo 股市",
-      "published": "2026-10-29T17:57+08:00",
-      "summary": "（中央社記者梁家柔台北2026年10月29日電）泓德能源積極布局光電與儲能市場，透過旗下德雲算力，拓展台灣、日本及澳洲的AI資料中心（AIDC）能源服務。泓德能源表示，已具備發展AIDC所需的基礎設施",
+      "published": "2026-10-29T17:47+08:00",
+      "summary": "台股29日重挫667點，半導體股走勢卻拉出明顯差距，台積電(2330)收2,415元、僅跌0.41%，聯電(2303)則摔至115.5元跌停。放大到海外，三星電子公布財報後盤中也一度下挫逾6%。AI投",
       "tags": []
     },
     {
@@ -58,30 +82,6 @@
       "source": "鉅亨網",
       "published": "2026-10-29T17:45+08:00",
       "summary": "瑞銀看好台灣受惠AI供應鏈，預估企業獲利2026年、2027年將成長42%、37%。 瑞銀稱AI需求擴散帶動標普500第3季EPS年增28%，雲端收入成長料由48%升至58%。 美債10年期殖利率一度升至5.36%，瑞銀建議均衡配置，投資高",
-      "tags": []
-    },
-    {
-      "title": "設備廠牧德科技Q3又賺回逾半個股本 前3季EPS達14.92元",
-      "url": "https://news.cnyes.com/news/id/6640669",
-      "source": "鉅亨網",
-      "published": "2026-10-29T17:41+08:00",
-      "summary": "AOI設備廠牧德科技(3563-TW)今(29)日公布最新財報獲利資訊，2026年第三季稅後純益3.27億元，季減1.44%，年增36.15%，單季每股純益5.12元；累計1-3季稅後純益9.54億元，年增23.59%，已超越歷年全年獲利紀",
-      "tags": []
-    },
-    {
-      "title": "研調估全球AI伺服器將突破250萬台 廣達、鴻海、緯穎擠進供應商前五名",
-      "url": "https://news.cnyes.com/news/id/6640680",
-      "source": "鉅亨網",
-      "published": "2026-10-29T17:40+08:00",
-      "summary": "DIGITIMES估2026年全球AI伺服器出貨逾250萬台，採HBM高階機種237萬台、年增56% 輝達GB300 NVL72帶動GPU機種占比近6成；NVL72出貨比重升至42%，成最大宗 前五供應商含Google+Celestica、",
-      "tags": []
-    },
-    {
-      "title": "台達電營收續增、EPS回落：AI投資不等於獲利直線上升",
-      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBESjZaUW92d3A4aHpkN0RoWC1TUzF1NHJPRDhEUjBNeEhGbU5EdnpIZkJWcWNWWk9wRzd0M0M2bXNzU3E4azZrcE1VWVB4QmhuRk85Yk1FVk5Ed0VIanZYLWdHMVBrQQ?oc=5",
-      "source": "口袋證券",
-      "published": "2026-10-29T17:34+08:00",
-      "summary": "",
       "tags": []
     }
   ]
