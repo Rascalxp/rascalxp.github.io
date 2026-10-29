@@ -1,14 +1,38 @@
 {
-  "updated": "2026-10-29T23:10:12+08:00",
+  "updated": "2026-10-30T02:25:39+08:00",
   "ai_summary": false,
   "model": null,
-  "candidates_sig": "408ed99c2465c503b9384bae16adf66ea3c7055b",
+  "candidates_sig": "08314e45af4c7c99500ffcb37f0a1f7ba1013bb9",
   "items": [
+    {
+      "title": "台股夜盤被Google害慘綠！AI到底怎麼實現獲利 專家揭新招：恐在這裡塞廣告",
+      "url": "https://tw.news.yahoo.com/%E5%8F%B0%E8%82%A1%E5%A4%9C%E7%9B%A4%E8%A2%ABgoogle%E5%AE%B3%E6%85%98%E7%B6%A0-ai%E5%88%B0%E5%BA%95%E6%80%8E%E9%BA%BC%E5%AF%A6%E7%8F%BE%E7%8D%B2%E5%88%A9-%E5%B0%88%E5%AE%B6%E6%8F%AD%E6%96%B0%E6%8B%9B-%E6%81%90%E5%9C%A8%E9%80%99%E8%A3%A1%E5%A1%9E%E5%BB%A3%E5%91%8A-171515187.html",
+      "source": "Yahoo 股市",
+      "published": "2026-10-30T01:15+08:00",
+      "summary": "台股今（29）日再度回到走低盤勢、終場下跌667點，且由於國際市場對於AI資本支出的疑慮未解，加上Google母公司Alphabet財報表現不佳，引爆美股那斯達克盤前重摔300點，台股夜盤甚至也一度重",
+      "tags": []
+    },
+    {
+      "title": "ASIC 概念股有哪些？台廠 3 層供應鏈、博通邁威爾 2026 財報",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBfNDF1aHZPN0ZaY0RIUENnQkF5MFNkN1VVRTVtb0hEM3lEejl6VmYzTHhVUjRJYzVKZWF1Wmw5bXZSWGE1bUpfaEdTYTlXd3pmNWpKNw?oc=5",
+      "source": "Growin Blog",
+      "published": "2026-10-30T00:54+08:00",
+      "summary": "",
+      "tags": []
+    },
+    {
+      "title": "法說會開一家死一家？陳嘉偉爆台股陷「完美風暴」：AI估值修正才剛開始",
+      "url": "https://tw.news.yahoo.com/%E6%B3%95%E8%AA%AA%E6%9C%83%E9%96%8B-%E5%AE%B6%E6%AD%BB-%E5%AE%B6-%E9%99%B3%E5%98%89%E5%81%89%E7%88%86%E5%8F%B0%E8%82%A1%E9%99%B7-%E5%AE%8C%E7%BE%8E%E9%A2%A8%E6%9A%B4-153000665.html",
+      "source": "Yahoo 股市",
+      "published": "2026-10-29T23:30+08:00",
+      "summary": "台股今開高走低重挫667點，呈現量增長黑吞噬極弱勢型態。分析師指出，科技股法說會變法會，台積電等權值股與千金股相繼破底，面臨AI本益比修正與資本支出縮減風暴。短線反彈無量、下跌出量，融資高企下恐面臨年",
+      "tags": []
+    },
     {
       "title": "快逃？華爾街點名2檔AI股恐腰斬 台灣人掌舵的公司也中槍",
       "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9RRFdsZE5RTWdab25aSTlhVjRoZHZnTWlVMnhxUVN0ODJTYkc4b2Myb0Y5RmdJUU5fNDdCTmlGVkIxSzNJeV9DNDlkZHpsb083U05NVzZ6VlllMDk3NDVN0gFkQVVfeXFMTzZ2M0VUYlB4dE05dERONUxsZFZnQWstUWhaSnFwb3drUlJDamdrX1p3NlUwb0dNMWRtZzZxcTY2cjZobEZ3ZG1rYnFSVXdWLXJPbjlsU3l6SkZkTkxOOTZXeGkwMw?oc=5",
       "source": "自由財經",
-      "published": "2026-10-29T22:53+08:00",
+      "published": "2026-10-29T22:58+08:00",
       "summary": "",
       "tags": []
     },
@@ -58,30 +82,6 @@
       "source": "鉅亨網",
       "published": "2026-10-29T20:31+08:00",
       "summary": "一、 2026 年第三季財務與營運詳情 財務表現： • 營收與獲利改寫歷史新高： 2026 年第三季合併淨營收達新台幣 2,442 億元，季增（QoQ）28%、年增（YoY）45%。 • 毛利率突破歷史結構性天花板： 集團合併毛利達 540",
-      "tags": []
-    },
-    {
-      "title": "〈台達電法說〉Q4營收估季增、毛利率不低於上季 馬國將設大型生產據點",
-      "url": "https://news.cnyes.com/news/id/6640981",
-      "source": "鉅亨網",
-      "published": "2026-10-29T20:31+08:00",
-      "summary": "台達電(2308-TW)今(29)日召開法說會，董事長鄭平表示，第四季營收一定高於第三季，毛利率則不會比第三季差，但年底仍有部分無形資產等項目需要檢視。展望明年，隨著AI資料中心建置需求持續，預期整體營運仍將維持成長趨勢，AI及資料中心相關",
-      "tags": []
-    },
-    {
-      "title": "德微第3季獲利1.27億元年增逾倍 前3季EPS達5.91元",
-      "url": "https://news.cnyes.com/news/id/6641046",
-      "source": "鉅亨網",
-      "published": "2026-10-29T20:23+08:00",
-      "summary": "功率半導體廠德微科技(3675-TW)今(29)日公告2026年第三季財務報告，合併營收9.08億元，季增13.37%、年增32.46%；毛利率40.40%，稅後純益1.27億元，季增20.01%，較去年同期翻倍成長，每股純益(EPS)2.",
-      "tags": []
-    },
-    {
-      "title": "台積電籲建國家AI人才庫 拚台灣成全球AI神經樞紐",
-      "url": "https://tw.stock.yahoo.com/news/%E5%8F%B0%E7%A9%8D%E9%9B%BB%E7%B1%B2%E5%BB%BA%E5%9C%8B%E5%AE%B6ai%E4%BA%BA%E6%89%8D%E5%BA%AB-%E6%8B%9A%E5%8F%B0%E7%81%A3%E6%88%90%E5%85%A8%E7%90%83ai%E7%A5%9E%E7%B6%93%E6%A8%9E%E7%B4%90-121101091.html",
-      "source": "Yahoo 股市",
-      "published": "2026-10-29T20:11+08:00",
-      "summary": "（中央社記者張建中新竹2026年10月29日電）台積電(2330)業務開發副總經理袁立本今天參加TSIA年會，他提出協助創新，從被動的代工模式轉向早期共同設計，並推動共同實驗平台，突破技術瓶頸及建構國",
       "tags": []
     }
   ]
