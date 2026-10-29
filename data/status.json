@@ -1,18 +1,16 @@
 {
   "chips": {
-    "time": "2026-10-29T12:10:26+08:00",
+    "time": "2026-10-29T15:01:00+08:00",
     "ok": true,
-    "errors": [
-      "tmf_from_taifex 失敗：期交所欄位和預期不同：['<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01//EN\" \"http://www.w3.org/TR/html4/strict.dtd\">']"
-    ]
+    "errors": []
   },
   "news": {
-    "time": "2026-10-29T12:10:35+08:00",
+    "time": "2026-10-29T15:01:07+08:00",
     "ok": true,
     "errors": []
   },
   "media": {
-    "time": "2026-10-29T12:10:32+08:00",
+    "time": "2026-10-29T15:01:05+08:00",
     "ok": true,
     "errors": []
   }

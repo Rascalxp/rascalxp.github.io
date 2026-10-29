@@ -1,87 +1,87 @@
 {
-  "updated": "2026-10-29T12:10:35+08:00",
+  "updated": "2026-10-29T15:01:07+08:00",
   "ai_summary": false,
   "model": null,
-  "candidates_sig": "161b931dd7923febc7eaf095e1d4246108a5fff1",
+  "candidates_sig": "30bf459aa6795862e477bb8bce9d985929ae35c2",
   "items": [
     {
-      "title": "耐特打入先進製程、封裝及AI BBU供應鏈，本土替代趨勢，估營運逐年增",
-      "url": "https://tw.stock.yahoo.com/news/%E8%80%90%E7%89%B9%E6%89%93%E5%85%A5%E5%85%88%E9%80%B2%E8%A3%BD%E7%A8%8B-%E5%B0%81%E8%A3%9D%E5%8F%8Aai-bbu%E4%BE%9B%E6%87%89%E9%8F%88-%E6%9C%AC%E5%9C%9F%E6%9B%BF%E4%BB%A3%E8%B6%A8%E5%8B%A2-%E4%BC%B0%E7%87%9F%E9%81%8B%E9%80%90%E5%B9%B4%E5%A2%9E-040033243.html",
+      "title": "東南亞不香了？惠普、華碩、宏碁想將產線搬回中國 專家：AI推高記憶體等成本",
+      "url": "https://news.cnyes.com/news/id/6640220",
+      "source": "鉅亨網",
+      "published": "2026-10-29T14:50+08:00",
+      "summary": "Omdia：今年第三季聯想佔全球PC總量四分之一，惠普、戴爾、蘋果、華碩、三星、宏碁分食其餘市佔。 DRAM過去一年漲至少8倍，CPU、PCB、被動元件也飆升，PC廠利潤受壓、訂單回流中國代工。 惠普、華碩、宏碁等將部分產線自泰國、越南遷回",
+      "tags": []
+    },
+    {
+      "title": "【公告】亞德客-KY2026年第三季及前三季度自結合併財務報表",
+      "url": "https://tw.stock.yahoo.com/news/%E5%85%AC%E5%91%8A-%E4%BA%9E%E5%BE%B7%E5%AE%A2-ky2026%E5%B9%B4%E7%AC%AC%E4%B8%89%E5%AD%A3%E5%8F%8A%E5%89%8D%E4%B8%89%E5%AD%A3%E5%BA%A6%E8%87%AA%E7%B5%90%E5%90%88%E4%BD%B5%E8%B2%A1%E5%8B%99%E5%A0%B1%E8%A1%A8-061736509.html",
       "source": "Yahoo 股市",
-      "published": "2026-10-29T12:00+08:00",
-      "summary": "【財訊快報／記者李純君報導】半導體先進塑材供應商耐特(8058)11月中下旬上市，受惠於公司三大主力產線，晶圓與光罩載具、BBU與IC Tray，客戶展望樂觀、需求強勁，法人圈預期，該公司明年業績可望",
+      "published": "2026-10-29T14:17+08:00",
+      "summary": "日 期：2026年10月29日公司名稱：亞德客-KY(1590)主 旨：亞德客-KY2026年第三季及前三季度自結合併財務報表發言人：曹永祥說 明：1.事實發生日:115/10/292.公司名稱:AI",
       "tags": []
     },
     {
-      "title": "技嘉AI戰局儲糧，發行GDR定價完成，今年手握680億元新資金到位",
-      "url": "https://tw.stock.yahoo.com/news/%E6%8A%80%E5%98%89ai%E6%88%B0%E5%B1%80%E5%84%B2%E7%B3%A7-%E7%99%BC%E8%A1%8Cgdr%E5%AE%9A%E5%83%B9%E5%AE%8C%E6%88%90-%E4%BB%8A%E5%B9%B4%E6%89%8B%E6%8F%A1680%E5%84%84%E5%85%83%E6%96%B0%E8%B3%87%E9%87%91%E5%88%B0%E4%BD%8D-035833020.html",
+      "title": "聯準會按兵不動、Google 財報分歧，資金為何悄悄流向 Lumentum 和穩懋？",
+      "url": "https://news.cnyes.com/news/id/6640482",
+      "source": "鉅亨網",
+      "published": "2026-10-29T14:00+08:00",
+      "summary": "聯準會按兵不動，美股三大指數連三紅，費半漲逾1.7%，但資金集中少數主流股，個股分化明顯。 SK海力士、Oracle、Lumentum走強，帶動記憶體、AI基建與光通訊題材；矽光子、CPO及穩懋等台廠受點名。",
+      "tags": []
+    },
+    {
+      "title": "兩大陰影壟罩華爾街！？加權指數上沖下洗！現在是該恐懼還是貪婪？",
+      "url": "https://news.cnyes.com/news/id/6640477",
+      "source": "鉅亨網",
+      "published": "2026-10-29T13:54+08:00",
+      "summary": "高盛稱標普500 2026年EPS估261美元、實際可達326美元，獲利成長主因AI產業爆發。 標普500與那指10月初創高；截至10/28漲約13%、14%，但本益比與遠期本益比已回落。 文中指AI雲端投資若放緩，恐壓抑輝達等供應鏈成長；",
+      "tags": []
+    },
+    {
+      "title": "〈焦點股〉Q3財報亮眼 穩懋連2日亮燈攻上漲停板",
+      "url": "https://news.cnyes.com/news/id/6640453",
+      "source": "鉅亨網",
+      "published": "2026-10-29T13:54+08:00",
+      "summary": "砷化鎵PA大廠穩懋(3105-TW)昨(28)日自結第3季財報，因單季繳出EPS 4.55元亮眼佳績，加上法人上調目標價，今(29)日在大盤大舉拉回崩跌近千點下，股價仍逆勢開高走高，亮燈攻上漲停板，股價觸及漲停價594元，逼近600大關，成",
+      "tags": []
+    },
+    {
+      "title": "台股收盤／台股慘跌667點！台積電領跌櫃買挫1.8% AI股又扛不住了",
+      "url": "https://tw.news.yahoo.com/%E5%8F%B0%E8%82%A1%E6%94%B6%E7%9B%A4-%E5%8F%B0%E8%82%A1%E6%85%98%E8%B7%8C667%E9%BB%9E-%E5%8F%B0%E7%A9%8D%E9%9B%BB%E9%A0%98%E8%B7%8C%E6%AB%83%E8%B2%B7%E6%8C%AB1-8-ai%E8%82%A1%E5%8F%88%E6%89%9B%E4%B8%8D%E4%BD%8F%E4%BA%86-055000634.html",
       "source": "Yahoo 股市",
-      "published": "2026-10-29T11:58+08:00",
-      "summary": "【財訊快報／記者王宜弘報導】全球AI大廠掀募資潮，技嘉(2376)不落人後，近日再度辦理現金增資發行海外存託憑證(GDR)事宜，募資總額達5.26億美元(約台幣逾170億元)。如加計5月份技嘉發行的海",
+      "published": "2026-10-29T13:50+08:00",
+      "summary": "台股今（29）日上演大幅回檔走勢，儘管美股主要指數週三（28日）全面收紅，台股卻未能跟上國際股市漲勢。美股連3漲仍難救台股！今（29）日加權指數收46,368.33點，重挫667.25點，成交7,89",
       "tags": []
     },
     {
-      "title": "Google跌勢引爆蔓延AI鏈！ 韓股重挫3% 台股跌逾800點",
-      "url": "https://tw.stock.yahoo.com/news/google%E8%B7%8C%E5%8B%A2%E5%BC%95%E7%88%86%E8%94%93%E5%BB%B6ai%E9%8F%88-%E9%9F%93%E8%82%A1%E9%87%8D%E6%8C%AB3-%E5%8F%B0%E8%82%A1%E8%B7%8C%E9%80%BE800%E9%BB%9E-031800744.html",
+      "title": "法說前送暖！ 大摩喊讚聯發科：目標上看6188元",
+      "url": "https://tw.stock.yahoo.com/news/%E6%B3%95%E8%AA%AA%E5%89%8D%E9%80%81%E6%9A%96-%E5%A4%A7%E6%91%A9%E5%96%8A%E8%AE%9A%E8%81%AF%E7%99%BC%E7%A7%91-%E7%9B%AE%E6%A8%99%E4%B8%8A%E7%9C%8B6188%E5%85%83-050000769.html",
       "source": "Yahoo 股市",
-      "published": "2026-10-29T11:18+08:00",
-      "summary": "Google母公司Alphabet在29日盤後公布財報，第三季營收來到633億美元、年增12%，但依然遠低於外界預期，在財報不如預期及市場對其資本支出的疑慮升溫，股價盤後一度重挫逾10%，連帶影響其他",
+      "published": "2026-10-29T13:00+08:00",
+      "summary": "根據摩根士丹利最新研究報告指出，聯發科在AI ASIC服務領域展現強大的執行力與設計能力，受惠於Google TPU v8t量產，預估第四季營收將顯著成長，並維持對其「優於大盤」評等，目標價上看6,1",
       "tags": []
     },
     {
-      "title": "〈焦點股〉泓德能源估2027年施工量體達335MW挹注營運 擺脫跌停陰霾今亮紅燈",
-      "url": "https://news.cnyes.com/news/id/6640366",
-      "source": "鉅亨網",
-      "published": "2026-10-29T11:00+08:00",
-      "summary": "泓德能源(6873-TW)高層近日遭聲押，拖累股價連吞2根跌停，不過公司強調財務及營運皆不受影響，且持續推進光電與儲能布局，預計2027年施工量體達335MW，並透過旗下德雲算力，拓展台灣、日本及澳洲AIDC能源服務，激勵泓德能源今(29)",
-      "tags": []
-    },
-    {
-      "title": "騏億鑫上櫃前現增承銷價暫定252元 競拍10/30起跑",
-      "url": "https://news.cnyes.com/news/id/6640370",
-      "source": "鉅亨網",
-      "published": "2026-10-29T10:47+08:00",
-      "summary": "半導體與高科技廠務工程跨系統整合服務業者騏億鑫(7848-TW)配合上櫃前現增公開承銷，對外競價拍賣3,060張，競拍底價210元，每人最高投標張數392張，暫定每股承銷價252元。競拍時間為10月30日至11月3日，11月5日開標；11月",
-      "tags": []
-    },
-    {
-      "title": "台燿(6274)第三季毛利率衝上36.9%！四年產能近乎倍增，漲價與ASIC成雙引擎",
-      "url": "https://news.cnyes.com/news/id/6640363",
-      "source": "鉅亨網",
-      "published": "2026-10-29T10:30+08:00",
-      "summary": "2026年10月29日（優分析／產業數據中心報導）⸺ 台燿2026年營運明顯升溫，第三季營收179.48億元，毛利率升至36.9%，單季EPS達12.88元，獲利超越上半年。 漲價效益、產品組合改善與泰國廠轉盈同步發酵，帶動獲利結構升級；隨",
-      "tags": []
-    },
-    {
-      "title": "法說會｜聯電(2303)釋三大訊號！明年均價看增10%、追加32億美元擴產，成長關鍵轉向哪裡？",
-      "url": "https://news.cnyes.com/news/id/6640362",
-      "source": "鉅亨網",
-      "published": "2026-10-29T10:30+08:00",
-      "summary": "2026年10月29日（優分析／產業數據中心報導）⸺ 聯電(2303-TW)10月28日法說會釋出價格與擴產新訊號：2027年整體平均售價預期年增約10%，董事會另核准追加約32億美元資本支出預算，加速新加坡與台南布局。當產能利用率已達92",
-      "tags": []
-    },
-    {
-      "title": "法說會｜精測(6510)看旺2027年！營收拚增近五成、產能擴至三倍，毛利率為何可能回落？",
-      "url": "https://news.cnyes.com/news/id/6640361",
-      "source": "鉅亨網",
-      "published": "2026-10-29T10:30+08:00",
-      "summary": "2026年10月29日（優分析／產業數據中心報導）⸺ AI測試需求持續放量，測試介面廠精測(6510-TWO)在10月28日法說會釋出成長展望：2027年營收可望延續今年成長力道，挑戰接近五成增幅，並規劃於明年第一季將產能提高至2025年底",
-      "tags": []
-    },
-    {
-      "title": "被聯電拖累！00927等「4檔台股ETF」臉綠 最重跌近3%",
-      "url": "https://tw.stock.yahoo.com/news/%E8%A2%AB%E8%81%AF%E9%9B%BB%E6%8B%96%E7%B4%AF%EF%BC%8100927%E7%AD%89%E3%80%8C4%E6%AA%94%E5%8F%B0%E8%82%A1etf%E3%80%8D%E8%87%89%E7%B6%A0-%E6%9C%80%E9%87%8D%E8%B7%8C%E8%BF%913-022201600.html",
+      "title": "Google財報引賣壓！台股暴跌逾800點 AI供應鏈仍有戲？",
+      "url": "https://tw.news.yahoo.com/google%E8%B2%A1%E5%A0%B1%E5%BC%95%E8%B3%A3%E5%A3%93-%E5%8F%B0%E8%82%A1%E6%9A%B4%E8%B7%8C%E9%80%BE800%E9%BB%9E-ai%E4%BE%9B%E6%87%89%E9%8F%88%E4%BB%8D%E6%9C%89%E6%88%B2-044028074.html",
       "source": "Yahoo 股市",
-      "published": "2026-10-29T10:21+08:00",
-      "summary": "晶圓代工大廠聯電（2303）昨日召開法說會，公布第三季每股盈餘 1.32 元，並宣布追加逾千億台幣資本支出強攻先進封裝與矽光子技術，可龐大資本支出引發市場對折舊衝擊毛利率的疑慮，股價今天跌破半根停板，",
+      "published": "2026-10-29T12:40+08:00",
+      "summary": "[Newtalk新聞] 台股今（29）日開低走低，受到電子權值股賣壓擴大影響，加權指數盤中一度重挫逾 700 點，回落至 46,000 點附近，並再度失守 47,000 點整數關卡。約12點半來到46",
       "tags": []
     },
     {
-      "title": "AI股信心崩！「電源供應龍頭」前三季EPS 26.64元創高、盤中仍挫半根譜瑞大跌6.1%拖累大盤、凌華、技嘉也跌5%",
-      "url": "https://news.google.com/rss/articles/CBMirAJBVV95cUxNWmw0MUVQZ21zS3JBRnNLTldVYmZwTVRZVXp5N21PUm9zU0ZsUkNySmd4VV85eUZUSXVaWjlvNTJOa1JzUjVuemlwdTlYNFRLOHFDU3pVZVJXSjVTc3ZFZ3BNTzBIMTh6Y2RkbjVMaEpiVkZpOE5VMFNQaC1fQWRWUVA0SndJM1lqeW5RcUtmWk80WGIyemNNN1FDMDd5WHhJQXVNeWlERC1WS0l3alNtQ1BjaU1aRFFWSk9sdVE1SXlhRlhJOTRFbkdHNzAwM3RzYmthQXI5em1McTZqeTNkRm4wNTEwR3VYNVNhVzZpLVBsa1RRMGFDcl9HVkJ5NHJrbzl4OVV1Nm55TGM1UUloZjh5OHZMZnlQR0stbmhIejQ2TkpyakxRWEZ4a3c?oc=5",
-      "source": "Yahoo股市",
-      "published": "2026-10-29T10:19+08:00",
-      "summary": "",
+      "title": "Fed決議維持利率不變 台股開平走低守4萬6000點",
+      "url": "https://tw.news.yahoo.com/fed%E6%B1%BA%E8%AD%B0%E7%B6%AD%E6%8C%81%E5%88%A9%E7%8E%87%E4%B8%8D%E8%AE%8A-%E5%8F%B0%E8%82%A1%E9%96%8B%E5%B9%B3%E8%B5%B0%E4%BD%8E%E5%AE%884%E8%90%AC6000%E9%BB%9E-043440275.html",
+      "source": "Yahoo 股市",
+      "published": "2026-10-29T12:34+08:00",
+      "summary": "美國聯準會最新決議維持利率不變，激勵美股4大指數收紅，不過因為Google母公司Alphabet公布的第3季財報不如預期，引起市場對AI投資疑慮再起，造成週四AI概念股走勢疲弱。台股開平走低，最低一度",
+      "tags": []
+    },
+    {
+      "title": "台股回吐昨日漲幅！新台幣貶破32.5元、早盤大貶逾1角",
+      "url": "https://tw.news.yahoo.com/%E5%8F%B0%E8%82%A1%E5%9B%9E%E5%90%90%E6%98%A8%E6%97%A5%E6%BC%B2%E5%B9%85-%E6%96%B0%E5%8F%B0%E5%B9%A3%E8%B2%B6%E7%A0%B432-5%E5%85%83-%E6%97%A9%E7%9B%A4%E5%A4%A7%E8%B2%B6%E9%80%BE1%E8%A7%92-041723971.html",
+      "source": "Yahoo 股市",
+      "published": "2026-10-29T12:17+08:00",
+      "summary": "聯準會（Fed）如預期維持利率不變，美股四大指數收紅，但科技巨頭財報表現分歧，AI投資回報疑慮未消，台股今早在電子權值股賣壓下開低走低，盤中重挫逾900點，幾乎完全回吐昨日漲幅；新台幣兌美元匯率也由升",
       "tags": []
     }
   ]
