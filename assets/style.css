@@ -37,8 +37,8 @@ img { max-width: 100%; }
 /* ---------- 開頭動畫 ---------- */
 .intro {
   position: fixed; inset: 0; z-index: 100;
-  /* 和影片上下邊緣同色（上方深灰藍、下方帶暖光），直式手機上下留白才不會有接縫 */
-  background: linear-gradient(#0e1315 0%, #0c1114 45%, #120b08 75%, #0b0605 100%);
+  /* 和影片上下邊緣同色（上方近黑、下方帶一點暖光），直式手機上下留白才不會有接縫 */
+  background: linear-gradient(#08060a 0%, #0a0709 45%, #130b0d 75%, #0a080d 100%);
   display: flex; align-items: center; justify-content: center;
   transition: opacity .6s ease;
   cursor: pointer;
