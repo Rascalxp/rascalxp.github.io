@@ -1,9 +1,41 @@
 {
-  "updated": "2026-10-30T15:45:33+08:00",
+  "updated": "2026-10-30T16:00:53+08:00",
   "ai_summary": false,
   "model": null,
-  "candidates_sig": "b067f79f576083f6653a667e45c415ceecf37039",
+  "candidates_sig": "194378f1034bedd815c560a232fda746460d8a80",
   "items": [
+    {
+      "title": "2026國泰資產管理高峰會盛大登場，國泰投信資產管理規模年增近6成",
+      "url": "https://tw.stock.yahoo.com/news/2026%E5%9C%8B%E6%B3%B0%E8%B3%87%E7%94%A2%E7%AE%A1%E7%90%86%E9%AB%98%E5%B3%B0%E6%9C%83%E7%9B%9B%E5%A4%A7%E7%99%BB%E5%A0%B4-%E5%9C%8B%E6%B3%B0%E6%8A%95%E4%BF%A1%E8%B3%87%E7%94%A2%E7%AE%A1%E7%90%86%E8%A6%8F%E6%A8%A1%E5%B9%B4%E5%A2%9E%E8%BF%916%E6%88%90-075656976.html",
+      "source": "Yahoo 股市",
+      "published": "2026-10-30T15:56+08:00",
+      "summary": "【財訊快報／記者劉居全報導】全球投資市場進入「新常態」，地緣政治、AI科技浪潮及供應鏈重組加速資產配置變化；台灣也隨財富快速累積，走向財富管理的新階段。國泰金控(2882)於今（30）日舉辦「2026",
+      "tags": []
+    },
+    {
+      "title": "破除ASIC延後雜音！聯發科：ASIC業務明年營收衝160億美元",
+      "url": "https://tw.news.yahoo.com/%E7%A0%B4%E9%99%A4asic%E5%BB%B6%E5%BE%8C%E9%9B%9C%E9%9F%B3-%E8%81%AF%E7%99%BC%E7%A7%91-asic%E6%A5%AD%E5%8B%99%E6%98%8E%E5%B9%B4%E7%87%9F%E6%94%B6%E8%A1%9D160%E5%84%84%E7%BE%8E%E5%85%83-074846651.html",
+      "source": "Yahoo 股市",
+      "published": "2026-10-30T15:48+08:00",
+      "summary": "IC設計龍頭聯發科（2454）近來ASIC業務前景雜音頻傳，聯發科副董事長暨執行長蔡力行今日在法說會中強調，客戶對首款AI加速器的需求依然非常強勁，已於9月開始小量出貨，並有信心在第四季達到25億美元",
+      "tags": []
+    },
+    {
+      "title": "AI加速器出貨放量！聯發科上修資料中心營收目標，明年搶占ASIC市場2成",
+      "url": "https://tw.stock.yahoo.com/news/ai%E5%8A%A0%E9%80%9F%E5%99%A8%E5%87%BA%E8%B2%A8%E6%94%BE%E9%87%8F-%E8%81%AF%E7%99%BC%E7%A7%91%E4%B8%8A%E4%BF%AE%E8%B3%87%E6%96%99%E4%B8%AD%E5%BF%83%E7%87%9F%E6%94%B6%E7%9B%AE%E6%A8%99-%E6%98%8E%E5%B9%B4%E6%90%B6%E5%8D%A0asic%E5%B8%82%E5%A0%B42%E6%88%90-074457039.html",
+      "source": "Yahoo 股市",
+      "published": "2026-10-30T15:44+08:00",
+      "summary": "【財訊快報／記者李純君報導】聯發科(2454)今年第四季受惠於AI加速器業務放量，預期單季營收可較第三季成長25%至32%，而2026年全年以美元計價的營收成長率也將超越先前高個位數百分比的目標。公司",
+      "tags": []
+    },
+    {
+      "title": "針對被駭事件，91APP*-KY稱全面負責，並建立AI時代資安新防護",
+      "url": "https://tw.stock.yahoo.com/news/%E9%87%9D%E5%B0%8D%E8%A2%AB%E9%A7%AD%E4%BA%8B%E4%BB%B6-91app-ky%E7%A8%B1%E5%85%A8%E9%9D%A2%E8%B2%A0%E8%B2%AC-%E4%B8%A6%E5%BB%BA%E7%AB%8Bai%E6%99%82%E4%BB%A3%E8%B3%87%E5%AE%89%E6%96%B0%E9%98%B2%E8%AD%B7-074219693.html",
+      "source": "Yahoo 股市",
+      "published": "2026-10-30T15:42+08:00",
+      "summary": "【財訊快報／記者陳浩寧報導】91APP*-KY(6741)公布《91APP被駭事件：25天調查報告》，說明本次事件的調查結果、消費者通知與受理方式，以及資安升級措施。91APP董事長何英圻提出兩個承諾",
+      "tags": []
+    },
     {
       "title": "鴻海科技日》聯訪「延遲3小時」...劉揚偉親曝原因：會面OpenAI創辦人阿特曼",
       "url": "https://tw.stock.yahoo.com/news/%E9%B4%BB%E6%B5%B7%E7%A7%91%E6%8A%80%E6%97%A5%E3%80%8B%E8%81%AF%E8%A8%AA%E3%80%8C%E5%BB%B6%E9%81%B23%E5%B0%8F%E6%99%82%E3%80%8D%E5%8A%89%E6%8F%9A%E5%81%89%E8%A6%AA%E6%9B%9D%E5%8E%9F%E5%9B%A0%EF%BC%9A%E6%9C%83%E9%9D%A2openai%E5%89%B5%E8%BE%A6%E4%BA%BA%E9%98%BF%E7%89%B9%E6%9B%BC-073411457.html",
@@ -50,38 +82,6 @@
       "source": "Yahoo 股市",
       "published": "2026-10-30T15:14+08:00",
       "summary": "圖／本報資料庫商傳媒｜責任編輯／綜合外電報導昨天在美國史丹佛大學，一場由 Capital Variation 主辦的業界聚會匯集了矽谷創新者，共同探討人工智慧（AI）、人形機器人與人性化互動技術，將如",
-      "tags": []
-    },
-    {
-      "title": "台股跌1600點別怕 國泰金總座：「AI絕不會死掉」震盪難免",
-      "url": "https://tw.stock.yahoo.com/news/%E5%8F%B0%E8%82%A1%E8%B7%8C1600%E9%BB%9E%E5%88%A5%E6%80%95-%E5%9C%8B%E6%B3%B0%E9%87%91%E7%B8%BD%E5%BA%A7-ai%E7%B5%95%E4%B8%8D%E6%9C%83%E6%AD%BB%E6%8E%89-%E9%9C%87%E7%9B%AA%E9%9B%A3%E5%85%8D-071248661.html",
-      "source": "Yahoo 股市",
-      "published": "2026-10-30T15:12+08:00",
-      "summary": "Google 母公司Alphabet 現金流惡化，股價重挫12％，引爆台股30日賣壓、盤中重挫逾1600點，連續失守4萬6千點、4萬5千點重要關卡，最低來到4萬4726點；面對AI發展疑慮引發台股震盪",
-      "tags": []
-    },
-    {
-      "title": "前3季EPS衝8.08元 光寶科第3季獲利年增6成創高",
-      "url": "https://tw.stock.yahoo.com/news/%E5%89%8D3%E5%AD%A3eps%E8%A1%9D8-08%E5%85%83-%E5%85%89%E5%AF%B6%E7%A7%91%E7%AC%AC3%E5%AD%A3%E7%8D%B2%E5%88%A9%E5%B9%B4%E5%A2%9E6%E6%88%90%E5%89%B5%E9%AB%98-071205625.html",
-      "source": "Yahoo 股市",
-      "published": "2026-10-30T15:12+08:00",
-      "summary": "光寶科技30日公布2026年第3季財報，受惠新一代AI資料中心基礎建設需求大增，單季稅後純益達74億元、年增60％，每股純益（EPS）衝上3.27元改寫歷史新猷；累計前3季稅後純益183億元，EPS高",
-      "tags": []
-    },
-    {
-      "title": "鴻海AI速度戰2》輝達拚8週蓋AI工廠 聯手東元搶商機",
-      "url": "https://tw.news.yahoo.com/%E9%B4%BB%E6%B5%B7ai%E9%80%9F%E5%BA%A6%E6%88%B02-%E8%BC%9D%E9%81%94%E6%8B%9A8%E9%80%B1%E8%93%8Bai%E5%B7%A5%E5%BB%A0-%E8%81%AF%E6%89%8B%E6%9D%B1%E5%85%83%E6%90%B6%E5%95%86%E6%A9%9F-071124129.html",
-      "source": "Yahoo 股市",
-      "published": "2026-10-30T15:11+08:00",
-      "summary": "台股30日重挫逾千點，東元股價也下跌2.88%，輝達（NVIDIA）卻在鴻海科技日揭露AI工廠快速部署藍圖，提出8週交付100MW（百萬瓦）算力的情境。鴻海與東元聯手展示40呎貨櫃式資料中心，東元更被",
-      "tags": []
-    },
-    {
-      "title": "AI伺服器掀千億擴產潮！台股狂震2747點，台積電等供應鏈版圖洗牌-財經焦點情報站",
-      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQY3c2Q2dMQ21mM29ibE14a21rUjdOazV6QVdTc25idWF1Y0hGakRab3lHZE9EZnVMY0dqdS0xcTVzLWhFWWYtbGU1NnAtNkpNWHdLXzJSSndWSGpGeUJ4dU5jQ1Z3TkdiU3d1TUVHc2tybEhSNTJwZjQxUXR4Qmx0TGFn?oc=5",
-      "source": "CMoney投資網誌",
-      "published": "2026-10-30T15:09+08:00",
-      "summary": "",
       "tags": []
     }
   ]
