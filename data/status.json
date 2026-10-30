@@ -1,20 +1,16 @@
 {
   "chips": {
-    "time": "2026-10-30T12:10:56+08:00",
+    "time": "2026-10-30T15:00:54+08:00",
     "ok": true,
-    "errors": [
-      "tmf_from_taifex 失敗：HTTPSConnectionPool(host='www.taifex.com.tw', port=443): Read timed out. (read timeout=30)",
-      "tmf_from_openapi 失敗：期交所欄位和預期不同：['[{\"Date\":\"20261029\"', 'ContractCode:\"臺股期貨\"', 'Item:\"自營商\"', 'TradingVolume(Long):\"5353\"', 'TradingValue(Long)(Thousands):\"49985456\"', 'TradingVolume(Short):\"4361\"', 'TradingValue(Short)(Thousands):\"40716005\"', 'TradingVolume(Net):\"992\"', 'TradingValue(Net)(Thousands):\"9269451\"', 'OpenInterest(Long):\"5606\"', 'ContractValueofOpenInterest(Long)(Thousands):\"52254299\"', 'OpenInterest(Short):\"4095\"', 'ContractValueofOpenInterest(Short)(Thousands):\"38177137\"', 'OpenInterest(Net):\"1511\"', 'ContractValueofOpenInterest(Net)(Thousands):\"14077162\"}', '']",
-      "散戶微台：找不到資料"
-    ]
+    "errors": []
   },
   "news": {
-    "time": "2026-10-30T12:11:04+08:00",
+    "time": "2026-10-30T15:01:01+08:00",
     "ok": true,
     "errors": []
   },
   "media": {
-    "time": "2026-10-30T12:11:01+08:00",
+    "time": "2026-10-30T15:00:59+08:00",
     "ok": true,
     "errors": []
   }
