@@ -1,87 +1,87 @@
 {
-  "updated": "2026-11-02T12:10:33+08:00",
+  "updated": "2026-11-02T15:00:59+08:00",
   "ai_summary": false,
   "model": null,
-  "candidates_sig": "c448a28d8f35893d15a0f6197ba0f3da6f007ab7",
+  "candidates_sig": "a8cf4cd15c8b95fcc3c97769d799d5152c2a70be",
   "items": [
     {
-      "title": "鴻海科技日三款電動新車全右駕！神似 Jimny、Delica，準備搶攻日本市場？",
-      "url": "https://autos.yahoo.com.tw/news/%E9%B4%BB%E6%B5%B7%E7%A7%91%E6%8A%80%E6%97%A5%E4%B8%89%E6%AC%BE%E9%9B%BB%E5%8B%95%E6%96%B0%E8%BB%8A%E5%85%A8%E5%8F%B3%E9%A7%95%EF%BC%81%E7%A5%9E%E4%BC%BC-jimny%E3%80%81delica%EF%BC%8C%E6%BA%96%E5%82%99%E6%90%B6%E6%94%BB%E6%97%A5%E6%9C%AC%E5%B8%82%E5%A0%B4%EF%BC%9F-034017187.html",
-      "source": "Yahoo 股市",
-      "published": "2026-11-02T11:40+08:00",
-      "summary": "第七度舉辦的 HHTD 鴻海科技日才剛落幕，除了明顯觀察到 AI 和相關應用的篇幅加劇，甚至主舞台也擺上了模組化貨櫃型 AI 資料中心，以往被視為主角的電動車，在本屆活動中反而更像是個配角，就連廠方對",
-      "tags": []
-    },
-    {
-      "title": "〈焦點股〉資安議題熱！資服業多頭氣勢高漲 多檔漲逾半根停板",
-      "url": "https://news.cnyes.com/news/id/6643711",
+      "title": "野村投信最新台股看法--【台股操盤人筆記】雜音頻傳，震盪中聚焦供應鏈龍頭",
+      "url": "https://news.cnyes.com/news/id/6635747",
       "source": "鉅亨網",
-      "published": "2026-11-02T11:40+08:00",
-      "summary": "AI資安事件頻傳，帶動東捷資訊、偉康科技、普鴻等資安題材股今股價大漲，多檔攻上漲停。 普鴻稱量子電腦密碼威脅升高，金融與政府已將PQC盤點提升排程，旗下13項PQC演算法程式通過NIST認證。",
+      "published": "2026-11-02T14:55+08:00",
+      "summary": "野村指出AI融資成本攀升，但大型CSP ROIC約20%，仍高於7%至10%融資成本，影響有限。 彭博估2027年美國五大CSP資本支出約1.3兆美元，AI基建投資循環未見頂。 供應鏈將更分化，一線供應商受益訂單韌性，二、三線業者恐面臨降價",
       "tags": []
     },
     {
-      "title": "閉眼撿便宜？外媒欽點2檔AI潛力股「台廠入列」：抱緊10年",
-      "url": "https://tw.stock.yahoo.com/news/%E9%96%89%E7%9C%BC%E6%92%BF%E4%BE%BF%E5%AE%9C-%E5%A4%96%E5%AA%92%E6%AC%BD%E9%BB%9E2%E6%AA%94ai%E6%BD%9B%E5%8A%9B%E8%82%A1-%E5%8F%B0%E5%BB%A0%E5%85%A5%E5%88%97-%E6%8A%B1%E7%B7%8A10%E5%B9%B4-033704330.html",
+      "title": "台股早盤狂瀉800點後續跌勢收斂 台廠記憶體法說會週將登場",
+      "url": "https://tw.stock.yahoo.com/news/%E5%8F%B0%E8%82%A1%E6%97%A9%E7%9B%A4%E7%8B%82%E7%80%89800%E9%BB%9E%E5%BE%8C%E7%BA%8C%E8%B7%8C%E5%8B%A2%E6%94%B6%E6%96%82-%E5%8F%B0%E5%BB%A0%E8%A8%98%E6%86%B6%E9%AB%94%E6%B3%95%E8%AA%AA%E6%9C%83%E9%80%B1%E5%B0%87%E7%99%BB%E5%A0%B4-063030117.html",
       "source": "Yahoo 股市",
-      "published": "2026-11-02T11:37+08:00",
-      "summary": "台股賣壓來襲今（2）日開盤後持續走弱，盤中一度下探44399.10點，台積電股價同步承壓，回落至2310元。然而，就在市場擔憂科技股修正之際，美國財經媒體卻提出不同看法，逆勢點名台積電與荷蘭半導體設備",
+      "published": "2026-11-02T14:30+08:00",
+      "summary": "財經中心／葉為襄、張智凱 台北報導美國期中選舉和AI產業引爆疑慮，台股在11月第一個交易日，一開盤就失守半年線，一度大跳水800點，4萬5000點大關沒守住，權王台積電以2310元開出，盤中收復股票代",
       "tags": []
     },
     {
-      "title": "AI神話破滅？台股開盤跌破4萬5千點大關",
-      "url": "https://tw.stock.yahoo.com/news/ai%E7%A5%9E%E8%A9%B1%E7%A0%B4%E6%BB%85-%E5%8F%B0%E8%82%A1%E9%96%8B%E7%9B%A4%E8%B7%8C%E7%A0%B44%E8%90%AC5%E5%8D%83%E9%BB%9E%E5%A4%A7%E9%97%9C-033703373.html",
+      "title": "名師操盤》航運、台光電、欣興7檔救世主？台股3大考驗艱辛",
+      "url": "https://tw.stock.yahoo.com/news/%E5%90%8D%E5%B8%AB%E6%93%8D%E7%9B%A4-%E8%88%AA%E9%81%8B-%E5%8F%B0%E5%85%89%E9%9B%BB-%E6%AC%A3%E8%88%887%E6%AA%94%E6%95%91%E4%B8%96%E4%B8%BB-%E5%8F%B0%E8%82%A13%E5%A4%A7%E8%80%83%E9%A9%97%E8%89%B1%E8%BE%9B-062739419.html",
       "source": "Yahoo 股市",
-      "published": "2026-11-02T11:37+08:00",
-      "summary": "受費半指數暴跌7.2％，美股四大指數收黑影響，台股2日開盤面臨沉重賣壓，指數直接摜破4萬5千點大關，開盤不到5分鐘最低來到4萬4399點，大跌逾800點；台積電早盤最低探至2310元，跌60元，台達電",
+      "published": "2026-11-02T14:27+08:00",
+      "summary": "上週美國聯準會如市場預期，將利率維持在3.75%～4%不變；原本利率決議有助於緩解升息壓力，但美國科技巨頭財報陸續出爐後，市場則開始將焦點轉向「龐大的AI資本支出」。如同Intel其實EPS表現是優於",
       "tags": []
     },
     {
-      "title": "台股一度失守45K關卡 台積電開盤重挫60元",
-      "url": "https://tw.news.yahoo.com/%E5%8F%B0%E8%82%A1-%E5%BA%A6%E5%A4%B1%E5%AE%8845k%E9%97%9C%E5%8D%A1-%E5%8F%B0%E7%A9%8D%E9%9B%BB%E9%96%8B%E7%9B%A4%E9%87%8D%E6%8C%AB60%E5%85%83-011132329.html",
+      "title": "英特爾財測慘澹重挫25% 輝達、台積電難意外、半導體全軍覆沒 PC需求恐冰封至2027年",
+      "url": "https://tw.news.yahoo.com/%E8%8B%B1%E7%89%B9%E7%88%BE%E8%B2%A1%E6%B8%AC%E6%85%98%E6%BE%B9%E9%87%8D%E6%8C%AB25-%E8%BC%9D%E9%81%94-%E5%8F%B0%E7%A9%8D%E9%9B%BB%E9%9B%A3%E6%84%8F%E5%A4%96-%E5%8D%8A%E5%B0%8E%E9%AB%94%E5%85%A8%E8%BB%8D%E8%A6%86%E6%B2%92-pc%E9%9C%80%E6%B1%82%E6%81%90%E5%86%B0%E5%B0%81%E8%87%B32027%E5%B9%B4-061359857.html",
       "source": "Yahoo 股市",
-      "published": "2026-11-02T11:30+08:00",
-      "summary": "[NOWNEWS今日新聞]美國股市上週五（30日）受到科技及AI相關股票下跌拖累，標普500指數重挫1.8%，那斯達克綜合指數下跌2.9%。再加上台指期夜盤下跌867點，帶動台北股市今（2）日開盤下跌",
+      "published": "2026-11-02T14:13+08:00",
+      "summary": "英特爾（Intel）最新財測不如華爾街預期，加上公司警告個人電腦（PC）市場需求疲弱的情況，至少要到2027年上半年才可能改善，引發全球半導體類股賣壓。英特爾股價10月30日盤前交易一度重挫25%，若",
       "tags": []
     },
     {
-      "title": "聯發科、鴻海翻紅撐盤 台股還是上不去45K",
-      "url": "https://tw.news.yahoo.com/%E8%81%AF%E7%99%BC%E7%A7%91-%E9%B4%BB%E6%B5%B7%E7%BF%BB%E7%B4%85%E6%92%90%E7%9B%A4-%E5%8F%B0%E8%82%A1%E9%82%84%E6%98%AF%E4%B8%8A%E4%B8%8D%E5%8E%BB45k-033010073.html",
+      "title": "掌上遊戲機散熱揭秘：Steam Deck OLED 與 ROG掌機效能比拚",
+      "url": "https://tw.stock.yahoo.com/news/%E6%8E%8C%E4%B8%8A%E9%81%8A%E6%88%B2%E6%A9%9F%E6%95%A3%E7%86%B1%E6%8F%AD%E7%A7%98-steam-deck-oled-%E8%88%87-061051691.html",
       "source": "Yahoo 股市",
-      "published": "2026-11-02T11:30+08:00",
-      "summary": "[NOWNEWS今日新聞]受到美股科技及AI相關股票下跌拖累，台股今（2）日開盤下挫，最低44399.10點，下跌812.73點，截至11點24分左右，暫報44941.5點，下跌270.33點或0.6",
+      "published": "2026-11-02T14:10+08:00",
+      "summary": "商傳媒｜責任編輯／綜合外電報導掌上型遊戲機在長時間遊玩後，散熱表現成為影響使用者體驗的關鍵因素。近日有媒體公開一套詳細的熱力學測試方法，旨在評估 Steam Deck OLED、ROG掌機（華碩（AS",
       "tags": []
     },
     {
-      "title": "股匯雙殺！新台幣貶逾2角跌破32.7大關 近3周盤中最低價",
-      "url": "https://tw.stock.yahoo.com/news/%E8%82%A1%E5%8C%AF%E9%9B%99%E6%AE%BA%EF%BC%81%E6%96%B0%E5%8F%B0%E5%B9%A3%E8%B2%B6%E9%80%BE2%E8%A7%92%E8%B7%8C%E7%A0%B4327%E5%A4%A7%E9%97%9C-%E8%BF%913%E5%91%A8%E7%9B%A4%E4%B8%AD%E6%9C%80%E4%BD%8E%E5%83%B9-032728261.html",
+      "title": "〈焦點股〉外資看好矽光放量提高目標價 聯亞黑翻紅強漲4%",
+      "url": "https://news.cnyes.com/news/id/6643793",
+      "source": "鉅亨網",
+      "published": "2026-11-02T14:01+08:00",
+      "summary": "美系外資看好聯亞矽光子放量、CW雷射營收優於預期，上修2026至2029年獲利預估調升目標價，維持買進。 聯亞第3季自結獲利優於預期，AI資料中心相關營收占比升至80%以上，9月營收5.4億元、年增190%。 外資估第4季營收季增16%、雙",
+      "tags": []
+    },
+    {
+      "title": "如果你是Google掌門敢不花錢投資？國泰金李長庚喊AI不會死掉！雜音僅小波瀾：算力仍缺，台灣榮景正開始",
+      "url": "https://tw.news.yahoo.com/%E5%A6%82%E6%9E%9C%E4%BD%A0%E6%98%AFgoogle%E6%8E%8C%E9%96%80%E6%95%A2%E4%B8%8D%E8%8A%B1%E9%8C%A2%E6%8A%95%E8%B3%87-%E5%9C%8B%E6%B3%B0%E9%87%91%E6%9D%8E%E9%95%B7%E5%BA%9A%E5%96%8Aai%E4%B8%8D%E6%9C%83%E6%AD%BB%E6%8E%89-%E9%9B%9C%E9%9F%B3%E5%83%85%E5%B0%8F%E6%B3%A2%E7%80%BE-%E7%AE%97%E5%8A%9B%E4%BB%8D%E7%BC%BA-%E5%8F%B0%E7%81%A3%E6%A6%AE%E6%99%AF%E6%AD%A3%E9%96%8B%E5%A7%8B-060002481.html",
       "source": "Yahoo 股市",
-      "published": "2026-11-02T11:27+08:00",
-      "summary": "受美國科技大廠財報表現欠佳影響，市場對 AI 投資效益的疑慮加深，美股科技股賣壓傾巢而出，拖累台灣今（2）日上演「股匯雙殺」，新台幣兌美元重貶超過2角，跌破32.7關卡，寫下近三周盤中最低價，分析師表",
+      "published": "2026-11-02T14:00+08:00",
+      "summary": "週五台股於盤中一度暴跌逾1600點、外資賣超1100億元寫下史上第7大賣超，將時間拉長到整個10月，外資更寫下賣超破9900億元的歷史新高紀錄；其中的導火線之一，就是美國科技巨頭因「自由現金流轉負」引",
       "tags": []
     },
     {
-      "title": "AI供應鏈短線承壓，台廠訂單看到明年底還撐得住嗎？-子敏左側交易",
-      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQY1V1Y3VJQXFhSTNRNEh2YXdQR2FvOThtdmZCbmtOWDZXeXdGR0o2TGVpaFNEbklieXVvaUxEd19TT0lUZG9CeEVKMzl6eVYtSFA3UVFzY3ladDEtc3BPVlR3RkpWcXBXcmk5emk3dDIyS0ljeFVKNk1JZUI1RU5pbmk2OA?oc=5",
-      "source": "CMoney投資網誌",
-      "published": "2026-11-02T11:27+08:00",
-      "summary": "",
+      "title": "AI訂單點火！聯發科、聯亞獲利看旺 法人看好ABF載板",
+      "url": "https://tw.news.yahoo.com/ai%E8%A8%82%E5%96%AE%E9%BB%9E%E7%81%AB-%E8%81%AF%E7%99%BC%E7%A7%91-%E8%81%AF%E4%BA%9E%E7%8D%B2%E5%88%A9%E7%9C%8B%E6%97%BA-%E6%B3%95%E4%BA%BA%E7%9C%8B%E5%A5%BDabf%E8%BC%89%E6%9D%BF-051412989.html",
+      "source": "Yahoo 股市",
+      "published": "2026-11-02T13:14+08:00",
+      "summary": "[Newtalk新聞] 隨著AI ASIC、AI伺服器、矽光子、CPO及高速光通訊需求持續升溫，帶動半導體、先進封裝與ABF載板產業迎來新一波成長契機，相關個股中長期獲利動能備受期待。 聯發科、聯亞、",
       "tags": []
     },
     {
-      "title": "【11/02 產業即時新聞】高階PCB/HDI族群漲幅居前，AI伺服器需求點火金像電與健鼎",
-      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNTDNYSW9Sc0NiOWVIVXNXSUpELV9WaVY0T0tkTnppQ1l1cEg0cDlkM3h3MlJGWjV4aHd1aV9hZ0J5M2o3OWs5b1Rxa0QtQ1Z3X1JRNGgwTllBRVVFZkczcFVNNVVSeFZ1c251dFVOLU1DRExtLUYwT3VRQ0NJcFIzek1yUmMzNktwdTJUeEhB?oc=5",
-      "source": "CMoney投資網誌",
-      "published": "2026-11-02T11:20+08:00",
-      "summary": "",
+      "title": "元大證首開業界先例 開放新戶體驗Google企業級AI助理",
+      "url": "https://news.cnyes.com/news/id/6643770",
+      "source": "鉅亨網",
+      "published": "2026-11-02T13:07+08:00",
+      "summary": "元大證券今(2)日宣布，攜手Google Cloud首開國內證券業先例，開放新戶有機會體驗Google企業級AI助理，將原先聚焦於商務場景的Google Cloud企業級AI應用服務Gemini Enterprise導入一般大眾投資生活。 ",
       "tags": []
     },
     {
-      "title": "鴻海科技日利多發酵！股價逆勢衝上250元，劉揚偉喊明年營收雙位數成長、AI伺服器產能翻倍| 下班經濟學| 財經",
-      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9LeTBfVVUzdmFrT3pXMXdvWWc5d1pmNXFhRUcxTl9uMnp6c3Nia0F0bjhBdUYzaUdiRDkxRVJTV1BpYW9NMV9LcGprUXhqQQ?oc=5",
-      "source": "風傳媒",
-      "published": "2026-11-02T11:16+08:00",
-      "summary": "",
+      "title": "旺宏吳敏求：記憶體產業一路旺到2030年 價格不會比現在差",
+      "url": "https://news.cnyes.com/news/id/6643764",
+      "source": "鉅亨網",
+      "published": "2026-11-02T13:05+08:00",
+      "summary": "吳敏求看好記憶體產業景氣一路好到2030年，AI帶動需求升溫，明年將有不少新產品推出。 旺宏目前產能「稀缺」，將把產能優先調配至高階利基型產品。 旺宏深耕高可靠度記憶體，Flash已獲全球衛星應用採用，也廣泛用於醫療設備，需求可望隨應用擴大",
       "tags": []
     }
   ]
