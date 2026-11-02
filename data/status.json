@@ -1,18 +1,16 @@
 {
   "chips": {
-    "time": "2026-11-02T16:00:49+08:00",
+    "time": "2026-11-02T16:30:38+08:00",
     "ok": true,
-    "errors": [
-      "三大法人抓取失敗：HTTPSConnectionPool(host='www.twse.com.tw', port=443): Max retries exceeded with url: /rwd/zh/fund/BFI82U?type=day&dayDate=20261102&response=json (Caused by NameResolutionError(\"HTTPSConnection(host='www.twse.com.tw', port=443): Failed to resolve 'www.twse.com.tw' ([Errno -5] No address associated with hostname)\"))"
-    ]
+    "errors": []
   },
   "news": {
-    "time": "2026-11-02T16:00:55+08:00",
+    "time": "2026-11-02T16:30:45+08:00",
     "ok": true,
     "errors": []
   },
   "media": {
-    "time": "2026-11-02T16:00:53+08:00",
+    "time": "2026-11-02T16:30:42+08:00",
     "ok": true,
     "errors": []
   }
