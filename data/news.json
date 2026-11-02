@@ -1,9 +1,17 @@
 {
-  "updated": "2026-11-02T15:45:36+08:00",
+  "updated": "2026-11-02T16:00:55+08:00",
   "ai_summary": false,
   "model": null,
-  "candidates_sig": "5b6c1a729e27ab09fca73861798cd1de18316e3c",
+  "candidates_sig": "607b9fe8d43ec4ede189f6b7e6cec067e0945b5b",
   "items": [
+    {
+      "title": "AI熱潮陷瓶頸！ 外資10月撤出逾1兆 彭博：台股恐面臨「進一步下跌」風險",
+      "url": "https://tw.news.yahoo.com/ai%E7%86%B1%E6%BD%AE%E9%99%B7%E7%93%B6%E9%A0%B8-%E5%A4%96%E8%B3%8710%E6%9C%88%E6%92%A4%E5%87%BA%E9%80%BE1%E5%85%86-%E5%BD%AD%E5%8D%9A-%E5%8F%B0%E8%82%A1%E6%81%90%E9%9D%A2%E8%87%A8-%E9%80%B2-074049766.html",
+      "source": "Yahoo 股市",
+      "published": "2026-11-02T15:40+08:00",
+      "summary": "[Newtalk新聞] 近年來，人工智慧( AI )技術蓬勃發展，各式各樣的 AI 工具也逐漸走進人們的日常生活之中，帶來許多便利。然而，近期 AI 熱潮卻遭逢瓶頸，相關現象也波及台灣股市。有外媒指出",
+      "tags": []
+    },
     {
       "title": "A股11月開紅盤，科創50週一急彈3.11%、AI漫劇與金融科技股掀漲停潮",
       "url": "https://tw.stock.yahoo.com/news/a%E8%82%A111%E6%9C%88%E9%96%8B%E7%B4%85%E7%9B%A4-%E7%A7%91%E5%89%B550%E9%80%B1-%E6%80%A5%E5%BD%883-11-ai%E6%BC%AB%E5%8A%87%E8%88%87%E9%87%91%E8%9E%8D%E7%A7%91%E6%8A%80%E8%82%A1%E6%8E%80%E6%BC%B2%E5%81%9C%E6%BD%AE-072724507.html",
@@ -74,14 +82,6 @@
       "source": "Yahoo 股市",
       "published": "2026-11-02T13:14+08:00",
       "summary": "[Newtalk新聞] 隨著AI ASIC、AI伺服器、矽光子、CPO及高速光通訊需求持續升溫，帶動半導體、先進封裝與ABF載板產業迎來新一波成長契機，相關個股中長期獲利動能備受期待。 聯發科、聯亞、",
-      "tags": []
-    },
-    {
-      "title": "元大證首開業界先例 開放新戶體驗Google企業級AI助理",
-      "url": "https://news.cnyes.com/news/id/6643770",
-      "source": "鉅亨網",
-      "published": "2026-11-02T13:07+08:00",
-      "summary": "元大證券今(2)日宣布，攜手Google Cloud首開國內證券業先例，開放新戶有機會體驗Google企業級AI助理，將原先聚焦於商務場景的Google Cloud企業級AI應用服務Gemini Enterprise導入一般大眾投資生活。 ",
       "tags": []
     }
   ]
