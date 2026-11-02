@@ -1,9 +1,17 @@
 {
-  "updated": "2026-11-02T15:00:59+08:00",
+  "updated": "2026-11-02T15:30:45+08:00",
   "ai_summary": false,
   "model": null,
-  "candidates_sig": "a8cf4cd15c8b95fcc3c97769d799d5152c2a70be",
+  "candidates_sig": "c91a683b1cf9fe57881001e5db69c9adb45a11ce",
   "items": [
+    {
+      "title": "國泰產險導入衛星影像、雷擊專利與AI防詐 打造「主動關懷」理賠新體驗",
+      "url": "https://news.cnyes.com/news/id/6643860",
+      "source": "鉅亨網",
+      "published": "2026-11-02T15:06+08:00",
+      "summary": "面對極端氣候衝擊與多元生活場景，保險服務正迎來科技革新的關鍵轉型！國泰產險近年積極導入資料串接、智慧辨識與流程自動化技術，範疇橫跨住宅、農業、寵物及企業貨物險。透過導入衛星影像淹水辨識、獨家雷擊專利與「理賠防詐雷達」，不僅將服務模式從「事後",
+      "tags": []
+    },
     {
       "title": "野村投信最新台股看法--【台股操盤人筆記】雜音頻傳，震盪中聚焦供應鏈龍頭",
       "url": "https://news.cnyes.com/news/id/6635747",
@@ -29,6 +37,14 @@
       "tags": []
     },
     {
+      "title": "【即時新聞】京元電(2449)吃AI大單逆勢領漲，這「4檔概念股」資金輪動多空激戰！",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNVHZ6T1V1TUJWaVNjdkVaTEw2SV9hekpnVXZpWk5rQjhFR3l0Q3BMZ29GTWVBZTVCeWV5TFRqRVNVdUtEemtONTV6b2RlZWc5dk1oUWJydHJQbVptMkpLVDhjQkF1d0pLak04Z1V1QW12bkVodFR5MjZtVy0wQkhGUW5NaWtETTlVNWgydGRUT1U?oc=5",
+      "source": "CMoney投資網誌",
+      "published": "2026-11-02T14:21+08:00",
+      "summary": "",
+      "tags": []
+    },
+    {
       "title": "英特爾財測慘澹重挫25% 輝達、台積電難意外、半導體全軍覆沒 PC需求恐冰封至2027年",
       "url": "https://tw.news.yahoo.com/%E8%8B%B1%E7%89%B9%E7%88%BE%E8%B2%A1%E6%B8%AC%E6%85%98%E6%BE%B9%E9%87%8D%E6%8C%AB25-%E8%BC%9D%E9%81%94-%E5%8F%B0%E7%A9%8D%E9%9B%BB%E9%9B%A3%E6%84%8F%E5%A4%96-%E5%8D%8A%E5%B0%8E%E9%AB%94%E5%85%A8%E8%BB%8D%E8%A6%86%E6%B2%92-pc%E9%9C%80%E6%B1%82%E6%81%90%E5%86%B0%E5%B0%81%E8%87%B32027%E5%B9%B4-061359857.html",
       "source": "Yahoo 股市",
@@ -37,27 +53,11 @@
       "tags": []
     },
     {
-      "title": "掌上遊戲機散熱揭秘：Steam Deck OLED 與 ROG掌機效能比拚",
-      "url": "https://tw.stock.yahoo.com/news/%E6%8E%8C%E4%B8%8A%E9%81%8A%E6%88%B2%E6%A9%9F%E6%95%A3%E7%86%B1%E6%8F%AD%E7%A7%98-steam-deck-oled-%E8%88%87-061051691.html",
-      "source": "Yahoo 股市",
-      "published": "2026-11-02T14:10+08:00",
-      "summary": "商傳媒｜責任編輯／綜合外電報導掌上型遊戲機在長時間遊玩後，散熱表現成為影響使用者體驗的關鍵因素。近日有媒體公開一套詳細的熱力學測試方法，旨在評估 Steam Deck OLED、ROG掌機（華碩（AS",
-      "tags": []
-    },
-    {
       "title": "〈焦點股〉外資看好矽光放量提高目標價 聯亞黑翻紅強漲4%",
       "url": "https://news.cnyes.com/news/id/6643793",
       "source": "鉅亨網",
       "published": "2026-11-02T14:01+08:00",
       "summary": "美系外資看好聯亞矽光子放量、CW雷射營收優於預期，上修2026至2029年獲利預估調升目標價，維持買進。 聯亞第3季自結獲利優於預期，AI資料中心相關營收占比升至80%以上，9月營收5.4億元、年增190%。 外資估第4季營收季增16%、雙",
-      "tags": []
-    },
-    {
-      "title": "如果你是Google掌門敢不花錢投資？國泰金李長庚喊AI不會死掉！雜音僅小波瀾：算力仍缺，台灣榮景正開始",
-      "url": "https://tw.news.yahoo.com/%E5%A6%82%E6%9E%9C%E4%BD%A0%E6%98%AFgoogle%E6%8E%8C%E9%96%80%E6%95%A2%E4%B8%8D%E8%8A%B1%E9%8C%A2%E6%8A%95%E8%B3%87-%E5%9C%8B%E6%B3%B0%E9%87%91%E6%9D%8E%E9%95%B7%E5%BA%9A%E5%96%8Aai%E4%B8%8D%E6%9C%83%E6%AD%BB%E6%8E%89-%E9%9B%9C%E9%9F%B3%E5%83%85%E5%B0%8F%E6%B3%A2%E7%80%BE-%E7%AE%97%E5%8A%9B%E4%BB%8D%E7%BC%BA-%E5%8F%B0%E7%81%A3%E6%A6%AE%E6%99%AF%E6%AD%A3%E9%96%8B%E5%A7%8B-060002481.html",
-      "source": "Yahoo 股市",
-      "published": "2026-11-02T14:00+08:00",
-      "summary": "週五台股於盤中一度暴跌逾1600點、外資賣超1100億元寫下史上第7大賣超，將時間拉長到整個10月，外資更寫下賣超破9900億元的歷史新高紀錄；其中的導火線之一，就是美國科技巨頭因「自由現金流轉負」引",
       "tags": []
     },
     {
