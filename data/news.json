@@ -1,9 +1,25 @@
 {
-  "updated": "2026-11-03T16:30:45+08:00",
+  "updated": "2026-11-03T16:45:32+08:00",
   "ai_summary": false,
   "model": null,
-  "candidates_sig": "4cd834d1bd501236fe3d84ec41b6b5015726eab0",
+  "candidates_sig": "c6382e67611f7dd65aa5e9cba46b83b5e0b9c3fe",
   "items": [
+    {
+      "title": "台灣資安通報應變年會今登場，聚焦AI威脅攻防新戰局",
+      "url": "https://tw.stock.yahoo.com/news/%E5%8F%B0%E7%81%A3%E8%B3%87%E5%AE%89%E9%80%9A%E5%A0%B1%E6%87%89%E8%AE%8A%E5%B9%B4%E6%9C%83%E4%BB%8A%E7%99%BB%E5%A0%B4-%E8%81%9A%E7%84%A6ai%E5%A8%81%E8%84%85%E6%94%BB%E9%98%B2%E6%96%B0%E6%88%B0%E5%B1%80-083803593.html",
+      "source": "Yahoo 股市",
+      "published": "2026-11-03T16:38+08:00",
+      "summary": "【財訊快報／記者陳浩寧報導】隨著生成式與代理式AI快速發展，資安攻擊手法正朝自動化、精準化與規模化演進；與此同時，AI也成為威脅偵測、分析與應變決策的重要工具。「台灣資安通報應變年會」今年正式邁入第十",
+      "tags": []
+    },
+    {
+      "title": "AI訂單滿手、股價卻崩跌！台股殺1600點 法人揭下一波贏家",
+      "url": "https://tw.news.yahoo.com/ai%E8%A8%82%E5%96%AE%E6%BB%BF%E6%89%8B-%E8%82%A1%E5%83%B9%E5%8D%BB%E5%B4%A9%E8%B7%8C-%E5%8F%B0%E8%82%A1%E6%AE%BA1600%E9%BB%9E-%E6%B3%95%E4%BA%BA%E6%8F%AD%E4%B8%8B-%E6%B3%A2%E8%B4%8F%E5%AE%B6-082800334.html",
+      "source": "Yahoo 股市",
+      "published": "2026-11-03T16:28+08:00",
+      "summary": "今日台股重挫逾1600點，投資人想撿便宜，又怕接到下墜的刀；想砍股票，又怕賣在反彈前夕。當AI投資從比拚資本支出，走向檢驗獲利與現金回收，投資人該看的不只是跌幅。兩位ETF經理人指出，訂單兌現、現金流",
+      "tags": []
+    },
     {
       "title": "台股崩跌1612點失守4萬4！該逃還是撿便宜？李其展曝3關鍵",
       "url": "https://tw.news.yahoo.com/%E5%8F%B0%E8%82%A1%E5%B4%A9%E8%B7%8C1612%E9%BB%9E%E5%A4%B1%E5%AE%884%E8%90%AC4-%E8%A9%B2%E9%80%83%E9%82%84%E6%98%AF%E6%92%BF%E4%BE%BF%E5%AE%9C-%E6%9D%8E%E5%85%B6%E5%B1%95%E6%9B%9D3%E9%97%9C%E9%8D%B5-080300353.html",
@@ -66,22 +82,6 @@
       "source": "Yahoo 股市",
       "published": "2026-11-03T14:46+08:00",
       "summary": "台股3日暴跌逾1600點，市場震盪引發關注。摩爾投顧投資長郭哲榮分析指出，受AI企業籌資疑慮、融資籌碼壓力及科技股修正影響，大盤短線偏向恐慌。但他強調AI長期需求不變，看好半導體、記憶體及基礎建設供應",
-      "tags": []
-    },
-    {
-      "title": "高階玻纖布需求爆發！AI伺服器帶動73億擴產潮，資金轉進台玻逆勢漲停-財經焦點情報站",
-      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQdFdyUUQ1d1RxWE8yd3R5c1dUZ2otOGQ0R1BmYXc2TXlHVmRlTWdmbUw5dF9IM2ItNkhVRWc0eUNDQkFUcnhpQmRfb0hLeXo1WUVVb21hS1g1R3JMZGNMZ3gwWjRFVmJWM1IteHdsZ1M4OGRRZnRwWmNCMjM2Tm56eEpn?oc=5",
-      "source": "CMoney投資網誌",
-      "published": "2026-11-03T14:15+08:00",
-      "summary": "",
-      "tags": []
-    },
-    {
-      "title": "說好的5萬點呢？國家隊護盤被打0分！暴跌1600點 郭哲榮喊台股發瘋了",
-      "url": "https://tw.news.yahoo.com/%E8%AA%AA%E5%A5%BD%E7%9A%845%E8%90%AC%E9%BB%9E%E5%91%A2-%E5%9C%8B%E5%AE%B6%E9%9A%8A%E8%AD%B7%E7%9B%A4%E8%A2%AB%E6%89%930%E5%88%86-%E6%9A%B4%E8%B7%8C1600%E9%BB%9E-%E9%83%AD%E5%93%B2%E6%A6%AE%E5%96%8A%E5%8F%B0%E8%82%A1%E7%99%BC%E7%98%8B%E4%BA%86-055900850.html",
-      "source": "Yahoo 股市",
-      "published": "2026-11-03T13:59+08:00",
-      "summary": "受到國際科技股與亞股重挫影響，台股加權指數盤中暴跌逾1700點，摜破4萬4千點大關，權王台積電與電子族群賣壓沉重。面對市場恐慌，知名分析師郭哲榮信心喊話，強調AI絕非泡沫，並豪賭若年底台股未達5萬點，",
       "tags": []
     }
   ]
