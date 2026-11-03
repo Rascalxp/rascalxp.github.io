@@ -1,87 +1,87 @@
 {
-  "updated": "2026-11-03T12:10:34+08:00",
+  "updated": "2026-11-03T15:00:55+08:00",
   "ai_summary": false,
   "model": null,
-  "candidates_sig": "6ca39d392fcb7a2d95989485970a6081e54890f2",
+  "candidates_sig": "6c3dc24355fada1655727403c1d193b17f147ccb",
   "items": [
     {
-      "title": "聯發科今年營收將衝破210億美元 蔡力行信心喊話「請大家多買我們家股票」",
-      "url": "https://news.cnyes.com/news/id/6644849",
-      "source": "鉅亨網",
-      "published": "2026-11-03T12:08+08:00",
-      "summary": "蔡力行在臺灣週喊話投資人多買聯發科股票，並看好公司長期發展，認為抱緊可望迎來回報。 聯發科預估2026年營收將突破210億美元創新高，並加速布局運算、車用與AI資料中心。 蔡力行稱NVIDIA與Alphabet參與39億美元CB，顯示國際A",
-      "tags": []
-    },
-    {
-      "title": "同欣電(6271)第三季毛利率衝上33.7%！FAU瞄準2027年放量，AI光通訊成新成長引擎",
-      "url": "https://news.cnyes.com/news/id/6644866",
-      "source": "鉅亨網",
-      "published": "2026-11-03T12:00+08:00",
-      "summary": "2026年11月3日（優分析／產業數據中心報導）⸺ 同欣電受惠AI資料中心光通訊需求升溫，第三季毛利率升至33.7%，連續走高並突破公司原有目標區間。 800G光模組持續量產，FAU自動化設備也通過客戶認可，預期2027年進入較大量產階段，",
-      "tags": []
-    },
-    {
-      "title": "《價值型投資 最新產業研究報告》文曄 (3036-TW) 法說前營收雙創高，資料中心與歐美業務接力",
-      "url": "https://news.cnyes.com/news/id/6644855",
-      "source": "鉅亨網",
-      "published": "2026-11-03T11:55+08:00",
-      "summary": "文曄9月營收約2,159億元、第三季約5,973億元，年增約82%，並創新高。 11月5日將舉行法說會，市場關注資料中心零件需求、產品組合與第四季拉貨。 AI伺服器、光通訊及歐美工業車用回溫，帶動通路與備貨需求擴大。",
-      "tags": []
-    },
-    {
-      "title": "抱25年賺163倍！蔡力行喊買聯發科 今年營收衝破210億美元",
-      "url": "https://tw.stock.yahoo.com/news/%E6%8A%B125%E5%B9%B4%E8%B3%BA163%E5%80%8D-%E8%94%A1%E5%8A%9B%E8%A1%8C%E5%96%8A%E8%B2%B7%E8%81%AF%E7%99%BC%E7%A7%91-%E4%BB%8A%E5%B9%B4%E7%87%9F%E6%94%B6%E8%A1%9D%E7%A0%B4210%E5%84%84%E7%BE%8E%E5%85%83-033840202.html",
+      "title": "台股跌幅比美韓還重免驚？郭哲榮照喊年底破5萬點、點名「多檔個股」",
+      "url": "https://tw.news.yahoo.com/%E5%8F%B0%E8%82%A1%E8%B7%8C%E5%B9%85%E6%AF%94%E7%BE%8E%E9%9F%93%E9%82%84%E9%87%8D%E5%85%8D%E9%A9%9A-%E9%83%AD%E5%93%B2%E6%A6%AE%E7%85%A7%E5%96%8A%E5%B9%B4%E5%BA%95%E7%A0%B45%E8%90%AC%E9%BB%9E-%E9%BB%9E%E5%90%8D-%E5%A4%9A%E6%AA%94%E5%80%8B%E8%82%A1-064500546.html",
       "source": "Yahoo 股市",
-      "published": "2026-11-03T11:38+08:00",
-      "summary": "聯發科副董事長暨執行長蔡力行在「2026台灣週」演講預告，聯發科2026年營收將一舉衝破210億美元大關，更在現場罕見向投資人喊話「鼓勵大家買聯發科股票」；蔡力行指出，聯發科正站在全球AI運算需求大爆",
+      "published": "2026-11-03T14:45+08:00",
+      "summary": "台股3日暴跌逾1600點，市場震盪引發關注。摩爾投顧投資長郭哲榮分析指出，受AI企業籌資疑慮、融資籌碼壓力及科技股修正影響，大盤短線偏向恐慌。但他強調AI長期需求不變，看好半導體、記憶體及基礎建設供應",
       "tags": []
     },
     {
-      "title": "AI股綠油油！「這檔」9月獲利暴增291%仍大跌5.79% 穎崴、宏碁資訊重摔半根、川湖漲2.6%撐盤",
-      "url": "https://news.google.com/rss/articles/CBMilAJBVV95cUxPRlp5WkdsTGpxRWhRQ3JvbF85Q0RLQlVzY1paeGZ6NDgyX3RrLVMtS1FVaS1jZ1FrN2ZnakNRVXJkcmJUOS1oN25JdGVYQ2dGTEhFNDFKbDJDSWVKQnZXbFBnMFF1b1M4QnZ1QTg3S01DR1ZtcFlfQy15VmY0X1hQY0JmRTRpR25vVnZiWTNMNGVNNUZkVlJGbzZtVzBJd0NHaTV2ZWx5VXp3NjdsWmZmeG0wQTVETlBYbW5vYzlFLXJmaTNrY2tIRE10empfNVAyR2F1RjQ4WUZwanVBUUtYSXdpQ21Gc1BpRVpqTlVfUWZjY3huZU9wNHlndi1Nb0ZmQ1lZUDd2bFA0ZDVuS2NTR19KQ2c?oc=5",
-      "source": "Yahoo股市",
-      "published": "2026-11-03T11:37+08:00",
+      "title": "汎銓與日商安立知簽訂全球合作合約，目標攻CPO高速互連商機",
+      "url": "https://tw.stock.yahoo.com/news/%E6%B1%8E%E9%8A%93%E8%88%87%E6%97%A5%E5%95%86%E5%AE%89%E7%AB%8B%E7%9F%A5%E7%B0%BD%E8%A8%82%E5%85%A8%E7%90%83%E5%90%88%E4%BD%9C%E5%90%88%E7%B4%84-%E7%9B%AE%E6%A8%99%E6%94%BBcpo%E9%AB%98%E9%80%9F%E4%BA%92%E9%80%A3%E5%95%86%E6%A9%9F-061842060.html",
+      "source": "Yahoo 股市",
+      "published": "2026-11-03T14:18+08:00",
+      "summary": "【財訊快報／記者李純君報導】檢測實驗室汎銓(6830)今日宣布，與全球測試量測設備廠Anritsu安立知展開合作，目標是搶攻AI資料中心、矽光子、共同封裝光學(CPO)及高速光互連相關研發驗證商機。汎",
+      "tags": []
+    },
+    {
+      "title": "高階玻纖布需求爆發！AI伺服器帶動73億擴產潮，資金轉進台玻逆勢漲停-財經焦點情報站",
+      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQdFdyUUQ1d1RxWE8yd3R5c1dUZ2otOGQ0R1BmYXc2TXlHVmRlTWdmbUw5dF9IM2ItNkhVRWc0eUNDQkFUcnhpQmRfb0hLeXo1WUVVb21hS1g1R3JMZGNMZ3gwWjRFVmJWM1IteHdsZ1M4OGRRZnRwWmNCMjM2Tm56eEpn?oc=5",
+      "source": "CMoney投資網誌",
+      "published": "2026-11-03T14:15+08:00",
       "summary": "",
       "tags": []
     },
     {
-      "title": "台星科(3265)資本支出暴增至134億元！N2認證完成，2027年AI ASIC成長可期",
-      "url": "https://news.cnyes.com/news/id/6644826",
+      "title": "蘋果財報公布時間11/2，AMD超微也開牌，能力挽熊市？華邦電法說周二接棒，記憶體價格續飆？｜今周重磅",
+      "url": "https://tw.news.yahoo.com/%E8%98%8B%E6%9E%9C%E8%B2%A1%E5%A0%B1%E5%85%AC%E5%B8%83%E6%99%82%E9%96%9311-2-amd%E8%B6%85%E5%BE%AE%E4%B9%9F%E9%96%8B%E7%89%8C-%E8%83%BD%E5%8A%9B%E6%8C%BD%E7%86%8A%E5%B8%82-%E8%8F%AF%E9%82%A6%E9%9B%BB%E6%B3%95%E8%AA%AA%E5%91%A8%E4%BA%8C%E6%8E%A5%E6%A3%92-060002999.html",
+      "source": "Yahoo 股市",
+      "published": "2026-11-03T14:00+08:00",
+      "summary": "英特爾、Alphabet等指標科技股上週財報不如預期，讓科技股拋售潮一發不可收拾。本週，輪到相較穩健的蘋果，以及同樣重壓AIDC的AMD公布財報，能否力挽狂瀾，值得投資留意。 另一方面，美國期中選舉同",
+      "tags": []
+    },
+    {
+      "title": "說好的5萬點呢？國家隊護盤被打0分！暴跌1600點 郭哲榮喊台股發瘋了",
+      "url": "https://tw.news.yahoo.com/%E8%AA%AA%E5%A5%BD%E7%9A%845%E8%90%AC%E9%BB%9E%E5%91%A2-%E5%9C%8B%E5%AE%B6%E9%9A%8A%E8%AD%B7%E7%9B%A4%E8%A2%AB%E6%89%930%E5%88%86-%E6%9A%B4%E8%B7%8C1600%E9%BB%9E-%E9%83%AD%E5%93%B2%E6%A6%AE%E5%96%8A%E5%8F%B0%E8%82%A1%E7%99%BC%E7%98%8B%E4%BA%86-055900850.html",
+      "source": "Yahoo 股市",
+      "published": "2026-11-03T13:59+08:00",
+      "summary": "受到國際科技股與亞股重挫影響，台股加權指數盤中暴跌逾1700點，摜破4萬4千點大關，權王台積電與電子族群賣壓沉重。面對市場恐慌，知名分析師郭哲榮信心喊話，強調AI絕非泡沫，並豪賭若年底台股未達5萬點，",
+      "tags": []
+    },
+    {
+      "title": "台積電、廣達、奇鋐被無妄錯殺！美選後台股AI怎麼買？「歷史數據曝光驚人勝率」3大族群營收翻倍、彈得最快",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBWemR1UThYWUF1UVZGU05DMVRXVVpPRW5pdmxRQ1JHSXhEdS1mQUE2N2Ixakg2VWs4Zk53NTJTRVVSTGJjcVNfbUVOOXRaMnB3VlhnT1RqVzRLOThsM2RJTWd0dzZua0NlUWc?oc=5",
+      "source": "旺得富理財網",
+      "published": "2026-11-03T13:47+08:00",
+      "summary": "",
+      "tags": []
+    },
+    {
+      "title": "宏碁前10月台灣消費性筆電出貨年增15% 全年ASP看增近3成",
+      "url": "https://news.cnyes.com/news/id/6644873",
       "source": "鉅亨網",
-      "published": "2026-11-03T11:30+08:00",
-      "summary": "2026年11月3日（優分析／產業數據中心報導）⸺ 台星科大舉擴產，全年資本支出從原先56.48億元追加至134.27億元，主要瞄準AI、HPC晶圓測試與先進封裝需求。 雖然2026年營收持續成長，但折舊與匯損壓抑短期獲利，市場更關注202",
+      "published": "2026-11-03T13:46+08:00",
+      "summary": "宏碁今辦雙11新品發表會，1到10月台灣消費型市場出貨量年增15%，盼11月單月年增率再逾15% 受產品組合調整與漲價轉嫁，台灣區筆電平均售價年增近三成，全年營收增幅可望超越出貨量 可攜式螢幕台出貨比重約兩成，OLED高階螢幕盼雙11銷售占",
       "tags": []
     },
     {
-      "title": "輝達都說讚！聯發科25連翻33倍 蔡力行：快來買我們家股票",
-      "url": "https://tw.news.yahoo.com/%E8%BC%9D%E9%81%94%E9%83%BD%E8%AA%AA%E8%AE%9A-%E8%81%AF%E7%99%BC%E7%A7%9125%E9%80%A3%E7%BF%BB33%E5%80%8D-%E8%94%A1%E5%8A%9B%E8%A1%8C-%E5%BF%AB%E4%BE%86%E8%B2%B7%E6%88%91%E5%80%91%E5%AE%B6%E8%82%A1%E7%A5%A8-033000392.html",
+      "title": "AI股血流成河！台股崩跌1612點、台積電失守2300元 蔡力行喊話沒用聯發科仍跌7%",
+      "url": "https://tw.news.yahoo.com/ai%E8%82%A1%E8%A1%80%E6%B5%81%E6%88%90%E6%B2%B3%E9%97%9C%E6%B3%A8%E5%B7%9D%E6%99%AEtaco-%E5%8F%B0%E8%82%A1%E5%86%8D%E6%AE%BA700%E9%BB%9E-%E5%8F%B0%E7%A9%8D%E9%9B%BB2300%E4%BF%9D%E8%A1%9B%E6%88%B0-010704369.html",
       "source": "Yahoo 股市",
-      "published": "2026-11-03T11:30+08:00",
-      "summary": "聯發科執行長蔡力行於台灣週演講宣布，今年營收將突破210億美元創歷史新高，市值達2,000億美元並穩居全球第二大行動半導體供應商。受惠AI浪潮與輝達39億美元注資，聯發科全面跨足運算與AI資料中心，展",
+      "published": "2026-11-03T13:39+08:00",
+      "summary": "美期中選舉登場，半導體與科技股賣壓湧現，費半續挫3.37%、輝達收跌1.26%，台積電ADR跌幅1.85%，跌破400美元。AI科技股賣壓未解，台股遭賣超527億元，台指期夜盤暴跌917點，台股開低走",
       "tags": []
     },
     {
-      "title": "台灣週登場，彭金隆：台股市值年增6成，盼台灣從科技島邁向資本島",
-      "url": "https://tw.stock.yahoo.com/news/%E5%8F%B0%E7%81%A3%E9%80%B1%E7%99%BB%E5%A0%B4-%E5%BD%AD%E9%87%91%E9%9A%86-%E5%8F%B0%E8%82%A1%E5%B8%82%E5%80%BC%E5%B9%B4%E5%A2%9E6%E6%88%90-%E7%9B%BC%E5%8F%B0%E7%81%A3%E5%BE%9E%E7%A7%91%E6%8A%80%E5%B3%B6%E9%82%81%E5%90%91%E8%B3%87%E6%9C%AC%E5%B3%B6-032113003.html",
+      "title": "台股怎麼了？AI五巨頭領跌1612點 千金股成重災區",
+      "url": "https://tw.news.yahoo.com/%E5%8F%B0%E8%82%A1%E6%80%8E%E9%BA%BC%E4%BA%86-ai%E4%BA%94%E5%B7%A8%E9%A0%AD%E9%A0%98%E8%B7%8C1612%E9%BB%9E-%E5%8D%83%E9%87%91%E8%82%A1%E6%88%90%E9%87%8D%E7%81%BD%E5%8D%80-053700255.html",
       "source": "Yahoo 股市",
-      "published": "2026-11-03T11:21+08:00",
-      "summary": "【財訊快報／記者劉居全報導】「2026台灣週」今(3)日正式登場，金管會主委彭金隆開幕致詞時表示，台灣具備完整半導體與AI產業鏈，在全球科技發展扮演關鍵角色。彭金隆表示，台股市值在過去一年內增加超過六",
+      "published": "2026-11-03T13:37+08:00",
+      "summary": "台股今天一路下探，從早盤下跌800點一路跌到超過約1700點，加權指數一度來到43,191點，權值股全倒，千金股更是重災區。",
       "tags": []
     },
     {
-      "title": "韓股承壓 台股4天跌掉2800點！矽光子、載板走弱 抗震布局買點曝",
-      "url": "https://tw.news.yahoo.com/%E9%9F%93%E8%82%A1%E6%89%BF%E5%A3%93-%E5%8F%B0%E8%82%A14%E5%A4%A9%E8%B7%8C%E6%8E%892800%E9%BB%9E-%E7%9F%BD%E5%85%89%E5%AD%90-%E8%BC%89%E6%9D%BF%E8%B5%B0%E5%BC%B1-%E6%8A%97%E9%9C%87%E5%B8%83%E5%B1%80%E8%B2%B7%E9%BB%9E%E6%9B%9D-031900845.html",
-      "source": "Yahoo 股市",
-      "published": "2026-11-03T11:19+08:00",
-      "summary": "受到國際科技股與韓股重挫波及，台股早盤大跌失守4萬5千點大關，四天累計狂瀉逾2800點。法人指出，台灣AI剛性需求與經濟動能強勁，長線多頭格局未改，短線拉回反成絕佳買點。建議投資人透過結合AI科技與金",
-      "tags": []
-    },
-    {
-      "title": "聯發科25年來股東年化報酬率約22% 蔡力行笑喊：鼓勵大家買我們的股票",
-      "url": "https://tw.news.yahoo.com/%E8%81%AF%E7%99%BC%E7%A7%9125%E5%B9%B4%E4%BE%86%E8%82%A1%E6%9D%B1%E5%B9%B4%E5%8C%96%E5%A0%B1%E9%85%AC%E7%8E%87%E7%B4%8422-%E8%94%A1%E5%8A%9B%E8%A1%8C%E7%AC%91%E5%96%8A-%E9%BC%93%E5%8B%B5%E5%A4%A7%E5%AE%B6%E8%B2%B7%E6%88%91%E5%80%91%E7%9A%84%E8%82%A1%E7%A5%A8-030400985.html",
-      "source": "Yahoo 股市",
-      "published": "2026-11-03T11:04+08:00",
-      "summary": "年度盛事「2026台灣周（Taiwan Weeks 2026）」開幕式今天登場，現場聚集國內外金融界主管機關和投資機構，尤其近年台灣企業大啖AI商機，備受外資青睞，重要性不言而喻。今天聯發科副董事長暨",
+      "title": "〈焦點股〉台玻前3季獲利亮眼、啟動73億元擴產 一度亮燈漲停",
+      "url": "https://news.cnyes.com/news/id/6644931",
+      "source": "鉅亨網",
+      "published": "2026-11-03T13:20+08:00",
+      "summary": "台玻董事會通過擴產案，擬投資約73億元，增建桃園、鹿港及中國蚌埠產能。 台玻稱為因應AI伺服器帶動的高階玻纖布需求，將擴充窯爐與冷修設備，提升市占率。 法人估台玻高階玻纖布產能今年可望大增，新產能開出後有助營收成長。",
       "tags": []
     }
   ]
