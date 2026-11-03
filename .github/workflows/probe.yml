@@ -9,22 +9,11 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v5
-      - run: |
-          mkdir -p probe; cd probe
-          UA="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/126.0 Safari/537.36"
-          g() { curl -sS -m 60 -A "$UA" -o "$1" -w "$1 %{http_code} %{size_download}\n" "$2" >> log.txt 2>&1 || echo "$1 FAIL" >> log.txt; sleep 3; }
-          g mi.json "https://www.twse.com.tw/rwd/zh/afterTrading/MI_INDEX?date=20261103&type=ALLBUT0999&response=json"
-          g mi_ind.json "https://www.twse.com.tw/rwd/zh/afterTrading/MI_INDEX?date=20261103&type=IND&response=json"
-          g bf.json "https://www.twse.com.tw/rwd/zh/afterTrading/BFIAMU?date=20261103&response=json"
-          g bf_prev.json "https://www.twse.com.tw/rwd/zh/afterTrading/BFIAMU?date=20261102&response=json"
-          g isin2.html "https://isin.twse.com.tw/isin/C_public.jsp?strMode=2"
-          g isin4.html "https://isin.twse.com.tw/isin/C_public.jsp?strMode=4"
-          g t187.json "https://openapi.twse.com.tw/v1/opendata/t187ap03_L"
-          g stockday.json "https://openapi.twse.com.tw/v1/exchangeReport/STOCK_DAY_ALL"
-          g tpex_q.json "https://www.tpex.org.tw/openapi/v1/tpex_mainboard_daily_close_quotes"
-          g tpex_basic.json "https://www.tpex.org.tw/openapi/v1/mopsfe_company_basic"
-          for f in isin2.html isin4.html; do iconv -f big5 -t utf-8 -c $f > $f.u8 && mv $f.u8 $f; done
-          cat log.txt
+      - uses: actions/setup-python@v6
+        with: { python-version: "3.12" }
+      - run: pip install -r scripts/requirements.txt
+      - run: python scripts/fetch_sectors.py
       - run: |
           git config user.name probe; git config user.email probe@example.com
-          git add probe; git commit -m probe; git push
+          git rm -rq --cached probe || true
+          git add data/; git commit -m probe-result; git push

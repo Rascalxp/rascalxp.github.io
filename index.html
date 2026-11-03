@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>台股盤後看板</title>
-  <meta name="description" content="每日三大法人籌碼、散戶微台未平倉、大盤分析與 AI 產業新聞整理。">
+  <meta name="description" content="每日三大法人籌碼、散戶微台未平倉、類股資金流向、大盤分析與 AI 產業新聞整理。">
   <meta name="theme-color" content="#0a0d12">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -55,6 +55,7 @@
       <a class="brand" href="#top"><span class="brand-mark"></span><span class="brand-text">台股盤後看板</span></a>
       <nav class="nav" aria-label="區塊">
         <a href="#chips">籌碼</a>
+        <a href="#sectors">類股</a>
         <a href="#analysis">大盤分析</a>
         <a href="#news">新聞</a>
       </nav>
@@ -80,10 +81,37 @@
       </p>
     </section>
 
-    <!-- 02 大盤分析 -->
-    <section class="section" id="analysis">
+    <!-- 02 類股資金流向 -->
+    <section class="section" id="sectors">
       <div class="section-head">
         <span class="section-no">02</span>
+        <h2>類股資金流向</h2>
+        <span class="section-meta" id="sectors-meta"></span>
+      </div>
+      <div class="sector-bar">
+        <div class="sector-summary" id="sector-summary"></div>
+        <div class="seg" role="group" aria-label="排序方式">
+          <button type="button" data-sort="change" aria-pressed="true">漲幅排行</button>
+          <button type="button" data-sort="flow" aria-pressed="false">資金流入</button>
+        </div>
+      </div>
+      <div class="panel sector-table">
+        <div class="sector-row sector-head" aria-hidden="true">
+          <span>#</span><span>類股</span><span>漲跌幅</span>
+          <span class="r">成交金額</span><span class="r">成交比重</span><span class="r">比重增減</span>
+        </div>
+        <ul class="sector-list" id="sector-list"><li class="empty">資料載入中…</li></ul>
+      </div>
+      <p class="chips-foot">
+        上市類股，漲跌幅為證交所類股指數。成交比重 = 該類股成交金額 ÷ 所有類股成交金額合計；比重增減 = 與前一交易日相比（單位：百分點），紅色代表資金流入、綠色代表流出。<br>
+        點類股可看當天漲幅最大的五檔（同漲幅時成交金額大的排前面，不含當天沒成交的股票）。
+      </p>
+    </section>
+
+    <!-- 03 大盤分析 -->
+    <section class="section" id="analysis">
+      <div class="section-head">
+        <span class="section-no">03</span>
         <h2>每日大盤分析</h2>
         <span class="section-meta" id="analysis-meta"></span>
       </div>
@@ -98,10 +126,10 @@
       </div>
     </section>
 
-    <!-- 03 新聞 -->
+    <!-- 04 新聞 -->
     <section class="section" id="news">
       <div class="section-head">
-        <span class="section-no">03</span>
+        <span class="section-no">04</span>
         <h2>股市新聞</h2>
       </div>
       <div class="news-wrap">

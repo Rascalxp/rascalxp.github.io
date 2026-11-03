@@ -129,7 +129,68 @@ main { max-width: 1240px; margin: 0 auto; padding: 8px 16px 48px; }
 .retail-note { font-size: 12px; color: var(--faint); text-align: right; }
 .chips-foot { font-size: 12px; color: var(--faint); margin-top: 10px; }
 
-/* ---------- 02 大盤分析 ---------- */
+/* ---------- 02 類股資金流向 ---------- */
+.sector-bar { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 10px 16px; margin-bottom: 12px; }
+.sector-summary { display: flex; flex-wrap: wrap; gap: 8px; }
+.sum-chip {
+  display: inline-flex; align-items: baseline; gap: 6px; font-size: 13px;
+  background: var(--panel); border: 1px solid var(--line); border-radius: 999px; padding: 3px 12px;
+}
+.sum-chip b { font-weight: 700; }
+.seg { display: inline-flex; border: 1px solid var(--line); border-radius: 8px; overflow: hidden; }
+.seg button {
+  font: inherit; font-size: 13px; color: var(--muted); background: var(--panel); border: 0;
+  padding: 6px 14px; cursor: pointer;
+}
+.seg button + button { border-left: 1px solid var(--line); }
+.seg button[aria-pressed="true"] { color: #111; background: var(--accent); font-weight: 700; }
+.seg button:focus-visible { outline: 2px solid var(--accent); outline-offset: -2px; }
+
+.sector-table { overflow: hidden; }
+.sector-list { list-style: none; margin: 0; padding: 0; }
+.sector-list > li + li { border-top: 1px solid var(--line); }
+.sector-row {
+  display: grid; align-items: center; gap: 4px 14px;
+  grid-template-columns: 28px minmax(110px, 1.1fr) minmax(170px, 1.6fr) 100px 90px 90px 18px;
+  width: 100%; padding: 10px 16px; text-align: left;
+  font: inherit; font-size: 14px; color: var(--text); background: none; border: 0;
+}
+button.sector-row { cursor: pointer; }
+button.sector-row:hover, button.sector-row:focus-visible { background: var(--panel-2); outline: none; }
+button.sector-row[aria-expanded="true"] { background: var(--panel-2); box-shadow: inset 3px 0 0 var(--accent); }
+.sector-head { font-size: 12px; color: var(--faint); padding-top: 8px; padding-bottom: 8px; border-bottom: 1px solid var(--line); grid-template-columns: 28px minmax(110px, 1.1fr) minmax(170px, 1.6fr) 100px 90px 90px 18px; }
+.r { text-align: right; }
+.rank-no { color: var(--faint); font-size: 12px; }
+.sector-name { display: flex; flex-direction: column; line-height: 1.35; min-width: 0; }
+.sector-name small { font-size: 11px; opacity: .85; }
+.sector-pct { display: grid; grid-template-columns: minmax(0, 1fr) 68px; align-items: center; gap: 10px; }
+.sector-pct b { text-align: right; font-size: 15px; }
+.pct-bar { position: relative; height: 8px; background: rgba(135, 148, 166, .12); border-radius: 4px; }
+.pct-bar::after { content: ""; position: absolute; left: 50%; top: -3px; bottom: -3px; width: 1px; background: var(--faint); }
+.pct-bar span { position: absolute; top: 0; bottom: 0; }
+.pct-bar .pos { background: var(--up); border-radius: 0 4px 4px 0; }
+.pct-bar .neg { background: var(--down); border-radius: 4px 0 0 4px; }
+.cell-value small { color: var(--faint); font-size: 11px; }
+.lbl { display: none; }
+.chev { color: var(--faint); font-size: 12px; transition: transform .2s; text-align: right; }
+.sector-row[aria-expanded="true"] .chev { transform: rotate(180deg); color: var(--accent); }
+
+.sector-detail { padding: 4px 16px 14px 58px; background: var(--panel-2); overflow-x: auto; }
+.detail-head { display: flex; justify-content: space-between; gap: 8px; font-size: 13px; font-weight: 700; color: var(--accent); margin-bottom: 6px; }
+.detail-head .muted { font-weight: 400; font-size: 12px; }
+.top5 { width: 100%; border-collapse: collapse; font-size: 14px; }
+.top5 th { white-space: nowrap; font-size: 12px; font-weight: 400; color: var(--faint); text-align: left; padding: 4px 8px; border-bottom: 1px solid var(--line); }
+.top5 th.r, .top5 td.r { text-align: right; }
+.top5 td { padding: 7px 8px; border-bottom: 1px solid rgba(34, 43, 56, .6); white-space: nowrap; }
+.top5 tr:last-child td { border-bottom: 0; }
+.top5 .rank {
+  display: inline-block; width: 18px; height: 18px; line-height: 18px; text-align: center; margin-right: 8px;
+  font-size: 11px; border-radius: 4px; background: var(--panel); color: var(--muted);
+}
+.top5 tr:first-child .rank { background: var(--accent); color: #111; font-weight: 700; }
+.limit { font-size: 11px; color: #fff; background: var(--up); border-radius: 3px; padding: 0 4px; margin-left: 6px; vertical-align: 1px; }
+
+/* ---------- 03 大盤分析 ---------- */
 .analysis-wrap { display: grid; grid-template-columns: minmax(0, 1fr) 240px; gap: 16px; align-items: start; }
 .analysis-wrap:has(> .archive[hidden]) { grid-template-columns: minmax(0, 1fr); }
 .article { padding: 24px 28px; min-width: 0; }
@@ -192,7 +253,7 @@ html.lightbox-on { overflow: hidden; }
 .archive button:hover, .archive button:focus-visible { background: var(--panel-2); outline: none; }
 .archive button[aria-current="true"] { background: var(--panel-2); box-shadow: inset 2px 0 0 var(--accent); }
 
-/* ---------- 03 新聞 ---------- */
+/* ---------- 04 新聞 ---------- */
 .news-wrap { display: grid; grid-template-columns: minmax(0, 1.25fr) minmax(0, 1fr); gap: 16px; align-items: start; }
 .col-head { display: flex; align-items: baseline; justify-content: space-between; gap: 8px; margin: 0 0 10px; }
 .col-head h3 { margin: 0; font-size: 17px; }
@@ -242,7 +303,7 @@ footer { border-top: 1px solid var(--line); margin-top: 48px; }
 /* ---------- RWD ---------- */
 @media (max-width: 1000px) {
   .chips-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
-  .analysis-wrap { grid-template-columns: 1fr; }
+  .analysis-wrap { grid-template-columns: minmax(0, 1fr); }
   .archive { position: static; }
   .archive ul { max-height: none; display: flex; gap: 6px; overflow-x: auto; }
   .archive li { flex: 0 0 auto; }
@@ -262,4 +323,20 @@ footer { border-top: 1px solid var(--line); margin-top: 48px; }
   .news-item { padding: 12px 14px; }
   .yt-video { grid-template-columns: 120px minmax(0, 1fr); }
   .section-meta { margin-left: 0; width: 100%; }
+  .sector-head { display: none; }
+  .sector-row {
+    grid-template-columns: 22px repeat(3, minmax(0, 1fr)) 14px;
+    grid-template-areas: "no name pct pct chev" ". value share flow flow";
+    padding: 10px 12px; gap: 2px 10px;
+  }
+  .rank-no { grid-area: no; } .sector-name { grid-area: name; } .sector-pct { grid-area: pct; } .chev { grid-area: chev; }
+  .cell-value, .cell-share, .cell-flow { font-size: 12px; text-align: left; color: var(--muted); }
+  .cell-value { grid-area: value; } .cell-share { grid-area: share; } .cell-flow { grid-area: flow; }
+  .cell-flow.up { color: var(--up); } .cell-flow.down { color: var(--down); }
+  .lbl { display: inline; color: var(--faint); }
+  .sector-pct { grid-template-columns: minmax(0, 1fr) 62px; gap: 8px; }
+  .sector-detail { padding: 4px 8px 12px; }
+  .top5 { font-size: 13px; }
+  .top5 th, .top5 td { padding: 6px 5px; }
+  .hide-sm { display: none; }
 }
