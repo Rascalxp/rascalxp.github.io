@@ -1,14 +1,46 @@
 {
-  "updated": "2026-11-03T11:54:25+08:00",
+  "updated": "2026-11-03T12:10:34+08:00",
   "ai_summary": false,
   "model": null,
-  "candidates_sig": "f5dce5fc50ddb78f1c39dd0e6faf164fcc60be90",
+  "candidates_sig": "6ca39d392fcb7a2d95989485970a6081e54890f2",
   "items": [
+    {
+      "title": "聯發科今年營收將衝破210億美元 蔡力行信心喊話「請大家多買我們家股票」",
+      "url": "https://news.cnyes.com/news/id/6644849",
+      "source": "鉅亨網",
+      "published": "2026-11-03T12:08+08:00",
+      "summary": "蔡力行在臺灣週喊話投資人多買聯發科股票，並看好公司長期發展，認為抱緊可望迎來回報。 聯發科預估2026年營收將突破210億美元創新高，並加速布局運算、車用與AI資料中心。 蔡力行稱NVIDIA與Alphabet參與39億美元CB，顯示國際A",
+      "tags": []
+    },
+    {
+      "title": "同欣電(6271)第三季毛利率衝上33.7%！FAU瞄準2027年放量，AI光通訊成新成長引擎",
+      "url": "https://news.cnyes.com/news/id/6644866",
+      "source": "鉅亨網",
+      "published": "2026-11-03T12:00+08:00",
+      "summary": "2026年11月3日（優分析／產業數據中心報導）⸺ 同欣電受惠AI資料中心光通訊需求升溫，第三季毛利率升至33.7%，連續走高並突破公司原有目標區間。 800G光模組持續量產，FAU自動化設備也通過客戶認可，預期2027年進入較大量產階段，",
+      "tags": []
+    },
+    {
+      "title": "《價值型投資 最新產業研究報告》文曄 (3036-TW) 法說前營收雙創高，資料中心與歐美業務接力",
+      "url": "https://news.cnyes.com/news/id/6644855",
+      "source": "鉅亨網",
+      "published": "2026-11-03T11:55+08:00",
+      "summary": "文曄9月營收約2,159億元、第三季約5,973億元，年增約82%，並創新高。 11月5日將舉行法說會，市場關注資料中心零件需求、產品組合與第四季拉貨。 AI伺服器、光通訊及歐美工業車用回溫，帶動通路與備貨需求擴大。",
+      "tags": []
+    },
+    {
+      "title": "抱25年賺163倍！蔡力行喊買聯發科 今年營收衝破210億美元",
+      "url": "https://tw.stock.yahoo.com/news/%E6%8A%B125%E5%B9%B4%E8%B3%BA163%E5%80%8D-%E8%94%A1%E5%8A%9B%E8%A1%8C%E5%96%8A%E8%B2%B7%E8%81%AF%E7%99%BC%E7%A7%91-%E4%BB%8A%E5%B9%B4%E7%87%9F%E6%94%B6%E8%A1%9D%E7%A0%B4210%E5%84%84%E7%BE%8E%E5%85%83-033840202.html",
+      "source": "Yahoo 股市",
+      "published": "2026-11-03T11:38+08:00",
+      "summary": "聯發科副董事長暨執行長蔡力行在「2026台灣週」演講預告，聯發科2026年營收將一舉衝破210億美元大關，更在現場罕見向投資人喊話「鼓勵大家買聯發科股票」；蔡力行指出，聯發科正站在全球AI運算需求大爆",
+      "tags": []
+    },
     {
       "title": "AI股綠油油！「這檔」9月獲利暴增291%仍大跌5.79% 穎崴、宏碁資訊重摔半根、川湖漲2.6%撐盤",
       "url": "https://news.google.com/rss/articles/CBMilAJBVV95cUxPRlp5WkdsTGpxRWhRQ3JvbF85Q0RLQlVzY1paeGZ6NDgyX3RrLVMtS1FVaS1jZ1FrN2ZnakNRVXJkcmJUOS1oN25JdGVYQ2dGTEhFNDFKbDJDSWVKQnZXbFBnMFF1b1M4QnZ1QTg3S01DR1ZtcFlfQy15VmY0X1hQY0JmRTRpR25vVnZiWTNMNGVNNUZkVlJGbzZtVzBJd0NHaTV2ZWx5VXp3NjdsWmZmeG0wQTVETlBYbW5vYzlFLXJmaTNrY2tIRE10empfNVAyR2F1RjQ4WUZwanVBUUtYSXdpQ21Gc1BpRVpqTlVfUWZjY3huZU9wNHlndi1Nb0ZmQ1lZUDd2bFA0ZDVuS2NTR19KQ2c?oc=5",
       "source": "Yahoo股市",
-      "published": "2026-11-03T11:30+08:00",
+      "published": "2026-11-03T11:37+08:00",
       "summary": "",
       "tags": []
     },
@@ -50,38 +82,6 @@
       "source": "Yahoo 股市",
       "published": "2026-11-03T11:04+08:00",
       "summary": "年度盛事「2026台灣周（Taiwan Weeks 2026）」開幕式今天登場，現場聚集國內外金融界主管機關和投資機構，尤其近年台灣企業大啖AI商機，備受外資青睞，重要性不言而喻。今天聯發科副董事長暨",
-      "tags": []
-    },
-    {
-      "title": "〈焦點股〉長榮航下半年獲利樂觀 逆勢抗跌飛出3個月來新高價",
-      "url": "https://news.cnyes.com/news/id/6644730",
-      "source": "鉅亨網",
-      "published": "2026-11-03T10:51+08:00",
-      "summary": "長榮航受惠客貨運暢旺，盤中股價漲逾2%，創8月上旬來高點。 法人指高油價支撐票價，而航空燃油成本回落，估長榮航獲利低點已落在第二季。 AI伺服器與半導體設備急單帶動空運到年底不弱，貨運成長可望延至明年上半年。",
-      "tags": []
-    },
-    {
-      "title": "巴拉圭盼醫療體系導入AI 林佳龍：樂意分享台灣經驗",
-      "url": "https://tw.news.yahoo.com/%E5%B7%B4%E6%8B%89%E5%9C%AD%E7%9B%BC%E9%86%AB%E7%99%82%E9%AB%94%E7%B3%BB%E5%B0%8E%E5%85%A5ai-%E6%9E%97%E4%BD%B3%E9%BE%8D-%E6%A8%82%E6%84%8F%E5%88%86%E4%BA%AB%E5%8F%B0%E7%81%A3%E7%B6%93%E9%A9%97-025125998.html",
-      "source": "Yahoo 股市",
-      "published": "2026-11-03T10:51+08:00",
-      "summary": "關於台灣與南美洲友邦巴拉圭的醫療合作，由於巴國希望將AI導入醫療體系，外交部長林佳龍在社群平台發文表示，台灣樂願分享自身的科技與經驗，積極協助巴拉圭培養人才、提升醫療量能，一起致力讓更多民眾獲得妥善的",
-      "tags": []
-    },
-    {
-      "title": "AI曝險71％亞太之冠！台股市值衝全球第4、台積電破2兆美元",
-      "url": "https://tw.stock.yahoo.com/news/ai%E6%9B%9D%E9%9A%AA71-%E4%BA%9E%E5%A4%AA%E4%B9%8B%E5%86%A0-%E5%8F%B0%E8%82%A1%E5%B8%82%E5%80%BC%E8%A1%9D%E5%85%A8%E7%90%83%E7%AC%AC4-%E5%8F%B0%E7%A9%8D%E9%9B%BB%E7%A0%B42%E5%85%86%E7%BE%8E%E5%85%83-024137670.html",
-      "source": "Yahoo 股市",
-      "published": "2026-11-03T10:41+08:00",
-      "summary": "台灣資本市場迎來大爆發，台股市值一舉超越英國與印度，強勢擠進全球第4大市場。那斯達克（Nasdaq）執行副董事長Edward Knight在台灣週活動演講時指出，台積電市值衝破2兆美元，躍升為全球第7",
-      "tags": []
-    },
-    {
-      "title": "台達電(2308)受惠 AI 伺服器電源、液冷散熱，雙引擎驅動成長！-不敗教主陳重銘",
-      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNeDBES1pBblotbjB5cjNrbkUzdWtuMHA4WHBYc0czVUpzQ2pEd1VDaTIyb0Z6NF9tLUtZY3pPRUNIaHRSRmxUUDdUa1RkVDdkMmZjVUNZSE15V0c2QUVhVHU4cWpoMmtIVFJ3ZFFITER6cWpQUW1HNE9DcldOeV8xa2pn?oc=5",
-      "source": "CMoney投資網誌",
-      "published": "2026-11-03T10:30+08:00",
-      "summary": "",
       "tags": []
     }
   ]
