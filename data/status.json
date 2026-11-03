@@ -1,22 +1,17 @@
 {
   "chips": {
-    "time": "2026-11-03T15:30:36+08:00",
+    "time": "2026-11-03T15:45:29+08:00",
     "ok": true,
     "errors": []
   },
   "news": {
-    "time": "2026-11-03T15:30:48+08:00",
+    "time": "2026-11-03T15:45:36+08:00",
     "ok": true,
-    "errors": [
-      "from_google 失敗：503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=%E5%8F%B0%E8%82%A1+AI%E6%A6%82%E5%BF%B5%E8%82%A1+when%3A2d&hl=zh-TW&gl=TW&ceid=TW%3Azh-Hant"
-    ]
+    "errors": []
   },
   "media": {
-    "time": "2026-11-03T15:30:37+08:00",
+    "time": "2026-11-03T15:45:33+08:00",
     "ok": true,
-    "errors": [
-      "理財達人秀 抓取失敗：影片分頁讀不到資料",
-      "錢線百分百 抓取失敗：影片分頁讀不到資料"
-    ]
+    "errors": []
   }
 }
