@@ -1,0 +1,14 @@
+mi.json 200 251490
+mi_ind.json 200 28764
+bf.json 200 3062
+bf_prev.json 200 2973
+curl: (28) Operation timed out after 60000 milliseconds with 716837 bytes received
+isin2.html 200 716837
+isin2.html FAIL
+curl: (28) Operation timed out after 60000 milliseconds with 833653 bytes received
+isin4.html 200 833653
+isin4.html FAIL
+t187.json 200 1332413
+stockday.json 200 320802
+tpex_q.json 200 5295906
+tpex_basic.json 302 138
