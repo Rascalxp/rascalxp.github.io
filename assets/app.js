@@ -104,7 +104,104 @@
     }
   }
 
-  // ---------- 02 大盤分析 ----------
+  // ---------- 02 類股資金流向 ----------
+  const signedPct = (n, digits = 2) =>
+    n == null ? "—" : (n > 0 ? "+" : n < 0 ? "−" : "") + Math.abs(n).toFixed(digits);
+  const yi = (n) => (n == null ? "—" : (n / 1e8).toLocaleString("zh-TW", { maximumFractionDigits: n >= 1e10 ? 0 : n >= 1e8 ? 1 : 2 }));
+
+  function renderSectorTop(s) {
+    if (!s.top.length) return el("div", { class: "empty" }, "這個類股今天沒有成交資料。");
+    return el("table", { class: "top5" },
+      el("thead", {}, el("tr", {},
+        el("th", {}, "代號"), el("th", {}, "名稱"), el("th", { class: "r" }, "收盤"),
+        el("th", { class: "r hide-sm" }, "漲跌"), el("th", { class: "r" }, "漲跌幅"),
+        el("th", { class: "r" }, "成交（億）"))),
+      el("tbody", {}, s.top.map((t, i) => el("tr", {},
+        el("td", { class: "num" }, el("span", { class: "rank" }, i + 1), t.code),
+        el("td", {}, t.name, t.limit_up ? el("span", { class: "limit" }, "漲停") : null),
+        el("td", { class: "r num" }, t.close.toLocaleString("zh-TW", { minimumFractionDigits: 2 })),
+        el("td", { class: `r num hide-sm ${tone(t.change)}` }, signedPct(t.change)),
+        el("td", { class: `r num ${tone(t.change_pct)}` }, signedPct(t.change_pct) + "%"),
+        el("td", { class: "r num" }, yi(t.value)),
+      ))));
+  }
+
+  function renderSectors(data) {
+    const list = $("sector-list");
+    const sectors = (data && data.sectors) || [];
+    if (!sectors.length) {
+      list.replaceChildren(el("li", { class: "empty" }, "類股資料尚未更新，收盤後會自動抓取。"));
+      return;
+    }
+    $("sectors-meta").textContent = [
+      `資料日期 ${fmtDate(data.date)}`,
+      data.prev_date ? `與 ${fmtDate(data.prev_date)} 比較` : "",
+      data.updated ? `更新 ${fmtTime(data.updated)}` : "",
+    ].filter(Boolean).join("　");
+
+    const up = sectors.filter((s) => s.change_pct > 0).length;
+    const down = sectors.filter((s) => s.change_pct < 0).length;
+    const flows = sectors.filter((s) => s.share_change != null);
+    const inflow = flows.slice().sort((a, b) => b.share_change - a.share_change)[0];
+    const outflow = flows.slice().sort((a, b) => a.share_change - b.share_change)[0];
+    const chip = (label, ...value) => el("span", { class: "sum-chip" }, el("span", { class: "muted" }, label), ...value);
+    $("sector-summary").replaceChildren(
+      data.taiex ? chip("加權指數", el("b", { class: `num ${tone(data.taiex.change_pct)}` }, signedPct(data.taiex.change_pct) + "%")) : "",
+      chip("類股漲／跌", el("b", { class: "num" }, el("span", { class: "up" }, up), "／", el("span", { class: "down" }, down))),
+      inflow && inflow.share_change > 0 ? chip("資金流入最多", el("b", {}, inflow.name), el("span", { class: "num up" }, signedPct(inflow.share_change))) : "",
+      outflow && outflow.share_change < 0 ? chip("流出最多", el("b", {}, outflow.name), el("span", { class: "num down" }, signedPct(outflow.share_change))) : "",
+    );
+
+    const maxPct = Math.max(1, ...sectors.map((s) => Math.abs(s.change_pct)));
+    const open = new Set();
+
+    function draw(sortKey) {
+      const rows = sectors.slice().sort(sortKey === "flow"
+        ? (a, b) => (b.share_change ?? -Infinity) - (a.share_change ?? -Infinity)
+        : (a, b) => b.change_pct - a.change_pct);
+      list.replaceChildren(...rows.map((s, i) => {
+        const id = `sector-${i}`;
+        const w = (Math.abs(s.change_pct) / maxPct) * 50;
+        const isOpen = open.has(s.name);
+        const btn = el("button", { type: "button", class: "sector-row", "aria-expanded": String(isOpen), "aria-controls": id },
+          el("span", { class: "num rank-no" }, i + 1),
+          el("span", { class: "sector-name" },
+            el("b", {}, s.name),
+            el("small", { class: "num" }, el("span", { class: "up" }, `▲${s.up}`), " ", el("span", { class: "down" }, `▼${s.down}`))),
+          el("span", { class: "sector-pct" },
+            el("span", { class: "pct-bar" }, el("span", {
+              class: s.change_pct >= 0 ? "pos" : "neg",
+              style: s.change_pct >= 0 ? `left:50%;width:${w}%` : `right:50%;width:${w}%`,
+            })),
+            el("b", { class: `num ${tone(s.change_pct)}` }, signedPct(s.change_pct) + "%")),
+          el("span", { class: "r num cell-value" }, el("span", { class: "lbl" }, "成交 "), yi(s.value), el("small", {}, " 億")),
+          el("span", { class: "r num cell-share" }, el("span", { class: "lbl" }, "比重 "), s.share == null ? "—" : `${s.share.toFixed(2)}%`),
+          el("span", { class: `r num cell-flow ${tone(s.share_change)}` }, el("span", { class: "lbl" }, "增減 "), signedPct(s.share_change)),
+          el("span", { class: "chev", "aria-hidden": "true" }, "▾"),
+        );
+        const detail = el("div", { class: "sector-detail", id, hidden: !isOpen },
+          el("div", { class: "detail-head" }, `${s.name}　最強五檔`, el("span", { class: "muted" }, `共 ${s.count} 檔`)),
+          renderSectorTop(s));
+        btn.addEventListener("click", () => {
+          const now = btn.getAttribute("aria-expanded") !== "true";
+          btn.setAttribute("aria-expanded", String(now));
+          detail.hidden = !now;
+          if (now) open.add(s.name); else open.delete(s.name);
+        });
+        return el("li", {}, btn, detail);
+      }));
+    }
+
+    document.querySelectorAll("#sectors .seg button").forEach((b) => {
+      b.addEventListener("click", () => {
+        document.querySelectorAll("#sectors .seg button").forEach((x) => x.setAttribute("aria-pressed", String(x === b)));
+        draw(b.dataset.sort);
+      });
+    });
+    draw("change");
+  }
+
+  // ---------- 03 大盤分析 ----------
   // 條列、編號、引言和一般段落之間自動補空行。Markdown 規定要空一行才會分開，
   // 不然清單後面那段會被併進最後一項、段落後面的「2. 」也不會變成編號。
   function separateBlocks(md) {
@@ -233,7 +330,7 @@
     showPost(posts, 0);
   }
 
-  // ---------- 03 新聞 ----------
+  // ---------- 04 新聞 ----------
   function renderNews(data) {
     const list = $("news-list");
     const items = (data && data.items) || [];
@@ -290,13 +387,14 @@
     return (err) => {
       console.error(err);
       const box = $(boxId);
-      box.replaceChildren(el(box.tagName === "OL" ? "li" : "div", { class: "empty" }, msg));
+      box.replaceChildren(el(/^(OL|UL)$/.test(box.tagName) ? "li" : "div", { class: "empty" }, msg));
     };
   }
 
   tickClock();
   setInterval(tickClock, 30 * 1000);
   loadJSON("data/chips.json").then(renderChips).catch(fail("chips-grid", "籌碼資料讀取失敗，請稍後重新整理。"));
+  loadJSON("data/sectors.json").then(renderSectors).catch(fail("sector-list", "類股資料讀取失敗，請稍後重新整理。"));
   loadJSON("data/analysis.json").then(renderAnalysis).catch(fail("article", "大盤分析讀取失敗，請稍後重新整理。"));
   loadJSON("data/news.json").then(renderNews).catch(fail("news-list", "新聞讀取失敗，請稍後重新整理。"));
   loadJSON("data/media.json").then(renderMedia).catch(fail("yt-list", "節目資料讀取失敗，請稍後重新整理。"));

@@ -39,6 +39,10 @@ jobs:
         continue-on-error: true
         run: python scripts/fetch_chips.py
 
+      - name: 類股資金流向
+        continue-on-error: true
+        run: python scripts/fetch_sectors.py
+
       - name: 財經節目（YouTube、Podcast）
         continue-on-error: true
         env:
