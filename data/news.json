@@ -1,8 +1,8 @@
 {
-  "updated": "2026-11-03T19:50:31+08:00",
+  "updated": "2026-11-03T20:10:43+08:00",
   "ai_summary": false,
   "model": null,
-  "candidates_sig": "3da684f7a1c574b3714831aaeb98ad092aea4391",
+  "candidates_sig": "db6ade30c7eacfe4129ec86db9942529d9f8ee06",
   "items": [
     {
       "title": "賴清德：台股已躍升全球第四大市場 揭未來金融服務三大發展方向",
@@ -69,19 +69,19 @@
       "tags": []
     },
     {
+      "title": "日月光CPO和台積電COUPE差在哪？ 封測廠怎麼搶AI商機",
+      "url": "https://tw.news.yahoo.com/%E6%97%A5%E6%9C%88%E5%85%89cpo%E5%92%8C%E5%8F%B0%E7%A9%8D%E9%9B%BBcoupe%E5%B7%AE%E5%9C%A8%E5%93%AA-%E5%B0%81%E6%B8%AC%E5%BB%A0%E6%80%8E%E9%BA%BC%E6%90%B6ai%E5%95%86%E6%A9%9F-094100309.html",
+      "source": "Yahoo 股市",
+      "published": "2026-11-03T17:41+08:00",
+      "summary": "【緯來新聞網】SEMI 矽光子產業聯盟由國際半導體產業協會（SEMI）號召成立，並由台積電與日月光共",
+      "tags": []
+    },
+    {
       "title": "價值買點浮現、買成長+被錯殺股",
       "url": "https://news.cnyes.com/news/id/6645291",
       "source": "鉅亨網",
       "published": "2026-11-03T17:37+08:00",
       "summary": "台股受美伊衝突升溫與AI估值疑慮衝擊，盤中重挫逾1,700點，終場跌1,612點至43,307點，OTC同步跌6.42%。 外資今年累計賣超達2.48兆元；上市櫃跌停75家、186檔跌逾8%，市場恐慌賣壓急遽擴大。",
-      "tags": []
-    },
-    {
-      "title": "盤中盯盤別忘了這功能 永豐金證「到價通知」觸發次數一度增逾5成",
-      "url": "https://news.cnyes.com/news/id/6645204",
-      "source": "鉅亨網",
-      "published": "2026-11-03T17:15+08:00",
-      "summary": "台股11月短短2個交易日跌掉1904點、半年線支撐失守，主要是因外資調節和美股AI資本回報疑慮，推升避險情緒。 永豐金證券「大戶投APP」到價通知觸發大增。 投資人最關注5萬點、48000點月線和46000點季線。",
       "tags": []
     }
   ]
