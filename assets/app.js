@@ -152,13 +152,14 @@
       outflow && outflow.share_change < 0 ? chip("流出最多", el("b", {}, outflow.name), el("span", { class: "num down" }, signedPct(outflow.share_change))) : "",
     );
 
-    const maxPct = Math.max(1, ...sectors.map((s) => Math.abs(s.change_pct)));
+    const TOP_SECTORS = 6; // 只列前 6 名類股
     const open = new Set();
 
     function draw(sortKey) {
       const rows = sectors.slice().sort(sortKey === "flow"
         ? (a, b) => (b.share_change ?? -Infinity) - (a.share_change ?? -Infinity)
-        : (a, b) => b.change_pct - a.change_pct);
+        : (a, b) => b.change_pct - a.change_pct).slice(0, TOP_SECTORS);
+      const maxPct = Math.max(1, ...rows.map((s) => Math.abs(s.change_pct)));
       list.replaceChildren(...rows.map((s, i) => {
         const id = `sector-${i}`;
         const w = (Math.abs(s.change_pct) / maxPct) * 50;
