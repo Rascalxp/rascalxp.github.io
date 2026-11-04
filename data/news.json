@@ -1,15 +1,39 @@
 {
-  "updated": "2026-11-04T16:30:58+08:00",
+  "updated": "2026-11-04T16:45:47+08:00",
   "ai_summary": false,
   "model": null,
-  "candidates_sig": "6f06886be36eee814983dcb289a273e55bdca2f0",
+  "candidates_sig": "97430d4025343d4ca87671738229f8e90744b8c8",
   "items": [
+    {
+      "title": "股市震盪加劇 跌近6%！非投等債逆勢漲、年化9%多",
+      "url": "https://news.cnyes.com/news/id/6646521",
+      "source": "鉅亨網",
+      "published": "2026-11-04T16:38+08:00",
+      "summary": "台股十月自高檔回落，受美科技股波動、資金調整與AI資本支出評價重估影響，加權指數單月跌約5.69%。 0050十月含息報酬率負6.34%；0056正1.09%、00878負0.26%，00988B正0.87%，高股息與債券ETF相對抗震。",
+      "tags": []
+    },
+    {
+      "title": "中華電攜Google拓展AI智慧生活生態圈，推Gemini AI訂閱方案",
+      "url": "https://tw.stock.yahoo.com/news/%E4%B8%AD%E8%8F%AF%E9%9B%BB%E6%94%9Cgoogle%E6%8B%93%E5%B1%95ai%E6%99%BA%E6%85%A7%E7%94%9F%E6%B4%BB%E7%94%9F%E6%85%8B%E5%9C%88-%E6%8E%A8gemini-ai%E8%A8%82%E9%96%B1%E6%96%B9%E6%A1%88-083649010.html",
+      "source": "Yahoo 股市",
+      "published": "2026-11-04T16:36+08:00",
+      "summary": "【財訊快報／記者劉居全報導】搶攻AI加值服務商機，中華電信(2412)自2021年起與Google展開深度合作，從影音娛樂、雲端服務逐步延伸至智慧終端、數位內容及AI 應用領域，今（4）日宣布推出Ge",
+      "tags": []
+    },
     {
       "title": "法人：台股震盪只是情緒修正 AI供應鏈長線趨勢未變",
       "url": "https://tw.news.yahoo.com/%E6%B3%95%E4%BA%BA-%E5%8F%B0%E8%82%A1%E9%9C%87%E7%9B%AA%E5%8F%AA%E6%98%AF%E6%83%85%E7%B7%92%E4%BF%AE%E6%AD%A3-ai%E4%BE%9B%E6%87%89%E9%8F%88%E9%95%B7%E7%B7%9A%E8%B6%A8%E5%8B%A2%E6%9C%AA%E8%AE%8A-082209324.html",
       "source": "Yahoo 股市",
       "published": "2026-11-04T16:22+08:00",
       "summary": "受美國科技股修正、AI資本支出效益雜音升溫，以及市場對全球科技產業評價重新調整影響，台股今日持續震盪，加權指數一度出現較大幅度修正，電子權值股成為市場調節重心。不過，大華銀投信指數量化投資部門主管暨大",
+      "tags": []
+    },
+    {
+      "title": "美選舉變天影響資料中心建置？童子賢：AI已崛起非單一政黨專屬",
+      "url": "https://tw.stock.yahoo.com/news/%E7%BE%8E%E9%81%B8%E8%88%89%E8%AE%8A%E5%A4%A9%E5%BD%B1%E9%9F%BF%E8%B3%87%E6%96%99%E4%B8%AD%E5%BF%83%E5%BB%BA%E7%BD%AE-%E7%AB%A5%E5%AD%90%E8%B3%A2-ai%E5%B7%B2%E5%B4%9B%E8%B5%B7%E9%9D%9E%E5%96%AE-%E6%94%BF%E9%BB%A8%E5%B0%88%E5%B1%AC-081642163.html",
+      "source": "Yahoo 股市",
+      "published": "2026-11-04T16:16+08:00",
+      "summary": "（中央社記者吳家豪台北2026年11月4日電）美國民主黨在期中選舉取得壓倒性勝利，將奪回聯邦參、眾兩院控制權，市場憂心恐牽動全美資料中心建置進度。代工廠和碩(4938)董事長童子賢今天表示，「憂心過度",
       "tags": []
     },
     {
@@ -45,43 +69,19 @@
       "tags": []
     },
     {
+      "title": "美AI股修正加選情攪局 南山人壽總座看台股：訂單明確長線仍看好",
+      "url": "https://tw.stock.yahoo.com/news/%E7%BE%8Eai%E8%82%A1%E4%BF%AE%E6%AD%A3%E5%8A%A0%E9%81%B8%E6%83%85%E6%94%AA%E5%B1%80-%E5%8D%97%E5%B1%B1%E4%BA%BA%E5%A3%BD%E7%B8%BD%E5%BA%A7%E7%9C%8B%E5%8F%B0%E8%82%A1-%E8%A8%82%E5%96%AE%E6%98%8E%E7%A2%BA%E9%95%B7%E7%B7%9A%E4%BB%8D%E7%9C%8B%E5%A5%BD-080500582.html",
+      "source": "Yahoo 股市",
+      "published": "2026-11-04T16:05+08:00",
+      "summary": "【記者林巧雁／台北報導】台股連兩天重挫失守43000點，收42948.91點，南山人壽總經理范文偉今天出席「南山未來大學」受訪指出，主要受到美國AI股回調與美國期中選舉影響，外界多認為領先的民主黨政策",
+      "tags": []
+    },
+    {
       "title": "法巴財富管理全球執行長訪台，看好AI帶動台灣為亞洲成長最快市場之一",
       "url": "https://tw.stock.yahoo.com/news/%E6%B3%95%E5%B7%B4%E8%B2%A1%E5%AF%8C%E7%AE%A1%E7%90%86%E5%85%A8%E7%90%83%E5%9F%B7%E8%A1%8C%E9%95%B7%E8%A8%AA%E5%8F%B0-%E7%9C%8B%E5%A5%BDai%E5%B8%B6%E5%8B%95%E5%8F%B0%E7%81%A3%E7%82%BA%E4%BA%9E%E6%B4%B2%E6%88%90%E9%95%B7%E6%9C%80%E5%BF%AB%E5%B8%82%E5%A0%B4%E4%B9%8B-080232511.html",
       "source": "Yahoo 股市",
       "published": "2026-11-04T16:02+08:00",
       "summary": "【財訊快報／記者劉居全報導】法國巴黎銀行財富管理全球執行長龍維勝（Vincent Lecomte）此次來台，重申對台灣市場的長期承諾與發展信心。龍維勝表示，AI與半導體產業蓬勃發展，正為台灣帶來新一波",
-      "tags": []
-    },
-    {
-      "title": "AI助攻，台PCB產值明年上看1.54兆元，供應鏈門檻墊高，材料缺貨延續",
-      "url": "https://tw.stock.yahoo.com/news/ai%E5%8A%A9%E6%94%BB-%E5%8F%B0pcb%E7%94%A2%E5%80%BC%E6%98%8E%E5%B9%B4%E4%B8%8A%E7%9C%8B1-54%E5%85%86%E5%85%83-%E4%BE%9B%E6%87%89%E9%8F%88%E9%96%80%E6%AA%BB%E5%A2%8A%E9%AB%98-%E6%9D%90%E6%96%99%E7%BC%BA%E8%B2%A8%E5%BB%B6%E7%BA%8C-080022751.html",
-      "source": "Yahoo 股市",
-      "published": "2026-11-04T16:00+08:00",
-      "summary": "【財訊快報／記者李純君報導】AI基礎建設投資持續擴張，帶動台灣PCB產業進入新一波高速成長期，工研院產科國際所預估，2027年產值進一步攀升至1.54兆元新台幣，年增約28.3%。此外，AI平台的世代",
-      "tags": []
-    },
-    {
-      "title": "11/4台股收盤跌358點，環球晶重挫、AI伺服器逆勢漲停",
-      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1rTFJWS1pwdjVHOTJibVlxVURLUVIyRV8tX3BqSEFYSS1pRVYzSGlWbl9wSXBPZ2IyUi00NVl0dmhWanpFZkk4MVljcHpXZF9sY2ZEUms5X1NISUliVDRLeFZwNlE0UQ?oc=5",
-      "source": "口袋證券",
-      "published": "2026-11-04T15:56+08:00",
-      "summary": "",
-      "tags": []
-    },
-    {
-      "title": "統一期貨：台股早盤由紅翻黑重挫，盤中電子權值股回神急拉收斂跌幅",
-      "url": "https://tw.stock.yahoo.com/news/%E7%B5%B1-%E6%9C%9F%E8%B2%A8-%E5%8F%B0%E8%82%A1%E6%97%A9%E7%9B%A4%E7%94%B1%E7%B4%85%E7%BF%BB%E9%BB%91%E9%87%8D%E6%8C%AB-%E7%9B%A4%E4%B8%AD%E9%9B%BB%E5%AD%90%E6%AC%8A%E5%80%BC%E8%82%A1%E5%9B%9E%E7%A5%9E%E6%80%A5%E6%8B%89%E6%94%B6%E6%96%82%E8%B7%8C%E5%B9%85-074229889.html",
-      "source": "Yahoo 股市",
-      "published": "2026-11-04T15:42+08:00",
-      "summary": "【財訊快報／編輯部】美國期中選舉前觀望氣氛濃厚，日韓股市重挫、台幣續貶，台股早盤由紅翻黑重挫，盤中電子權值股回神急拉收斂跌幅，日K仍連收黑；資安股受網銀盜領事件激勵亮燈，機器人、塑化族群亦逆勢走強。",
-      "tags": []
-    },
-    {
-      "title": "7800億美元AI資本支出掀巨浪！貝萊德：高風險「加持」大宗商品超級週期來了",
-      "url": "https://news.cnyes.com/news/id/6646342",
-      "source": "鉅亨網",
-      "published": "2026-11-04T15:37+08:00",
-      "summary": "台灣週登場，貝萊德iShares辦ETF論壇，攜手林修銘、張振山等討論ETF國際化與亞資中心發展。 AI與基建推升需求，五大CSP資本支出估2026年近7800億美元，帶動銅等關鍵礦產需求暴增。 惟礦業資本支出僅590億美元且供給不足，銅產",
       "tags": []
     }
   ]
