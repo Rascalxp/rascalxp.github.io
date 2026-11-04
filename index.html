@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>台股盤後看板</title>
-  <meta name="description" content="每日三大法人籌碼、散戶微台未平倉、類股資金流向、大盤分析與 AI 產業新聞整理。">
+  <meta name="description" content="每日三大法人籌碼、散戶微台未平倉、類股成交比重、大盤分析與 AI 產業新聞整理。">
   <meta name="theme-color" content="#0a0d12">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -81,26 +81,33 @@
       </p>
     </section>
 
-    <!-- 02 類股資金流向 -->
+    <!-- 02 類股成交比重 -->
     <section class="section" id="sectors">
       <div class="section-head">
         <span class="section-no">02</span>
-        <h2>類股資金流向</h2>
+        <h2>類股成交比重</h2>
         <span class="section-meta" id="sectors-meta"></span>
       </div>
       <div class="sector-bar">
         <dl class="sector-summary" id="sector-summary"></dl>
-        <div class="seg" role="group" aria-label="排序方式">
-          <button type="button" data-sort="flow" aria-pressed="true" disabled>成交比重增減</button>
-          <button type="button" data-sort="change" aria-pressed="false" disabled>漲跌幅</button>
+        <div class="sector-controls" id="sector-controls" hidden>
+          <div class="seg" role="group" aria-label="排序依據">
+            <button type="button" data-sort="flow" aria-pressed="true">成交比重增減</button>
+            <button type="button" data-sort="change" aria-pressed="false">漲跌幅</button>
+          </div>
+          <div class="seg" role="group" aria-label="排序方向">
+            <button type="button" data-dir="top" aria-pressed="true">增加最多</button>
+            <button type="button" data-dir="bottom" aria-pressed="false">減少最多</button>
+          </div>
         </div>
       </div>
+      <p class="sr-only" id="sector-status" aria-live="polite"></p>
       <div class="panel sector-table">
         <ul class="sector-list" id="sector-list"><li class="empty">資料載入中…</li></ul>
       </div>
       <p class="chips-foot">
-        上市類股，依成交比重增減或漲跌幅列出前 6 名。成交比重 = 該類股成交金額 ÷ 所有類股成交金額合計；比重增減是和前一交易日相比，單位是百分點。比重上升代表當天的成交相對集中到這個類股，不等於法人或散戶淨買進。<br>
-        漲跌幅為證交所類股指數。長條滿格是 ±2 個百分點（比重增減）或 ±10%（漲跌幅）。點類股可看漲幅前五檔：同漲幅時成交金額大的排前面，不含當天沒成交的股票。
+        上市類股，每次列 6 類。成交比重 = 類股成交金額 ÷ 所有類股成交金額合計，比重增減是和前一交易日相比（單位：百分點），代表成交往哪些類股集中，不是買賣超。紅綠只用在漲跌。<br>
+        長條滿格是 ±2 個百分點或 ±10%。點類股看表現最佳五檔：依漲跌幅排序，同漲幅時成交金額大的排前面，不含沒成交的股票。
       </p>
     </section>
 
