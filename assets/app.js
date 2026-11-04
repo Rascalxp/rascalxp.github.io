@@ -107,81 +107,157 @@
   // ---------- 02 類股資金流向 ----------
   const signedPct = (n, digits = 2) =>
     n == null ? "—" : (n > 0 ? "+" : n < 0 ? "−" : "") + Math.abs(n).toFixed(digits);
-  const yi = (n) => (n == null ? "—" : (n / 1e8).toLocaleString("zh-TW", { maximumFractionDigits: n >= 1e10 ? 0 : n >= 1e8 ? 1 : 2 }));
+  const fmtNum = (n, digits) => n.toLocaleString("zh-TW", { minimumFractionDigits: digits, maximumFractionDigits: digits });
+  const yi = (n, digits = 1) => (n == null ? "—" : fmtNum(n / 1e8, digits));
+  const growth = (now, prev) => (now != null && prev ? (now / prev - 1) * 100 : null);
+
+  const TOP_SECTORS = 6;   // 只列前 6 名類股
+  const SORT_KEY = "sectorSort";
+  // 長條固定刻度：漲跌幅以漲跌停 ±10% 為滿格，比重增減以 ±2 個百分點為滿格，不同天才能互相比較
+  const MODES = {
+    flow: {
+      label: "成交比重增減", unit: "百分點", scale: 2,
+      value: (s) => s.share_change, sort: (a, b) => (b.share_change ?? -Infinity) - (a.share_change ?? -Infinity),
+    },
+    change: {
+      label: "漲跌幅", unit: "%", scale: 10,
+      value: (s) => s.change_pct, sort: (a, b) => b.change_pct - a.change_pct,
+    },
+  };
+
+  function readSort() {
+    try { return localStorage.getItem(SORT_KEY); } catch (e) { return null; }
+  }
+  function saveSort(key) {
+    try { localStorage.setItem(SORT_KEY, key); } catch (e) { /* 無痕模式等情況不記也沒關係 */ }
+  }
 
   function renderSectorTop(s) {
-    if (!s.top.length) return el("div", { class: "empty" }, "這個類股今天沒有成交資料。");
+    if (!s.top.length) return el("p", { class: "detail-note" }, "這個類股今天沒有成交資料。");
     return el("table", { class: "top5" },
       el("thead", {}, el("tr", {},
-        el("th", {}, "代號"), el("th", {}, "名稱"), el("th", { class: "r" }, "收盤"),
-        el("th", { class: "r hide-sm" }, "漲跌"), el("th", { class: "r" }, "漲跌幅"),
-        el("th", { class: "r" }, "成交（億）"))),
+        el("th", { scope: "col" }, "代號"), el("th", { scope: "col" }, "名稱"), el("th", { scope: "col", class: "r" }, "收盤"),
+        el("th", { scope: "col", class: "r hide-sm" }, "漲跌"), el("th", { scope: "col", class: "r" }, "漲跌幅"),
+        el("th", { scope: "col", class: "r" }, "成交（億）"))),
       el("tbody", {}, s.top.map((t, i) => el("tr", {},
-        el("td", { class: "num" }, el("span", { class: "rank" }, i + 1), t.code),
+        el("td", { class: "num" }, el("span", { class: "rank", "aria-label": `第 ${i + 1} 名` }, i + 1), t.code),
         el("td", {}, t.name, t.limit_up ? el("span", { class: "limit" }, "漲停") : null),
-        el("td", { class: "r num" }, t.close.toLocaleString("zh-TW", { minimumFractionDigits: 2 })),
+        el("td", { class: "r num" }, fmtNum(t.close, 2)),
         el("td", { class: `r num hide-sm ${tone(t.change)}` }, signedPct(t.change)),
         el("td", { class: `r num ${tone(t.change_pct)}` }, signedPct(t.change_pct) + "%"),
-        el("td", { class: "r num" }, yi(t.value)),
+        el("td", { class: "r num" }, yi(t.value, 2)),
       ))));
+  }
+
+  // 類股指數和多數個股方向相反時（例如指數漲、但多數個股跌），補一句說明
+  function breadthNote(s) {
+    const diverge = (s.change_pct > 0 && s.down > s.up) || (s.change_pct < 0 && s.up > s.down);
+    if (!diverge) return null;
+    const dir = s.change_pct > 0 ? "上漲" : "下跌";
+    const most = s.change_pct > 0 ? `多數個股下跌（${s.up} 漲、${s.down} 跌）` : `多數個股上漲（${s.up} 漲、${s.down} 跌）`;
+    const lead = s.leader
+      ? `成交最大的是${s.leader.name}（${signedPct(s.leader.change_pct)}%），占類股成交 ${s.leader.value_share}%。`
+      : "";
+    return el("p", { class: "detail-note" }, `類股指數${dir}，但${most}。${lead}`);
+  }
+
+  function sectorLabel(s) {
+    return [
+      s.name,
+      `成交比重增減 ${signedPct(s.share_change)} 個百分點`,
+      `漲跌幅 ${signedPct(s.change_pct)}%`,
+      `成交金額 ${yi(s.value)} 億` + (growth(s.value, s.prev_value) == null ? "" : `，比前一日 ${signedPct(growth(s.value, s.prev_value), 0)}%`),
+      s.share == null ? "" : `成交比重 ${s.share.toFixed(2)}%`,
+      `上漲 ${s.up} 檔、下跌 ${s.down} 檔`,
+    ].filter(Boolean).join("，");
+  }
+
+  function sectorBar(v, scale) {
+    const w = v == null ? 0 : Math.min(Math.abs(v) / scale, 1) * 50;
+    return el("span", { class: "pct-bar", "aria-hidden": "true" }, el("span", {
+      class: v >= 0 ? "pos" : "neg",
+      style: v >= 0 ? `left:50%;width:${w}%` : `right:50%;width:${w}%`,
+    }));
   }
 
   function renderSectors(data) {
     const list = $("sector-list");
     const sectors = (data && data.sectors) || [];
+    const buttons = document.querySelectorAll("#sectors .seg button");
     if (!sectors.length) {
       list.replaceChildren(el("li", { class: "empty" }, "類股資料尚未更新，收盤後會自動抓取。"));
       return;
     }
-    $("sectors-meta").textContent = [
-      `資料日期 ${fmtDate(data.date)}`,
-      data.prev_date ? `與 ${fmtDate(data.prev_date)} 比較` : "",
-      data.updated ? `更新 ${fmtTime(data.updated)}` : "",
-    ].filter(Boolean).join("　");
+    $("sectors-meta").replaceChildren(
+      el("span", {}, `資料日期 ${fmtDate(data.date)}`),
+      data.prev_date ? el("span", {}, `與 ${fmtDate(data.prev_date)} 比較`) : "",
+      data.updated ? el("span", {}, `更新 ${fmtTime(data.updated)}`) : "",
+    );
 
     const up = sectors.filter((s) => s.change_pct > 0).length;
     const down = sectors.filter((s) => s.change_pct < 0).length;
-    const flows = sectors.filter((s) => s.share_change != null);
-    const inflow = flows.slice().sort((a, b) => b.share_change - a.share_change)[0];
-    const outflow = flows.slice().sort((a, b) => a.share_change - b.share_change)[0];
-    const chip = (label, ...value) => el("span", { class: "sum-chip" }, el("span", { class: "muted" }, label), ...value);
+    const hasFlow = sectors.some((s) => s.share_change != null);
+    const drop = hasFlow ? sectors.slice().sort((a, b) => (a.share_change ?? Infinity) - (b.share_change ?? Infinity))[0] : null;
+    const totalGrowth = growth(data.total_value, data.prev_total_value);
+    const stat = (label, ...value) => el("div", { class: "stat" }, el("dt", {}, label), el("dd", {}, ...value));
     $("sector-summary").replaceChildren(
-      data.taiex ? chip("加權指數", el("b", { class: `num ${tone(data.taiex.change_pct)}` }, signedPct(data.taiex.change_pct) + "%")) : "",
-      chip("類股漲／跌", el("b", { class: "num" }, el("span", { class: "up" }, up), "／", el("span", { class: "down" }, down))),
-      inflow && inflow.share_change > 0 ? chip("資金流入最多", el("b", {}, inflow.name), el("span", { class: "num up" }, signedPct(inflow.share_change))) : "",
-      outflow && outflow.share_change < 0 ? chip("流出最多", el("b", {}, outflow.name), el("span", { class: "num down" }, signedPct(outflow.share_change))) : "",
+      data.taiex ? stat("加權指數", el("b", { class: `num ${tone(data.taiex.change_pct)}` }, signedPct(data.taiex.change_pct) + "%")) : "",
+      data.total_value ? stat("上市成交",
+        el("b", { class: "num" }, yi(data.total_value, 0), el("small", {}, " 億")),
+        totalGrowth == null ? "" : el("span", { class: `num ${tone(totalGrowth)}` }, ` ${signedPct(totalGrowth, 1)}%`)) : "",
+      stat(`${sectors.length} 類漲跌`, el("b", { class: "num" }, el("span", { class: "up" }, `${up} 漲`), " ", el("span", { class: "down" }, `${down} 跌`))),
+      hasFlow ? "" : stat("成交比重增減", el("span", { class: "muted" }, "缺前一交易日資料")),
+      drop && drop.share_change < 0 ? stat("比重下降最多", el("b", {}, drop.name), el("span", { class: "num down" }, ` ${signedPct(drop.share_change)}`)) : "",
     );
 
-    const TOP_SECTORS = 6; // 只列前 6 名類股
+    let mode = readSort() === "change" || !hasFlow ? "change" : "flow";
     const open = new Set();
+    const flowBtn = document.querySelector('#sectors .seg [data-sort="flow"]');
+    flowBtn.disabled = !hasFlow;
+    flowBtn.title = hasFlow ? "" : "缺前一交易日資料，暫時無法比較";
+    buttons.forEach((b) => { if (b !== flowBtn) b.disabled = false; });
 
-    function draw(sortKey) {
-      const rows = sectors.slice().sort(sortKey === "flow"
-        ? (a, b) => (b.share_change ?? -Infinity) - (a.share_change ?? -Infinity)
-        : (a, b) => b.change_pct - a.change_pct).slice(0, TOP_SECTORS);
-      const maxPct = Math.max(1, ...rows.map((s) => Math.abs(s.change_pct)));
-      list.replaceChildren(...rows.map((s, i) => {
-        const id = `sector-${i}`;
-        const w = (Math.abs(s.change_pct) / maxPct) * 50;
+    function draw() {
+      const m = MODES[mode];
+      const other = MODES[mode === "flow" ? "change" : "flow"];
+      const rows = sectors.slice().sort(m.sort).slice(0, TOP_SECTORS);
+      buttons.forEach((x) => x.setAttribute("aria-pressed", String(x.dataset.sort === mode)));
+
+      const head = el("li", { class: "sector-row sector-head", "aria-hidden": "true" },
+        el("span", {}, "#"), el("span", {}, "類股"),
+        el("span", { class: "active" }, `${m.label}（${m.unit}）`),
+        el("span", { class: "r" }, "成交金額（億）"), el("span", { class: "r" }, "成交比重"),
+        el("span", { class: "r" }, other.label), el("span", {}));
+
+      list.replaceChildren(head, ...rows.map((s, i) => {
+        const id = `sector-detail-${i}`;
+        const v = m.value(s);
+        const ov = other.value(s);
+        const g = growth(s.value, s.prev_value);
         const isOpen = open.has(s.name);
-        const btn = el("button", { type: "button", class: "sector-row", "aria-expanded": String(isOpen), "aria-controls": id },
+        const btn = el("button", {
+          type: "button", class: "sector-row", "aria-expanded": String(isOpen), "aria-controls": id,
+          "aria-label": `第 ${i + 1} 名 ${sectorLabel(s)}。查看漲幅前五檔`,
+        },
           el("span", { class: "num rank-no" }, i + 1),
           el("span", { class: "sector-name" },
             el("b", {}, s.name),
-            el("small", { class: "num" }, el("span", { class: "up" }, `▲${s.up}`), " ", el("span", { class: "down" }, `▼${s.down}`))),
-          el("span", { class: "sector-pct" },
-            el("span", { class: "pct-bar" }, el("span", {
-              class: s.change_pct >= 0 ? "pos" : "neg",
-              style: s.change_pct >= 0 ? `left:50%;width:${w}%` : `right:50%;width:${w}%`,
-            })),
-            el("b", { class: `num ${tone(s.change_pct)}` }, signedPct(s.change_pct) + "%")),
-          el("span", { class: "r num cell-value" }, el("span", { class: "lbl" }, "成交 "), yi(s.value), el("small", {}, " 億")),
+            el("small", { class: "num" }, el("span", { class: "up" }, `${s.up} 漲`), " ", el("span", { class: "down" }, `${s.down} 跌`))),
+          el("span", { class: "sector-hero" },
+            sectorBar(v, m.scale),
+            el("b", { class: `num ${tone(v)}` }, mode === "flow" ? signedPct(v) : signedPct(v) + "%",
+              mode === "flow" ? el("small", {}, " 百分點") : null)),
+          el("span", { class: "sector-sub" },
+          el("span", { class: "r num cell-value" }, el("span", { class: "lbl" }, "成交 "), yi(s.value),
+            g == null ? null : el("small", { class: tone(g) }, ` ${signedPct(g, 0)}%`)),
           el("span", { class: "r num cell-share" }, el("span", { class: "lbl" }, "比重 "), s.share == null ? "—" : `${s.share.toFixed(2)}%`),
-          el("span", { class: `r num cell-flow ${tone(s.share_change)}` }, el("span", { class: "lbl" }, "增減 "), signedPct(s.share_change)),
-          el("span", { class: "chev", "aria-hidden": "true" }, "▾"),
+          el("span", { class: `r num cell-other ${tone(ov)}` }, el("span", { class: "lbl" }, mode === "flow" ? "漲跌 " : "比重增減 "),
+            mode === "flow" ? signedPct(ov) + "%" : signedPct(ov))),
+          el("span", { class: "chev", "aria-hidden": "true" }),
         );
         const detail = el("div", { class: "sector-detail", id, hidden: !isOpen },
-          el("div", { class: "detail-head" }, `${s.name}　最強五檔`, el("span", { class: "muted" }, `共 ${s.count} 檔`)),
+          el("div", { class: "detail-head" }, el("span", {}, `${s.name}・漲幅前五檔`), el("span", { class: "muted" }, `共 ${s.count} 檔`)),
+          breadthNote(s),
           renderSectorTop(s));
         btn.addEventListener("click", () => {
           const now = btn.getAttribute("aria-expanded") !== "true";
@@ -193,13 +269,26 @@
       }));
     }
 
-    document.querySelectorAll("#sectors .seg button").forEach((b) => {
-      b.addEventListener("click", () => {
-        document.querySelectorAll("#sectors .seg button").forEach((x) => x.setAttribute("aria-pressed", String(x === b)));
-        draw(b.dataset.sort);
-      });
+    buttons.forEach((b) => {
+      b.onclick = () => {
+        if (b.disabled || b.dataset.sort === mode) return;
+        mode = b.dataset.sort;
+        saveSort(mode);
+        draw();
+      };
     });
-    draw("change");
+    draw();
+  }
+
+  function loadSectors() {
+    const list = $("sector-list");
+    list.replaceChildren(el("li", { class: "empty" }, "資料載入中…"));
+    loadJSON("data/sectors.json").then(renderSectors).catch((err) => {
+      console.error(err);
+      const retry = el("button", { type: "button", class: "retry" }, "重試");
+      retry.addEventListener("click", loadSectors);
+      list.replaceChildren(el("li", { class: "empty" }, "類股資料讀取失敗，可能是網路不穩。", el("br"), retry));
+    });
   }
 
   // ---------- 03 大盤分析 ----------
@@ -395,7 +484,7 @@
   tickClock();
   setInterval(tickClock, 30 * 1000);
   loadJSON("data/chips.json").then(renderChips).catch(fail("chips-grid", "籌碼資料讀取失敗，請稍後重新整理。"));
-  loadJSON("data/sectors.json").then(renderSectors).catch(fail("sector-list", "類股資料讀取失敗，請稍後重新整理。"));
+  loadSectors();
   loadJSON("data/analysis.json").then(renderAnalysis).catch(fail("article", "大盤分析讀取失敗，請稍後重新整理。"));
   loadJSON("data/news.json").then(renderNews).catch(fail("news-list", "新聞讀取失敗，請稍後重新整理。"));
   loadJSON("data/media.json").then(renderMedia).catch(fail("yt-list", "節目資料讀取失敗，請稍後重新整理。"));

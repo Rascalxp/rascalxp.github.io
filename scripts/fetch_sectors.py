@@ -211,6 +211,13 @@ def build(day, mi, bf, bf_prev, prev_day, industry):
         members = by_sector.get(name, [])
         traded = [s for s in members if s["volume"] > 0]
         top = sorted(traded, key=lambda s: (s["change_pct"], s["value"]), reverse=True)[:TOP_N]
+        # 成交金額最大的個股：類股指數和多數個股方向不同時，前端用它說明原因
+        member_value = sum(s["value"] for s in traded)
+        big = max(traded, key=lambda s: s["value"]) if traded else None
+        leader = {
+            "code": big["code"], "name": big["name"], "change_pct": big["change_pct"],
+            "value_share": round(big["value"] / member_value * 100, 1),
+        } if big and member_value else None
         v = value.get(name)
         pv = prev_value.get(name)
         share = v / total * 100 if v is not None and total else None
@@ -226,6 +233,7 @@ def build(day, mi, bf, bf_prev, prev_day, industry):
             "count": len(members),
             "up": sum(1 for s in traded if s["change_pct"] > 0),
             "down": sum(1 for s in traded if s["change_pct"] < 0),
+            "leader": leader,
             "top": [{k: s[k] for k in ("code", "name", "close", "change", "change_pct", "value", "limit_up")} for s in top],
         })
 
