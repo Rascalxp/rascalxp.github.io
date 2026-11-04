@@ -1,87 +1,87 @@
 {
-  "updated": "2026-11-04T10:59:23+08:00",
+  "updated": "2026-11-04T12:10:53+08:00",
   "ai_summary": false,
   "model": null,
-  "candidates_sig": "e5cc6591922d08ccbc6d9a905cd7479a37e1a056",
+  "candidates_sig": "2a6cbea0278e06bef6137d510c6fef9d9b6d69ef",
   "items": [
     {
-      "title": "〈台股開盤〉開高漲逾400點隨即震盪翻黑 CCL、機器人股撐場",
-      "url": "https://news.cnyes.com/news/id/6646031",
+      "title": "台股大跌原因抓出來！殺1300點42K也破了，融資多殺多啟動？美期中選舉結果為何恐讓台股、AI股挫著等",
+      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxONF9XbkFXRkRLMkhUcUdiVi1aN2RWbXhaRzhicFFLY1NsSVdwV1h5U25IVXFPMGVBQm1tTzR5ajk3WG1KbU1namhaU2tqanMyZ2gtMUQtV2pPODNXcnlBWjJnR2JFcl9Mb19rQnQyc0otVWFXbnRkQThvb1gzbkljTg?oc=5",
+      "source": "今周刊",
+      "published": "2026-11-04T11:41+08:00",
+      "summary": "",
+      "tags": []
+    },
+    {
+      "title": "台荷攜手4項跨國研發合作 布局先進光子封裝、AI資料中心",
+      "url": "https://tw.stock.yahoo.com/news/%E5%8F%B0%E8%8D%B7%E6%94%9C%E6%89%8B4%E9%A0%85%E8%B7%A8%E5%9C%8B%E7%A0%94%E7%99%BC%E5%90%88%E4%BD%9C-%E5%B8%83%E5%B1%80%E5%85%88%E9%80%B2%E5%85%89%E5%AD%90%E5%B0%81%E8%A3%9D-ai%E8%B3%87%E6%96%99%E4%B8%AD%E5%BF%83-033923736.html",
+      "source": "Yahoo 股市",
+      "published": "2026-11-04T11:39+08:00",
+      "summary": "（中央社記者曾筠庭台北2026年11月4日電）因應AI及高效能運算需求成長，台灣積極布局次世代矽光子技術。經濟部今天表示，透過台灣與荷蘭雙邊共同徵案的「科技搭橋計畫」，已促成4項跨國研發合作，涵蓋先進",
+      "tags": []
+    },
+    {
+      "title": "永擎Q3大賺近兩股本，一魚三吃，集團三劍客衝漲停",
+      "url": "https://tw.stock.yahoo.com/news/%E6%B0%B8%E6%93%8Eq3%E5%A4%A7%E8%B3%BA%E8%BF%91%E5%85%A9%E8%82%A1%E6%9C%AC-%E9%AD%9A%E4%B8%89%E5%90%83-%E9%9B%86%E5%9C%98%E4%B8%89%E5%8A%8D%E5%AE%A2%E8%A1%9D%E6%BC%B2%E5%81%9C-033658671.html",
+      "source": "Yahoo 股市",
+      "published": "2026-11-04T11:36+08:00",
+      "summary": "【財訊快報／記者王宜弘報導】AI伺服器出貨衝高，永擎(7711)公告第三季獲利逼近兩個股本，一舉賺贏上半年與去年全年，表現超乎預期，早盤股價跳空漲停，帶動母公司華擎(3515)及甫轉上市的集團IPC廠",
+      "tags": []
+    },
+    {
+      "title": "焦點股：AI先進封裝材料放量加持，三福化價量齊揚、突破均線糾結",
+      "url": "https://tw.stock.yahoo.com/news/%E7%84%A6%E9%BB%9E%E8%82%A1-ai%E5%85%88%E9%80%B2%E5%B0%81%E8%A3%9D%E6%9D%90%E6%96%99%E6%94%BE%E9%87%8F%E5%8A%A0%E6%8C%81-%E4%B8%89%E7%A6%8F%E5%8C%96%E5%83%B9%E9%87%8F%E9%BD%8A%E6%8F%9A-%E7%AA%81%E7%A0%B4%E5%9D%87%E7%B7%9A%E7%B3%BE%E7%B5%90-033522989.html",
+      "source": "Yahoo 股市",
+      "published": "2026-11-04T11:35+08:00",
+      "summary": "【財訊快報／記者張家瑋報導】特用化學品大廠三福化(4755)持續受惠AI與先進封裝需求帶動，半導體化學品出貨暢旺，預期隨著新產品認證通過與多項擴產專案陸續推進，三福化2027年營收與獲利結構將迎來逐季",
+      "tags": []
+    },
+    {
+      "title": "〈焦點股〉營邦今年營收有望突破百億創高 漲逾半根停板站回600元關",
+      "url": "https://news.cnyes.com/news/id/6646090",
+      "source": "鉅亨網",
+      "published": "2026-11-04T11:26+08:00",
+      "summary": "營邦受惠AI伺服器需求升溫，前三季營收81.25億元超越2025全年營收，全年有望破百億元創高。 營邦今早盤一度衝上604元，大漲逾半根停板站回600元關卡，11點暫報576元、漲幅約1.23%。 AI伺服器、AI存儲與CSP機殼同步成長，",
+      "tags": []
+    },
+    {
+      "title": "美開票未完！美股期跳水破「7 月股災新低」…台股盤中遭血洗 1155 點",
+      "url": "https://tw.stock.yahoo.com/news/%E7%BE%8E%E9%96%8B%E7%A5%A8%E6%9C%AA%E5%AE%8C-%E7%BE%8E%E8%82%A1%E6%9C%9F%E8%B7%B3%E6%B0%B4%E7%A0%B4-7-%E6%9C%88%E8%82%A1%E7%81%BD%E6%96%B0%E4%BD%8E-%E5%8F%B0%E8%82%A1%E7%9B%A4%E4%B8%AD%E9%81%AD%E8%A1%80%E6%B4%97-032431888.html",
+      "source": "Yahoo 股市",
+      "published": "2026-11-04T11:24+08:00",
+      "summary": "美國期中選舉於台灣時間4日（周三）陸續開票，市場對民主黨奪回國會控制權的預期升高，外界擔心，若民主黨掌控參眾兩院，可能加強AI資料中心建設限制，並牽動企業減稅及金融監管政策。消息傳出後，那斯達克100",
+      "tags": []
+    },
+    {
+      "title": "電機人才搶輸台積電？曾文生：待遇不能差太多「士氣需要糧草」",
+      "url": "https://tw.news.yahoo.com/%E9%9B%BB%E6%A9%9F%E4%BA%BA%E6%89%8D%E6%90%B6%E8%BC%B8%E5%8F%B0%E7%A9%8D%E9%9B%BB-%E6%9B%BE%E6%96%87%E7%94%9F-%E5%BE%85%E9%81%87%E4%B8%8D%E8%83%BD%E5%B7%AE%E5%A4%AA%E5%A4%9A-%E5%A3%AB%E6%B0%A3%E9%9C%80%E8%A6%81%E7%B3%A7%E8%8D%89-030549403.html",
+      "source": "Yahoo 股市",
+      "published": "2026-11-04T11:05+08:00",
+      "summary": "AI浪潮帶動算力需求暴增，台灣未來10年電力需求也面臨新一波考驗。台電董事長曾文生4日在專訪中表示，台電已與半導體產業及相關單位掌握未來建廠用電需求，初步評估目前供電規劃足以支應產業發展，未來10年台",
+      "tags": []
+    },
+    {
+      "title": "【Hot台股】股后川湖跌停！一張蒸發92萬元... 網歎「朝腰斬邁進」 分析師示警：別急抄底",
+      "url": "https://tw.stock.yahoo.com/news/%E3%80%90hot%E5%8F%B0%E8%82%A1%E3%80%91%E8%82%A1%E5%90%8E%E5%B7%9D%E6%B9%96%E8%B7%8C%E5%81%9C%EF%BC%81%E4%B8%80%E5%BC%B5%E8%92%B8%E7%99%BC92%E8%90%AC%E5%85%83-%E7%B6%B2%E6%AD%8E%E3%80%8C%E6%9C%9D%E8%85%B0%E6%96%AC%E9%82%81%E9%80%B2%E3%80%8D-%E5%88%86%E6%9E%90%E5%B8%AB%E7%A4%BA%E8%AD%A6%EF%BC%9A%E5%88%A5%E6%80%A5%E6%8A%84%E5%BA%95-032723467.html",
+      "source": "Yahoo 股市",
+      "published": "2026-11-04T11:01+08:00",
+      "summary": "「銅破線 川湖崩 AI沒救了」「川湖8650 朝腰斬邁進」「川湖高點跌了6000元 幾乎崩回起漲點」「川湖不是還吹什麼機櫃宇宙無敵」。",
+      "tags": []
+    },
+    {
+      "title": "〈焦點股〉宏碁資訊Q3獲利繳佳績 惟毛利率下滑股價跌逾7%",
+      "url": "https://news.cnyes.com/news/id/6645988",
+      "source": "鉅亨網",
+      "published": "2026-11-04T11:01+08:00",
+      "summary": "宏碁資訊第三季稅後純益1.94億元、年增31%，EPS 4.68元，創單季第三高 第三季毛利率9.88%，年減3.87個百分點，創2021年第三季以來低，低於預期，盤中股價跌約7% 前9月營收97.46億元、年增31%，已超越去年全年；將聚",
+      "tags": []
+    },
+    {
+      "title": "AI軍備競賽成『債務危機』？台股大跌13%跌完了嗎？關鍵操作策略分享",
+      "url": "https://news.cnyes.com/news/id/6646070",
       "source": "鉅亨網",
       "published": "2026-11-04T10:58+08:00",
-      "summary": "美股費半3日收紅，台股今（4）日以43,449.45點開出，上漲141.91點，開盤後一度升至43,741.54點、漲434點，而在台積電由紅翻黑，指數漲幅收斂，一度翻黑下跌，指數在平盤間震盪。早盤估量8852億元。 主要權值股漲跌互見。台",
-      "tags": []
-    },
-    {
-      "title": "盤中速報 - 櫃買市場加權指數下跌-7.96點至337.56點，跌幅2.3%",
-      "url": "https://news.cnyes.com/news/id/6646060",
-      "source": "鉅亨網",
-      "published": "2026-11-04T10:41+08:00",
-      "summary": "截至台北時間04日10:40，櫃買市場加權指數下跌7.96點（或2.3%），暫報337.56點。 歷史漲跌幅 近 1 週：-8.88% 近 1 月：-19.07% 近 3 月：-4.79% 近 6 月：-10.16% 今年以來：+25.08",
-      "tags": []
-    },
-    {
-      "title": "台股反攻「36檔漲停股」亮燈！AI伺服器、工具機齊衝 穎漢、麗臺、天擎飆漲",
-      "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE9RSTAzam41UmU3Nm9GM1BmdW92N1ZuR2daeGNSRFp0X2lMV3A5ZkZoYnJhdDk4Um1obG5OYkpiMk96U1k0blNaNEFDZw?oc=5",
-      "source": "FTNN 新聞網",
-      "published": "2026-11-04T10:40+08:00",
-      "summary": "",
-      "tags": []
-    },
-    {
-      "title": "《DJ在線》AI推升CCL升級 台廠擴產搶商機 - 台股 - 新聞",
-      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPc0N4U0hETi1wejZNTWJidURmQXBMeFRXYzNPTHZXUFQwdGpNZzc4QS1Zbi1vNzg2bVRaS2J6NWhoZHlxSk5QMVlFV1lPY2RTVXhMaDIwczNRV0tFZ0JzRGhTZ0NaU1Y3aUd0WmJOejlmV0RrUEp2VlZyMWg5bTRYdnJn?oc=5",
-      "source": "MoneyDJ",
-      "published": "2026-11-04T10:33+08:00",
-      "summary": "",
-      "tags": []
-    },
-    {
-      "title": "《DJ在線》AI排擠效應，台廠攻記憶體缺口策略分化",
-      "url": "https://news.google.com/rss/articles/CBMiuwJBVV95cUxObEFCYm5aQU0tRURJZFVLeFZjWjJrcTV2TWkzUTJDb2piQ0hoeW5Ob1o2Wlhka0NFbncydmtxQ1pXWnNaNHdWTnNPNmVlLVVEVTV5d3V1ckRVR09wY0pHMEg5MTVVaWZ4V0I4ZF85cGhwUE5rUWZveUFWWmFvajJvMm9teHNLazdWdkV3VnhncGQzN0RudWdQTklCR3lsSncxb280NjVqMGE5NFZXQTNfZUZEVFlHcWlZWHVPUndtdjdyRTc5Mk1VUEJveTJfQzVvNmVrcEEtWUVMQ2gtdFNaa3hsZFpLUWtLaEtGdlVuOWd3NDlHNlVGWkptdHFEQjdWS1VhY0U1X3htMURtZkpqUXV4dDlxTEI2MF9mN2dTTERrcE4zRlFjaGJvSGhhZzhIYUZ0LXhaeHd1eDQ?oc=5",
-      "source": "Yahoo股市",
-      "published": "2026-11-04T10:18+08:00",
-      "summary": "",
-      "tags": []
-    },
-    {
-      "title": "焦點股：華擎資料中心需求看增，股價區間整理",
-      "url": "https://tw.stock.yahoo.com/news/%E7%84%A6%E9%BB%9E%E8%82%A1-%E8%8F%AF%E6%93%8E%E8%B3%87%E6%96%99%E4%B8%AD%E5%BF%83%E9%9C%80%E6%B1%82%E7%9C%8B%E5%A2%9E-%E8%82%A1%E5%83%B9%E5%8D%80%E9%96%93%E6%95%B4%E7%90%86-021359477.html",
-      "source": "Yahoo 股市",
-      "published": "2026-11-04T10:13+08:00",
-      "summary": "【財訊快報／研究員吳旻蓁】華擎(3515)第三季受惠板卡市場庫存去化告一段落、需求回溫，且IPC也有邊緣AI需求帶動，再加上伺服器子公司永擎(7711)料況好轉，帶動第三季營運成長。而展望未來，在資料",
-      "tags": []
-    },
-    {
-      "title": "優質股遭市場錯殺！台股醞釀超跌反彈 「散熱三雄」價值重估",
-      "url": "https://tw.news.yahoo.com/%E5%84%AA%E8%B3%AA%E8%82%A1%E9%81%AD%E5%B8%82%E5%A0%B4%E9%8C%AF%E6%AE%BA-%E5%8F%B0%E8%82%A1%E9%86%9E%E9%87%80%E8%B6%85%E8%B7%8C%E5%8F%8D%E5%BD%88-%E6%95%A3%E7%86%B1%E4%B8%89%E9%9B%84-%E5%83%B9%E5%80%BC%E9%87%8D%E4%BC%B0-015500447.html",
-      "source": "Yahoo 股市",
-      "published": "2026-11-04T09:55+08:00",
-      "summary": "美股反彈與期中選舉開票帶動台股有望開高，法人指出均線負乖離達7月最大，超跌反彈機會正在醞釀。隨著AI架構升級，散熱產值加速上修，奇鋐、雙鴻、健策等散熱三雄備受法人看好，目標價與後市表現強勁，建議投資人",
-      "tags": []
-    },
-    {
-      "title": "華芸將上櫃 今年漲價15%緊搭AI架構升級趨勢",
-      "url": "https://news.cnyes.com/news/id/6645961",
-      "source": "鉅亨網",
-      "published": "2026-11-04T09:51+08:00",
-      "summary": "華芸11月19日將辦上櫃前業績發表會，規劃布局未來AI架構升級，盼景氣回溫帶動成長。 華芸前三季受消費需求下滑影響，FS系列受Flash硬碟漲價缺貨、去化放緩，第三季提列500多萬元呆滯庫存損失。 華芸今年兩度調價共10%至15%，雖第三季",
-      "tags": []
-    },
-    {
-      "title": "安盛生5000萬銀彈到位 衝刺營收力拚單月損益兩平",
-      "url": "https://news.cnyes.com/news/id/6645408",
-      "source": "鉅亨網",
-      "published": "2026-11-04T09:48+08:00",
-      "summary": "安盛生(6734-TW)完成今年第二次現金增資案，此次以每股5元折價發行新股1萬張，總計募集5000萬元資金已全數到位。董事長陳彥宇指出，現增資金將用於充實營運資金，強化公司轉型，進一步衝刺營收成長，並以單月損益兩平為目標。 陳彥宇表示，此",
-      "tags": []
-    },
-    {
-      "title": "美晶片禁令破功！韓製HBM走私大陸「華為大買家」 台廠也被捲入",
-      "url": "https://tw.stock.yahoo.com/news/%E7%BE%8E%E6%99%B6%E7%89%87%E7%A6%81%E4%BB%A4%E7%A0%B4%E5%8A%9F-%E9%9F%93%E8%A3%BDhbm%E8%B5%B0%E7%A7%81%E5%A4%A7%E9%99%B8-%E8%8F%AF%E7%82%BA%E5%A4%A7%E8%B2%B7%E5%AE%B6-%E5%8F%B0%E5%BB%A0%E4%B9%9F%E8%A2%AB%E6%8D%B2%E5%85%A5-014243332.html",
-      "source": "Yahoo 股市",
-      "published": "2026-11-04T09:42+08:00",
-      "summary": "美國持續加強對大陸先進半導體的出口管制，但韓國三星電子與SK海力士生產的高頻寬記憶體（HBM），仍透過走私管道大量流入大陸。美國科技媒體《The Information》報導，走私集團利用出口規範漏洞",
+      "summary": "Alphabet、Meta、微軟、亞馬遜、甲骨文揭露未來資本支出承諾達3.3兆美元，Alphabet最大為1.06兆美元。 Alphabet自由現金流連2季轉負，今年股權與債權融資已逾1,600億美元，仍難支應龐大AI資本支出。",
       "tags": []
     }
   ]
