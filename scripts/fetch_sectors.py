@@ -1,13 +1,14 @@
-"""抓上市類股漲跌與資金流向（證交所），寫入 data/sectors.json。
+"""抓上市類股漲跌與成交比重（證交所），寫入 data/sectors.json。
 
 資料來源：
   - 類股漲跌幅：每日收盤行情（MI_INDEX）裡的各類股價格指數
-  - 類股成交金額：各類指數日成交量值（BFIAMU），和前一交易日比較就是資金流向
+  - 類股成交金額：各類指數日成交量值（BFIAMU），和前一交易日比較看成交往哪裡集中
   - 個股行情：同一份 MI_INDEX 的「每日收盤行情」
   - 個股所屬產業：證交所 OpenAPI 上市公司基本資料（t187ap03_L）
 
+漲幅前五只列當天成交 1,000 萬元以上的股票；另外附成交金額前五大。
 成交比重 = 該類股成交金額 ÷ 所有類股成交金額合計（不含 ETF、權證等）。
-比重變化 = 今日比重 − 前一交易日比重，正數代表資金流入、負數代表流出。
+比重變化 = 今日比重 − 前一交易日比重（百分點）。這是相對值，不是買賣超。
 """
 import re
 import sys
@@ -21,6 +22,7 @@ BFIAMU_URL = "https://www.twse.com.tw/rwd/zh/afterTrading/BFIAMU"
 COMPANY_URL = "https://openapi.twse.com.tw/v1/opendata/t187ap03_L"
 LOOKBACK_DAYS = 12
 TOP_N = 5
+MIN_VALUE = 10_000_000  # 漲幅前五只看當天成交 1,000 萬元以上的股票，避開幾乎沒成交的冷門股
 
 # 證交所產業別代碼 → 類股名稱（和類股指數名稱去掉「類指數」後相同）
 SECTORS = {
@@ -189,6 +191,13 @@ def parse_stocks(js):
 
 # ---------- 組合 ----------
 
+STOCK_FIELDS = ("code", "name", "close", "change", "change_pct", "value", "limit_up")
+
+
+def pick(stock):
+    return {k: stock[k] for k in STOCK_FIELDS}
+
+
 def build(day, mi, bf, bf_prev, prev_day, industry):
     index = parse_sector_index(mi)
     value = parse_bfiamu(bf) if bf else {}
@@ -210,7 +219,9 @@ def build(day, mi, bf, bf_prev, prev_day, industry):
             continue
         members = by_sector.get(name, [])
         traded = [s for s in members if s["volume"] > 0]
-        top = sorted(traded, key=lambda s: (s["change_pct"], s["value"]), reverse=True)[:TOP_N]
+        liquid = [s for s in traded if s["value"] >= MIN_VALUE]
+        top = sorted(liquid, key=lambda s: (s["change_pct"], s["value"]), reverse=True)[:TOP_N]
+        top_value = sorted(traded, key=lambda s: s["value"], reverse=True)[:TOP_N]
         # 成交金額最大的個股：類股指數和多數個股方向不同時，前端用它說明原因
         member_value = sum(s["value"] for s in traded)
         big = max(traded, key=lambda s: s["value"]) if traded else None
@@ -234,7 +245,8 @@ def build(day, mi, bf, bf_prev, prev_day, industry):
             "up": sum(1 for s in traded if s["change_pct"] > 0),
             "down": sum(1 for s in traded if s["change_pct"] < 0),
             "leader": leader,
-            "top": [{k: s[k] for k in ("code", "name", "close", "change", "change_pct", "value", "limit_up")} for s in top],
+            "top": [pick(s) for s in top],
+            "top_value": [pick(s) for s in top_value],
         })
 
     sectors.sort(key=lambda s: s["change_pct"], reverse=True)
@@ -252,6 +264,7 @@ def build(day, mi, bf, bf_prev, prev_day, industry):
         "date": day.strftime("%Y-%m-%d"),
         "prev_date": prev_day.strftime("%Y-%m-%d") if prev_day else None,
         "market": "上市",
+        "min_value": MIN_VALUE,
         "taiex": taiex,
         "total_value": total,
         "prev_total_value": prev_total or None,
