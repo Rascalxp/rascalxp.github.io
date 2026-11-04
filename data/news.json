@@ -1,87 +1,87 @@
 {
-  "updated": "2026-11-04T16:45:47+08:00",
+  "updated": "2026-11-04T20:00:44+08:00",
   "ai_summary": false,
   "model": null,
-  "candidates_sig": "97430d4025343d4ca87671738229f8e90744b8c8",
+  "candidates_sig": "bddd394d0a7d002eb5f7c7cbd8e7005eba9ed96a",
   "items": [
     {
-      "title": "股市震盪加劇 跌近6%！非投等債逆勢漲、年化9%多",
-      "url": "https://news.cnyes.com/news/id/6646521",
+      "title": "禾伸堂前三季EPS11.09元 看好Q4高階MLCC需求續強 擬發現增7000張",
+      "url": "https://news.cnyes.com/news/id/6646898",
       "source": "鉅亨網",
-      "published": "2026-11-04T16:38+08:00",
-      "summary": "台股十月自高檔回落，受美科技股波動、資金調整與AI資本支出評價重估影響，加權指數單月跌約5.69%。 0050十月含息報酬率負6.34%；0056正1.09%、00878負0.26%，00988B正0.87%，高股息與債券ETF相對抗震。",
+      "published": "2026-11-04T19:59+08:00",
+      "summary": "被動元件廠禾伸堂(3026-TW)今(4)日公布第三季財報，受惠高階積層陶瓷電容(MLCC)產出及銷售增加，帶動毛利率持續攀升，稅後純益7.23億元，季增13%、年增158%，每股純益4.36元；累計前三季每股純益11.09元。 展望第四季",
       "tags": []
     },
     {
-      "title": "中華電攜Google拓展AI智慧生活生態圈，推Gemini AI訂閱方案",
-      "url": "https://tw.stock.yahoo.com/news/%E4%B8%AD%E8%8F%AF%E9%9B%BB%E6%94%9Cgoogle%E6%8B%93%E5%B1%95ai%E6%99%BA%E6%85%A7%E7%94%9F%E6%B4%BB%E7%94%9F%E6%85%8B%E5%9C%88-%E6%8E%A8gemini-ai%E8%A8%82%E9%96%B1%E6%96%B9%E6%A1%88-083649010.html",
-      "source": "Yahoo 股市",
-      "published": "2026-11-04T16:36+08:00",
-      "summary": "【財訊快報／記者劉居全報導】搶攻AI加值服務商機，中華電信(2412)自2021年起與Google展開深度合作，從影音娛樂、雲端服務逐步延伸至智慧終端、數位內容及AI 應用領域，今（4）日宣布推出Ge",
-      "tags": []
-    },
-    {
-      "title": "法人：台股震盪只是情緒修正 AI供應鏈長線趨勢未變",
-      "url": "https://tw.news.yahoo.com/%E6%B3%95%E4%BA%BA-%E5%8F%B0%E8%82%A1%E9%9C%87%E7%9B%AA%E5%8F%AA%E6%98%AF%E6%83%85%E7%B7%92%E4%BF%AE%E6%AD%A3-ai%E4%BE%9B%E6%87%89%E9%8F%88%E9%95%B7%E7%B7%9A%E8%B6%A8%E5%8B%A2%E6%9C%AA%E8%AE%8A-082209324.html",
-      "source": "Yahoo 股市",
-      "published": "2026-11-04T16:22+08:00",
-      "summary": "受美國科技股修正、AI資本支出效益雜音升溫，以及市場對全球科技產業評價重新調整影響，台股今日持續震盪，加權指數一度出現較大幅度修正，電子權值股成為市場調節重心。不過，大華銀投信指數量化投資部門主管暨大",
-      "tags": []
-    },
-    {
-      "title": "美選舉變天影響資料中心建置？童子賢：AI已崛起非單一政黨專屬",
-      "url": "https://tw.stock.yahoo.com/news/%E7%BE%8E%E9%81%B8%E8%88%89%E8%AE%8A%E5%A4%A9%E5%BD%B1%E9%9F%BF%E8%B3%87%E6%96%99%E4%B8%AD%E5%BF%83%E5%BB%BA%E7%BD%AE-%E7%AB%A5%E5%AD%90%E8%B3%A2-ai%E5%B7%B2%E5%B4%9B%E8%B5%B7%E9%9D%9E%E5%96%AE-%E6%94%BF%E9%BB%A8%E5%B0%88%E5%B1%AC-081642163.html",
-      "source": "Yahoo 股市",
-      "published": "2026-11-04T16:16+08:00",
-      "summary": "（中央社記者吳家豪台北2026年11月4日電）美國民主黨在期中選舉取得壓倒性勝利，將奪回聯邦參、眾兩院控制權，市場憂心恐牽動全美資料中心建置進度。代工廠和碩(4938)董事長童子賢今天表示，「憂心過度",
-      "tags": []
-    },
-    {
-      "title": "法巴財管全球CEO龍維勝談「AI造富」：台灣是亞洲成長最快市場",
-      "url": "https://tw.stock.yahoo.com/news/%E6%B3%95%E5%B7%B4%E8%B2%A1%E7%AE%A1%E5%85%A8%E7%90%83ceo%E9%BE%8D%E7%B6%AD%E5%8B%9D%E8%AB%87%E3%80%8Cai%E9%80%A0%E5%AF%8C%E3%80%8D%EF%BC%9A%E5%8F%B0%E7%81%A3%E6%98%AF%E4%BA%9E%E6%B4%B2%E6%88%90%E9%95%B7%E6%9C%80%E5%BF%AB%E5%B8%82%E5%A0%B4-081328952.html",
-      "source": "Yahoo 股市",
-      "published": "2026-11-04T16:13+08:00",
-      "summary": "法國巴黎銀行財富管理全球執行長龍維勝（Vincent Lecomte）首次訪台，他指出AI與半導體產業蓬勃發展，正為台灣帶來新一波財富創造，不僅創辦人及股東受惠，科技業人才的薪酬提升，也讓財富累積較過",
-      "tags": []
-    },
-    {
-      "title": "台股暴跌1400點後急拉！台光電、台燿逆勢收紅 009828布局AI伺服器PCB供應鏈",
-      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE45TjRCUWlvaWEtYnZaYVY3a2dJVmlSbEJXdFFpRVFNZi1lbkZheDRucklfVldMT1VWTHBaMU52WWlBWUxYdGNrdjE1WHNwMDU5Q2J30gFYQVVfeXFMT3pXRUMzbEJqMTVfQ2ZiMzB1d3h4enhFVlFpbWc1bS1iNUhzRVQ1OVZFaEh3YXpFYW5WQUNvT1BXNEVsSDlUdmFEYlMtVEpzZDlKTU1sc2p5eQ?oc=5",
-      "source": "UDN",
-      "published": "2026-11-04T16:10+08:00",
-      "summary": "",
-      "tags": []
-    },
-    {
-      "title": "美國選後換劇本！AI資料中心半數新增容量恐卡關 台積電等供應鏈承壓",
-      "url": "https://news.cnyes.com/news/id/6646335",
+      "title": "期中選後行情開跑！歷史數據顯示台股漲比美股兇 7次全勝漲9.6%",
+      "url": "https://news.cnyes.com/news/id/6646804",
       "source": "鉅亨網",
-      "published": "2026-11-04T16:10+08:00",
-      "summary": "德州新任民主黨州長希諾霍薩主張凍結資料中心開發，恐使德州約13GW AI園區計畫面臨風險。 市場憂監管收緊，標普500期貨跌1.2%、那斯達克100期貨跌2.2%，亞洲晶片股同步走弱。 民主黨在德州、俄亥俄、喬治亞等州勝選，恐擴大全美AI資",
+      "published": "2026-11-04T19:32+08:00",
+      "summary": "美國期中選舉落幕，市場焦點回歸企業獲利與產業成長動能。 統計顯示1998年至2022年近7次期中選舉後，美股與台股加權指數7次全漲，平均報酬9.22%與9.61%。 AI資本支出續擴增，2026年亞馬遜、微軟、Alphabet、Meta合計",
       "tags": []
     },
     {
-      "title": "宜鼎加碼攻AI，瞄準資料中心企業級SSD已經送樣",
-      "url": "https://tw.stock.yahoo.com/news/%E5%AE%9C%E9%BC%8E%E5%8A%A0%E7%A2%BC%E6%94%BBai-%E7%9E%84%E6%BA%96%E8%B3%87%E6%96%99%E4%B8%AD%E5%BF%83%E4%BC%81%E6%A5%AD%E7%B4%9Assd%E5%B7%B2%E7%B6%93%E9%80%81%E6%A8%A3-080909161.html",
+      "title": "AI無法取代真人！法巴銀全球CEO看好科技「創富」 加碼台灣打造一站式跨國私銀",
+      "url": "https://tw.stock.yahoo.com/news/ai%E7%84%A1%E6%B3%95%E5%8F%96%E4%BB%A3%E7%9C%9F%E4%BA%BA-%E6%B3%95%E5%B7%B4%E9%8A%80%E5%85%A8%E7%90%83ceo%E7%9C%8B%E5%A5%BD%E7%A7%91%E6%8A%80-%E5%89%B5%E5%AF%8C-%E5%8A%A0%E7%A2%BC%E5%8F%B0%E7%81%A3%E6%89%93%E9%80%A0-%E7%AB%99%E5%BC%8F%E8%B7%A8%E5%9C%8B%E7%A7%81%E9%8A%80-111004304.html",
       "source": "Yahoo 股市",
-      "published": "2026-11-04T16:09+08:00",
-      "summary": "【財訊快報／記者李純君報導】全球AI資料中心建置持續升溫，固態硬碟（SSD）從過去的傳統儲存裝置，進一步延伸為影響AI伺服器運作效能的核心元件；宜鼎(5289)因應此趨勢擴充產品版圖，針對資料中心及A",
+      "published": "2026-11-04T19:10+08:00",
+      "summary": "龍維勝訪台稱，AI與半導體帶動台灣新一波財富創造，高資產族群持續擴大。 法國巴黎銀行財富管理看好台灣成亞洲成長最快市場之一，2005年進台後將續加碼投資、擴充團隊。 面對高資產需求轉向整體資產配置與傳",
       "tags": []
     },
     {
-      "title": "美AI股修正加選情攪局 南山人壽總座看台股：訂單明確長線仍看好",
-      "url": "https://tw.stock.yahoo.com/news/%E7%BE%8Eai%E8%82%A1%E4%BF%AE%E6%AD%A3%E5%8A%A0%E9%81%B8%E6%83%85%E6%94%AA%E5%B1%80-%E5%8D%97%E5%B1%B1%E4%BA%BA%E5%A3%BD%E7%B8%BD%E5%BA%A7%E7%9C%8B%E5%8F%B0%E8%82%A1-%E8%A8%82%E5%96%AE%E6%98%8E%E7%A2%BA%E9%95%B7%E7%B7%9A%E4%BB%8D%E7%9C%8B%E5%A5%BD-080500582.html",
-      "source": "Yahoo 股市",
-      "published": "2026-11-04T16:05+08:00",
-      "summary": "【記者林巧雁／台北報導】台股連兩天重挫失守43000點，收42948.91點，南山人壽總經理范文偉今天出席「南山未來大學」受訪指出，主要受到美國AI股回調與美國期中選舉影響，外界多認為領先的民主黨政策",
+      "title": "證交所與彭博簽署MOU 聚焦四大面向深化台灣資本市場國際化",
+      "url": "https://news.cnyes.com/news/id/6646803",
+      "source": "鉅亨網",
+      "published": "2026-11-04T19:02+08:00",
+      "summary": "臺灣證券交易所與彭博(Bloomberg)於 2026 臺灣週期間舉行合作備忘錄(MOU)簽署儀式，正式建立策略合作夥伴關係。雙方將結合各自優勢與資源，透過「提升全球能見度」、「加速資本市場發展」、「指數與商品創新」以及「資產管理市場發展」",
       "tags": []
     },
     {
-      "title": "法巴財富管理全球執行長訪台，看好AI帶動台灣為亞洲成長最快市場之一",
-      "url": "https://tw.stock.yahoo.com/news/%E6%B3%95%E5%B7%B4%E8%B2%A1%E5%AF%8C%E7%AE%A1%E7%90%86%E5%85%A8%E7%90%83%E5%9F%B7%E8%A1%8C%E9%95%B7%E8%A8%AA%E5%8F%B0-%E7%9C%8B%E5%A5%BDai%E5%B8%B6%E5%8B%95%E5%8F%B0%E7%81%A3%E7%82%BA%E4%BA%9E%E6%B4%B2%E6%88%90%E9%95%B7%E6%9C%80%E5%BF%AB%E5%B8%82%E5%A0%B4%E4%B9%8B-080232511.html",
+      "title": "宏達電榮獲勞動部工作生活平衡獎「員工關懷獎」 落實身心有感、安心無界友善職場",
+      "url": "https://news.cnyes.com/news/id/6646655",
+      "source": "鉅亨網",
+      "published": "2026-11-04T18:53+08:00",
+      "summary": "宏達電(2498-TW)獲勞動部2026年「工作生活平衡獎」大型企業類「員工關懷獎」，從逾200家企業脫穎而出。 HTC推動健檢補助、EAP、彈性工時與育嬰留停按日申請，並設健身房、運動季與藝文活動。 HTC導入AI Chatbot HaR",
+      "tags": []
+    },
+    {
+      "title": "台股震盪 南山人壽范文偉：科技業體質好、長期審慎樂觀",
+      "url": "https://tw.stock.yahoo.com/news/%E5%8F%B0%E8%82%A1%E9%9C%87%E7%9B%AA-%E5%8D%97%E5%B1%B1%E4%BA%BA%E5%A3%BD%E8%8C%83%E6%96%87%E5%81%89-%E7%A7%91%E6%8A%80%E6%A5%AD%E9%AB%94%E8%B3%AA%E5%A5%BD-%E9%95%B7%E6%9C%9F%E5%AF%A9%E6%85%8E%E6%A8%82%E8%A7%80-104846051.html",
       "source": "Yahoo 股市",
-      "published": "2026-11-04T16:02+08:00",
-      "summary": "【財訊快報／記者劉居全報導】法國巴黎銀行財富管理全球執行長龍維勝（Vincent Lecomte）此次來台，重申對台灣市場的長期承諾與發展信心。龍維勝表示，AI與半導體產業蓬勃發展，正為台灣帶來新一波",
+      "published": "2026-11-04T18:48+08:00",
+      "summary": "（中央社記者蘇思云台北2026年11月4日電）台股今天上下震盪高達1885.72點，終場下跌下跌358.63點。南山人壽總經理范文偉表示，近期資本市場修正主要跟美國AI企業資本支出以及美國期中選舉結果",
+      "tags": []
+    },
+    {
+      "title": "台股暴跌後急拉千點！融資一口氣大減307億 陳龍：最壞時刻已過",
+      "url": "https://tw.news.yahoo.com/%E5%8F%B0%E8%82%A1%E6%9A%B4%E8%B7%8C%E5%BE%8C%E6%80%A5%E6%8B%89%E5%8D%83%E9%BB%9E-%E8%9E%8D%E8%B3%87-%E5%8F%A3%E6%B0%A3%E5%A4%A7%E6%B8%9B307%E5%84%84-%E9%99%B3%E9%BE%8D-%E6%9C%80%E5%A3%9E%E6%99%82%E5%88%BB%E5%B7%B2%E9%81%8E-104000101.html",
+      "source": "Yahoo 股市",
+      "published": "2026-11-04T18:40+08:00",
+      "summary": "台股連日重挫，11月3日融資追繳達1286戶，上市櫃融資單日減少307億元。資深分析師陳龍認為，籌碼洗盤、川普願與民主黨合作，加上AI產業基本面仍具支撐，台股第四季有機會迎來反攻行情。（記者唐家興）",
+      "tags": []
+    },
+    {
+      "title": "盤中上沖下洗1885點！台股終場跌358點失守4萬3 台積電跌35元",
+      "url": "https://tw.news.yahoo.com/%E7%9B%A4%E4%B8%AD%E4%B8%8A%E6%B2%96%E4%B8%8B%E6%B4%971885%E9%BB%9E-%E5%8F%B0%E8%82%A1%E7%B5%82%E5%A0%B4%E8%B7%8C358%E9%BB%9E%E5%A4%B1%E5%AE%884%E8%90%AC3-%E5%8F%B0%E7%A9%8D%E9%9B%BB%E8%B7%8C35%E5%85%83-103300471.html",
+      "source": "Yahoo 股市",
+      "published": "2026-11-04T18:33+08:00",
+      "summary": "【記者呂承哲／台北報導】美股週二（3日）四大指數漲跌互見，費城半導體指數反彈大漲2.63%，AMD上漲3.65%、輝達上漲2.27%，台積電ADR上漲1.55%，市場同時關注美國期中選舉投票結果。台股",
+      "tags": []
+    },
+    {
+      "title": "聯發科強攻AI先進封裝！重金挖角英特爾退休老將 出任資深副總",
+      "url": "https://tw.news.yahoo.com/%E8%81%AF%E7%99%BC%E7%A7%91%E5%BC%B7%E6%94%BBai%E5%85%88%E9%80%B2%E5%B0%81%E8%A3%9D-%E9%87%8D%E9%87%91%E6%8C%96%E8%A7%92%E8%8B%B1%E7%89%B9%E7%88%BE%E9%80%80%E4%BC%91%E8%80%81%E5%B0%87-%E5%87%BA%E4%BB%BB%E8%B3%87%E6%B7%B1%E5%89%AF%E7%B8%BD-102300272.html",
+      "source": "Yahoo 股市",
+      "published": "2026-11-04T18:23+08:00",
+      "summary": "台灣IC設計龍頭聯發科宣布重磅人事案，延攬英特爾前執行副總裁Navid Shahriari出任資深副總經理，借重其37年半導體與先進封裝經驗，全力衝刺資料中心、AI及高速運算市場。隨著高階製程挑戰升溫",
+      "tags": []
+    },
+    {
+      "title": "美「孤星州」驚爆變天！專家示警：台股AI供應鏈暗藏未爆彈",
+      "url": "https://tw.stock.yahoo.com/news/%E7%BE%8E-%E5%AD%A4%E6%98%9F%E5%B7%9E-%E9%A9%9A%E7%88%86%E8%AE%8A%E5%A4%A9-%E5%B0%88%E5%AE%B6%E7%A4%BA%E8%AD%A6-%E5%8F%B0%E8%82%A1ai%E4%BE%9B%E6%87%89%E9%8F%88%E6%9A%97%E8%97%8F%E6%9C%AA%E7%88%86%E5%BD%88-102151926.html",
+      "source": "Yahoo 股市",
+      "published": "2026-11-04T18:21+08:00",
+      "summary": "美國期中選舉結果牽動AI產業發展，民主黨在國會選舉取得重大突破，德州（別稱孤星州）更出現歷史性翻盤，由主張暫停AI資料中心開發的民主黨候選人希諾霍薩（Gina Hinojosa）勝出。投資達人葉育碩提",
       "tags": []
     }
   ]
