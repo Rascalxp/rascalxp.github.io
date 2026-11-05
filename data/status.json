@@ -1,27 +1,25 @@
 {
   "chips": {
-    "time": "2026-11-05T07:10:31+08:00",
+    "time": "2026-11-05T11:27:00+08:00",
     "ok": true,
     "errors": [
       "tmf_from_taifex 失敗：期交所欄位和預期不同：['<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01//EN\" \"http://www.w3.org/TR/html4/strict.dtd\">']",
-      "tmf_from_openapi 失敗：期交所欄位和預期不同：['[{\"Date\":\"20261103\"', 'ContractCode:\"臺股期貨\"', 'Item:\"自營商\"', 'TradingVolume(Long):\"9523\"', 'TradingValue(Long)(Thousands):\"83954460\"', 'TradingVolume(Short):\"6898\"', 'TradingValue(Short)(Thousands):\"60427214\"', 'TradingVolume(Net):\"2625\"', 'TradingValue(Net)(Thousands):\"23527246\"', 'OpenInterest(Long):\"7540\"', 'ContractValueofOpenInterest(Long)(Thousands):\"65415596\"', 'OpenInterest(Short):\"3564\"', 'ContractValueofOpenInterest(Short)(Thousands):\"30935632\"', 'OpenInterest(Net):\"3976\"', 'ContractValueofOpenInterest(Net)(Thousands):\"34479964\"}', '']",
+      "tmf_from_openapi 失敗：期交所欄位和預期不同：['[{\"Date\":\"20261104\"', 'ContractCode:\"臺股期貨\"', 'Item:\"自營商\"', 'TradingVolume(Long):\"12388\"', 'TradingValue(Long)(Thousands):\"106373844\"', 'TradingVolume(Short):\"13379\"', 'TradingValue(Short)(Thousands):\"115212739\"', 'TradingVolume(Net):\"-991\"', 'TradingValue(Net)(Thousands):\"-8838895\"', 'OpenInterest(Long):\"6858\"', 'ContractValueofOpenInterest(Long)(Thousands):\"59295934\"', 'OpenInterest(Short):\"3897\"', 'ContractValueofOpenInterest(Short)(Thousands):\"33693865\"', 'OpenInterest(Net):\"2961\"', 'ContractValueofOpenInterest(Net)(Thousands):\"25602069\"}', '']",
       "散戶微台：找不到資料"
     ]
   },
   "news": {
-    "time": "2026-11-05T07:10:59+08:00",
+    "time": "2026-11-05T11:27:27+08:00",
     "ok": true,
-    "errors": [
-      "from_google 失敗：503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=%E5%8F%B0%E8%82%A1+AI%E6%A6%82%E5%BF%B5%E8%82%A1+when%3A2d&hl=zh-TW&gl=TW&ceid=TW%3Azh-Hant"
-    ]
+    "errors": []
   },
   "media": {
-    "time": "2026-11-05T07:10:51+08:00",
+    "time": "2026-11-05T11:27:21+08:00",
     "ok": true,
     "errors": []
   },
   "sectors": {
-    "time": "2026-11-05T07:10:47+08:00",
+    "time": "2026-11-05T11:27:17+08:00",
     "ok": true,
     "errors": []
   }
