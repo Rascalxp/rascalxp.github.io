@@ -1,9 +1,25 @@
 {
-  "updated": "2026-11-06T22:59:41+08:00",
+  "updated": "2026-11-06T23:21:04+08:00",
   "ai_summary": false,
   "model": null,
-  "candidates_sig": "d0b2e0b9bf3afc3f8577aa9dbd345fc18bfae498",
+  "candidates_sig": "570edd419340a7fcd68a14724a378fda72e58cf0",
   "items": [
+    {
+      "title": "台積電要做AI記憶體？傳應輝達要求研擬生產3D DRAM",
+      "url": "https://news.cnyes.com/news/id/6651567",
+      "source": "鉅亨網",
+      "published": "2026-11-06T23:13+08:00",
+      "summary": "彭博引述《The Information》稱，輝達要求台積電擬定3D DRAM生產計畫。 台積電仍在研擬方案，是否投產未定；輝達與台積電均未回應。 AI硬體需求推升記憶體短缺與價格飆升，成本壓力已波及消費電子。",
+      "tags": []
+    },
+    {
+      "title": "快訊／傳輝達找台積電生產3D DRAMAI記憶體供應鏈恐迎新變局",
+      "url": "https://news.cnyes.com/news/id/6651653",
+      "source": "鉅亨網",
+      "published": "2026-11-06T23:00+08:00",
+      "summary": "2026年11月06日（優分析／產業數據中心報導）⸺ 記憶體供應吃緊、價格上漲，晶片設計業者開始尋求更多供應來源。市場傳出，台積電(2330-TW)正評估跨足先進記憶體生產，並應輝達NVIDIA(NVDA-US)要求，著手規劃3D DRAM",
+      "tags": []
+    },
     {
       "title": "美股開盤／費半狂飆逾5% 台積電ADR強彈近8%",
       "url": "https://tw.news.yahoo.com/%E7%BE%8E%E8%82%A1%E9%96%8B%E7%9B%A4-%E8%B2%BB%E5%8D%8A%E7%8B%82%E9%A3%86%E9%80%BE5-%E5%8F%B0%E7%A9%8D%E9%9B%BBadr%E5%BC%B7%E5%BD%88%E8%BF%918-144700839.html",
@@ -18,14 +34,6 @@
       "source": "Yahoo 股市",
       "published": "2026-11-06T21:46+08:00",
       "summary": "受到美國期中選舉結果與AI政策監管加劇的影響，台股今天（6日）暴跌，盤中一度狂瀉逾3700點。為因應國際政經情勢變化、穩定國內金融市場，國安基金決議適時進場護盤，金管會9日起將實施5項股市穩定措施；此",
-      "tags": []
-    },
-    {
-      "title": "緯穎前3季每股賺94.04元 超越去年全年",
-      "url": "https://tw.stock.yahoo.com/news/%E7%B7%AF%E7%A9%8E%E5%89%8D3%E5%AD%A3%E6%AF%8F%E8%82%A1%E8%B3%BA94-04%E5%85%83-%E8%B6%85%E8%B6%8A%E5%8E%BB%E5%B9%B4%E5%85%A8%E5%B9%B4-124721247.html",
-      "source": "Yahoo 股市",
-      "published": "2026-11-06T20:47+08:00",
-      "summary": "（中央社記者潘智義台北2026年11月6日電）伺服器大廠緯穎(6669)今天公布第3季合併營收新台幣4346.18億元，年增62.9%。稅後淨利233.64億元，年增51.6%。毛利率8.9%，基本每",
       "tags": []
     },
     {
@@ -73,14 +81,6 @@
       "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBCbzRKRnNrR281Nmp4d1Nzb2k3VHp0akFrckFNVW1zMi1OZTBjNW9nRVZUemt1SUV1TGVmU2ludzNXaXZpRzQyWE1hRnIzZnc?oc=5",
       "source": "鉅亨網",
       "published": "2026-11-06T18:11+08:00",
-      "summary": "",
-      "tags": []
-    },
-    {
-      "title": "美股「大崩盤」臨頭了嗎？AI概念股殺盤最慘緊盯這4個紅燈是否亮起| 全球財經| 全球",
-      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE16U3FVa2lEbnBQM1F0dWZsSzBkSEhxRnA1ekpKZnZ3aHpwd2hfQ3NpdUxSdkFNeDlIZEs1NFVzTEdTS1dCbzNmRUw4bEd2OUxz?oc=5",
-      "source": "UDN",
-      "published": "2026-11-06T17:24+08:00",
       "summary": "",
       "tags": []
     }
