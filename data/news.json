@@ -1,15 +1,39 @@
 {
-  "updated": "2026-11-07T00:07:08+08:00",
+  "updated": "2026-11-07T03:18:41+08:00",
   "ai_summary": false,
   "model": null,
-  "candidates_sig": "f2ed28a128f2f20c431dc4b28a01a6ef5f9e053c",
+  "candidates_sig": "9e7a590c30f77db1045f94dbd030b7c2c7f91377",
   "items": [
+    {
+      "title": "世芯-KY(3661) 年底人力衝 4 位數！公司表示現在的問題是接不下更多專案",
+      "url": "https://news.cnyes.com/news/id/6651745",
+      "source": "鉅亨網",
+      "published": "2026-11-07T02:00+08:00",
+      "summary": "世芯-KY(3661-TW)第3季營收創高之後，執行長 Johnny Shen 把限制講得很清楚：資源短缺是最大的問題之一，現在幾乎滿檔，最近積極招聘，到今年底有機會達到 4 位數人力。 公司開始挑案 Johnny Shen 表示，CPU ",
+      "tags": []
+    },
+    {
+      "title": "傳台積電進軍3D DRAM 應輝達要求規劃製造、評估建廠",
+      "url": "https://tw.news.yahoo.com/%E5%82%B3%E5%8F%B0%E7%A9%8D%E9%9B%BB%E9%80%B2%E8%BB%8D3d-dram-%E6%87%89%E8%BC%9D%E9%81%94%E8%A6%81%E6%B1%82%E8%A6%8F%E5%8A%83%E8%A3%BD%E9%80%A0-%E8%A9%95%E4%BC%B0%E5%BB%BA%E5%BB%A0-172236886.html",
+      "source": "Yahoo 股市",
+      "published": "2026-11-07T01:22+08:00",
+      "summary": "（中央社舊金山6日綜合外電報導）科技媒體The Information今天報導，台積電正考慮擴大業務版圖，進軍先進記憶體晶片製造，以便在人工智慧（AI）硬體市場中取得更大的市占率。",
+      "tags": []
+    },
+    {
+      "title": "台股史詩級暴跌！卓榮泰下午急奔向賴清德報告 鄭麗君晚上再召集台美經貿小組",
+      "url": "https://tw.news.yahoo.com/%E5%8F%B0%E8%82%A1%E5%8F%B2%E8%A9%A9%E7%B4%9A%E6%9A%B4%E8%B7%8C-%E5%8D%93%E6%A6%AE%E6%B3%B0%E4%B8%8B%E5%8D%88%E6%80%A5%E5%A5%94%E5%90%91%E8%B3%B4%E6%B8%85%E5%BE%B7%E5%A0%B1%E5%91%8A-%E9%84%AD%E9%BA%97%E5%90%9B%E6%99%9A%E4%B8%8A%E5%86%8D%E5%8F%AC%E9%9B%86%E5%8F%B0%E7%BE%8E%E7%B6%93%E8%B2%BF%E5%B0%8F%E7%B5%84-162400761.html",
+      "source": "Yahoo 股市",
+      "published": "2026-11-07T00:24+08:00",
+      "summary": "美國期中選舉「藍色海嘯」結果，引發投資人憂慮大獲全勝的民主黨將加強監管人工智慧（AI），加上延燒已久的AI產業資本支出等疑慮，重挫美股各大指數、亞洲股市，連日受挫的台股今（6）日更迎來史詩級賣壓，護國",
+      "tags": []
+    },
     {
       "title": "台積電要做AI記憶體？傳應輝達要求研擬生產3D DRAM",
       "url": "https://news.cnyes.com/news/id/6651567",
       "source": "鉅亨網",
       "published": "2026-11-06T23:13+08:00",
-      "summary": "彭博引述《The Information》稱，輝達要求台積電擬定3D DRAM生產計畫。 台積電仍在研擬方案，是否投產未定；輝達與台積電均未回應。 AI硬體需求推升記憶體短缺與價格飆升，成本壓力已波及消費電子。",
+      "summary": "輝達要求下，台積電研擬3D DRAM生產計畫，評估新建晶圓廠或收購既有廠房改造。 計畫由徐國晉主導，台積電與輝達均未回應；投產時程尚未明朗。 若量產，台積電將進入先進記憶體市場，與三星、SK海力士、美光競爭。",
       "tags": []
     },
     {
@@ -29,6 +53,14 @@
       "tags": []
     },
     {
+      "title": "美國政治反撲救了AI狂牛 李鎮宇：台廠供應鏈短空長多",
+      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1lUU5iMmxhakpMMXNhZ0dkSHVCZl9Mak4yUUFVbjR3OGZVcEx2WXhGNnBVXzQwSmN3cmt1UVk5dUdFRGFfRVNhZWctdTFrVTVReVM0QUR4UW9aM3pkdVhVbXQ3Q2hEVEM4ODRoeHJIN2I1VFhIN3o5c1h3Zw?oc=5",
+      "source": "財訊",
+      "published": "2026-11-06T22:26+08:00",
+      "summary": "",
+      "tags": []
+    },
+    {
       "title": "美國情勢牽動台股暴跌 卓榮泰率閣員向賴總統報告、鄭麗君召開台美經貿工作小組會議",
       "url": "https://tw.news.yahoo.com/%E7%BE%8E%E5%9C%8B%E6%83%85%E5%8B%A2%E7%89%BD%E5%8B%95%E5%8F%B0%E8%82%A1%E6%9A%B4%E8%B7%8C-%E5%8D%93%E6%A6%AE%E6%B3%B0%E7%8E%87%E9%96%A3%E5%93%A1%E5%90%91%E8%B3%B4%E7%B8%BD%E7%B5%B1%E5%A0%B1%E5%91%8A-%E9%84%AD%E9%BA%97%E5%90%9B%E5%8F%AC%E9%96%8B%E5%8F%B0%E7%BE%8E%E7%B6%93%E8%B2%BF%E5%B7%A5%E4%BD%9C%E5%B0%8F%E7%B5%84%E6%9C%83%E8%AD%B0-134600828.html",
       "source": "Yahoo 股市",
@@ -45,42 +77,10 @@
       "tags": []
     },
     {
-      "title": "AI投資升息也擋不住？台股高檔震盪找買點 3大族群10月逢回布局！",
-      "url": "https://tw.news.yahoo.com/ai%E6%8A%95%E8%B3%87%E5%8D%87%E6%81%AF%E4%B9%9F%E6%93%8B%E4%B8%8D%E4%BD%8F-%E5%8F%B0%E8%82%A1%E9%AB%98%E6%AA%94%E9%9C%87%E7%9B%AA%E6%89%BE%E8%B2%B7%E9%BB%9E-3%E5%A4%A7%E6%97%8F%E7%BE%A410%E6%9C%88%E9%80%A2%E5%9B%9E%E5%B8%83%E5%B1%80-121100032.html",
-      "source": "Yahoo 股市",
-      "published": "2026-11-06T20:11+08:00",
-      "summary": "雜誌官方line＠財經資訊不漏接 AI的研發與基礎建設攸關國家安全與整體國力，升息也難讓任何一個主要參與者放緩腳步（避免被超車），AI供應鏈與相關服務商持續受惠，10月建議等拉回找買點。 儘管美國總統",
-      "tags": []
-    },
-    {
-      "title": "AI資料中心若延後建置 台股影響一次看",
-      "url": "https://tw.news.yahoo.com/ai%E8%B3%87%E6%96%99%E4%B8%AD%E5%BF%83%E8%8B%A5%E5%BB%B6%E5%BE%8C%E5%BB%BA%E7%BD%AE-%E5%8F%B0%E8%82%A1%E5%BD%B1%E9%9F%BF-%E6%AC%A1%E7%9C%8B-120500732.html",
-      "source": "Yahoo 股市",
-      "published": "2026-11-06T20:05+08:00",
-      "summary": "受美國資料中心建置疑慮影響，台股今（6）日盤中一度大跌3,737點創歷史最大跌點，終場下跌1,873點收在39,701點。法人分析，AI需求多為延期而非取消，晶圓代工與先進封裝能見度佳，伺服器零組件則",
-      "tags": []
-    },
-    {
-      "title": "華晶科前3季賺3.21億元EPS 1.05元 將買8000張庫藏股護盤",
-      "url": "https://news.cnyes.com/news/id/6651322",
-      "source": "鉅亨網",
-      "published": "2026-11-06T20:04+08:00",
-      "summary": "光學元件廠華晶科(3059-TW)通過最新財報，2026年1-3季稅後純益3.21億元，年增7.6%，每股純益1.05元，今(6)日並決議在兩個月內，於每股38元以下買8000張庫藏股護盤。 華晶科技此次執行將買回8000張庫藏股的用途在於",
-      "tags": []
-    },
-    {
-      "title": "營收速報 - 營邦(3693)10月營收19.73億元年增率高達231.87％",
-      "url": "https://news.cnyes.com/news/id/6651334",
-      "source": "鉅亨網",
-      "published": "2026-11-06T19:50+08:00",
-      "summary": "營邦(3693-TW)今天公告2026年10月營收為新台幣19.73億元，年增率231.87%，月增率28.37%。 今年1-10月累計營收為100.98億元，累計年增率55.43%。 最新價為513元，近5日股價下跌-16.86%，相關電",
-      "tags": []
-    },
-    {
-      "title": "〈電子五哥營收〉緯創前10月營收衝3.29兆元續創高 11、12月AI伺服器動能更佳",
-      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBCbzRKRnNrR281Nmp4d1Nzb2k3VHp0akFrckFNVW1zMi1OZTBjNW9nRVZUemt1SUV1TGVmU2ludzNXaXZpRzQyWE1hRnIzZnc?oc=5",
-      "source": "鉅亨網",
-      "published": "2026-11-06T18:11+08:00",
+      "title": "AI賣壓狂瀉 亞洲現黑色星期五 日韓台股重挫",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBpZ0VHNVlaZ2cybDJTeGRpaVpqRFl4dkk0X2tVMWFjTFJyU0MwTDkxcTZ1NXY2bFRxdDZERFVLOVV0cFIwOWdldElEbUR6Ym9ncTFtY0tnbmRGSEpmc0VadmZXNDc?oc=5",
+      "source": "新唐人亞太電視台",
+      "published": "2026-11-06T20:27+08:00",
       "summary": "",
       "tags": []
     }
