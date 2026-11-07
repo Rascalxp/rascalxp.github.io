@@ -1,11 +1,75 @@
 {
-  "updated": "2026-11-07T20:10:47+08:00",
+  "updated": "2026-11-08T01:43:54+08:00",
   "ai_summary": false,
   "model": null,
-  "candidates_sig": "966dbc4273d21279d7d90445f3e72794bfb3b88b",
+  "candidates_sig": "cc3fdf1fceeba87111ba5295501229d272544fe9",
   "items": [
     {
-      "title": "傳進軍先進記憶體！台積電應輝達要求規劃3D DRAM仍遭小兒賣 「這檔」毛利率飆47%、獲大摩喊111元目標價卻淪賣超王",
+      "title": "「黃仁勳在說謊」 郭正亮示警台股別急接刀：他們從不正面回答AI燒錢何時回本",
+      "url": "https://tw.news.yahoo.com/%E9%BB%83%E4%BB%81%E5%8B%B3%E5%9C%A8%E8%AA%AA%E8%AC%8A-%E9%83%AD%E6%AD%A3%E4%BA%AE%E7%A4%BA%E8%AD%A6%E5%8F%B0%E8%82%A1%E5%88%A5%E6%80%A5%E6%8E%A5%E5%88%80-%E4%BB%96%E5%80%91%E5%BE%9E%E4%B8%8D%E6%AD%A3%E9%9D%A2%E5%9B%9E%E7%AD%94ai%E7%87%92%E9%8C%A2%E4%BD%95%E6%99%82%E5%9B%9E%E6%9C%AC-165750185.html",
+      "source": "Yahoo 股市",
+      "published": "2026-11-08T00:57+08:00",
+      "summary": "隨著美國期中選舉落幕，華爾街隨即迎來歷史性的科技股重挫，市值在一夕之間蒸發，隨後急拉回升。前立委郭正亮在《大大平評理》節目中指出，市場不僅面臨數據中心興建受阻的壓力，核心的問題更在於AI龐大的資本投入",
+      "tags": []
+    },
+    {
+      "title": "應輝達要求研擬生產3D DRAM？台積電最新回應！",
+      "url": "https://news.cnyes.com/news/id/6652126",
+      "source": "鉅亨網",
+      "published": "2026-11-08T00:00+08:00",
+      "summary": "傳出台積電應輝達要求研擬3D DRAM製造，評估新建廠或收購廠房改建，但台積電未證實投資。 消息稱計畫由徐國晉主導；華邦電董事長焦佑鈞指跨足DRAM有技術與專利門檻。 分析認為3D DRAM距成熟商用仍多年，台積電即使投入，短期難解供應短缺",
+      "tags": []
+    },
+    {
+      "title": "AI賣壓狂瀉 亞洲現黑色星期五 日韓台股重挫",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBVZFBWZ2lvOHQ3N25tSE9FMnVFeE5uc1AxcWdJOFgxaU5pY3pUcHhZTjFwM29pekxDX0RldDMzZFNwbmRaOElvZkJnNVB3SWlpcUZiV21GTVRCOWNHbGRLTdIBZkFVX3lxTE1RdFFGdHNUQXR0NkJqSDNwZGFFMXh0bnU0UFpEc2c0bzFfRjZ6UUs5Tk9zNzV1V1A3d3pqemdtLTY5SDkyWnlCdzhkRzVLdTN5TUlmWDVxTVEwOWlHQXlkZXdSb1NuZw?oc=5",
+      "source": "新唐人電視台",
+      "published": "2026-11-07T23:15+08:00",
+      "summary": "",
+      "tags": []
+    },
+    {
+      "title": "台積電傳進軍3D DRAM市場！輝達要求布局、AI記憶體短缺推升擴產需求",
+      "url": "https://news.cnyes.com/news/id/6651985",
+      "source": "鉅亨網",
+      "published": "2026-11-07T22:48+08:00",
+      "summary": "外媒稱台積電評估跨足先進記憶體市場，考慮生產3D DRAM，據傳因輝達要求而起 若成真，台積電業務將從邏輯晶片代工延伸至記憶體，可能緩解AI晶片供應壓力 報導未披露時程、投資與產能；HBM需求暴增已推升晶片短缺與消費電子售價",
+      "tags": []
+    },
+    {
+      "title": "台股周五留下紅K棒？ 41檔強勢股必收",
+      "url": "https://tw.news.yahoo.com/%E5%8F%B0%E8%82%A1%E5%91%A8%E4%BA%94%E7%95%99%E4%B8%8B%E7%B4%85k%E6%A3%92-41%E6%AA%94%E5%BC%B7%E5%8B%A2%E8%82%A1%E5%BF%85%E6%94%B6-140500653.html",
+      "source": "Yahoo 股市",
+      "published": "2026-11-07T22:05+08:00",
+      "summary": "全球AI科技股風暴重挫台股，加權指數單周暴跌逾5500點失守4萬點，創歷史最慘紀錄。法人指出11月台股布局應緊扣AI硬體換代、半導體先進製程與自動化政策，聚焦廣達、台積電、日月光投控及散熱等供應鏈，並",
+      "tags": []
+    },
+    {
+      "title": "輝達找上門！傳台積電進軍3D DRAM 評估自建新廠、收購改建",
+      "url": "https://tw.news.yahoo.com/%E8%BC%9D%E9%81%94%E6%89%BE%E4%B8%8A%E9%96%80-%E5%82%B3%E5%8F%B0%E7%A9%8D%E9%9B%BB%E9%80%B2%E8%BB%8D3d-dram-%E8%A9%95%E4%BC%B0%E8%87%AA%E5%BB%BA%E6%96%B0%E5%BB%A0-%E6%94%B6%E8%B3%BC%E6%94%B9%E5%BB%BA-122433226.html",
+      "source": "Yahoo 股市",
+      "published": "2026-11-07T20:24+08:00",
+      "summary": "AI記憶體需求大增，台積電也傳出新布局！科技媒體《The Information》6日引述兩名知情人士報導，台積電應輝達（Nvidia）要求，已開始規劃先進記憶體「3D DRAM」製造計畫，並評估興建",
+      "tags": []
+    },
+    {
+      "title": "特斯拉AI晶片藍圖曝光！Dojo D3導入HBM、SI6效能拚提升80倍、採2奈米製程",
+      "url": "https://news.cnyes.com/news/id/6652054",
+      "source": "鉅亨網",
+      "published": "2026-11-07T20:10+08:00",
+      "summary": "特斯拉公布AI加速器藍圖，SI6預計2029至2030年推出，運算效能達HW4的80倍、記憶體9倍。 Dojo D3重新啟動，改採多晶粒、2.5D/3D封裝與HBM，捨棄前兩代以SRAM為核心架構。 SI5先導入MCM設計並由台積電、三星3",
+      "tags": []
+    },
+    {
+      "title": "美股崩盤1000億美元賣壓來襲？阮慕驊拆解AI概念股暴跌三大元兇 | 徐莉雯 | 新聞",
+      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9hVXFZdWN5ZUhLcWFGaUwzMmRCc1hVZkZOR3ZoWVQzbFNPQUNhQVFaVUJNSE0zYmhUX0RZdGY0bjFRVjJjUVdOMU02bGdJdw?oc=5",
+      "source": "風傳媒",
+      "published": "2026-11-07T19:54+08:00",
+      "summary": "",
+      "tags": []
+    },
+    {
+      "title": "傳進軍先進記憶體！台積電應輝達要求規劃3D DRAM仍遭小兒砍 「這檔」毛利率飆47%、獲大摩喊111元目標價卻淪賣超王",
       "url": "https://tw.stock.yahoo.com/news/%E5%82%B3%E9%80%B2%E8%BB%8D%E5%85%88%E9%80%B2%E8%A8%98%E6%86%B6%E9%AB%94-%E5%8F%B0%E7%A9%8D%E9%9B%BB%E6%87%89%E8%BC%9D%E9%81%94%E8%A6%81%E6%B1%82%E8%A6%8F%E5%8A%833d-dram%E4%BB%8D%E9%81%AD%E5%B0%8F%E5%85%92%E8%B3%A3-%E9%80%99%E6%AA%94-%E6%AF%9B%E5%88%A9%E7%8E%87%E9%A3%8647-115000538.html",
       "source": "Yahoo 股市",
       "published": "2026-11-07T19:50+08:00",
@@ -18,70 +82,6 @@
       "source": "自由財經",
       "published": "2026-11-07T18:22+08:00",
       "summary": "",
-      "tags": []
-    },
-    {
-      "title": "台股殺破4萬點，熊市來了？謝金河盤點股災「反AI根源」，股市何時回歸正軌？",
-      "url": "https://tw.news.yahoo.com/%E5%8F%B0%E8%82%A1%E6%AE%BA%E7%A0%B44%E8%90%AC%E9%BB%9E-%E7%86%8A%E5%B8%82%E4%BE%86%E4%BA%86-%E8%AC%9D%E9%87%91%E6%B2%B3%E7%9B%A4%E9%BB%9E%E8%82%A1%E7%81%BD-%E5%8F%8Dai%E6%A0%B9%E6%BA%90-%E8%82%A1%E5%B8%82%E4%BD%95%E6%99%82%E5%9B%9E%E6%AD%B8%E6%AD%A3%E8%BB%8C-093644099.html",
-      "source": "Yahoo 股市",
-      "published": "2026-11-07T17:36+08:00",
-      "summary": "台股6日開盤爆發恐慌性賣壓，盤中一度狂瀉3737點，創下盤中史上最大跌點，終場下跌1873點作收，失守4萬大關；投資人關注是否迎來熊市。對此，財信傳媒董事長謝金河6日在臉書以「這場驚嚇，給大家上了一堂",
-      "tags": []
-    },
-    {
-      "title": "周末精選｜台股單周狂瀉5510點！國安基金進場救市 法人曝築底反彈兩大指標",
-      "url": "https://tw.stock.yahoo.com/news/%E5%91%A8%E6%9C%AB%E7%B2%BE%E9%81%B8-%E5%8F%B0%E8%82%A1%E5%96%AE%E5%91%A8%E7%8B%82%E7%80%895510%E9%BB%9E-%E5%9C%8B%E5%AE%89%E5%9F%BA%E9%87%91%E9%80%B2%E5%A0%B4%E6%95%91%E5%B8%82-%E6%B3%95%E4%BA%BA%E6%9B%9D%E7%AF%89%E5%BA%95%E5%8F%8D%E5%BD%88%E5%85%A9%E5%A4%A7%E6%8C%87%E6%A8%99-230000069.html",
-      "source": "Yahoo 股市",
-      "published": "2026-11-07T17:31+08:00",
-      "summary": "【記者羅元駿／台北報導】AI股面臨慘烈拋售，拖累台股本周跌掉5510點，更跌破4萬點關卡，創半年多新低，隨著技術面已進入超賣區間，加上國安基金宣布進場護盤，投顧法人認為，短線受美國期中選舉、AI公司資",
-      "tags": []
-    },
-    {
-      "title": "AI砸錢 何時回本？聯發科蔡力行揭AI投資真相",
-      "url": "https://tw.stock.yahoo.com/news/ai%E7%A0%B8%E9%8C%A2-%E4%BD%95%E6%99%82%E5%9B%9E%E6%9C%AC-%E8%81%AF%E7%99%BC%E7%A7%91%E8%94%A1%E5%8A%9B%E8%A1%8C%E6%8F%ADai%E6%8A%95%E8%B3%87%E7%9C%9F%E7%9B%B8-092737271.html",
-      "source": "Yahoo 股市",
-      "published": "2026-11-07T17:27+08:00",
-      "summary": "財經中心／綜合報導AI熱潮持續推升全球科技業資本支出，然而，近期雲端業者大量開資本支出建資料中心，市場也開始標準拉高，逐一檢視營收報酬與現金流，聯發科蔡力行揭AI投資真相。",
-      "tags": []
-    },
-    {
-      "title": "台積電跨足3D DRAM？焦佑鈞直言「比較可能是謠言」並點出兩大疑慮",
-      "url": "https://tw.stock.yahoo.com/news/%E5%8F%B0%E7%A9%8D%E9%9B%BB%E8%B7%A8%E8%B6%B33d-dram-%E7%84%A6%E4%BD%91%E9%88%9E%E7%9B%B4%E8%A8%80-%E6%AF%94%E8%BC%83%E5%8F%AF%E8%83%BD%E6%98%AF%E8%AC%A0%E8%A8%80-%E4%B8%A6%E9%BB%9E%E5%87%BA%E5%85%A9%E5%A4%A7%E7%96%91%E6%85%AE-083521686.html",
-      "source": "Yahoo 股市",
-      "published": "2026-11-07T16:35+08:00",
-      "summary": "【財訊快報／記者李純君報導】就近日外媒傳出，台積電(2330)可能在大客戶輝達（NVIDIA）的要求下，跨入新一代3D DRAM製造，對此，華邦電(2344)董事長焦佑鈞表示，自己認為這比較可能是謠言",
-      "tags": []
-    },
-    {
-      "title": "台股狂瀉1873點是否落底？邱沁宜直言「不敢說」 點出AI基本面關鍵警訊| 財經",
-      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBndFg3X0VMVEN3c2ZXTzF3MzhrNUVmVGhxdWRxWTkzM3lCSE5mMzZjODhuaE1Tc2xsWVJhYWdwRlVNcHNuZDc0NkNGSlo1QTZ5RzRNQVNrSVVJMEE?oc=5",
-      "source": "Newtalk新聞",
-      "published": "2026-11-07T16:05+08:00",
-      "summary": "",
-      "tags": []
-    },
-    {
-      "title": "輝達找台積電生產記憶體？華邦電董座焦佑鈞這樣看",
-      "url": "https://tw.news.yahoo.com/%E8%BC%9D%E9%81%94%E6%89%BE%E5%8F%B0%E7%A9%8D%E9%9B%BB%E7%94%9F%E7%94%A2%E8%A8%98%E6%86%B6%E9%AB%94-%E8%8F%AF%E9%82%A6%E9%9B%BB%E8%91%A3%E5%BA%A7%E7%84%A6%E4%BD%91%E9%88%9E%E9%80%99%E6%A8%A3%E7%9C%8B-080100184.html",
-      "source": "Yahoo 股市",
-      "published": "2026-11-07T16:01+08:00",
-      "summary": "市場近期傳出輝達（NVIDIA）可能尋求台積電協助生產3D DRAM，引發外界關注晶圓代工龍頭是否將跨足記憶體製造領域。對此，華邦電董事長焦佑鈞今日出席家庭日受訪時表示，台積電是一家追求卓越的公司，如",
-      "tags": []
-    },
-    {
-      "title": "台積電ADR漲逾6％、金管會將出手「下週一能飆多少」？股民憂「1關鍵」：沒那麼樂觀",
-      "url": "https://tw.news.yahoo.com/%E5%8F%B0%E7%A9%8D%E9%9B%BBadr%E6%BC%B2%E9%80%BE6-%E9%87%91%E7%AE%A1%E6%9C%83%E5%B0%87%E5%87%BA%E6%89%8B-%E4%B8%8B%E9%80%B1-%E8%83%BD%E9%A3%86%E5%A4%9A%E5%B0%91-%E8%82%A1%E6%B0%91%E6%86%82-080100124.html",
-      "source": "Yahoo 股市",
-      "published": "2026-11-07T16:01+08:00",
-      "summary": "受到美國期中選舉結果與AI政策監管加劇的影響，台股6日暴跌，盤中一度狂瀉逾3700點，不過美股週五回神，那指漲1.09%、費半勁揚4.21%，其中重量級晶片製造商AMD狂漲逾11%、美光漲5.12%、",
-      "tags": []
-    },
-    {
-      "title": "〈華邦電展望〉AI一枝獨秀！擴產效益明年顯現 焦佑鈞示警「擔心下一個不景氣太晚來」",
-      "url": "https://news.cnyes.com/news/id/6652015",
-      "source": "鉅亨網",
-      "published": "2026-11-07T14:40+08:00",
-      "summary": "焦佑鈞稱半導體呈「百業蕭條、一枝獨秀」，AI 帶動需求，僅 AI 可承受記憶體漲價。 華邦電擴產自去年下半年啟動，設備陸續進廠，預計明年起效益顯現、後年接近滿載。 他憂景氣延長至2028、2029年恐致產能過剩，並示警2029年資金限制或成",
       "tags": []
     }
   ]
