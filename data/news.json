@@ -1,9 +1,17 @@
 {
-  "updated": "2026-11-07T18:59:42+08:00",
+  "updated": "2026-11-07T20:10:47+08:00",
   "ai_summary": false,
   "model": null,
-  "candidates_sig": "92ad2a3c22847b78c71f49d8fc84a9ca59dddcf8",
+  "candidates_sig": "966dbc4273d21279d7d90445f3e72794bfb3b88b",
   "items": [
+    {
+      "title": "傳進軍先進記憶體！台積電應輝達要求規劃3D DRAM仍遭小兒賣 「這檔」毛利率飆47%、獲大摩喊111元目標價卻淪賣超王",
+      "url": "https://tw.stock.yahoo.com/news/%E5%82%B3%E9%80%B2%E8%BB%8D%E5%85%88%E9%80%B2%E8%A8%98%E6%86%B6%E9%AB%94-%E5%8F%B0%E7%A9%8D%E9%9B%BB%E6%87%89%E8%BC%9D%E9%81%94%E8%A6%81%E6%B1%82%E8%A6%8F%E5%8A%833d-dram%E4%BB%8D%E9%81%AD%E5%B0%8F%E5%85%92%E8%B3%A3-%E9%80%99%E6%AA%94-%E6%AF%9B%E5%88%A9%E7%8E%87%E9%A3%8647-115000538.html",
+      "source": "Yahoo 股市",
+      "published": "2026-11-07T19:50+08:00",
+      "summary": "[FTNN新聞網]記者邱梓欣／綜合報導台股本周（11／02～11／06）最終收在39,701.64點，本週累計下跌5510.19點、跌幅12.19％。據證交所籌碼動向，外資本周賣超52...",
+      "tags": []
+    },
     {
       "title": "不只台積電！外媒大讚1台廠 靠一根滑軌打進輝達供應鏈",
       "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1uelVKOExsMExvTGxBazRMdG50NDdYSEVzUTZzN0dNWThiUTdKWFIwX2h4c2ZfOHItVWs2QnF0bmdDN2w3M3BmNWVWRE5NeDRKSGdQcldHek85SkpQS3g40gFkQVVfeXFMTTN4TXNZQkNMOGF2anJReldZQTNaeXJDNkJVNlMzLWN3bGd6X25yX09xd1RXdHpMXzNwemttNXJOYUxjOWZDaUR0VVJFRVJONnRHNC0zWFljYVFGLWJHbmVYbVFrXw?oc=5",
@@ -37,30 +45,6 @@
       "tags": []
     },
     {
-      "title": "華邦電董座談新唐：產能包袱將降；AI轉型漸收效",
-      "url": "https://tw.stock.yahoo.com/news/%E8%8F%AF%E9%82%A6%E9%9B%BB%E8%91%A3%E5%BA%A7%E8%AB%87%E6%96%B0%E5%94%90-%E7%94%A2%E8%83%BD%E5%8C%85%E8%A2%B1%E5%B0%87%E9%99%8D-ai%E8%BD%89%E5%9E%8B%E6%BC%B8%E6%94%B6%E6%95%88-090100347.html",
-      "source": "Yahoo 股市",
-      "published": "2026-11-07T17:01+08:00",
-      "summary": "MoneyDJ新聞 2026-11-07 17:01:48 周佩宇 發佈華邦電(2344)今(7)日舉辦零碳家庭日，董事長焦佑鈞(附圖)針對旗下新唐(4919)近期接班分工的調整做出說明，將新唐董事長",
-      "tags": []
-    },
-    {
-      "title": "記憶體漲價有極限！華邦電董座示警AI獨旺、百業蕭條，恐壓抑消費買氣",
-      "url": "https://tw.stock.yahoo.com/news/%E8%A8%98%E6%86%B6%E9%AB%94%E6%BC%B2%E5%83%B9%E6%9C%89%E6%A5%B5%E9%99%90-%E8%8F%AF%E9%82%A6%E9%9B%BB%E8%91%A3%E5%BA%A7%E7%A4%BA%E8%AD%A6ai%E7%8D%A8%E6%97%BA-%E7%99%BE%E6%A5%AD%E8%95%AD%E6%A2%9D-%E6%81%90%E5%A3%93%E6%8A%91%E6%B6%88%E8%B2%BB%E8%B2%B7%E6%B0%A3-085348946.html",
-      "source": "Yahoo 股市",
-      "published": "2026-11-07T16:53+08:00",
-      "summary": "【財訊快報／記者李純君報導】近期針對記憶體售價太高，影響包括手機、筆電等終端市場消費性買氣，華邦電(2344)董事長焦佑鈞坦言，自己也認為，現在的景氣有點像「百業蕭條，只有AI一枝獨秀」，記憶體持續漲",
-      "tags": []
-    },
-    {
-      "title": "華邦電董座看明後年AI需求穩；盼記憶體止漲",
-      "url": "https://tw.stock.yahoo.com/news/%E8%8F%AF%E9%82%A6%E9%9B%BB%E8%91%A3%E5%BA%A7%E7%9C%8B%E6%98%8E%E5%BE%8C%E5%B9%B4ai%E9%9C%80%E6%B1%82%E7%A9%A9-%E7%9B%BC%E8%A8%98%E6%86%B6%E9%AB%94%E6%AD%A2%E6%BC%B2-084900118.html",
-      "source": "Yahoo 股市",
-      "published": "2026-11-07T16:49+08:00",
-      "summary": "MoneyDJ新聞 2026-11-07 16:49:05 周佩宇 發佈華邦電(2344)今(7)日舉辦零碳家庭日，針對AI發展展望，董事長焦佑鈞(附圖)在媒體餐敘時做出說明，依客戶回饋，明(2027",
-      "tags": []
-    },
-    {
       "title": "台積電跨足3D DRAM？焦佑鈞直言「比較可能是謠言」並點出兩大疑慮",
       "url": "https://tw.stock.yahoo.com/news/%E5%8F%B0%E7%A9%8D%E9%9B%BB%E8%B7%A8%E8%B6%B33d-dram-%E7%84%A6%E4%BD%91%E9%88%9E%E7%9B%B4%E8%A8%80-%E6%AF%94%E8%BC%83%E5%8F%AF%E8%83%BD%E6%98%AF%E8%AC%A0%E8%A8%80-%E4%B8%A6%E9%BB%9E%E5%87%BA%E5%85%A9%E5%A4%A7%E7%96%91%E6%85%AE-083521686.html",
       "source": "Yahoo 股市",
@@ -82,6 +66,22 @@
       "source": "Yahoo 股市",
       "published": "2026-11-07T16:01+08:00",
       "summary": "市場近期傳出輝達（NVIDIA）可能尋求台積電協助生產3D DRAM，引發外界關注晶圓代工龍頭是否將跨足記憶體製造領域。對此，華邦電董事長焦佑鈞今日出席家庭日受訪時表示，台積電是一家追求卓越的公司，如",
+      "tags": []
+    },
+    {
+      "title": "台積電ADR漲逾6％、金管會將出手「下週一能飆多少」？股民憂「1關鍵」：沒那麼樂觀",
+      "url": "https://tw.news.yahoo.com/%E5%8F%B0%E7%A9%8D%E9%9B%BBadr%E6%BC%B2%E9%80%BE6-%E9%87%91%E7%AE%A1%E6%9C%83%E5%B0%87%E5%87%BA%E6%89%8B-%E4%B8%8B%E9%80%B1-%E8%83%BD%E9%A3%86%E5%A4%9A%E5%B0%91-%E8%82%A1%E6%B0%91%E6%86%82-080100124.html",
+      "source": "Yahoo 股市",
+      "published": "2026-11-07T16:01+08:00",
+      "summary": "受到美國期中選舉結果與AI政策監管加劇的影響，台股6日暴跌，盤中一度狂瀉逾3700點，不過美股週五回神，那指漲1.09%、費半勁揚4.21%，其中重量級晶片製造商AMD狂漲逾11%、美光漲5.12%、",
+      "tags": []
+    },
+    {
+      "title": "〈華邦電展望〉AI一枝獨秀！擴產效益明年顯現 焦佑鈞示警「擔心下一個不景氣太晚來」",
+      "url": "https://news.cnyes.com/news/id/6652015",
+      "source": "鉅亨網",
+      "published": "2026-11-07T14:40+08:00",
+      "summary": "焦佑鈞稱半導體呈「百業蕭條、一枝獨秀」，AI 帶動需求，僅 AI 可承受記憶體漲價。 華邦電擴產自去年下半年啟動，設備陸續進廠，預計明年起效益顯現、後年接近滿載。 他憂景氣延長至2028、2029年恐致產能過剩，並示警2029年資金限制或成",
       "tags": []
     }
   ]
