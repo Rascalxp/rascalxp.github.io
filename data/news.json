@@ -1,87 +1,87 @@
 {
-  "updated": "2026-11-07T12:11:29+08:00",
+  "updated": "2026-11-07T18:59:42+08:00",
   "ai_summary": false,
   "model": null,
-  "candidates_sig": "1b1343243ae6d0e9310b917fbb357561800b523d",
+  "candidates_sig": "92ad2a3c22847b78c71f49d8fc84a9ca59dddcf8",
   "items": [
     {
-      "title": "趁股災撿便宜！台積電股東人數一周暴增7.3萬人 再創歷史新高",
-      "url": "https://tw.stock.yahoo.com/news/%E8%B6%81%E8%82%A1%E7%81%BD%E6%92%BF%E4%BE%BF%E5%AE%9C%EF%BC%81%E5%8F%B0%E7%A9%8D%E9%9B%BB%E8%82%A1%E6%9D%B1%E4%BA%BA%E6%95%B8%E4%B8%80%E5%91%A8%E6%9A%B4%E5%A2%9E73%E8%90%AC%E4%BA%BA-%E5%86%8D%E5%89%B5%E6%AD%B7%E5%8F%B2%E6%96%B0%E9%AB%98-034014522.html",
-      "source": "Yahoo 股市",
-      "published": "2026-11-07T11:40+08:00",
-      "summary": "美期中選舉變天釀全球AI股災！台積電（2330）昨（6日）罕見出現跌停，較上周五買一張股票最多便宜35萬元，散戶大舉進場撿便宜，據集保結算所統計，單周股東人數暴增7.3萬人，總人數飆到將近326萬人，",
-      "tags": []
-    },
-    {
-      "title": "陳幸妤是「股市明燈」！上個月逼趙建銘歸還股票 躲過台股大屠殺",
-      "url": "https://tw.news.yahoo.com/%E9%99%B3%E5%B9%B8%E5%A6%A4%E6%98%AF-%E8%82%A1%E5%B8%82%E6%98%8E%E7%87%88-%E4%B8%8A%E5%80%8B%E6%9C%88%E9%80%BC%E8%B6%99%E5%BB%BA%E9%8A%98%E6%AD%B8%E9%82%84%E8%82%A1%E7%A5%A8-%E8%BA%B2%E9%81%8E%E5%8F%B0%E8%82%A1%E5%A4%A7%E5%B1%A0%E6%AE%BA-031100488.html",
-      "source": "Yahoo 股市",
-      "published": "2026-11-07T11:11+08:00",
-      "summary": "受到美國期中選舉結果與AI政策監管加劇的影響，台股昨天（6日）暴跌，盤中一度狂瀉逾3700點，最後收在39701.64點，可說是「台股大屠殺」，投資人紛紛喊苦。不過，有網友想到，前總統陳水扁的女兒陳幸",
-      "tags": []
-    },
-    {
-      "title": "台積電將進軍先進記憶體戰場？傳應輝達要求規劃生產3D DRAM、評估建廠",
-      "url": "https://tw.news.yahoo.com/%E5%8F%B0%E7%A9%8D%E9%9B%BB%E5%B0%87%E9%80%B2%E8%BB%8D%E5%85%88%E9%80%B2%E8%A8%98%E6%86%B6%E9%AB%94%E6%88%B0%E5%A0%B4-%E5%82%B3%E6%87%89%E8%BC%9D%E9%81%94%E8%A6%81%E6%B1%82%E8%A6%8F%E5%8A%83%E7%94%9F%E7%94%A23d-dram-%E8%A9%95%E4%BC%B0%E5%BB%BA%E5%BB%A0-031027299.html",
-      "source": "Yahoo 股市",
-      "published": "2026-11-07T11:10+08:00",
-      "summary": "[Newtalk新聞] AI（人工智慧）產業迅速發展，記憶體供應吃緊、價格上漲，晶片業者尋求更多供應來源。科技媒體The Information報導披露，全球晶片代工龍頭台積電正考慮擴大業務版圖，進軍",
-      "tags": []
-    },
-    {
-      "title": "AI賣壓狂瀉 亞洲現黑色星期五 日韓台股重挫",
-      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBVZFBWZ2lvOHQ3N25tSE9FMnVFeE5uc1AxcWdJOFgxaU5pY3pUcHhZTjFwM29pekxDX0RldDMzZFNwbmRaOElvZkJnNVB3SWlpcUZiV21GTVRCOWNHbGRLTdIBZkFVX3lxTE1RdFFGdHNUQXR0NkJqSDNwZGFFMXh0bnU0UFpEc2c0bzFfRjZ6UUs5Tk9zNzV1V1A3d3pqemdtLTY5SDkyWnlCdzhkRzVLdTN5TUlmWDVxTVEwOWlHQXlkZXdSb1NuZw?oc=5",
-      "source": "新唐人電視台",
-      "published": "2026-11-07T10:31+08:00",
+      "title": "不只台積電！外媒大讚1台廠 靠一根滑軌打進輝達供應鏈",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1uelVKOExsMExvTGxBazRMdG50NDdYSEVzUTZzN0dNWThiUTdKWFIwX2h4c2ZfOHItVWs2QnF0bmdDN2w3M3BmNWVWRE5NeDRKSGdQcldHek85SkpQS3g40gFkQVVfeXFMTTN4TXNZQkNMOGF2anJReldZQTNaeXJDNkJVNlMzLWN3bGd6X25yX09xd1RXdHpMXzNwemttNXJOYUxjOWZDaUR0VVJFRVJONnRHNC0zWFljYVFGLWJHbmVYbVFrXw?oc=5",
+      "source": "自由財經",
+      "published": "2026-11-07T18:22+08:00",
       "summary": "",
       "tags": []
     },
     {
-      "title": "輝達下一步瞄準記憶體！傳找台積電操刀3D DRAM 挑戰三星、SK海力士",
-      "url": "https://tw.stock.yahoo.com/news/%E8%BC%9D%E9%81%94%E4%B8%8B-%E6%AD%A5%E7%9E%84%E6%BA%96%E8%A8%98%E6%86%B6%E9%AB%94-%E5%82%B3%E6%89%BE%E5%8F%B0%E7%A9%8D%E9%9B%BB%E6%93%8D%E5%88%803d-dram-%E6%8C%91%E6%88%B0%E4%B8%89%E6%98%9F-022600309.html",
+      "title": "台股殺破4萬點，熊市來了？謝金河盤點股災「反AI根源」，股市何時回歸正軌？",
+      "url": "https://tw.news.yahoo.com/%E5%8F%B0%E8%82%A1%E6%AE%BA%E7%A0%B44%E8%90%AC%E9%BB%9E-%E7%86%8A%E5%B8%82%E4%BE%86%E4%BA%86-%E8%AC%9D%E9%87%91%E6%B2%B3%E7%9B%A4%E9%BB%9E%E8%82%A1%E7%81%BD-%E5%8F%8Dai%E6%A0%B9%E6%BA%90-%E8%82%A1%E5%B8%82%E4%BD%95%E6%99%82%E5%9B%9E%E6%AD%B8%E6%AD%A3%E8%BB%8C-093644099.html",
       "source": "Yahoo 股市",
-      "published": "2026-11-07T10:26+08:00",
-      "summary": "[FTNN新聞網]記者蕭廷芬／綜合報導台積電（2330）除了替輝達（NVIDIA）生產AI晶片，如今可能連先進記憶體也要跨足。科技媒體《TheInformation》6日引述兩名知...",
+      "published": "2026-11-07T17:36+08:00",
+      "summary": "台股6日開盤爆發恐慌性賣壓，盤中一度狂瀉3737點，創下盤中史上最大跌點，終場下跌1873點作收，失守4萬大關；投資人關注是否迎來熊市。對此，財信傳媒董事長謝金河6日在臉書以「這場驚嚇，給大家上了一堂",
       "tags": []
     },
     {
-      "title": "台積電跌停、日股暴跌4000點！全球股市為何突然大逃殺？財經專家點出關鍵",
-      "url": "https://tw.news.yahoo.com/%E5%8F%B0%E7%A9%8D%E9%9B%BB%E8%B7%8C%E5%81%9C-%E6%97%A5%E8%82%A1%E6%9A%B4%E8%B7%8C4000%E9%BB%9E-%E5%85%A8%E7%90%83%E8%82%A1%E5%B8%82%E7%82%BA%E4%BD%95%E7%AA%81%E7%84%B6%E5%A4%A7%E9%80%83%E6%AE%BA-%E8%AC%9D%E9%87%91%E6%B2%B3%E9%BB%9E%E5%87%BA%E9%97%9C%E9%8D%B5-022000987.html",
+      "title": "周末精選｜台股單周狂瀉5510點！國安基金進場救市 法人曝築底反彈兩大指標",
+      "url": "https://tw.stock.yahoo.com/news/%E5%91%A8%E6%9C%AB%E7%B2%BE%E9%81%B8-%E5%8F%B0%E8%82%A1%E5%96%AE%E5%91%A8%E7%8B%82%E7%80%895510%E9%BB%9E-%E5%9C%8B%E5%AE%89%E5%9F%BA%E9%87%91%E9%80%B2%E5%A0%B4%E6%95%91%E5%B8%82-%E6%B3%95%E4%BA%BA%E6%9B%9D%E7%AF%89%E5%BA%95%E5%8F%8D%E5%BD%88%E5%85%A9%E5%A4%A7%E6%8C%87%E6%A8%99-230000069.html",
       "source": "Yahoo 股市",
-      "published": "2026-11-07T10:20+08:00",
-      "summary": "美國期中選舉結果出爐，民主黨大勝，市場卻意外迎來一場震撼教育。今周刊董事長謝金河在臉書發文指出，民主黨勝選所帶來的第一堂課就是「反AI」，部分候選人主張暫緩資料中心建置，甚至要求美國停止發展AI，相關",
+      "published": "2026-11-07T17:31+08:00",
+      "summary": "【記者羅元駿／台北報導】AI股面臨慘烈拋售，拖累台股本周跌掉5510點，更跌破4萬點關卡，創半年多新低，隨著技術面已進入超賣區間，加上國安基金宣布進場護盤，投顧法人認為，短線受美國期中選舉、AI公司資",
       "tags": []
     },
     {
-      "title": "國安基金宣布護盤！台股重挫5510點破年線，AI半導體洗盤台積電湧買盤-財經焦點情報站",
-      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQNXk0dGFlb1NhZzJ2eDg5XzdtdDE3UWpXOUVSaUN4VGZ1ZXhTVTlIeFZIMVRmYW5weDk5VVdGOEhhTEdXRXpqU1RkcGl0cDdZYjBOdmpkOGV1SlRIU1RCa1J6ajFUUml6NEdYVzctakpQUnRMc3lRdDI3bDVKRjZLajhB?oc=5",
-      "source": "CMoney投資網誌",
-      "published": "2026-11-07T09:48+08:00",
+      "title": "AI砸錢 何時回本？聯發科蔡力行揭AI投資真相",
+      "url": "https://tw.stock.yahoo.com/news/ai%E7%A0%B8%E9%8C%A2-%E4%BD%95%E6%99%82%E5%9B%9E%E6%9C%AC-%E8%81%AF%E7%99%BC%E7%A7%91%E8%94%A1%E5%8A%9B%E8%A1%8C%E6%8F%ADai%E6%8A%95%E8%B3%87%E7%9C%9F%E7%9B%B8-092737271.html",
+      "source": "Yahoo 股市",
+      "published": "2026-11-07T17:27+08:00",
+      "summary": "財經中心／綜合報導AI熱潮持續推升全球科技業資本支出，然而，近期雲端業者大量開資本支出建資料中心，市場也開始標準拉高，逐一檢視營收報酬與現金流，聯發科蔡力行揭AI投資真相。",
+      "tags": []
+    },
+    {
+      "title": "華邦電董座談新唐：產能包袱將降；AI轉型漸收效",
+      "url": "https://tw.stock.yahoo.com/news/%E8%8F%AF%E9%82%A6%E9%9B%BB%E8%91%A3%E5%BA%A7%E8%AB%87%E6%96%B0%E5%94%90-%E7%94%A2%E8%83%BD%E5%8C%85%E8%A2%B1%E5%B0%87%E9%99%8D-ai%E8%BD%89%E5%9E%8B%E6%BC%B8%E6%94%B6%E6%95%88-090100347.html",
+      "source": "Yahoo 股市",
+      "published": "2026-11-07T17:01+08:00",
+      "summary": "MoneyDJ新聞 2026-11-07 17:01:48 周佩宇 發佈華邦電(2344)今(7)日舉辦零碳家庭日，董事長焦佑鈞(附圖)針對旗下新唐(4919)近期接班分工的調整做出說明，將新唐董事長",
+      "tags": []
+    },
+    {
+      "title": "記憶體漲價有極限！華邦電董座示警AI獨旺、百業蕭條，恐壓抑消費買氣",
+      "url": "https://tw.stock.yahoo.com/news/%E8%A8%98%E6%86%B6%E9%AB%94%E6%BC%B2%E5%83%B9%E6%9C%89%E6%A5%B5%E9%99%90-%E8%8F%AF%E9%82%A6%E9%9B%BB%E8%91%A3%E5%BA%A7%E7%A4%BA%E8%AD%A6ai%E7%8D%A8%E6%97%BA-%E7%99%BE%E6%A5%AD%E8%95%AD%E6%A2%9D-%E6%81%90%E5%A3%93%E6%8A%91%E6%B6%88%E8%B2%BB%E8%B2%B7%E6%B0%A3-085348946.html",
+      "source": "Yahoo 股市",
+      "published": "2026-11-07T16:53+08:00",
+      "summary": "【財訊快報／記者李純君報導】近期針對記憶體售價太高，影響包括手機、筆電等終端市場消費性買氣，華邦電(2344)董事長焦佑鈞坦言，自己也認為，現在的景氣有點像「百業蕭條，只有AI一枝獨秀」，記憶體持續漲",
+      "tags": []
+    },
+    {
+      "title": "華邦電董座看明後年AI需求穩；盼記憶體止漲",
+      "url": "https://tw.stock.yahoo.com/news/%E8%8F%AF%E9%82%A6%E9%9B%BB%E8%91%A3%E5%BA%A7%E7%9C%8B%E6%98%8E%E5%BE%8C%E5%B9%B4ai%E9%9C%80%E6%B1%82%E7%A9%A9-%E7%9B%BC%E8%A8%98%E6%86%B6%E9%AB%94%E6%AD%A2%E6%BC%B2-084900118.html",
+      "source": "Yahoo 股市",
+      "published": "2026-11-07T16:49+08:00",
+      "summary": "MoneyDJ新聞 2026-11-07 16:49:05 周佩宇 發佈華邦電(2344)今(7)日舉辦零碳家庭日，針對AI發展展望，董事長焦佑鈞(附圖)在媒體餐敘時做出說明，依客戶回饋，明(2027",
+      "tags": []
+    },
+    {
+      "title": "台積電跨足3D DRAM？焦佑鈞直言「比較可能是謠言」並點出兩大疑慮",
+      "url": "https://tw.stock.yahoo.com/news/%E5%8F%B0%E7%A9%8D%E9%9B%BB%E8%B7%A8%E8%B6%B33d-dram-%E7%84%A6%E4%BD%91%E9%88%9E%E7%9B%B4%E8%A8%80-%E6%AF%94%E8%BC%83%E5%8F%AF%E8%83%BD%E6%98%AF%E8%AC%A0%E8%A8%80-%E4%B8%A6%E9%BB%9E%E5%87%BA%E5%85%A9%E5%A4%A7%E7%96%91%E6%85%AE-083521686.html",
+      "source": "Yahoo 股市",
+      "published": "2026-11-07T16:35+08:00",
+      "summary": "【財訊快報／記者李純君報導】就近日外媒傳出，台積電(2330)可能在大客戶輝達（NVIDIA）的要求下，跨入新一代3D DRAM製造，對此，華邦電(2344)董事長焦佑鈞表示，自己認為這比較可能是謠言",
+      "tags": []
+    },
+    {
+      "title": "台股狂瀉1873點是否落底？邱沁宜直言「不敢說」 點出AI基本面關鍵警訊| 財經",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBndFg3X0VMVEN3c2ZXTzF3MzhrNUVmVGhxdWRxWTkzM3lCSE5mMzZjODhuaE1Tc2xsWVJhYWdwRlVNcHNuZDc0NkNGSlo1QTZ5RzRNQVNrSVVJMEE?oc=5",
+      "source": "Newtalk新聞",
+      "published": "2026-11-07T16:05+08:00",
       "summary": "",
       "tags": []
     },
     {
-      "title": "台積電傳殺入先進DRAM！背後最大推手是他 3家記憶體廠恐皮皮剉",
-      "url": "https://tw.stock.yahoo.com/news/%E5%8F%B0%E7%A9%8D%E9%9B%BB%E5%82%B3%E6%AE%BA%E5%85%A5%E5%85%88%E9%80%B2dram-%E8%83%8C%E5%BE%8C%E6%9C%80%E5%A4%A7%E6%8E%A8%E6%89%8B%E6%98%AF%E4%BB%96-3%E5%AE%B6%E8%A8%98%E6%86%B6%E9%AB%94%E5%BB%A0%E6%81%90%E7%9A%AE%E7%9A%AE%E5%89%89-014155134.html",
+      "title": "輝達找台積電生產記憶體？華邦電董座焦佑鈞這樣看",
+      "url": "https://tw.news.yahoo.com/%E8%BC%9D%E9%81%94%E6%89%BE%E5%8F%B0%E7%A9%8D%E9%9B%BB%E7%94%9F%E7%94%A2%E8%A8%98%E6%86%B6%E9%AB%94-%E8%8F%AF%E9%82%A6%E9%9B%BB%E8%91%A3%E5%BA%A7%E7%84%A6%E4%BD%91%E9%88%9E%E9%80%99%E6%A8%A3%E7%9C%8B-080100184.html",
       "source": "Yahoo 股市",
-      "published": "2026-11-07T09:41+08:00",
-      "summary": "台積電傳出可能跨足先進記憶體製造！外媒披露，台積電近期應最大客戶輝達（NVIDIA）要求，已開始評估新一代3D DRAM生產計畫，並研議興建新廠或收購既有廠房等方案。若計畫成真，台積電將進一步擴大在A",
-      "tags": []
-    },
-    {
-      "title": "台股盤中暴跌3737點！賴清德急傳Line問「會怎樣?」 謝金河：AI主軸不變",
-      "url": "https://tw.news.yahoo.com/%E5%8F%B0%E8%82%A1%E7%9B%A4%E4%B8%AD%E6%9A%B4%E8%B7%8C3737%E9%BB%9E-%E8%B3%B4%E6%B8%85%E5%BE%B7%E6%80%A5%E5%82%B3line%E5%95%8F-%E6%9C%83%E6%80%8E%E6%A8%A3-%E8%AC%9D%E9%87%91%E6%B2%B3-ai%E4%B8%BB%E8%BB%B8%E4%B8%8D%E8%AE%8A-013118575.html",
-      "source": "Yahoo 股市",
-      "published": "2026-11-07T09:31+08:00",
-      "summary": "[Newtalk新聞] 美國期中選舉結果衝擊金融市場，台股6日遭遇史詩級賣壓，一度狂瀉3737點創下史上最大盤中跌點，終場重挫1873.08點，寫下史上第4大收盤跌點。面對全球股災，《今周刊》董事長謝",
-      "tags": []
-    },
-    {
-      "title": "〈熱門股〉華碩力扛大盤逆風獲法人買超 11/12召開法說",
-      "url": "https://news.cnyes.com/news/id/6651714",
-      "source": "鉅亨網",
-      "published": "2026-11-07T09:30+08:00",
-      "summary": "大盤近期受國際局勢波動，個股紛紛下跌，而PC品牌華碩(2357-TW)獲得法人青睞，本周跌幅約5%，周成交量1.7萬張，其中投信呈連7買，共買超1757張，自營商呈連17買，共買超3090張。 華碩受惠全球AI算力與雲端基礎設施爆發，已將全",
+      "published": "2026-11-07T16:01+08:00",
+      "summary": "市場近期傳出輝達（NVIDIA）可能尋求台積電協助生產3D DRAM，引發外界關注晶圓代工龍頭是否將跨足記憶體製造領域。對此，華邦電董事長焦佑鈞今日出席家庭日受訪時表示，台積電是一家追求卓越的公司，如",
       "tags": []
     }
   ]
