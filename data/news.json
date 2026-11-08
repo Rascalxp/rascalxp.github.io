@@ -1,9 +1,25 @@
 {
-  "updated": "2026-11-08T10:20:53+08:00",
+  "updated": "2026-11-08T12:10:44+08:00",
   "ai_summary": false,
   "model": null,
-  "candidates_sig": "f3f7e73cf5796363c622eba0711f6996367d8710",
+  "candidates_sig": "01cf1fe65c00d5fdbee1def0dd5dbda89529b9af",
   "items": [
+    {
+      "title": "法人：台股短線沉澱不改AI長期動能 宜採「多策略配置」迎戰高波動",
+      "url": "https://news.cnyes.com/news/id/6652243",
+      "source": "鉅亨網",
+      "published": "2026-11-08T11:20+08:00",
+      "summary": "受美股大跌及美國期中選舉後政策不確定性影響，台股6日陷入劇烈震盪，雖盤中在護盤資金挹注下急衝逾2,000點，終場仍重挫1,873.08點，失守4萬點大關。安聯投信指出，此波修正主因評價調整與資金沉澱，AI長線趨勢與台股企業獲利動能並未改變。",
+      "tags": []
+    },
+    {
+      "title": "AI泡沫危機延燒台股！郭正亮批「黃仁勳都說謊」 示警投資人別急接刀",
+      "url": "https://tw.news.yahoo.com/ai%E6%B3%A1%E6%B2%AB%E5%8D%B1%E6%A9%9F%E5%BB%B6%E7%87%92%E5%8F%B0%E8%82%A1-%E9%83%AD%E6%AD%A3%E4%BA%AE%E6%89%B9-%E9%BB%83%E4%BB%81%E5%8B%B3%E9%83%BD%E8%AA%AA%E8%AC%8A-%E7%A4%BA%E8%AD%A6%E6%8A%95%E8%B3%87%E4%BA%BA%E5%88%A5%E6%80%A5%E6%8E%A5%E5%88%80-024545749.html",
+      "source": "Yahoo 股市",
+      "published": "2026-11-08T10:45+08:00",
+      "summary": "郭正亮分析，美國期中選舉後，科技股出現大幅修正，市場一度蒸發約2.5兆美元市值。他認為，除了投資人開始質疑人工智慧產業的獲利能力，美國政治局勢轉變，也可能對資料中心建設與未來算力發展造成影響。郭正亮指",
+      "tags": []
+    },
     {
       "title": "台股能翻身？緊盯「3大指標」、台積電10月營收這天揭曉",
       "url": "https://tw.news.yahoo.com/%E5%8F%B0%E8%82%A1%E8%83%BD%E7%BF%BB%E8%BA%AB-%E7%B7%8A%E7%9B%AF-3%E5%A4%A7%E6%8C%87%E6%A8%99-%E5%8F%B0%E7%A9%8D%E9%9B%BB10%E6%9C%88%E7%87%9F%E6%94%B6%E9%80%99%E5%A4%A9%E6%8F%AD%E6%9B%89-021000103.html",
@@ -45,6 +61,14 @@
       "tags": []
     },
     {
+      "title": "廣達AI伺服器營收暴增125％！197億擴廠案突喊卡 11日法說揭明年出貨關鍵",
+      "url": "https://news.google.com/rss/articles/CBMiowNBVV95cUxQaDl6WS1hUFpuYm52cEs4TndjeEEwTlBRQ1NuWGJxUnVkMVEwSndqWUwwLVN3WlZybm5jSUNxbVBEcjUzWG5NMF9XSE9oeEZlM0pjQndiaHk3N3daT0dwdlU5NGlZSTFhRGNxREV1cHFxT2xuU0UtSU12aUcyUDRQVkUzcGM1d0o3cGtmV3ZmZkdfaC12cWwzTkdNbk9yd0lVN3ZoM2dOMGdJOTNkVGp1NHF3ZldwSnlKN29xQm1NM2VvN0ZjcXRJcW1ULVZoTzIwSHNTU01PQnBfY0NaODNkZG14U2kwazg2ckIzMkw2N0hhTk9IUTBFREVIanlVZ2V5WkhGNzJQREJObE9FYU5QMEtMU0REUXRpMFA1RG00Mk5sSTNIYjZGbVpSVTkwQTViYlVUTm1XcG5RY2sxRXRIVWp0dERWeTN3bWoxZjlyRVRXWjM2QjlxUjBORElXTUNqZVpGenJvS205dlI3Q05qZlNuenNidlEzYV83NHpuaXJfVWdxYThMNWtlb2VkeHJCVl8waXBheGdTYU9DdkMzUDllMA?oc=5",
+      "source": "Yahoo股市",
+      "published": "2026-11-08T07:03+08:00",
+      "summary": "",
+      "tags": []
+    },
+    {
       "title": "台股明天穩了？國安基金進場 台指期夜盤大漲",
       "url": "https://tw.stock.yahoo.com/news/%E8%B2%BB%E5%8D%8A%E7%8B%82%E5%99%B4%E9%80%BE4-%E5%9C%8B%E5%AE%89%E5%9F%BA%E9%87%91%E9%80%B2%E5%A0%B4-%E5%8F%B0%E6%8C%87%E6%9C%9F%E5%A4%9C%E7%9B%A4%E5%A4%A7%E6%BC%B2646%E9%BB%9E-225136169.html",
       "source": "Yahoo 股市",
@@ -58,30 +82,6 @@
       "source": "Yahoo 股市",
       "published": "2026-11-08T05:30+08:00",
       "summary": "台積電傳將為輝達生產3D DRAM（動態隨機存取記憶體），進軍先進記憶體市場，引發半導體產業關注。華邦電董事長焦佑鈞昨表示，台積電是追求卓越的公司，不會只做半吊子，若確定要投入，應會先默默準備，等技術",
-      "tags": []
-    },
-    {
-      "title": "晶片股崩到甜甜價？外媒點名買入5檔優質股「台廠入列」",
-      "url": "https://tw.stock.yahoo.com/news/%E6%99%B6%E7%89%87%E8%82%A1%E5%B4%A9%E5%88%B0%E7%94%9C%E7%94%9C%E5%83%B9-%E5%A4%96%E5%AA%92%E9%BB%9E%E5%90%8D%E8%B2%B7%E5%85%A55%E6%AA%94%E5%84%AA%E8%B3%AA%E8%82%A1-%E5%8F%B0%E5%BB%A0%E5%85%A5%E5%88%97-210530770.html",
-      "source": "Yahoo 股市",
-      "published": "2026-11-08T05:05+08:00",
-      "summary": "美國期中選舉結果牽動AI產業前景，民主黨取得參眾兩院控制權，引發市場擔憂資料中心建設可能放緩，科技股接連重挫。不過，外媒《巴隆週刊》分析指出，儘管半導體類股大幅修正，輝達、超微、博通、美光及台積電等5",
-      "tags": []
-    },
-    {
-      "title": "AI新賽道 台積電跨足先進記憶體",
-      "url": "https://tw.news.yahoo.com/ai%E6%96%B0%E8%B3%BD%E9%81%93-%E5%8F%B0%E7%A9%8D%E9%9B%BB%E8%B7%A8%E8%B6%B3%E5%85%88%E9%80%B2%E8%A8%98%E6%86%B6%E9%AB%94-201000939.html",
-      "source": "Yahoo 股市",
-      "published": "2026-11-08T04:10+08:00",
-      "summary": "科技媒體《The Information》6日引述知情人士指出，台積電正評估跨足先進記憶體製造領域，並已應最大客戶輝達（Nvidia）的要求，著手研擬新一代「3D DRAM」的生產計畫。此舉標誌著台積",
-      "tags": []
-    },
-    {
-      "title": "「黃仁勳在說謊」 郭正亮示警台股別急接刀：他們從不正面回答AI燒錢何時回本",
-      "url": "https://tw.news.yahoo.com/%E9%BB%83%E4%BB%81%E5%8B%B3%E5%9C%A8%E8%AA%AA%E8%AC%8A-%E9%83%AD%E6%AD%A3%E4%BA%AE%E7%A4%BA%E8%AD%A6%E5%8F%B0%E8%82%A1%E5%88%A5%E6%80%A5%E6%8E%A5%E5%88%80-%E4%BB%96%E5%80%91%E5%BE%9E%E4%B8%8D%E6%AD%A3%E9%9D%A2%E5%9B%9E%E7%AD%94ai%E7%87%92%E9%8C%A2%E4%BD%95%E6%99%82%E5%9B%9E%E6%9C%AC-165750185.html",
-      "source": "Yahoo 股市",
-      "published": "2026-11-08T00:57+08:00",
-      "summary": "隨著美國期中選舉落幕，華爾街隨即迎來歷史性的科技股重挫，市值在一夕之間蒸發，隨後急拉回升。前立委郭正亮在《大大平評理》節目中指出，市場不僅面臨數據中心興建受阻的壓力，核心的問題更在於AI龐大的資本投入",
       "tags": []
     }
   ]
