@@ -10,7 +10,8 @@
   --up: #ff4d4f;      /* 台股：紅漲 */
   --down: #1fc16b;    /* 台股：綠跌 */
   --flat: #c7ced8;
-  --radius: 10px;
+  --radius: 12px;
+  --shadow: 0 1px 0 rgba(255, 255, 255, .03) inset, 0 8px 24px -12px rgba(0, 0, 0, .6);
   --mono: "JetBrains Mono", ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
   color-scheme: dark;
 }
@@ -27,6 +28,14 @@ body {
   -webkit-font-smoothing: antialiased;
 }
 a { color: inherit; }
+/* 頁面頂端一點暖光，讓深色底有層次（獨立一層，不影響文字底色） */
+body::before {
+  content: ""; position: absolute; top: 0; left: 0; right: 0; height: 520px; z-index: -1; pointer-events: none;
+  background: radial-gradient(1100px 420px at 50% -160px, rgba(240, 180, 41, .07), transparent 70%);
+}
+::selection { background: rgba(240, 180, 41, .35); color: #fff; }
+html { scrollbar-color: #2b3646 var(--bg); }
+a:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; border-radius: 4px; }
 img { max-width: 100%; }
 .num { font-family: var(--mono); font-variant-numeric: tabular-nums; }
 .up { color: var(--up); }
@@ -73,30 +82,36 @@ html.intro-on { overflow: hidden; }
 }
 .topbar-inner {
   max-width: 1240px; margin: 0 auto; padding: 0 16px;
-  height: 56px; display: flex; align-items: center; gap: 20px;
+  height: 60px; display: flex; align-items: center; gap: 20px;
 }
 .brand { display: flex; align-items: center; gap: 10px; font-weight: 700; letter-spacing: .04em; text-decoration: none; white-space: nowrap; }
-.brand-mark { width: 10px; height: 10px; border-radius: 2px; background: var(--accent); box-shadow: 0 0 12px var(--accent); }
+.brand-mark { width: 24px; height: 24px; flex: none; background: url("icons/favicon.svg") center / contain no-repeat; }
 .nav { display: flex; gap: 4px; margin-left: auto; overflow-x: auto; }
 .nav a {
-  text-decoration: none; color: var(--muted); font-size: 14px;
-  padding: 6px 12px; border-radius: 6px; white-space: nowrap;
+  position: relative; text-decoration: none; color: var(--muted); font-size: 14px;
+  padding: 8px 12px; border-radius: 8px; white-space: nowrap; transition: color .15s ease-out, background-color .15s ease-out;
 }
 .nav a:hover, .nav a:focus-visible { color: var(--text); background: var(--panel-2); outline: none; }
+/* 捲動到哪一區，選單就標出哪一個 */
+.nav a[aria-current="true"] { color: var(--text); }
+.nav a[aria-current="true"]::after {
+  content: ""; position: absolute; left: 12px; right: 12px; bottom: 2px; height: 2px; border-radius: 1px; background: var(--accent);
+}
 .clock { font-size: 13px; color: var(--faint); white-space: nowrap; }
 
 /* ---------- 區塊 ---------- */
 main { max-width: 1240px; margin: 0 auto; padding: 8px 16px 48px; }
-.section { padding-top: 32px; }
+.section { padding-top: 56px; }
+.section:first-child { padding-top: 32px; }
 .section-head {
   display: flex; align-items: baseline; flex-wrap: wrap; gap: 4px 14px;
-  border-bottom: 1px solid var(--line); padding-bottom: 10px; margin-bottom: 18px;
+  padding-bottom: 12px; margin-bottom: 20px;
+  border-bottom: 1px solid var(--line);
 }
-.section-no { font-family: var(--mono); color: var(--accent); font-size: 13px; letter-spacing: .1em; }
-.section-head h2 { margin: 0; font-size: 22px; letter-spacing: .03em; }
+.section-head h2 { margin: 0; font-size: 24px; font-weight: 700; letter-spacing: .04em; line-height: 1.3; }
 .section-meta { margin-left: auto; font-size: 13px; color: var(--faint); }
 
-.panel { background: var(--panel); border: 1px solid var(--line); border-radius: var(--radius); }
+.panel { background: var(--panel); border: 1px solid var(--line); border-radius: var(--radius); box-shadow: var(--shadow); }
 .empty { color: var(--faint); padding: 28px 18px; text-align: center; font-size: 14px; }
 
 /* ---------- 01 籌碼 ---------- */
@@ -104,17 +119,23 @@ main { max-width: 1240px; margin: 0 auto; padding: 8px 16px 48px; }
   display: grid; gap: 12px;
   grid-template-columns: repeat(4, minmax(0, 1fr));
 }
-.chip-card { padding: 16px 18px; }
-.chip-label { font-size: 14px; color: var(--muted); display: flex; justify-content: space-between; gap: 8px; }
-.chip-value { font-size: clamp(24px, 3vw, 30px); font-weight: 700; margin: 4px 0 10px; line-height: 1.2; }
+.chip-card { padding: 18px 20px; }
+.chip-card.is-up { background: linear-gradient(180deg, rgba(255, 77, 79, .08), transparent 70%), var(--panel); }
+.chip-card.is-down { background: linear-gradient(180deg, rgba(31, 193, 107, .07), transparent 70%), var(--panel); }
+.chip-label { font-size: 14px; color: var(--muted); display: flex; justify-content: space-between; align-items: center; gap: 8px; }
+.chip-tag { font-size: 12px; font-weight: 700; padding: 1px 8px; border-radius: 999px; }
+.chip-tag.up { background: rgba(255, 77, 79, .09); }
+.chip-tag.down { background: rgba(31, 193, 107, .14); }
+.chip-tag.flat { background: rgba(199, 206, 216, .12); }
+.chip-value { font-size: clamp(26px, 3.2vw, 34px); font-weight: 700; margin: 6px 0 12px; line-height: 1.15; letter-spacing: -.01em; }
 .chip-value small { font-size: 14px; font-weight: 400; color: var(--muted); margin-left: 4px; }
-.chip-bar { height: 4px; border-radius: 2px; background: var(--down); overflow: hidden; margin-bottom: 8px; }
+.chip-bar { height: 6px; border-radius: 3px; background: var(--down); overflow: hidden; margin-bottom: 8px; }
 .chip-bar span { display: block; height: 100%; background: var(--up); }
 .chip-sub { display: flex; flex-wrap: wrap; justify-content: space-between; font-size: 12px; color: var(--faint); gap: 0 8px; }
 .chip-sub span { white-space: nowrap; }
 
 .retail-card {
-  margin-top: 12px; padding: 18px;
+  margin-top: 12px; padding: 20px 22px;
   display: grid; grid-template-columns: auto 1fr auto; align-items: center; gap: 8px 28px;
   border-color: rgba(240, 180, 41, .35);
   background: linear-gradient(90deg, rgba(240, 180, 41, .07), transparent 60%), var(--panel);
@@ -224,11 +245,28 @@ button.sector-row[aria-expanded="true"]:hover { background: #1a212d; }
 /* ---------- 03 大盤分析 ---------- */
 .analysis-wrap { display: grid; grid-template-columns: minmax(0, 1fr) 240px; gap: 16px; align-items: start; }
 .analysis-wrap:has(> .archive[hidden]) { grid-template-columns: minmax(0, 1fr); }
-.article { padding: 24px 28px; min-width: 0; }
+.article { padding: 28px 32px; min-width: 0; }
+.article-body { position: relative; }
+.article-body.is-collapsed { max-height: 640px; overflow: hidden; }
+.article-body.is-collapsed::after {
+  content: ""; position: absolute; left: 0; right: 0; bottom: 0; height: 160px; pointer-events: none;
+  background: linear-gradient(transparent, var(--panel));
+}
+.read-more {
+  display: block; margin: 12px auto 0; min-height: 40px; padding: 0 22px; cursor: pointer;
+  font: inherit; font-size: 14px; font-weight: 500; color: var(--text);
+  background: var(--panel-2); border: 1px solid #3a4556; border-radius: 999px;
+  transition: border-color .15s ease-out, color .15s ease-out;
+}
+.read-more:hover, .read-more:focus-visible { border-color: var(--accent); color: var(--accent); outline: none; }
 .article-date { font-family: var(--mono); color: var(--accent); font-size: 13px; }
-.article h3.article-title { font-size: 24px; margin: 4px 0 16px; line-height: 1.4; }
+.article h3.article-title { font-size: 26px; margin: 6px 0 20px; line-height: 1.4; letter-spacing: .02em; text-wrap: balance; }
 .md { overflow-wrap: anywhere; }
-.md h1, .md h2, .md h3, .md h4 { line-height: 1.4; margin: 1.4em 0 .5em; }
+.md { line-height: 1.85; }
+.md h1, .md h2, .md h3, .md h4 { line-height: 1.4; margin: 1.6em 0 .6em; color: #fff; }
+.md strong { color: #fff; font-weight: 700; }
+.md li { margin: .25em 0; }
+.md li::marker { color: var(--accent); }
 .md h1 { font-size: 22px; } .md h2 { font-size: 20px; } .md h3 { font-size: 18px; } .md h4 { font-size: 16px; }
 .md p { margin: 0 0 1em; }
 .md ul, .md ol { padding-left: 1.4em; }
@@ -291,7 +329,9 @@ html.lightbox-on { overflow: hidden; }
 .col-head span { font-size: 12px; color: var(--faint); }
 
 .news-list { list-style: none; margin: 0; padding: 0; counter-reset: news; }
-.news-item { padding: 14px 18px; border-bottom: 1px solid var(--line); counter-increment: news; display: grid; grid-template-columns: 26px 1fr; gap: 0 10px; }
+.news-item { transition: background-color .15s ease-out; }
+.news-item:hover { background: rgba(255, 255, 255, .02); }
+.news-item { padding: 16px 20px; border-bottom: 1px solid var(--line); counter-increment: news; display: grid; grid-template-columns: 26px 1fr; gap: 0 10px; }
 .news-item:last-child { border-bottom: 0; }
 .news-item::before { content: counter(news, decimal-leading-zero); font-family: var(--mono); color: var(--accent); font-size: 13px; padding-top: 3px; }
 .news-title { font-weight: 600; text-decoration: none; line-height: 1.5; }
@@ -350,7 +390,11 @@ footer { border-top: 1px solid var(--line); margin-top: 48px; }
   .chip-sub { font-size: 11px; }
   .retail-card { grid-template-columns: 1fr; gap: 4px; }
   .retail-note { text-align: left; }
-  .article { padding: 18px 16px; }
+  .article { padding: 20px 16px; }
+  .article h3.article-title { font-size: 22px; }
+  .section { padding-top: 40px; }
+  .section-head h2 { font-size: 22px; }
+  .brand-mark { width: 22px; height: 22px; }
   .news-item { padding: 12px 14px; }
   .yt-video { grid-template-columns: 120px minmax(0, 1fr); }
   .section-meta { margin-left: 0; width: 100%; }

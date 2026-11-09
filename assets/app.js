@@ -66,8 +66,9 @@
       for (const r of inst.rows) {
         const total = r.buy + r.sell;
         const buyPct = total > 0 ? (r.buy / total) * 100 : 50;
-        grid.append(el("div", { class: "panel chip-card" },
-          el("div", { class: "chip-label" }, el("span", {}, r.name), el("span", {}, r.net > 0 ? "買超" : r.net < 0 ? "賣超" : "持平")),
+        grid.append(el("div", { class: `panel chip-card is-${tone(r.net)}` },
+          el("div", { class: "chip-label" }, el("span", {}, r.name),
+            el("span", { class: `chip-tag ${tone(r.net)}` }, r.net > 0 ? "買超" : r.net < 0 ? "賣超" : "持平")),
           el("div", { class: `chip-value num ${tone(r.net)}` }, signedYi(r.net), el("small", {}, "億")),
           el("div", { class: "chip-bar", title: `買進占 ${buyPct.toFixed(1)}%` }, el("span", { style: `width:${buyPct}%` })),
           el("div", { class: "chip-sub num" },
@@ -484,12 +485,32 @@
   window.addEventListener("popstate", () => closeLightbox(true));
   document.addEventListener("keydown", (e) => { if (e.key === "Escape") closeLightbox(); });
 
+  // 文章太長時先收合，避免手機要滑很久才看到新聞
+  const COLLAPSE_AT = 900;
+  function collapsible(body) {
+    const wrap = el("div", { class: "article-body", id: "article-body" }, body);
+    const btn = el("button", { type: "button", class: "read-more", "aria-controls": "article-body", "aria-expanded": "false", hidden: true }, "展開全文");
+    btn.addEventListener("click", () => {
+      const open = btn.getAttribute("aria-expanded") !== "true";
+      wrap.classList.toggle("is-collapsed", !open);
+      btn.setAttribute("aria-expanded", String(open));
+      btn.textContent = open ? "收合文章" : "展開全文";
+      if (!open) $("analysis").scrollIntoView();
+    });
+    const measure = () => {
+      if (wrap.scrollHeight > COLLAPSE_AT && btn.hidden) { wrap.classList.add("is-collapsed"); btn.hidden = false; }
+    };
+    requestAnimationFrame(measure);
+    wrap.querySelectorAll("img").forEach((img) => img.addEventListener("load", measure, { once: true }));
+    return [wrap, btn];
+  }
+
   function showPost(posts, idx) {
     const p = posts[idx];
     $("article").replaceChildren(
       el("div", { class: "article-date" }, fmtDate(p.date)),
       el("h3", { class: "article-title" }, p.title || "今日大盤分析"),
-      renderMarkdown(p.content),
+      ...collapsible(renderMarkdown(p.content)),
     );
     $("archive-list").querySelectorAll("button").forEach((b, i) => {
       b.setAttribute("aria-current", i === idx ? "true" : "false");
@@ -579,7 +600,22 @@
     };
   }
 
+  // 選單標出目前捲到的區塊
+  function watchSections() {
+    if (!("IntersectionObserver" in window)) return;
+    const links = [...document.querySelectorAll(".nav a[href^='#']")];
+    const map = new Map(links.map((a) => [a.getAttribute("href").slice(1), a]));
+    const seen = new Map();
+    const io = new IntersectionObserver((entries) => {
+      entries.forEach((e) => seen.set(e.target.id, e.isIntersecting));
+      const current = [...map.keys()].find((id) => seen.get(id));
+      links.forEach((a) => a.setAttribute("aria-current", String(a === map.get(current))));
+    }, { rootMargin: "-70px 0px -55% 0px" });
+    map.forEach((_, id) => { const sec = document.getElementById(id); if (sec) io.observe(sec); });
+  }
+
   tickClock();
+  watchSections();
   setInterval(tickClock, 30 * 1000);
   loadJSON("data/chips.json").then(renderChips).catch(fail("chips-grid", "籌碼資料讀取失敗，請稍後重新整理。"));
   loadSectors();
