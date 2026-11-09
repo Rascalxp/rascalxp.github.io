@@ -654,6 +654,7 @@
       thumb.style.transform = `translateX(${b.offsetLeft}px)`;
     }
 
+    const cssVar = (name) => getComputedStyle(seg).getPropertyValue(name).trim();
     function drawDot(x, y, color, alpha, size = DOT) {
       ctx.globalAlpha = alpha;
       ctx.fillStyle = color;
@@ -668,7 +669,7 @@
         const on = i === active;
         const disabled = b.disabled;
         dots(b.dataset.icon).forEach(([dx, dy]) =>
-          drawDot(centers[i][0] + dx, centers[i][1] + dy, on ? "#1a1408" : "#8794a6", (disabled ? 0.4 : on ? 1 : 0.75) * (on ? 1 : fadeIn)));
+          drawDot(centers[i][0] + dx, centers[i][1] + dy, on ? cssVar("--pressed-ink") : cssVar("--muted"), (disabled ? 0.4 : on ? 1 : 0.75) * (on ? 1 : fadeIn)));
       });
       ctx.globalAlpha = 1;
     }
@@ -709,7 +710,7 @@
           else { const u = ease((k - 0.35) / 0.65); x = p.mx + (p.tx - p.mx) * u; y = p.my + (p.ty - p.my) * u; }
           const landing = k > 0.8;
           const alpha = p.fade ? 1 - k : 1;
-          drawDot(x, y, landing ? "#1a1408" : "#ffe29a", alpha, landing ? DOT : DOT * 1.15);
+          drawDot(x, y, landing ? cssVar("--pressed-ink") : cssVar("--fx-particle"), alpha, landing ? DOT : DOT * 1.15);
         });
         ctx.globalAlpha = 1;
         if (t < 1) anim = requestAnimationFrame(frame);
@@ -727,10 +728,124 @@
     if ("ResizeObserver" in window) new ResizeObserver(() => layout()).observe(seg);
     window.addEventListener("resize", () => layout());
     if (document.fonts && document.fonts.ready) document.fonts.ready.then(() => layout());
+    document.addEventListener("themechange", () => { if (!anim) paint(); });
     seg.classList.add("fx-ready");
     layout();
   }
   document.querySelectorAll(".seg-fx").forEach(segFx);
+
+  // ---------- 深色／淺色模式切換開關 ----------
+  // 參考使用者提供的影片：玻璃滑塊左右滑動，像素月亮／太陽碎成粒子再重組，邊緣光沿框掃一圈，背景跟著變亮變暗。
+  // 預設深色；選擇記在瀏覽器（localStorage "theme"），<head> 裡的小程式會在畫面出現前先套用，避免閃一下。
+  function pixelShape(kind) {
+    const out = [];
+    for (let y = 0; y < 11; y++) for (let x = 0; x < 11; x++) {
+      const d = Math.hypot(x - 5, y - 5);
+      let on;
+      if (kind === "sun") {
+        const ray = (x === 5 && (y <= 1 || y >= 9)) || (y === 5 && (x <= 1 || x >= 9)) ||
+          ((x === y || x + y === 10) && (x <= 1 || x >= 9));
+        on = d <= 2.7 || ray;
+      } else {
+        const star = (x === 9 && y >= 0 && y <= 2) || (y === 1 && x >= 8 && x <= 10);
+        on = (d <= 4.7 && Math.hypot(x - 7.4, y - 3.3) > 3.5) || star;
+      }
+      if (on) out.push([x - 5, y - 5]);
+    }
+    return out;
+  }
+
+  function themeToggle(btn) {
+    const root = document.documentElement;
+    const knob = btn.querySelector(".tt-knob");
+    const canvas = btn.querySelector(".tt-canvas");
+    const ctx = canvas.getContext("2d");
+    const PAD = 14, STEP = 1.7, DOT = 1.35;
+    const SHAPES = { moon: pixelShape("moon"), sun: pixelShape("sun") };
+    const COLORS = { moon: "#eef1ff", sun: "#40361f" };
+    let dpr = 1, anim = null;
+    const isDark = () => root.dataset.theme !== "light";
+
+    function knobCenter() {
+      const b = btn.getBoundingClientRect(), k = knob.getBoundingClientRect();
+      return [k.left - b.left + k.width / 2 + PAD, k.top - b.top + k.height / 2 + PAD];
+    }
+    function size() {
+      const b = btn.getBoundingClientRect();
+      dpr = window.devicePixelRatio || 1;
+      canvas.width = Math.round((b.width + PAD * 2) * dpr);
+      canvas.height = Math.round((b.height + PAD * 2) * dpr);
+    }
+    function dot(x, y, color, alpha, sz = DOT) {
+      ctx.globalAlpha = alpha; ctx.fillStyle = color;
+      ctx.fillRect((x - sz / 2) * dpr, (y - sz / 2) * dpr, sz * dpr, sz * dpr);
+    }
+    function paint() {
+      ctx.clearRect(0, 0, canvas.width, canvas.height);
+      const icon = isDark() ? "moon" : "sun";
+      const [cx, cy] = knobCenter();
+      SHAPES[icon].forEach(([dx, dy]) => dot(cx + dx * STEP, cy + dy * STEP, COLORS[icon], 1));
+      ctx.globalAlpha = 1;
+    }
+    function sync() {
+      const dark = isDark();
+      btn.setAttribute("aria-checked", String(dark));
+      btn.title = dark ? "目前是深色模式，按一下改成淺色" : "目前是淺色模式，按一下改成深色";
+      const meta = document.querySelector('meta[name="theme-color"]');
+      if (meta) meta.content = dark ? "#0a0d12" : "#f4f5f7";
+    }
+
+    function setTheme(next) {
+      const reduce = reduceMotion();
+      const fromIcon = isDark() ? "moon" : "sun";
+      const toIcon = next === "light" ? "sun" : "moon";
+      const from = knobCenter();
+      if (!reduce) root.classList.add("theme-anim");
+      if (next === "light") root.dataset.theme = "light"; else delete root.dataset.theme;
+      try { localStorage.setItem("theme", next); } catch (e) { /* 無痕模式記不住也沒關係 */ }
+      sync();
+      document.dispatchEvent(new CustomEvent("themechange", { detail: next }));
+      if (reduce) { paint(); return; }
+      setTimeout(() => root.classList.remove("theme-anim"), 650);
+      knob.classList.remove("is-switching"); void knob.offsetWidth; knob.classList.add("is-switching");
+
+      // 粒子：舊圖示散開，跟著滑塊飛到新位置組成新圖示
+      const a = SHAPES[fromIcon], b = SHAPES[toIcon];
+      const n = Math.max(a.length, b.length);
+      const parts = Array.from({ length: n }, (_, i) => {
+        const p = a[i % a.length], q = b[i % b.length], ang = Math.random() * Math.PI * 2, dist = 5 + Math.random() * 11;
+        return { p, q, ang, dist, delay: Math.random() * 0.15, fade: i >= b.length, grow: i >= a.length };
+      });
+      const start = performance.now(), DUR = 820;
+      cancelAnimationFrame(anim);
+      const frame = (now) => {
+        const t = Math.min((now - start) / DUR, 1);
+        const to = knobCenter();  // 滑塊在動，每一格重新取位置
+        ctx.clearRect(0, 0, canvas.width, canvas.height);
+        parts.forEach((o) => {
+          const k = Math.min(Math.max((t - o.delay) / (1 - o.delay), 0), 1);
+          const sx = from[0] + o.p[0] * STEP, sy = from[1] + o.p[1] * STEP;
+          const mx = sx + Math.cos(o.ang) * o.dist, my = sy + Math.sin(o.ang) * o.dist;
+          const tx = to[0] + o.q[0] * STEP, ty = to[1] + o.q[1] * STEP;
+          let x, y;
+          if (k < 0.4) { const u = ease(k / 0.4); x = sx + (mx - sx) * u; y = sy + (my - sy) * u; }
+          else { const u = ease((k - 0.4) / 0.6); x = mx + (tx - mx) * u; y = my + (ty - my) * u; }
+          const alpha = o.fade ? 1 - k : o.grow ? k : 1;
+          dot(x, y, k > 0.75 ? COLORS[toIcon] : k < 0.25 ? COLORS[fromIcon] : (toIcon === "sun" ? "#ffb703" : "#a9b4ff"), alpha, k > 0.75 ? DOT : DOT * 1.2);
+        });
+        ctx.globalAlpha = 1;
+        if (t < 1) anim = requestAnimationFrame(frame); else { anim = null; paint(); }
+      };
+      anim = requestAnimationFrame(frame);
+    }
+
+    btn.addEventListener("click", () => setTheme(isDark() ? "light" : "dark"));
+    size(); sync(); paint();
+    window.addEventListener("resize", () => { size(); paint(); });
+    btn.classList.add("tt-ready");
+  }
+  const ttBtn = document.getElementById("theme-toggle");
+  if (ttBtn) themeToggle(ttBtn);
 
   // 選單標出目前捲到的區塊
   function watchSections() {

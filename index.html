@@ -6,6 +6,17 @@
   <title>台股盤後看板</title>
   <meta name="description" content="每日三大法人籌碼、散戶微台未平倉、類股成交比重、大盤分析與 AI 產業新聞整理。">
   <meta name="theme-color" content="#0a0d12">
+  <script>
+    // 在畫面出現前先套用使用者選過的主題，避免先閃一下深色
+    (function () {
+      try {
+        if (localStorage.getItem("theme") === "light") {
+          document.documentElement.dataset.theme = "light";
+          document.querySelector('meta[name="theme-color"]').content = "#f4f5f7";
+        }
+      } catch (e) {}
+    })();
+  </script>
   <link rel="icon" href="favicon.ico" sizes="any">
   <link rel="icon" href="assets/icons/favicon.svg" type="image/svg+xml">
   <link rel="apple-touch-icon" href="assets/icons/apple-touch-icon.png">
@@ -63,6 +74,10 @@
         <a href="#news">新聞</a>
       </nav>
       <span class="clock num" id="clock"></span>
+      <button class="theme-toggle" id="theme-toggle" type="button" role="switch" aria-checked="true" aria-label="深色模式">
+        <span class="tt-knob" aria-hidden="true"></span>
+        <canvas class="tt-canvas" aria-hidden="true"></canvas>
+      </button>
     </div>
   </header>
 
