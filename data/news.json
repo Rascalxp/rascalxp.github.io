@@ -1,87 +1,87 @@
 {
-  "updated": "2026-11-09T10:35:22+08:00",
+  "updated": "2026-11-09T12:10:53+08:00",
   "ai_summary": false,
   "model": null,
-  "candidates_sig": "45821f1af5281efaf52b8e4005dc8d07500624af",
+  "candidates_sig": "0c669924ce1ab0f9b48bb947b60436ea5faf7b97",
   "items": [
     {
-      "title": "傳輝達推進台積電進軍3D DRAM市場 三星、SK海力士無懼逆風大漲3%及5%",
-      "url": "https://news.cnyes.com/news/id/6652839",
-      "source": "鉅亨網",
-      "published": "2026-11-09T10:30+08:00",
-      "summary": "三星、SK海力士早盤分別漲3%、逾5%，追隨美晶片股反彈 川普稱百分之百支持AI；哈塞特指資料中心建設仍有很大空間 媒體稱台積電考慮拓展先進記憶體，並應輝達要求規劃3D DRAM",
-      "tags": []
-    },
-    {
-      "title": "台股三好一壞 分析師看台股後續還有機會",
-      "url": "https://tw.news.yahoo.com/%E5%8F%B0%E8%82%A1%E4%B8%89%E5%A5%BD-%E5%A3%9E-%E5%88%86%E6%9E%90%E5%B8%AB%E7%9C%8B%E5%8F%B0%E8%82%A1%E5%BE%8C%E7%BA%8C%E9%82%84%E6%9C%89%E6%A9%9F%E6%9C%83-022155151.html",
+      "title": "焦點股：新日興折疊機利多待兌現，股價短線觀察回檔支撐",
+      "url": "https://tw.stock.yahoo.com/news/%E7%84%A6%E9%BB%9E%E8%82%A1-%E6%96%B0%E6%97%A5%E8%88%88%E6%8A%98%E7%96%8A%E6%A9%9F%E5%88%A9%E5%A4%9A%E5%BE%85%E5%85%8C%E7%8F%BE-%E8%82%A1%E5%83%B9%E7%9F%AD%E7%B7%9A%E8%A7%80%E5%AF%9F%E5%9B%9E%E6%AA%94%E6%94%AF%E6%92%90-035319190.html",
       "source": "Yahoo 股市",
-      "published": "2026-11-09T10:21+08:00",
-      "summary": "[NOWNEWS今日新聞]台股上週重挫跌落4萬點，金管會啟動「限空令」救市，國安基金也進場護盤。台股今（9）日上攻逾2000點，重回42K關卡，暫報42003點。不過，輝達（NVIDIA）執行長傳與中",
+      "published": "2026-11-09T11:53+08:00",
+      "summary": "【財訊快報／研究員周佳蓉】樞紐廠新日興(3376)既有產品涵蓋筆電、顯示器及AirPods充電盒轉軸，目前市場關注的成長主軸，是與鴻海(2317)旗下工業富聯合資切入美系折疊手機，並延伸至伺服器、機器",
       "tags": []
     },
     {
-      "title": "【11/09 產業即時新聞】BBU/超級電容族群強勢大漲 類股全面亮燈表態 AI伺服器備援電源需求點火",
-      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNRmN5UUpjd2xTU2tpZHJlYkM5YjVwZE13Z1h5QzZkeDc0aDFBY0RiZnlUNHY1bEV2b29BNDZqR2g5TF9ZNmREZGlZZTdnVHIxVW5tSTNxX3R0QnFoQ0FVN0Z1UmU0bWptVlRPMV80SGp0R2RNcFlON1BMMlp2LXJReW5na0ttckFTZEFxT1lR?oc=5",
+      "title": "聯發科 「智在家鄉」發表成果，AI視覺檢測、台語嘛會通、對味瑄廚勝出",
+      "url": "https://tw.stock.yahoo.com/news/%E8%81%AF%E7%99%BC%E7%A7%91-%E6%99%BA%E5%9C%A8%E5%AE%B6%E9%84%89-%E7%99%BC%E8%A1%A8%E6%88%90%E6%9E%9C-ai%E8%A6%96%E8%A6%BA%E6%AA%A2%E6%B8%AC-%E5%8F%B0%E8%AA%9E%E5%98%9B%E6%9C%83%E9%80%9A-034706791.html",
+      "source": "Yahoo 股市",
+      "published": "2026-11-09T11:47+08:00",
+      "summary": "【財訊快報／記者李純君報導】聯發科(2454)今日宣布，全臺規模最大的Tech for Good 社會創新平台，也是自家的 「智在家鄉」今日進行成果發表及評選，台北榮總眼科部的攜帶式AI視覺檢測、台語",
+      "tags": []
+    },
+    {
+      "title": "新台幣「貶得過多了」！張建一：若AI軍備競賽放緩 明年可望止貶回升",
+      "url": "https://tw.stock.yahoo.com/news/%E6%96%B0%E5%8F%B0%E5%B9%A3-%E8%B2%B6%E5%BE%97%E9%81%8E%E5%A4%9A%E4%BA%86-%E5%BC%B5%E5%BB%BA-%E8%8B%A5ai%E8%BB%8D%E5%82%99%E7%AB%B6%E8%B3%BD%E6%94%BE%E7%B7%A9-%E6%98%8E%E5%B9%B4%E5%8F%AF%E6%9C%9B%E6%AD%A2%E8%B2%B6%E5%9B%9E%E5%8D%87-033330384.html",
+      "source": "Yahoo 股市",
+      "published": "2026-11-09T11:33+08:00",
+      "summary": "主計總處將公布台灣今（2026）年經濟成長率預測可到12%，台灣經濟研究院長張建一9日表示，去年經濟成長率8%，前年是5%，在如此高的基期下，明年經濟成長率台經院認為還是會穩健成長，預估2027年經濟",
+      "tags": []
+    },
+    {
+      "title": "【11/09 產業即時新聞】液冷散熱族群狂飆近一成，AI伺服器水冷需求點火買盤大舉湧現",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQWnJBV3FmM2lTOFRuQlVHQWRJeG93MUZkdnZrYkVtWm53SnlNUXpOd1dFRXRURDlSbFVabGpXY3MxQ01HMWxJcTJkSXBzQWZYUjJEVEZSV3EwQ1A4SjR5ZnBzV2lOUndtSnZQeWIwbXNDRXhNU3I5UmhBLTNGX0lSZGtXWUs5SENwYkFmcVNR?oc=5",
       "source": "CMoney投資網誌",
-      "published": "2026-11-09T10:20+08:00",
+      "published": "2026-11-09T11:30+08:00",
       "summary": "",
       "tags": []
     },
     {
-      "title": "廣寰科、倚強科、力新再飆漲停！台股破百檔攻頂群創、華邦電、國巨齊亮燈 尖點、金像電鎖不住",
-      "url": "https://tw.stock.yahoo.com/news/%E5%BB%A3%E5%AF%B0%E7%A7%91-%E5%80%9A%E5%BC%B7%E7%A7%91-%E5%8A%9B%E6%96%B0%E5%86%8D%E9%A3%86%E6%BC%B2%E5%81%9C-%E5%8F%B0%E8%82%A1%E7%A0%B4%E7%99%BE%E6%AA%94%E6%94%BB%E9%A0%82%E7%BE%A4%E5%89%B5-%E8%8F%AF%E9%82%A6%E9%9B%BB-022000477.html",
+      "title": "台北榮總眼科部AI視覺檢測 獲聯發科影響力共創獎",
+      "url": "https://tw.stock.yahoo.com/news/%E5%8F%B0%E5%8C%97%E6%A6%AE%E7%B8%BD%E7%9C%BC%E7%A7%91%E9%83%A8ai%E8%A6%96%E8%A6%BA%E6%AA%A2%E6%B8%AC-%E7%8D%B2%E8%81%AF%E7%99%BC%E7%A7%91%E5%BD%B1%E9%9F%BF%E5%8A%9B%E5%85%B1%E5%89%B5%E7%8D%8E-032729302.html",
       "source": "Yahoo 股市",
-      "published": "2026-11-09T10:20+08:00",
-      "summary": "[FTNN新聞網]記者薛明峻／台北報導由於科技股迎來逢低買盤，美股四大指數上周五漲多跌少，AI晶片龍頭輝達（NVDA-US）強漲2.78%、台積電ADR更暴漲6.33%，加上...",
+      "published": "2026-11-09T11:27+08:00",
+      "summary": "（中央社記者張建中新竹2026年11月9日電）聯發科「智在家鄉」評選結果出爐，由台北榮總眼科部以攜帶式AI視覺檢測為主題脫穎而出，奪下「影響力共創獎」，贏得獎金新台幣100萬元。聯發科舉辦「智在家鄉」",
       "tags": []
     },
     {
-      "title": "國安基金護盤台股強彈 AI股本周迎財報考驗",
-      "url": "https://tw.news.yahoo.com/%E5%9C%8B%E5%AE%89%E5%9F%BA%E9%87%91%E8%AD%B7%E7%9B%A4%E5%8F%B0%E8%82%A1%E5%BC%B7%E5%BD%88-ai%E8%82%A1%E6%9C%AC%E5%91%A8%E8%BF%8E%E8%B2%A1%E5%A0%B1%E8%80%83%E9%A9%97-015925227.html",
+      "title": "德州新州長軟化、國安基金護盤 台股盤中強漲逾2500點",
+      "url": "https://tw.news.yahoo.com/%E5%BE%B7%E5%B7%9E%E6%96%B0%E5%B7%9E%E9%95%B7%E8%BB%9F%E5%8C%96-%E5%9C%8B%E5%AE%89%E5%9F%BA%E9%87%91%E8%AD%B7%E7%9B%A4-%E5%8F%B0%E8%82%A1%E7%9B%A4%E4%B8%AD%E5%BC%B7%E6%BC%B2%E9%80%BE2500%E9%BB%9E-032446629.html",
       "source": "Yahoo 股市",
-      "published": "2026-11-09T10:14+08:00",
-      "summary": "[NOWNEWS今日新聞]台北股市上周遭遇重挫，國安基金宣布啟動安定市場任務，加上美股科技股反彈，台股今（9）日開盤展開跌深反彈，加權指數以40,347.28點開出，上漲645.64點，漲幅約1.63",
+      "published": "2026-11-09T11:24+08:00",
+      "summary": "民主黨德州新任州長近期接受訪問時態度軟化，強調德州所有目前已獲許可的資料中心都將被允許完成建設，讓市場對未來AI發展疑慮減緩。亞洲主要股市今天(9日)翻紅，台北股市在國安基金護盤以及金管會「限空令」加",
       "tags": []
     },
     {
-      "title": "蘇元和觀點》國安基金5000億救市！九次護盤八次賺 台股有望再飆65％？",
-      "url": "https://tw.news.yahoo.com/%E8%98%87%E5%85%83%E5%92%8C%E8%A7%80%E9%BB%9E-%E5%9C%8B%E5%AE%89%E5%9F%BA%E9%87%915000%E5%84%84%E6%95%91%E5%B8%82-%E4%B9%9D%E6%AC%A1%E8%AD%B7%E7%9B%A4%E5%85%AB%E6%AC%A1%E8%B3%BA-%E5%8F%B0%E8%82%A1%E6%9C%89%E6%9C%9B%E5%86%8D%E9%A3%8665-014558845.html",
+      "title": "焦點股：聯發科AI ASIC放量，股價回測年線後彈升",
+      "url": "https://tw.stock.yahoo.com/news/%E7%84%A6%E9%BB%9E%E8%82%A1-%E8%81%AF%E7%99%BC%E7%A7%91ai-asic%E6%94%BE%E9%87%8F-%E8%82%A1%E5%83%B9%E5%9B%9E%E6%B8%AC%E5%B9%B4%E7%B7%9A%E5%BE%8C%E5%BD%88%E5%8D%87-032420536.html",
       "source": "Yahoo 股市",
-      "published": "2026-11-09T10:08+08:00",
-      "summary": "[Newtalk新聞] 從九次歷史紀錄看政府護盤的成果，面對全球股災、AI震盪與11月28日地方選舉，這次國安基金進場，點燃台股止跌的希望，更是全民對股市穩定的期待。 11月6日，台灣股市經歷一場震撼",
+      "published": "2026-11-09T11:24+08:00",
+      "summary": "【財訊快報／研究員吳旻蓁】IC設計大廠聯發科(2454)受惠客戶需求強勁，預估第四季雲端ASIC營收可達25億美元；展望2027年，該專案營收可望達原訂目標區間高標、約160億美元，約占整體AI加速器",
       "tags": []
     },
     {
-      "title": "黃仁勳外遇時間軸一次看！台灣成幽會地？恐被輝達解職",
-      "url": "https://tw.stock.yahoo.com/news/%E9%BB%83%E4%BB%81%E5%8B%B3%E5%A4%96%E9%81%87%E6%99%82%E9%96%93%E8%BB%B8-%E6%AC%A1%E7%9C%8B-%E5%8F%B0%E7%81%A3%E6%88%90%E5%B9%BD%E6%9C%83%E5%9C%B0-%E6%81%90%E8%A2%AB%E8%BC%9D%E9%81%94%E8%A7%A3%E8%81%B7-020049761.html",
-      "source": "Yahoo 股市",
-      "published": "2026-11-09T10:00+08:00",
-      "summary": "輝達執行長黃仁勳認了婚外情，對象竟是大陸女共諜黃樂（Alice Huang）以客戶身分接近黃仁勳，輝達已展開獨立調查，最重懲處恐遭到解職，黃仁勳也被要求出席眾議院委員會閉門會議說明案情，目前黃仁勳尚未",
+      "title": "受黃仁勳風波影響？台廠供應鏈合作案受關注- 財經新聞",
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQSy1aMlNtVzRuZXF3QmFWU3JzNWxiM25KR0twWXFRZEExZjZySm5QYnAtZDdSekh4WnZzQ25pd19GZmhseVJHWXBpcEJQQzlpWklGSGJXSGUtWjhHUUtrcnpHeXRYZlRrU2htbkRIdktoUkk2NGJNRnVDUEpHUzVvSWZpX1JPNV8yWmVF?oc=5",
+      "source": "PChome Online 新聞",
+      "published": "2026-11-09T11:22+08:00",
+      "summary": "",
       "tags": []
     },
     {
-      "title": "華通(2313)第三季毛利率升至21.33%！衛星、光模組雙引擎，2027年營收挑戰千億",
-      "url": "https://news.cnyes.com/news/id/6652847",
+      "title": "台經院看台灣經濟維持強勁成長 估明年GDP仍達6.45%",
+      "url": "https://news.cnyes.com/news/id/6652997",
       "source": "鉅亨網",
-      "published": "2026-11-09T10:00+08:00",
-      "summary": "2026年11月9日（優分析／產業數據中心報導）⸺ 華通產品結構持續轉型，衛星與資料中心業務合計占比已突破三成，逐步降低對手機市場的依賴。 第三季毛利率升至21.33%，mSAP光模組相關產品也將在2027年放量，法人預估全年營收有機會挑戰",
+      "published": "2026-11-09T11:11+08:00",
+      "summary": "台經院估2026年GDP成長12.34%，2027年仍有6.45%。 AI應用擴展與CSP擴充AI基礎設施，帶動半導體、先進封裝、伺服器需求，支撐出口與民間投資。 明年CPI年增率1.94%，台經院指油價與原物料回穩，通膨情勢溫和。",
       "tags": []
     },
     {
-      "title": "台股強彈千點「這檔記憶體股」衝上963元！前三季EPS狂賺256元 AI雙引擎爆發",
-      "url": "https://tw.stock.yahoo.com/news/%E5%8F%B0%E8%82%A1%E5%BC%B7%E5%BD%88%E5%8D%83%E9%BB%9E-%E9%80%99%E6%AA%94%E8%A8%98%E6%86%B6%E9%AB%94%E8%82%A1-%E8%A1%9D%E4%B8%8A963%E5%85%83-%E5%89%8D%E4%B8%89%E5%AD%A3eps%E7%8B%82%E8%B3%BA256%E5%85%83-ai%E9%9B%99%E5%BC%95%E6%93%8E%E7%88%86%E7%99%BC-020000767.html",
+      "title": "黃仁勳坦承婚外情！台積電要小心「性戰爭」？ 中共師從KGB下三濫美人計曝",
+      "url": "https://tw.news.yahoo.com/%E9%BB%83%E4%BB%81%E5%8B%B3%E5%9D%A6%E6%89%BF%E5%A9%9A%E5%A4%96%E6%83%85-%E5%8F%B0%E7%A9%8D%E9%9B%BB%E8%A6%81%E5%B0%8F%E5%BF%83-%E6%80%A7%E6%88%B0%E7%88%AD-%E4%B8%AD%E5%85%B1%E5%B8%AB%E5%BE%9Ekgb%E4%B8%8B%E4%B8%89%E6%BF%AB%E7%BE%8E%E4%BA%BA%E8%A8%88%E6%9B%9D-031100003.html",
       "source": "Yahoo 股市",
-      "published": "2026-11-09T10:00+08:00",
-      "summary": "[FTNN新聞網]記者陳雅婷／綜合報導台股今（9）日強勢反彈，截至上午9時35分，加權指數報41,328.41點，上漲1,626.77點，漲幅4.10%，成交金額約3,346.41億元。...",
-      "tags": []
-    },
-    {
-      "title": "黃仁勳婚外情打亂台股？輝達供應鏈沒在怕",
-      "url": "https://tw.news.yahoo.com/%E9%BB%83%E4%BB%81%E5%8B%B3%E5%A9%9A%E5%A4%96%E6%83%85%E6%89%93%E4%BA%82%E5%8F%B0%E8%82%A1-%E8%BC%9D%E9%81%94%E4%BE%9B%E6%87%89%E9%8F%88%E6%B2%92%E5%9C%A8%E6%80%95-015608462.html",
-      "source": "Yahoo 股市",
-      "published": "2026-11-09T09:56+08:00",
-      "summary": "[NOWNEWS今日新聞]輝達（NVIDIA）執行長黃仁勳拋出震撼彈，不僅捲入婚外情，對家人不忠，更因出軌對象涉及中國女間諜，要面臨公司董事會調查，也必須要向美國國會報告。然而，與輝達及AI商機緊密相",
+      "published": "2026-11-09T11:11+08:00",
+      "summary": "輝達（NVIDIA）執行長黃仁勳坦承與神秘女子黃樂（Alice Huang）爆出婚外情，隨後黃樂的前東家「Megaspeed」遭爆出狂掃1500億輝達AI晶片疑洗給中國，這起震驚國際的桃色風暴，徹底扯",
       "tags": []
     }
   ]
