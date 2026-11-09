@@ -1,9 +1,17 @@
 {
-  "updated": "2026-11-09T20:10:48+08:00",
+  "updated": "2026-11-09T20:45:35+08:00",
   "ai_summary": false,
   "model": null,
-  "candidates_sig": "e05e0870af3aa18d8fd17c27e6741654f4875644",
+  "candidates_sig": "ec682d6f291fa3a6d6ba793011a45be94ea62c62",
   "items": [
+    {
+      "title": "〈佳世達法說〉Q4營運估與上季相當 AI伺服器明年Q2起放量逐季擴大",
+      "url": "https://news.cnyes.com/news/id/6654440",
+      "source": "鉅亨網",
+      "published": "2026-11-09T20:42+08:00",
+      "summary": "佳世達估第四季營運與第三季相當，AI伺服器年底少量出貨，明年Q2起放量、Q3/Q4規模擴大。 董事長陳其宏稱AI趨勢不可逆，短期政治與供應鏈因素僅使投資放緩，有助供應鏈回歸健康。 友通擴產估增台灣產能25%、PCBA提升45%；佳世達前三季",
+      "tags": []
+    },
     {
       "title": "聯鈞自結9月獲利爆增逾14倍 看好訂單能見度至2027年底",
       "url": "https://news.cnyes.com/news/id/6653954",
@@ -29,27 +37,11 @@
       "tags": []
     },
     {
-      "title": "黃仁勳認出軌＂純愛戰士＂翻車 昔欽點成龍演自傳＂神巧合＂",
-      "url": "https://tw.stock.yahoo.com/news/%E9%BB%83%E4%BB%81%E5%8B%B3%E8%AA%8D%E5%87%BA%E8%BB%8C-%E7%B4%94%E6%84%9B%E6%88%B0%E5%A3%AB-%E7%BF%BB%E8%BB%8A-%E6%98%94%E6%AC%BD%E9%BB%9E%E6%88%90%E9%BE%8D%E6%BC%94%E8%87%AA%E5%82%B3-%E7%A5%9E%E5%B7%A7%E5%90%88-110403987.html",
-      "source": "Yahoo 股市",
-      "published": "2026-11-09T19:04+08:00",
-      "summary": "財經中心／綜合報導AI教父黃仁勳，從17歲對太太一見鍾情，初戀走入婚姻的愛妻專情形象，令人津津樂道，但現在婚外情、人設大翻車！台灣廣大的自稱\"乾兒子\"的粉絲們，崩潰直呼不相信，更巧的是，有網友挖出黃仁",
-      "tags": []
-    },
-    {
       "title": "AI伺服器齊揚！投信進貨「這2檔」1.2萬張 連買鴻海10天進場33.31億元",
       "url": "https://tw.stock.yahoo.com/news/ai%E4%BC%BA%E6%9C%8D%E5%99%A8%E9%BD%8A%E6%8F%9A-%E6%8A%95%E4%BF%A1%E9%80%B2%E8%B2%A8-%E9%80%992%E6%AA%94-1-2%E8%90%AC%E5%BC%B5-110000687.html",
       "source": "Yahoo 股市",
       "published": "2026-11-09T19:00+08:00",
       "summary": "[FTNN新聞網]記者陳献朋／綜合報導台股加權指數今（9）日收在41661.70點，上漲1960.06點，漲幅4.94%，成交量達8393億元。根據證交所資料，投信買超267.48億元...",
-      "tags": []
-    },
-    {
-      "title": "台達電10月營收746億元月增14% 改寫單月歷史新高",
-      "url": "https://news.cnyes.com/news/id/6653646",
-      "source": "鉅亨網",
-      "published": "2026-11-09T18:51+08:00",
-      "summary": "台達電(2308-TW)今(9)日公告10月營收746.66億元，創單月歷史新高，月增14%、年增30%；累計前10月營收6143.33億元，則為同期新高，年增36.3%。 若以台達電10月四大業務範疇營收比重來看，電源及零組件51%、交通",
       "tags": []
     },
     {
@@ -61,6 +53,14 @@
       "tags": []
     },
     {
+      "title": "黃仁勳風暴燒向國安？輝達若遭嚴管 台股AI供應鏈恐迎重新洗牌",
+      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1BbkdLMXl2eWExZ1k1VnRHZXYwMmZUNzdxX1l0bExwQk9GRThtR0xmRnFweG9Vc1oyWGx4ZGd0MGx1ZXNxMHF0dDhqT3JraFdQTU9pVDNKNF9ROU5SZzFZNGt6QWtpYXpNSUV2X2lEbw?oc=5",
+      "source": "理財周刊",
+      "published": "2026-11-09T17:05+08:00",
+      "summary": "",
+      "tags": []
+    },
+    {
       "title": "名師操盤》台股萬點重挫後迎轉機 國安基金護盤12檔指標股出列",
       "url": "https://tw.stock.yahoo.com/news/%E5%90%8D%E5%B8%AB%E6%93%8D%E7%9B%A4-%E5%8F%B0%E8%82%A1%E8%90%AC%E9%BB%9E%E9%87%8D%E6%8C%AB%E5%BE%8C%E8%BF%8E%E8%BD%89%E6%A9%9F-%E5%9C%8B%E5%AE%89%E5%9F%BA%E9%87%91%E8%AD%B7%E7%9B%A412%E6%AA%94%E6%8C%87%E6%A8%99%E8%82%A1%E5%87%BA%E5%88%97-075756762.html",
       "source": "Yahoo 股市",
@@ -69,19 +69,19 @@
       "tags": []
     },
     {
+      "title": "〈電子五哥營收〉廣達前10月營收3.31兆元續創同期高 本周法說聚焦AI伺服器展望",
+      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9TeHhmZGwyeWxISE9sWUJqZGJnRTVKNC1zY0lUeDNhVks5NXdvM3VsSmJWVkNHbWM2Uy15ZFJhdDNkVXdpVW9icmdIYnk4OFk?oc=5",
+      "source": "鉅亨網",
+      "published": "2026-11-09T15:57+08:00",
+      "summary": "",
+      "tags": []
+    },
+    {
       "title": "不受黃仁勳事件影響 輝達概念股全都大漲 台股勁揚1960點、收41661點",
       "url": "https://tw.news.yahoo.com/%E4%B8%8D%E5%8F%97%E9%BB%83%E4%BB%81%E5%8B%B3%E4%BA%8B%E4%BB%B6%E5%BD%B1%E9%9F%BF-%E8%BC%9D%E9%81%94%E6%A6%82%E5%BF%B5%E8%82%A1%E5%85%A8%E9%83%BD%E5%A4%A7%E6%BC%B2-%E5%8F%B0%E8%82%A1%E5%8B%81%E6%8F%9A1960%E9%BB%9E-%E6%94%B641661%E9%BB%9E-075702810.html",
       "source": "Yahoo 股市",
       "published": "2026-11-09T15:57+08:00",
       "summary": "台積電在國安基金強力拉抬下，大漲100元，漲幅4.68％，收在22...",
-      "tags": []
-    },
-    {
-      "title": "台積電股價V形震盪 法人仍看好「每股盈餘暴增67%」原因曝",
-      "url": "https://tw.news.yahoo.com/%E5%8F%B0%E7%A9%8D%E9%9B%BB%E8%82%A1%E5%83%B9v%E5%BD%A2%E9%9C%87%E7%9B%AA-%E6%B3%95%E4%BA%BA%E4%BB%8D%E7%9C%8B%E5%A5%BD-%E6%AF%8F%E8%82%A1%E7%9B%88%E9%A4%98%E6%9A%B4%E5%A2%9E67-%E5%8E%9F%E5%9B%A0%E6%9B%9D-075400217.html",
-      "source": "Yahoo 股市",
-      "published": "2026-11-09T15:54+08:00",
-      "summary": "台股日前創下史上最大跌點後，在國安基金進場護盤下強勢反彈，台積電、聯發科與台達電等電子權值股集體回血大漲。法人分析指出，台積電先前重挫主因市場對短期成本壓力重新定價及海外廠密集營運，但中長期在AI強勁",
       "tags": []
     }
   ]
