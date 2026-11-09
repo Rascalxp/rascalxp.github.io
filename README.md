@@ -126,6 +126,37 @@
 - **開頭動畫**：影片在 `assets/intro/intro.mp4`，每次進站都會播，可按「略過」或點畫面跳過；系統有開「減少動態效果」的使用者會自動跳過
 - **YouTube 頁面抓不到時（選用）**：到 Google Cloud 申請 YouTube Data API 金鑰，加一個名為 `YOUTUBE_API_KEY` 的 repository secret，程式會自動改用 API
 
+## 六、AI 設計技能（Claude Code）
+
+repo 的 `.claude/skills/` 裝了 7 個做網站用的技能（來自 [ui-ux-pro-max-skill](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill)，MIT 授權）。在這個 repo 開 Claude Code（電腦或雲端都可以）就會自動載入，不用另外設定。
+
+### 怎麼用
+
+- **直接講需求**：Claude 會依內容自己挑技能，例如「幫我檢查類股區塊的配色和字體」。
+- **指定技能**：在需求前面加技能名稱，例如「用 ui-ux-pro-max 檢查首頁的無障礙」。
+- **斜線指令**：輸入 `/技能名稱 需求`，例如 `/banner-design YouTube 封面 極簡風`。
+- 輸入 `/skills` 可以看目前載入了哪些技能。
+
+### 技能清單
+
+| 技能 | 用途 | 這個網站可以怎麼用 |
+|---|---|---|
+| `ui-ux-pro-max` | 主技能。內建 80 種風格、192 組配色、74 組字體搭配、120 條 UX 規則、25 種圖表的資料庫，可產生整套設計規範 | 「用 ui-ux-pro-max 檢查首頁的配色、字體和手機版」「幫籌碼區塊挑適合的圖表」 |
+| `design` | 綜合設計：logo、icon、橫幅、社群圖片、企業識別、簡報，會自動分派給其他技能 | 「幫網站設計一個 logo」「把今天的類股排行做成 IG 貼文圖」 |
+| `banner-design` | 社群、廣告、網站主視覺橫幅，一次給多種風格 | 「做一張 YouTube 頻道封面，風格俐落、深色」 |
+| `brand` | 品牌語氣、視覺識別、品牌規範文件 | 「幫台股盤後看板整理一份品牌規範」 |
+| `design-system` | 設計變數（顏色、字級、間距）三層架構、元件規格、品牌簡報 | 「把 `assets/style.css` 的顏色整理成設計變數」 |
+| `slides` | 用 HTML 和 Chart.js 做簡報 | 「把本週大盤重點做成 8 頁簡報」 |
+| `ui-styling` | shadcn/ui 元件和 Tailwind CSS | 這個網站是純 HTML/CSS，沒有用 Tailwind，大多用不到；之後若改用 React 或 Tailwind 才派得上用場 |
+
+### 注意事項
+
+- **需要 Python 3**：技能的搜尋工具用 Python 執行，雲端環境已內建；Windows 電腦沒有的話到 python.org 安裝。
+- **AI 產圖要金鑰**：`design` 的 logo、icon 產生功能要另外設定 Gemini 等圖片 AI 的 API 金鑰（例如環境變數 `GEMINI_API_KEY`）；沒有金鑰也能用它的設計建議和 HTML 版面。
+- **會產生的檔案**：技能可能在 repo 裡新增 `design-system/`、`assets/banners/`、`plans/reports/`、`docs/brand-guidelines.md`、`assets/design-tokens.*` 等檔案。這個 repo 是公開網站，commit 之後別人也看得到。
+- **另一個帳號層級的技能**：`impeccable`（設計評估與修飾，例如 `/impeccable critique`）不在 repo 裡，是帳號本身就有的技能，評估紀錄存在 `.impeccable/critique/`。
+- **更新技能**：在電腦上的專案資料夾執行 `npx ui-ux-pro-max-cli update`；repo 這一份可以請 Claude 重新從原始 repo 複製。
+
 ## 檔案結構
 
 ```
@@ -136,4 +167,6 @@ data/                       自動更新的資料（chips / sectors / news / med
 uploads/                    後台上傳的圖片
 scripts/                    抓資料的 Python 程式
 .github/workflows/          自動排程設定
+.claude/skills/             Claude Code 設計技能
+.impeccable/critique/       impeccable 設計評估紀錄
 ```
