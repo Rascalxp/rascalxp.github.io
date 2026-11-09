@@ -1,9 +1,17 @@
 {
-  "updated": "2026-11-10T06:16:14+08:00",
+  "updated": "2026-11-10T07:10:53+08:00",
   "ai_summary": false,
   "model": null,
-  "candidates_sig": "7d983c79941c5504457cb253f699aae180735744",
+  "candidates_sig": "e2c1d8516bec0ee0aa15dfbb6314db1209a688cb",
   "items": [
+    {
+      "title": "Google推兩款新TPU擴大搶食AI商機 台積電跟著吃補",
+      "url": "https://tw.news.yahoo.com/google%E6%8E%A8%E5%85%A9%E6%AC%BE%E6%96%B0tpu%E6%93%B4%E5%A4%A7%E6%90%B6%E9%A3%9Fai%E5%95%86%E6%A9%9F-%E5%8F%B0%E7%A9%8D%E9%9B%BB%E8%B7%9F%E8%91%97%E5%90%83%E8%A3%9C-223958380.html",
+      "source": "Yahoo 股市",
+      "published": "2026-11-10T06:39+08:00",
+      "summary": "Google昨（9）日宣布推出兩款新自研張量處理器（TPU）「TPU 8TX」與「TPU 8I Max」，全面擴大搶食AI商機。",
+      "tags": []
+    },
     {
       "title": "台股保衛戰開打！「21檔」帶頭V轉",
       "url": "https://tw.news.yahoo.com/%E5%8F%B0%E8%82%A1%E4%BF%9D%E8%A1%9B%E6%88%B0%E9%96%8B%E6%89%93-21%E6%AA%94-%E5%B8%B6%E9%A0%ADv%E8%BD%89-215000067.html",
@@ -74,14 +82,6 @@
       "source": "Yahoo 股市",
       "published": "2026-11-09T22:14+08:00",
       "summary": "台股9日終場大漲1960.06點，收在41661.70點，創史上第二大收盤漲點。資深分析師陳龍認為，融資減少、國安基金進場及台積電止跌等訊號浮現，群聯、世芯-KY、台達電與同欣電等個股值得觀察。（記者",
-      "tags": []
-    },
-    {
-      "title": "AI資本支出一停台灣GDP成長恐少3個百分點？凱投宏觀警告：2028年轉為下滑",
-      "url": "https://news.cnyes.com/news/id/6652604",
-      "source": "鉅亨網",
-      "published": "2026-11-09T21:10+08:00",
-      "summary": "凱投宏觀警告，AI資本支出恐難由營收支撐，若投資熱潮降溫，全球股市與仰賴AI產業鏈的亞洲經濟體將受衝擊。 Redwood估算，要合理化目前投資規模，AI業者外部營收須在2030年前增至現今10倍。 她預估2027年底標普500較現水平低12",
       "tags": []
     }
   ]
