@@ -78,7 +78,7 @@
 }
 
 /* 切換主題時，顏色漸變過去（只在切換的那一下開啟，平常載入不會閃） */
-html.theme-anim, html.theme-anim *:not(.tt-knob):not(.seg-thumb), html.theme-anim *:not(.tt-knob):not(.seg-thumb)::before, html.theme-anim *::after {
+html.theme-anim, html.theme-anim *:not(.tt-knob):not(.seg-thumb):not(.theme-toggle), html.theme-anim *:not(.tt-knob):not(.seg-thumb)::before, html.theme-anim *:not(.tt-knob)::after {
   transition: background-color .5s ease, border-color .5s ease, color .5s ease, fill .5s ease, box-shadow .5s ease !important;
 }
 
@@ -364,51 +364,62 @@ button.sector-row[aria-expanded="true"]:hover { background: var(--hover); }
 }
 
 /* ---------- 深色／淺色切換開關 ---------- */
+/* 邊緣光的位置（角度）和顏色登記成可以過場的屬性，點擊切換時才會沿著框滑過去 */
+@property --arc { syntax: "<angle>"; inherits: true; initial-value: 225deg; }
+@property --glow { syntax: "<color>"; inherits: true; initial-value: #7f8fff; }
+@property --glow-core { syntax: "<color>"; inherits: true; initial-value: #e9edff; }
 .theme-toggle {
-  --tt-glow: #8b9bff; --tt-glow-soft: rgba(139, 155, 255, .55);
+  /* 深色：亮藍光停在滑塊左下；淺色：亮金光停在右上。拖曳時由程式依位置即時改這三個值 */
+  --arc: 225deg; --glow: #7f8fff; --glow-core: #e9edff;
   position: relative; flex: none; width: 66px; height: 36px; padding: 0; cursor: grab;
   touch-action: pan-y; user-select: none; -webkit-user-select: none; -webkit-tap-highlight-color: transparent;
   border-radius: 13px; border: 1px solid var(--line-strong);
   background: linear-gradient(180deg, var(--well-top), var(--well-bottom)); box-shadow: var(--well-shadow);
+  transition: --arc .62s cubic-bezier(.65, 0, .35, 1), --glow .62s ease, --glow-core .62s ease;
 }
-:root[data-theme="light"] .theme-toggle { --tt-glow: #ffb000; --tt-glow-soft: rgba(255, 176, 0, .55); }
+:root[data-theme="light"] .theme-toggle { --arc: 45deg; --glow: #ffad00; --glow-core: #fff3c2; --tt-light: 1; }
 .theme-toggle:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; }
-.tt-canvas { position: absolute; inset: -14px; width: calc(100% + 28px); height: calc(100% + 28px); pointer-events: none; z-index: 2; }
+.tt-canvas { position: absolute; inset: -14px; width: calc(100% + 28px); height: calc(100% + 28px); pointer-events: none; z-index: 3; }
 .tt-knob {
   position: absolute; z-index: 1; top: 3px; left: 3px; width: 32px; height: 28px; border-radius: 10px;
   background: linear-gradient(180deg, #2c3446, #171c27);
-  box-shadow: inset 0 1px 0 rgba(255, 255, 255, .14), inset 0 -2px 4px rgba(0, 0, 0, .45), 0 4px 10px -2px rgba(0, 0, 0, .6), 0 0 14px -2px var(--tt-glow-soft);
-  transition: transform .62s cubic-bezier(.65, 0, .35, 1), background .5s ease, box-shadow .5s ease;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, .14), inset 0 -2px 4px rgba(0, 0, 0, .45), 0 4px 10px -2px rgba(0, 0, 0, .55);
+  transition: transform .62s cubic-bezier(.65, 0, .35, 1), box-shadow .5s ease;
 }
-:root[data-theme="light"] .theme-toggle { --tt-light: 1; }
+:root[data-theme="light"] .tt-knob {
+  transform: translateX(var(--tt-x-max, 26px));
+  box-shadow: inset 0 1px 0 #fff, inset 0 -2px 4px rgba(16, 24, 40, .08), 0 4px 10px -3px rgba(16, 24, 40, .3);
+}
 /* 白色玻璃那層疊在深色滑塊上，用透明度切換，拖曳時就能慢慢變白 */
 .tt-knob::after {
   content: ""; position: absolute; inset: 0; border-radius: inherit; z-index: 0; pointer-events: none;
   background: linear-gradient(180deg, #ffffff, #eceff4); opacity: var(--tt-light, 0); transition: opacity .5s ease;
 }
-.theme-toggle.is-dragging .tt-knob::after { transition: none; }
-:root[data-theme="light"] .tt-knob {
-  transform: translateX(var(--tt-x-max, 26px));
-  box-shadow: inset 0 1px 0 #fff, inset 0 -2px 4px rgba(16, 24, 40, .08), 0 4px 10px -3px rgba(16, 24, 40, .3), 0 0 16px -2px var(--tt-glow-soft);
-}
-/* 邊緣光：平常停在底部，切換時沿框掃一圈 */
-.tt-knob::before {
-  content: ""; position: absolute; inset: -2px; border-radius: 12px; padding: 2px; pointer-events: none; z-index: 1;
-  background: conic-gradient(from var(--sweep), transparent 0deg 100deg, #fff 145deg, var(--tt-glow) 175deg, transparent 230deg 360deg);
+/* 邊緣光：一段粗亮的弧線貼著滑塊的框，中心偏白、外圍帶顏色，再加一層模糊光暈 */
+.tt-knob::before, .tt-glow i {
+  content: ""; position: absolute; border-radius: 12px; pointer-events: none;
+  background: conic-gradient(from calc(var(--arc) - 80deg),
+    transparent 0deg, var(--glow) 22deg, var(--glow-core) 62deg 98deg, var(--glow) 138deg, transparent 165deg 360deg);
   -webkit-mask: linear-gradient(#000 0 0) content-box, linear-gradient(#000 0 0); -webkit-mask-composite: xor;
   mask: linear-gradient(#000 0 0) content-box exclude, linear-gradient(#000 0 0);
-  --sweep: 15deg; opacity: .9; filter: drop-shadow(0 0 3px var(--tt-glow));
 }
-.tt-knob.is-switching::before { animation: seg-sweep .9s cubic-bezier(.3, 0, .2, 1); }
-:root[data-theme="light"] .tt-knob.is-switching::before { animation-name: seg-sweep-back; }
+.tt-knob::before { inset: -2px; padding: 3px; z-index: 2; filter: drop-shadow(0 0 2px var(--glow)); }
+/* 兩層模糊光暈：近的一層亮、遠的一層大，看起來像光從框邊散出來 */
+.tt-glow { position: absolute; inset: -10px; z-index: 0; pointer-events: none; }
+.tt-glow i { inset: 6px; padding: 6px; border-radius: 14px; filter: blur(6px); }
+.tt-glow::before {
+  content: ""; position: absolute; inset: 0; border-radius: 20px; filter: blur(12px); opacity: .7;
+  background: conic-gradient(from calc(var(--arc) - 80deg),
+    transparent 0deg, var(--glow) 40deg 120deg, transparent 165deg 360deg);
+}
 .theme-toggle:not(.tt-ready) .tt-canvas { display: none; }
-/* 拖曳中：滑塊直接跟著手指，不要過場延遲 */
-.theme-toggle.is-dragging { cursor: grabbing; }
-.theme-toggle.is-dragging .tt-knob { transition: background .5s ease, box-shadow .5s ease; }
+/* 拖曳中：滑塊和光直接跟著手指，不要過場延遲 */
+.theme-toggle.is-dragging { cursor: grabbing; transition: none; }
+.theme-toggle.is-dragging .tt-knob { transition: box-shadow .5s ease; }
+.theme-toggle.is-dragging .tt-knob::after { transition: none; }
 .theme-toggle:hover:not(.is-dragging) .tt-knob { filter: brightness(1.06); }
 @media (prefers-reduced-motion: reduce) {
-  .tt-knob { transition: none; }
-  .tt-knob.is-switching::before { animation: none; }
+  .theme-toggle, .tt-knob, .tt-knob::after { transition: none; }
 }
 
 /* ---------- 03 大盤分析 ---------- */

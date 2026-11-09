@@ -834,6 +834,19 @@
       (tokens || []).forEach((o) => root.style.removeProperty(o.name));
       root.style.removeProperty("color-scheme");
     }
+    // 邊緣光：拖曳時依位置決定光在框上的哪裡、什麼顏色（深色亮藍 → 中間偏白 → 淺色亮金）
+    const lerpRGB = (a, b, t) => a.map((v, i) => Math.round(v + (b[i] - v) * t));
+    const rgb = (c) => `rgb(${c[0]}, ${c[1]}, ${c[2]})`;
+    const GLOW = { blue: [127, 143, 255], white: [255, 236, 236], gold: [255, 173, 0] };
+    const CORE = { blue: [233, 237, 255], white: [255, 255, 255], gold: [255, 243, 194] };
+    function setGlow(t) {
+      const half = t < 0.5;
+      const u = half ? t / 0.5 : (t - 0.5) / 0.5;
+      btn.style.setProperty("--arc", `${225 - 180 * t}deg`);
+      btn.style.setProperty("--glow", rgb(half ? lerpRGB(GLOW.blue, GLOW.white, u) : lerpRGB(GLOW.white, GLOW.gold, u)));
+      btn.style.setProperty("--glow-core", rgb(half ? lerpRGB(CORE.blue, CORE.white, u) : lerpRGB(CORE.white, CORE.gold, u)));
+    }
+    const clearGlow = () => ["--arc", "--glow", "--glow-core"].forEach((n) => btn.style.removeProperty(n));
     const maxX = () => Math.max(0, btn.clientWidth - knob.offsetWidth - 2 * knob.offsetLeft);
 
     function knobCenter() {
@@ -944,6 +957,7 @@
       knob.style.transform = `translateX(${x}px)`;
       k = maxX() ? x / maxX() : 0;
       if (!reduceMotion()) { mixTheme(k); btn.style.setProperty("--tt-light", k.toFixed(3)); }
+      setGlow(k);
       draw();
     });
     const endDrag = (e, cancelled) => {
@@ -963,6 +977,7 @@
       }
       clearMix();
       btn.style.removeProperty("--tt-light");
+      clearGlow();  // 交還給 CSS，光會從放開的位置沿著框滑到定位
       if ((next === "light") !== !isDark()) applyTheme(next);
       else sync();
       knob.style.transform = "";  // 交還給 CSS，滑塊會從放開的位置滑到定位
