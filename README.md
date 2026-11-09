@@ -157,6 +157,30 @@ repo 的 `.claude/skills/` 裝了 7 個做網站用的技能（來自 [ui-ux-pro
 - **另一個帳號層級的技能**：`impeccable`（設計評估與修飾，例如 `/impeccable critique`）不在 repo 裡，是帳號本身就有的技能，評估紀錄存在 `.impeccable/critique/`。
 - **更新技能**：在電腦上的專案資料夾執行 `npx ui-ux-pro-max-cli update --ai claude`（加 `--ai claude` 就不會跳出選單；沒加的話選「Claude Code」）；repo 這一份可以請 Claude 重新從原始 repo 複製。
 
+### Chrome DevTools MCP（讓 Claude 操作瀏覽器）
+
+[Chrome DevTools MCP](https://github.com/ChromeDevTools/chrome-devtools-mcp)（Apache-2.0）讓 Claude 開瀏覽器打開網站，實際截圖、看 console 錯誤、查網路請求、跑 Lighthouse 和效能分析、檢查無障礙。
+
+- **雲端（這個 repo）**：設定在根目錄的 `.mcp.json`，用雲端環境內建的 Chromium、無畫面模式執行，版本固定 1.12.0。第一次在新的工作階段使用時，Claude Code 會詢問要不要啟用 `chrome-devtools`，按同意即可。這份設定只適用雲端環境，不要複製到 Windows 電腦用。
+- **搭配的技能**（放在 `.claude/skills/`）：
+
+| 技能 | 用途 |
+|---|---|
+| `chrome-devtools` | 基本操作：開網頁、截圖、點擊、讀 console、看網路請求 |
+| `a11y-debugging` | 無障礙檢查：語意、ARIA、焦點、鍵盤操作、點擊範圍、對比 |
+| `debug-optimize-lcp` | 載入速度：找出最大內容繪製（LCP）慢的原因並改善 |
+| `cookie-debugging` | Cookie、登入狀態相關問題 |
+| `memory-leak-debugging` | 記憶體外洩 |
+| `troubleshooting` | MCP 連不上、開不了頁面時的排除 |
+
+- **使用範例**：「用 Chrome DevTools 打開首頁，檢查 console 有沒有錯誤」「跑一次 Lighthouse，看手機版效能分數」「檢查類股區塊的鍵盤操作和對比」。
+- **自己的電腦（Windows）**：在 Claude Code 輸入下面兩行，用官方外掛安裝（含 MCP 和技能），裝完重開 Claude Code：
+  ```
+  /plugin marketplace add ChromeDevTools/chrome-devtools-mcp
+  /plugin install chrome-devtools-mcp@chrome-devtools-plugins
+  ```
+  只要 MCP 的話，也可以在 PowerShell 執行 `claude mcp add chrome-devtools --scope user -- cmd /c npx -y chrome-devtools-mcp@latest`。電腦上要先裝好 Chrome 和 Node.js。
+
 ## 檔案結構
 
 ```
@@ -167,6 +191,7 @@ data/                       自動更新的資料（chips / sectors / news / med
 uploads/                    後台上傳的圖片
 scripts/                    抓資料的 Python 程式
 .github/workflows/          自動排程設定
-.claude/skills/             Claude Code 設計技能
+.claude/skills/             Claude Code 技能（設計、Chrome DevTools）
+.mcp.json                   Chrome DevTools MCP 設定（雲端用）
 .impeccable/critique/       impeccable 設計評估紀錄
 ```
