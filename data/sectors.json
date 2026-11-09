@@ -1,188 +1,842 @@
 {
-  "date": "2026-11-06",
-  "prev_date": "2026-11-05",
+  "date": "2026-11-09",
+  "prev_date": "2026-11-06",
   "market": "上市",
   "min_value": 10000000,
   "taiex": {
-    "close": 39701.64,
-    "change_pct": -4.51
+    "close": 41661.7,
+    "change_pct": 4.94
   },
-  "total_value": 1070506091869,
-  "prev_total_value": 824646521062,
+  "total_value": 744962010280,
+  "prev_total_value": 1070506091869,
   "sectors": [
     {
-      "name": "資訊服務",
-      "index_close": 238.48,
-      "change_pct": 3.37,
-      "value": 5319067200,
-      "prev_value": 5325657830,
-      "share": 0.5,
-      "share_change": -0.15,
-      "count": 11,
-      "up": 3,
-      "down": 7,
+      "name": "塑膠",
+      "index_close": 421.41,
+      "change_pct": 9.45,
+      "value": 16507327287,
+      "prev_value": 32488193534,
+      "share": 2.22,
+      "share_change": -0.82,
+      "count": 21,
+      "up": 17,
+      "down": 3,
       "leader": {
-        "code": "2468",
-        "name": "華經",
-        "change_pct": 2.03,
-        "value_share": 49.8
+        "code": "1303",
+        "name": "南亞",
+        "change_pct": 9.81,
+        "value_share": 79.8
       },
       "top": [
         {
-          "code": "6214",
-          "name": "精誠",
-          "close": 192.0,
-          "change": 15.5,
-          "change_pct": 8.78,
-          "value": 668656183,
+          "code": "1301",
+          "name": "台塑",
+          "close": 68.9,
+          "change": 6.2,
+          "change_pct": 9.89,
+          "value": 1855215726,
+          "limit_up": true
+        },
+        {
+          "code": "1326",
+          "name": "台化",
+          "close": 68.9,
+          "change": 6.2,
+          "change_pct": 9.89,
+          "value": 1055457898,
+          "limit_up": true
+        },
+        {
+          "code": "1303",
+          "name": "南亞",
+          "close": 263.0,
+          "change": 23.5,
+          "change_pct": 9.81,
+          "value": 13173981302,
+          "limit_up": true
+        },
+        {
+          "code": "1308",
+          "name": "亞聚",
+          "close": 12.9,
+          "change": 0.65,
+          "change_pct": 5.31,
+          "value": 23426816,
           "limit_up": false
         },
         {
-          "code": "6112",
-          "name": "邁達特",
-          "close": 51.4,
-          "change": 3.7,
-          "change_pct": 7.76,
-          "value": 648265074,
-          "limit_up": false
-        },
-        {
-          "code": "2468",
-          "name": "華經",
-          "close": 60.2,
-          "change": 1.2,
-          "change_pct": 2.03,
-          "value": 2646498824,
-          "limit_up": false
-        },
-        {
-          "code": "2480",
-          "name": "敦陽科",
-          "close": 166.0,
-          "change": 0.0,
-          "change_pct": 0.0,
-          "value": 170648293,
-          "limit_up": false
-        },
-        {
-          "code": "3029",
-          "name": "零壹",
-          "close": 112.5,
-          "change": -0.5,
-          "change_pct": -0.44,
-          "value": 674440522,
+          "code": "1305",
+          "name": "華夏",
+          "close": 11.15,
+          "change": 0.45,
+          "change_pct": 4.21,
+          "value": 10379807,
           "limit_up": false
         }
       ],
       "top_value": [
         {
-          "code": "2468",
-          "name": "華經",
-          "close": 60.2,
-          "change": 1.2,
-          "change_pct": 2.03,
-          "value": 2646498824,
+          "code": "1303",
+          "name": "南亞",
+          "close": 263.0,
+          "change": 23.5,
+          "change_pct": 9.81,
+          "value": 13173981302,
+          "limit_up": true
+        },
+        {
+          "code": "1301",
+          "name": "台塑",
+          "close": 68.9,
+          "change": 6.2,
+          "change_pct": 9.89,
+          "value": 1855215726,
+          "limit_up": true
+        },
+        {
+          "code": "1326",
+          "name": "台化",
+          "close": 68.9,
+          "change": 6.2,
+          "change_pct": 9.89,
+          "value": 1055457898,
+          "limit_up": true
+        },
+        {
+          "code": "1314",
+          "name": "中石化",
+          "close": 7.55,
+          "change": 0.27,
+          "change_pct": 3.71,
+          "value": 116237061,
           "limit_up": false
         },
         {
-          "code": "3029",
-          "name": "零壹",
-          "close": 112.5,
-          "change": -0.5,
-          "change_pct": -0.44,
-          "value": 674440522,
+          "code": "1312",
+          "name": "國喬",
+          "close": 12.95,
+          "change": 0.4,
+          "change_pct": 3.19,
+          "value": 96499032,
+          "limit_up": false
+        }
+      ]
+    },
+    {
+      "name": "玻璃陶瓷",
+      "index_close": 148.63,
+      "change_pct": 9.35,
+      "value": 4110281000,
+      "prev_value": 5095695950,
+      "share": 0.55,
+      "share_change": 0.08,
+      "count": 5,
+      "up": 5,
+      "down": 0,
+      "leader": {
+        "code": "1802",
+        "name": "台玻",
+        "change_pct": 9.86,
+        "value_share": 97.0
+      },
+      "top": [
+        {
+          "code": "1802",
+          "name": "台玻",
+          "close": 63.5,
+          "change": 5.7,
+          "change_pct": 9.86,
+          "value": 3984952113,
+          "limit_up": true
+        },
+        {
+          "code": "1809",
+          "name": "中釉",
+          "close": 42.1,
+          "change": 3.4,
+          "change_pct": 8.79,
+          "value": 91346330,
           "limit_up": false
         },
         {
-          "code": "6214",
-          "name": "精誠",
-          "close": 192.0,
+          "code": "1810",
+          "name": "和成",
+          "close": 20.6,
+          "change": 0.85,
+          "change_pct": 4.3,
+          "value": 29863616,
+          "limit_up": false
+        }
+      ],
+      "top_value": [
+        {
+          "code": "1802",
+          "name": "台玻",
+          "close": 63.5,
+          "change": 5.7,
+          "change_pct": 9.86,
+          "value": 3984952113,
+          "limit_up": true
+        },
+        {
+          "code": "1809",
+          "name": "中釉",
+          "close": 42.1,
+          "change": 3.4,
+          "change_pct": 8.79,
+          "value": 91346330,
+          "limit_up": false
+        },
+        {
+          "code": "1810",
+          "name": "和成",
+          "close": 20.6,
+          "change": 0.85,
+          "change_pct": 4.3,
+          "value": 29863616,
+          "limit_up": false
+        },
+        {
+          "code": "1806",
+          "name": "冠軍",
+          "close": 7.48,
+          "change": 0.02,
+          "change_pct": 0.27,
+          "value": 2839650,
+          "limit_up": false
+        },
+        {
+          "code": "1817",
+          "name": "凱撒衛",
+          "close": 39.4,
+          "change": 0.15,
+          "change_pct": 0.38,
+          "value": 1279291,
+          "limit_up": false
+        }
+      ]
+    },
+    {
+      "name": "電子零組件",
+      "index_close": 686.13,
+      "change_pct": 7.58,
+      "value": 182624996382,
+      "prev_value": 203095806962,
+      "share": 24.51,
+      "share_change": 5.54,
+      "count": 104,
+      "up": 92,
+      "down": 11,
+      "leader": {
+        "code": "3037",
+        "name": "欣興",
+        "change_pct": 4.13,
+        "value_share": 17.5
+      },
+      "top": [
+        {
+          "code": "6269",
+          "name": "台郡",
+          "close": 71.5,
+          "change": 6.5,
+          "change_pct": 10.0,
+          "value": 864246191,
+          "limit_up": true
+        },
+        {
+          "code": "6862",
+          "name": "三集瑞-KY",
+          "close": 121.0,
+          "change": 11.0,
+          "change_pct": 10.0,
+          "value": 14793533,
+          "limit_up": true
+        },
+        {
+          "code": "2328",
+          "name": "廣宇",
+          "close": 46.8,
+          "change": 4.25,
+          "change_pct": 9.99,
+          "value": 291070928,
+          "limit_up": true
+        },
+        {
+          "code": "6715",
+          "name": "嘉基",
+          "close": 375.0,
+          "change": 34.0,
+          "change_pct": 9.97,
+          "value": 395862083,
+          "limit_up": true
+        },
+        {
+          "code": "2472",
+          "name": "立隆電",
+          "close": 165.5,
+          "change": 15.0,
+          "change_pct": 9.97,
+          "value": 185700226,
+          "limit_up": true
+        }
+      ],
+      "top_value": [
+        {
+          "code": "3037",
+          "name": "欣興",
+          "close": 757.0,
+          "change": 30.0,
+          "change_pct": 4.13,
+          "value": 31980056907,
+          "limit_up": false
+        },
+        {
+          "code": "3653",
+          "name": "健策",
+          "close": 5635.0,
+          "change": 410.0,
+          "change_pct": 7.85,
+          "value": 20621556075,
+          "limit_up": false
+        },
+        {
+          "code": "2383",
+          "name": "台光電",
+          "close": 4070.0,
+          "change": 250.0,
+          "change_pct": 6.54,
+          "value": 19815121440,
+          "limit_up": false
+        },
+        {
+          "code": "2308",
+          "name": "台達電",
+          "close": 1160.0,
+          "change": 105.0,
+          "change_pct": 9.95,
+          "value": 19038065815,
+          "limit_up": true
+        },
+        {
+          "code": "4958",
+          "name": "臻鼎-KY",
+          "close": 398.0,
+          "change": 25.0,
+          "change_pct": 6.7,
+          "value": 12385390386,
+          "limit_up": false
+        }
+      ]
+    },
+    {
+      "name": "光電",
+      "index_close": 63.47,
+      "change_pct": 7.52,
+      "value": 41545835942,
+      "prev_value": 56490432785,
+      "share": 5.58,
+      "share_change": 0.3,
+      "count": 67,
+      "up": 62,
+      "down": 4,
+      "leader": {
+        "code": "3406",
+        "name": "玉晶光",
+        "change_pct": 1.94,
+        "value_share": 23.0
+      },
+      "top": [
+        {
+          "code": "2486",
+          "name": "一詮",
+          "close": 159.5,
+          "change": 14.5,
+          "change_pct": 10.0,
+          "value": 497096657,
+          "limit_up": true
+        },
+        {
+          "code": "3481",
+          "name": "群創",
+          "close": 39.65,
+          "change": 3.6,
+          "change_pct": 9.99,
+          "value": 3890101761,
+          "limit_up": true
+        },
+        {
+          "code": "2426",
+          "name": "鼎元",
+          "close": 74.9,
+          "change": 6.8,
+          "change_pct": 9.99,
+          "value": 417352430,
+          "limit_up": true
+        },
+        {
+          "code": "6278",
+          "name": "台表科",
+          "close": 198.5,
+          "change": 18.0,
+          "change_pct": 9.97,
+          "value": 1334382420,
+          "limit_up": true
+        },
+        {
+          "code": "6209",
+          "name": "今國光",
+          "close": 71.8,
+          "change": 6.5,
+          "change_pct": 9.95,
+          "value": 449444254,
+          "limit_up": true
+        }
+      ],
+      "top_value": [
+        {
+          "code": "3406",
+          "name": "玉晶光",
+          "close": 841.0,
+          "change": 16.0,
+          "change_pct": 1.94,
+          "value": 9557090177,
+          "limit_up": false
+        },
+        {
+          "code": "2409",
+          "name": "友達",
+          "close": 28.2,
+          "change": 1.65,
+          "change_pct": 6.21,
+          "value": 6073879123,
+          "limit_up": false
+        },
+        {
+          "code": "6456",
+          "name": "GIS-KY",
+          "close": 76.6,
+          "change": -4.0,
+          "change_pct": -4.96,
+          "value": 5949454290,
+          "limit_up": false
+        },
+        {
+          "code": "3008",
+          "name": "大立光",
+          "close": 4925.0,
+          "change": 445.0,
+          "change_pct": 9.93,
+          "value": 5794651920,
+          "limit_up": true
+        },
+        {
+          "code": "3481",
+          "name": "群創",
+          "close": 39.65,
+          "change": 3.6,
+          "change_pct": 9.99,
+          "value": 3890101761,
+          "limit_up": true
+        }
+      ]
+    },
+    {
+      "name": "電機機械",
+      "index_close": 459.11,
+      "change_pct": 6.74,
+      "value": 16216223622,
+      "prev_value": 18246613494,
+      "share": 2.18,
+      "share_change": 0.47,
+      "count": 48,
+      "up": 37,
+      "down": 10,
+      "leader": {
+        "code": "8996",
+        "name": "高力",
+        "change_pct": 8.47,
+        "value_share": 31.0
+      },
+      "top": [
+        {
+          "code": "1519",
+          "name": "華城",
+          "close": 497.0,
+          "change": 45.0,
+          "change_pct": 9.96,
+          "value": 622721021,
+          "limit_up": true
+        },
+        {
+          "code": "1504",
+          "name": "東元",
+          "close": 65.6,
+          "change": 5.9,
+          "change_pct": 9.88,
+          "value": 324689187,
+          "limit_up": true
+        },
+        {
+          "code": "1560",
+          "name": "中砂",
+          "close": 735.0,
+          "change": 66.0,
+          "change_pct": 9.87,
+          "value": 1234119346,
+          "limit_up": true
+        },
+        {
+          "code": "4526",
+          "name": "東台",
+          "close": 54.2,
+          "change": 4.85,
+          "change_pct": 9.83,
+          "value": 366135762,
+          "limit_up": true
+        },
+        {
+          "code": "1503",
+          "name": "士電",
+          "close": 174.5,
           "change": 15.5,
-          "change_pct": 8.78,
-          "value": 668656183,
+          "change_pct": 9.75,
+          "value": 173637966,
+          "limit_up": true
+        }
+      ],
+      "top_value": [
+        {
+          "code": "8996",
+          "name": "高力",
+          "close": 1280.0,
+          "change": 100.0,
+          "change_pct": 8.47,
+          "value": 5023609735,
           "limit_up": false
         },
         {
-          "code": "6112",
-          "name": "邁達特",
-          "close": 51.4,
-          "change": 3.7,
-          "change_pct": 7.76,
-          "value": 648265074,
+          "code": "3167",
+          "name": "大量",
+          "close": 739.0,
+          "change": 39.0,
+          "change_pct": 5.57,
+          "value": 3726756171,
           "limit_up": false
         },
         {
-          "code": "2471",
-          "name": "資通",
-          "close": 51.4,
-          "change": -3.2,
-          "change_pct": -5.86,
-          "value": 328696701,
+          "code": "1590",
+          "name": "亞德客-KY",
+          "close": 1060.0,
+          "change": 50.0,
+          "change_pct": 4.95,
+          "value": 1735033750,
+          "limit_up": false
+        },
+        {
+          "code": "1560",
+          "name": "中砂",
+          "close": 735.0,
+          "change": 66.0,
+          "change_pct": 9.87,
+          "value": 1234119346,
+          "limit_up": true
+        },
+        {
+          "code": "2049",
+          "name": "上銀",
+          "close": 287.0,
+          "change": 12.5,
+          "change_pct": 4.55,
+          "value": 770045407,
+          "limit_up": false
+        }
+      ]
+    },
+    {
+      "name": "其他電子",
+      "index_close": 235.88,
+      "change_pct": 6.09,
+      "value": 30859322169,
+      "prev_value": 40941460339,
+      "share": 4.14,
+      "share_change": 0.32,
+      "count": 46,
+      "up": 35,
+      "down": 11,
+      "leader": {
+        "code": "2317",
+        "name": "鴻海",
+        "change_pct": 6.46,
+        "value_share": 38.0
+      },
+      "top": [
+        {
+          "code": "2464",
+          "name": "盟立",
+          "close": 148.5,
+          "change": 13.5,
+          "change_pct": 10.0,
+          "value": 311643888,
+          "limit_up": true
+        },
+        {
+          "code": "6215",
+          "name": "和椿",
+          "close": 77.0,
+          "change": 7.0,
+          "change_pct": 10.0,
+          "value": 26762969,
+          "limit_up": true
+        },
+        {
+          "code": "3030",
+          "name": "德律",
+          "close": 221.0,
+          "change": 20.0,
+          "change_pct": 9.95,
+          "value": 359455043,
+          "limit_up": true
+        },
+        {
+          "code": "6830",
+          "name": "汎銓",
+          "close": 459.0,
+          "change": 41.5,
+          "change_pct": 9.94,
+          "value": 402697236,
+          "limit_up": true
+        },
+        {
+          "code": "3305",
+          "name": "昇貿",
+          "close": 99.7,
+          "change": 9.0,
+          "change_pct": 9.92,
+          "value": 90998560,
+          "limit_up": true
+        }
+      ],
+      "top_value": [
+        {
+          "code": "2317",
+          "name": "鴻海",
+          "close": 239.0,
+          "change": 14.5,
+          "change_pct": 6.46,
+          "value": 11725410037,
+          "limit_up": false
+        },
+        {
+          "code": "2360",
+          "name": "致茂",
+          "close": 1250.0,
+          "change": 45.0,
+          "change_pct": 3.73,
+          "value": 6070706750,
+          "limit_up": false
+        },
+        {
+          "code": "3665",
+          "name": "貿聯-KY",
+          "close": 1420.0,
+          "change": 95.0,
+          "change_pct": 7.17,
+          "value": 5409066125,
+          "limit_up": false
+        },
+        {
+          "code": "8021",
+          "name": "尖點",
+          "close": 339.0,
+          "change": 30.5,
+          "change_pct": 9.89,
+          "value": 1146174434,
+          "limit_up": true
+        },
+        {
+          "code": "2404",
+          "name": "漢唐",
+          "close": 930.0,
+          "change": 44.0,
+          "change_pct": 4.97,
+          "value": 1142698155,
+          "limit_up": false
+        }
+      ]
+    },
+    {
+      "name": "半導體",
+      "index_close": 1400.54,
+      "change_pct": 5.4,
+      "value": 305226972960,
+      "prev_value": 497310196470,
+      "share": 40.97,
+      "share_change": -5.48,
+      "count": 96,
+      "up": 89,
+      "down": 7,
+      "leader": {
+        "code": "2330",
+        "name": "台積電",
+        "change_pct": 4.68,
+        "value_share": 32.8
+      },
+      "top": [
+        {
+          "code": "8131",
+          "name": "福懋科",
+          "close": 53.9,
+          "change": 4.9,
+          "change_pct": 10.0,
+          "value": 63520959,
+          "limit_up": true
+        },
+        {
+          "code": "8150",
+          "name": "南茂",
+          "close": 77.1,
+          "change": 7.0,
+          "change_pct": 9.99,
+          "value": 661115324,
+          "limit_up": true
+        },
+        {
+          "code": "2369",
+          "name": "菱生",
+          "close": 25.35,
+          "change": 2.3,
+          "change_pct": 9.98,
+          "value": 44837822,
+          "limit_up": true
+        },
+        {
+          "code": "2342",
+          "name": "茂矽",
+          "close": 34.75,
+          "change": 3.15,
+          "change_pct": 9.97,
+          "value": 47020378,
+          "limit_up": true
+        },
+        {
+          "code": "2344",
+          "name": "華邦電",
+          "close": 132.5,
+          "change": 12.0,
+          "change_pct": 9.96,
+          "value": 4902729914,
+          "limit_up": true
+        }
+      ],
+      "top_value": [
+        {
+          "code": "2330",
+          "name": "台積電",
+          "close": 2235.0,
+          "change": 100.0,
+          "change_pct": 4.68,
+          "value": 99993671215,
+          "limit_up": false
+        },
+        {
+          "code": "2454",
+          "name": "聯發科",
+          "close": 3725.0,
+          "change": 335.0,
+          "change_pct": 9.88,
+          "value": 35686549825,
+          "limit_up": true
+        },
+        {
+          "code": "3189",
+          "name": "景碩",
+          "close": 690.0,
+          "change": 19.0,
+          "change_pct": 2.83,
+          "value": 31162380899,
+          "limit_up": false
+        },
+        {
+          "code": "3443",
+          "name": "創意",
+          "close": 6705.0,
+          "change": 500.0,
+          "change_pct": 8.06,
+          "value": 27650060405,
+          "limit_up": false
+        },
+        {
+          "code": "2303",
+          "name": "聯電",
+          "close": 96.7,
+          "change": 4.7,
+          "change_pct": 5.11,
+          "value": 20277358771,
           "limit_up": false
         }
       ]
     },
     {
       "name": "生技醫療",
-      "index_close": 87.65,
-      "change_pct": 2.51,
-      "value": 13770123060,
-      "prev_value": 7014176193,
-      "share": 1.29,
-      "share_change": 0.44,
+      "index_close": 92.13,
+      "change_pct": 5.11,
+      "value": 10311113717,
+      "prev_value": 13770123060,
+      "share": 1.38,
+      "share_change": 0.1,
       "count": 62,
-      "up": 17,
-      "down": 42,
+      "up": 45,
+      "down": 11,
       "leader": {
         "code": "6446",
         "name": "藥華藥",
-        "change_pct": 7.17,
-        "value_share": 62.2
+        "change_pct": 7.87,
+        "value_share": 72.9
       },
       "top": [
         {
-          "code": "4155",
-          "name": "訊映",
-          "close": 17.9,
-          "change": 1.55,
-          "change_pct": 9.48,
-          "value": 25152598,
+          "code": "6919",
+          "name": "康霈*",
+          "close": 70.4,
+          "change": 6.4,
+          "change_pct": 10.0,
+          "value": 280112453,
           "limit_up": true
         },
         {
-          "code": "6446",
-          "name": "藥華藥",
-          "close": 1270.0,
-          "change": 85.0,
-          "change_pct": 7.17,
-          "value": 8726811975,
+          "code": "6589",
+          "name": "台康生技",
+          "close": 51.5,
+          "change": 4.6,
+          "change_pct": 9.81,
+          "value": 60960633,
+          "limit_up": true
+        },
+        {
+          "code": "6861",
+          "name": "睿生光電",
+          "close": 190.5,
+          "change": 17.0,
+          "change_pct": 9.8,
+          "value": 70663606,
+          "limit_up": true
+        },
+        {
+          "code": "4169",
+          "name": "泰宗",
+          "close": 125.0,
+          "change": 10.5,
+          "change_pct": 9.17,
+          "value": 32583867,
           "limit_up": false
         },
         {
-          "code": "6885",
-          "name": "全福生技",
-          "close": 26.65,
-          "change": 1.2,
-          "change_pct": 4.72,
-          "value": 26519085,
-          "limit_up": false
-        },
-        {
-          "code": "1789",
-          "name": "神隆",
-          "close": 20.15,
-          "change": 0.7,
-          "change_pct": 3.6,
-          "value": 30848665,
-          "limit_up": false
-        },
-        {
-          "code": "6541",
-          "name": "泰福-KY",
-          "close": 27.85,
-          "change": 0.95,
-          "change_pct": 3.53,
-          "value": 24558818,
+          "code": "1786",
+          "name": "科妍",
+          "close": 51.1,
+          "change": 4.05,
+          "change_pct": 8.61,
+          "value": 81961409,
           "limit_up": false
         }
       ],
@@ -190,1101 +844,532 @@
         {
           "code": "6446",
           "name": "藥華藥",
-          "close": 1270.0,
-          "change": 85.0,
-          "change_pct": 7.17,
-          "value": 8726811975,
-          "limit_up": false
-        },
-        {
-          "code": "6919",
-          "name": "康霈*",
-          "close": 64.0,
-          "change": -2.6,
-          "change_pct": -3.9,
-          "value": 1237191685,
+          "close": 1370.0,
+          "change": 100.0,
+          "change_pct": 7.87,
+          "value": 7607827365,
           "limit_up": false
         },
         {
           "code": "6472",
           "name": "保瑞",
-          "close": 399.5,
-          "change": 10.5,
-          "change_pct": 2.7,
-          "value": 925729859,
+          "close": 409.0,
+          "change": 9.5,
+          "change_pct": 2.38,
+          "value": 632474079,
           "limit_up": false
         },
         {
           "code": "1795",
           "name": "美時",
-          "close": 166.0,
-          "change": -2.0,
-          "change_pct": -1.19,
-          "value": 670890592,
-          "limit_up": false
-        },
-        {
-          "code": "6782",
-          "name": "視陽",
-          "close": 274.5,
-          "change": 9.0,
-          "change_pct": 3.39,
-          "value": 364551979,
-          "limit_up": false
-        }
-      ]
-    },
-    {
-      "name": "運動休閒",
-      "index_close": 54.25,
-      "change_pct": -0.9,
-      "value": 1866764005,
-      "prev_value": 1350099679,
-      "share": 0.17,
-      "share_change": 0.01,
-      "count": 18,
-      "up": 6,
-      "down": 11,
-      "leader": {
-        "code": "9904",
-        "name": "寶成",
-        "change_pct": -1.15,
-        "value_share": 35.0
-      },
-      "top": [
-        {
-          "code": "6890",
-          "name": "來億-KY",
-          "close": 147.0,
-          "change": 4.0,
-          "change_pct": 2.8,
-          "value": 110194614,
-          "limit_up": false
-        },
-        {
-          "code": "9914",
-          "name": "美利達",
-          "close": 63.4,
-          "change": 0.6,
-          "change_pct": 0.96,
-          "value": 187571146,
-          "limit_up": false
-        },
-        {
-          "code": "9910",
-          "name": "豐泰",
-          "close": 69.6,
-          "change": 0.4,
-          "change_pct": 0.58,
-          "value": 135908338,
-          "limit_up": false
-        },
-        {
-          "code": "9921",
-          "name": "巨大",
-          "close": 89.7,
-          "change": 0.4,
-          "change_pct": 0.45,
-          "value": 250778113,
-          "limit_up": false
-        },
-        {
-          "code": "2762",
-          "name": "世界健身-KY",
-          "close": 76.2,
-          "change": 0.0,
-          "change_pct": 0.0,
-          "value": 10975956,
-          "limit_up": false
-        }
-      ],
-      "top_value": [
-        {
-          "code": "9904",
-          "name": "寶成",
-          "close": 25.7,
-          "change": -0.3,
-          "change_pct": -1.15,
-          "value": 652563052,
-          "limit_up": false
-        },
-        {
-          "code": "9921",
-          "name": "巨大",
-          "close": 89.7,
-          "change": 0.4,
-          "change_pct": 0.45,
-          "value": 250778113,
-          "limit_up": false
-        },
-        {
-          "code": "9914",
-          "name": "美利達",
-          "close": 63.4,
-          "change": 0.6,
-          "change_pct": 0.96,
-          "value": 187571146,
-          "limit_up": false
-        },
-        {
-          "code": "9910",
-          "name": "豐泰",
-          "close": 69.6,
-          "change": 0.4,
-          "change_pct": 0.58,
-          "value": 135908338,
-          "limit_up": false
-        },
-        {
-          "code": "6670",
-          "name": "復盛應用",
-          "close": 254.5,
-          "change": -2.0,
-          "change_pct": -0.78,
-          "value": 116649645,
-          "limit_up": false
-        }
-      ]
-    },
-    {
-      "name": "紡織纖維",
-      "index_close": 471.1,
-      "change_pct": -1.03,
-      "value": 3856079541,
-      "prev_value": 3389572989,
-      "share": 0.36,
-      "share_change": -0.05,
-      "count": 42,
-      "up": 6,
-      "down": 33,
-      "leader": {
-        "code": "1476",
-        "name": "儒鴻",
-        "change_pct": 2.06,
-        "value_share": 58.5
-      },
-      "top": [
-        {
-          "code": "1476",
-          "name": "儒鴻",
-          "close": 346.5,
-          "change": 7.0,
-          "change_pct": 2.06,
-          "value": 2256381523,
-          "limit_up": false
-        },
-        {
-          "code": "4441",
-          "name": "振大環球",
           "close": 166.5,
-          "change": 0.0,
-          "change_pct": 0.0,
-          "value": 40353240,
-          "limit_up": false
-        },
-        {
-          "code": "1477",
-          "name": "聚陽",
-          "close": 213.0,
-          "change": -1.5,
-          "change_pct": -0.7,
-          "value": 697439842,
-          "limit_up": false
-        },
-        {
-          "code": "4438",
-          "name": "廣越",
-          "close": 55.8,
-          "change": -0.6,
-          "change_pct": -1.06,
-          "value": 14991296,
-          "limit_up": false
-        },
-        {
-          "code": "1402",
-          "name": "遠東新",
-          "close": 27.75,
-          "change": -0.4,
-          "change_pct": -1.42,
-          "value": 337690496,
-          "limit_up": false
-        }
-      ],
-      "top_value": [
-        {
-          "code": "1476",
-          "name": "儒鴻",
-          "close": 346.5,
-          "change": 7.0,
-          "change_pct": 2.06,
-          "value": 2256381523,
-          "limit_up": false
-        },
-        {
-          "code": "1477",
-          "name": "聚陽",
-          "close": 213.0,
-          "change": -1.5,
-          "change_pct": -0.7,
-          "value": 697439842,
-          "limit_up": false
-        },
-        {
-          "code": "1402",
-          "name": "遠東新",
-          "close": 27.75,
-          "change": -0.4,
-          "change_pct": -1.42,
-          "value": 337690496,
-          "limit_up": false
-        },
-        {
-          "code": "1409",
-          "name": "新纖",
-          "close": 21.1,
-          "change": -0.9,
-          "change_pct": -4.09,
-          "value": 192441331,
-          "limit_up": false
-        },
-        {
-          "code": "1434",
-          "name": "福懋",
-          "close": 17.45,
-          "change": -0.6,
-          "change_pct": -3.32,
-          "value": 97112411,
-          "limit_up": false
-        }
-      ]
-    },
-    {
-      "name": "數位雲端",
-      "index_close": 36.13,
-      "change_pct": -1.63,
-      "value": 722497897,
-      "prev_value": 684584088,
-      "share": 0.07,
-      "share_change": -0.02,
-      "count": 13,
-      "up": 3,
-      "down": 8,
-      "leader": {
-        "code": "6689",
-        "name": "伊雲谷",
-        "change_pct": 0.7,
-        "value_share": 27.7
-      },
-      "top": [
-        {
-          "code": "8487",
-          "name": "愛爾達-創",
-          "close": 64.1,
-          "change": 1.1,
-          "change_pct": 1.75,
-          "value": 10105054,
-          "limit_up": false
-        },
-        {
-          "code": "7765",
-          "name": "中華資安",
-          "close": 236.0,
-          "change": 2.0,
-          "change_pct": 0.85,
-          "value": 69462361,
-          "limit_up": false
-        },
-        {
-          "code": "6689",
-          "name": "伊雲谷",
-          "close": 71.5,
           "change": 0.5,
-          "change_pct": 0.7,
-          "value": 200062653,
+          "change_pct": 0.3,
+          "value": 357210991,
           "limit_up": false
         },
         {
-          "code": "3130",
-          "name": "一零四",
-          "close": 204.0,
-          "change": 0.0,
-          "change_pct": 0.0,
-          "value": 33878033,
-          "limit_up": false
-        },
-        {
-          "code": "6906",
-          "name": "現觀科",
-          "close": 66.7,
-          "change": -0.5,
-          "change_pct": -0.74,
-          "value": 13153383,
-          "limit_up": false
-        }
-      ],
-      "top_value": [
-        {
-          "code": "6689",
-          "name": "伊雲谷",
-          "close": 71.5,
-          "change": 0.5,
-          "change_pct": 0.7,
-          "value": 200062653,
-          "limit_up": false
-        },
-        {
-          "code": "8454",
-          "name": "富邦媒",
-          "close": 223.5,
-          "change": -5.0,
-          "change_pct": -2.19,
-          "value": 150057193,
-          "limit_up": false
-        },
-        {
-          "code": "6165",
-          "name": "浪凡",
-          "close": 35.75,
-          "change": -1.6,
-          "change_pct": -4.28,
-          "value": 103542218,
-          "limit_up": false
-        },
-        {
-          "code": "6902",
-          "name": "GOGOLOOK",
-          "close": 126.5,
-          "change": -5.0,
-          "change_pct": -3.8,
-          "value": 80247272,
-          "limit_up": false
-        },
-        {
-          "code": "7765",
-          "name": "中華資安",
-          "close": 236.0,
-          "change": 2.0,
-          "change_pct": 0.85,
-          "value": 69462361,
-          "limit_up": false
-        }
-      ]
-    },
-    {
-      "name": "水泥",
-      "index_close": 129.46,
-      "change_pct": -1.66,
-      "value": 2269231211,
-      "prev_value": 1758818049,
-      "share": 0.21,
-      "share_change": -0.0,
-      "count": 7,
-      "up": 0,
-      "down": 6,
-      "leader": {
-        "code": "1101",
-        "name": "台泥",
-        "change_pct": -1.65,
-        "value_share": 81.9
-      },
-      "top": [
-        {
-          "code": "1108",
-          "name": "幸福",
-          "close": 10.7,
-          "change": -0.05,
-          "change_pct": -0.47,
-          "value": 14467060,
-          "limit_up": false
-        },
-        {
-          "code": "1103",
-          "name": "嘉泥",
-          "close": 13.35,
-          "change": -0.1,
-          "change_pct": -0.74,
-          "value": 16233588,
-          "limit_up": false
-        },
-        {
-          "code": "1104",
-          "name": "環泥",
-          "close": 26.15,
-          "change": -0.35,
-          "change_pct": -1.32,
-          "value": 25414717,
-          "limit_up": false
-        },
-        {
-          "code": "1101",
-          "name": "台泥",
-          "close": 26.75,
-          "change": -0.45,
-          "change_pct": -1.65,
-          "value": 1857857531,
-          "limit_up": false
-        },
-        {
-          "code": "1102",
-          "name": "亞泥",
-          "close": 36.55,
-          "change": -0.7,
-          "change_pct": -1.88,
-          "value": 341061793,
-          "limit_up": false
-        }
-      ],
-      "top_value": [
-        {
-          "code": "1101",
-          "name": "台泥",
-          "close": 26.75,
-          "change": -0.45,
-          "change_pct": -1.65,
-          "value": 1857857531,
-          "limit_up": false
-        },
-        {
-          "code": "1102",
-          "name": "亞泥",
-          "close": 36.55,
-          "change": -0.7,
-          "change_pct": -1.88,
-          "value": 341061793,
-          "limit_up": false
-        },
-        {
-          "code": "1104",
-          "name": "環泥",
-          "close": 26.15,
-          "change": -0.35,
-          "change_pct": -1.32,
-          "value": 25414717,
-          "limit_up": false
-        },
-        {
-          "code": "1103",
-          "name": "嘉泥",
-          "close": 13.35,
-          "change": -0.1,
-          "change_pct": -0.74,
-          "value": 16233588,
-          "limit_up": false
-        },
-        {
-          "code": "1108",
-          "name": "幸福",
-          "close": 10.7,
-          "change": -0.05,
-          "change_pct": -0.47,
-          "value": 14467060,
-          "limit_up": false
-        }
-      ]
-    },
-    {
-      "name": "造紙",
-      "index_close": 260.37,
-      "change_pct": -1.94,
-      "value": 225891425,
-      "prev_value": 122022052,
-      "share": 0.02,
-      "share_change": 0.01,
-      "count": 7,
-      "up": 0,
-      "down": 7,
-      "leader": {
-        "code": "1904",
-        "name": "正隆",
-        "change_pct": -2.69,
-        "value_share": 30.9
-      },
-      "top": [
-        {
-          "code": "6790",
-          "name": "永豐實",
-          "close": 37.25,
-          "change": -0.4,
-          "change_pct": -1.06,
-          "value": 13710585,
-          "limit_up": false
-        },
-        {
-          "code": "1907",
-          "name": "永豐餘",
-          "close": 27.95,
-          "change": -0.4,
-          "change_pct": -1.41,
-          "value": 48942171,
-          "limit_up": false
-        },
-        {
-          "code": "1909",
-          "name": "榮成",
-          "close": 9.06,
-          "change": -0.15,
-          "change_pct": -1.63,
-          "value": 31967517,
-          "limit_up": false
-        },
-        {
-          "code": "1903",
-          "name": "士紙",
-          "close": 45.75,
-          "change": -1.1,
-          "change_pct": -2.35,
-          "value": 13244638,
-          "limit_up": false
-        },
-        {
-          "code": "1904",
-          "name": "正隆",
-          "close": 23.5,
-          "change": -0.65,
-          "change_pct": -2.69,
-          "value": 69814021,
-          "limit_up": false
-        }
-      ],
-      "top_value": [
-        {
-          "code": "1904",
-          "name": "正隆",
-          "close": 23.5,
-          "change": -0.65,
-          "change_pct": -2.69,
-          "value": 69814021,
-          "limit_up": false
-        },
-        {
-          "code": "1907",
-          "name": "永豐餘",
-          "close": 27.95,
-          "change": -0.4,
-          "change_pct": -1.41,
-          "value": 48942171,
-          "limit_up": false
-        },
-        {
-          "code": "1905",
-          "name": "華紙",
-          "close": 11.35,
-          "change": -0.35,
-          "change_pct": -2.99,
-          "value": 46464677,
-          "limit_up": false
-        },
-        {
-          "code": "1909",
-          "name": "榮成",
-          "close": 9.06,
-          "change": -0.15,
-          "change_pct": -1.63,
-          "value": 31967517,
-          "limit_up": false
-        },
-        {
-          "code": "6790",
-          "name": "永豐實",
-          "close": 37.25,
-          "change": -0.4,
-          "change_pct": -1.06,
-          "value": 13710585,
-          "limit_up": false
-        }
-      ]
-    },
-    {
-      "name": "通信網路",
-      "index_close": 214.8,
-      "change_pct": -2.03,
-      "value": 28560775343,
-      "prev_value": 24723559611,
-      "share": 2.67,
-      "share_change": -0.33,
-      "count": 47,
-      "up": 6,
-      "down": 39,
-      "leader": {
-        "code": "2345",
-        "name": "智邦",
-        "change_pct": -7.25,
-        "value_share": 26.5
-      },
-      "top": [
-        {
-          "code": "6152",
-          "name": "百一",
-          "close": 18.7,
-          "change": 1.7,
+          "code": "6919",
+          "name": "康霈*",
+          "close": 70.4,
+          "change": 6.4,
           "change_pct": 10.0,
-          "value": 140673608,
+          "value": 280112453,
           "limit_up": true
         },
         {
-          "code": "2412",
-          "name": "中華電",
-          "close": 163.5,
-          "change": 2.0,
-          "change_pct": 1.24,
-          "value": 4586116637,
+          "code": "4771",
+          "name": "望隼",
+          "close": 180.0,
+          "change": -20.0,
+          "change_pct": -10.0,
+          "value": 261727878,
+          "limit_up": false
+        }
+      ]
+    },
+    {
+      "name": "電腦及週邊設備",
+      "index_close": 389.23,
+      "change_pct": 4.92,
+      "value": 45071626222,
+      "prev_value": 66656525311,
+      "share": 6.05,
+      "share_change": -0.18,
+      "count": 65,
+      "up": 54,
+      "down": 8,
+      "leader": {
+        "code": "6669",
+        "name": "緯穎",
+        "change_pct": 5.79,
+        "value_share": 15.8
+      },
+      "top": [
+        {
+          "code": "4916",
+          "name": "事欣科",
+          "close": 91.3,
+          "change": 8.3,
+          "change_pct": 10.0,
+          "value": 113683563,
+          "limit_up": true
+        },
+        {
+          "code": "3017",
+          "name": "奇鋐",
+          "close": 2540.0,
+          "change": 230.0,
+          "change_pct": 9.96,
+          "value": 6952704515,
+          "limit_up": true
+        },
+        {
+          "code": "3060",
+          "name": "銘異",
+          "close": 23.85,
+          "change": 2.15,
+          "change_pct": 9.91,
+          "value": 17055251,
+          "limit_up": true
+        },
+        {
+          "code": "3701",
+          "name": "大眾控",
+          "close": 52.3,
+          "change": 4.7,
+          "change_pct": 9.87,
+          "value": 126449052,
+          "limit_up": true
+        },
+        {
+          "code": "3013",
+          "name": "晟銘電",
+          "close": 75.7,
+          "change": 6.8,
+          "change_pct": 9.87,
+          "value": 60859652,
+          "limit_up": true
+        }
+      ],
+      "top_value": [
+        {
+          "code": "6669",
+          "name": "緯穎",
+          "close": 1645.0,
+          "change": 90.0,
+          "change_pct": 5.79,
+          "value": 7114084605,
           "limit_up": false
         },
         {
-          "code": "3045",
-          "name": "台灣大",
-          "close": 133.0,
+          "code": "3017",
+          "name": "奇鋐",
+          "close": 2540.0,
+          "change": 230.0,
+          "change_pct": 9.96,
+          "value": 6952704515,
+          "limit_up": true
+        },
+        {
+          "code": "3231",
+          "name": "緯創",
+          "close": 168.5,
+          "change": 8.5,
+          "change_pct": 5.31,
+          "value": 6794506584,
+          "limit_up": false
+        },
+        {
+          "code": "2382",
+          "name": "廣達",
+          "close": 296.5,
+          "change": 6.0,
+          "change_pct": 2.07,
+          "value": 5719672418,
+          "limit_up": false
+        },
+        {
+          "code": "2357",
+          "name": "華碩",
+          "close": 860.0,
+          "change": 1.0,
+          "change_pct": 0.12,
+          "value": 2623308322,
+          "limit_up": false
+        }
+      ]
+    },
+    {
+      "name": "電器電纜",
+      "index_close": 96.1,
+      "change_pct": 4.65,
+      "value": 1091494235,
+      "prev_value": 1459453514,
+      "share": 0.15,
+      "share_change": 0.01,
+      "count": 16,
+      "up": 11,
+      "down": 3,
+      "leader": {
+        "code": "1605",
+        "name": "華新",
+        "change_pct": 6.04,
+        "value_share": 74.3
+      },
+      "top": [
+        {
+          "code": "1623",
+          "name": "大東電",
+          "close": 167.0,
+          "change": 12.5,
+          "change_pct": 8.09,
+          "value": 22873847,
+          "limit_up": false
+        },
+        {
+          "code": "1605",
+          "name": "華新",
+          "close": 33.35,
+          "change": 1.9,
+          "change_pct": 6.04,
+          "value": 811053826,
+          "limit_up": false
+        },
+        {
+          "code": "1618",
+          "name": "合機",
+          "close": 34.9,
+          "change": 1.9,
+          "change_pct": 5.76,
+          "value": 17586926,
+          "limit_up": false
+        },
+        {
+          "code": "1609",
+          "name": "大亞",
+          "close": 31.55,
+          "change": 1.6,
+          "change_pct": 5.34,
+          "value": 84513805,
+          "limit_up": false
+        },
+        {
+          "code": "1608",
+          "name": "華榮",
+          "close": 30.55,
+          "change": 1.05,
+          "change_pct": 3.56,
+          "value": 52531799,
+          "limit_up": false
+        }
+      ],
+      "top_value": [
+        {
+          "code": "1605",
+          "name": "華新",
+          "close": 33.35,
+          "change": 1.9,
+          "change_pct": 6.04,
+          "value": 811053826,
+          "limit_up": false
+        },
+        {
+          "code": "1609",
+          "name": "大亞",
+          "close": 31.55,
+          "change": 1.6,
+          "change_pct": 5.34,
+          "value": 84513805,
+          "limit_up": false
+        },
+        {
+          "code": "1608",
+          "name": "華榮",
+          "close": 30.55,
+          "change": 1.05,
+          "change_pct": 3.56,
+          "value": 52531799,
+          "limit_up": false
+        },
+        {
+          "code": "1623",
+          "name": "大東電",
+          "close": 167.0,
+          "change": 12.5,
+          "change_pct": 8.09,
+          "value": 22873847,
+          "limit_up": false
+        },
+        {
+          "code": "1612",
+          "name": "宏泰",
+          "close": 31.25,
           "change": 0.5,
-          "change_pct": 0.38,
-          "value": 1800163600,
-          "limit_up": false
-        },
-        {
-          "code": "6136",
-          "name": "富爾特",
-          "close": 25.8,
-          "change": 0.0,
-          "change_pct": 0.0,
-          "value": 10245425,
-          "limit_up": false
-        },
-        {
-          "code": "2444",
-          "name": "兆勁",
-          "close": 14.4,
-          "change": -0.05,
-          "change_pct": -0.35,
-          "value": 16590775,
-          "limit_up": false
-        }
-      ],
-      "top_value": [
-        {
-          "code": "2345",
-          "name": "智邦",
-          "close": 1280.0,
-          "change": -100.0,
-          "change_pct": -7.25,
-          "value": 7573712515,
-          "limit_up": false
-        },
-        {
-          "code": "2412",
-          "name": "中華電",
-          "close": 163.5,
-          "change": 2.0,
-          "change_pct": 1.24,
-          "value": 4586116637,
-          "limit_up": false
-        },
-        {
-          "code": "4977",
-          "name": "眾達-KY",
-          "close": 165.0,
-          "change": -10.5,
-          "change_pct": -5.98,
-          "value": 3741447498,
-          "limit_up": false
-        },
-        {
-          "code": "2455",
-          "name": "全新",
-          "close": 319.0,
-          "change": -27.0,
-          "change_pct": -7.8,
-          "value": 2735270985,
-          "limit_up": false
-        },
-        {
-          "code": "6442",
-          "name": "光聖",
-          "close": 1005.0,
-          "change": -65.0,
-          "change_pct": -6.07,
-          "value": 2314474720,
+          "change_pct": 1.63,
+          "value": 22264126,
           "limit_up": false
         }
       ]
     },
     {
-      "name": "汽車",
-      "index_close": 278.92,
-      "change_pct": -2.22,
-      "value": 2431244197,
-      "prev_value": 1484047293,
-      "share": 0.23,
-      "share_change": 0.05,
-      "count": 44,
-      "up": 7,
-      "down": 36,
+      "name": "化學",
+      "index_close": 176.57,
+      "change_pct": 4.34,
+      "value": 2999392794,
+      "prev_value": 4491396087,
+      "share": 0.4,
+      "share_change": -0.02,
+      "count": 28,
+      "up": 23,
+      "down": 4,
       "leader": {
-        "code": "2254",
-        "name": "巨鎧精密-創",
-        "change_pct": 0.92,
-        "value_share": 16.9
+        "code": "1709",
+        "name": "和益",
+        "change_pct": 5.58,
+        "value_share": 20.6
       },
       "top": [
         {
-          "code": "4557",
-          "name": "永新-KY",
-          "close": 55.0,
-          "change": 1.0,
-          "change_pct": 1.85,
-          "value": 11478425,
+          "code": "4770",
+          "name": "上品",
+          "close": 286.0,
+          "change": 26.0,
+          "change_pct": 10.0,
+          "value": 179493757,
+          "limit_up": true
+        },
+        {
+          "code": "4764",
+          "name": "雙鍵",
+          "close": 124.0,
+          "change": 11.0,
+          "change_pct": 9.73,
+          "value": 114801001,
+          "limit_up": true
+        },
+        {
+          "code": "1717",
+          "name": "長興",
+          "close": 62.1,
+          "change": 4.6,
+          "change_pct": 8.0,
+          "value": 207053595,
           "limit_up": false
         },
         {
-          "code": "2247",
-          "name": "汎德永業",
-          "close": 218.0,
-          "change": 3.0,
-          "change_pct": 1.4,
-          "value": 48302536,
+          "code": "4739",
+          "name": "康普",
+          "close": 71.2,
+          "change": 4.8,
+          "change_pct": 7.23,
+          "value": 45429605,
           "limit_up": false
         },
         {
-          "code": "2254",
-          "name": "巨鎧精密-創",
-          "close": 110.0,
-          "change": 1.0,
-          "change_pct": 0.92,
-          "value": 410249170,
-          "limit_up": false
-        },
-        {
-          "code": "3346",
-          "name": "麗清",
-          "close": 18.4,
-          "change": -0.15,
-          "change_pct": -0.81,
-          "value": 14268670,
-          "limit_up": false
-        },
-        {
-          "code": "1587",
-          "name": "吉茂",
-          "close": 20.0,
-          "change": -0.2,
-          "change_pct": -0.99,
-          "value": 11109066,
+          "code": "1711",
+          "name": "永光",
+          "close": 35.6,
+          "change": 2.25,
+          "change_pct": 6.75,
+          "value": 211596469,
           "limit_up": false
         }
       ],
       "top_value": [
         {
-          "code": "2254",
-          "name": "巨鎧精密-創",
-          "close": 110.0,
-          "change": 1.0,
-          "change_pct": 0.92,
-          "value": 410249170,
+          "code": "1709",
+          "name": "和益",
+          "close": 44.45,
+          "change": 2.35,
+          "change_pct": 5.58,
+          "value": 618733444,
           "limit_up": false
         },
         {
-          "code": "1319",
-          "name": "東陽",
-          "close": 75.6,
-          "change": -2.1,
-          "change_pct": -2.7,
-          "value": 262628830,
+          "code": "4720",
+          "name": "德淵",
+          "close": 27.2,
+          "change": 0.1,
+          "change_pct": 0.37,
+          "value": 314213852,
           "limit_up": false
         },
         {
-          "code": "2207",
-          "name": "和泰車",
-          "close": 528.0,
-          "change": -9.0,
-          "change_pct": -1.68,
-          "value": 253800267,
+          "code": "1711",
+          "name": "永光",
+          "close": 35.6,
+          "change": 2.25,
+          "change_pct": 6.75,
+          "value": 211596469,
           "limit_up": false
         },
         {
-          "code": "4551",
-          "name": "智伸科",
-          "close": 123.5,
-          "change": -8.5,
-          "change_pct": -6.44,
-          "value": 175457839,
+          "code": "1717",
+          "name": "長興",
+          "close": 62.1,
+          "change": 4.6,
+          "change_pct": 8.0,
+          "value": 207053595,
           "limit_up": false
         },
         {
-          "code": "2201",
-          "name": "裕隆",
-          "close": 26.75,
-          "change": -0.85,
-          "change_pct": -3.08,
-          "value": 137668887,
+          "code": "4763",
+          "name": "材料*-KY",
+          "close": 44.3,
+          "change": 2.2,
+          "change_pct": 5.23,
+          "value": 197052711,
           "limit_up": false
         }
       ]
     },
     {
-      "name": "貿易百貨",
-      "index_close": 227.61,
-      "change_pct": -2.25,
-      "value": 1009925194,
-      "prev_value": 591676522,
-      "share": 0.09,
-      "share_change": 0.02,
-      "count": 17,
-      "up": 2,
-      "down": 15,
+      "name": "綠能環保",
+      "index_close": 108.81,
+      "change_pct": 3.16,
+      "value": 1434764552,
+      "prev_value": 2453816341,
+      "share": 0.19,
+      "share_change": -0.04,
+      "count": 27,
+      "up": 19,
+      "down": 7,
       "leader": {
-        "code": "2912",
-        "name": "統一超",
-        "change_pct": -1.86,
-        "value_share": 59.3
+        "code": "7610",
+        "name": "聯友金屬-創",
+        "change_pct": 7.39,
+        "value_share": 35.9
       },
       "top": [
         {
-          "code": "2903",
-          "name": "遠百",
-          "close": 21.35,
-          "change": -0.35,
-          "change_pct": -1.61,
-          "value": 64883822,
+          "code": "6869",
+          "name": "雲豹能源",
+          "close": 59.9,
+          "change": 5.4,
+          "change_pct": 9.91,
+          "value": 17385426,
+          "limit_up": true
+        },
+        {
+          "code": "7740",
+          "name": "熙特爾-創",
+          "close": 95.5,
+          "change": 7.2,
+          "change_pct": 8.15,
+          "value": 59326401,
           "limit_up": false
         },
         {
-          "code": "2912",
-          "name": "統一超",
-          "close": 210.5,
-          "change": -4.0,
-          "change_pct": -1.86,
-          "value": 598725067,
+          "code": "3708",
+          "name": "上緯投控",
+          "close": 93.2,
+          "change": 6.5,
+          "change_pct": 7.5,
+          "value": 36357289,
           "limit_up": false
         },
         {
-          "code": "2905",
-          "name": "三商",
-          "close": 17.45,
-          "change": -0.45,
-          "change_pct": -2.51,
-          "value": 43258770,
+          "code": "7610",
+          "name": "聯友金屬-創",
+          "close": 1235.0,
+          "change": 85.0,
+          "change_pct": 7.39,
+          "value": 515390725,
           "limit_up": false
         },
         {
-          "code": "2908",
-          "name": "特力",
-          "close": 21.4,
-          "change": -0.6,
-          "change_pct": -2.73,
-          "value": 21367516,
+          "code": "8422",
+          "name": "可寧衛*",
+          "close": 24.15,
+          "change": 1.35,
+          "change_pct": 5.92,
+          "value": 99743710,
+          "limit_up": false
+        }
+      ],
+      "top_value": [
+        {
+          "code": "7610",
+          "name": "聯友金屬-創",
+          "close": 1235.0,
+          "change": 85.0,
+          "change_pct": 7.39,
+          "value": 515390725,
           "limit_up": false
         },
         {
-          "code": "2913",
-          "name": "農林",
-          "close": 10.35,
-          "change": -0.3,
+          "code": "6944",
+          "name": "兆聯實業",
+          "close": 608.0,
+          "change": 5.0,
+          "change_pct": 0.83,
+          "value": 379605741,
+          "limit_up": false
+        },
+        {
+          "code": "8422",
+          "name": "可寧衛*",
+          "close": 24.15,
+          "change": 1.35,
+          "change_pct": 5.92,
+          "value": 99743710,
+          "limit_up": false
+        },
+        {
+          "code": "6873",
+          "name": "泓德能源",
+          "close": 52.0,
+          "change": 2.5,
+          "change_pct": 5.05,
+          "value": 75237997,
+          "limit_up": false
+        },
+        {
+          "code": "2072",
+          "name": "世紀能源",
+          "close": 103.5,
+          "change": -3.0,
           "change_pct": -2.82,
-          "value": 42301171,
-          "limit_up": false
-        }
-      ],
-      "top_value": [
-        {
-          "code": "2912",
-          "name": "統一超",
-          "close": 210.5,
-          "change": -4.0,
-          "change_pct": -1.86,
-          "value": 598725067,
-          "limit_up": false
-        },
-        {
-          "code": "2915",
-          "name": "潤泰全",
-          "close": 53.4,
-          "change": -2.2,
-          "change_pct": -3.96,
-          "value": 217273246,
-          "limit_up": false
-        },
-        {
-          "code": "2903",
-          "name": "遠百",
-          "close": 21.35,
-          "change": -0.35,
-          "change_pct": -1.61,
-          "value": 64883822,
-          "limit_up": false
-        },
-        {
-          "code": "2905",
-          "name": "三商",
-          "close": 17.45,
-          "change": -0.45,
-          "change_pct": -2.51,
-          "value": 43258770,
-          "limit_up": false
-        },
-        {
-          "code": "2913",
-          "name": "農林",
-          "close": 10.35,
-          "change": -0.3,
-          "change_pct": -2.82,
-          "value": 42301171,
-          "limit_up": false
-        }
-      ]
-    },
-    {
-      "name": "觀光餐旅",
-      "index_close": 98.02,
-      "change_pct": -2.35,
-      "value": 673644124,
-      "prev_value": 243368303,
-      "share": 0.06,
-      "share_change": 0.03,
-      "count": 19,
-      "up": 1,
-      "down": 18,
-      "leader": {
-        "code": "2727",
-        "name": "王品",
-        "change_pct": -7.41,
-        "value_share": 46.5
-      },
-      "top": [
-        {
-          "code": "2707",
-          "name": "晶華",
-          "close": 173.5,
-          "change": -1.0,
-          "change_pct": -0.57,
-          "value": 71199464,
-          "limit_up": false
-        },
-        {
-          "code": "2753",
-          "name": "八方雲集",
-          "close": 175.5,
-          "change": -2.0,
-          "change_pct": -1.13,
-          "value": 59007751,
-          "limit_up": false
-        },
-        {
-          "code": "9943",
-          "name": "好樂迪",
-          "close": 49.6,
-          "change": -0.6,
-          "change_pct": -1.2,
-          "value": 32708782,
-          "limit_up": false
-        },
-        {
-          "code": "2723",
-          "name": "美食-KY",
-          "close": 79.2,
-          "change": -1.4,
-          "change_pct": -1.74,
-          "value": 50082629,
-          "limit_up": false
-        },
-        {
-          "code": "2731",
-          "name": "雄獅",
-          "close": 135.5,
-          "change": -2.5,
-          "change_pct": -1.81,
-          "value": 82630670,
-          "limit_up": false
-        }
-      ],
-      "top_value": [
-        {
-          "code": "2727",
-          "name": "王品",
-          "close": 225.0,
-          "change": -18.0,
-          "change_pct": -7.41,
-          "value": 313095855,
-          "limit_up": false
-        },
-        {
-          "code": "2731",
-          "name": "雄獅",
-          "close": 135.5,
-          "change": -2.5,
-          "change_pct": -1.81,
-          "value": 82630670,
-          "limit_up": false
-        },
-        {
-          "code": "2707",
-          "name": "晶華",
-          "close": 173.5,
-          "change": -1.0,
-          "change_pct": -0.57,
-          "value": 71199464,
-          "limit_up": false
-        },
-        {
-          "code": "2753",
-          "name": "八方雲集",
-          "close": 175.5,
-          "change": -2.0,
-          "change_pct": -1.13,
-          "value": 59007751,
-          "limit_up": false
-        },
-        {
-          "code": "2723",
-          "name": "美食-KY",
-          "close": 79.2,
-          "change": -1.4,
-          "change_pct": -1.74,
-          "value": 50082629,
+          "value": 71610181,
           "limit_up": false
         }
       ]
     },
     {
       "name": "油電燃氣",
-      "index_close": 113.97,
-      "change_pct": -2.36,
-      "value": 3822772447,
-      "prev_value": 4021388644,
-      "share": 0.36,
-      "share_change": -0.13,
+      "index_close": 117.33,
+      "change_pct": 2.95,
+      "value": 2922413080,
+      "prev_value": 3822772447,
+      "share": 0.39,
+      "share_change": 0.04,
       "count": 9,
-      "up": 1,
-      "down": 7,
+      "up": 5,
+      "down": 2,
       "leader": {
         "code": "6505",
         "name": "台塑化",
-        "change_pct": -2.5,
-        "value_share": 93.9
+        "change_pct": 3.15,
+        "value_share": 96.2
       },
       "top": [
         {
-          "code": "9908",
-          "name": "大台北",
-          "close": 28.75,
-          "change": -0.05,
-          "change_pct": -0.17,
-          "value": 15580460,
-          "limit_up": false
-        },
-        {
           "code": "8926",
           "name": "台汽電",
-          "close": 51.9,
-          "change": -1.2,
-          "change_pct": -2.26,
-          "value": 192901917,
+          "close": 53.6,
+          "change": 1.7,
+          "change_pct": 3.28,
+          "value": 87018311,
           "limit_up": false
         },
         {
           "code": "6505",
           "name": "台塑化",
-          "close": 85.7,
-          "change": -2.2,
-          "change_pct": -2.5,
-          "value": 3591205672,
+          "close": 88.4,
+          "change": 2.7,
+          "change_pct": 3.15,
+          "value": 2810726993,
           "limit_up": false
         }
       ],
@@ -1292,447 +1377,447 @@
         {
           "code": "6505",
           "name": "台塑化",
-          "close": 85.7,
-          "change": -2.2,
-          "change_pct": -2.5,
-          "value": 3591205672,
+          "close": 88.4,
+          "change": 2.7,
+          "change_pct": 3.15,
+          "value": 2810726993,
           "limit_up": false
         },
         {
           "code": "8926",
           "name": "台汽電",
-          "close": 51.9,
-          "change": -1.2,
-          "change_pct": -2.26,
-          "value": 192901917,
+          "close": 53.6,
+          "change": 1.7,
+          "change_pct": 3.28,
+          "value": 87018311,
           "limit_up": false
         },
         {
           "code": "9908",
           "name": "大台北",
-          "close": 28.75,
-          "change": -0.05,
-          "change_pct": -0.17,
-          "value": 15580460,
+          "close": 28.6,
+          "change": -0.15,
+          "change_pct": -0.52,
+          "value": 8841432,
           "limit_up": false
         },
         {
           "code": "9937",
           "name": "全國",
-          "close": 54.4,
-          "change": -0.6,
-          "change_pct": -1.09,
-          "value": 6369940,
-          "limit_up": false
-        },
-        {
-          "code": "8908",
-          "name": "欣雄",
-          "close": 38.85,
-          "change": -0.35,
-          "change_pct": -0.89,
-          "value": 6264197,
-          "limit_up": false
-        }
-      ]
-    },
-    {
-      "name": "其他",
-      "index_close": 258.85,
-      "change_pct": -2.41,
-      "value": 4458355292,
-      "prev_value": 2818464399,
-      "share": 0.42,
-      "share_change": 0.07,
-      "count": 52,
-      "up": 11,
-      "down": 38,
-      "leader": {
-        "code": "5871",
-        "name": "中租-KY",
-        "change_pct": -2.39,
-        "value_share": 28.1
-      },
-      "top": [
-        {
-          "code": "1416",
-          "name": "廣豐",
-          "close": 16.35,
-          "change": 1.45,
-          "change_pct": 9.73,
-          "value": 299313334,
-          "limit_up": true
-        },
-        {
-          "code": "3040",
-          "name": "遠見",
-          "close": 28.85,
-          "change": 0.45,
-          "change_pct": 1.58,
-          "value": 18264428,
-          "limit_up": false
-        },
-        {
-          "code": "9925",
-          "name": "新保",
-          "close": 39.05,
-          "change": 0.0,
-          "change_pct": 0.0,
-          "value": 47793888,
-          "limit_up": false
-        },
-        {
-          "code": "9907",
-          "name": "統一實",
-          "close": 14.2,
-          "change": -0.05,
-          "change_pct": -0.35,
-          "value": 61552350,
-          "limit_up": false
-        },
-        {
-          "code": "2614",
-          "name": "東森",
-          "close": 13.3,
-          "change": -0.05,
-          "change_pct": -0.37,
-          "value": 27441578,
-          "limit_up": false
-        }
-      ],
-      "top_value": [
-        {
-          "code": "5871",
-          "name": "中租-KY",
-          "close": 102.0,
-          "change": -2.5,
-          "change_pct": -2.39,
-          "value": 1252247569,
-          "limit_up": false
-        },
-        {
-          "code": "8033",
-          "name": "雷虎",
-          "close": 130.0,
-          "change": -7.0,
-          "change_pct": -5.11,
-          "value": 550977548,
-          "limit_up": false
-        },
-        {
-          "code": "9933",
-          "name": "中鼎",
-          "close": 44.4,
-          "change": -1.0,
-          "change_pct": -2.2,
-          "value": 348056342,
-          "limit_up": false
-        },
-        {
-          "code": "6957",
-          "name": "裕慶-KY",
-          "close": 418.5,
-          "change": -26.5,
-          "change_pct": -5.96,
-          "value": 326451155,
-          "limit_up": false
-        },
-        {
-          "code": "1416",
-          "name": "廣豐",
-          "close": 16.35,
-          "change": 1.45,
-          "change_pct": 9.73,
-          "value": 299313334,
-          "limit_up": true
-        }
-      ]
-    },
-    {
-      "name": "橡膠",
-      "index_close": 181.25,
-      "change_pct": -2.42,
-      "value": 969386797,
-      "prev_value": 462151413,
-      "share": 0.09,
-      "share_change": 0.03,
-      "count": 11,
-      "up": 0,
-      "down": 11,
-      "leader": {
-        "code": "2105",
-        "name": "正新",
-        "change_pct": -1.48,
-        "value_share": 35.9
-      },
-      "top": [
-        {
-          "code": "2114",
-          "name": "鑫永銓",
-          "close": 88.3,
-          "change": -0.1,
-          "change_pct": -0.11,
-          "value": 19653646,
-          "limit_up": false
-        },
-        {
-          "code": "2108",
-          "name": "南帝",
-          "close": 26.95,
+          "close": 54.1,
           "change": -0.3,
-          "change_pct": -1.1,
-          "value": 38302396,
+          "change_pct": -0.55,
+          "value": 8061578,
           "limit_up": false
         },
         {
-          "code": "2101",
-          "name": "南港",
-          "close": 27.4,
-          "change": -0.4,
-          "change_pct": -1.44,
-          "value": 109292089,
-          "limit_up": false
-        },
-        {
-          "code": "2105",
-          "name": "正新",
-          "close": 30.05,
-          "change": -0.45,
-          "change_pct": -1.48,
-          "value": 347692066,
-          "limit_up": false
-        },
-        {
-          "code": "2106",
-          "name": "建大",
-          "close": 15.95,
-          "change": -0.35,
-          "change_pct": -2.15,
-          "value": 25387993,
-          "limit_up": false
-        }
-      ],
-      "top_value": [
-        {
-          "code": "2105",
-          "name": "正新",
-          "close": 30.05,
-          "change": -0.45,
-          "change_pct": -1.48,
-          "value": 347692066,
-          "limit_up": false
-        },
-        {
-          "code": "2103",
-          "name": "台橡",
-          "close": 23.05,
-          "change": -2.55,
-          "change_pct": -9.96,
-          "value": 305509505,
-          "limit_up": false
-        },
-        {
-          "code": "2101",
-          "name": "南港",
-          "close": 27.4,
-          "change": -0.4,
-          "change_pct": -1.44,
-          "value": 109292089,
-          "limit_up": false
-        },
-        {
-          "code": "2104",
-          "name": "國際中橡",
-          "close": 9.89,
-          "change": -0.36,
-          "change_pct": -3.51,
-          "value": 81247112,
-          "limit_up": false
-        },
-        {
-          "code": "2108",
-          "name": "南帝",
-          "close": 26.95,
-          "change": -0.3,
-          "change_pct": -1.1,
-          "value": 38302396,
-          "limit_up": false
-        }
-      ]
-    },
-    {
-      "name": "建材營造",
-      "index_close": 420.84,
-      "change_pct": -2.42,
-      "value": 2331061791,
-      "prev_value": 1571663196,
-      "share": 0.22,
-      "share_change": 0.03,
-      "count": 55,
-      "up": 3,
-      "down": 51,
-      "leader": {
-        "code": "2542",
-        "name": "興富發",
-        "change_pct": -2.33,
-        "value_share": 15.8
-      },
-      "top": [
-        {
-          "code": "5521",
-          "name": "工信",
-          "close": 10.9,
-          "change": 0.05,
-          "change_pct": 0.46,
-          "value": 53694210,
-          "limit_up": false
-        },
-        {
-          "code": "1442",
-          "name": "名軒",
-          "close": 25.7,
+          "code": "9926",
+          "name": "新海",
+          "close": 49.5,
           "change": 0.1,
-          "change_pct": 0.39,
-          "value": 13830817,
+          "change_pct": 0.2,
+          "value": 2316162,
+          "limit_up": false
+        }
+      ]
+    },
+    {
+      "name": "金融保險",
+      "index_close": 3606.83,
+      "change_pct": 2.35,
+      "value": 28817304184,
+      "prev_value": 42379660520,
+      "share": 3.87,
+      "share_change": -0.09,
+      "count": 31,
+      "up": 22,
+      "down": 5,
+      "leader": {
+        "code": "2891",
+        "name": "中信金",
+        "change_pct": 3.41,
+        "value_share": 14.8
+      },
+      "top": [
+        {
+          "code": "2882",
+          "name": "國泰金",
+          "close": 111.0,
+          "change": 5.0,
+          "change_pct": 4.72,
+          "value": 3323015346,
           "limit_up": false
         },
         {
-          "code": "1436",
-          "name": "華友聯",
-          "close": 34.65,
-          "change": 0.0,
-          "change_pct": 0.0,
-          "value": 14050316,
+          "code": "2887",
+          "name": "台新新光金",
+          "close": 39.95,
+          "change": 1.5,
+          "change_pct": 3.9,
+          "value": 2996819343,
           "limit_up": false
         },
         {
-          "code": "2535",
-          "name": "達欣工",
-          "close": 89.1,
-          "change": -0.3,
-          "change_pct": -0.34,
-          "value": 49546888,
+          "code": "2885",
+          "name": "元大金",
+          "close": 69.4,
+          "change": 2.5,
+          "change_pct": 3.74,
+          "value": 2300617164,
           "limit_up": false
         },
         {
-          "code": "2546",
-          "name": "根基",
-          "close": 98.0,
-          "change": -0.5,
-          "change_pct": -0.51,
-          "value": 39916801,
+          "code": "2881",
+          "name": "富邦金",
+          "close": 153.5,
+          "change": 5.5,
+          "change_pct": 3.72,
+          "value": 3615847284,
+          "limit_up": false
+        },
+        {
+          "code": "2855",
+          "name": "統一證",
+          "close": 50.1,
+          "change": 1.7,
+          "change_pct": 3.51,
+          "value": 142831038,
           "limit_up": false
         }
       ],
       "top_value": [
         {
-          "code": "2542",
-          "name": "興富發",
-          "close": 37.75,
-          "change": -0.9,
-          "change_pct": -2.33,
-          "value": 368760672,
+          "code": "2891",
+          "name": "中信金",
+          "close": 75.9,
+          "change": 2.5,
+          "change_pct": 3.41,
+          "value": 4270838772,
           "limit_up": false
         },
         {
-          "code": "2548",
-          "name": "華固",
-          "close": 91.5,
-          "change": -1.9,
-          "change_pct": -2.03,
-          "value": 282366091,
+          "code": "2881",
+          "name": "富邦金",
+          "close": 153.5,
+          "change": 5.5,
+          "change_pct": 3.72,
+          "value": 3615847284,
           "limit_up": false
         },
         {
-          "code": "5534",
-          "name": "長虹",
-          "close": 65.5,
-          "change": -1.5,
-          "change_pct": -2.24,
-          "value": 125201544,
+          "code": "2882",
+          "name": "國泰金",
+          "close": 111.0,
+          "change": 5.0,
+          "change_pct": 4.72,
+          "value": 3323015346,
           "limit_up": false
         },
         {
-          "code": "2504",
-          "name": "國產",
-          "close": 29.9,
-          "change": -0.9,
-          "change_pct": -2.92,
-          "value": 121708285,
+          "code": "2887",
+          "name": "台新新光金",
+          "close": 39.95,
+          "change": 1.5,
+          "change_pct": 3.9,
+          "value": 2996819343,
           "limit_up": false
         },
         {
-          "code": "2515",
-          "name": "中工",
-          "close": 10.7,
-          "change": -0.3,
-          "change_pct": -2.73,
-          "value": 114288297,
+          "code": "2885",
+          "name": "元大金",
+          "close": 69.4,
+          "change": 2.5,
+          "change_pct": 3.74,
+          "value": 2300617164,
+          "limit_up": false
+        }
+      ]
+    },
+    {
+      "name": "汽車",
+      "index_close": 282.52,
+      "change_pct": 1.29,
+      "value": 1497050639,
+      "prev_value": 2431244197,
+      "share": 0.2,
+      "share_change": -0.03,
+      "count": 44,
+      "up": 36,
+      "down": 8,
+      "leader": {
+        "code": "2254",
+        "name": "巨鎧精密-創",
+        "change_pct": 0.45,
+        "value_share": 26.8
+      },
+      "top": [
+        {
+          "code": "4551",
+          "name": "智伸科",
+          "close": 135.5,
+          "change": 12.0,
+          "change_pct": 9.72,
+          "value": 52612399,
+          "limit_up": true
+        },
+        {
+          "code": "2241",
+          "name": "艾姆勒",
+          "close": 36.9,
+          "change": 3.15,
+          "change_pct": 9.33,
+          "value": 44263720,
+          "limit_up": false
+        },
+        {
+          "code": "1563",
+          "name": "巧新",
+          "close": 71.0,
+          "change": 4.0,
+          "change_pct": 5.97,
+          "value": 42390780,
+          "limit_up": false
+        },
+        {
+          "code": "2233",
+          "name": "宇隆",
+          "close": 121.0,
+          "change": 5.5,
+          "change_pct": 4.76,
+          "value": 61183535,
+          "limit_up": false
+        },
+        {
+          "code": "2236",
+          "name": "百達-KY",
+          "close": 93.5,
+          "change": 3.8,
+          "change_pct": 4.24,
+          "value": 10653548,
+          "limit_up": false
+        }
+      ],
+      "top_value": [
+        {
+          "code": "2254",
+          "name": "巨鎧精密-創",
+          "close": 110.5,
+          "change": 0.5,
+          "change_pct": 0.45,
+          "value": 400737390,
+          "limit_up": false
+        },
+        {
+          "code": "2207",
+          "name": "和泰車",
+          "close": 533.0,
+          "change": 5.0,
+          "change_pct": 0.95,
+          "value": 265252522,
+          "limit_up": false
+        },
+        {
+          "code": "1319",
+          "name": "東陽",
+          "close": 76.7,
+          "change": 1.1,
+          "change_pct": 1.46,
+          "value": 120734607,
+          "limit_up": false
+        },
+        {
+          "code": "3717",
+          "name": "聯嘉投控",
+          "close": 23.1,
+          "change": 0.15,
+          "change_pct": 0.65,
+          "value": 105234227,
+          "limit_up": false
+        },
+        {
+          "code": "2233",
+          "name": "宇隆",
+          "close": 121.0,
+          "change": 5.5,
+          "change_pct": 4.76,
+          "value": 61183535,
+          "limit_up": false
+        }
+      ]
+    },
+    {
+      "name": "通信網路",
+      "index_close": 217.29,
+      "change_pct": 1.16,
+      "value": 17481647775,
+      "prev_value": 28560775343,
+      "share": 2.35,
+      "share_change": -0.32,
+      "count": 47,
+      "up": 34,
+      "down": 10,
+      "leader": {
+        "code": "2412",
+        "name": "中華電",
+        "change_pct": -2.75,
+        "value_share": 22.1
+      },
+      "top": [
+        {
+          "code": "6426",
+          "name": "統新",
+          "close": 242.0,
+          "change": 22.0,
+          "change_pct": 10.0,
+          "value": 259464999,
+          "limit_up": true
+        },
+        {
+          "code": "2485",
+          "name": "兆赫",
+          "close": 32.0,
+          "change": 2.9,
+          "change_pct": 9.97,
+          "value": 78807081,
+          "limit_up": true
+        },
+        {
+          "code": "3047",
+          "name": "訊舟",
+          "close": 13.25,
+          "change": 1.2,
+          "change_pct": 9.96,
+          "value": 16627582,
+          "limit_up": true
+        },
+        {
+          "code": "6442",
+          "name": "光聖",
+          "close": 1105.0,
+          "change": 100.0,
+          "change_pct": 9.95,
+          "value": 980030745,
+          "limit_up": true
+        },
+        {
+          "code": "2345",
+          "name": "智邦",
+          "close": 1405.0,
+          "change": 125.0,
+          "change_pct": 9.77,
+          "value": 2993768660,
+          "limit_up": true
+        }
+      ],
+      "top_value": [
+        {
+          "code": "2412",
+          "name": "中華電",
+          "close": 159.0,
+          "change": -4.5,
+          "change_pct": -2.75,
+          "value": 3868859948,
+          "limit_up": false
+        },
+        {
+          "code": "2345",
+          "name": "智邦",
+          "close": 1405.0,
+          "change": 125.0,
+          "change_pct": 9.77,
+          "value": 2993768660,
+          "limit_up": true
+        },
+        {
+          "code": "2455",
+          "name": "全新",
+          "close": 341.5,
+          "change": 22.5,
+          "change_pct": 7.05,
+          "value": 2292671088,
+          "limit_up": false
+        },
+        {
+          "code": "4904",
+          "name": "遠傳",
+          "close": 106.0,
+          "change": -6.0,
+          "change_pct": -5.36,
+          "value": 2021436903,
+          "limit_up": false
+        },
+        {
+          "code": "3045",
+          "name": "台灣大",
+          "close": 131.0,
+          "change": -2.0,
+          "change_pct": -1.5,
+          "value": 1679271570,
           "limit_up": false
         }
       ]
     },
     {
       "name": "鋼鐵",
-      "index_close": 116.89,
-      "change_pct": -2.53,
-      "value": 3785816728,
-      "prev_value": 3387610465,
-      "share": 0.35,
-      "share_change": -0.06,
+      "index_close": 118.19,
+      "change_pct": 1.11,
+      "value": 2728117143,
+      "prev_value": 3785816728,
+      "share": 0.37,
+      "share_change": 0.01,
       "count": 31,
-      "up": 1,
-      "down": 30,
+      "up": 17,
+      "down": 12,
       "leader": {
         "code": "2002",
         "name": "中鋼",
-        "change_pct": -2.11,
-        "value_share": 41.6
+        "change_pct": 0.0,
+        "value_share": 39.6
       },
       "top": [
         {
-          "code": "2010",
-          "name": "春源",
-          "close": 22.7,
-          "change": 0.15,
-          "change_pct": 0.67,
-          "value": 48164655,
+          "code": "2009",
+          "name": "第一銅",
+          "close": 34.6,
+          "change": 2.0,
+          "change_pct": 6.13,
+          "value": 34318974,
           "limit_up": false
         },
         {
-          "code": "2015",
-          "name": "豐興",
-          "close": 62.9,
-          "change": -0.5,
-          "change_pct": -0.79,
-          "value": 25518742,
+          "code": "2027",
+          "name": "大成鋼",
+          "close": 48.15,
+          "change": 2.45,
+          "change_pct": 5.36,
+          "value": 590194444,
           "limit_up": false
         },
         {
-          "code": "2020",
-          "name": "美亞",
-          "close": 22.05,
-          "change": -0.3,
-          "change_pct": -1.34,
-          "value": 19871327,
+          "code": "2034",
+          "name": "允強",
+          "close": 22.5,
+          "change": 1.0,
+          "change_pct": 4.65,
+          "value": 32360146,
           "limit_up": false
         },
         {
-          "code": "2211",
-          "name": "長榮鋼",
-          "close": 75.3,
-          "change": -1.2,
-          "change_pct": -1.57,
-          "value": 122099097,
+          "code": "2014",
+          "name": "中鴻",
+          "close": 15.15,
+          "change": 0.5,
+          "change_pct": 3.41,
+          "value": 41294493,
           "limit_up": false
         },
         {
-          "code": "2006",
-          "name": "東和鋼鐵",
-          "close": 84.3,
-          "change": -1.6,
-          "change_pct": -1.86,
-          "value": 172206368,
+          "code": "2030",
+          "name": "彰源",
+          "close": 24.75,
+          "change": 0.8,
+          "change_pct": 3.34,
+          "value": 78966695,
           "limit_up": false
         }
       ],
@@ -1741,1109 +1826,222 @@
           "code": "2002",
           "name": "中鋼",
           "close": 18.55,
-          "change": -0.4,
-          "change_pct": -2.11,
-          "value": 1576464322,
+          "change": 0.0,
+          "change_pct": 0.0,
+          "value": 1080260435,
           "limit_up": false
         },
         {
           "code": "2027",
           "name": "大成鋼",
-          "close": 45.7,
-          "change": -2.05,
-          "change_pct": -4.29,
-          "value": 637012162,
+          "close": 48.15,
+          "change": 2.45,
+          "change_pct": 5.36,
+          "value": 590194444,
           "limit_up": false
         },
         {
           "code": "2033",
           "name": "佳大",
-          "close": 71.8,
-          "change": -2.9,
-          "change_pct": -3.88,
-          "value": 408793641,
-          "limit_up": false
-        },
-        {
-          "code": "2006",
-          "name": "東和鋼鐵",
-          "close": 84.3,
-          "change": -1.6,
-          "change_pct": -1.86,
-          "value": 172206368,
+          "close": 69.5,
+          "change": -2.3,
+          "change_pct": -3.2,
+          "value": 326541383,
           "limit_up": false
         },
         {
           "code": "9958",
           "name": "世紀鋼",
-          "close": 75.7,
-          "change": -3.8,
-          "change_pct": -4.78,
-          "value": 171033397,
-          "limit_up": false
-        }
-      ]
-    },
-    {
-      "name": "光電",
-      "index_close": 59.03,
-      "change_pct": -3.01,
-      "value": 56490432785,
-      "prev_value": 46480460075,
-      "share": 5.28,
-      "share_change": -0.36,
-      "count": 67,
-      "up": 8,
-      "down": 57,
-      "leader": {
-        "code": "3008",
-        "name": "大立光",
-        "change_pct": -0.99,
-        "value_share": 30.4
-      },
-      "top": [
-        {
-          "code": "6443",
-          "name": "元晶",
-          "close": 25.95,
-          "change": 2.35,
-          "change_pct": 9.96,
-          "value": 999254635,
-          "limit_up": true
-        },
-        {
-          "code": "3576",
-          "name": "聯合再生",
-          "close": 17.8,
-          "change": 1.4,
-          "change_pct": 8.54,
-          "value": 834971909,
-          "limit_up": false
-        },
-        {
-          "code": "4934",
-          "name": "太極",
-          "close": 12.8,
-          "change": 0.4,
-          "change_pct": 3.23,
-          "value": 15384425,
-          "limit_up": false
-        },
-        {
-          "code": "3050",
-          "name": "鈺德",
-          "close": 10.3,
-          "change": 0.15,
-          "change_pct": 1.48,
-          "value": 15056635,
-          "limit_up": false
-        },
-        {
-          "code": "3038",
-          "name": "全台",
-          "close": 19.3,
-          "change": 0.15,
-          "change_pct": 0.78,
-          "value": 12050667,
-          "limit_up": false
-        }
-      ],
-      "top_value": [
-        {
-          "code": "3008",
-          "name": "大立光",
-          "close": 4480.0,
-          "change": -45.0,
-          "change_pct": -0.99,
-          "value": 17153579630,
-          "limit_up": false
-        },
-        {
-          "code": "3481",
-          "name": "群創",
-          "close": 36.05,
-          "change": -1.95,
-          "change_pct": -5.13,
-          "value": 8693677171,
-          "limit_up": false
-        },
-        {
-          "code": "2409",
-          "name": "友達",
-          "close": 26.55,
-          "change": -0.7,
-          "change_pct": -2.57,
-          "value": 7277867588,
-          "limit_up": false
-        },
-        {
-          "code": "3406",
-          "name": "玉晶光",
-          "close": 825.0,
-          "change": -21.0,
-          "change_pct": -2.48,
-          "value": 5705430963,
-          "limit_up": false
-        },
-        {
-          "code": "6456",
-          "name": "GIS-KY",
-          "close": 80.6,
-          "change": -6.6,
-          "change_pct": -7.57,
-          "value": 4126874526,
-          "limit_up": false
-        }
-      ]
-    },
-    {
-      "name": "金融保險",
-      "index_close": 3523.97,
-      "change_pct": -3.16,
-      "value": 42379660520,
-      "prev_value": 24808787037,
-      "share": 3.96,
-      "share_change": 0.95,
-      "count": 31,
-      "up": 0,
-      "down": 31,
-      "leader": {
-        "code": "2881",
-        "name": "富邦金",
-        "change_pct": -4.82,
-        "value_share": 16.7
-      },
-      "top": [
-        {
-          "code": "2834",
-          "name": "臺企銀",
-          "close": 17.35,
-          "change": -0.15,
-          "change_pct": -0.86,
-          "value": 1066154093,
-          "limit_up": false
-        },
-        {
-          "code": "2886",
-          "name": "兆豐金",
-          "close": 53.5,
-          "change": -0.5,
-          "change_pct": -0.93,
-          "value": 1892785295,
-          "limit_up": false
-        },
-        {
-          "code": "6024",
-          "name": "群益期",
-          "close": 56.6,
-          "change": -0.6,
-          "change_pct": -1.05,
-          "value": 28696477,
-          "limit_up": false
-        },
-        {
-          "code": "2852",
-          "name": "第一保",
-          "close": 26.95,
-          "change": -0.3,
-          "change_pct": -1.1,
-          "value": 15977173,
-          "limit_up": false
-        },
-        {
-          "code": "2820",
-          "name": "華票",
-          "close": 16.25,
-          "change": -0.2,
-          "change_pct": -1.22,
-          "value": 118276476,
-          "limit_up": false
-        }
-      ],
-      "top_value": [
-        {
-          "code": "2881",
-          "name": "富邦金",
-          "close": 148.0,
-          "change": -7.5,
-          "change_pct": -4.82,
-          "value": 7066112771,
-          "limit_up": false
-        },
-        {
-          "code": "2887",
-          "name": "台新新光金",
-          "close": 38.45,
-          "change": -1.65,
-          "change_pct": -4.11,
-          "value": 5203420895,
-          "limit_up": false
-        },
-        {
-          "code": "2882",
-          "name": "國泰金",
-          "close": 106.0,
-          "change": -6.0,
-          "change_pct": -5.36,
-          "value": 5087676526,
-          "limit_up": false
-        },
-        {
-          "code": "2891",
-          "name": "中信金",
-          "close": 73.4,
-          "change": -1.5,
-          "change_pct": -2.0,
-          "value": 4182873602,
-          "limit_up": false
-        },
-        {
-          "code": "2885",
-          "name": "元大金",
-          "close": 66.9,
-          "change": -2.2,
-          "change_pct": -3.18,
-          "value": 3748456261,
-          "limit_up": false
-        }
-      ]
-    },
-    {
-      "name": "綠能環保",
-      "index_close": 105.48,
-      "change_pct": -3.29,
-      "value": 2453816341,
-      "prev_value": 1683502793,
-      "share": 0.23,
-      "share_change": 0.03,
-      "count": 27,
-      "up": 3,
-      "down": 23,
-      "leader": {
-        "code": "7610",
-        "name": "聯友金屬-創",
-        "change_pct": -0.43,
-        "value_share": 35.0
-      },
-      "top": [
-        {
-          "code": "6947",
-          "name": "台鎔科技",
-          "close": 62.1,
-          "change": 5.5,
-          "change_pct": 9.72,
-          "value": 37761438,
-          "limit_up": true
-        },
-        {
-          "code": "6873",
-          "name": "泓德能源",
-          "close": 49.5,
-          "change": 2.25,
-          "change_pct": 4.76,
-          "value": 212042271,
-          "limit_up": false
-        },
-        {
-          "code": "7786",
-          "name": "東方風能",
-          "close": 109.5,
-          "change": 0.0,
-          "change_pct": 0.0,
-          "value": 45308928,
-          "limit_up": false
-        },
-        {
-          "code": "7610",
-          "name": "聯友金屬-創",
-          "close": 1150.0,
-          "change": -5.0,
-          "change_pct": -0.43,
-          "value": 858333690,
-          "limit_up": false
-        },
-        {
-          "code": "6581",
-          "name": "鋼聯",
-          "close": 108.0,
-          "change": -0.5,
-          "change_pct": -0.46,
-          "value": 18763596,
-          "limit_up": false
-        }
-      ],
-      "top_value": [
-        {
-          "code": "7610",
-          "name": "聯友金屬-創",
-          "close": 1150.0,
-          "change": -5.0,
-          "change_pct": -0.43,
-          "value": 858333690,
-          "limit_up": false
-        },
-        {
-          "code": "6944",
-          "name": "兆聯實業",
-          "close": 603.0,
-          "change": -67.0,
-          "change_pct": -10.0,
-          "value": 563363972,
-          "limit_up": false
-        },
-        {
-          "code": "8422",
-          "name": "可寧衛*",
-          "close": 22.8,
-          "change": -0.55,
-          "change_pct": -2.36,
-          "value": 223250424,
-          "limit_up": false
-        },
-        {
-          "code": "6873",
-          "name": "泓德能源",
-          "close": 49.5,
-          "change": 2.25,
-          "change_pct": 4.76,
-          "value": 212042271,
-          "limit_up": false
-        },
-        {
-          "code": "2072",
-          "name": "世紀能源",
-          "close": 106.5,
-          "change": -5.0,
-          "change_pct": -4.48,
-          "value": 125743495,
-          "limit_up": false
-        }
-      ]
-    },
-    {
-      "name": "電器電纜",
-      "index_close": 91.83,
-      "change_pct": -3.46,
-      "value": 1459453514,
-      "prev_value": 1814825122,
-      "share": 0.14,
-      "share_change": -0.08,
-      "count": 16,
-      "up": 2,
-      "down": 14,
-      "leader": {
-        "code": "1605",
-        "name": "華新",
-        "change_pct": -3.53,
-        "value_share": 66.2
-      },
-      "top": [
-        {
-          "code": "1611",
-          "name": "中電",
-          "close": 11.3,
-          "change": 0.05,
-          "change_pct": 0.44,
-          "value": 21962301,
-          "limit_up": false
-        },
-        {
-          "code": "1604",
-          "name": "聲寶",
-          "close": 22.95,
-          "change": -0.25,
-          "change_pct": -1.08,
-          "value": 21285010,
-          "limit_up": false
-        },
-        {
-          "code": "1612",
-          "name": "宏泰",
-          "close": 30.75,
-          "change": -0.85,
-          "change_pct": -2.69,
-          "value": 33127421,
-          "limit_up": false
-        },
-        {
-          "code": "1615",
-          "name": "大山",
-          "close": 43.0,
-          "change": -1.2,
-          "change_pct": -2.71,
-          "value": 17935434,
-          "limit_up": false
-        },
-        {
-          "code": "1605",
-          "name": "華新",
-          "close": 31.45,
-          "change": -1.15,
-          "change_pct": -3.53,
-          "value": 965444822,
-          "limit_up": false
-        }
-      ],
-      "top_value": [
-        {
-          "code": "1605",
-          "name": "華新",
-          "close": 31.45,
-          "change": -1.15,
-          "change_pct": -3.53,
-          "value": 965444822,
-          "limit_up": false
-        },
-        {
-          "code": "1609",
-          "name": "大亞",
-          "close": 29.95,
-          "change": -1.4,
-          "change_pct": -4.47,
-          "value": 168534362,
-          "limit_up": false
-        },
-        {
-          "code": "1608",
-          "name": "華榮",
-          "close": 29.5,
-          "change": -1.55,
-          "change_pct": -4.99,
-          "value": 88750241,
-          "limit_up": false
-        },
-        {
-          "code": "1623",
-          "name": "大東電",
-          "close": 154.5,
-          "change": -6.5,
-          "change_pct": -4.04,
-          "value": 50282893,
-          "limit_up": false
-        },
-        {
-          "code": "1612",
-          "name": "宏泰",
-          "close": 30.75,
-          "change": -0.85,
-          "change_pct": -2.69,
-          "value": 33127421,
-          "limit_up": false
-        }
-      ]
-    },
-    {
-      "name": "化學",
-      "index_close": 169.23,
-      "change_pct": -3.48,
-      "value": 4491396087,
-      "prev_value": 4638086100,
-      "share": 0.42,
-      "share_change": -0.14,
-      "count": 28,
-      "up": 1,
-      "down": 27,
-      "leader": {
-        "code": "1709",
-        "name": "和益",
-        "change_pct": -8.08,
-        "value_share": 13.7
-      },
-      "top": [
-        {
-          "code": "1712",
-          "name": "興農",
-          "close": 40.4,
-          "change": 0.15,
-          "change_pct": 0.37,
-          "value": 58824004,
-          "limit_up": false
-        },
-        {
-          "code": "1723",
-          "name": "中碳",
-          "close": 70.7,
-          "change": -0.2,
-          "change_pct": -0.28,
-          "value": 61028718,
-          "limit_up": false
-        },
-        {
-          "code": "4763",
-          "name": "材料*-KY",
-          "close": 42.1,
-          "change": -0.45,
-          "change_pct": -1.06,
-          "value": 294283439,
-          "limit_up": false
-        },
-        {
-          "code": "1721",
-          "name": "國慶科技",
-          "close": 20.0,
-          "change": -0.25,
-          "change_pct": -1.23,
-          "value": 23595507,
-          "limit_up": false
-        },
-        {
-          "code": "1711",
-          "name": "永光",
-          "close": 33.35,
-          "change": -0.55,
-          "change_pct": -1.62,
-          "value": 365564681,
-          "limit_up": false
-        }
-      ],
-      "top_value": [
-        {
-          "code": "1709",
-          "name": "和益",
-          "close": 42.1,
-          "change": -3.7,
-          "change_pct": -8.08,
-          "value": 615917434,
-          "limit_up": false
-        },
-        {
-          "code": "1717",
-          "name": "長興",
-          "close": 57.5,
-          "change": -2.3,
-          "change_pct": -3.85,
-          "value": 434582573,
-          "limit_up": false
-        },
-        {
-          "code": "1727",
-          "name": "中華化",
-          "close": 77.2,
-          "change": -1.8,
-          "change_pct": -2.28,
-          "value": 411977109,
-          "limit_up": false
-        },
-        {
-          "code": "1711",
-          "name": "永光",
-          "close": 33.35,
-          "change": -0.55,
-          "change_pct": -1.62,
-          "value": 365564681,
-          "limit_up": false
-        },
-        {
-          "code": "4763",
-          "name": "材料*-KY",
-          "close": 42.1,
-          "change": -0.45,
-          "change_pct": -1.06,
-          "value": 294283439,
-          "limit_up": false
-        }
-      ]
-    },
-    {
-      "name": "食品",
-      "index_close": 1887.8,
-      "change_pct": -3.49,
-      "value": 2242721941,
-      "prev_value": 1473027853,
-      "share": 0.21,
-      "share_change": 0.03,
-      "count": 24,
-      "up": 4,
-      "down": 20,
-      "leader": {
-        "code": "1216",
-        "name": "統一",
-        "change_pct": -5.07,
-        "value_share": 62.9
-      },
-      "top": [
-        {
-          "code": "1215",
-          "name": "卜蜂",
-          "close": 104.0,
-          "change": 1.0,
-          "change_pct": 0.97,
-          "value": 180087937,
-          "limit_up": false
-        },
-        {
-          "code": "1236",
-          "name": "宏亞",
-          "close": 26.7,
-          "change": 0.1,
-          "change_pct": 0.38,
-          "value": 10636326,
-          "limit_up": false
-        },
-        {
-          "code": "1737",
-          "name": "臺鹽",
-          "close": 29.95,
-          "change": -0.05,
-          "change_pct": -0.17,
-          "value": 13956755,
-          "limit_up": false
-        },
-        {
-          "code": "1210",
-          "name": "大成",
-          "close": 50.1,
+          "close": 75.3,
           "change": -0.4,
-          "change_pct": -0.79,
-          "value": 112291159,
-          "limit_up": false
-        },
-        {
-          "code": "1232",
-          "name": "大統益",
-          "close": 160.5,
-          "change": -2.0,
-          "change_pct": -1.23,
-          "value": 56911879,
-          "limit_up": false
-        }
-      ],
-      "top_value": [
-        {
-          "code": "1216",
-          "name": "統一",
-          "close": 76.8,
-          "change": -4.1,
-          "change_pct": -5.07,
-          "value": 1411442456,
-          "limit_up": false
-        },
-        {
-          "code": "1215",
-          "name": "卜蜂",
-          "close": 104.0,
-          "change": 1.0,
-          "change_pct": 0.97,
-          "value": 180087937,
-          "limit_up": false
-        },
-        {
-          "code": "1229",
-          "name": "聯華",
-          "close": 38.4,
-          "change": -0.55,
-          "change_pct": -1.41,
-          "value": 132533560,
-          "limit_up": false
-        },
-        {
-          "code": "1210",
-          "name": "大成",
-          "close": 50.1,
-          "change": -0.4,
-          "change_pct": -0.79,
-          "value": 112291159,
-          "limit_up": false
-        },
-        {
-          "code": "1227",
-          "name": "佳格",
-          "close": 27.35,
-          "change": -0.45,
-          "change_pct": -1.62,
-          "value": 70613955,
-          "limit_up": false
-        }
-      ]
-    },
-    {
-      "name": "塑膠",
-      "index_close": 385.02,
-      "change_pct": -3.71,
-      "value": 32488193534,
-      "prev_value": 28009720119,
-      "share": 3.03,
-      "share_change": -0.36,
-      "count": 21,
-      "up": 1,
-      "down": 20,
-      "leader": {
-        "code": "1303",
-        "name": "南亞",
-        "change_pct": -3.82,
-        "value_share": 83.9
-      },
-      "top": [
-        {
-          "code": "1315",
-          "name": "達新",
-          "close": 69.3,
-          "change": -0.3,
-          "change_pct": -0.43,
-          "value": 10168798,
-          "limit_up": false
-        },
-        {
-          "code": "4306",
-          "name": "炎洲",
-          "close": 14.05,
-          "change": -0.15,
-          "change_pct": -1.06,
-          "value": 25808504,
-          "limit_up": false
-        },
-        {
-          "code": "1310",
-          "name": "台苯",
-          "close": 8.06,
-          "change": -0.15,
-          "change_pct": -1.83,
-          "value": 26817158,
-          "limit_up": false
-        },
-        {
-          "code": "1313",
-          "name": "聯成",
-          "close": 11.4,
-          "change": -0.25,
-          "change_pct": -2.15,
-          "value": 67499581,
-          "limit_up": false
-        },
-        {
-          "code": "1307",
-          "name": "三芳",
-          "close": 29.8,
-          "change": -0.7,
-          "change_pct": -2.3,
-          "value": 32577397,
-          "limit_up": false
-        }
-      ],
-      "top_value": [
-        {
-          "code": "1303",
-          "name": "南亞",
-          "close": 239.5,
-          "change": -9.5,
-          "change_pct": -3.82,
-          "value": 27267049114,
-          "limit_up": false
-        },
-        {
-          "code": "1301",
-          "name": "台塑",
-          "close": 62.7,
-          "change": -2.4,
-          "change_pct": -3.69,
-          "value": 2559845029,
-          "limit_up": false
-        },
-        {
-          "code": "1326",
-          "name": "台化",
-          "close": 62.7,
-          "change": -2.3,
-          "change_pct": -3.54,
-          "value": 1845648446,
-          "limit_up": false
-        },
-        {
-          "code": "1314",
-          "name": "中石化",
-          "close": 7.28,
-          "change": -0.27,
-          "change_pct": -3.58,
-          "value": 246328098,
-          "limit_up": false
-        },
-        {
-          "code": "1312",
-          "name": "國喬",
-          "close": 12.55,
-          "change": -0.5,
-          "change_pct": -3.83,
-          "value": 214848545,
-          "limit_up": false
-        }
-      ]
-    },
-    {
-      "name": "電子通路",
-      "index_close": 318.35,
-      "change_pct": -3.75,
-      "value": 8433435463,
-      "prev_value": 5069563124,
-      "share": 0.79,
-      "share_change": 0.17,
-      "count": 21,
-      "up": 1,
-      "down": 20,
-      "leader": {
-        "code": "3036",
-        "name": "文曄",
-        "change_pct": -4.87,
-        "value_share": 36.3
-      },
-      "top": [
-        {
-          "code": "6776",
-          "name": "展碁國際",
-          "close": 51.8,
-          "change": -0.2,
-          "change_pct": -0.38,
-          "value": 16453502,
-          "limit_up": false
-        },
-        {
-          "code": "6281",
-          "name": "全國電",
-          "close": 49.8,
-          "change": -0.2,
-          "change_pct": -0.4,
-          "value": 11016345,
-          "limit_up": false
-        },
-        {
-          "code": "8072",
-          "name": "陞泰",
-          "close": 22.75,
-          "change": -0.25,
-          "change_pct": -1.09,
-          "value": 13823496,
-          "limit_up": false
-        },
-        {
-          "code": "3702",
-          "name": "大聯大",
-          "close": 90.2,
-          "change": -1.9,
-          "change_pct": -2.06,
-          "value": 2445124476,
-          "limit_up": false
-        },
-        {
-          "code": "6189",
-          "name": "豐藝",
-          "close": 44.35,
-          "change": -0.95,
-          "change_pct": -2.1,
-          "value": 31331777,
-          "limit_up": false
-        }
-      ],
-      "top_value": [
-        {
-          "code": "3036",
-          "name": "文曄",
-          "close": 185.5,
-          "change": -9.5,
-          "change_pct": -4.87,
-          "value": 3052966244,
-          "limit_up": false
-        },
-        {
-          "code": "3702",
-          "name": "大聯大",
-          "close": 90.2,
-          "change": -1.9,
-          "change_pct": -2.06,
-          "value": 2445124476,
-          "limit_up": false
-        },
-        {
-          "code": "5434",
-          "name": "崇越",
-          "close": 457.0,
-          "change": -27.0,
-          "change_pct": -5.58,
-          "value": 908543581,
-          "limit_up": false
-        },
-        {
-          "code": "8112",
-          "name": "至上",
-          "close": 73.0,
-          "change": -2.1,
-          "change_pct": -2.8,
-          "value": 596146109,
-          "limit_up": false
-        },
-        {
-          "code": "2347",
-          "name": "聯強",
-          "close": 84.4,
-          "change": -2.8,
-          "change_pct": -3.21,
-          "value": 276685378,
-          "limit_up": false
-        }
-      ]
-    },
-    {
-      "name": "玻璃陶瓷",
-      "index_close": 135.92,
-      "change_pct": -3.86,
-      "value": 5095695950,
-      "prev_value": 7110793379,
-      "share": 0.48,
-      "share_change": -0.39,
-      "count": 5,
-      "up": 0,
-      "down": 5,
-      "leader": {
-        "code": "1802",
-        "name": "台玻",
-        "change_pct": -3.83,
-        "value_share": 95.9
-      },
-      "top": [
-        {
-          "code": "1817",
-          "name": "凱撒衛",
-          "close": 39.25,
-          "change": -0.55,
-          "change_pct": -1.38,
-          "value": 10958681,
-          "limit_up": false
-        },
-        {
-          "code": "1802",
-          "name": "台玻",
-          "close": 57.8,
-          "change": -2.3,
-          "change_pct": -3.83,
-          "value": 4888489732,
-          "limit_up": false
-        },
-        {
-          "code": "1810",
-          "name": "和成",
-          "close": 19.75,
-          "change": -0.85,
-          "change_pct": -4.13,
-          "value": 53346645,
-          "limit_up": false
-        },
-        {
-          "code": "1809",
-          "name": "中釉",
-          "close": 38.7,
-          "change": -2.9,
-          "change_pct": -6.97,
-          "value": 139855683,
-          "limit_up": false
-        }
-      ],
-      "top_value": [
-        {
-          "code": "1802",
-          "name": "台玻",
-          "close": 57.8,
-          "change": -2.3,
-          "change_pct": -3.83,
-          "value": 4888489732,
-          "limit_up": false
-        },
-        {
-          "code": "1809",
-          "name": "中釉",
-          "close": 38.7,
-          "change": -2.9,
-          "change_pct": -6.97,
-          "value": 139855683,
-          "limit_up": false
-        },
-        {
-          "code": "1810",
-          "name": "和成",
-          "close": 19.75,
-          "change": -0.85,
-          "change_pct": -4.13,
-          "value": 53346645,
-          "limit_up": false
-        },
-        {
-          "code": "1817",
-          "name": "凱撒衛",
-          "close": 39.25,
-          "change": -0.55,
-          "change_pct": -1.38,
-          "value": 10958681,
-          "limit_up": false
-        },
-        {
-          "code": "1806",
-          "name": "冠軍",
-          "close": 7.46,
-          "change": -0.04,
           "change_pct": -0.53,
-          "value": 3045209,
+          "value": 117375744,
+          "limit_up": false
+        },
+        {
+          "code": "2006",
+          "name": "東和鋼鐵",
+          "close": 84.6,
+          "change": 0.3,
+          "change_pct": 0.36,
+          "value": 107071035,
+          "limit_up": false
+        }
+      ]
+    },
+    {
+      "name": "其他",
+      "index_close": 261.42,
+      "change_pct": 0.99,
+      "value": 3051079778,
+      "prev_value": 4458355292,
+      "share": 0.41,
+      "share_change": -0.01,
+      "count": 52,
+      "up": 29,
+      "down": 19,
+      "leader": {
+        "code": "5871",
+        "name": "中租-KY",
+        "change_pct": 0.98,
+        "value_share": 20.2
+      },
+      "top": [
+        {
+          "code": "6957",
+          "name": "裕慶-KY",
+          "close": 460.0,
+          "change": 41.5,
+          "change_pct": 9.92,
+          "value": 452705486,
+          "limit_up": true
+        },
+        {
+          "code": "5284",
+          "name": "jpp-KY",
+          "close": 212.5,
+          "change": 19.0,
+          "change_pct": 9.82,
+          "value": 62443964,
+          "limit_up": true
+        },
+        {
+          "code": "1416",
+          "name": "廣豐",
+          "close": 17.95,
+          "change": 1.6,
+          "change_pct": 9.79,
+          "value": 355069919,
+          "limit_up": true
+        },
+        {
+          "code": "8033",
+          "name": "雷虎",
+          "close": 139.0,
+          "change": 9.0,
+          "change_pct": 6.92,
+          "value": 246155112,
+          "limit_up": false
+        },
+        {
+          "code": "9933",
+          "name": "中鼎",
+          "close": 45.9,
+          "change": 1.5,
+          "change_pct": 3.38,
+          "value": 206542514,
+          "limit_up": false
+        }
+      ],
+      "top_value": [
+        {
+          "code": "5871",
+          "name": "中租-KY",
+          "close": 103.0,
+          "change": 1.0,
+          "change_pct": 0.98,
+          "value": 616113967,
+          "limit_up": false
+        },
+        {
+          "code": "6957",
+          "name": "裕慶-KY",
+          "close": 460.0,
+          "change": 41.5,
+          "change_pct": 9.92,
+          "value": 452705486,
+          "limit_up": true
+        },
+        {
+          "code": "9939",
+          "name": "宏全",
+          "close": 118.0,
+          "change": -1.5,
+          "change_pct": -1.26,
+          "value": 431728336,
+          "limit_up": false
+        },
+        {
+          "code": "1416",
+          "name": "廣豐",
+          "close": 17.95,
+          "change": 1.6,
+          "change_pct": 9.79,
+          "value": 355069919,
+          "limit_up": true
+        },
+        {
+          "code": "8033",
+          "name": "雷虎",
+          "close": 139.0,
+          "change": 9.0,
+          "change_pct": 6.92,
+          "value": 246155112,
           "limit_up": false
         }
       ]
     },
     {
       "name": "航運",
-      "index_close": 205.33,
-      "change_pct": -4.06,
-      "value": 12307083507,
-      "prev_value": 12602656105,
+      "index_close": 207.3,
+      "change_pct": 0.96,
+      "value": 8577450107,
+      "prev_value": 12307083507,
       "share": 1.15,
-      "share_change": -0.38,
+      "share_change": 0.0,
       "count": 28,
-      "up": 0,
-      "down": 28,
+      "up": 23,
+      "down": 4,
       "leader": {
         "code": "2603",
         "name": "長榮",
-        "change_pct": -4.83,
-        "value_share": 34.2
+        "change_pct": -0.41,
+        "value_share": 29.3
       },
       "top": [
         {
-          "code": "2633",
-          "name": "台灣高鐵",
-          "close": 25.6,
-          "change": -0.25,
-          "change_pct": -0.97,
-          "value": 168419370,
+          "code": "5608",
+          "name": "四維航",
+          "close": 16.0,
+          "change": 1.45,
+          "change_pct": 9.97,
+          "value": 44226233,
+          "limit_up": true
+        },
+        {
+          "code": "6753",
+          "name": "龍德造船",
+          "close": 114.0,
+          "change": 10.0,
+          "change_pct": 9.62,
+          "value": 55464844,
+          "limit_up": true
+        },
+        {
+          "code": "2645",
+          "name": "長榮航太",
+          "close": 155.0,
+          "change": 8.0,
+          "change_pct": 5.44,
+          "value": 139893264,
           "limit_up": false
         },
         {
-          "code": "2608",
-          "name": "嘉里大榮",
-          "close": 27.7,
-          "change": -0.3,
-          "change_pct": -1.07,
-          "value": 16245434,
+          "code": "2634",
+          "name": "漢翔",
+          "close": 54.0,
+          "change": 2.7,
+          "change_pct": 5.26,
+          "value": 268686530,
           "limit_up": false
         },
         {
-          "code": "2646",
-          "name": "星宇航空",
-          "close": 19.35,
-          "change": -0.35,
-          "change_pct": -1.78,
-          "value": 152827507,
-          "limit_up": false
-        },
-        {
-          "code": "2208",
-          "name": "台船",
-          "close": 16.65,
-          "change": -0.35,
-          "change_pct": -2.06,
-          "value": 63362523,
-          "limit_up": false
-        },
-        {
-          "code": "2610",
-          "name": "華航",
-          "close": 21.2,
-          "change": -0.45,
-          "change_pct": -2.08,
-          "value": 1065391033,
+          "code": "2637",
+          "name": "慧洋-KY",
+          "close": 98.4,
+          "change": 4.0,
+          "change_pct": 4.24,
+          "value": 243918356,
           "limit_up": false
         }
       ],
@@ -2851,111 +2049,196 @@
         {
           "code": "2603",
           "name": "長榮",
-          "close": 246.5,
-          "change": -12.5,
-          "change_pct": -4.83,
-          "value": 4213005407,
-          "limit_up": false
-        },
-        {
-          "code": "2615",
-          "name": "萬海",
-          "close": 107.5,
-          "change": -5.5,
-          "change_pct": -4.87,
-          "value": 1787954203,
-          "limit_up": false
-        },
-        {
-          "code": "2609",
-          "name": "陽明",
-          "close": 57.1,
-          "change": -2.9,
-          "change_pct": -4.83,
-          "value": 1352008100,
+          "close": 245.5,
+          "change": -1.0,
+          "change_pct": -0.41,
+          "value": 2509152270,
           "limit_up": false
         },
         {
           "code": "2618",
           "name": "長榮航",
-          "close": 43.6,
-          "change": -1.5,
-          "change_pct": -3.33,
-          "value": 1208954609,
+          "close": 43.9,
+          "change": 0.3,
+          "change_pct": 0.69,
+          "value": 1358436515,
+          "limit_up": false
+        },
+        {
+          "code": "2615",
+          "name": "萬海",
+          "close": 107.0,
+          "change": -0.5,
+          "change_pct": -0.47,
+          "value": 1130471305,
           "limit_up": false
         },
         {
           "code": "2610",
           "name": "華航",
-          "close": 21.2,
-          "change": -0.45,
-          "change_pct": -2.08,
-          "value": 1065391033,
+          "close": 21.75,
+          "change": 0.55,
+          "change_pct": 2.59,
+          "value": 1054977561,
+          "limit_up": false
+        },
+        {
+          "code": "2609",
+          "name": "陽明",
+          "close": 57.5,
+          "change": 0.4,
+          "change_pct": 0.7,
+          "value": 958904362,
+          "limit_up": false
+        }
+      ]
+    },
+    {
+      "name": "造紙",
+      "index_close": 262.49,
+      "change_pct": 0.81,
+      "value": 148084900,
+      "prev_value": 225891425,
+      "share": 0.02,
+      "share_change": -0.0,
+      "count": 7,
+      "up": 5,
+      "down": 2,
+      "leader": {
+        "code": "1907",
+        "name": "永豐餘",
+        "change_pct": 1.43,
+        "value_share": 37.0
+      },
+      "top": [
+        {
+          "code": "1905",
+          "name": "華紙",
+          "close": 11.55,
+          "change": 0.2,
+          "change_pct": 1.76,
+          "value": 24345007,
+          "limit_up": false
+        },
+        {
+          "code": "1907",
+          "name": "永豐餘",
+          "close": 28.35,
+          "change": 0.4,
+          "change_pct": 1.43,
+          "value": 54841204,
+          "limit_up": false
+        },
+        {
+          "code": "1904",
+          "name": "正隆",
+          "close": 23.6,
+          "change": 0.1,
+          "change_pct": 0.43,
+          "value": 33588836,
+          "limit_up": false
+        },
+        {
+          "code": "1909",
+          "name": "榮成",
+          "close": 9.03,
+          "change": -0.03,
+          "change_pct": -0.33,
+          "value": 15561269,
+          "limit_up": false
+        },
+        {
+          "code": "6790",
+          "name": "永豐實",
+          "close": 36.95,
+          "change": -0.3,
+          "change_pct": -0.81,
+          "value": 11326401,
+          "limit_up": false
+        }
+      ],
+      "top_value": [
+        {
+          "code": "1907",
+          "name": "永豐餘",
+          "close": 28.35,
+          "change": 0.4,
+          "change_pct": 1.43,
+          "value": 54841204,
+          "limit_up": false
+        },
+        {
+          "code": "1904",
+          "name": "正隆",
+          "close": 23.6,
+          "change": 0.1,
+          "change_pct": 0.43,
+          "value": 33588836,
+          "limit_up": false
+        },
+        {
+          "code": "1905",
+          "name": "華紙",
+          "close": 11.55,
+          "change": 0.2,
+          "change_pct": 1.76,
+          "value": 24345007,
+          "limit_up": false
+        },
+        {
+          "code": "1909",
+          "name": "榮成",
+          "close": 9.03,
+          "change": -0.03,
+          "change_pct": -0.33,
+          "value": 15561269,
+          "limit_up": false
+        },
+        {
+          "code": "6790",
+          "name": "永豐實",
+          "close": 36.95,
+          "change": -0.3,
+          "change_pct": -0.81,
+          "value": 11326401,
           "limit_up": false
         }
       ]
     },
     {
       "name": "居家生活",
-      "index_close": 93.56,
-      "change_pct": -4.54,
-      "value": 340963399,
-      "prev_value": 326277368,
+      "index_close": 94.21,
+      "change_pct": 0.69,
+      "value": 207462751,
+      "prev_value": 340963399,
       "share": 0.03,
-      "share_change": -0.01,
+      "share_change": -0.0,
       "count": 12,
-      "up": 0,
-      "down": 11,
+      "up": 11,
+      "down": 0,
       "leader": {
         "code": "8464",
         "name": "億豐",
-        "change_pct": -5.83,
-        "value_share": 60.0
+        "change_pct": 0.29,
+        "value_share": 65.1
       },
       "top": [
         {
-          "code": "9924",
-          "name": "福興",
-          "close": 37.45,
-          "change": -0.1,
-          "change_pct": -0.27,
-          "value": 12810426,
-          "limit_up": false
-        },
-        {
           "code": "9911",
           "name": "櫻花",
-          "close": 75.8,
-          "change": -1.1,
-          "change_pct": -1.43,
-          "value": 73681553,
+          "close": 76.6,
+          "change": 0.8,
+          "change_pct": 1.06,
+          "value": 37628904,
           "limit_up": false
         },
         {
-          "code": "9934",
-          "name": "成霖",
-          "close": 9.22,
-          "change": -0.15,
-          "change_pct": -1.6,
-          "value": 10758047,
-          "limit_up": false
-        },
-        {
-          "code": "2062",
-          "name": "橋椿",
-          "close": 16.4,
-          "change": -0.35,
-          "change_pct": -2.09,
-          "value": 13425022,
-          "limit_up": false
-        },
-        {
-          "code": "7867",
-          "name": "特力屋",
-          "close": 42.5,
-          "change": -1.5,
-          "change_pct": -3.41,
-          "value": 15411523,
+          "code": "8464",
+          "name": "億豐",
+          "close": 348.0,
+          "change": 1.0,
+          "change_pct": 0.29,
+          "value": 140479553,
           "limit_up": false
         }
       ],
@@ -2963,610 +2246,1264 @@
         {
           "code": "8464",
           "name": "億豐",
-          "close": 347.0,
-          "change": -21.5,
-          "change_pct": -5.83,
-          "value": 213976417,
+          "close": 348.0,
+          "change": 1.0,
+          "change_pct": 0.29,
+          "value": 140479553,
           "limit_up": false
         },
         {
           "code": "9911",
           "name": "櫻花",
-          "close": 75.8,
-          "change": -1.1,
-          "change_pct": -1.43,
-          "value": 73681553,
+          "close": 76.6,
+          "change": 0.8,
+          "change_pct": 1.06,
+          "value": 37628904,
+          "limit_up": false
+        },
+        {
+          "code": "9934",
+          "name": "成霖",
+          "close": 9.51,
+          "change": 0.29,
+          "change_pct": 3.15,
+          "value": 9709969,
           "limit_up": false
         },
         {
           "code": "7867",
           "name": "特力屋",
           "close": 42.5,
-          "change": -1.5,
-          "change_pct": -3.41,
-          "value": 15411523,
-          "limit_up": false
-        },
-        {
-          "code": "2062",
-          "name": "橋椿",
-          "close": 16.4,
-          "change": -0.35,
-          "change_pct": -2.09,
-          "value": 13425022,
+          "change": 0.0,
+          "change_pct": 0.0,
+          "value": 8215025,
           "limit_up": false
         },
         {
           "code": "9924",
           "name": "福興",
-          "close": 37.45,
-          "change": -0.1,
-          "change_pct": -0.27,
-          "value": 12810426,
+          "close": 37.65,
+          "change": 0.2,
+          "change_pct": 0.53,
+          "value": 7741113,
           "limit_up": false
         }
       ]
     },
     {
-      "name": "半導體",
-      "index_close": 1328.81,
-      "change_pct": -4.71,
-      "value": 497310196470,
-      "prev_value": 316606239157,
-      "share": 46.46,
-      "share_change": 8.06,
-      "count": 96,
-      "up": 4,
-      "down": 92,
+      "name": "紡織纖維",
+      "index_close": 473.87,
+      "change_pct": 0.59,
+      "value": 2738291750,
+      "prev_value": 3856079541,
+      "share": 0.37,
+      "share_change": 0.01,
+      "count": 42,
+      "up": 24,
+      "down": 15,
       "leader": {
-        "code": "2330",
-        "name": "台積電",
-        "change_pct": -4.69,
-        "value_share": 46.6
+        "code": "1476",
+        "name": "儒鴻",
+        "change_pct": 2.74,
+        "value_share": 56.1
       },
       "top": [
         {
-          "code": "8271",
-          "name": "宇瞻",
-          "close": 167.0,
-          "change": 7.5,
-          "change_pct": 4.7,
-          "value": 606846700,
+          "code": "1409",
+          "name": "新纖",
+          "close": 22.55,
+          "change": 1.45,
+          "change_pct": 6.87,
+          "value": 141049568,
           "limit_up": false
         },
         {
-          "code": "4967",
-          "name": "十銓",
-          "close": 268.0,
-          "change": 6.5,
-          "change_pct": 2.49,
-          "value": 3024431948,
-          "limit_up": false
-        },
-        {
-          "code": "6962",
-          "name": "奕力-KY",
-          "close": 29.25,
-          "change": -0.05,
-          "change_pct": -0.17,
-          "value": 104866964,
-          "limit_up": false
-        },
-        {
-          "code": "4961",
-          "name": "天鈺",
-          "close": 165.0,
-          "change": -2.0,
-          "change_pct": -1.2,
-          "value": 169239585,
-          "limit_up": false
-        },
-        {
-          "code": "2379",
-          "name": "瑞昱",
-          "close": 708.0,
-          "change": -12.0,
-          "change_pct": -1.67,
-          "value": 2900010117,
-          "limit_up": false
-        }
-      ],
-      "top_value": [
-        {
-          "code": "2330",
-          "name": "台積電",
-          "close": 2135.0,
-          "change": -105.0,
-          "change_pct": -4.69,
-          "value": 231893102005,
-          "limit_up": false
-        },
-        {
-          "code": "2454",
-          "name": "聯發科",
-          "close": 3390.0,
-          "change": -70.0,
-          "change_pct": -2.02,
-          "value": 76970380290,
-          "limit_up": false
-        },
-        {
-          "code": "3443",
-          "name": "創意",
-          "close": 6205.0,
-          "change": -200.0,
-          "change_pct": -3.12,
-          "value": 26332715820,
-          "limit_up": false
-        },
-        {
-          "code": "3711",
-          "name": "日月光投控",
-          "close": 527.0,
-          "change": -45.0,
-          "change_pct": -7.87,
-          "value": 22731145584,
-          "limit_up": false
-        },
-        {
-          "code": "2408",
-          "name": "南亞科",
-          "close": 343.5,
-          "change": -16.5,
-          "change_pct": -4.58,
-          "value": 21842124459,
-          "limit_up": false
-        }
-      ]
-    },
-    {
-      "name": "電腦及週邊設備",
-      "index_close": 370.97,
-      "change_pct": -5.22,
-      "value": 66656525311,
-      "prev_value": 60537420286,
-      "share": 6.23,
-      "share_change": -1.11,
-      "count": 65,
-      "up": 3,
-      "down": 61,
-      "leader": {
-        "code": "6669",
-        "name": "緯穎",
-        "change_pct": -5.76,
-        "value_share": 17.6
-      },
-      "top": [
-        {
-          "code": "3046",
-          "name": "建碁",
-          "close": 47.9,
-          "change": -0.15,
-          "change_pct": -0.31,
-          "value": 15039633,
-          "limit_up": false
-        },
-        {
-          "code": "2353",
-          "name": "宏碁",
-          "close": 29.0,
-          "change": -0.2,
-          "change_pct": -0.68,
-          "value": 901137198,
-          "limit_up": false
-        },
-        {
-          "code": "2357",
-          "name": "華碩",
-          "close": 859.0,
-          "change": -8.0,
-          "change_pct": -0.92,
-          "value": 4357601925,
-          "limit_up": false
-        },
-        {
-          "code": "5258",
-          "name": "虹堡",
-          "close": 39.6,
-          "change": -0.4,
-          "change_pct": -1.0,
-          "value": 24677988,
-          "limit_up": false
-        },
-        {
-          "code": "6166",
-          "name": "凌華",
-          "close": 90.0,
-          "change": -1.0,
-          "change_pct": -1.1,
-          "value": 153491422,
-          "limit_up": false
-        }
-      ],
-      "top_value": [
-        {
-          "code": "6669",
-          "name": "緯穎",
-          "close": 1555.0,
-          "change": -95.0,
-          "change_pct": -5.76,
-          "value": 11756046890,
-          "limit_up": false
-        },
-        {
-          "code": "2382",
-          "name": "廣達",
-          "close": 290.5,
-          "change": -9.5,
-          "change_pct": -3.17,
-          "value": 10635637586,
-          "limit_up": false
-        },
-        {
-          "code": "3231",
-          "name": "緯創",
-          "close": 160.0,
-          "change": -8.5,
-          "change_pct": -5.04,
-          "value": 7585120716,
-          "limit_up": false
-        },
-        {
-          "code": "3017",
-          "name": "奇鋐",
-          "close": 2310.0,
-          "change": -255.0,
-          "change_pct": -9.94,
-          "value": 5068898055,
-          "limit_up": false
-        },
-        {
-          "code": "2301",
-          "name": "光寶科",
-          "close": 198.0,
-          "change": -13.5,
-          "change_pct": -6.38,
-          "value": 4442427445,
-          "limit_up": false
-        }
-      ]
-    },
-    {
-      "name": "電機機械",
-      "index_close": 430.13,
-      "change_pct": -5.33,
-      "value": 18246613494,
-      "prev_value": 18650597316,
-      "share": 1.7,
-      "share_change": -0.56,
-      "count": 48,
-      "up": 3,
-      "down": 45,
-      "leader": {
-        "code": "8996",
-        "name": "高力",
-        "change_pct": -8.53,
-        "value_share": 22.8
-      },
-      "top": [
-        {
-          "code": "1558",
-          "name": "伸興",
-          "close": 113.0,
+          "code": "1476",
+          "name": "儒鴻",
+          "close": 356.0,
           "change": 9.5,
-          "change_pct": 9.18,
-          "value": 131533643,
+          "change_pct": 2.74,
+          "value": 1536157772,
           "limit_up": false
         },
         {
-          "code": "4571",
-          "name": "鈞興-KY",
-          "close": 147.5,
-          "change": 1.5,
-          "change_pct": 1.03,
-          "value": 42081950,
+          "code": "1440",
+          "name": "南紡",
+          "close": 13.05,
+          "change": 0.3,
+          "change_pct": 2.35,
+          "value": 23031954,
           "limit_up": false
         },
         {
-          "code": "4560",
-          "name": "強信-KY",
-          "close": 28.9,
-          "change": 0.1,
-          "change_pct": 0.35,
-          "value": 11643988,
+          "code": "1477",
+          "name": "聚陽",
+          "close": 216.0,
+          "change": 3.0,
+          "change_pct": 1.41,
+          "value": 336414140,
           "limit_up": false
         },
         {
-          "code": "5288",
-          "name": "豐祥-KY",
-          "close": 169.0,
-          "change": -2.0,
-          "change_pct": -1.17,
-          "value": 40165245,
-          "limit_up": false
-        },
-        {
-          "code": "1532",
-          "name": "勤美",
-          "close": 21.2,
-          "change": -0.25,
-          "change_pct": -1.17,
-          "value": 23996064,
-          "limit_up": false
-        }
-      ],
-      "top_value": [
-        {
-          "code": "8996",
-          "name": "高力",
-          "close": 1180.0,
-          "change": -110.0,
-          "change_pct": -8.53,
-          "value": 4163324445,
-          "limit_up": false
-        },
-        {
-          "code": "3167",
-          "name": "大量",
-          "close": 700.0,
-          "change": -77.0,
-          "change_pct": -9.91,
-          "value": 2587871588,
-          "limit_up": false
-        },
-        {
-          "code": "1560",
-          "name": "中砂",
-          "close": 669.0,
-          "change": -41.0,
-          "change_pct": -5.77,
-          "value": 2324095609,
-          "limit_up": false
-        },
-        {
-          "code": "1590",
-          "name": "亞德客-KY",
-          "close": 1010.0,
-          "change": -40.0,
-          "change_pct": -3.81,
-          "value": 1775300958,
-          "limit_up": false
-        },
-        {
-          "code": "2049",
-          "name": "上銀",
-          "close": 274.5,
-          "change": -10.0,
-          "change_pct": -3.51,
-          "value": 1607449469,
-          "limit_up": false
-        }
-      ]
-    },
-    {
-      "name": "其他電子",
-      "index_close": 222.35,
-      "change_pct": -5.64,
-      "value": 40941460339,
-      "prev_value": 37761129428,
-      "share": 3.82,
-      "share_change": -0.75,
-      "count": 46,
-      "up": 3,
-      "down": 42,
-      "leader": {
-        "code": "2317",
-        "name": "鴻海",
-        "change_pct": -4.47,
-        "value_share": 47.8
-      },
-      "top": [
-        {
-          "code": "2461",
-          "name": "光群雷",
-          "close": 16.7,
-          "change": 1.1,
-          "change_pct": 7.05,
-          "value": 19649825,
-          "limit_up": false
-        },
-        {
-          "code": "6743",
-          "name": "安普新",
-          "close": 27.8,
-          "change": -0.15,
-          "change_pct": -0.54,
-          "value": 12383012,
-          "limit_up": false
-        },
-        {
-          "code": "6558",
-          "name": "興能高",
-          "close": 19.2,
-          "change": -0.2,
-          "change_pct": -1.03,
-          "value": 16453679,
-          "limit_up": false
-        },
-        {
-          "code": "2459",
-          "name": "敦吉",
-          "close": 61.1,
-          "change": -0.7,
-          "change_pct": -1.13,
-          "value": 16691581,
-          "limit_up": false
-        },
-        {
-          "code": "2474",
-          "name": "可成",
-          "close": 183.5,
-          "change": -3.0,
-          "change_pct": -1.61,
-          "value": 662441261,
-          "limit_up": false
-        }
-      ],
-      "top_value": [
-        {
-          "code": "2317",
-          "name": "鴻海",
-          "close": 224.5,
-          "change": -10.5,
-          "change_pct": -4.47,
-          "value": 19565228003,
-          "limit_up": false
-        },
-        {
-          "code": "3665",
-          "name": "貿聯-KY",
-          "close": 1325.0,
-          "change": -145.0,
-          "change_pct": -9.86,
-          "value": 6723748625,
-          "limit_up": false
-        },
-        {
-          "code": "2404",
-          "name": "漢唐",
-          "close": 886.0,
-          "change": -70.0,
-          "change_pct": -7.32,
-          "value": 2397758553,
-          "limit_up": false
-        },
-        {
-          "code": "2360",
-          "name": "致茂",
-          "close": 1205.0,
-          "change": -130.0,
-          "change_pct": -9.74,
-          "value": 2137863815,
-          "limit_up": false
-        },
-        {
-          "code": "6139",
-          "name": "亞翔",
-          "close": 535.0,
-          "change": -32.0,
-          "change_pct": -5.64,
-          "value": 2068741787,
-          "limit_up": false
-        }
-      ]
-    },
-    {
-      "name": "電子零組件",
-      "index_close": 637.81,
-      "change_pct": -7.12,
-      "value": 203095806962,
-      "prev_value": 198124575074,
-      "share": 18.97,
-      "share_change": -5.05,
-      "count": 104,
-      "up": 5,
-      "down": 97,
-      "leader": {
-        "code": "2308",
-        "name": "台達電",
-        "change_pct": -6.64,
-        "value_share": 17.7
-      },
-      "top": [
-        {
-          "code": "5469",
-          "name": "瀚宇博",
-          "close": 63.7,
-          "change": 1.5,
-          "change_pct": 2.41,
-          "value": 386657836,
-          "limit_up": false
-        },
-        {
-          "code": "6191",
-          "name": "精成科",
-          "close": 72.2,
+          "code": "4441",
+          "name": "振大環球",
+          "close": 167.0,
           "change": 0.5,
-          "change_pct": 0.7,
-          "value": 402192788,
-          "limit_up": false
-        },
-        {
-          "code": "3023",
-          "name": "信邦",
-          "close": 258.5,
-          "change": 1.5,
-          "change_pct": 0.58,
-          "value": 748187993,
-          "limit_up": false
-        },
-        {
-          "code": "6269",
-          "name": "台郡",
-          "close": 65.0,
-          "change": 0.1,
-          "change_pct": 0.15,
-          "value": 2288720258,
-          "limit_up": false
-        },
-        {
-          "code": "3679",
-          "name": "新至陞",
-          "close": 105.0,
-          "change": -1.0,
-          "change_pct": -0.94,
-          "value": 14329124,
+          "change_pct": 0.3,
+          "value": 29592237,
           "limit_up": false
         }
       ],
       "top_value": [
         {
-          "code": "2308",
-          "name": "台達電",
-          "close": 1055.0,
-          "change": -75.0,
-          "change_pct": -6.64,
-          "value": 35878691265,
+          "code": "1476",
+          "name": "儒鴻",
+          "close": 356.0,
+          "change": 9.5,
+          "change_pct": 2.74,
+          "value": 1536157772,
           "limit_up": false
         },
         {
-          "code": "3037",
-          "name": "欣興",
-          "close": 727.0,
-          "change": -73.0,
-          "change_pct": -9.12,
-          "value": 27848391235,
+          "code": "1402",
+          "name": "遠東新",
+          "close": 27.25,
+          "change": -0.5,
+          "change_pct": -1.8,
+          "value": 475241201,
           "limit_up": false
         },
         {
-          "code": "2383",
-          "name": "台光電",
-          "close": 3820.0,
-          "change": -280.0,
-          "change_pct": -6.83,
-          "value": 23735061040,
+          "code": "1477",
+          "name": "聚陽",
+          "close": 216.0,
+          "change": 3.0,
+          "change_pct": 1.41,
+          "value": 336414140,
           "limit_up": false
         },
         {
-          "code": "2327",
-          "name": "國巨*",
-          "close": 374.0,
-          "change": -30.5,
-          "change_pct": -7.54,
-          "value": 21050516422,
+          "code": "1409",
+          "name": "新纖",
+          "close": 22.55,
+          "change": 1.45,
+          "change_pct": 6.87,
+          "value": 141049568,
           "limit_up": false
         },
         {
-          "code": "8046",
-          "name": "南電",
-          "close": 875.0,
-          "change": -97.0,
-          "change_pct": -9.98,
-          "value": 10542060280,
+          "code": "1434",
+          "name": "福懋",
+          "close": 17.35,
+          "change": -0.1,
+          "change_pct": -0.57,
+          "value": 54847329,
+          "limit_up": false
+        }
+      ]
+    },
+    {
+      "name": "水泥",
+      "index_close": 129.93,
+      "change_pct": 0.36,
+      "value": 1150739706,
+      "prev_value": 2269231211,
+      "share": 0.15,
+      "share_change": -0.06,
+      "count": 7,
+      "up": 6,
+      "down": 1,
+      "leader": {
+        "code": "1101",
+        "name": "台泥",
+        "change_pct": 0.19,
+        "value_share": 75.6
+      },
+      "top": [
+        {
+          "code": "1102",
+          "name": "亞泥",
+          "close": 36.85,
+          "change": 0.3,
+          "change_pct": 0.82,
+          "value": 238506544,
+          "limit_up": false
+        },
+        {
+          "code": "1104",
+          "name": "環泥",
+          "close": 26.25,
+          "change": 0.1,
+          "change_pct": 0.38,
+          "value": 14420805,
+          "limit_up": false
+        },
+        {
+          "code": "1101",
+          "name": "台泥",
+          "close": 26.8,
+          "change": 0.05,
+          "change_pct": 0.19,
+          "value": 870457676,
+          "limit_up": false
+        }
+      ],
+      "top_value": [
+        {
+          "code": "1101",
+          "name": "台泥",
+          "close": 26.8,
+          "change": 0.05,
+          "change_pct": 0.19,
+          "value": 870457676,
+          "limit_up": false
+        },
+        {
+          "code": "1102",
+          "name": "亞泥",
+          "close": 36.85,
+          "change": 0.3,
+          "change_pct": 0.82,
+          "value": 238506544,
+          "limit_up": false
+        },
+        {
+          "code": "1104",
+          "name": "環泥",
+          "close": 26.25,
+          "change": 0.1,
+          "change_pct": 0.38,
+          "value": 14420805,
+          "limit_up": false
+        },
+        {
+          "code": "1103",
+          "name": "嘉泥",
+          "close": 13.4,
+          "change": 0.05,
+          "change_pct": 0.37,
+          "value": 8746179,
+          "limit_up": false
+        },
+        {
+          "code": "1108",
+          "name": "幸福",
+          "close": 10.75,
+          "change": 0.05,
+          "change_pct": 0.47,
+          "value": 7625516,
+          "limit_up": false
+        }
+      ]
+    },
+    {
+      "name": "觀光餐旅",
+      "index_close": 98.34,
+      "change_pct": 0.33,
+      "value": 359835865,
+      "prev_value": 673644124,
+      "share": 0.05,
+      "share_change": -0.01,
+      "count": 19,
+      "up": 9,
+      "down": 7,
+      "leader": {
+        "code": "2727",
+        "name": "王品",
+        "change_pct": -0.44,
+        "value_share": 37.8
+      },
+      "top": [
+        {
+          "code": "2723",
+          "name": "美食-KY",
+          "close": 80.9,
+          "change": 1.7,
+          "change_pct": 2.15,
+          "value": 23782316,
+          "limit_up": false
+        },
+        {
+          "code": "2753",
+          "name": "八方雲集",
+          "close": 175.5,
+          "change": 0.0,
+          "change_pct": 0.0,
+          "value": 25328143,
+          "limit_up": false
+        },
+        {
+          "code": "2731",
+          "name": "雄獅",
+          "close": 135.0,
+          "change": -0.5,
+          "change_pct": -0.37,
+          "value": 81325394,
+          "limit_up": false
+        },
+        {
+          "code": "2727",
+          "name": "王品",
+          "close": 224.0,
+          "change": -1.0,
+          "change_pct": -0.44,
+          "value": 135903031,
+          "limit_up": false
+        },
+        {
+          "code": "2707",
+          "name": "晶華",
+          "close": 172.0,
+          "change": -1.5,
+          "change_pct": -0.86,
+          "value": 53295823,
+          "limit_up": false
+        }
+      ],
+      "top_value": [
+        {
+          "code": "2727",
+          "name": "王品",
+          "close": 224.0,
+          "change": -1.0,
+          "change_pct": -0.44,
+          "value": 135903031,
+          "limit_up": false
+        },
+        {
+          "code": "2731",
+          "name": "雄獅",
+          "close": 135.0,
+          "change": -0.5,
+          "change_pct": -0.37,
+          "value": 81325394,
+          "limit_up": false
+        },
+        {
+          "code": "2707",
+          "name": "晶華",
+          "close": 172.0,
+          "change": -1.5,
+          "change_pct": -0.86,
+          "value": 53295823,
+          "limit_up": false
+        },
+        {
+          "code": "2753",
+          "name": "八方雲集",
+          "close": 175.5,
+          "change": 0.0,
+          "change_pct": 0.0,
+          "value": 25328143,
+          "limit_up": false
+        },
+        {
+          "code": "2723",
+          "name": "美食-KY",
+          "close": 80.9,
+          "change": 1.7,
+          "change_pct": 2.15,
+          "value": 23782316,
+          "limit_up": false
+        }
+      ]
+    },
+    {
+      "name": "貿易百貨",
+      "index_close": 228.27,
+      "change_pct": 0.29,
+      "value": 649798417,
+      "prev_value": 1009925194,
+      "share": 0.09,
+      "share_change": -0.01,
+      "count": 17,
+      "up": 6,
+      "down": 9,
+      "leader": {
+        "code": "2912",
+        "name": "統一超",
+        "change_pct": 0.48,
+        "value_share": 58.5
+      },
+      "top": [
+        {
+          "code": "2905",
+          "name": "三商",
+          "close": 17.8,
+          "change": 0.35,
+          "change_pct": 2.01,
+          "value": 32382239,
+          "limit_up": false
+        },
+        {
+          "code": "2908",
+          "name": "特力",
+          "close": 21.75,
+          "change": 0.35,
+          "change_pct": 1.64,
+          "value": 17047634,
+          "limit_up": false
+        },
+        {
+          "code": "2912",
+          "name": "統一超",
+          "close": 211.5,
+          "change": 1.0,
+          "change_pct": 0.48,
+          "value": 379903641,
+          "limit_up": false
+        },
+        {
+          "code": "2903",
+          "name": "遠百",
+          "close": 21.35,
+          "change": 0.0,
+          "change_pct": 0.0,
+          "value": 33031122,
+          "limit_up": false
+        },
+        {
+          "code": "2913",
+          "name": "農林",
+          "close": 10.35,
+          "change": 0.0,
+          "change_pct": 0.0,
+          "value": 21280055,
+          "limit_up": false
+        }
+      ],
+      "top_value": [
+        {
+          "code": "2912",
+          "name": "統一超",
+          "close": 211.5,
+          "change": 1.0,
+          "change_pct": 0.48,
+          "value": 379903641,
+          "limit_up": false
+        },
+        {
+          "code": "2915",
+          "name": "潤泰全",
+          "close": 53.1,
+          "change": -0.3,
+          "change_pct": -0.56,
+          "value": 148430146,
+          "limit_up": false
+        },
+        {
+          "code": "2903",
+          "name": "遠百",
+          "close": 21.35,
+          "change": 0.0,
+          "change_pct": 0.0,
+          "value": 33031122,
+          "limit_up": false
+        },
+        {
+          "code": "2905",
+          "name": "三商",
+          "close": 17.8,
+          "change": 0.35,
+          "change_pct": 2.01,
+          "value": 32382239,
+          "limit_up": false
+        },
+        {
+          "code": "2913",
+          "name": "農林",
+          "close": 10.35,
+          "change": 0.0,
+          "change_pct": 0.0,
+          "value": 21280055,
+          "limit_up": false
+        }
+      ]
+    },
+    {
+      "name": "電子通路",
+      "index_close": 318.2,
+      "change_pct": -0.05,
+      "value": 6498927180,
+      "prev_value": 8433435463,
+      "share": 0.87,
+      "share_change": 0.08,
+      "count": 22,
+      "up": 18,
+      "down": 4,
+      "leader": {
+        "code": "3036",
+        "name": "文曄",
+        "change_pct": -2.16,
+        "value_share": 47.3
+      },
+      "top": [
+        {
+          "code": "8070",
+          "name": "長華*",
+          "close": 46.7,
+          "change": 2.75,
+          "change_pct": 6.26,
+          "value": 144951690,
+          "limit_up": false
+        },
+        {
+          "code": "3055",
+          "name": "蔚華科",
+          "close": 122.5,
+          "change": 7.0,
+          "change_pct": 6.06,
+          "value": 189149876,
+          "limit_up": false
+        },
+        {
+          "code": "3209",
+          "name": "全科",
+          "close": 42.55,
+          "change": 2.05,
+          "change_pct": 5.06,
+          "value": 48512664,
+          "limit_up": false
+        },
+        {
+          "code": "3048",
+          "name": "益登",
+          "close": 44.25,
+          "change": 2.05,
+          "change_pct": 4.86,
+          "value": 56714675,
+          "limit_up": false
+        },
+        {
+          "code": "3312",
+          "name": "弘憶股",
+          "close": 42.1,
+          "change": 1.95,
+          "change_pct": 4.86,
+          "value": 31268030,
+          "limit_up": false
+        }
+      ],
+      "top_value": [
+        {
+          "code": "3036",
+          "name": "文曄",
+          "close": 181.5,
+          "change": -4.0,
+          "change_pct": -2.16,
+          "value": 3072653862,
+          "limit_up": false
+        },
+        {
+          "code": "3702",
+          "name": "大聯大",
+          "close": 90.4,
+          "change": 0.2,
+          "change_pct": 0.22,
+          "value": 1134172695,
+          "limit_up": false
+        },
+        {
+          "code": "2347",
+          "name": "聯強",
+          "close": 81.1,
+          "change": -3.3,
+          "change_pct": -3.91,
+          "value": 590151269,
+          "limit_up": false
+        },
+        {
+          "code": "8112",
+          "name": "至上",
+          "close": 75.8,
+          "change": 2.8,
+          "change_pct": 3.84,
+          "value": 379235409,
+          "limit_up": false
+        },
+        {
+          "code": "5434",
+          "name": "崇越",
+          "close": 472.0,
+          "change": 15.0,
+          "change_pct": 3.28,
+          "value": 362322572,
+          "limit_up": false
+        }
+      ]
+    },
+    {
+      "name": "食品",
+      "index_close": 1883.77,
+      "change_pct": -0.21,
+      "value": 2001000576,
+      "prev_value": 2242721941,
+      "share": 0.27,
+      "share_change": 0.06,
+      "count": 24,
+      "up": 11,
+      "down": 13,
+      "leader": {
+        "code": "1216",
+        "name": "統一",
+        "change_pct": -0.13,
+        "value_share": 67.3
+      },
+      "top": [
+        {
+          "code": "1256",
+          "name": "鮮活果汁-KY",
+          "close": 165.0,
+          "change": 5.0,
+          "change_pct": 3.12,
+          "value": 12750759,
+          "limit_up": false
+        },
+        {
+          "code": "1231",
+          "name": "聯華食",
+          "close": 72.0,
+          "change": 2.1,
+          "change_pct": 3.0,
+          "value": 47330593,
+          "limit_up": false
+        },
+        {
+          "code": "7780",
+          "name": "大研生醫*",
+          "close": 14.5,
+          "change": 0.05,
+          "change_pct": 0.35,
+          "value": 14453067,
+          "limit_up": false
+        },
+        {
+          "code": "1216",
+          "name": "統一",
+          "close": 76.7,
+          "change": -0.1,
+          "change_pct": -0.13,
+          "value": 1347701255,
+          "limit_up": false
+        },
+        {
+          "code": "1210",
+          "name": "大成",
+          "close": 49.95,
+          "change": -0.15,
+          "change_pct": -0.3,
+          "value": 159001097,
+          "limit_up": false
+        }
+      ],
+      "top_value": [
+        {
+          "code": "1216",
+          "name": "統一",
+          "close": 76.7,
+          "change": -0.1,
+          "change_pct": -0.13,
+          "value": 1347701255,
+          "limit_up": false
+        },
+        {
+          "code": "1210",
+          "name": "大成",
+          "close": 49.95,
+          "change": -0.15,
+          "change_pct": -0.3,
+          "value": 159001097,
+          "limit_up": false
+        },
+        {
+          "code": "1227",
+          "name": "佳格",
+          "close": 26.2,
+          "change": -1.15,
+          "change_pct": -4.2,
+          "value": 143405441,
+          "limit_up": false
+        },
+        {
+          "code": "1229",
+          "name": "聯華",
+          "close": 38.1,
+          "change": -0.3,
+          "change_pct": -0.78,
+          "value": 89599522,
+          "limit_up": false
+        },
+        {
+          "code": "1215",
+          "name": "卜蜂",
+          "close": 103.0,
+          "change": -1.0,
+          "change_pct": -0.96,
+          "value": 59628968,
+          "limit_up": false
+        }
+      ]
+    },
+    {
+      "name": "建材營造",
+      "index_close": 419.97,
+      "change_pct": -0.21,
+      "value": 1344272171,
+      "prev_value": 2331061791,
+      "share": 0.18,
+      "share_change": -0.04,
+      "count": 55,
+      "up": 33,
+      "down": 18,
+      "leader": {
+        "code": "2542",
+        "name": "興富發",
+        "change_pct": 0.26,
+        "value_share": 14.5
+      },
+      "top": [
+        {
+          "code": "3703",
+          "name": "欣陸",
+          "close": 22.45,
+          "change": 2.0,
+          "change_pct": 9.78,
+          "value": 112471042,
+          "limit_up": true
+        },
+        {
+          "code": "2527",
+          "name": "宏璟",
+          "close": 41.9,
+          "change": 2.95,
+          "change_pct": 7.57,
+          "value": 31648715,
+          "limit_up": false
+        },
+        {
+          "code": "2515",
+          "name": "中工",
+          "close": 11.05,
+          "change": 0.35,
+          "change_pct": 3.27,
+          "value": 44729972,
+          "limit_up": false
+        },
+        {
+          "code": "5521",
+          "name": "工信",
+          "close": 11.15,
+          "change": 0.25,
+          "change_pct": 2.29,
+          "value": 21417254,
+          "limit_up": false
+        },
+        {
+          "code": "2516",
+          "name": "新建",
+          "close": 16.45,
+          "change": 0.25,
+          "change_pct": 1.54,
+          "value": 11334057,
+          "limit_up": false
+        }
+      ],
+      "top_value": [
+        {
+          "code": "2542",
+          "name": "興富發",
+          "close": 37.85,
+          "change": 0.1,
+          "change_pct": 0.26,
+          "value": 194957493,
+          "limit_up": false
+        },
+        {
+          "code": "2548",
+          "name": "華固",
+          "close": 91.9,
+          "change": 0.4,
+          "change_pct": 0.44,
+          "value": 128240923,
+          "limit_up": false
+        },
+        {
+          "code": "3703",
+          "name": "欣陸",
+          "close": 22.45,
+          "change": 2.0,
+          "change_pct": 9.78,
+          "value": 112471042,
+          "limit_up": true
+        },
+        {
+          "code": "2520",
+          "name": "冠德",
+          "close": 33.4,
+          "change": 0.2,
+          "change_pct": 0.6,
+          "value": 79510397,
+          "limit_up": false
+        },
+        {
+          "code": "2546",
+          "name": "根基",
+          "close": 93.3,
+          "change": -4.7,
+          "change_pct": -4.8,
+          "value": 66091032,
+          "limit_up": false
+        }
+      ]
+    },
+    {
+      "name": "運動休閒",
+      "index_close": 54.12,
+      "change_pct": -0.24,
+      "value": 903903721,
+      "prev_value": 1866764005,
+      "share": 0.12,
+      "share_change": -0.05,
+      "count": 18,
+      "up": 8,
+      "down": 7,
+      "leader": {
+        "code": "9904",
+        "name": "寶成",
+        "change_pct": 0.0,
+        "value_share": 38.9
+      },
+      "top": [
+        {
+          "code": "6670",
+          "name": "復盛應用",
+          "close": 260.0,
+          "change": 5.5,
+          "change_pct": 2.16,
+          "value": 43216159,
+          "limit_up": false
+        },
+        {
+          "code": "9921",
+          "name": "巨大",
+          "close": 91.4,
+          "change": 1.7,
+          "change_pct": 1.9,
+          "value": 140442587,
+          "limit_up": false
+        },
+        {
+          "code": "4536",
+          "name": "拓凱",
+          "close": 148.5,
+          "change": 2.5,
+          "change_pct": 1.71,
+          "value": 17837992,
+          "limit_up": false
+        },
+        {
+          "code": "9914",
+          "name": "美利達",
+          "close": 63.9,
+          "change": 0.5,
+          "change_pct": 0.79,
+          "value": 68426869,
+          "limit_up": false
+        },
+        {
+          "code": "6768",
+          "name": "志強-KY",
+          "close": 59.5,
+          "change": 0.2,
+          "change_pct": 0.34,
+          "value": 14379185,
+          "limit_up": false
+        }
+      ],
+      "top_value": [
+        {
+          "code": "9904",
+          "name": "寶成",
+          "close": 25.7,
+          "change": 0.0,
+          "change_pct": 0.0,
+          "value": 351540090,
+          "limit_up": false
+        },
+        {
+          "code": "9921",
+          "name": "巨大",
+          "close": 91.4,
+          "change": 1.7,
+          "change_pct": 1.9,
+          "value": 140442587,
+          "limit_up": false
+        },
+        {
+          "code": "9910",
+          "name": "豐泰",
+          "close": 68.1,
+          "change": -1.5,
+          "change_pct": -2.16,
+          "value": 79642430,
+          "limit_up": false
+        },
+        {
+          "code": "9914",
+          "name": "美利達",
+          "close": 63.9,
+          "change": 0.5,
+          "change_pct": 0.79,
+          "value": 68426869,
+          "limit_up": false
+        },
+        {
+          "code": "1736",
+          "name": "喬山",
+          "close": 110.5,
+          "change": 0.0,
+          "change_pct": 0.0,
+          "value": 55955819,
+          "limit_up": false
+        }
+      ]
+    },
+    {
+      "name": "橡膠",
+      "index_close": 180.3,
+      "change_pct": -0.52,
+      "value": 652710051,
+      "prev_value": 969386797,
+      "share": 0.09,
+      "share_change": -0.0,
+      "count": 11,
+      "up": 6,
+      "down": 5,
+      "leader": {
+        "code": "2105",
+        "name": "正新",
+        "change_pct": -1.33,
+        "value_share": 44.5
+      },
+      "top": [
+        {
+          "code": "2108",
+          "name": "南帝",
+          "close": 27.4,
+          "change": 0.45,
+          "change_pct": 1.67,
+          "value": 13063343,
+          "limit_up": false
+        },
+        {
+          "code": "2104",
+          "name": "國際中橡",
+          "close": 10.0,
+          "change": 0.11,
+          "change_pct": 1.11,
+          "value": 33262321,
+          "limit_up": false
+        },
+        {
+          "code": "2101",
+          "name": "南港",
+          "close": 27.55,
+          "change": 0.15,
+          "change_pct": 0.55,
+          "value": 41806829,
+          "limit_up": false
+        },
+        {
+          "code": "2106",
+          "name": "建大",
+          "close": 15.8,
+          "change": -0.15,
+          "change_pct": -0.94,
+          "value": 10879026,
+          "limit_up": false
+        },
+        {
+          "code": "2103",
+          "name": "台橡",
+          "close": 22.8,
+          "change": -0.25,
+          "change_pct": -1.08,
+          "value": 239469876,
+          "limit_up": false
+        }
+      ],
+      "top_value": [
+        {
+          "code": "2105",
+          "name": "正新",
+          "close": 29.65,
+          "change": -0.4,
+          "change_pct": -1.33,
+          "value": 290571995,
+          "limit_up": false
+        },
+        {
+          "code": "2103",
+          "name": "台橡",
+          "close": 22.8,
+          "change": -0.25,
+          "change_pct": -1.08,
+          "value": 239469876,
+          "limit_up": false
+        },
+        {
+          "code": "2101",
+          "name": "南港",
+          "close": 27.55,
+          "change": 0.15,
+          "change_pct": 0.55,
+          "value": 41806829,
+          "limit_up": false
+        },
+        {
+          "code": "2104",
+          "name": "國際中橡",
+          "close": 10.0,
+          "change": 0.11,
+          "change_pct": 1.11,
+          "value": 33262321,
+          "limit_up": false
+        },
+        {
+          "code": "2108",
+          "name": "南帝",
+          "close": 27.4,
+          "change": 0.45,
+          "change_pct": 1.67,
+          "value": 13063343,
+          "limit_up": false
+        }
+      ]
+    },
+    {
+      "name": "數位雲端",
+      "index_close": 35.64,
+      "change_pct": -1.36,
+      "value": 364952114,
+      "prev_value": 722497897,
+      "share": 0.05,
+      "share_change": -0.02,
+      "count": 13,
+      "up": 4,
+      "down": 6,
+      "leader": {
+        "code": "8454",
+        "name": "富邦媒",
+        "change_pct": -2.68,
+        "value_share": 37.8
+      },
+      "top": [
+        {
+          "code": "6165",
+          "name": "浪凡",
+          "close": 38.05,
+          "change": 2.3,
+          "change_pct": 6.43,
+          "value": 24497976,
+          "limit_up": false
+        },
+        {
+          "code": "6902",
+          "name": "GOGOLOOK",
+          "close": 130.5,
+          "change": 4.0,
+          "change_pct": 3.16,
+          "value": 26377587,
+          "limit_up": false
+        },
+        {
+          "code": "6689",
+          "name": "伊雲谷",
+          "close": 72.9,
+          "change": 1.4,
+          "change_pct": 1.96,
+          "value": 84921533,
+          "limit_up": false
+        },
+        {
+          "code": "7765",
+          "name": "中華資安",
+          "close": 236.0,
+          "change": 0.0,
+          "change_pct": 0.0,
+          "value": 42235468,
+          "limit_up": false
+        },
+        {
+          "code": "7722",
+          "name": "LINEPAY",
+          "close": 218.5,
+          "change": -5.0,
+          "change_pct": -2.24,
+          "value": 23096125,
+          "limit_up": false
+        }
+      ],
+      "top_value": [
+        {
+          "code": "8454",
+          "name": "富邦媒",
+          "close": 217.5,
+          "change": -6.0,
+          "change_pct": -2.68,
+          "value": 137808577,
+          "limit_up": false
+        },
+        {
+          "code": "6689",
+          "name": "伊雲谷",
+          "close": 72.9,
+          "change": 1.4,
+          "change_pct": 1.96,
+          "value": 84921533,
+          "limit_up": false
+        },
+        {
+          "code": "7765",
+          "name": "中華資安",
+          "close": 236.0,
+          "change": 0.0,
+          "change_pct": 0.0,
+          "value": 42235468,
+          "limit_up": false
+        },
+        {
+          "code": "6902",
+          "name": "GOGOLOOK",
+          "close": 130.5,
+          "change": 4.0,
+          "change_pct": 3.16,
+          "value": 26377587,
+          "limit_up": false
+        },
+        {
+          "code": "6165",
+          "name": "浪凡",
+          "close": 38.05,
+          "change": 2.3,
+          "change_pct": 6.43,
+          "value": 24497976,
+          "limit_up": false
+        }
+      ]
+    },
+    {
+      "name": "資訊服務",
+      "index_close": 233.4,
+      "change_pct": -2.13,
+      "value": 4867617490,
+      "prev_value": 5319067200,
+      "share": 0.65,
+      "share_change": 0.16,
+      "count": 11,
+      "up": 8,
+      "down": 3,
+      "leader": {
+        "code": "2468",
+        "name": "華經",
+        "change_pct": 5.15,
+        "value_share": 59.7
+      },
+      "top": [
+        {
+          "code": "2468",
+          "name": "華經",
+          "close": 63.3,
+          "change": 3.1,
+          "change_pct": 5.15,
+          "value": 2906095443,
+          "limit_up": false
+        },
+        {
+          "code": "2453",
+          "name": "凌群",
+          "close": 55.2,
+          "change": 1.8,
+          "change_pct": 3.37,
+          "value": 74337126,
+          "limit_up": false
+        },
+        {
+          "code": "6112",
+          "name": "邁達特",
+          "close": 52.4,
+          "change": 1.0,
+          "change_pct": 1.95,
+          "value": 866448173,
+          "limit_up": false
+        },
+        {
+          "code": "5203",
+          "name": "訊連",
+          "close": 52.5,
+          "change": 1.0,
+          "change_pct": 1.94,
+          "value": 11340579,
+          "limit_up": false
+        },
+        {
+          "code": "2427",
+          "name": "三商電",
+          "close": 21.25,
+          "change": 0.3,
+          "change_pct": 1.43,
+          "value": 13675890,
+          "limit_up": false
+        }
+      ],
+      "top_value": [
+        {
+          "code": "2468",
+          "name": "華經",
+          "close": 63.3,
+          "change": 3.1,
+          "change_pct": 5.15,
+          "value": 2906095443,
+          "limit_up": false
+        },
+        {
+          "code": "6112",
+          "name": "邁達特",
+          "close": 52.4,
+          "change": 1.0,
+          "change_pct": 1.95,
+          "value": 866448173,
+          "limit_up": false
+        },
+        {
+          "code": "6214",
+          "name": "精誠",
+          "close": 179.0,
+          "change": -13.0,
+          "change_pct": -6.77,
+          "value": 537315181,
+          "limit_up": false
+        },
+        {
+          "code": "3029",
+          "name": "零壹",
+          "close": 114.0,
+          "change": 1.5,
+          "change_pct": 1.33,
+          "value": 250002472,
+          "limit_up": false
+        },
+        {
+          "code": "2471",
+          "name": "資通",
+          "close": 52.1,
+          "change": 0.7,
+          "change_pct": 1.36,
+          "value": 137200285,
           "limit_up": false
         }
       ]
     }
   ],
-  "updated": "2026-11-06T20:00:04+08:00"
+  "updated": "2026-11-09T15:01:01+08:00"
 }
