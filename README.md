@@ -155,7 +155,7 @@ repo 的 `.claude/skills/` 裝了 7 個做網站用的技能（來自 [ui-ux-pro
 - **AI 產圖要金鑰**：`design` 的 logo、icon 產生功能要另外設定 Gemini 等圖片 AI 的 API 金鑰（例如環境變數 `GEMINI_API_KEY`）；沒有金鑰也能用它的設計建議和 HTML 版面。
 - **會產生的檔案**：技能可能在 repo 裡新增 `design-system/`、`assets/banners/`、`plans/reports/`、`docs/brand-guidelines.md`、`assets/design-tokens.*` 等檔案。這個 repo 是公開網站，commit 之後別人也看得到。
 - **另一個帳號層級的技能**：`impeccable`（設計評估與修飾，例如 `/impeccable critique`）不在 repo 裡，是帳號本身就有的技能，評估紀錄存在 `.impeccable/critique/`。
-- **更新技能**：在電腦上的專案資料夾執行 `npx ui-ux-pro-max-cli update`；repo 這一份可以請 Claude 重新從原始 repo 複製。
+- **更新技能**：在電腦上的專案資料夾執行 `npx ui-ux-pro-max-cli update --ai claude`（加 `--ai claude` 就不會跳出選單；沒加的話選「Claude Code」）；repo 這一份可以請 Claude 重新從原始 repo 複製。
 
 ## 檔案結構
 
