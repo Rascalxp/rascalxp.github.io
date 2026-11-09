@@ -761,87 +761,155 @@
     const canvas = btn.querySelector(".tt-canvas");
     const ctx = canvas.getContext("2d");
     const PAD = 14, STEP = 1.7, DOT = 1.35;
-    const SHAPES = { moon: pixelShape("moon"), sun: pixelShape("sun") };
-    const COLORS = { moon: "#eef1ff", sun: "#40361f" };
-    let dpr = 1, anim = null;
+    const MOON = pixelShape("moon"), SUN = pixelShape("sun");
+    // 圖示顏色看滑塊目前是深色還是淺色：拖到一半還沒放開時，滑塊仍是深色，太陽要用亮色才看得到
+    const iconColor = (icon) => (isDark() ? (icon === "sun" ? "#ffcf5a" : "#eef1ff") : (icon === "sun" ? "#40361f" : "#3c4466"));
+    let dpr = 1, anim = null, parts = null;
+    let k = 0;            // 圖示變形進度：0 = 月亮（深色），1 = 太陽（淺色）
+    let drag = null;      // 拖曳中的狀態
+    let suppressClick = false;
     const isDark = () => root.dataset.theme !== "light";
+    const maxX = () => Math.max(0, btn.clientWidth - knob.offsetWidth - 2 * knob.offsetLeft);
 
     function knobCenter() {
-      const b = btn.getBoundingClientRect(), k = knob.getBoundingClientRect();
-      return [k.left - b.left + k.width / 2 + PAD, k.top - b.top + k.height / 2 + PAD];
+      const b = btn.getBoundingClientRect(), r = knob.getBoundingClientRect();
+      return [r.left - b.left + r.width / 2 + PAD, r.top - b.top + r.height / 2 + PAD];
     }
     function size() {
       const b = btn.getBoundingClientRect();
       dpr = window.devicePixelRatio || 1;
       canvas.width = Math.round((b.width + PAD * 2) * dpr);
       canvas.height = Math.round((b.height + PAD * 2) * dpr);
+      btn.style.setProperty("--tt-x-max", `${maxX()}px`);
     }
     function dot(x, y, color, alpha, sz = DOT) {
       ctx.globalAlpha = alpha; ctx.fillStyle = color;
       ctx.fillRect((x - sz / 2) * dpr, (y - sz / 2) * dpr, sz * dpr, sz * dpr);
     }
-    function paint() {
+    // 每次互動重新產生粒子：月亮的點 ↔ 太陽的點，中途散開
+    function makeParts() {
+      const n = Math.max(MOON.length, SUN.length);
+      parts = Array.from({ length: n }, (_, i) => {
+        const ang = Math.random() * Math.PI * 2, dist = 5 + Math.random() * 11;
+        return { p: MOON[i % MOON.length], q: SUN[i % SUN.length], dx: Math.cos(ang) * dist, dy: Math.sin(ang) * dist,
+          lag: Math.random() * 0.12, onlyMoon: i >= SUN.length, onlySun: i >= MOON.length };
+      });
+    }
+    // 依進度 k 畫出圖示：k=0 完整月亮、k=1 完整太陽，中間是散開的粒子
+    function draw() {
       ctx.clearRect(0, 0, canvas.width, canvas.height);
-      const icon = isDark() ? "moon" : "sun";
       const [cx, cy] = knobCenter();
-      SHAPES[icon].forEach(([dx, dy]) => dot(cx + dx * STEP, cy + dy * STEP, COLORS[icon], 1));
+      if (!parts || k <= 0.001 || k >= 0.999) {
+        const icon = k >= 0.5 ? SUN : MOON, color = iconColor(k >= 0.5 ? "sun" : "moon");
+        icon.forEach(([x, y]) => dot(cx + x * STEP, cy + y * STEP, color, 1));
+        ctx.globalAlpha = 1;
+        return;
+      }
+      parts.forEach((o) => {
+        // 每顆粒子稍微錯開時間，看起來是一顆顆散開
+        const t = Math.min(Math.max((k - o.lag / 2) / (1 - o.lag), 0), 1);
+        const sx = o.p[0] * STEP, sy = o.p[1] * STEP, tx = o.q[0] * STEP, ty = o.q[1] * STEP;
+        let x, y;
+        if (t < 0.5) { const u = ease(t / 0.5); x = sx + o.dx * u; y = sy + o.dy * u; }
+        else { const u = ease((t - 0.5) / 0.5); x = sx + o.dx + (tx - sx - o.dx) * u; y = sy + o.dy + (ty - sy - o.dy) * u; }
+        const alpha = o.onlyMoon ? 1 - t : o.onlySun ? t : 1;
+        const color = t < 0.2 ? iconColor("moon") : t > 0.8 ? iconColor("sun") : t < 0.5 ? "#a9b4ff" : "#ffb703";
+        dot(cx + x, cy + y, color, alpha, t > 0.2 && t < 0.8 ? DOT * 1.2 : DOT);
+      });
       ctx.globalAlpha = 1;
+    }
+    // 讓 k 平滑走到目標值；滑塊本身由 CSS 過場移動，所以每一格都重新取滑塊位置
+    function animateK(target, ms) {
+      cancelAnimationFrame(anim);
+      if (reduceMotion() || ms <= 0) { k = target; anim = null; draw(); return; }
+      const from = k, start = performance.now();
+      const frame = (now) => {
+        const t = Math.min((now - start) / ms, 1);
+        k = from + (target - from) * t;
+        draw();
+        if (t < 1) anim = requestAnimationFrame(frame); else { anim = null; k = target; parts = null; draw(); }
+      };
+      anim = requestAnimationFrame(frame);
     }
     function sync() {
       const dark = isDark();
       btn.setAttribute("aria-checked", String(dark));
-      btn.title = dark ? "目前是深色模式，按一下改成淺色" : "目前是淺色模式，按一下改成深色";
+      btn.title = dark ? "深色模式（可拖曳或點一下切換）" : "淺色模式（可拖曳或點一下切換）";
       const meta = document.querySelector('meta[name="theme-color"]');
       if (meta) meta.content = dark ? "#0a0d12" : "#f4f5f7";
     }
-
-    function setTheme(next) {
-      const reduce = reduceMotion();
-      const fromIcon = isDark() ? "moon" : "sun";
-      const toIcon = next === "light" ? "sun" : "moon";
-      const from = knobCenter();
-      if (!reduce) root.classList.add("theme-anim");
+    function applyTheme(next) {
+      if (!reduceMotion()) {
+        root.classList.add("theme-anim");
+        clearTimeout(applyTheme.t);
+        applyTheme.t = setTimeout(() => root.classList.remove("theme-anim"), 650);
+        knob.classList.remove("is-switching"); void knob.offsetWidth; knob.classList.add("is-switching");
+      }
       if (next === "light") root.dataset.theme = "light"; else delete root.dataset.theme;
       try { localStorage.setItem("theme", next); } catch (e) { /* 無痕模式記不住也沒關係 */ }
       sync();
       document.dispatchEvent(new CustomEvent("themechange", { detail: next }));
-      if (reduce) { paint(); return; }
-      setTimeout(() => root.classList.remove("theme-anim"), 650);
-      knob.classList.remove("is-switching"); void knob.offsetWidth; knob.classList.add("is-switching");
-
-      // 粒子：舊圖示散開，跟著滑塊飛到新位置組成新圖示
-      const a = SHAPES[fromIcon], b = SHAPES[toIcon];
-      const n = Math.max(a.length, b.length);
-      const parts = Array.from({ length: n }, (_, i) => {
-        const p = a[i % a.length], q = b[i % b.length], ang = Math.random() * Math.PI * 2, dist = 5 + Math.random() * 11;
-        return { p, q, ang, dist, delay: Math.random() * 0.15, fade: i >= b.length, grow: i >= a.length };
-      });
-      const start = performance.now(), DUR = 820;
-      cancelAnimationFrame(anim);
-      const frame = (now) => {
-        const t = Math.min((now - start) / DUR, 1);
-        const to = knobCenter();  // 滑塊在動，每一格重新取位置
-        ctx.clearRect(0, 0, canvas.width, canvas.height);
-        parts.forEach((o) => {
-          const k = Math.min(Math.max((t - o.delay) / (1 - o.delay), 0), 1);
-          const sx = from[0] + o.p[0] * STEP, sy = from[1] + o.p[1] * STEP;
-          const mx = sx + Math.cos(o.ang) * o.dist, my = sy + Math.sin(o.ang) * o.dist;
-          const tx = to[0] + o.q[0] * STEP, ty = to[1] + o.q[1] * STEP;
-          let x, y;
-          if (k < 0.4) { const u = ease(k / 0.4); x = sx + (mx - sx) * u; y = sy + (my - sy) * u; }
-          else { const u = ease((k - 0.4) / 0.6); x = mx + (tx - mx) * u; y = my + (ty - my) * u; }
-          const alpha = o.fade ? 1 - k : o.grow ? k : 1;
-          dot(x, y, k > 0.75 ? COLORS[toIcon] : k < 0.25 ? COLORS[fromIcon] : (toIcon === "sun" ? "#ffb703" : "#a9b4ff"), alpha, k > 0.75 ? DOT : DOT * 1.2);
-        });
-        ctx.globalAlpha = 1;
-        if (t < 1) anim = requestAnimationFrame(frame); else { anim = null; paint(); }
-      };
-      anim = requestAnimationFrame(frame);
+    }
+    // 點一下或鍵盤：直接切到另一邊
+    function setTheme(next) {
+      if ((next === "light") === !isDark()) return;
+      if (!parts) makeParts();
+      applyTheme(next);
+      animateK(next === "light" ? 1 : 0, 820 * Math.abs((next === "light" ? 1 : 0) - k) || 820);
     }
 
-    btn.addEventListener("click", () => setTheme(isDark() ? "light" : "dark"));
-    size(); sync(); paint();
-    window.addEventListener("resize", () => { size(); paint(); });
+    // ---- 拖曳 ----
+    btn.addEventListener("pointerdown", (e) => {
+      if (e.button !== 0) return;
+      cancelAnimationFrame(anim); anim = null;
+      const r = knob.getBoundingClientRect(), b = btn.getBoundingClientRect();
+      drag = { id: e.pointerId, startX: e.clientX, knobX: r.left - (b.left + btn.clientLeft) - knob.offsetLeft, moved: false };
+      makeParts();
+    });
+    btn.addEventListener("pointermove", (e) => {
+      if (!drag || e.pointerId !== drag.id) return;
+      const dx = e.clientX - drag.startX;
+      if (!drag.moved) {
+        if (Math.abs(dx) < 4) return;
+        drag.moved = true;
+        btn.setPointerCapture(e.pointerId);
+        btn.classList.add("is-dragging");
+      }
+      const x = Math.min(Math.max(drag.knobX + dx, 0), maxX());
+      knob.style.transform = `translateX(${x}px)`;
+      k = maxX() ? x / maxX() : 0;
+      draw();
+    });
+    const endDrag = (e, cancelled) => {
+      if (!drag || e.pointerId !== drag.id) return;
+      const wasDrag = drag.moved;
+      drag = null;
+      if (!wasDrag) return;  // 沒有拖動就當成一般點擊，交給 click 處理
+      suppressClick = true;  // 拖曳放開後瀏覽器會補一個 click，略過它
+      setTimeout(() => { suppressClick = false; }, 0);
+      btn.classList.remove("is-dragging");
+      const next = !cancelled && k >= 0.5 ? "light" : (!cancelled ? "dark" : (isDark() ? "dark" : "light"));
+      const target = next === "light" ? 1 : 0;
+      if ((next === "light") !== !isDark()) applyTheme(next);
+      knob.style.transform = "";  // 交還給 CSS，滑塊會從放開的位置滑到定位
+      animateK(target, Math.max(220, 620 * Math.abs(target - k)));
+    };
+    btn.addEventListener("pointerup", (e) => endDrag(e, false));
+    btn.addEventListener("pointercancel", (e) => endDrag(e, true));
+
+    btn.addEventListener("click", () => {
+      if (suppressClick) { suppressClick = false; return; }
+      setTheme(isDark() ? "light" : "dark");
+    });
+    // 鍵盤：左右方向鍵也能切換（空白鍵、Enter 是按鈕原本就支援的點擊）
+    btn.addEventListener("keydown", (e) => {
+      if (e.key === "ArrowRight") { e.preventDefault(); setTheme("light"); }
+      if (e.key === "ArrowLeft") { e.preventDefault(); setTheme("dark"); }
+    });
+
+    k = isDark() ? 0 : 1;
+    size(); sync(); draw();
+    window.addEventListener("resize", () => { size(); draw(); });
     btn.classList.add("tt-ready");
   }
   const ttBtn = document.getElementById("theme-toggle");

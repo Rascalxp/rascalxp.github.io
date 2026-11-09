@@ -366,7 +366,8 @@ button.sector-row[aria-expanded="true"]:hover { background: var(--hover); }
 /* ---------- 深色／淺色切換開關 ---------- */
 .theme-toggle {
   --tt-glow: #8b9bff; --tt-glow-soft: rgba(139, 155, 255, .55);
-  position: relative; flex: none; width: 66px; height: 36px; padding: 0; cursor: pointer;
+  position: relative; flex: none; width: 66px; height: 36px; padding: 0; cursor: grab;
+  touch-action: pan-y; user-select: none; -webkit-user-select: none; -webkit-tap-highlight-color: transparent;
   border-radius: 13px; border: 1px solid var(--line-strong);
   background: linear-gradient(180deg, var(--well-top), var(--well-bottom)); box-shadow: var(--well-shadow);
 }
@@ -380,7 +381,7 @@ button.sector-row[aria-expanded="true"]:hover { background: var(--hover); }
   transition: transform .62s cubic-bezier(.65, 0, .35, 1), background .5s ease, box-shadow .5s ease;
 }
 :root[data-theme="light"] .tt-knob {
-  transform: translateX(27px);
+  transform: translateX(var(--tt-x-max, 26px));
   background: linear-gradient(180deg, #ffffff, #eceff4);
   box-shadow: inset 0 1px 0 #fff, inset 0 -2px 4px rgba(16, 24, 40, .08), 0 4px 10px -3px rgba(16, 24, 40, .3), 0 0 16px -2px var(--tt-glow-soft);
 }
@@ -395,6 +396,10 @@ button.sector-row[aria-expanded="true"]:hover { background: var(--hover); }
 .tt-knob.is-switching::before { animation: seg-sweep .9s cubic-bezier(.3, 0, .2, 1); }
 :root[data-theme="light"] .tt-knob.is-switching::before { animation-name: seg-sweep-back; }
 .theme-toggle:not(.tt-ready) .tt-canvas { display: none; }
+/* 拖曳中：滑塊直接跟著手指，不要過場延遲 */
+.theme-toggle.is-dragging { cursor: grabbing; }
+.theme-toggle.is-dragging .tt-knob { transition: background .5s ease, box-shadow .5s ease; }
+.theme-toggle:hover:not(.is-dragging) .tt-knob { filter: brightness(1.06); }
 @media (prefers-reduced-motion: reduce) {
   .tt-knob { transition: none; }
   .tt-knob.is-switching::before { animation: none; }
@@ -604,6 +609,6 @@ footer { border-top: 1px solid var(--line); margin-top: 48px; }
   .topbar-inner { gap: 10px; }
   .theme-toggle { width: 60px; height: 34px; }
   .tt-knob { width: 29px; height: 26px; }
-  :root[data-theme="light"] .tt-knob { transform: translateX(25px); }
+
   .seg-icon { width: 16px; height: 16px; }
 }

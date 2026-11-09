@@ -123,6 +123,7 @@
   - Podcast 填 Apple Podcasts 網址最後的數字 id，例如 `.../id1500839292` 就填 `1500839292`
 - **調整新聞關鍵字**：修改 `scripts/fetch_news.py` 裡的 `AI_PATTERN`
 - **修改網站名稱**：修改 `index.html` 裡的「台股盤後看板」
+- **深色／淺色模式**：右上角的開關可以拖曳，也可以點一下或用鍵盤左右鍵切換。預設深色，訪客的選擇記在他自己的瀏覽器。顏色都在 `assets/style.css` 最上面的 `:root`（深色）和 `:root[data-theme="light"]`（淺色）
 - **開頭動畫**：影片在 `assets/intro/intro.mp4`，每次進站都會播，可按「略過」或點畫面跳過；系統有開「減少動態效果」的使用者會自動跳過
 - **YouTube 頁面抓不到時（選用）**：到 Google Cloud 申請 YouTube Data API 金鑰，加一個名為 `YOUTUBE_API_KEY` 的 repository secret，程式會自動改用 API
 
