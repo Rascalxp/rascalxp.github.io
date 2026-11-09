@@ -292,7 +292,8 @@
         .slice(0, TOP_SECTORS);
       modeBtns.forEach((x) => x.setAttribute("aria-pressed", String(x.dataset.sort === mode)));
       dirBtns.forEach((x) => {
-        x.textContent = m.dirs[x.dataset.dir];
+        const label = x.querySelector(".seg-label") || x;
+        if (label.textContent !== m.dirs[x.dataset.dir]) label.textContent = m.dirs[x.dataset.dir];
         x.setAttribute("aria-pressed", String(x.dataset.dir === dir));
       });
       $("sector-hint").textContent = hint();
@@ -599,6 +600,137 @@
       box.replaceChildren(el(/^(OL|UL)$/.test(box.tagName) ? "li" : "div", { class: "empty" }, msg));
     };
   }
+
+  // ---------- 切換按鈕動畫：滑塊移動、像素圖示碎裂重組、邊緣光掃過 ----------
+  // 按鈕本身不變（仍是 aria-pressed 的 button），動畫只疊在上面；系統開「減少動態效果」時直接切換。
+  const PIXEL_ICONS = {
+    bars: ["......##.", "......##.", "...##.##.", "...##.##.", "##.##.##.", "##.##.##.", "##.##.##.", ".........", "#########"],
+    pct:  [".##....#.", "#..#..#..", ".##..#...", "....#....", "...#.....", "..#..##..", ".#..#..#.", "#....##..", "........."],
+    up:   ["....#....", "...###...", "..#####..", ".#######.", "...###...", "...###...", "...###...", "...###...", "........."],
+    down: ["...###...", "...###...", "...###...", "...###...", ".#######.", "..#####..", "...###...", "....#....", "........."],
+  };
+  const reduceMotion = () => window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+  const ease = (t) => (t < 0.5 ? 4 * t * t * t : 1 - Math.pow(-2 * t + 2, 3) / 2);
+
+  function segFx(seg) {
+    const buttons = [...seg.querySelectorAll("button")];
+    const thumb = el("span", { class: "seg-thumb", "aria-hidden": "true" });
+    const canvas = el("canvas", { class: "seg-canvas", "aria-hidden": "true" });
+    seg.prepend(thumb);
+    seg.append(canvas);
+    buttons.forEach((b) => b.prepend(el("span", { class: "seg-icon", "aria-hidden": "true" })));
+    const ctx = canvas.getContext("2d");
+    const STEP = 2, DOT = 1.5;
+    let dpr = 1, centers = [], particles = null, anim = null;
+    let active = buttons.findIndex((b) => b.getAttribute("aria-pressed") === "true");
+
+    const dots = (name) => {
+      const rows = PIXEL_ICONS[name] || PIXEL_ICONS.bars;
+      const out = [];
+      rows.forEach((r, y) => [...r].forEach((c, x) => { if (c === "#") out.push([(x - 4) * STEP, (y - 4) * STEP]); }));
+      return out;
+    };
+
+    function layout() {
+      const box = seg.getBoundingClientRect();
+      if (!box.width) return false;
+      dpr = window.devicePixelRatio || 1;
+      canvas.width = Math.round(box.width * dpr);
+      canvas.height = Math.round(box.height * dpr);
+      centers = buttons.map((b) => {
+        const r = b.querySelector(".seg-icon").getBoundingClientRect();
+        return [r.left - box.left + r.width / 2, r.top - box.top + r.height / 2];
+      });
+      placeThumb(!!anim);  // 動畫進行中就讓滑塊繼續滑，不要瞬間跳到終點
+      if (!anim) paint();
+      return true;
+    }
+
+    function placeThumb(animate) {
+      const b = buttons[active];
+      if (!b) return;
+      thumb.classList.toggle("no-anim", !animate);
+      thumb.style.width = `${b.offsetWidth}px`;
+      thumb.style.transform = `translateX(${b.offsetLeft}px)`;
+    }
+
+    function drawDot(x, y, color, alpha, size = DOT) {
+      ctx.globalAlpha = alpha;
+      ctx.fillStyle = color;
+      ctx.fillRect((x - size / 2) * dpr, (y - size / 2) * dpr, size * dpr, size * dpr);
+    }
+
+    // 靜止狀態：選中的圖示是深色點（在黃色滑塊上），其他是灰點
+    function paint(hide = -1, fadeIn = 1) {
+      ctx.clearRect(0, 0, canvas.width, canvas.height);
+      buttons.forEach((b, i) => {
+        if (i === hide || !centers[i]) return;
+        const on = i === active;
+        const disabled = b.disabled;
+        dots(b.dataset.icon).forEach(([dx, dy]) =>
+          drawDot(centers[i][0] + dx, centers[i][1] + dy, on ? "#1a1408" : "#8794a6", (disabled ? 0.4 : on ? 1 : 0.75) * (on ? 1 : fadeIn)));
+      });
+      ctx.globalAlpha = 1;
+    }
+
+    // 切換：舊圖示碎成粒子，散開後飛到新位置重組成新圖示
+    function switchTo(next) {
+      const prev = active;
+      active = next;
+      if (prev === next || prev < 0) { placeThumb(false); paint(); return; }
+      placeThumb(!reduceMotion());
+      if (reduceMotion() || !centers[prev] || !centers[next]) { paint(); return; }
+      thumb.classList.remove("is-switching");
+      void thumb.offsetWidth;  // 重新觸發邊緣光動畫
+      thumb.classList.add("is-switching");
+      thumb.dataset.dir = next > prev ? "right" : "left";
+      const from = dots(buttons[prev].dataset.icon), to = dots(buttons[next].dataset.icon);
+      const n = Math.max(from.length, to.length);
+      particles = Array.from({ length: n }, (_, i) => {
+        const a = from[i % from.length], b = to[i % to.length];
+        const ang = Math.random() * Math.PI * 2, dist = 6 + Math.random() * 14;
+        return {
+          sx: centers[prev][0] + a[0], sy: centers[prev][1] + a[1],
+          mx: centers[prev][0] + a[0] + Math.cos(ang) * dist, my: centers[prev][1] + a[1] + Math.sin(ang) * dist,
+          tx: centers[next][0] + b[0], ty: centers[next][1] + b[1],
+          delay: Math.random() * 0.18, fade: i >= to.length,
+        };
+      });
+      const start = performance.now(), DUR = 760;
+      cancelAnimationFrame(anim);
+      const frame = (now) => {
+        const t = Math.min((now - start) / DUR, 1);
+        // 新位置原本的灰色圖示先淡出，舊位置的灰色圖示慢慢淡回來
+        paint(next, Math.min(1, t * 1.6));
+        particles.forEach((p) => {
+          const k = Math.min(Math.max((t - p.delay) / (1 - p.delay), 0), 1);
+          let x, y;
+          if (k < 0.35) { const u = ease(k / 0.35); x = p.sx + (p.mx - p.sx) * u; y = p.sy + (p.my - p.sy) * u; }
+          else { const u = ease((k - 0.35) / 0.65); x = p.mx + (p.tx - p.mx) * u; y = p.my + (p.ty - p.my) * u; }
+          const landing = k > 0.8;
+          const alpha = p.fade ? 1 - k : 1;
+          drawDot(x, y, landing ? "#1a1408" : "#ffe29a", alpha, landing ? DOT : DOT * 1.15);
+        });
+        ctx.globalAlpha = 1;
+        if (t < 1) anim = requestAnimationFrame(frame);
+        else { anim = null; particles = null; paint(); }
+      };
+      anim = requestAnimationFrame(frame);
+    }
+
+    new MutationObserver(() => {
+      const next = buttons.findIndex((b) => b.getAttribute("aria-pressed") === "true");
+      if (next !== active) switchTo(next); else paint();
+    }).observe(seg, { subtree: true, attributes: true, attributeFilter: ["aria-pressed", "disabled"] });
+    // 方向按鈕的文字會隨排序依據改變（比重上升 ↔ 漲幅最大），寬度變了要重新量
+    new MutationObserver(() => layout()).observe(seg, { subtree: true, childList: true, characterData: true });
+    if ("ResizeObserver" in window) new ResizeObserver(() => layout()).observe(seg);
+    window.addEventListener("resize", () => layout());
+    if (document.fonts && document.fonts.ready) document.fonts.ready.then(() => layout());
+    seg.classList.add("fx-ready");
+    layout();
+  }
+  document.querySelectorAll(".seg-fx").forEach(segFx);
 
   // 選單標出目前捲到的區塊
   function watchSections() {

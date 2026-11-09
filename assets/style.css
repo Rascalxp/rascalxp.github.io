@@ -242,6 +242,61 @@ button.sector-row[aria-expanded="true"]:hover { background: #1a212d; }
 }
 .retry:hover, .retry:focus-visible { border-color: var(--accent); outline: none; }
 
+/* ---------- 切換按鈕動畫（類股排序） ---------- */
+@property --sweep { syntax: "<angle>"; inherits: false; initial-value: 0deg; }
+.seg-fx {
+  position: relative; isolation: isolate; padding: 3px; gap: 0; overflow: visible;
+  border-color: #3a4556; border-radius: 12px;
+  background: linear-gradient(180deg, #0c1016, #121822); box-shadow: inset 0 2px 6px rgba(0, 0, 0, .55), 0 1px 0 rgba(255, 255, 255, .04);
+}
+.seg-fx button {
+  position: relative; z-index: 1; background: transparent; border: 0; border-radius: 9px;
+  display: inline-flex; align-items: center; justify-content: center; gap: 6px;
+  transition: color .3s ease-out;
+}
+.seg-fx button + button { border-left: 0; }
+.seg-fx.fx-ready button[aria-pressed="true"] { background: transparent; color: #1a1408; }
+/* 文字等滑塊快到了才變深色，不然滑塊還沒到時字會看不見 */
+.seg-fx.fx-ready button[aria-pressed="true"]:not(:disabled) { transition: color .2s ease-out .38s; }
+.seg-fx button:focus-visible { box-shadow: none; outline: 2px solid var(--text); outline-offset: -2px; }
+.seg-fx button[aria-pressed="true"]:focus-visible { box-shadow: none; outline-color: #1a1408; outline-offset: -4px; }
+.seg-icon { width: 18px; height: 18px; flex: none; }
+.seg-canvas { position: absolute; inset: 0; width: 100%; height: 100%; z-index: 2; pointer-events: none; }
+
+/* 滑塊：玻璃感的黃色方塊，切換時滑到新選項 */
+.seg-thumb {
+  position: absolute; z-index: 0; top: 3px; bottom: 3px; left: 0; width: 0; border-radius: 9px;
+  background:
+    linear-gradient(180deg, rgba(255, 255, 255, .45), rgba(255, 255, 255, 0) 45%),
+    linear-gradient(180deg, #ffcf5a, #f0b429 55%, #d6960f);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, .55), inset 0 -2px 4px rgba(120, 70, 0, .35), 0 4px 14px -4px rgba(240, 180, 41, .6);
+  transition: transform .62s cubic-bezier(.65, 0, .35, 1), width .62s cubic-bezier(.65, 0, .35, 1);
+}
+.seg-thumb.no-anim { transition: none; }
+.seg-fx:not(.fx-ready) .seg-thumb { display: none; }
+/* 邊緣光：平常停在底部一小段，切換時沿著框掃一圈 */
+.seg-thumb::before {
+  content: ""; position: absolute; inset: -2px; border-radius: 11px; padding: 2px; pointer-events: none;
+  background: conic-gradient(from var(--sweep), transparent 0deg 110deg, #fff3c4 150deg, #ffb703 175deg, transparent 215deg 360deg);
+  -webkit-mask: linear-gradient(#000 0 0) content-box, linear-gradient(#000 0 0); -webkit-mask-composite: xor;
+  mask: linear-gradient(#000 0 0) content-box exclude, linear-gradient(#000 0 0);
+  --sweep: 15deg; opacity: .55; filter: drop-shadow(0 0 4px rgba(255, 190, 40, .9));
+}
+.seg-thumb::after {
+  content: ""; position: absolute; inset: -8px; border-radius: 16px; pointer-events: none; opacity: 0;
+  background: radial-gradient(closest-side, rgba(255, 190, 40, .45), transparent);
+}
+.seg-thumb.is-switching::before { animation: seg-sweep .95s cubic-bezier(.3, 0, .2, 1); }
+.seg-thumb.is-switching[data-dir="left"]::before { animation-name: seg-sweep-back; }
+.seg-thumb.is-switching::after { animation: seg-bloom .95s ease-out; }
+@keyframes seg-sweep { from { --sweep: 15deg; opacity: 1; } to { --sweep: 375deg; opacity: .55; } }
+@keyframes seg-sweep-back { from { --sweep: 375deg; opacity: 1; } to { --sweep: 15deg; opacity: .55; } }
+@keyframes seg-bloom { 0% { opacity: 0; } 35% { opacity: 1; } 100% { opacity: 0; } }
+@media (prefers-reduced-motion: reduce) {
+  .seg-thumb, .seg-fx button { transition: none; }
+  .seg-thumb.is-switching::before, .seg-thumb.is-switching::after { animation: none; }
+}
+
 /* ---------- 03 大盤分析 ---------- */
 .analysis-wrap { display: grid; grid-template-columns: minmax(0, 1fr) 240px; gap: 16px; align-items: start; }
 .analysis-wrap:has(> .archive[hidden]) { grid-template-columns: minmax(0, 1fr); }
@@ -414,6 +469,7 @@ footer { border-top: 1px solid var(--line); margin-top: 48px; }
   .seg { width: 100%; }
   .seg button { flex: 1; min-height: 44px; padding: 0 4px; }
   .detail-head .seg-sm { width: 100%; }
+  .seg-fx button { gap: 4px; }
   .sector-row .unit { display: inline; }
   .sector-divider { padding-left: 44px; }
   .retry { min-height: 44px; }
@@ -436,4 +492,9 @@ footer { border-top: 1px solid var(--line); margin-top: 48px; }
 
 @media (prefers-reduced-motion: reduce) {
   .chev, button.sector-row { transition: none; }
+}
+
+@media (max-width: 520px) {
+  .hide-xs { display: none; }
+  .seg-icon { width: 16px; height: 16px; }
 }

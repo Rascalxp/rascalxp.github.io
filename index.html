@@ -92,13 +92,13 @@
       <div class="sector-bar">
         <dl class="sector-summary" id="sector-summary"></dl>
         <div class="sector-controls" id="sector-controls" hidden>
-          <div class="seg" role="group" aria-label="排序依據">
-            <button type="button" data-sort="flow" aria-pressed="true">成交比重增減</button>
-            <button type="button" data-sort="change" aria-pressed="false">漲跌幅</button>
+          <div class="seg seg-fx" role="group" aria-label="排序依據">
+            <button type="button" data-sort="flow" data-icon="bars" aria-pressed="true"><span class="seg-label"><span class="hide-xs">成交</span>比重增減</span></button>
+            <button type="button" data-sort="change" data-icon="pct" aria-pressed="false"><span class="seg-label">漲跌幅</span></button>
           </div>
-          <div class="seg" role="group" aria-label="排序方向">
-            <button type="button" data-dir="top" aria-pressed="true">比重上升</button>
-            <button type="button" data-dir="bottom" aria-pressed="false">比重下降</button>
+          <div class="seg seg-fx" role="group" aria-label="排序方向">
+            <button type="button" data-dir="top" data-icon="up" aria-pressed="true"><span class="seg-label">比重上升</span></button>
+            <button type="button" data-dir="bottom" data-icon="down" aria-pressed="false"><span class="seg-label">比重下降</span></button>
           </div>
         </div>
       </div>
