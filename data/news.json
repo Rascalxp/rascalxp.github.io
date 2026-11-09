@@ -1,9 +1,33 @@
 {
-  "updated": "2026-11-09T16:01:08+08:00",
+  "updated": "2026-11-09T16:30:59+08:00",
   "ai_summary": false,
   "model": null,
-  "candidates_sig": "f0efd6fdfa74c8fe88045405d23df1a42b8b9bd2",
+  "candidates_sig": "b6bed8a8a0603fff1c590ed918ee3a40bd51c39e",
   "items": [
+    {
+      "title": "富邦媒法說》AI讓駭客更難防？momo總座談資安：不能出事才補救",
+      "url": "https://tw.stock.yahoo.com/news/%E5%AF%8C%E9%82%A6%E5%AA%92%E6%B3%95%E8%AA%AA%E3%80%8Bai%E8%AE%93%E9%A7%AD%E5%AE%A2%E6%9B%B4%E9%9B%A3%E9%98%B2%EF%BC%9Fmomo%E7%B8%BD%E5%BA%A7%E8%AB%87%E8%B3%87%E5%AE%89%EF%BC%9A%E4%B8%8D%E8%83%BD%E5%87%BA%E4%BA%8B%E6%89%8D%E8%A3%9C%E6%95%91-082742820.html",
+      "source": "Yahoo 股市",
+      "published": "2026-11-09T16:27+08:00",
+      "summary": "AI技術愈來愈進步，連駭客也開始利用AI發動攻擊，民眾網購時的個資安全如何保障？富邦媒（8454）今（9）日舉行第三季法說會，總經理谷元宏表示，隨著駭客利用AI技術，網路攻擊變得更難防範，企業也很難預",
+      "tags": []
+    },
+    {
+      "title": "【公告】精測受邀參加麥格理證券舉辦之「MACQUARIE TAIWAN CONFERENCE」",
+      "url": "https://tw.stock.yahoo.com/news/%E5%85%AC%E5%91%8A-%E7%B2%BE%E6%B8%AC%E5%8F%97%E9%82%80%E5%8F%83%E5%8A%A0%E9%BA%A5%E6%A0%BC%E7%90%86%E8%AD%89%E5%88%B8%E8%88%89%E8%BE%A6%E4%B9%8B-macquarie-taiwan-conference-080358039.html",
+      "source": "Yahoo 股市",
+      "published": "2026-11-09T16:03+08:00",
+      "summary": "日 期：2026年11月09日公司名稱：精測(6510)主 旨：精測受邀參加麥格理證券舉辦之「MACQUARIE TAIWAN CONFERENCE」發言人：黃水可說 明：符合條款第四條第XX款：12",
+      "tags": []
+    },
+    {
+      "title": "名師操盤》台股萬點重挫後迎轉機 國安基金護盤12檔指標股出列",
+      "url": "https://tw.stock.yahoo.com/news/%E5%90%8D%E5%B8%AB%E6%93%8D%E7%9B%A4-%E5%8F%B0%E8%82%A1%E8%90%AC%E9%BB%9E%E9%87%8D%E6%8C%AB%E5%BE%8C%E8%BF%8E%E8%BD%89%E6%A9%9F-%E5%9C%8B%E5%AE%89%E5%9F%BA%E9%87%91%E8%AD%B7%E7%9B%A412%E6%AA%94%E6%8C%87%E6%A8%99%E8%82%A1%E5%87%BA%E5%88%97-075756762.html",
+      "source": "Yahoo 股市",
+      "published": "2026-11-09T15:57+08:00",
+      "summary": "上周台股因美國期中選舉後資料中心政策的不確定性，導致科技股賣壓出籠；加上市場擔憂AI巨額投資的回收速度、外資持續撤出亞洲市場、新台幣走弱，讓原先高評價的電子股接連遭到調節，周五指數盤中最低來到3783",
+      "tags": []
+    },
     {
       "title": "〈電子五哥營收〉廣達前10月營收3.31兆元續創同期高 本周法說聚焦AI伺服器展望",
       "url": "https://news.cnyes.com/news/id/6653281",
@@ -21,6 +45,30 @@
       "tags": []
     },
     {
+      "title": "不受黃仁勳事件影響 輝達概念股全都大漲 台股勁揚1960點、收41661點",
+      "url": "https://tw.news.yahoo.com/%E4%B8%8D%E5%8F%97%E9%BB%83%E4%BB%81%E5%8B%B3%E4%BA%8B%E4%BB%B6%E5%BD%B1%E9%9F%BF-%E8%BC%9D%E9%81%94%E6%A6%82%E5%BF%B5%E8%82%A1%E5%85%A8%E9%83%BD%E5%A4%A7%E6%BC%B2-%E5%8F%B0%E8%82%A1%E5%8B%81%E6%8F%9A1960%E9%BB%9E-%E6%94%B641661%E9%BB%9E-075702810.html",
+      "source": "Yahoo 股市",
+      "published": "2026-11-09T15:57+08:00",
+      "summary": "台積電在國安基金強力拉抬下，大漲100元，漲幅4.68％，收在22...",
+      "tags": []
+    },
+    {
+      "title": "台積電股價V形震盪 法人仍看好「每股盈餘暴增67%」原因曝",
+      "url": "https://tw.news.yahoo.com/%E5%8F%B0%E7%A9%8D%E9%9B%BB%E8%82%A1%E5%83%B9v%E5%BD%A2%E9%9C%87%E7%9B%AA-%E6%B3%95%E4%BA%BA%E4%BB%8D%E7%9C%8B%E5%A5%BD-%E6%AF%8F%E8%82%A1%E7%9B%88%E9%A4%98%E6%9A%B4%E5%A2%9E67-%E5%8E%9F%E5%9B%A0%E6%9B%9D-075400217.html",
+      "source": "Yahoo 股市",
+      "published": "2026-11-09T15:54+08:00",
+      "summary": "台股日前創下史上最大跌點後，在國安基金進場護盤下強勢反彈，台積電、聯發科與台達電等電子權值股集體回血大漲。法人分析指出，台積電先前重挫主因市場對短期成本壓力重新定價及海外廠密集營運，但中長期在AI強勁",
+      "tags": []
+    },
+    {
+      "title": "黃仁勳驚爆外遇洩國安疑雲！台積電恐受波及？曝險廠商名單一次看",
+      "url": "https://tw.news.yahoo.com/%E9%BB%83%E4%BB%81%E5%8B%B3%E9%A9%9A%E7%88%86%E5%A4%96%E9%81%87%E6%B4%A9%E5%9C%8B%E5%AE%89%E7%96%91%E9%9B%B2-%E5%8F%B0%E7%A9%8D%E9%9B%BB%E6%81%90%E5%8F%97%E6%B3%A2%E5%8F%8A-%E6%9B%9D%E9%9A%AA%E5%BB%A0%E5%95%86%E5%90%8D%E5%96%AE-%E6%AC%A1%E7%9C%8B-074800346.html",
+      "source": "Yahoo 股市",
+      "published": "2026-11-09T15:48+08:00",
+      "summary": "輝達執行長黃仁勳爆出婚外情，對象遭指涉及中國情報活動，輝達董事會啟動獨立調查。台積電（2330）、京元電（2449）、緯創（3231）等9家台灣AI供應鏈廠商受到關注，美中科技戰是否牽動台廠訂單成為市",
+      "tags": []
+    },
+    {
       "title": "「單純婚外情或許不會下台」！陳嘉偉：黃仁勳若涉國安恐失大位…台廠合作恐受衝擊",
       "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5SUWRqd3Rnc2x1MER0UWJHaWdHQTRULTk2cU9DeWMyTGF4NTVhdF80d2psMW1ScGJycWtNdkhDQmY0RGQ3MXRpRi02QVoxdXprWVHSAVdBVV95cUxPcGpGMGFya05hS1daWnhyQS1Ra2Rwckw2QVNaYVJDazlWT1BDamtLakRZb2VybmcxYnpzMFdZM1pZUDVzSFE3aTRlMHE2c2FmdUpMXzQyd2s?oc=5",
       "source": "UDN",
@@ -29,59 +77,11 @@
       "tags": []
     },
     {
-      "title": "AI需求續強，國巨10月營收不畏假期，再創單月歷史新高",
-      "url": "https://tw.stock.yahoo.com/news/ai%E9%9C%80%E6%B1%82%E7%BA%8C%E5%BC%B7-%E5%9C%8B%E5%B7%A810%E6%9C%88%E7%87%9F%E6%94%B6%E4%B8%8D%E7%95%8F%E5%81%87%E6%9C%9F-%E5%86%8D%E5%89%B5%E5%96%AE%E6%9C%88%E6%AD%B7%E5%8F%B2%E6%96%B0%E9%AB%98-073618471.html",
-      "source": "Yahoo 股市",
-      "published": "2026-11-09T15:36+08:00",
-      "summary": "【財訊快報／記者陳浩寧報導】國巨(2327)10月營收為175.97億元，單月營收較上 月增加3.1%，較去年同期增加55.0%，再創下單月營收歷史新高；累計1-10月營收為1497.51億元，較去年",
-      "tags": []
-    },
-    {
-      "title": "國巨10月營收連8個月創新高 AI需求強勁推升",
-      "url": "https://tw.stock.yahoo.com/news/%E5%9C%8B%E5%B7%A810%E6%9C%88%E7%87%9F%E6%94%B6%E9%80%A38%E5%80%8B%E6%9C%88%E5%89%B5%E6%96%B0%E9%AB%98-ai%E9%9C%80%E6%B1%82%E5%BC%B7%E5%8B%81%E6%8E%A8%E5%8D%87-073132845.html",
-      "source": "Yahoo 股市",
-      "published": "2026-11-09T15:31+08:00",
-      "summary": "（中央社記者鍾榮峰台北2026年11月9日電）被動元件廠國巨(2327)今天公布10月自結合併營收新台幣175.97億元，月增3.1%，較2025年同期大增55%，連續8個月創新高。國巨指出，儘管10",
-      "tags": []
-    },
-    {
       "title": "台股強彈1960點創歷史次高！00910飆漲11%贏過正2 重返50元大關",
       "url": "https://news.cnyes.com/news/id/6653258",
       "source": "鉅亨網",
       "published": "2026-11-09T15:28+08:00",
       "summary": "台股今(9)日強勢反攻，收盤上漲1,960點，創歷史第二大收盤漲點紀錄，台股兩倍槓桿ETF漲幅高達9%以上，根據CMoney統計，單日漲幅最強的ETF不是台股正二，而是第一金太空衛星(00910-TW)單日漲幅達11.14%，重新站回50元",
-      "tags": []
-    },
-    {
-      "title": "三大法人賣超台股945億！權值股火力全開 237檔個股亮燈飆漲停",
-      "url": "https://tw.news.yahoo.com/%E4%B8%89%E5%A4%A7%E6%B3%95%E4%BA%BA%E8%B3%A3%E8%B6%85%E5%8F%B0%E8%82%A1945%E5%84%84-%E6%AC%8A%E5%80%BC%E8%82%A1%E7%81%AB%E5%8A%9B%E5%85%A8%E9%96%8B-237%E6%AA%94%E5%80%8B%E8%82%A1%E4%BA%AE%E7%87%88%E9%A3%86%E6%BC%B2%E5%81%9C-072800401.html",
-      "source": "Yahoo 股市",
-      "published": "2026-11-09T15:28+08:00",
-      "summary": "台股今（9）日開盤走高，終場大漲1960.06點，收在41661.70點，漲幅4.94%，成交金額8379億元。權王台積電收2235元，聯發科亮燈漲停收3725元，電子權值股與AI供應鏈集體發威，推升",
-      "tags": []
-    },
-    {
-      "title": "黃仁勳婚外情曝光 台經院：對AI供應鏈影響不大",
-      "url": "https://tw.stock.yahoo.com/news/%E9%BB%83%E4%BB%81%E5%8B%B3%E5%A9%9A%E5%A4%96%E6%83%85%E6%9B%9D%E5%85%89-%E5%8F%B0%E7%B6%93%E9%99%A2-%E5%B0%8Dai%E4%BE%9B%E6%87%89%E9%8F%88%E5%BD%B1%E9%9F%BF%E4%B8%8D%E5%A4%A7-072643120.html",
-      "source": "Yahoo 股市",
-      "published": "2026-11-09T15:26+08:00",
-      "summary": "輝達（NVIDIA）執行長黃仁勳婚外情疑雲愈演愈烈，他在內部信中坦承對妻子不忠，並發表公開道歉，但此舉不僅震撼科技業界，也因女方疑似間諜身分；牽涉國安問題，讓整起婚外情更顯複雜；台灣投資人最關注的仍是",
-      "tags": []
-    },
-    {
-      "title": "台股震盪找買點！00830拚半導體成長、00984A抗跌之冠",
-      "url": "https://tw.news.yahoo.com/%E5%8F%B0%E8%82%A1%E9%9C%87%E7%9B%AA%E6%89%BE%E8%B2%B7%E9%BB%9E-00830%E6%8B%9A%E5%8D%8A%E5%B0%8E%E9%AB%94%E6%88%90%E9%95%B7-00984a%E6%8A%97%E8%B7%8C%E4%B9%8B%E5%86%A0-071105466.html",
-      "source": "Yahoo 股市",
-      "published": "2026-11-09T15:11+08:00",
-      "summary": "[Newtalk新聞] 全球AI競爭持續升溫，半導體產業長線成長趨勢並未改變，短線回檔反而讓投資人重新檢視布局機會，國泰證期顧問點名國泰費城半導體ETF（00830）、中信關鍵半導體（00891）、群",
-      "tags": []
-    },
-    {
-      "title": "光寶科累計前10月1736億元年增近三成 已超越去年全年營收",
-      "url": "https://news.cnyes.com/news/id/6653252",
-      "source": "鉅亨網",
-      "published": "2026-11-09T15:10+08:00",
-      "summary": "電源供應廠光寶科(2301-TW)今(9)日公布10月營收為NT$201億元，月增6%、年增32%。在AI與雲端運算高階伺服器電源、高效備援電池系統(BBU)等電能管理系統及高階光電半導體需求持續強勁帶動下，累計今年前10月營收1736億元",
       "tags": []
     }
   ]
