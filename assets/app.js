@@ -763,12 +763,77 @@
     const PAD = 14, STEP = 1.7, DOT = 1.35;
     const MOON = pixelShape("moon"), SUN = pixelShape("sun");
     // 圖示顏色看滑塊目前是深色還是淺色：拖到一半還沒放開時，滑塊仍是深色，太陽要用亮色才看得到
-    const iconColor = (icon) => (isDark() ? (icon === "sun" ? "#ffcf5a" : "#eef1ff") : (icon === "sun" ? "#40361f" : "#3c4466"));
+    // 拖曳中滑塊會慢慢變白，所以看拖到哪裡決定用亮色還是深色
+    const knobIsLight = () => (drag && drag.moved ? k >= 0.5 : !isDark());
+    const iconColor = (icon) => (!knobIsLight() ? (icon === "sun" ? "#ffcf5a" : "#eef1ff") : (icon === "sun" ? "#40361f" : "#3c4466"));
     let dpr = 1, anim = null, parts = null;
     let k = 0;            // 圖示變形進度：0 = 月亮（深色），1 = 太陽（淺色）
     let drag = null;      // 拖曳中的狀態
     let suppressClick = false;
     const isDark = () => root.dataset.theme !== "light";
+
+    // ---- 拖曳時背景跟著變：把深色、淺色兩組設計變數依滑塊位置混合 ----
+    let tokens = null;
+    function parseColor(v) {
+      v = v.trim();
+      let m = v.match(/^#([0-9a-f]{3}|[0-9a-f]{6})$/i);
+      if (m) {
+        const h = m[1].length === 3 ? [...m[1]].map((c) => c + c).join("") : m[1];
+        return [0, 2, 4].map((i) => parseInt(h.slice(i, i + 2), 16)).concat(1);
+      }
+      m = v.match(/^rgba?\(([^)]+)\)$/i);
+      if (m) { const n = m[1].split(/[,\s/]+/).filter(Boolean).map(Number); return [n[0], n[1], n[2], n.length > 3 ? n[3] : 1]; }
+      return null;
+    }
+    function readTokens() {
+      let dark = null, light = null;
+      for (const sheet of document.styleSheets) {
+        let rules; try { rules = sheet.cssRules; } catch (e) { continue; }
+        for (const r of rules) {
+          if (r.selectorText === ":root" && !dark) dark = r.style;
+          if (r.selectorText === ':root[data-theme="light"]') light = r.style;
+        }
+      }
+      if (!dark || !light) return [];
+      const out = [];
+      for (let i = 0; i < light.length; i++) {
+        const name = light[i];
+        if (!name.startsWith("--")) continue;
+        const a = dark.getPropertyValue(name).trim(), b = light.getPropertyValue(name).trim();
+        if (!a || !b) continue;
+        const ca = parseColor(a), cb = parseColor(b);
+        // 文字類的顏色不混色、過一半才換，不然拖到中間字和背景都是灰的會看不清楚
+        const isText = /^--(text|muted|faint|heading|summary|up|down|flat|accent-ink|kind-)/.test(name);
+        out.push(ca && cb && !isText ? { name, ca, cb } : { name, a, b });
+      }
+      return out;
+    }
+    let mixFrame = 0, mixK = 0;
+    function mixTheme(t) {  // t：0 = 深色，1 = 淺色
+      mixK = t;
+      if (mixFrame) return;
+      mixFrame = requestAnimationFrame(() => {
+        mixFrame = 0;
+        if (!tokens) tokens = readTokens();
+        const t2 = mixK;
+        tokens.forEach((o) => {
+          if (o.ca) {
+            const c = o.ca.map((v, i) => v + (o.cb[i] - v) * t2);
+            root.style.setProperty(o.name, `rgba(${Math.round(c[0])}, ${Math.round(c[1])}, ${Math.round(c[2])}, ${c[3].toFixed(3)})`);
+          } else {
+            root.style.setProperty(o.name, t2 < 0.5 ? o.a : o.b);  // 陰影這類沒辦法混的，過一半就換
+          }
+        });
+        root.style.colorScheme = t2 < 0.5 ? "dark" : "light";
+        const meta = document.querySelector('meta[name="theme-color"]');
+        if (meta) meta.content = getComputedStyle(root).getPropertyValue("--bg").trim();
+      });
+    }
+    function clearMix() {
+      cancelAnimationFrame(mixFrame); mixFrame = 0;
+      (tokens || []).forEach((o) => root.style.removeProperty(o.name));
+      root.style.removeProperty("color-scheme");
+    }
     const maxX = () => Math.max(0, btn.clientWidth - knob.offsetWidth - 2 * knob.offsetLeft);
 
     function knobCenter() {
@@ -878,6 +943,7 @@
       const x = Math.min(Math.max(drag.knobX + dx, 0), maxX());
       knob.style.transform = `translateX(${x}px)`;
       k = maxX() ? x / maxX() : 0;
+      if (!reduceMotion()) { mixTheme(k); btn.style.setProperty("--tt-light", k.toFixed(3)); }
       draw();
     });
     const endDrag = (e, cancelled) => {
@@ -890,7 +956,15 @@
       btn.classList.remove("is-dragging");
       const next = !cancelled && k >= 0.5 ? "light" : (!cancelled ? "dark" : (isDark() ? "dark" : "light"));
       const target = next === "light" ? 1 : 0;
+      if (!reduceMotion()) {
+        root.classList.add("theme-anim");
+        clearTimeout(applyTheme.t);
+        applyTheme.t = setTimeout(() => root.classList.remove("theme-anim"), 650);
+      }
+      clearMix();
+      btn.style.removeProperty("--tt-light");
       if ((next === "light") !== !isDark()) applyTheme(next);
+      else sync();
       knob.style.transform = "";  // 交還給 CSS，滑塊會從放開的位置滑到定位
       animateK(target, Math.max(220, 620 * Math.abs(target - k)));
     };

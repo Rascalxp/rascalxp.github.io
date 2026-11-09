@@ -380,14 +380,20 @@ button.sector-row[aria-expanded="true"]:hover { background: var(--hover); }
   box-shadow: inset 0 1px 0 rgba(255, 255, 255, .14), inset 0 -2px 4px rgba(0, 0, 0, .45), 0 4px 10px -2px rgba(0, 0, 0, .6), 0 0 14px -2px var(--tt-glow-soft);
   transition: transform .62s cubic-bezier(.65, 0, .35, 1), background .5s ease, box-shadow .5s ease;
 }
+:root[data-theme="light"] .theme-toggle { --tt-light: 1; }
+/* 白色玻璃那層疊在深色滑塊上，用透明度切換，拖曳時就能慢慢變白 */
+.tt-knob::after {
+  content: ""; position: absolute; inset: 0; border-radius: inherit; z-index: 0; pointer-events: none;
+  background: linear-gradient(180deg, #ffffff, #eceff4); opacity: var(--tt-light, 0); transition: opacity .5s ease;
+}
+.theme-toggle.is-dragging .tt-knob::after { transition: none; }
 :root[data-theme="light"] .tt-knob {
   transform: translateX(var(--tt-x-max, 26px));
-  background: linear-gradient(180deg, #ffffff, #eceff4);
   box-shadow: inset 0 1px 0 #fff, inset 0 -2px 4px rgba(16, 24, 40, .08), 0 4px 10px -3px rgba(16, 24, 40, .3), 0 0 16px -2px var(--tt-glow-soft);
 }
 /* 邊緣光：平常停在底部，切換時沿框掃一圈 */
 .tt-knob::before {
-  content: ""; position: absolute; inset: -2px; border-radius: 12px; padding: 2px; pointer-events: none;
+  content: ""; position: absolute; inset: -2px; border-radius: 12px; padding: 2px; pointer-events: none; z-index: 1;
   background: conic-gradient(from var(--sweep), transparent 0deg 100deg, #fff 145deg, var(--tt-glow) 175deg, transparent 230deg 360deg);
   -webkit-mask: linear-gradient(#000 0 0) content-box, linear-gradient(#000 0 0); -webkit-mask-composite: xor;
   mask: linear-gradient(#000 0 0) content-box exclude, linear-gradient(#000 0 0);
