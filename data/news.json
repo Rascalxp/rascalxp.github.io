@@ -1,9 +1,25 @@
 {
-  "updated": "2026-11-10T23:34:20+08:00",
+  "updated": "2026-11-11T00:22:34+08:00",
   "ai_summary": false,
   "model": null,
-  "candidates_sig": "4736fb342eadd2a4cb8cd4923898fe503cd7dd72",
+  "candidates_sig": "f031ccfba9808206019d994a27cad94d2395a5f6",
   "items": [
+    {
+      "title": "台積電擬投資OpenAI、Anthropic兩大AI模型公司，各最高5億美元！董事會另核准409億美元資本預算",
+      "url": "https://tw.news.yahoo.com/%E5%8F%B0%E7%A9%8D%E9%9B%BB%E6%93%AC%E6%8A%95%E8%B3%87openai-anthropic%E5%85%A9%E5%A4%A7ai%E6%A8%A1%E5%9E%8B%E5%85%AC%E5%8F%B8-%E5%90%84%E6%9C%80%E9%AB%985%E5%84%84%E7%BE%8E%E5%85%83-%E8%91%A3%E4%BA%8B%E6%9C%83%E5%8F%A6%E6%A0%B8%E5%87%86409%E5%84%84%E7%BE%8E%E5%85%83%E8%B3%87%E6%9C%AC%E9%A0%90%E7%AE%97-160820174.html",
+      "source": "Yahoo 股市",
+      "published": "2026-11-11T00:08+08:00",
+      "summary": "台積電的AI布局，從晶片製造進一步延伸至模型公司的股權投資。台積電（2330）今（10）日召開董事會，核准分別以不超過5億美元額度，認購OpenAI Group PBC特別股與Anthropic, P",
+      "tags": []
+    },
+    {
+      "title": "台積電董事會通過三大投資案 買OpenAI、買Anthropic、成立一檔創投基金",
+      "url": "https://tw.news.yahoo.com/%E5%8F%B0%E7%A9%8D%E9%9B%BB%E8%91%A3%E4%BA%8B%E6%9C%83%E9%80%9A%E9%81%8E%E4%B8%89%E5%A4%A7%E6%8A%95%E8%B3%87%E6%A1%88-%E8%B2%B7openai-%E8%B2%B7anthropic-%E6%88%90%E7%AB%8B-%E6%AA%94%E5%89%B5%E6%8A%95%E5%9F%BA%E9%87%91-160538826.html",
+      "source": "Yahoo 股市",
+      "published": "2026-11-11T00:05+08:00",
+      "summary": "台積電10日宣布分別投資 OpenAI的特別股和Anthropic新股，兩件合...",
+      "tags": []
+    },
     {
       "title": "美股開盤震蕩！台積電ADR漲0.71% 輝達下跌0.64%",
       "url": "https://tw.news.yahoo.com/%E7%BE%8Ecpi%E9%81%A0%E8%B6%85%E9%A0%90%E6%9C%9F-%E7%BE%8E%E8%82%A1%E9%96%8B%E7%9B%A4%E4%B8%89%E5%A4%A7%E6%8C%87%E6%95%B8%E9%BD%8A%E8%B7%8C-%E5%8F%B0%E7%A9%8D%E9%9B%BBadr%E4%B8%8A%E6%BC%B20-71-150122149.html",
@@ -66,22 +82,6 @@
       "source": "鉅亨網",
       "published": "2026-11-10T21:28+08:00",
       "summary": "晶圓代工龍頭台積電 (2330-TW)(TSM-US) 董事會今(10)日通過多項重大決議，包括核准配發 2026 年第三季每股現金股利 9.0 元、資本預算約 409.27 億美元，並首度宣布將分別以不超過 5 億美元的額度，認購 AI ",
-      "tags": []
-    },
-    {
-      "title": "今日最夯股／嘉晶開高走高飆漲停 AI 伺服器持續推升相關需求 | 市場焦點 | 證券",
-      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9jUnFhVFM2QUE3OG8yT1B0WmM3bVV6QWtXMXpLQ3VnMEltMzhZdnlOTFhnbnFjUnAyRzNJQi1ReWZsa1ZWcDBxUTJJVG1DYmZEaE9KeGhyYmJadw?oc=5",
-      "source": "經濟日報",
-      "published": "2026-11-10T21:28+08:00",
-      "summary": "",
-      "tags": []
-    },
-    {
-      "title": "不看眼前EPS、大廠親自帶路！證交所翻轉創新板估值 打造新創「資本加速器」",
-      "url": "https://news.cnyes.com/news/id/6656910",
-      "source": "鉅亨網",
-      "published": "2026-11-10T21:27+08:00",
-      "summary": "今 (10) 日登場的「TiBOOST 創新大步計畫」論壇暨決賽上，行政院長卓榮泰與臺灣證券交易所董事長林修銘共同宣示將加速推進「亞洲那斯達克」政策。值得關注的是，本屆活動透露出台灣資本市場與新創生態圈正在發生兩大核心質變，產業巨頭已從「單",
       "tags": []
     }
   ]
