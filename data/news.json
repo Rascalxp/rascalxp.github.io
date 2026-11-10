@@ -1,9 +1,17 @@
 {
-  "updated": "2026-11-11T00:22:34+08:00",
+  "updated": "2026-11-11T00:32:28+08:00",
   "ai_summary": false,
   "model": null,
-  "candidates_sig": "f031ccfba9808206019d994a27cad94d2395a5f6",
+  "candidates_sig": "c196ce3807d672ab57935bbd1a2df28f56e8bba5",
   "items": [
+    {
+      "title": "從AI晶片製造跨足模型投資！台積電為何擬入股OpenAI、Anthropic？三個觀察解析布局",
+      "url": "https://tw.news.yahoo.com/%E5%BE%9Eai%E6%99%B6%E7%89%87%E8%A3%BD%E9%80%A0%E8%B7%A8%E8%B6%B3%E6%A8%A1%E5%9E%8B%E6%8A%95%E8%B3%87-%E5%8F%B0%E7%A9%8D%E9%9B%BB%E7%82%BA%E4%BD%95%E6%93%AC%E5%85%A5%E8%82%A1openai-anthropic-%E4%B8%89%E5%80%8B%E8%A7%80%E5%AF%9F%E8%A7%A3%E6%9E%90%E5%B8%83%E5%B1%80-162506165.html",
+      "source": "Yahoo 股市",
+      "published": "2026-11-11T00:25+08:00",
+      "summary": "台積電準備投資的對象，已延伸至提出AI算力需求的模型公司。台積電（2330）今（10）日董事會核准，分別以不超過5億美元認購OpenAI特別股與Anthropic普通股。當外界對於AI資料中心投資金額",
+      "tags": []
+    },
     {
       "title": "台積電擬投資OpenAI、Anthropic兩大AI模型公司，各最高5億美元！董事會另核准409億美元資本預算",
       "url": "https://tw.news.yahoo.com/%E5%8F%B0%E7%A9%8D%E9%9B%BB%E6%93%AC%E6%8A%95%E8%B3%87openai-anthropic%E5%85%A9%E5%A4%A7ai%E6%A8%A1%E5%9E%8B%E5%85%AC%E5%8F%B8-%E5%90%84%E6%9C%80%E9%AB%985%E5%84%84%E7%BE%8E%E5%85%83-%E8%91%A3%E4%BA%8B%E6%9C%83%E5%8F%A6%E6%A0%B8%E5%87%86409%E5%84%84%E7%BE%8E%E5%85%83%E8%B3%87%E6%9C%AC%E9%A0%90%E7%AE%97-160820174.html",
@@ -74,14 +82,6 @@
       "source": "Yahoo 股市",
       "published": "2026-11-10T21:54+08:00",
       "summary": "公開資訊觀測站重大訊息公告(2330)台積電-代子公司TSMC Partners, Ltd.公告擬投資OpenAI Group PBC1.標的物之名稱及性質（屬特別股者，並應標明特別股約定發行條件，如",
-      "tags": []
-    },
-    {
-      "title": "台積電Q3配息9元 核准資本預算409億美元 擬各砸5億美元入股Anthropic與OpenAI",
-      "url": "https://news.cnyes.com/news/id/6656911",
-      "source": "鉅亨網",
-      "published": "2026-11-10T21:28+08:00",
-      "summary": "晶圓代工龍頭台積電 (2330-TW)(TSM-US) 董事會今(10)日通過多項重大決議，包括核准配發 2026 年第三季每股現金股利 9.0 元、資本預算約 409.27 億美元，並首度宣布將分別以不超過 5 億美元的額度，認購 AI ",
       "tags": []
     }
   ]
