@@ -1,9 +1,41 @@
 {
-  "updated": "2026-11-10T15:01:17+08:00",
+  "updated": "2026-11-10T15:31:02+08:00",
   "ai_summary": false,
   "model": null,
-  "candidates_sig": "f17e9efae2b33bbb1ebec3a14a4ecfef16835830",
+  "candidates_sig": "e740a798875cc9032c08c72050e2764e933622fa",
   "items": [
+    {
+      "title": "大同10月營收33.92億元年月雙衰退 子公司重新參與台電標案馬達產品已出貨",
+      "url": "https://news.cnyes.com/news/id/6655647",
+      "source": "鉅亨網",
+      "published": "2026-11-10T15:24+08:00",
+      "summary": "大同(2371-TW)今(10)日公告10月營收33.92億元，受到精英(2331-TW)部分產品出貨減少，使得10月營收月對月、年對年皆衰退。大同先前遭行政院公共工程委員會停權，大同指出，已透過子公司重新參與台電標案，馬達產品已出貨。 大",
+      "tags": []
+    },
+    {
+      "title": "〈上銀法說〉Q3獲利年增1.7倍EPS 3.48元 四大因素加持毛利率衝上36.3%",
+      "url": "https://news.cnyes.com/news/id/6655544",
+      "source": "鉅亨網",
+      "published": "2026-11-10T15:23+08:00",
+      "summary": "上銀(2049-TW)今(10)日舉行法說會，由董事長卓文恒親自主持，並公布2026年第三季財報。受惠於半導體、AI應用、自動化及基礎建設需求持續熱絡，上銀第三季營收、毛利率與獲利同步躍升，單季稅後純益達12.3億元，季增45%、年增1.7",
+      "tags": []
+    },
+    {
+      "title": "外資投信大對作！一賣341億、一買368億 三大法人賣超148.23億元",
+      "url": "https://news.cnyes.com/news/id/6655565",
+      "source": "鉅亨網",
+      "published": "2026-11-10T15:05+08:00",
+      "summary": "台股今(10)日延續連2天反攻氣勢開高走高，盤中在電子權值股、塑化及航運股領軍下，大漲逾1,474點，資金也搶進AI、光通訊族群，終場飆漲1,050.22點或漲2.52%，收42711.92點，站回5日線，成交量放大至1兆元；三大法人合計賣",
+      "tags": []
+    },
+    {
+      "title": "盤後／台股大漲1050點 大家瘋買這10檔",
+      "url": "https://tw.news.yahoo.com/%E7%9B%A4%E5%BE%8C-%E5%8F%B0%E8%82%A1%E5%A4%A7%E6%BC%B21050%E9%BB%9E-%E5%A4%A7%E5%AE%B6%E7%98%8B%E8%B2%B7%E9%80%9910%E6%AA%94-065200351.html",
+      "source": "Yahoo 股市",
+      "published": "2026-11-10T14:52+08:00",
+      "summary": "台股今受美股科技股大漲激勵強勢反彈，終場大漲1050點收在42711點，成交值破兆元。在國安基金護盤與AI需求推升下，半導體封測、載板及銅箔基板族群成為多頭主流，同欣電、台光電與金像電等指標股強勢漲停",
+      "tags": []
+    },
     {
       "title": "台積電10月營收飆5868億元年增近60% 創下歷史新高",
       "url": "https://news.cnyes.com/news/id/6655551",
@@ -50,38 +82,6 @@
       "source": "Yahoo 股市",
       "published": "2026-11-10T14:13+08:00",
       "summary": "[Newtalk新聞] 台積電（2330）今（10）日公布2026年10月營收報告。單月合併營收達到新台幣5,868億9,000萬元，較上月增加14.7%，與去年同期相比更大幅飆升59.7%。累計20",
-      "tags": []
-    },
-    {
-      "title": "台積電10月營收破紀錄！網友4大熱議 一票人為股價抱屈：基本面不如泡麵",
-      "url": "https://tw.stock.yahoo.com/news/%E5%8F%B0%E7%A9%8D%E9%9B%BB10%E6%9C%88%E7%87%9F%E6%94%B6%E7%A0%B4%E7%B4%80%E9%8C%84%EF%BC%81%E7%B6%B2%E5%8F%8B4%E5%A4%A7%E7%86%B1%E8%AD%B0-%E4%B8%80%E7%A5%A8%E4%BA%BA%E7%82%BA%E8%82%A1%E5%83%B9%E6%8A%B1%E5%B1%88%EF%BC%9A%E5%9F%BA%E6%9C%AC%E9%9D%A2%E4%B8%8D%E5%A6%82%E6%B3%A1%E9%BA%B5-060713782.html",
-      "source": "Yahoo 股市",
-      "published": "2026-11-10T14:07+08:00",
-      "summary": "晶圓代工龍頭台積電（2330）今（10）日公布 10 月營收衝破 5,800 億元大關，在蘋果新機備貨與全球 AI 狂飆需求強烈拉抬下，一舉強勢刷新「史上最強 10 月」與「單月歷史新高」雙紀錄。亮眼",
-      "tags": []
-    },
-    {
-      "title": "黃仁勳外遇影響供應鏈？ 許勝雄：台廠很有韌性- 財經新聞",
-      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQTm9NYUZxV21ZcU9VaHZHTkl0T3J4c0JOb3VwekF3Q0YxWGF1a2FfM3d3cF9lb0FGMVQtM0V6QnRVd0Qza2swYng2YzQ5Z0VCX2tfWGZfRTR6Uzg1LU8zZ25fUlpPZUlQRHdqSlJsLXdJTWhaWlMwVWFrWTFLaHAwTEVsMFhFY01jUU82SC1B?oc=5",
-      "source": "PChome Online 新聞",
-      "published": "2026-11-10T14:05+08:00",
-      "summary": "",
-      "tags": []
-    },
-    {
-      "title": "同欣電(6271) 想接 Lumentum 生意！大客戶若跟這家光通訊廠合併，機會大得多",
-      "url": "https://news.cnyes.com/news/id/6655503",
-      "source": "鉅亨網",
-      "published": "2026-11-10T14:00+08:00",
-      "summary": "同欣電(6271-TW) 一直想跟美國光通訊廠 Lumentum 做生意，公司在法說會上表示目前進度還是有限。不過公司提到，目前往來的一個大客戶可能跟 Lumentum 合作或合併，如果這件事真的成功，對爭取這些訂單會有很大的幫助。 同欣電",
-      "tags": []
-    },
-    {
-      "title": "同欣電(6271) 第 4 季原本預期要衰退！AI 需求把它翻成季增",
-      "url": "https://news.cnyes.com/news/id/6655501",
-      "source": "鉅亨網",
-      "published": "2026-11-10T14:00+08:00",
-      "summary": "同欣電(6271-TW) 年初原本預期 2026 年第 4 季會比第 3 季稍微下降，公司這次在法說會上改口，第 4 季會比第 3 季稍微成長。主要的推力是 AI 相關產品，成長速度超過季節性。 過去幾年第 1 到第 3 季逐季成長、第 4",
       "tags": []
     }
   ]
