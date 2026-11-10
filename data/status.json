@@ -1,25 +1,25 @@
 {
   "chips": {
-    "time": "2026-11-10T07:10:28+08:00",
+    "time": "2026-11-10T12:10:27+08:00",
     "ok": true,
     "errors": [
       "tmf_from_taifex 失敗：期交所欄位和預期不同：['<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01//EN\" \"http://www.w3.org/TR/html4/strict.dtd\">']",
-      "tmf_from_openapi 失敗：期交所欄位和預期不同：['[{\"Date\":\"20261106\"', 'ContractCode:\"臺股期貨\"', 'Item:\"自營商\"', 'TradingVolume(Long):\"18917\"', 'TradingValue(Long)(Thousands):\"149374772\"', 'TradingVolume(Short):\"19792\"', 'TradingValue(Short)(Thousands):\"157168943\"', 'TradingVolume(Net):\"-875\"', 'TradingValue(Net)(Thousands):\"-7794172\"', 'OpenInterest(Long):\"6022\"', 'ContractValueofOpenInterest(Long)(Thousands):\"47794882\"', 'OpenInterest(Short):\"4342\"', 'ContractValueofOpenInterest(Short)(Thousands):\"34459560\"', 'OpenInterest(Net):\"1680\"', 'ContractValueofOpenInterest(Net)(Thousands):\"13335322\"}', '']",
+      "tmf_from_openapi 失敗：期交所欄位和預期不同：['[{\"Date\":\"20261109\"', 'ContractCode:\"臺股期貨\"', 'Item:\"自營商\"', 'TradingVolume(Long):\"7672\"', 'TradingValue(Long)(Thousands):\"63177062\"', 'TradingVolume(Short):\"8368\"', 'TradingValue(Short)(Thousands):\"68810344\"', 'TradingVolume(Net):\"-696\"', 'TradingValue(Net)(Thousands):\"-5633282\"', 'OpenInterest(Long):\"5813\"', 'ContractValueofOpenInterest(Long)(Thousands):\"48262119\"', 'OpenInterest(Short):\"4787\"', 'ContractValueofOpenInterest(Short)(Thousands):\"39734436\"', 'OpenInterest(Net):\"1026\"', 'ContractValueofOpenInterest(Net)(Thousands):\"8527683\"}', '']",
       "散戶微台：找不到資料"
     ]
   },
   "news": {
-    "time": "2026-11-10T07:10:53+08:00",
+    "time": "2026-11-10T12:10:50+08:00",
     "ok": true,
     "errors": []
   },
   "media": {
-    "time": "2026-11-10T07:10:51+08:00",
+    "time": "2026-11-10T12:10:47+08:00",
     "ok": true,
     "errors": []
   },
   "sectors": {
-    "time": "2026-11-10T07:10:44+08:00",
+    "time": "2026-11-10T12:10:43+08:00",
     "ok": true,
     "errors": []
   }
