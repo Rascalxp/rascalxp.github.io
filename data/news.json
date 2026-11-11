@@ -1,9 +1,25 @@
 {
-  "updated": "2026-11-12T00:04:11+08:00",
+  "updated": "2026-11-12T00:27:47+08:00",
   "ai_summary": false,
   "model": null,
-  "candidates_sig": "e405f728923219729a3ee5b9047ef960067caf83",
+  "candidates_sig": "01c65aa3f73248538089963b7171ac009b3435c6",
   "items": [
+    {
+      "title": "黃仁勳外遇拖累台灣AI供應鏈？美媒分析師斷言：能威脅台積電的只有「它」",
+      "url": "https://tw.news.yahoo.com/%E9%BB%83%E4%BB%81%E5%8B%B3%E5%A4%96%E9%81%87%E6%8B%96%E7%B4%AF%E5%8F%B0%E7%81%A3ai%E4%BE%9B%E6%87%89%E9%8F%88-%E7%BE%8E%E5%AA%92%E5%88%86%E6%9E%90%E5%B8%AB%E6%96%B7%E8%A8%80-%E8%83%BD%E5%A8%81%E8%84%85%E5%8F%B0%E7%A9%8D%E9%9B%BB%E7%9A%84%E5%8F%AA%E6%9C%89-%E5%AE%83-161312962.html",
+      "source": "Yahoo 股市",
+      "published": "2026-11-12T00:13+08:00",
+      "summary": "輝達（NVIDIA）執行長黃仁勳的婚外情風暴震撼全球，而黃仁勳不僅在台灣以親民形象出名，輝達也是護國神山台積電的最大客戶之一，讓產業關注這場風波是否會影響台灣AI供應鏈。對此，美媒《Business",
+      "tags": []
+    },
+    {
+      "title": "太陽能股將崛起！馬斯克SpaceX豪砸HJT太陽能 台股兩大太空AI供應鏈浮現",
+      "url": "https://news.google.com/rss/articles/CBMipANBVV95cUxQUVl1c0Vkd0Itc2wxdTZ6WWVtSThSZmF6cFNPYU1mNWxKU3VHX3lHMndiMWxfaHkzaDF1WWRGQmk3RWcxUjBTbllzUTdQQW42d0xsNmRvU09RSHhqeTBQQ0hNS2NkUVdqMk9DdEJUX0Nub3I3UHc0RWlnUzlfTmg5d1hJX2VqOHRGNENZSFFvbHIxQTJGTUpKUzV5SF9zeUdZQm9tNmpNVzlGaFVqRVVDMnM0eF9DMVpVZWxBOXhDMWlpTWF3Rmd0RWVHV09rM0tBSmlWRlFLTEdCUDd4a0c4Wm9xVDE2Z19PZ2x2OGQzbXdpdUxlSG1yaTdudDVpM0dnNERlOUlQSUh4TnVpN3BjTUJ1RXg2RjlQc1poWVRndUViSl9IeTd5TDJoS1VjdTBIWFZsSGpSWU1BVEJPNDg4ODRDMGZFWm85T0dYSVZDaEg2dTQ1Y1k4YTFZVXd3NjhOSEJ1dG5jZHF4TUpfMHhBNHVoT01jLUZGVGRtZDlEYTdodGE5OWZKdXFjUm10b1RNb3N4OWhGM19fLWVlei0yWVVsSHg?oc=5",
+      "source": "台灣好新聞",
+      "published": "2026-11-12T00:02+08:00",
+      "summary": "",
+      "tags": []
+    },
     {
       "title": "CoreWeave財報超猛！美股開盤費半飆4.74% 台積電ADR大漲4.10%、輝達強彈2.62%",
       "url": "https://tw.news.yahoo.com/coreweave%E8%B2%A1%E5%A0%B1%E8%B6%85%E7%8C%9B-%E7%BE%8E%E8%82%A1%E9%96%8B%E7%9B%A4%E8%B2%BB%E5%8D%8A%E9%A3%86%E5%8D%874-74-%E5%8F%B0%E7%A9%8D%E9%9B%BBadr%E5%A4%A7%E6%BC%B24-10-145746982.html",
@@ -66,22 +82,6 @@
       "source": "鉅亨網",
       "published": "2026-11-11T23:00+08:00",
       "summary": "2026年11月11日（優分析／產業數據中心報導）⸺ 廣達(2382-TW) 承接的非 NVIDIA 平台 2026 年占營收還不到 10%，公司預估 2027 年這個比重會升到兩位數百分比；成長動能來自雲端業者自研的 ASIC 伺服器與超",
-      "tags": []
-    },
-    {
-      "title": "廣達(2382) 存貨增至 8,561 億元！資金集中在新世代機櫃的零件",
-      "url": "https://news.cnyes.com/news/id/6659656",
-      "source": "鉅亨網",
-      "published": "2026-11-11T23:00+08:00",
-      "summary": "2026年11月11日（優分析／產業數據中心報導）⸺ 廣達(2382-TW) 第 3 季底存貨 8,561 億元，比第 2 季底增加 659 億元、季增 8.3%。公司說明，存貨增加是為了因應新世代 GPU 平台的 AI 伺服器機櫃在第 4",
-      "tags": []
-    },
-    {
-      "title": "樺漢(6414) 2027 年在手訂單逾 2,800 億！一半來自半導體建廠",
-      "url": "https://news.cnyes.com/news/id/6659654",
-      "source": "鉅亨網",
-      "published": "2026-11-11T23:00+08:00",
-      "summary": "2026年11月11日（優分析／產業數據中心報導）⸺ 樺漢(6414-TW) 2027 年的在手訂單已超過 2,800 億元。公司表示，目前的訂單出貨比（BB ratio，當期接單金額除以出貨金額）為 1.3 至 1.35，換算下來，接單比",
       "tags": []
     }
   ]
