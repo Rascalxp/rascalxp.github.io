@@ -1,9 +1,49 @@
 {
-  "updated": "2026-11-12T15:01:06+08:00",
+  "updated": "2026-11-12T15:31:34+08:00",
   "ai_summary": false,
   "model": null,
-  "candidates_sig": "20abb66559aededfc4ae6b32a056c6659420b095",
+  "candidates_sig": "7a3c1758a88210e3bf5cbd2b4bdff42709f03a57",
   "items": [
+    {
+      "title": "外資狂買台灣破紀錄！國際大廠對台採購首越3000億美元 輝達蘋果全上榜",
+      "url": "https://news.cnyes.com/news/id/6660389",
+      "source": "鉅亨網",
+      "published": "2026-11-12T15:18+08:00",
+      "summary": "國際大廠今年對台採購估3258億美元年增24%，首度破3000億；前9月出口6615.3億美元年增46.2%。 龔明鑫指AI資料中心需晶片到散熱完整鏈結，台灣靠供應鏈協作與系統整合，扮演全球AI供應鏈核心。 22家外商獲IPO Awards",
+      "tags": []
+    },
+    {
+      "title": "盤中賣壓出籠台股急跌逾千點翻黑 三大法人買超51.6億元",
+      "url": "https://news.cnyes.com/news/id/6660388",
+      "source": "鉅亨網",
+      "published": "2026-11-12T15:07+08:00",
+      "summary": "台股今(12)日開高，盤中受輝達黃仁勳陷入婚外情醜聞及間諜指控影響，加上權王台積電(2330-TW)及電子權值股翻黑，指數急速下探，最低一度失守4萬3千點整數關卡，指數高低點差距高達1,582點，終場下跌1165.28點或2.63%，收43",
+      "tags": []
+    },
+    {
+      "title": "鴻海Q3獲利創高、EPS達5.51元！營業利益率也改善 全年展望喊上修",
+      "url": "https://tw.news.yahoo.com/%E9%B4%BB%E6%B5%B7q3%E7%8D%B2%E5%88%A9%E5%89%B5%E9%AB%98-eps%E9%81%945-51%E5%85%83-%E7%87%9F%E6%A5%AD%E5%88%A9%E7%9B%8A%E7%8E%87%E4%B9%9F%E6%94%B9%E5%96%84-%E5%85%A8%E5%B9%B4%E5%B1%95%E6%9C%9B%E5%96%8A%E4%B8%8A%E4%BF%AE-070207394.html",
+      "source": "Yahoo 股市",
+      "published": "2026-11-12T15:02+08:00",
+      "summary": "[Newtalk新聞] 鴻海（2317）今（12）日舉行法說會，會前先公布第三季財報。受惠 AI 伺服器需求強勁，單季合併營收達 3 兆 156.34 億元，季增 19%、年增 46%；歸屬母公司淨利",
+      "tags": []
+    },
+    {
+      "title": "輝達要換新CEO? 台股巨震1581點又回防4萬3",
+      "url": "https://tw.stock.yahoo.com/news/%E8%BC%9D%E9%81%94%E8%A6%81%E6%8F%9B%E6%96%B0ceo-%E5%8F%B0%E8%82%A1%E5%B7%A8%E9%9C%871581%E9%BB%9E%E5%8F%88%E5%9B%9E%E9%98%B24%E8%90%AC3-065410677.html",
+      "source": "Yahoo 股市",
+      "published": "2026-11-12T14:54+08:00",
+      "summary": "[非凡新聞]記者黃友柔,攝影謝隆証輝達相關爭議持續延燒，衝擊台股表現，今（12）日早盤雖然一度衝上44525點，不過隨後指數一路走低，最低下探42943點，高低震盪將近1600點。電子權值股普遍疲弱，",
+      "tags": []
+    },
+    {
+      "title": "鴻海Q3 EPS 5.51元，上修今年展望，明年審慎樂觀，AI機櫃高雙位數成長",
+      "url": "https://tw.stock.yahoo.com/news/%E9%B4%BB%E6%B5%B7q3-eps-5-51%E5%85%83-%E4%B8%8A%E4%BF%AE%E4%BB%8A%E5%B9%B4%E5%B1%95%E6%9C%9B-065223953.html",
+      "source": "Yahoo 股市",
+      "published": "2026-11-12T14:52+08:00",
+      "summary": "【財訊快報／記者劉居全報導】鴻海(2317)今(12)日下午3:00將舉行法說會，法說會前鴻海釋出第三季財報，第三季合併營收3.01兆元，季增19%，年增46%，毛利率6.02%，稅後淨利775.24",
+      "tags": []
+    },
     {
       "title": "〈台股收盤〉電子權值賣壓沉重、盤中大怒神影響 終場重挫1165點險守4萬3千點",
       "url": "https://news.cnyes.com/news/id/6660375",
@@ -13,11 +53,11 @@
       "tags": []
     },
     {
-      "title": "華碩輕巧外接GPU亮相 RX 9060 XT LP搭USB4攻筆電效能",
-      "url": "https://tw.stock.yahoo.com/news/%E8%8F%AF%E7%A2%A9%E8%BC%95%E5%B7%A7%E5%A4%96%E6%8E%A5gpu%E4%BA%AE%E7%9B%B8-rx-9060-xt-lp%E6%90%ADusb4%E6%94%BB%E7%AD%86%E9%9B%BB%E6%95%88%E8%83%BD-064108041.html",
+      "title": "【鴻海法說】前三季EPS 13.35元 劉揚偉：明年動能強勁、AI機櫃高雙位數",
+      "url": "https://tw.news.yahoo.com/%E9%B4%BB%E6%B5%B7%E6%B3%95%E8%AA%AA-%E5%89%8D%E4%B8%89%E5%AD%A3eps-13-35%E5%85%83-%E5%8A%89%E6%8F%9A%E5%81%89-064100018.html",
       "source": "Yahoo 股市",
       "published": "2026-11-12T14:41+08:00",
-      "summary": "圖／本報資料庫商傳媒｜何映辰／台北報導華碩於今年11月6日宣布推出 XG Core Radeon RX 9060 XT LP 16GB GDDR6，這是一款輕巧型的外接GPU（External Gra",
+      "summary": "AI供應鏈多空消息交戰，鴻海前三季每股盈餘13.35元，年增29%。展望後市，鴻海看好第四季季對季、年對年皆強勁成長，上修全年展望。聚焦2027年展望，鴻海表示，透過高度整合系統設計與製造服務、強健財",
       "tags": []
     },
     {
@@ -26,14 +66,6 @@
       "source": "Yahoo 股市",
       "published": "2026-11-12T14:30+08:00",
       "summary": "【財訊快報／黃冠豪】輝達董事會傳出準備撤換執行長黃仁勳，最快今天開會決定去留。輝達週三盤後一度重挫8%，亞股今（12）日因此一路走低。截至台股收盤，日經指數下跌412.16點，跌幅0.67%，暫報60",
-      "tags": []
-    },
-    {
-      "title": "數發部：AI助駭客網攻 十多家企業共800萬筆個資外洩",
-      "url": "https://tw.news.yahoo.com/%E6%95%B8%E7%99%BC%E9%83%A8-ai%E5%8A%A9%E9%A7%AD%E5%AE%A2%E7%B6%B2%E6%94%BB-%E5%8D%81%E5%A4%9A%E5%AE%B6%E4%BC%81%E6%A5%AD%E5%85%B1800%E8%90%AC%E7%AD%86%E5%80%8B%E8%B3%87%E5%A4%96%E6%B4%A9-062110369.html",
-      "source": "Yahoo 股市",
-      "published": "2026-11-12T14:21+08:00",
-      "summary": "台灣近期發生多起網路攻擊及個資外洩事件，更傳出台積電員工個資在網路上遭兜售。數發部資通安全署副署長周智禾今天(12日)表示，因AI助攻駭客攻擊，近期已有十多家企業受害，約800萬筆個資外洩。數發部呼籲",
       "tags": []
     },
     {
@@ -50,38 +82,6 @@
       "source": "Yahoo 股市",
       "published": "2026-11-12T14:10+08:00",
       "summary": "台股今（12）日開高走低，盤中雖一度上漲逾200點，但翻黑後跌幅迅速擴大，尾盤以43091點作收，下跌1165點，跌幅2.63%，成交量來到1.01兆元；台積電、鴻海等一票輝達概念股也綠一片，唯獨金融",
-      "tags": []
-    },
-    {
-      "title": "十大營運領頭羊出爐！鴻海、台積電10月營收年月雙增 AI概念股成長強勁",
-      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFAwOUxCSlRFTXFzNGpOSFV6bV9xVllTVWM4YU1tX3JqU081VF8zVkNuVkVHWXhjN0I1LUNHUEdOaFRWT0NOSXprTnVIcV9MYTFyeXVKSkxmMkxkdVYwOEdKblZHMXBGdw?oc=5",
-      "source": "民視財經網",
-      "published": "2026-11-12T14:09+08:00",
-      "summary": "",
-      "tags": []
-    },
-    {
-      "title": "台積電CPO霸主地位穩了？法人看好2027年EPS估達151元",
-      "url": "https://tw.news.yahoo.com/%E5%8F%B0%E7%A9%8D%E9%9B%BBcpo%E9%9C%B8%E4%B8%BB%E5%9C%B0%E4%BD%8D%E7%A9%A9%E4%BA%86-%E6%B3%95%E4%BA%BA%E7%9C%8B%E5%A5%BD2027%E5%B9%B4eps%E4%BC%B0%E9%81%94151%E5%85%83-060108809.html",
-      "source": "Yahoo 股市",
-      "published": "2026-11-12T14:01+08:00",
-      "summary": "[Newtalk新聞] AI浪潮持續推進，從3奈米、2奈米先進製程，到AI ASIC、CPO光互連、高速光模組及先進封裝，台灣半導體與AI供應鏈迎來新一波成長契機。國泰證期顧問最新報告點名7大個股及產",
-      "tags": []
-    },
-    {
-      "title": "黃仁勳外遇會衝擊台積電？輝達親上火線回應合作現況 專家曝真正隱憂",
-      "url": "https://tw.stock.yahoo.com/news/%E9%BB%83%E4%BB%81%E5%8B%B3%E5%A4%96%E9%81%87%E6%9C%83%E8%A1%9D%E6%93%8A%E5%8F%B0%E7%A9%8D%E9%9B%BB-%E8%BC%9D%E9%81%94%E8%A6%AA%E4%B8%8A%E7%81%AB%E7%B7%9A%E5%9B%9E%E6%87%89%E5%90%88%E4%BD%9C%E7%8F%BE%E6%B3%81-%E5%B0%88%E5%AE%B6%E6%9B%9D%E7%9C%9F%E6%AD%A3%E9%9A%B1%E6%86%82-060000275.html",
-      "source": "Yahoo 股市",
-      "published": "2026-11-12T14:00+08:00",
-      "summary": "[FTNN新聞網]記者吳欣穎／綜合報導輝達（NVIDIA）執行長黃仁勳婚外情風波持續延燒，外界關注這起爭議是否影響輝達與台積電（2330）的合作關係。美媒《商業內...",
-      "tags": []
-    },
-    {
-      "title": "台股V轉失敗！終場大跌1165點險守43K 護國神山台積電跌55元",
-      "url": "https://tw.news.yahoo.com/%E5%8F%B0%E8%82%A1v%E8%BD%89%E5%A4%B1%E6%95%97-%E7%B5%82%E5%A0%B4%E5%A4%A7%E8%B7%8C1165%E9%BB%9E%E9%9A%AA%E5%AE%8843k-%E8%AD%B7%E5%9C%8B%E7%A5%9E%E5%B1%B1%E5%8F%B0%E7%A9%8D%E9%9B%BB%E8%B7%8C55%E5%85%83-055432452.html",
-      "source": "Yahoo 股市",
-      "published": "2026-11-12T13:54+08:00",
-      "summary": "受到AI雲端業者CoreWeave第三季財報亮眼激勵，週三美股四大指數全面收紅，其中費城半導體狂飆近6％，台積電ADR上漲4.25%，不過因黃仁勳婚外情一事，使輝達盤後股價重挫逾8%；而台股今（12）",
       "tags": []
     }
   ]
