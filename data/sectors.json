@@ -7,7 +7,7 @@
     "close": 43091.87,
     "change_pct": -2.63
   },
-  "total_value": 951976689942,
+  "total_value": 961824913382,
   "prev_total_value": 792482076361,
   "sectors": [
     {
@@ -16,8 +16,8 @@
       "change_pct": 5.93,
       "value": 40435053908,
       "prev_value": 20072002923,
-      "share": 4.25,
-      "share_change": 1.71,
+      "share": 4.2,
+      "share_change": 1.67,
       "count": 5,
       "up": 3,
       "down": 1,
@@ -110,7 +110,7 @@
       "change_pct": 1.0,
       "value": 1574324270,
       "prev_value": 1221831075,
-      "share": 0.17,
+      "share": 0.16,
       "share_change": 0.01,
       "count": 24,
       "up": 8,
@@ -220,10 +220,10 @@
       "name": "生技醫療",
       "index_close": 92.2,
       "change_pct": 0.85,
-      "value": 10787235342,
+      "value": 10795235342,
       "prev_value": 6835447706,
-      "share": 1.13,
-      "share_change": 0.27,
+      "share": 1.12,
+      "share_change": 0.26,
       "count": 62,
       "up": 22,
       "down": 36,
@@ -231,7 +231,7 @@
         "code": "6446",
         "name": "藥華藥",
         "change_pct": 2.25,
-        "value_share": 69.6
+        "value_share": 69.5
       },
       "top": [
         {
@@ -444,10 +444,10 @@
       "name": "紡織纖維",
       "index_close": 477.43,
       "change_pct": 0.8,
-      "value": 2066946547,
+      "value": 2194150297,
       "prev_value": 1284645409,
-      "share": 0.22,
-      "share_change": 0.06,
+      "share": 0.23,
+      "share_change": 0.07,
       "count": 42,
       "up": 15,
       "down": 20,
@@ -455,7 +455,7 @@
         "code": "1476",
         "name": "儒鴻",
         "change_pct": 4.68,
-        "value_share": 62.1
+        "value_share": 63.0
       },
       "top": [
         {
@@ -464,7 +464,7 @@
           "close": 369.0,
           "change": 16.5,
           "change_pct": 4.68,
-          "value": 1283529503,
+          "value": 1381539503,
           "limit_up": false
         },
         {
@@ -473,7 +473,7 @@
           "close": 215.5,
           "change": 2.5,
           "change_pct": 1.17,
-          "value": 349218448,
+          "value": 378412198,
           "limit_up": false
         },
         {
@@ -511,7 +511,7 @@
           "close": 369.0,
           "change": 16.5,
           "change_pct": 4.68,
-          "value": 1283529503,
+          "value": 1381539503,
           "limit_up": false
         },
         {
@@ -520,7 +520,7 @@
           "close": 215.5,
           "change": 2.5,
           "change_pct": 1.17,
-          "value": 349218448,
+          "value": 378412198,
           "limit_up": false
         },
         {
@@ -874,10 +874,10 @@
       "name": "金融保險",
       "index_close": 3665.98,
       "change_pct": -0.05,
-      "value": 21840484107,
+      "value": 21883851437,
       "prev_value": 21994083091,
-      "share": 2.29,
-      "share_change": -0.48,
+      "share": 2.28,
+      "share_change": -0.5,
       "count": 31,
       "up": 17,
       "down": 7,
@@ -968,7 +968,7 @@
           "close": 75.4,
           "change": 0.7,
           "change_pct": 0.94,
-          "value": 2672323345,
+          "value": 2688995545,
           "limit_up": false
         },
         {
@@ -986,7 +986,7 @@
       "name": "汽車",
       "index_close": 276.11,
       "change_pct": -0.21,
-      "value": 1606918696,
+      "value": 1622066696,
       "prev_value": 1344757382,
       "share": 0.17,
       "share_change": -0.0,
@@ -997,7 +997,7 @@
         "code": "2254",
         "name": "巨鎧精密-創",
         "change_pct": -1.35,
-        "value_share": 23.7
+        "value_share": 23.5
       },
       "top": [
         {
@@ -1007,6 +1007,15 @@
           "change": 4.0,
           "change_pct": 0.77,
           "value": 117352622,
+          "limit_up": false
+        },
+        {
+          "code": "4557",
+          "name": "永新-KY",
+          "close": 54.1,
+          "change": 0.3,
+          "change_pct": 0.56,
+          "value": 17886072,
           "limit_up": false
         },
         {
@@ -1034,15 +1043,6 @@
           "change": -0.2,
           "change_pct": -0.28,
           "value": 141845274,
-          "limit_up": false
-        },
-        {
-          "code": "2204",
-          "name": "中華",
-          "close": 51.0,
-          "change": -0.2,
-          "change_pct": -0.39,
-          "value": 35933588,
           "limit_up": false
         }
       ],
@@ -1213,7 +1213,7 @@
       "value": 388164309,
       "prev_value": 362748726,
       "share": 0.04,
-      "share_change": -0.0,
+      "share_change": -0.01,
       "count": 11,
       "up": 2,
       "down": 8,
@@ -1540,7 +1540,7 @@
       "value": 2646410071,
       "prev_value": 2185469718,
       "share": 0.28,
-      "share_change": 0.0,
+      "share_change": -0.0,
       "count": 31,
       "up": 10,
       "down": 19,
@@ -1651,8 +1651,8 @@
       "change_pct": -0.92,
       "value": 20977488016,
       "prev_value": 19164943619,
-      "share": 2.2,
-      "share_change": -0.21,
+      "share": 2.18,
+      "share_change": -0.24,
       "count": 47,
       "up": 11,
       "down": 34,
@@ -1763,8 +1763,8 @@
       "change_pct": -0.92,
       "value": 6337141709,
       "prev_value": 7009196670,
-      "share": 0.67,
-      "share_change": -0.22,
+      "share": 0.66,
+      "share_change": -0.23,
       "count": 11,
       "up": 5,
       "down": 6,
@@ -1873,10 +1873,10 @@
       "name": "其他電子",
       "index_close": 240.96,
       "change_pct": -1.11,
-      "value": 29139027564,
+      "value": 29331027564,
       "prev_value": 23990481089,
-      "share": 3.06,
-      "share_change": 0.03,
+      "share": 3.05,
+      "share_change": 0.02,
       "count": 46,
       "up": 10,
       "down": 32,
@@ -1884,7 +1884,7 @@
         "code": "2317",
         "name": "鴻海",
         "change_pct": -0.83,
-        "value_share": 23.6
+        "value_share": 24.1
       },
       "top": [
         {
@@ -1940,7 +1940,7 @@
           "close": 240.0,
           "change": -2.0,
           "change_pct": -0.83,
-          "value": 6863150587,
+          "value": 7055150587,
           "limit_up": false
         },
         {
@@ -2073,7 +2073,7 @@
       "value": 3239008067,
       "prev_value": 4473205543,
       "share": 0.34,
-      "share_change": -0.22,
+      "share_change": -0.23,
       "count": 51,
       "up": 11,
       "down": 30,
@@ -2270,7 +2270,7 @@
       "value": 5839144999,
       "prev_value": 3286559848,
       "share": 0.61,
-      "share_change": 0.2,
+      "share_change": 0.19,
       "count": 28,
       "up": 3,
       "down": 25,
@@ -2381,8 +2381,8 @@
       "change_pct": -1.92,
       "value": 8261013983,
       "prev_value": 12336149654,
-      "share": 0.87,
-      "share_change": -0.69,
+      "share": 0.86,
+      "share_change": -0.7,
       "count": 28,
       "up": 9,
       "down": 19,
@@ -2605,8 +2605,8 @@
       "change_pct": -2.36,
       "value": 73769303170,
       "prev_value": 39691867178,
-      "share": 7.75,
-      "share_change": 2.74,
+      "share": 7.67,
+      "share_change": 2.66,
       "count": 67,
       "up": 15,
       "down": 49,
@@ -2715,10 +2715,10 @@
       "name": "半導體",
       "index_close": 1462.41,
       "change_pct": -2.66,
-      "value": 305775410041,
+      "value": 313885980435,
       "prev_value": 261306791170,
-      "share": 32.12,
-      "share_change": -0.85,
+      "share": 32.63,
+      "share_change": -0.34,
       "count": 96,
       "up": 6,
       "down": 89,
@@ -2726,7 +2726,7 @@
         "code": "2330",
         "name": "台積電",
         "change_pct": -2.3,
-        "value_share": 24.2
+        "value_share": 25.9
       },
       "top": [
         {
@@ -2782,7 +2782,7 @@
           "close": 2340.0,
           "change": -55.0,
           "change_pct": -2.3,
-          "value": 73912099840,
+          "value": 81282658016,
           "limit_up": false
         },
         {
@@ -2809,7 +2809,7 @@
           "close": 379.5,
           "change": -14.5,
           "change_pct": -3.68,
-          "value": 24063352763,
+          "value": 24310077763,
           "limit_up": false
         },
         {
@@ -2829,8 +2829,8 @@
       "change_pct": -2.91,
       "value": 36665309327,
       "prev_value": 24339534193,
-      "share": 3.85,
-      "share_change": 0.78,
+      "share": 3.81,
+      "share_change": 0.74,
       "count": 48,
       "up": 8,
       "down": 36,
@@ -2942,7 +2942,7 @@
       "value": 1950097714,
       "prev_value": 1740534828,
       "share": 0.2,
-      "share_change": -0.01,
+      "share_change": -0.02,
       "count": 27,
       "up": 8,
       "down": 19,
@@ -3053,7 +3053,7 @@
       "change_pct": -3.81,
       "value": 5499401832,
       "prev_value": 5096903197,
-      "share": 0.58,
+      "share": 0.57,
       "share_change": -0.07,
       "count": 22,
       "up": 5,
@@ -3163,10 +3163,10 @@
       "name": "電腦及週邊設備",
       "index_close": 387.18,
       "change_pct": -4.93,
-      "value": 62001185303,
+      "value": 62161274873,
       "prev_value": 46307356560,
-      "share": 6.51,
-      "share_change": 0.67,
+      "share": 6.46,
+      "share_change": 0.62,
       "count": 65,
       "up": 12,
       "down": 50,
@@ -3239,7 +3239,7 @@
           "close": 278.5,
           "change": -19.5,
           "change_pct": -6.54,
-          "value": 9337255209,
+          "value": 9383796609,
           "limit_up": false
         },
         {
@@ -3248,7 +3248,7 @@
           "close": 1570.0,
           "change": -110.0,
           "change_pct": -6.55,
-          "value": 7738761020,
+          "value": 7852309190,
           "limit_up": false
         },
         {
@@ -3277,8 +3277,8 @@
       "change_pct": -5.3,
       "value": 51366332787,
       "prev_value": 57225406371,
-      "share": 5.4,
-      "share_change": -1.83,
+      "share": 5.34,
+      "share_change": -1.88,
       "count": 21,
       "up": 4,
       "down": 16,
@@ -3387,10 +3387,10 @@
       "name": "電子零組件",
       "index_close": 714.33,
       "change_pct": -5.97,
-      "value": 252324660337,
+      "value": 253516504733,
       "prev_value": 224307507379,
-      "share": 26.51,
-      "share_change": -1.8,
+      "share": 26.36,
+      "share_change": -1.95,
       "count": 104,
       "up": 20,
       "down": 81,
@@ -3454,7 +3454,7 @@
           "close": 792.0,
           "change": -72.0,
           "change_pct": -8.33,
-          "value": 24065863188,
+          "value": 24194327584,
           "limit_up": false
         },
         {
@@ -3463,7 +3463,7 @@
           "close": 522.0,
           "change": -58.0,
           "change_pct": -10.0,
-          "value": 23915777344,
+          "value": 24089777344,
           "limit_up": false
         },
         {
@@ -3496,5 +3496,5 @@
       ]
     }
   ],
-  "updated": "2026-11-12T15:01:00+08:00"
+  "updated": "2026-11-12T20:10:38+08:00"
 }
