@@ -1,9 +1,41 @@
 {
-  "updated": "2026-11-13T15:46:14+08:00",
+  "updated": "2026-11-13T16:01:07+08:00",
   "ai_summary": false,
   "model": null,
-  "candidates_sig": "53df605747ffef430328bd18474535cac106d7fd",
+  "candidates_sig": "dd1cf02df2e5eb488e1904720dfaef74b9aa3f00",
   "items": [
+    {
+      "title": "AI投資未退潮而是大分散！資金轉出輝達 超微、博通與台積電成潛在受惠者",
+      "url": "https://news.cnyes.com/news/id/6661609",
+      "source": "鉅亨網",
+      "published": "2026-11-13T16:00+08:00",
+      "summary": "黃仁勳請辭後，輝達領導層危機引發資金輪動，市場押注超微、博通與台積電受惠。 輝達本周股價重挫11%，超微漲30%、博通漲24%，台積電也漲11%；德儀、亞德諾、英飛凌等類比晶片股同步走強。 分析認為黃仁勳離任恐削弱輝達供應鏈掌控力，但AI支",
+      "tags": []
+    },
+    {
+      "title": "黃仁勳離開輝達「AI領頭羊」換誰當？陸行之點名4科技巨頭 網：台積電仍最大贏家",
+      "url": "https://tw.stock.yahoo.com/news/%E9%BB%83%E4%BB%81%E5%8B%B3%E9%9B%A2%E9%96%8B%E8%BC%9D%E9%81%94-ai%E9%A0%98%E9%A0%AD%E7%BE%8A-%E6%8F%9B%E8%AA%B0%E7%95%B6-%E9%99%B8%E8%A1%8C%E4%B9%8B%E9%BB%9E%E5%90%8D4%E7%A7%91%E6%8A%80%E5%B7%A8%E9%A0%AD-%E7%B6%B2-074500355.html",
+      "source": "Yahoo 股市",
+      "published": "2026-11-13T15:45+08:00",
+      "summary": "[FTNN新聞網]實習記者鄭巧薰／綜合報導輝達（NVIDIA）執行長黃仁勳日前因捲入婚外情風波，且疑似涉及中國間諜等相關爭議，於美國時間12日宣布辭去執行長職位...",
+      "tags": []
+    },
+    {
+      "title": "【公告】廣達受邀參加BofA證券所舉辦之2026 Asia Internet & AI Conference",
+      "url": "https://tw.stock.yahoo.com/news/%E5%85%AC%E5%91%8A-%E5%BB%A3%E9%81%94%E5%8F%97%E9%82%80%E5%8F%83%E5%8A%A0bofa%E8%AD%89%E5%88%B8%E6%89%80%E8%88%89%E8%BE%A6%E4%B9%8B2026-asia-internet-ai-073617642.html",
+      "source": "Yahoo 股市",
+      "published": "2026-11-13T15:36+08:00",
+      "summary": "日 期：2026年11月13日公司名稱：廣達(2382)主 旨：廣達受邀參加BofA證券所舉辦之2026 Asia Internet & AI Conference發言人：楊俊烈說 明：符合條款第四條",
+      "tags": []
+    },
+    {
+      "title": "矽力估2027年營收增近30% 資料中心和車用驅動",
+      "url": "https://tw.stock.yahoo.com/news/%E7%9F%BD%E5%8A%9B%E4%BC%B02027%E5%B9%B4%E7%87%9F%E6%94%B6%E5%A2%9E%E8%BF%9130-%E8%B3%87%E6%96%99%E4%B8%AD%E5%BF%83%E5%92%8C%E8%BB%8A%E7%94%A8%E9%A9%85%E5%8B%95-073107466.html",
+      "source": "Yahoo 股市",
+      "published": "2026-11-13T15:31+08:00",
+      "summary": "（中央社記者張建中新竹2026年11月13日電）電源管理晶片廠矽力-KY(6415)董事長陳偉今天表示，消費性市場需求疲軟，將抵銷人工智慧資料中心（AIDC）市場成長，整體第4季營收將較第3季持平，2",
+      "tags": []
+    },
     {
       "title": "統一期貨：ASIC、低軌衛星點火台股，惟漲幅收斂，終場未能站回月線",
       "url": "https://tw.stock.yahoo.com/news/%E7%B5%B1-%E6%9C%9F%E8%B2%A8-asic-%E4%BD%8E%E8%BB%8C%E8%A1%9B%E6%98%9F%E9%BB%9E%E7%81%AB%E5%8F%B0%E8%82%A1-%E6%83%9F%E6%BC%B2%E5%B9%85%E6%94%B6%E6%96%82-072213645.html",
@@ -50,38 +82,6 @@
       "source": "Yahoo 股市",
       "published": "2026-11-13T15:02+08:00",
       "summary": "台股今開盤大漲並展現強韌抗壓性，無懼輝達執行長黃仁勳請辭利空，終場收在43675點。盤面焦點聚焦於PCB與IC設計族群，受惠AI伺服器與高階運算設備升級，博智、智原雙雙亮燈漲停，帶動整體電子材料及矽智",
-      "tags": []
-    },
-    {
-      "title": "黃仁勳請辭拖累台灣AI概念股？ 分析師：短暫震盪",
-      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9qV2JvUGtiOHkyOFp5V2pqRXBtNktYaGsxdUlZNEZYS0dFLTdjYnVLelQtbkZZWHk2VjJvRmxfdG56bmtqclVEWEZPUk9OUUtEbXlTWXJDMA?oc=5",
-      "source": "東森新聞",
-      "published": "2026-11-13T14:52+08:00",
-      "summary": "",
-      "tags": []
-    },
-    {
-      "title": "【即時新聞】黃仁勳辭任輝達(NVDA)執行長震撼市場！股價重挫逾4%，AI概念股板塊洗牌，超微(AMD)趁勢大漲近6%",
-      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOVWMtQ3pHajg2cUxsbVFITy1BbnBPMHRITkI5RGJMTDlwSnhRWWdwNDVUQmpnNWp1bW5BNDQzYVpLa1ZVX1NBYlFWV3NXcmJYY3hGZEM3WFE3US0yLTVBSDJyS1pxLU5kT3lyZ2RFWm5YdnRNRmJ1R1JiYmpwYTRDVFRmeGMtV2JDeU9rODFUN1E?oc=5",
-      "source": "CMoney投資網誌",
-      "published": "2026-11-13T14:51+08:00",
-      "summary": "",
-      "tags": []
-    },
-    {
-      "title": "經部亞灣25家新創發表AI應用 攜手微軟Google助攻南台灣產業轉型",
-      "url": "https://news.cnyes.com/news/id/6650132",
-      "source": "鉅亨網",
-      "published": "2026-11-13T14:38+08:00",
-      "summary": "中企署在高雄亞灣新創園發表AI創新實證成果，媒合25家新創與南台灣產業場域驗證。 富強鑫分析作業由2.5小時縮至10分鐘，大武山供貨調配由4小時降至1.2小時，勁豐也提升檢測準確度。 中企署攜手微軟、Google等提供算力、課程與行銷資源，",
-      "tags": []
-    },
-    {
-      "title": "台股恐再崩回2萬點？黃仁勳下台掀AI股疑慮台廠供應鏈成焦點| 台股雜談| 股市",
-      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE51dmxkcjJyQjNqNE5GaGx6SG1HcUZRXzE5Y21SRTZFcS1zMFA0U01wUUZFRGJXZ3VlQ2xJVXZGLVdHWWZvQllTVzhzdllUa2IxUFE?oc=5",
-      "source": "UDN",
-      "published": "2026-11-13T14:34+08:00",
-      "summary": "",
       "tags": []
     }
   ]
