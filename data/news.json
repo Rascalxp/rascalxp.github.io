@@ -1,87 +1,87 @@
 {
-  "updated": "2026-11-15T07:10:46+08:00",
+  "updated": "2026-11-15T10:33:24+08:00",
   "ai_summary": false,
   "model": null,
-  "candidates_sig": "372c6fcdf2548af14d708c391ee9aaf4d9f68751",
+  "candidates_sig": "591866adcbbffed8ea5a2c5ee596dc9cdb0d725b",
   "items": [
     {
-      "title": "NVIDIA管理層大地震！研調揭AI供應鏈六大觀察 ASIC競爭升溫",
-      "url": "https://news.cnyes.com/news/id/6660140",
+      "title": "台灣首顆GPGPU獲飛行履歷 捷揚太空代工轉攻研發拓商機",
+      "url": "https://tw.stock.yahoo.com/news/%E5%8F%B0%E7%81%A3%E9%A6%96%E9%A1%86gpgpu%E7%8D%B2%E9%A3%9B%E8%A1%8C%E5%B1%A5%E6%AD%B7-%E6%8D%B7%E6%8F%9A%E5%A4%AA%E7%A9%BA%E4%BB%A3%E5%B7%A5%E8%BD%89%E6%94%BB%E7%A0%94%E7%99%BC%E6%8B%93%E5%95%86%E6%A9%9F-020607181.html",
+      "source": "Yahoo 股市",
+      "published": "2026-11-15T10:06+08:00",
+      "summary": "（中央社記者趙敏雅新竹2026年11月15日電）歷時3年，國家太空中心（TASA）與捷揚航電合作開發通用圖形處理器（GPGPU），完成在軌驗證，成為台灣首顆取得飛行履歷的GPGPU。捷揚航電團隊原先專",
+      "tags": []
+    },
+    {
+      "title": "台積電3000元提早來了？華爾街操盤手提前喊進 曝「微笑曲線」布局策略",
+      "url": "https://tw.stock.yahoo.com/news/%E5%8F%B0%E7%A9%8D%E9%9B%BB3000%E5%85%83%E6%8F%90%E6%97%A9%E4%BE%86%E4%BA%86-%E8%8F%AF%E7%88%BE%E8%A1%97%E6%93%8D%E7%9B%A4%E6%89%8B%E6%8F%90%E5%89%8D%E5%96%8A%E9%80%B2-%E6%9B%9D-%E5%BE%AE%E7%AC%91%E6%9B%B2%E7%B7%9A-%E5%B8%83%E5%B1%80%E7%AD%96%E7%95%A5-013200054.html",
+      "source": "Yahoo 股市",
+      "published": "2026-11-15T09:32+08:00",
+      "summary": "[FTNN新聞網]記者陳宣穎／綜合報導台股上週五（13日）止跌回升，加權指數終場收在43,675.12點，上漲583.25點或1.35%，成交金額達9,177.54億元，AI概念股同步...",
+      "tags": []
+    },
+    {
+      "title": "台股震盪、企業獲利卻創高！AI三雄營收破紀錄 00961掌握科技金融雙引擎",
+      "url": "https://news.cnyes.com/news/id/6662565",
       "source": "鉅亨網",
-      "published": "2026-11-15T06:50+08:00",
-      "summary": "NVIDIA 創辦人黃仁勳正式卸下總裁、執行長及董事職務，為全球AI產業投下震撼彈。NVIDIA董事會宣布由財務長Colette Kress接任代理執行長，並啟動新任執行長遴選。研調機構Counterpoint Research指出，這場領",
+      "published": "2026-11-15T09:30+08:00",
+      "summary": "台灣10月出口967.6億美元、年增58.9%；台積電10月營收5,868.9億元，雙雙創單月新高。 華碩10月營收1,076.2億元年增62.3%；廣達、緯創分別年增約104%與117.6%，AI伺服器出貨暢旺。 上海商銀前10月稅後純益",
       "tags": []
     },
     {
-      "title": "輝達驚爆變天…AI資金大逃亡！5檔新主流黑馬 下周贏面最大",
-      "url": "https://tw.stock.yahoo.com/news/%E8%BC%9D%E9%81%94%E9%A9%9A%E7%88%86%E8%AE%8A%E5%A4%A9-ai%E8%B3%87%E9%87%91%E5%A4%A7%E9%80%83%E4%BA%A1-5%E6%AA%94%E6%96%B0%E4%B8%BB%E6%B5%81%E9%BB%91%E9%A6%AC-%E4%B8%8B%E5%91%A8%E8%B4%8F%E9%9D%A2%E6%9C%80%E5%A4%A7-220530293.html",
+      "title": "黃仁勳辭職反成利多？他看台股、美股不跌反漲 內行曝：短期肯定會賺",
+      "url": "https://tw.stock.yahoo.com/news/%E9%BB%83%E4%BB%81%E5%8B%B3%E8%BE%AD%E8%81%B7%E5%8F%8D%E6%88%90%E5%88%A9%E5%A4%9A-%E4%BB%96%E7%9C%8B%E5%8F%B0%E8%82%A1-%E7%BE%8E%E8%82%A1%E4%B8%8D%E8%B7%8C%E5%8F%8D%E6%BC%B2-%E5%85%A7%E8%A1%8C%E6%9B%9D-%E7%9F%AD%E6%9C%9F%E8%82%AF%E5%AE%9A%E6%9C%83%E8%B3%BA-011600200.html",
       "source": "Yahoo 股市",
-      "published": "2026-11-15T06:05+08:00",
-      "summary": "經歷了本周國際金融市場的劇烈動盪，台股在13日展現出令人驚豔的抗跌韌性與多頭反撲力道！",
+      "published": "2026-11-15T09:16+08:00",
+      "summary": "[FTNN新聞網]實習記者鄭巧薰／綜合報導輝達（NVIDIA）創辦人黃仁勳日前宣布辭去執行長職位，並退出董事會，震撼全球。不少投資人原先擔憂此事可能會成為美股...",
       "tags": []
     },
     {
-      "title": "沒了黃仁勳 兆元宴也飛了！前操盤手曝2家台廠最穩 這9檔恐遭砍價洗牌",
-      "url": "https://tw.stock.yahoo.com/news/%E6%B2%92%E4%BA%86%E9%BB%83%E4%BB%81%E5%8B%B3-%E5%85%86%E5%85%83%E5%AE%B4%E4%B9%9F%E9%A3%9B%E4%BA%86-%E5%89%8D%E6%93%8D%E7%9B%A4%E6%89%8B%E6%9B%9D2%E5%AE%B6%E5%8F%B0%E5%BB%A0%E6%9C%80%E7%A9%A9-%E9%80%999%E6%AA%94%E6%81%90%E9%81%AD%E7%A0%8D%E5%83%B9%E6%B4%97%E7%89%8C-210530667.html",
-      "source": "Yahoo 股市",
-      "published": "2026-11-15T05:05+08:00",
-      "summary": "輝達（NVIDIA）前執行長黃仁勳多次在台舉辦「兆元宴」，宴請台灣AI與半導體供應鏈夥伴，隨著他近日捲入桃色風波請辭，這場科技聚會恐成絕響。專家指出，兆元宴上台廠是否面臨掉單危機，關鍵取決於技術門檻；",
-      "tags": []
-    },
-    {
-      "title": "台股這波反彈誰最會賺 它衝破14％漲幅居冠最驚人！",
-      "url": "https://tw.news.yahoo.com/%E5%8F%B0%E8%82%A1%E9%80%99%E6%B3%A2%E5%8F%8D%E5%BD%88%E8%AA%B0%E6%9C%80%E6%9C%83%E8%B3%BA-%E5%AE%83%E8%A1%9D%E7%A0%B414-%E6%BC%B2%E5%B9%85%E5%B1%85%E5%86%A0%E6%9C%80%E9%A9%9A%E4%BA%BA-172500751.html",
-      "source": "Yahoo 股市",
-      "published": "2026-11-15T01:25+08:00",
-      "summary": "國安基金於6日宣布第10度進場護盤、限空令自9日生效，加權指數已連續三天強彈逾千點。在台股強彈之際，由經理人主動操作的主動台股ETF確實也展現較強追漲能力，普遍有雙位數的漲幅。美國期中選舉後，AI資本",
-      "tags": []
-    },
-    {
-      "title": "「很多小資族都靠台積電翻身」 華爾街操盤手曝10年退休計畫：定存是慢性自殺",
-      "url": "https://tw.news.yahoo.com/%E5%BE%88%E5%A4%9A%E5%B0%8F%E8%B3%87%E6%97%8F%E9%83%BD%E9%9D%A0%E5%8F%B0%E7%A9%8D%E9%9B%BB%E7%BF%BB%E8%BA%AB-%E8%8F%AF%E7%88%BE%E8%A1%97%E6%93%8D%E7%9B%A4%E6%89%8B%E6%9B%9D10%E5%B9%B4%E9%80%80%E4%BC%91%E8%A8%88%E7%95%AB-%E5%AE%9A%E5%AD%98%E6%98%AF%E6%85%A2%E6%80%A7%E8%87%AA%E6%AE%BA-171240290.html",
-      "source": "Yahoo 股市",
-      "published": "2026-11-15T01:12+08:00",
-      "summary": "台股近期經歷劇烈震盪，AI概念股大幅回檔，引發市場恐慌。對此，華爾街操盤手闕又上於節目《小宇宙大爆發》中指出，這波AI概念股的修正如同「小狗離開主人跑太快」後的良性拉回，AI趨勢並未走完。此外，他也透",
-      "tags": []
-    },
-    {
-      "title": "黃仁勳卸任「7檔台股恐承壓」？財經專家示警：AI繼續走，跟你繼續賺是兩回事",
-      "url": "https://tw.news.yahoo.com/%E9%BB%83%E4%BB%81%E5%8B%B3%E5%8D%B8%E4%BB%BB-7%E6%AA%94%E5%8F%B0%E8%82%A1%E6%81%90%E6%89%BF%E5%A3%93-%E8%B2%A1%E7%B6%93%E5%B0%88%E5%AE%B6%E7%A4%BA%E8%AD%A6-ai%E7%B9%BC%E7%BA%8C%E8%B5%B0-%E8%B7%9F%E4%BD%A0%E7%B9%BC%E7%BA%8C%E8%B3%BA%E6%98%AF%E5%85%A9%E5%9B%9E%E4%BA%8B-170803541.html",
-      "source": "Yahoo 股市",
-      "published": "2026-11-15T01:08+08:00",
-      "summary": "黃仁勳卸任輝達（NVIDIA）執行長，台灣AI供應鏈是否跟著變天？分析師周代運近日發文，點名鴻海、廣達等7家台廠，提醒投資人留意對單一客戶及特定產品架構的依賴程度。他認為，AI產業不會因一名領導人離開",
-      "tags": []
-    },
-    {
-      "title": "〈台股風向球〉外資期貨做空未轉向前 題材股輪動維繫多方熱度",
-      "url": "https://news.cnyes.com/news/id/6662719",
+      "title": "AI伺服器成PC大廠2027年成長動能 華碩拚高雙位數增長、技嘉擴產搶市",
+      "url": "https://news.cnyes.com/news/id/6661406",
       "source": "鉅亨網",
-      "published": "2026-11-14T23:48+08:00",
-      "summary": "國安基金進場後，台股本周加權指數強彈3973點、漲10%，收復5日線與10日線，但黃仁勳事件與美股有壓使波動加大。 外資上周賣超968億元、期貨淨空單增至逾10萬口，主要調節中鋼、仁寶、力積電、台積電等；投信則買超中信金、南亞、0050、國",
+      "published": "2026-11-15T08:40+08:00",
+      "summary": "華碩估2026年Q4伺服器營收季增150%、年增280%，全年伺服器營收拚年增至少150%。 技嘉稱AI伺服器訂單能見度已達2027年底，2026、2027年資本支出估28至30億、40億元。 華碩看2027年伺服器業務可雙位數到高雙位數成",
       "tags": []
     },
     {
-      "title": "AI概念股挫勒等？輝達財報、Anthropic IPO下周登場富國銀主管警告：投資人都太樂觀| 蕭宥宸 | 新聞",
-      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1pdzJVbEd4UGEwZFR2c0hnZUdGMHVJYzNZS0dUa0tfT3AwamxpZUM1Q004ZXdiSFZxTFZRLWluUTNRZ2VtMElfMmoyUlhPQQ?oc=5",
-      "source": "風傳媒",
-      "published": "2026-11-14T23:31+08:00",
-      "summary": "",
-      "tags": []
-    },
-    {
-      "title": "黃仁勳風暴引發AI版圖大洗牌！AMD、ASIC聯手搶單 13檔台廠商機來了",
-      "url": "https://tw.news.yahoo.com/%E9%BB%83%E4%BB%81%E5%8B%B3%E9%A2%A8%E6%9A%B4%E5%BC%95%E7%99%BCai%E7%89%88%E5%9C%96%E5%A4%A7%E6%B4%97%E7%89%8C-amd-asic%E8%81%AF%E6%89%8B%E6%90%B6%E5%96%AE-13%E6%AA%94%E5%8F%B0%E5%BB%A0%E5%95%86%E6%A9%9F%E4%BE%86%E4%BA%86-144208845.html",
+      "title": "黃仁勳辭職震撼亞洲 紐時揭連鎖效應",
+      "url": "https://tw.news.yahoo.com/%E9%BB%83%E4%BB%81%E5%8B%B3%E8%BE%AD%E8%81%B7%E9%9C%87%E6%92%BC%E4%BA%9E%E6%B4%B2-%E7%B4%90%E6%99%82%E6%8F%AD%E9%80%A3%E9%8E%96%E6%95%88%E6%87%89-235524761.html",
       "source": "Yahoo 股市",
-      "published": "2026-11-14T22:42+08:00",
-      "summary": "隨著NVIDIA傳出高層異動，市場開始關注其長期建立的CUDA軟硬體生態系是否受到影響，也讓超微（AMD）及特殊應用晶片（ASIC）陣營迎來擴大市占的機會。法人指出，NVIDIA短期營運雖不至於受到明",
+      "published": "2026-11-15T07:55+08:00",
+      "summary": "[NOWNEWS今日新聞]輝達（NVIDIA）前執行長黃仁勳因婚外情風波閃電辭職，不僅震撼美國科技業，也讓亞洲各國的人工智慧（AI）發展面臨不確定性。從台灣、日本、韓國到東南亞，黃仁勳過去憑藉個人魅力",
       "tags": []
     },
     {
-      "title": "台積電大單找上門！「這檔封測廠」單周狂飆38.4% 砸150億搶進CoWoS背後藏大布局",
-      "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFBxVXlfanJjU2ZjZ043UWdtSTUyWXZKWXItU3oyc0tuaFJ4UkRQWTFKaVdYaG0zZUpaTnFWdkJDamhmUlkwVldXbGpmMA?oc=5",
-      "source": "FTNN",
-      "published": "2026-11-14T21:20+08:00",
-      "summary": "",
+      "title": "【半導體拚永續】AI成耗電巨獸！看台積電、聯發科、日月光如何分進合擊減碳",
+      "url": "https://tw.news.yahoo.com/%E5%8D%8A%E5%B0%8E%E9%AB%94%E6%8B%9A%E6%B0%B8%E7%BA%8C-ai%E6%88%90%E8%80%97%E9%9B%BB%E5%B7%A8%E7%8D%B8-%E7%9C%8B%E5%8F%B0%E7%A9%8D%E9%9B%BB-%E8%81%AF%E7%99%BC%E7%A7%91-%E6%97%A5%E6%9C%88%E5%85%89%E5%A6%82%E4%BD%95%E5%88%86%E9%80%B2%E5%90%88%E6%93%8A%E6%B8%9B%E7%A2%B3-234000160.html",
+      "source": "Yahoo 股市",
+      "published": "2026-11-15T07:40+08:00",
+      "summary": "AI飛速發展掀起資料中心建置熱潮，卻伴隨龐大電力與碳排壓力，以Google為例，2024年碳排量相較2019年，足足提升了48%，直接反映資料中心龐大的能耗問題。面對AI浪潮與全球淨零轉型，半導體業的",
+      "tags": []
+    },
+    {
+      "title": "PCB市場上看290億美元！AI算力升級帶旺板材 3大台廠搶商機",
+      "url": "https://tw.news.yahoo.com/pcb%E5%B8%82%E5%A0%B4%E4%B8%8A%E7%9C%8B290%E5%84%84%E7%BE%8E%E5%85%83-ai%E7%AE%97%E5%8A%9B%E5%8D%87%E7%B4%9A%E5%B8%B6%E6%97%BA%E6%9D%BF%E6%9D%90-3%E5%A4%A7%E5%8F%B0%E5%BB%A0%E6%90%B6%E5%95%86%E6%A9%9F-231100630.html",
+      "source": "Yahoo 股市",
+      "published": "2026-11-15T07:11+08:00",
+      "summary": "雜誌官方line＠財經資訊不漏接 全球雲端服務巨頭升級AI伺服器規格，推升PCB與銅箔基板材料代際轉換，PTFE與M9混壓板材成新規格，南亞、台光電、台燿搶先卡位，但設備產能吃緊仍是變數。 全球AI資",
+      "tags": []
+    },
+    {
+      "title": "台股暴跌誰才是真強勢股？創意、精材逆勢突圍 杜金龍教看2訊號：明年2~5月恐變盤",
+      "url": "https://tw.stock.yahoo.com/news/%E5%8F%B0%E8%82%A1%E6%9A%B4%E8%B7%8C%E8%AA%B0%E6%89%8D%E6%98%AF%E7%9C%9F%E5%BC%B7%E5%8B%A2%E8%82%A1-%E5%89%B5%E6%84%8F-%E7%B2%BE%E6%9D%90%E9%80%86%E5%8B%A2%E7%AA%81%E5%9C%8D-%E6%9D%9C%E9%87%91%E9%BE%8D%E6%95%99%E7%9C%8B2%E8%A8%8A%E8%99%9F-%E6%98%8E%E5%B9%B42-230530144.html",
+      "source": "Yahoo 股市",
+      "published": "2026-11-15T07:05+08:00",
+      "summary": "台股13日加權指數上漲583.25點，收43,675.12點，盤中一度大漲近1,400點。漲幅雖砍逾半，ASIC與半導體族群仍表現突出，創意(3443)大漲9.54%、收8,610元，盤中觸及漲停8,",
+      "tags": []
+    },
+    {
+      "title": "台股單週強彈逾10％、全球居第一 投顧喊「拉回再布局」",
+      "url": "https://tw.news.yahoo.com/%E5%8F%B0%E8%82%A1%E5%96%AE%E9%80%B1%E5%BC%B7%E5%BD%88%E9%80%BE10-%E5%85%A8%E7%90%83%E5%B1%85%E7%AC%AC-%E6%8A%95%E9%A1%A7%E5%96%8A-%E6%8B%89%E5%9B%9E%E5%86%8D%E5%B8%83%E5%B1%80-230333346.html",
+      "source": "Yahoo 股市",
+      "published": "2026-11-15T07:03+08:00",
+      "summary": "台股上週大反彈！根據統計，「輝達風暴」短線利空出盡後，台股一周漲幅為10.01%，漲幅位居「全球之冠」，終場收在4萬3675.12點，大盤反攻氣勢強勁；對此，投顧機構表示，台股反彈行情難一次穿破，短線",
       "tags": []
     }
   ]
