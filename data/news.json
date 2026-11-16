@@ -1,9 +1,17 @@
 {
-  "updated": "2026-11-17T02:21:11+08:00",
+  "updated": "2026-11-17T02:46:51+08:00",
   "ai_summary": false,
   "model": null,
-  "candidates_sig": "c695af1da3afdb39e42e8b4253f805492b20602f",
+  "candidates_sig": "39b88af0024eb68e66a2b95dd3d29059cb6d1ce9",
   "items": [
+    {
+      "title": "台股失守4萬2 國泰投信：短線AI供應鏈承壓",
+      "url": "https://tw.news.yahoo.com/%E5%8F%B0%E8%82%A1%E5%A4%B1%E5%AE%884%E8%90%AC2-%E5%9C%8B%E6%B3%B0%E6%8A%95%E4%BF%A1-%E7%9F%AD%E7%B7%9Aai%E4%BE%9B%E6%87%89%E9%8F%88%E6%89%BF%E5%A3%93-183522817.html",
+      "source": "Yahoo 股市",
+      "published": "2026-11-17T02:35+08:00",
+      "summary": "【記者柯安聰台北報導】受到國際科技產業消息及市場風險情緒升溫影響，亞股週一（11/16）全面走弱。其中，台股終場下跌2635點、跌幅6.03%，收在41040點；日經225指數跌逾2%，南韓Kospi",
+      "tags": []
+    },
     {
       "title": "台股震盪拉回即買點 經理人配置點名這8檔！",
       "url": "https://tw.news.yahoo.com/%E5%8F%B0%E8%82%A1%E9%9C%87%E7%9B%AA%E6%8B%89%E5%9B%9E%E5%8D%B3%E8%B2%B7%E9%BB%9E-%E7%B6%93%E7%90%86%E4%BA%BA%E9%85%8D%E7%BD%AE%E9%BB%9E%E5%90%8D%E9%80%998%E6%AA%94-174500806.html",
@@ -74,14 +82,6 @@
       "source": "Yahoo 股市",
       "published": "2026-11-16T22:55+08:00",
       "summary": "受輝達創辦人黃仁勳辭職衝擊，台股連多日遭遇亂流。美股四大指數週一（16日）開盤後全面下殺，其中與台灣半導體及AI股連動密切的費城半導體指數重挫5.03%。台指期夜盤劇烈震盪、高低差近900點，市場將觀",
-      "tags": []
-    },
-    {
-      "title": "快訊／美股開盤全綠！輝達繼續下殺、台積電ADR跌破4%",
-      "url": "https://tw.news.yahoo.com/%E5%BF%AB%E8%A8%8A-%E7%BE%8E%E8%82%A1%E9%96%8B%E7%9B%A4%E5%85%A8%E7%B6%A0-%E8%BC%9D%E9%81%94%E7%B9%BC%E7%BA%8C%E4%B8%8B%E6%AE%BA-%E5%8F%B0%E7%A9%8D%E9%9B%BBadr%E8%B7%8C%E7%A0%B44-144100233.html",
-      "source": "Yahoo 股市",
-      "published": "2026-11-16T22:41+08:00",
-      "summary": "受科技股賣壓影響，亞股與美股近日走勢震盪，市場聚焦美國聯準會官員談話及即將公布的FOMC會議紀錄以尋找升息線索。同時，地緣政治風險升溫牽動油價表現。在科技板塊方面，備受矚目的AI新創Anthropic",
       "tags": []
     }
   ]
