@@ -1,9 +1,17 @@
 {
-  "updated": "2026-11-16T20:10:46+08:00",
+  "updated": "2026-11-16T20:39:06+08:00",
   "ai_summary": false,
   "model": null,
-  "candidates_sig": "3a3a5b3a627209ec2d13a17eb2658f1f82ab5a9e",
+  "candidates_sig": "227d918341fc5b7bc893e8f9ce764862ab822788",
   "items": [
+    {
+      "title": "科技業大老力挺！台北101點燈「台灣❤Jensen」跨海聲援黃仁勳",
+      "url": "https://tw.news.yahoo.com/%E7%A7%91%E6%8A%80%E6%A5%AD%E5%A4%A7%E8%80%81%E5%8A%9B%E6%8C%BA-%E5%8F%B0%E5%8C%97101%E9%BB%9E%E7%87%88-%E5%8F%B0%E7%81%A3-jensen-%E8%B7%A8%E6%B5%B7%E8%81%B2%E6%8F%B4%E9%BB%83%E4%BB%81%E5%8B%B3-122110615.html",
+      "source": "Yahoo 股市",
+      "published": "2026-11-16T20:21+08:00",
+      "summary": "輝達（NVIDIA）前執行長黃仁勳日前因婚外情及共諜風波辭去執行長職務，引發全球科技界關注。為力挺長期重視台灣供應鏈的黃仁勳，台灣許多科技圈重量級人士，今（16）日傍晚6點於台北101點燈跨海送暖，聲",
+      "tags": []
+    },
     {
       "title": "醫材廠常廣搶攻機器人手術 拚明年營收雙位數成長",
       "url": "https://tw.stock.yahoo.com/news/%E9%86%AB%E6%9D%90%E5%BB%A0%E5%B8%B8%E5%BB%A3%E6%90%B6%E6%94%BB%E6%A9%9F%E5%99%A8%E4%BA%BA%E6%89%8B%E8%A1%93-%E6%8B%9A%E6%98%8E%E5%B9%B4%E7%87%9F%E6%94%B6%E9%9B%99%E4%BD%8D%E6%95%B8%E6%88%90%E9%95%B7-114806681.html",
@@ -18,6 +26,14 @@
       "source": "Yahoo 股市",
       "published": "2026-11-16T19:40+08:00",
       "summary": "台股16日爆發恐慌性殺盤，終場重挫2,635點創史上第二大跌點，168家亮燈跌停，台積電大跌5.7%失守關卡。分析師陳嘉偉指出，黃仁勳已辭職淨身出戶、絕無可能回歸，隨著輝達新團隊反對循環融資且承諾資金",
+      "tags": []
+    },
+    {
+      "title": "輝達暴跌拖累台股ETF？專家：這10檔小心",
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFAwMmdDZzZ3MjJmbEstSm9OeWdMWEtaOXljTnh0SkYtOHFxYkxFZGkwQ19kcWZ6bzlOWXNPSW4wckZHai1VaXRtUjF0ZnE0WTdkVUFMZ0c1NWd2OW40dnfSAWJBVV95cUxOMk9Qa0VuNWVNc0pSMDVwVjlqN1dzelVuNkt3clBRcU9QTDc4SkNfbjFZaXFLc2tQOUdVSEZCd2VYemRxNHJmaEh0UVJHSzNwSVV5cnJnUHVSMjRXQjlWWDBsUQ?oc=5",
+      "source": "鏡週刊Mirror Media",
+      "published": "2026-11-16T19:34+08:00",
+      "summary": "",
       "tags": []
     },
     {
@@ -45,6 +61,14 @@
       "tags": []
     },
     {
+      "title": "台股收盤4萬1創史上第二大跌點 央行：若無國安基金波動更大",
+      "url": "https://tw.news.yahoo.com/%E5%8F%B0%E8%82%A1%E6%94%B6%E7%9B%A44%E8%90%AC1%E5%89%B5%E5%8F%B2%E4%B8%8A%E7%AC%AC%E4%BA%8C%E5%A4%A7%E8%B7%8C%E9%BB%9E-%E5%A4%AE%E8%A1%8C-%E8%8B%A5%E7%84%A1%E5%9C%8B%E5%AE%89%E5%9F%BA%E9%87%91%E6%B3%A2%E5%8B%95%E6%9B%B4%E5%A4%A7-111443587.html",
+      "source": "Yahoo 股市",
+      "published": "2026-11-16T19:14+08:00",
+      "summary": "受到輝達風波影響，持續拖累亞洲股市，今天韓股下殺 3.5%，日經指數收盤也大跌1480點，台股加權指數同樣開低走低，重挫2635點收在41040點，創下史上第二大收盤跌點，儘管國安基金已啟動護盤，台股",
+      "tags": []
+    },
+    {
       "title": "國科會發布「2027-2030科技白皮書」聚焦主權AI、矽光子等九大科技議題",
       "url": "https://news.cnyes.com/news/id/6664136",
       "source": "鉅亨網",
@@ -58,30 +82,6 @@
       "source": "Yahoo 股市",
       "published": "2026-11-16T19:05+08:00",
       "summary": "受到市場對AI產業前景預期及美國科技類股回檔影響，今（16日）日經225及韓國KOSPI指數盤中走弱，台股亦受到國際科技股調整及電子權值股賣壓影響，加權股價指數收在41,040.08點，下跌2,635",
-      "tags": []
-    },
-    {
-      "title": "科技業力挺黃仁勳！101點燈聲援：台灣❤️Jensen、家人跟友誼",
-      "url": "https://tw.stock.yahoo.com/news/%E7%A7%91%E6%8A%80%E6%A5%AD%E5%8A%9B%E6%8C%BA%E9%BB%83%E4%BB%81%E5%8B%B3-101%E9%BB%9E%E7%87%88%E8%81%B2%E6%8F%B4-%E5%8F%B0%E7%81%A3-jensen-%E5%AE%B6%E4%BA%BA%E8%B7%9F%E5%8F%8B%E8%AA%BC-105334306.html",
-      "source": "Yahoo 股市",
-      "published": "2026-11-16T18:53+08:00",
-      "summary": "輝達（Nvidia）創辦人黃仁勳推動全球AI產業發展，同時也重視跟台灣廠商合作，然而他因婚外情及捲入間諜疑雲，於近日離開輝達執行長及其他相關職位。對此，台灣多數科技圈人士都感到相當遺憾，今晚科技圈大老",
-      "tags": []
-    },
-    {
-      "title": "台股下跌5.7%衝擊投資評價 6大壽險10月合計虧損48億",
-      "url": "https://tw.stock.yahoo.com/news/%E5%8F%B0%E8%82%A1%E4%B8%8B%E8%B7%8C5-7-%E8%A1%9D%E6%93%8A%E6%8A%95%E8%B3%87%E8%A9%95%E5%83%B9-6%E5%A4%A7%E5%A3%BD%E9%9A%AA10%E6%9C%88%E5%90%88%E8%A8%88%E8%99%A7%E6%90%8D48%E5%84%84-104556519.html",
-      "source": "Yahoo 股市",
-      "published": "2026-11-16T18:45+08:00",
-      "summary": "（中央社記者蘇思云、呂晏慈台北2026年11月16日電）台股受到市場投資人對AI投資回報疑慮升溫，加上外資賣壓增加，台股加權指數10月下跌5.7%，影響壽險業投資部位評價。6大壽險10月合計虧損達新台",
-      "tags": []
-    },
-    {
-      "title": "黃仁勳風暴席捲亞洲股市！台股暴跌2635點，兆美元AI派對要散了？",
-      "url": "https://tw.news.yahoo.com/%E9%BB%83%E4%BB%81%E5%8B%B3%E9%A2%A8%E6%9A%B4%E5%B8%AD%E6%8D%B2%E4%BA%9E%E6%B4%B2%E8%82%A1%E5%B8%82-%E5%8F%B0%E8%82%A1%E6%9A%B4%E8%B7%8C2635%E9%BB%9E-%E5%85%86%E7%BE%8E%E5%85%83ai%E6%B4%BE%E5%B0%8D%E8%A6%81%E6%95%A3%E4%BA%86-104033373.html",
-      "source": "Yahoo 股市",
-      "published": "2026-11-16T18:40+08:00",
-      "summary": "黃仁勳離開輝達（NVIDIA）執行長職位，引發的金融風暴正席捲亞洲。11月16日，從台北、首爾到東京，亞洲主要科技股全面遭到拋售，台股更成為重災區，加權指數終場暴跌2,635.04點，跌幅高達6.03",
       "tags": []
     }
   ]
