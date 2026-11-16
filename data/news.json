@@ -1,9 +1,17 @@
 {
-  "updated": "2026-11-17T01:23:58+08:00",
+  "updated": "2026-11-17T02:21:11+08:00",
   "ai_summary": false,
   "model": null,
-  "candidates_sig": "8a45a71fa14eb7246a7524734441e0e8badffdd6",
+  "candidates_sig": "c695af1da3afdb39e42e8b4253f805492b20602f",
   "items": [
+    {
+      "title": "台股震盪拉回即買點 經理人配置點名這8檔！",
+      "url": "https://tw.news.yahoo.com/%E5%8F%B0%E8%82%A1%E9%9C%87%E7%9B%AA%E6%8B%89%E5%9B%9E%E5%8D%B3%E8%B2%B7%E9%BB%9E-%E7%B6%93%E7%90%86%E4%BA%BA%E9%85%8D%E7%BD%AE%E9%BB%9E%E5%90%8D%E9%80%998%E6%AA%94-174500806.html",
+      "source": "Yahoo 股市",
+      "published": "2026-11-17T01:45+08:00",
+      "summary": "受惠於全球AI產業剛性需求持續噴發，大型雲端服務商（CSP）資本支出維持強勁，加上國內總體經濟動能超乎預期，台灣2026與2027年經濟成長率表現亮眼，為台股中長線基本面提供強力的多頭底氣。台股近期歷",
+      "tags": []
+    },
     {
       "title": "台股ETF本周迎除息高峰 群益00982A息利雙收",
       "url": "https://tw.news.yahoo.com/%E5%8F%B0%E8%82%A1etf%E6%9C%AC%E5%91%A8%E8%BF%8E%E9%99%A4%E6%81%AF%E9%AB%98%E5%B3%B0-%E7%BE%A4%E7%9B%8A00982a%E6%81%AF%E5%88%A9%E9%9B%99%E6%94%B6-171154174.html",
@@ -29,10 +37,26 @@
       "tags": []
     },
     {
+      "title": "重磅！聯發科第四次彎道超車、11月1日大改組ASIC事業掌兵符",
+      "url": "https://tw.news.yahoo.com/%E9%87%8D%E7%A3%85-%E8%81%AF%E7%99%BC%E7%A7%91%E7%AC%AC%E5%9B%9B%E6%AC%A1%E5%BD%8E%E9%81%93%E8%B6%85%E8%BB%8A-11%E6%9C%881%E6%97%A5%E5%A4%A7%E6%94%B9%E7%B5%84asic%E4%BA%8B%E6%A5%AD%E6%8E%8C%E5%85%B5%E7%AC%A6-160010705.html",
+      "source": "Yahoo 股市",
+      "published": "2026-11-17T00:00+08:00",
+      "summary": "AI進入關鍵決勝點，輝達風暴讓聯發科點名將是客製化晶片（ASIC）指標受惠廠商。聯發科11月1日正式啟動組織重整，這次握有客製化晶片（ASIC）的數據中心與運算事業群首度掌權，透過挖角一系列前英特爾高",
+      "tags": []
+    },
+    {
       "title": "台股重挫6% 史上第二大跌點!黃仁勳可能賣股?背後意涵?",
       "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5RNDNMclQ4MEZZU0YwcjMxTjJvT1Y3ZHVzTHh2TV9sYWQ0NmkzUldRUDA2WWR0Uk5oVEFzM2xVODB3UTZPUzBLREhtVHJCc3FaX2hRanlraVZwZmswaEpIUEtkeTdCdw?oc=5",
       "source": "民視財經網",
       "published": "2026-11-16T23:46+08:00",
+      "summary": "",
+      "tags": []
+    },
+    {
+      "title": "SpaceX（SPCX）星艦首次接住回收成功，740億美元AI園區惹議，6檔台股概念股一次看｜股市話題｜豐雲學堂2026 年 11 月",
+      "url": "https://news.google.com/rss/articles/CBMigARBVV95cUxPMUNvY056dXRrWEJVSDd5OVV0Rm9RdngtMlktVDB6eU9DWlVYdWRCWkxOb2t0c1pudWFlQTF1TE05UWlOTWs2b1lBYWJBdXQ4UzA0N2ZzdlBPU1FxMWZDWThMbmctMnAycmZQQnl0cWxqUFZMcHJ4cmM1eEtMTDByT2FpakFhRUNRc3lqNGhvcGg3c0tfOEh4bzMycGpsbHNhUm1LcmdHbkdvOGN3MHU2b2tpalJjbzJ6Z0NkRUVsNTRXSVV3Ui1XVFlCa1NFQ3EwZlU0UFM5azRLZFNLWWdGUTY4SHVlVkkyNVlBczRIazk1cjNRVTBqRkFIcXB1Rk5rX1RGSXRoQUFYTU0xbms5QjN1TlFqdGJFTFdXcEc1UllYbVd1NzNJXzhKQ2JXMnZtOEVNcnNYb21qMUVTZGNfeGxLS2dIZnN6dzVULUR4Y2pCcDA3TmEzWl9PYmxqU3pRYzNfckNHN0d1VUdtdWNtOXVsaHZ2RzJiMkhvVldEcTA5Q2hCbjlEbHRQeUtLeTNCak12S0dNMWhnRVdRaUdBbTFob0M5V1l4LWVETUF5elBlQkViVlZKTURQc0MxOXNmeWt5M0V1UkFnMm96dExQYlFiUDNaVVJNdTBYSWw0bHZ5RHRIQkUzQUhzdGlzTFNpTVkzQ1MwVF91d1lHUFpSNg?oc=5",
+      "source": "永豐金證券",
+      "published": "2026-11-16T23:32+08:00",
       "summary": "",
       "tags": []
     },
@@ -58,30 +82,6 @@
       "source": "Yahoo 股市",
       "published": "2026-11-16T22:41+08:00",
       "summary": "受科技股賣壓影響，亞股與美股近日走勢震盪，市場聚焦美國聯準會官員談話及即將公布的FOMC會議紀錄以尋找升息線索。同時，地緣政治風險升溫牽動油價表現。在科技板塊方面，備受矚目的AI新創Anthropic",
-      "tags": []
-    },
-    {
-      "title": "台股重摔2635點！分析師逆風喊「長線格局沒壞」 曝主升段前兆",
-      "url": "https://tw.stock.yahoo.com/news/%E5%8F%B0%E8%82%A1%E9%87%8D%E6%91%942635%E9%BB%9E-%E5%88%86%E6%9E%90%E5%B8%AB%E9%80%86%E9%A2%A8%E5%96%8A-%E9%95%B7%E7%B7%9A%E6%A0%BC%E5%B1%80%E6%B2%92%E5%A3%9E-%E6%9B%9D%E4%B8%BB%E5%8D%87%E6%AE%B5%E5%89%8D%E5%85%86-141722531.html",
-      "source": "Yahoo 股市",
-      "published": "2026-11-16T22:17+08:00",
-      "summary": "台股今（16）日重挫2635點，跌幅達6.03%，收在41040.08點，讓許多投資者臉色發白。不過，分析師周代運指出，今天台股重殺集中在這半年來短線漲太兇的AI族群，因此這波回檔「並非長線空頭」。他",
-      "tags": []
-    },
-    {
-      "title": "黃仁勳風波衝擊股價！台光電緊急澄清：輝達營收占比從未超過20%",
-      "url": "https://tw.news.yahoo.com/%E9%BB%83%E4%BB%81%E5%8B%B3%E9%A2%A8%E6%B3%A2%E8%A1%9D%E6%93%8A%E8%82%A1%E5%83%B9-%E5%8F%B0%E5%85%89%E9%9B%BB%E7%B7%8A%E6%80%A5%E6%BE%84%E6%B8%85-%E8%BC%9D%E9%81%94%E7%87%9F%E6%94%B6%E5%8D%A0%E6%AF%94%E5%BE%9E%E6%9C%AA%E8%B6%85%E9%81%8E20-140051496.html",
-      "source": "Yahoo 股市",
-      "published": "2026-11-16T22:00+08:00",
-      "summary": "受輝達創辦人黃仁勳離職風暴影響，銅箔基板龍頭台光電（2383）股價遭遇亂流。今（16）日台光電重挫跌停，來到3795元，晚間7點57分突發重大訊息，澄清國內財經媒體引用台新投顧預估輝達2026年營收占",
-      "tags": []
-    },
-    {
-      "title": "不只「存夠錢」更要「活得好」 安聯人壽總座：善用多元保單建構財務後盾",
-      "url": "https://news.cnyes.com/news/id/6664297",
-      "source": "鉅亨網",
-      "published": "2026-11-16T21:39+08:00",
-      "summary": "台灣正式邁入超高齡社會，當退休後的人生可能長達25年至30年，如何在通膨壓力下兼顧健康與生活品質，成為全民必修課。安聯人壽今(16)日於台北寒舍艾美酒店舉辦「2026財富管理暨健康照護論壇」，以「長壽續航 財富同行」為主題，深度探討財務韌性",
       "tags": []
     }
   ]
