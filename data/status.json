@@ -1,23 +1,23 @@
 {
   "chips": {
-    "time": "2026-11-17T15:00:48+08:00",
+    "time": "2026-11-17T15:30:36+08:00",
     "ok": true,
     "errors": []
   },
   "news": {
-    "time": "2026-11-17T15:01:07+08:00",
+    "time": "2026-11-17T15:30:55+08:00",
     "ok": true,
     "errors": [
-      "from_google 失敗：429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=%E5%8F%B0%E8%82%A1+AI%E6%A6%82%E5%BF%B5%E8%82%A1+when%3A2d&hl=zh-TW&gl=TW&ceid=TW%3Azh-Hant"
+      "from_google 失敗：429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=%E5%8F%B0%E8%82%A1+AI%E4%BC%BA%E6%9C%8D%E5%99%A8+OR+CoWoS+OR+%E5%8F%B0%E5%BB%A0+when%3A2d&hl=zh-TW&gl=TW&ceid=TW%3Azh-Hant"
     ]
   },
   "media": {
-    "time": "2026-11-17T15:01:04+08:00",
+    "time": "2026-11-17T15:30:53+08:00",
     "ok": true,
     "errors": []
   },
   "sectors": {
-    "time": "2026-11-17T15:01:00+08:00",
+    "time": "2026-11-17T15:30:49+08:00",
     "ok": true,
     "errors": []
   }
