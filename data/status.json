@@ -1,23 +1,23 @@
 {
   "chips": {
-    "time": "2026-11-17T13:01:58+08:00",
-    "ok": true,
-    "errors": [
-      "tmf_from_taifex 失敗：期交所欄位和預期不同：['<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01//EN\" \"http://www.w3.org/TR/html4/strict.dtd\">']"
-    ]
-  },
-  "news": {
-    "time": "2026-11-17T13:02:23+08:00",
+    "time": "2026-11-17T15:00:48+08:00",
     "ok": true,
     "errors": []
   },
+  "news": {
+    "time": "2026-11-17T15:01:07+08:00",
+    "ok": true,
+    "errors": [
+      "from_google 失敗：429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=%E5%8F%B0%E8%82%A1+AI%E6%A6%82%E5%BF%B5%E8%82%A1+when%3A2d&hl=zh-TW&gl=TW&ceid=TW%3Azh-Hant"
+    ]
+  },
   "media": {
-    "time": "2026-11-17T13:02:19+08:00",
+    "time": "2026-11-17T15:01:04+08:00",
     "ok": true,
     "errors": []
   },
   "sectors": {
-    "time": "2026-11-17T13:02:15+08:00",
+    "time": "2026-11-17T15:01:00+08:00",
     "ok": true,
     "errors": []
   }
