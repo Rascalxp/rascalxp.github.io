@@ -1,6 +1,6 @@
 {
   "chips": {
-    "time": "2026-11-19T01:10:00+08:00",
+    "time": "2026-11-19T01:26:11+08:00",
     "ok": true,
     "errors": [
       "tmf_from_taifex 失敗：期交所欄位和預期不同：['<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01//EN\" \"http://www.w3.org/TR/html4/strict.dtd\">']",
@@ -9,17 +9,23 @@
     ]
   },
   "news": {
-    "time": "2026-11-19T01:10:23+08:00",
+    "time": "2026-11-19T01:26:32+08:00",
     "ok": true,
     "errors": []
   },
   "media": {
-    "time": "2026-11-19T01:10:21+08:00",
+    "time": "2026-11-19T01:26:29+08:00",
     "ok": true,
-    "errors": []
+    "errors": [
+      "影片 WxL9SCEyjIY 詳細資料讀取失敗：429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.youtube.com/watch%3Fv%3DWxL9SCEyjIY&q=EgQUqUQlGMO_99cGIjBY6TDnPAhSpOsvj_IaZuao3JRzGP4l9jPW2REd_Il79BpbyRBVHG6hLwmg6ViHWt8yAnJSWgFDYKCj_Mybj9OPHA",
+      "影片 CnvIi7pcf9U 詳細資料讀取失敗：429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.youtube.com/watch%3Fv%3DCnvIi7pcf9U&q=EgQUqUQlGMO_99cGIjAEvRrKdsC2DDfrdLpHsJ0RD8d8T6GVnAkutzAK0ZowRBHE1xknT5g8MN7_ifZAEEkyAnJSWgFDYMjcyM7G1dCXogE",
+      "影片 r16FOALPBAA 詳細資料讀取失敗：429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.youtube.com/watch%3Fv%3Dr16FOALPBAA&q=EgQUqUQlGMO_99cGIjDWs63GRM8huRx-HXKDmAK-9Zt57jPxEuxC1rDtbRv7_tgB-WLZmmMQkx0E5HPnJTIyAnJSWgFDYKbI0KGNuNCuQw",
+      "影片 fOUjxWgDNX8 詳細資料讀取失敗：429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.youtube.com/watch%3Fv%3DfOUjxWgDNX8&q=EgQUqUQlGMS_99cGIjDu2MZNKorOcxb0u9HIj1qrfE09REpYyZxW__0VbW4MPzhcsQ78AgMxVfWcIjptoToyAnJSWgFDYKKH9KWh9tqIiAE",
+      "影片 3dW8YEBrn2c 詳細資料讀取失敗：429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.youtube.com/watch%3Fv%3D3dW8YEBrn2c&q=EgQUqUQlGMS_99cGIjAEFo5_ugkurSdm7HYuYGmJHUhppbwgG-xsXAHadvWjOQTmofdeaHOpU4D-a5b1MVwyAnJSWgFDYPyw6s6vsLviXg"
+    ]
   },
   "sectors": {
-    "time": "2026-11-19T01:10:16+08:00",
+    "time": "2026-11-19T01:26:26+08:00",
     "ok": true,
     "errors": []
   }
