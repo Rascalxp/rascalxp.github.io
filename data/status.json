@@ -1,21 +1,23 @@
 {
   "chips": {
-    "time": "2026-11-18T16:30:35+08:00",
+    "time": "2026-11-18T16:45:37+08:00",
     "ok": true,
     "errors": []
   },
   "news": {
-    "time": "2026-11-18T16:30:58+08:00",
+    "time": "2026-11-18T16:46:02+08:00",
     "ok": true,
-    "errors": []
+    "errors": [
+      "from_google 失敗：503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=%E5%8F%B0%E8%82%A1+AI%E6%A6%82%E5%BF%B5%E8%82%A1+when%3A2d&hl=zh-TW&gl=TW&ceid=TW%3Azh-Hant"
+    ]
   },
   "media": {
-    "time": "2026-11-18T16:30:56+08:00",
+    "time": "2026-11-18T16:45:52+08:00",
     "ok": true,
     "errors": []
   },
   "sectors": {
-    "time": "2026-11-18T16:30:52+08:00",
+    "time": "2026-11-18T16:45:47+08:00",
     "ok": true,
     "errors": []
   }
