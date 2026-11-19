@@ -1,23 +1,21 @@
 {
   "chips": {
-    "time": "2026-11-19T16:30:39+08:00",
+    "time": "2026-11-19T16:45:29+08:00",
     "ok": true,
     "errors": []
   },
   "news": {
-    "time": "2026-11-19T16:31:01+08:00",
+    "time": "2026-11-19T16:45:47+08:00",
     "ok": true,
-    "errors": [
-      "from_google 失敗：429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=%E5%8F%B0%E8%82%A1+AI%E4%BC%BA%E6%9C%8D%E5%99%A8+OR+CoWoS+OR+%E5%8F%B0%E5%BB%A0+when%3A2d&hl=zh-TW&gl=TW&ceid=TW%3Azh-Hant"
-    ]
+    "errors": []
   },
   "media": {
-    "time": "2026-11-19T16:30:57+08:00",
+    "time": "2026-11-19T16:45:45+08:00",
     "ok": true,
     "errors": []
   },
   "sectors": {
-    "time": "2026-11-19T16:30:52+08:00",
+    "time": "2026-11-19T16:45:42+08:00",
     "ok": true,
     "errors": []
   }
