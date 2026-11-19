@@ -1,25 +1,23 @@
 {
   "chips": {
-    "time": "2026-11-19T12:10:58+08:00",
-    "ok": true,
-    "errors": [
-      "tmf_from_taifex 失敗：HTTPSConnectionPool(host='www.taifex.com.tw', port=443): Read timed out. (read timeout=30)",
-      "tmf_from_openapi 失敗：期交所欄位和預期不同：['[{\"Date\":\"20261118\"', 'ContractCode:\"臺股期貨\"', 'Item:\"自營商\"', 'TradingVolume(Long):\"12215\"', 'TradingValue(Long)(Thousands):\"98187776\"', 'TradingVolume(Short):\"14701\"', 'TradingValue(Short)(Thousands):\"118239640\"', 'TradingVolume(Net):\"-2486\"', 'TradingValue(Net)(Thousands):\"-20051865\"', 'OpenInterest(Long):\"3306\"', 'ContractValueofOpenInterest(Long)(Thousands):\"26677551\"', 'OpenInterest(Short):\"4763\"', 'ContractValueofOpenInterest(Short)(Thousands):\"38438197\"', 'OpenInterest(Net):\"-1457\"', 'ContractValueofOpenInterest(Net)(Thousands):\"-11760646\"}', '']",
-      "散戶微台：找不到資料"
-    ]
-  },
-  "news": {
-    "time": "2026-11-19T12:11:30+08:00",
+    "time": "2026-11-19T15:01:08+08:00",
     "ok": true,
     "errors": []
   },
+  "news": {
+    "time": "2026-11-19T15:01:25+08:00",
+    "ok": true,
+    "errors": [
+      "from_google 失敗：429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=%E5%8F%B0%E8%82%A1+AI%E4%BC%BA%E6%9C%8D%E5%99%A8+OR+CoWoS+OR+%E5%8F%B0%E5%BB%A0+when%3A2d&hl=zh-TW&gl=TW&ceid=TW%3Azh-Hant"
+    ]
+  },
   "media": {
-    "time": "2026-11-19T12:11:20+08:00",
+    "time": "2026-11-19T15:01:23+08:00",
     "ok": true,
     "errors": []
   },
   "sectors": {
-    "time": "2026-11-19T12:11:15+08:00",
+    "time": "2026-11-19T15:01:19+08:00",
     "ok": true,
     "errors": []
   }
