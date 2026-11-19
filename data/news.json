@@ -1,25 +1,9 @@
 {
-  "updated": "2026-11-20T00:32:24+08:00",
+  "updated": "2026-11-20T01:17:08+08:00",
   "ai_summary": false,
   "model": null,
-  "candidates_sig": "2e702e2cb2fa3d7a6be3d5a0c2d0440b9cf8f98e",
+  "candidates_sig": "67c1014febe071b8c30412181a6a19a4516643ec",
   "items": [
-    {
-      "title": "Anthropic風光上市 對台、韓 AI 基建概念股有利無害嗎？",
-      "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE12WWI2YWtpLV9lMTRLQnBwZHlxYjFFTkpKejNMb0NkaEJOaFdHUlZUT3k0S240VGxqZ1JtX01rRGNTTkhDZlhZTkxDVFE?oc=5",
-      "source": "聚財網",
-      "published": "2026-11-19T23:46+08:00",
-      "summary": "",
-      "tags": []
-    },
-    {
-      "title": "50歲提早退休！台積電、台達電...蔡明翰抱緊「3檔AI股賺逾400％」：4指標挑出「真AI股」",
-      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOQWVTOWVzTmYyVXByQmd6TVRVRUpZTkNvSGxSMDBTNHJ3Ym40V3dBOWc2dXdncV9XaWJKaDJ0RjFXUkNrNm5Ra004Q0dkaDR2TV85R2JuZlZlRkltR1NnSXM4UTktWDVXYmhrVFpxaTRwamhhMFNTR2dvNFlGY1BZbw?oc=5",
-      "source": "今周刊",
-      "published": "2026-11-19T23:45+08:00",
-      "summary": "",
-      "tags": []
-    },
     {
       "title": "美國擴大晶片出口管制！FT：台積電、三星暫停部分中國客戶出貨，多手機品牌恐受波及",
       "url": "https://tw.news.yahoo.com/%E7%BE%8E%E5%9C%8B%E6%93%B4%E5%A4%A7%E6%99%B6%E7%89%87%E5%87%BA%E5%8F%A3%E7%AE%A1%E5%88%B6-ft-%E5%8F%B0%E7%A9%8D%E9%9B%BB-%E4%B8%89%E6%98%9F%E6%9A%AB%E5%81%9C%E9%83%A8%E5%88%86%E4%B8%AD%E5%9C%8B%E5%AE%A2%E6%88%B6%E5%87%BA%E8%B2%A8-%E5%A4%9A%E6%89%8B%E6%A9%9F%E5%93%81%E7%89%8C%E6%81%90%E5%8F%97%E6%B3%A2%E5%8F%8A-145000994.html",
@@ -61,14 +45,6 @@
       "tags": []
     },
     {
-      "title": "美國AI晶片管制3台廠不同調！台積電代工加嚴 另2家列白名單",
-      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9EVjNhOTR1MjRKdmwtVEQ1UldhX1BqdkViazk2SEFVZy0yclVvWHlHOU5VNk4tTzNFNXFwdlhvZF9jT0tzdE4wZHVOa0ZCSDBtQ0HSAVBBVV95cUxPQmxLYWxlVXUwQzFNdDVKZUw1SkgycC1fRUVGblo3LWtYWl82RzhZYkJ5SHhraDM5TmNQNkFEck8yMmhUZmhYYzIyc0l2ZzljQw?oc=5",
-      "source": "ETtoday財經雲",
-      "published": "2026-11-19T21:36+08:00",
-      "summary": "",
-      "tags": []
-    },
-    {
       "title": "海外下單也要查！台積電傳收緊對中代工 中國AI晶片再卡關",
       "url": "https://news.cnyes.com/news/id/6667925",
       "source": "鉅亨網",
@@ -77,11 +53,35 @@
       "tags": []
     },
     {
-      "title": "華新迎60週年 焦佑倫看好AI液冷SMR核能等9大商機",
-      "url": "https://tw.stock.yahoo.com/news/%E8%8F%AF%E6%96%B0%E8%BF%8E60%E9%80%B1%E5%B9%B4-%E7%84%A6%E4%BD%91%E5%80%AB%E7%9C%8B%E5%A5%BDai%E6%B6%B2%E5%86%B7smr%E6%A0%B8%E8%83%BD%E7%AD%899%E5%A4%A7%E5%95%86%E6%A9%9F-131235151.html",
+      "title": "美國晶片禁令今正式生效！台積電緊急喊停中國16奈米先進製程訂單，AI晶片設計完成也恐無廠可代工",
+      "url": "https://news.cnyes.com/news/id/6667918",
+      "source": "鉅亨網",
+      "published": "2026-11-19T21:00+08:00",
+      "summary": "2026年11月19日（優分析／產業數據中心報導）⸺ 美國最新晶片出口管制規定今日正式生效，中國晶片設計業者取得海外先進製程產能的難度進一步升高。根據路透社報導，台積電(2330-TW)已要求暫停部分中國客戶原本可以承作的晶片訂單，涉及16",
+      "tags": []
+    },
+    {
+      "title": "傳美出口管制新規衝擊 台積電、三星暫停部分對中晶片出貨",
+      "url": "https://tw.stock.yahoo.com/news/%E5%82%B3%E7%BE%8E%E5%87%BA%E5%8F%A3%E7%AE%A1%E5%88%B6%E6%96%B0%E8%A6%8F%E8%A1%9D%E6%93%8A-%E5%8F%B0%E7%A9%8D%E9%9B%BB-%E4%B8%89%E6%98%9F%E6%9A%AB%E5%81%9C%E9%83%A8%E5%88%86%E5%B0%8D%E4%B8%AD%E6%99%B6%E7%89%87%E5%87%BA%E8%B2%A8-123733945.html",
       "source": "Yahoo 股市",
-      "published": "2026-11-19T21:12+08:00",
-      "summary": "（中央社記者潘智義台北2026年11月19日電）電纜及不銹鋼廠華新麗華(1605)董事長焦佑倫今天表示，台電自2020年至2030年電網投資預算可望增加3倍，帶動電纜市場穩定需求，因應風電本土化的海纜",
+      "published": "2026-11-19T20:37+08:00",
+      "summary": "（中央社台北2026年11月19日綜合外電報導）英國「金融時報」引述知情人士報導，美國商務部推出一項出口管制新規定後，台積電與三星電子已暫停部分對中國客戶的晶片出貨。華府這項新規定意在阻礙北京人工智慧",
+      "tags": []
+    },
+    {
+      "title": "台股失守3萬9！哲哲喊話「光明就在眼前」 預估最快明天迎V轉",
+      "url": "https://tw.news.yahoo.com/%E5%8F%B0%E8%82%A1%E5%A4%B1%E5%AE%883%E8%90%AC9-%E5%93%B2%E5%93%B2%E5%96%8A%E8%A9%B1-%E5%85%89%E6%98%8E%E5%B0%B1%E5%9C%A8%E7%9C%BC%E5%89%8D-%E9%A0%90%E4%BC%B0%E6%9C%80%E5%BF%AB%E6%98%8E%E5%A4%A9%E8%BF%8Ev%E8%BD%89-123500106.html",
+      "source": "Yahoo 股市",
+      "published": "2026-11-19T20:35+08:00",
+      "summary": "台股今（19）日大跌失守39,000點，分析師郭哲榮喊話「怎麼下來就怎麼上去」，預估最快明天起啟動V型反轉。他指出AI產業無泡沫，指標股本益比極低，加上金管會明起實施新版限空令積極護盤，歷史經驗顯示非",
+      "tags": []
+    },
+    {
+      "title": "矽瑪(3511)無人機、機器人產品陸續出貨第四季聚焦改善產品組合與成本",
+      "url": "https://news.cnyes.com/news/id/6667907",
+      "source": "鉅亨網",
+      "published": "2026-11-19T20:30+08:00",
+      "summary": "2026年11月19日（優分析／產業數據中心報導）⸺ 矽瑪(3511-TW)表示，無人機與人形機器人相關產品今年陸續出貨，部分已進入量產；醫療線束則隨新產品及新專案導入，業務明顯成長。公司第三季營收與毛利率較去年同期改善，但本業仍虧損，第四",
       "tags": []
     }
   ]
