@@ -1,87 +1,87 @@
 {
-  "updated": "2026-11-19T16:45:47+08:00",
+  "updated": "2026-11-19T20:10:48+08:00",
   "ai_summary": false,
   "model": null,
-  "candidates_sig": "479f6a68d636e5025336bf774ecc92341bdf0337",
+  "candidates_sig": "c9b3843a6f5a600d4058bc0b7ab0809a000b352b",
   "items": [
     {
-      "title": "台股暴跌1768點失守4萬點！「這檔面板」續持台積電合作題材湧21萬張奪成交王 力積電傳擴產、布局3D AI新產能入榜",
-      "url": "https://tw.stock.yahoo.com/news/%E5%8F%B0%E8%82%A1%E6%9A%B4%E8%B7%8C1768%E9%BB%9E%E5%A4%B1%E5%AE%884%E8%90%AC%E9%BB%9E-%E9%80%99%E6%AA%94%E9%9D%A2%E6%9D%BF-%E7%BA%8C%E6%8C%81%E5%8F%B0%E7%A9%8D%E9%9B%BB%E5%90%88%E4%BD%9C%E9%A1%8C%E6%9D%90%E6%B9%A721%E8%90%AC%E5%BC%B5%E5%A5%AA%E6%88%90%E4%BA%A4%E7%8E%8B-%E5%8A%9B%E7%A9%8D%E9%9B%BB%E5%82%B3%E6%93%B4%E7%94%A2-%E5%B8%83%E5%B1%803d-083500883.html",
-      "source": "Yahoo 股市",
-      "published": "2026-11-19T16:35+08:00",
-      "summary": "[FTNN新聞網]記者邱梓欣／綜合報導即使輝達秀出亮眼財報，美股前一交易日漲跌互見，台股今（19）日再受拖累疲弱，終場大跌1768點，為史上第7大單日崩跌，終場...",
+      "title": "群聯推主權型AI資料平台 整合GenBI實現在地化應用",
+      "url": "https://news.cnyes.com/news/id/6667843",
+      "source": "鉅亨網",
+      "published": "2026-11-19T20:04+08:00",
+      "summary": "NAND控制晶片廠群聯(8299-TW)今(19)日宣布推出搭載生成式商業智慧(GenBI)的Phison AI Data Platform(AIDP)，整合地端AI模型、推論服務、資料分析及企業級儲存，打造一站式主權型AI平台，協助企業在",
       "tags": []
     },
     {
-      "title": "強攻AI商機，微星宣布與中華創智/朕宏國際策略合作",
-      "url": "https://tw.stock.yahoo.com/news/%E5%BC%B7%E6%94%BBai%E5%95%86%E6%A9%9F-%E5%BE%AE%E6%98%9F%E5%AE%A3%E5%B8%83%E8%88%87%E4%B8%AD%E8%8F%AF%E5%89%B5%E6%99%BA-%E6%9C%95%E5%AE%8F%E5%9C%8B%E9%9A%9B%E7%AD%96%E7%95%A5%E5%90%88%E4%BD%9C-082713742.html",
-      "source": "Yahoo 股市",
-      "published": "2026-11-19T16:27+08:00",
-      "summary": "【財訊快報／記者王宜弘報導】微星(2377)週四(19日)宣布，與中華創智國際(CHT InventAI)展開企業Edge AI的合作，結合微星MSI的地端運算硬體，以及中華創智AgentHub企業A",
+      "title": "快訊／美國晶片管制擴大！台積電、三星暫停部分中國客戶出貨",
+      "url": "https://news.cnyes.com/news/id/6667851",
+      "source": "鉅亨網",
+      "published": "2026-11-19T20:00+08:00",
+      "summary": "2026年11月19日（優分析／產業數據中心報導）⸺ 金融時報指出，台積電(2330-TW)與三星電子Samsung Electronics(005930-KR)傳出暫停向部分中國客戶出貨晶片，等待取得美國政府出口許可。 值得注意的是，輝達",
       "tags": []
     },
     {
-      "title": "台股跌破年線找支撐，玉山投信稱資金聚焦高能見度AI族群",
-      "url": "https://tw.stock.yahoo.com/news/%E5%8F%B0%E8%82%A1%E8%B7%8C%E7%A0%B4%E5%B9%B4%E7%B7%9A%E6%89%BE%E6%94%AF%E6%92%90-%E7%8E%89%E5%B1%B1%E6%8A%95%E4%BF%A1%E7%A8%B1%E8%B3%87%E9%87%91%E8%81%9A%E7%84%A6%E9%AB%98%E8%83%BD%E8%A6%8B%E5%BA%A6ai%E6%97%8F%E7%BE%A4-082303684.html",
+      "title": "AI代理交易將成真！Visa攜手50家支付巨擘提升商家收付 台灣喬睿、應援與SHOPLINE入列",
+      "url": "https://tw.stock.yahoo.com/news/ai%E4%BB%A3%E7%90%86%E4%BA%A4%E6%98%93%E5%B0%87%E6%88%90%E7%9C%9F%EF%BC%81visa%E6%94%9C%E6%89%8B50%E5%AE%B6%E6%94%AF%E4%BB%98%E5%B7%A8%E6%93%98%E6%8F%90%E5%8D%87%E5%95%86%E5%AE%B6%E6%94%B6%E4%BB%98-%E5%8F%B0%E7%81%A3%E5%96%AC%E7%9D%BF%E3%80%81%E6%87%89%E6%8F%B4%E8%88%87shopline%E5%85%A5%E5%88%97-115645208.html",
       "source": "Yahoo 股市",
-      "published": "2026-11-19T16:23+08:00",
-      "summary": "【財訊快報／記者劉居全報導】台股今(19)日賣壓持續擴大，加權指數收盤摜破年線支撐，收在38,426.89點，下跌4.4%；櫃買指數下跌7.22%，指數收在285.33點。美國聯準會利率政策偏鷹，強化",
+      "published": "2026-11-19T19:56+08:00",
+      "summary": "全球支付龍頭Visa 今（19）日宣布，將擴大旗下亞太區 Agentic Ready 計畫。第二階段將聚焦於商店受理端，攜手收單機構提升AI代理交易的商店受理能力。本計畫啟動之際已有超過50家合作夥伴",
       "tags": []
     },
     {
-      "title": "中電推動數位轉型，聚焦高效率節能及台灣製造智慧照明",
-      "url": "https://tw.stock.yahoo.com/news/%E4%B8%AD%E9%9B%BB%E6%8E%A8%E5%8B%95%E6%95%B8%E4%BD%8D%E8%BD%89%E5%9E%8B-%E8%81%9A%E7%84%A6%E9%AB%98%E6%95%88%E7%8E%87%E7%AF%80%E8%83%BD%E5%8F%8A%E5%8F%B0%E7%81%A3%E8%A3%BD%E9%80%A0%E6%99%BA%E6%85%A7%E7%85%A7%E6%98%8E-080919124.html",
+      "title": "台股重挫1768點！陳龍曝暴跌真相：急喊「什麼都不要動」等反攻",
+      "url": "https://tw.news.yahoo.com/%E5%8F%B0%E8%82%A1%E9%87%8D%E6%8C%AB1768%E9%BB%9E-%E9%99%B3%E9%BE%8D%E6%9B%9D%E6%9A%B4%E8%B7%8C%E7%9C%9F%E7%9B%B8-%E6%80%A5%E5%96%8A-%E4%BB%80%E9%BA%BC%E9%83%BD%E4%B8%8D%E8%A6%81%E5%8B%95-%E7%AD%89%E5%8F%8D%E6%94%BB-115600021.html",
       "source": "Yahoo 股市",
-      "published": "2026-11-19T16:09+08:00",
-      "summary": "【財訊快報／記者戴海茜報導】中電(1611)表示，因應人工智慧、雲端運算及物聯網技術的發展，中電分階段推動數位轉型，規劃結合既有企業資源規劃系統（ERP），優化作業流程並探索新的照明應用，產品發展將聚",
+      "published": "2026-11-19T19:56+08:00",
+      "summary": "台股今（19）日終場狂瀉1768.02點、284家跌停鎖死。資深分析師陳龍在《股市尊龍》揭露暴跌真相，直指是主動式ETF贖回潮與黃仁勳消息引發的籌碼超跌，強調AI並無泡沫，急喊投資人「什麼都不要動」，",
       "tags": []
     },
     {
-      "title": "Anthropic募資813億美元創史上最大IPO！每股83美元掛牌投資人憂AI資金遭排擠| 台股雜談| 股市",
-      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBONy1QcTZFMHBmSEtnN1VpcHliRG9rdnRNXzBOZ0FrQnBfMXZYLThscWJORl9OSlhENFNBV2p4WTFrSE1wOGUtM1QwNzY5TEhNTWc?oc=5",
-      "source": "UDN",
-      "published": "2026-11-19T16:08+08:00",
+      "title": "50歲提早退休！台積電、台達電...蔡明翰抱緊「3檔AI股賺逾400％」：4指標挑出「真AI股」",
+      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOQWVTOWVzTmYyVXByQmd6TVRVRUpZTkNvSGxSMDBTNHJ3Ym40V3dBOWc2dXdncV9XaWJKaDJ0RjFXUkNrNm5Ra004Q0dkaDR2TV85R2JuZlZlRkltR1NnSXM4UTktWDVXYmhrVFpxaTRwamhhMFNTR2dvNFlGY1BZbw?oc=5",
+      "source": "今周刊",
+      "published": "2026-11-19T19:52+08:00",
       "summary": "",
       "tags": []
     },
     {
-      "title": "幕僚傳AI變造沈伯洋選舉公報遭約談 傅崐萁盼勿枉勿縱",
-      "url": "https://tw.news.yahoo.com/%E5%B9%95%E5%83%9A%E5%82%B3ai%E8%AE%8A%E9%80%A0%E6%B2%88%E4%BC%AF%E6%B4%8B%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1%E9%81%AD%E7%B4%84%E8%AB%87-%E5%82%85%E5%B4%90%E8%90%81%E7%9B%BC%E5%8B%BF%E6%9E%89%E5%8B%BF%E7%B8%B1-080258212.html",
+      "title": "雲豹能源跨足AI資料中心 鎖定台灣與亞太地區開發逾10座專案",
+      "url": "https://tw.stock.yahoo.com/news/%E9%9B%B2%E8%B1%B9%E8%83%BD%E6%BA%90%E8%B7%A8%E8%B6%B3ai%E8%B3%87%E6%96%99%E4%B8%AD%E5%BF%83-%E9%8E%96%E5%AE%9A%E5%8F%B0%E7%81%A3%E8%88%87%E4%BA%9E%E5%A4%AA%E5%9C%B0%E5%8D%80%E9%96%8B%E7%99%BC%E9%80%BE10%E5%BA%A7%E5%B0%88%E6%A1%88-113036589.html",
       "source": "Yahoo 股市",
-      "published": "2026-11-19T16:02+08:00",
-      "summary": "國民黨團總召傅崐萁幕僚李秀姬日前在臉書貼出疑似經AI變造的民進黨台北市長候選人沈伯洋的選舉公報政見圖，北檢依違反《選舉罷免法》意圖使人不當選等罪嫌展開調查。對此，傅崐萁今天(19日)表示，台灣是民主法",
+      "published": "2026-11-19T19:30+08:00",
+      "summary": "（中央社記者梁家柔台北2026年11月19日電）雲豹能源今天舉辦第3季法說會，雲豹能源總經理趙書閔今天表示，目前AI資料中心（AIDC）將於台灣及亞太地區推進逾10座、負載規模300MW的開發專案，目",
       "tags": []
     },
     {
-      "title": "早年押注Anthropic狂賺1470%！南韓SK電信持股飆至32億美元 台積電、輝達也參與私募",
-      "url": "https://news.cnyes.com/news/id/6667080",
+      "title": "《AI概念股致富地圖》別拿舊時代劇本看新市場AI時代震盪的全新判讀法- 書房",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE8xVnZvaTduWGdac1dLUVBsellHbVZiWVZydVEyQzJFeHg1ZXBYUEdfQmJpSlZDMF8wdXVMVHRnMU9IYkVGd2JKOGpRZGNJRmJUSTVZb0IyY3Bmb29FbUhF?oc=5",
+      "source": "工商時報",
+      "published": "2026-11-19T19:30+08:00",
+      "summary": "",
+      "tags": []
+    },
+    {
+      "title": "台灣參與2026 APEC圓滿落幕 施振榮：應引導AI從「智能」邁向「智慧」",
+      "url": "https://news.cnyes.com/news/id/6667824",
       "source": "鉅亨網",
-      "published": "2026-11-19T16:00+08:00",
-      "summary": "Anthropic周三IPO定價，SK電信持股估值升至32億美元，較2.04億美元原始投入報酬率達1,470%。 SK電信自2023年起投資Anthropic，是否出售持股將視業務綜效、市場環境與成長資金需求。 台積電、美光、輝達也參與An",
+      "published": "2026-11-19T19:26+08:00",
+      "summary": "今(2026)年亞太經濟合作(APEC)經濟領袖會議，於今(19)日結束，我國由宏碁(2353-TW)集團創辦人施振榮代表參與峰會，與多國領袖交流互動，分享台灣在科技創新、產業轉型及人才培育等發展經驗，也達成總統賴清德交付的三大任務，針對A",
       "tags": []
     },
     {
-      "title": "華新60週年宣布策略轉型，聚焦AIDC半導體核能等九大前瞻產業",
-      "url": "https://tw.stock.yahoo.com/news/%E8%8F%AF%E6%96%B060%E9%80%B1%E5%B9%B4%E5%AE%A3%E5%B8%83%E7%AD%96%E7%95%A5%E8%BD%89%E5%9E%8B-%E8%81%9A%E7%84%A6aidc%E5%8D%8A%E5%B0%8E%E9%AB%94%E6%A0%B8%E8%83%BD%E7%AD%89%E4%B9%9D%E5%A4%A7%E5%89%8D%E7%9E%BB%E7%94%A2%E6%A5%AD-075618606.html",
+      "title": "黃仁勳難回輝達 多檔AI股2028年EPS面臨下修 台股大跌1768點",
+      "url": "https://tw.news.yahoo.com/%E9%BB%83%E4%BB%81%E5%8B%B3%E9%9B%A3%E5%9B%9E%E8%BC%9D%E9%81%94-%E5%A4%9A%E6%AA%94ai%E8%82%A12028%E5%B9%B4eps%E9%9D%A2%E8%87%A8%E4%B8%8B%E4%BF%AE-%E5%8F%B0%E8%82%A1%E5%A4%A7%E8%B7%8C1768%E9%BB%9E-110049024.html",
       "source": "Yahoo 股市",
-      "published": "2026-11-19T15:56+08:00",
-      "summary": "【財訊快報／記者戴海茜報導】華新(1605)今日舉行「60週年企業願景暨趨勢分享會」，董事長焦佑倫指出，華新全面推動策略轉型，以五大策略主軸與四大驅動力，聚焦AI資料中心、機器人自動化、航天航太、半導",
+      "published": "2026-11-19T19:00+08:00",
+      "summary": "加權指數終場大跌1768.02點，以38426.89點作收，創下台股史上單日第...",
       "tags": []
     },
     {
-      "title": "名師操盤》恐怖平衡破功！台股近300檔跌停血洗 下一道防線是關鍵",
-      "url": "https://tw.stock.yahoo.com/news/%E5%90%8D%E5%B8%AB%E6%93%8D%E7%9B%A4-%E6%81%90%E6%80%96%E5%B9%B3%E8%A1%A1%E7%A0%B4%E5%8A%9F-%E5%8F%B0%E8%82%A1%E8%BF%91300%E6%AA%94%E8%B7%8C%E5%81%9C%E8%A1%80%E6%B4%97-%E4%B8%8B-%E9%81%93%E9%98%B2%E7%B7%9A%E6%98%AF%E9%97%9C%E9%8D%B5-075415048.html",
-      "source": "Yahoo 股市",
-      "published": "2026-11-19T15:54+08:00",
-      "summary": "儘管輝達財報及展望優於預期，但因周三Fed公布10月FOMC會議紀要，內容顯示幾乎所有官員皆認同為了壓制高漲的通膨，未來仍有必要進一步升息，甚至傳出若物價數據持續惡化，今年12月不排除一次升2碼(50",
-      "tags": []
-    },
-    {
-      "title": "玉晶光稱光通訊產品需求量大，EBO快速放量，估明年營收挑戰成長20%",
-      "url": "https://tw.stock.yahoo.com/news/%E7%8E%89%E6%99%B6%E5%85%89%E7%A8%B1%E5%85%89%E9%80%9A%E8%A8%8A%E7%94%A2%E5%93%81%E9%9C%80%E6%B1%82%E9%87%8F%E5%A4%A7-ebo%E5%BF%AB%E9%80%9F%E6%94%BE%E9%87%8F-%E4%BC%B0%E6%98%8E%E5%B9%B4%E7%87%9F%E6%94%B6%E6%8C%91%E6%88%B0%E6%88%90%E9%95%B720-075408854.html",
-      "source": "Yahoo 股市",
-      "published": "2026-11-19T15:54+08:00",
-      "summary": "【財訊快報／記者戴海茜報導】光學廠玉晶光(3406)下午舉行線上法說會，董事長陳天慶指出，與3M的合作是玉晶光從傳統「消費性電子光學」延伸至「高速運算與AI基礎設施光學」，配合3M合作的EBO光學連接",
+      "title": "華新越南廠目標一年內完成建廠與設備進駐 以因應AI需求",
+      "url": "https://news.cnyes.com/news/id/6667796",
+      "source": "鉅亨網",
+      "published": "2026-11-19T18:47+08:00",
+      "summary": "華新(1605-TW)今(19)日舉辦「60週年企業願景暨趨勢分享會」，董事長焦佑倫會後接受媒體訪問，談及先前公告於越南設立子公司，指出越南廠將主要供應水冷應用材料及精密製造相關產品，以因應AI相關需求，目標於1年內完成建廠與設備進駐。 華",
       "tags": []
     }
   ]
