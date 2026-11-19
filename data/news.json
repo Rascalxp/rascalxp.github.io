@@ -1,8 +1,8 @@
 {
-  "updated": "2026-11-19T12:06:44+08:00",
+  "updated": "2026-11-19T12:11:30+08:00",
   "ai_summary": false,
   "model": null,
-  "candidates_sig": "542b98369bb0674e98fc7dece3ae136ad9a59725",
+  "candidates_sig": "5267654f41dea2a69d62b2001a2ecfe2f5767f46",
   "items": [
     {
       "title": "AI不只餵飽輝達！WSTS：全球前20大晶片商Q3全員成長 SK海力士季增49%居冠、鎧俠緊追",
@@ -13,11 +13,35 @@
       "tags": []
     },
     {
+      "title": "台股跌破4萬點 分析師談輝達、國安基金",
+      "url": "https://tw.news.yahoo.com/%E5%8F%B0%E8%82%A1%E8%B7%8C%E7%A0%B44%E8%90%AC%E9%BB%9E-%E5%88%86%E6%9E%90%E5%B8%AB%E8%AB%87%E8%BC%9D%E9%81%94-%E5%9C%8B%E5%AE%89%E5%9F%BA%E9%87%91-035722460.html",
+      "source": "Yahoo 股市",
+      "published": "2026-11-19T11:57+08:00",
+      "summary": "[NOWNEWS今日新聞]台股今（19）日再度陷入「40K大關保衛戰」，盤中最深下跌近2000點，來到38259點，一口氣跌破3萬9000點，進入「38K保衛戰」。永誠國際投顧分析師謝文琪表示，下探核",
+      "tags": []
+    },
+    {
+      "title": "台股血洗跌破年線 法人：短期震盪不代表經濟基本面轉弱",
+      "url": "https://tw.news.yahoo.com/%E5%8F%B0%E8%82%A1%E8%A1%80%E6%B4%97%E8%B7%8C%E7%A0%B4%E5%B9%B4%E7%B7%9A-%E6%B3%95%E4%BA%BA-%E7%9F%AD%E6%9C%9F%E9%9C%87%E7%9B%AA%E4%B8%8D%E4%BB%A3%E8%A1%A8%E7%B6%93%E6%BF%9F%E5%9F%BA%E6%9C%AC%E9%9D%A2%E8%BD%89%E5%BC%B1-034950937.html",
+      "source": "Yahoo 股市",
+      "published": "2026-11-19T11:49+08:00",
+      "summary": "近期受到美國期中選舉結果、AI科技股重挫等國際政經局勢影響，台股盤中跌破年線、一度血洗1900點，截至11:39分為止，下跌1368點，法人表示，股市短期震盪不代表經濟基本面轉弱，對投資人而言，近期市",
+      "tags": []
+    },
+    {
       "title": "黃仁勳請辭 專家：台廠輝達供應鏈短期恐受4衝擊",
       "url": "https://tw.news.yahoo.com/%E9%BB%83%E4%BB%81%E5%8B%B3%E8%AB%8B%E8%BE%AD-%E5%B0%88%E5%AE%B6-%E5%8F%B0%E5%BB%A0%E8%BC%9D%E9%81%94%E4%BE%9B%E6%87%89%E9%8F%88%E7%9F%AD%E6%9C%9F%E6%81%90%E5%8F%974%E8%A1%9D%E6%93%8A-034651917.html",
       "source": "Yahoo 股市",
       "published": "2026-11-19T11:46+08:00",
       "summary": "輝達(NVIDIA)創辦人黃仁勳請辭執行長職務，是否回鍋，目前仍未知。不過，沒了黃仁勳的輝達，對台廠供應鏈影響也備受關注。專家指出，短期來看，過去仰賴黃仁勳個人交情所帶來的「高毛利紅利」與「兆元宴效應",
+      "tags": []
+    },
+    {
+      "title": "台股多空激戰 開低翻紅後又跌近2千點 失守3萬9千大關",
+      "url": "https://tw.news.yahoo.com/%E5%8F%B0%E8%82%A1%E9%96%8B%E7%9B%A4%E9%9C%87%E7%9B%AA%E5%A4%B1%E5%AE%884%E8%90%AC%E9%BB%9E%E5%A4%A7%E9%97%9C-%E6%97%A9%E7%9B%A4%E8%B7%8C%E9%80%BE600%E9%BB%9E-011031318.html",
+      "source": "Yahoo 股市",
+      "published": "2026-11-19T11:43+08:00",
+      "summary": "美國人工智慧巨擘Anthropic首次公開募股（IPO）之際，美股投資人試圖消化輝達創辦人黃仁勳去職的影響，但投資人恐慌依舊；台指期夜盤下跌345點，失守4萬點大關；台股今（19）日開盤下跌49.18",
       "tags": []
     },
     {
@@ -58,30 +82,6 @@
       "source": "Yahoo 股市",
       "published": "2026-11-19T11:20+08:00",
       "summary": "圖／本報資料庫商傳媒｜何映辰／台北報導美國晶片巨頭輝達（NVIDIA）為因應強勁的人工智慧需求，近期簽署一系列長期供應協議，全面擴大全球半導體供應鏈布局。這波合作橫跨晶圓代工、先進封裝、測試與載板，涵",
-      "tags": []
-    },
-    {
-      "title": "台股血洗1900點！爆「9檔AI股」違約全跌停 專家曝更恐怖未爆彈",
-      "url": "https://tw.stock.yahoo.com/news/%E5%8F%B0%E8%82%A1%E8%A1%80%E6%B4%971900%E9%BB%9E-%E7%88%86-9%E6%AA%94ai%E8%82%A1-%E9%81%95%E7%B4%84%E5%85%A8%E8%B7%8C%E5%81%9C-%E5%B0%88%E5%AE%B6%E6%9B%9D%E6%9B%B4%E6%81%90%E6%80%96%E6%9C%AA%E7%88%86%E5%BD%88-031020218.html",
-      "source": "Yahoo 股市",
-      "published": "2026-11-19T11:10+08:00",
-      "summary": "台股今（19日）盤中再度狂殺逾1900點，昨（18日）爆出9檔違約交割的熱門AI股，今日盤中再度跌停全軍覆沒，恐讓大批搶短當沖客或融資戶逃生無門，市場憂心今日違約交割恐再爆新高。專家示警，未公告的小額",
-      "tags": []
-    },
-    {
-      "title": "台股狂瀉逾1900點！股王信驊等21檔千金股亮燈跌停 台達電4檔摔出千元俱樂部",
-      "url": "https://tw.stock.yahoo.com/news/%E5%8F%B0%E8%82%A1%E7%8B%82%E7%80%89%E9%80%BE1900%E9%BB%9E%EF%BC%81%E8%82%A1%E7%8E%8B%E4%BF%A1%E9%A9%8A%E7%AD%8921%E6%AA%94%E5%8D%83%E9%87%91%E8%82%A1%E4%BA%AE%E7%87%88%E8%B7%8C%E5%81%9C-%E5%8F%B0%E9%81%94%E9%9B%BB4%E6%AA%94%E6%91%94%E5%87%BA%E5%8D%83%E5%85%83%E4%BF%B1%E6%A8%82%E9%83%A8-033806212.html",
-      "source": "Yahoo 股市",
-      "published": "2026-11-19T11:06+08:00",
-      "summary": "市場仍在消化輝達接班變數、美國AI晶片出口管制與聯準會偏鷹訊號，台股今（19）日開低後賣壓擴大，截至上午11時20分，加權指數最低探至38,259.7點、重挫1,935.21點，接連失守4萬點、3萬9",
-      "tags": []
-    },
-    {
-      "title": "台股血洗1500點！爆「9檔AI股」違約全跌停專家曝更恐怖未爆彈- 要聞",
-      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5JdngybnlMREtLX0RGeGFUQ0p0TnM2NHdBZER6U2swdUh4VmRubUZpUFBwODk2ZVo3VjhiaWtpd2ZDSkVibmpvcmZvSkZwc1BSeDZhTVRDZVptaHpGbmt1YnBwZGtJd1JDY3MwNFVR?oc=5",
-      "source": "中時新聞網",
-      "published": "2026-11-19T11:05+08:00",
-      "summary": "",
       "tags": []
     }
   ]
