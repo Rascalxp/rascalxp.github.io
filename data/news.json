@@ -1,9 +1,65 @@
 {
-  "updated": "2026-11-21T04:02:29+08:00",
+  "updated": "2026-11-21T07:10:51+08:00",
   "ai_summary": false,
   "model": null,
-  "candidates_sig": "51fd3aacf02a32eb954debeaeb2f722935209895",
+  "candidates_sig": "acaedd67254aae9f47e91d7a76b03cc1c9466f87",
   "items": [
+    {
+      "title": "台股恐慌性拋售！不是泡沫破「全因黃仁勳」？專家預言：明年2月前難熬",
+      "url": "https://tw.news.yahoo.com/%E5%8F%B0%E8%82%A1%E6%81%90%E6%85%8C%E6%80%A7%E6%8B%8B%E5%94%AE-%E4%B8%8D%E6%98%AF%E6%B3%A1%E6%B2%AB%E7%A0%B4-%E5%85%A8%E5%9B%A0%E9%BB%83%E4%BB%81%E5%8B%B3-%E5%B0%88%E5%AE%B6%E9%A0%90%E8%A8%80-%E6%98%8E%E5%B9%B42%E6%9C%88%E5%89%8D%E9%9B%A3%E7%86%AC-230300615.html",
+      "source": "Yahoo 股市",
+      "published": "2026-11-21T07:03+08:00",
+      "summary": "台股近期連續跳水大跌引發恐慌，經濟學家吳嘉隆分析，這波震盪主因並非泡沫破裂，而是輝達創辦人黃仁勳去職帶來接班與國安等高度不確定性，觸發外資與華爾街資本拋售。他預估未來三到四個月市場將持續煎熬，投資人須",
+      "tags": []
+    },
+    {
+      "title": "黃仁勳牽動美收緊對中晶片出口 台廠7強評估",
+      "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE5tN19waTU2bC12OXlvWGZQZjZ0aTl6bEx2bk52U2ZOUmhEN3NVZ3JvQldseFdoQ1Uza3EwWGE3bE9hbXlXdmJSZVdySQ?oc=5",
+      "source": "三立新聞網SETN.com",
+      "published": "2026-11-21T07:01+08:00",
+      "summary": "",
+      "tags": []
+    },
+    {
+      "title": "周末精選｜後黃仁勳時代台股急殺！法人定調「評價重估」非AI反轉 點名3族群接棒",
+      "url": "https://tw.stock.yahoo.com/news/%E5%91%A8%E6%9C%AB%E7%B2%BE%E9%81%B8-%E5%BE%8C%E9%BB%83%E4%BB%81%E5%8B%B3%E6%99%82%E4%BB%A3%E5%8F%B0%E8%82%A1%E6%80%A5%E6%AE%BA-%E6%B3%95%E4%BA%BA%E5%AE%9A%E8%AA%BF-%E8%A9%95%E5%83%B9%E9%87%8D%E4%BC%B0-%E9%9D%9Eai%E5%8F%8D%E8%BD%89-230000979.html",
+      "source": "Yahoo 股市",
+      "published": "2026-11-21T07:00+08:00",
+      "summary": "【記者羅元駿／台北報導】隨黃仁勳辭任與重返輝達之路受阻，疊加美國期中選舉共和黨失利引發市場對AI發展疑慮，台股近期更逢恐慌性急殺，面對市場邁入「後黃仁勳時代」，《知新聞》整理凱基、大都會、玉山及群益四",
+      "tags": []
+    },
+    {
+      "title": "KONST 參展 SC26，以「24/7 GPUs Delivered in Asia」為主軸，在亞洲提供從驗證、交付到全天候維運的 AI 算力服務",
+      "url": "https://tw.stock.yahoo.com/news/konst-%E5%8F%83%E5%B1%95-sc26-%E4%BB%A5-24-230000590.html",
+      "source": "Yahoo 股市",
+      "published": "2026-11-21T07:00+08:00",
+      "summary": "立足台灣、布局亞洲的 AI 算力服務公司康斯特（KONST），於 11 月 17 日至 20 日，參加在芝加哥 McCormick Place 舉行的 SC26 （Super Computing 20",
+      "tags": []
+    },
+    {
+      "title": "AI概念股回檔與金價下挫 加拿大指數期貨盤前走跌",
+      "url": "https://tw.stock.yahoo.com/news/ai%E6%A6%82%E5%BF%B5%E8%82%A1%E5%9B%9E%E6%AA%94%E8%88%87%E9%87%91%E5%83%B9%E4%B8%8B%E6%8C%AB-%E5%8A%A0%E6%8B%BF%E5%A4%A7%E6%8C%87%E6%95%B8%E6%9C%9F%E8%B2%A8%E7%9B%A4%E5%89%8D%E8%B5%B0%E8%B7%8C-225158697.html",
+      "source": "Yahoo 股市",
+      "published": "2026-11-21T06:51+08:00",
+      "summary": "圖／本報資料庫商傳媒｜吳承岳／台北報導受到人工智慧（AI）板塊疑慮加劇以及黃金面臨拋售潮影響，北美金融市場氣氛趨於謹慎。外媒指出，加拿大標普/TSX 60 指數期貨於週五盤前下跌 9 點，跌幅約 0.",
+      "tags": []
+    },
+    {
+      "title": "〈貴金屬盤後〉黃金崩跌至14個月低點！單週重挫9.4%創8個月最慘紀錄 白銀、鉑金同步走弱",
+      "url": "https://tw.stock.yahoo.com/news/%E8%B2%B4%E9%87%91%E5%B1%AC%E7%9B%A4%E5%BE%8C-%E9%BB%83%E9%87%91%E5%B4%A9%E8%B7%8C%E8%87%B314%E5%80%8B%E6%9C%88%E4%BD%8E%E9%BB%9E-%E5%96%AE%E9%80%B1%E9%87%8D%E6%8C%AB9-4-%E5%89%B58%E5%80%8B%E6%9C%88%E6%9C%80%E6%85%98%E7%B4%80%E9%8C%84-214730381.html",
+      "source": "Yahoo 股市",
+      "published": "2026-11-21T05:47+08:00",
+      "summary": "Fed官員續釋鷹派訊號，市場估12月升息1碼機率約96%，金價承壓下挫。 現貨黃金跌約3%至每盎司3,514.08美元，創14個月低點；本週累跌9.4%，寫8個月最大單週跌幅。 AI概念股遭拋售引發流",
+      "tags": []
+    },
+    {
+      "title": "台股周跌17.5％ 35年來最慘",
+      "url": "https://tw.news.yahoo.com/%E5%8F%B0%E8%82%A1%E5%91%A8%E8%B7%8C17-5-35%E5%B9%B4%E4%BE%86%E6%9C%80%E6%85%98-201000944.html",
+      "source": "Yahoo 股市",
+      "published": "2026-11-21T04:10+08:00",
+      "summary": "AI投資信心全面潰散，台積電20日盤中跌破2000元、下挫至1970元，聯發科、台達電雙雙落入跌停，恐慌情緒蔓延、引發人踩人逃命潮，指數傾瀉而下，最低下探3萬5738.68點，尾盤國安基金進場拉抬、終",
+      "tags": []
+    },
     {
       "title": "標題 : 歐股遭遇一年多最大週跌：AI 概念股退潮、Anthropic 首日高估後暴跌引爆連鎖拋售",
       "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxORjBFWDVUbXYzN01QZlZCUklERi1nVVdFU2JFYVRDRVp6eFI0Q1YwYnBqMFlWRmV3dTZxRWZSV1NvdXdrdVZfV1gyM1NlYkdIdTNlS1RoSFJLQjFTbmN0eXZyQzU5UVV3eU9QMDFtdXMydDdacWY5V2tOLXViNWFoTnNHLWVKdUlqelZxQXFn?oc=5",
@@ -13,75 +69,19 @@
       "tags": []
     },
     {
+      "title": "SEMI：化合物半導體是AI關鍵六大台廠搶卡位| 產經",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9wYjNiSjJTNmJpck9LRUJqYzhZNGRucjJIczZQTmtYQ3A3bzc0LTJFSHFvMHdvcUlsMlBhWkVzX0pYdU1Jb2NmTHY3OXFXM1ltVnNhN2JyemthaC1za3JLSA?oc=5",
+      "source": "非凡新聞台",
+      "published": "2026-11-21T02:09+08:00",
+      "summary": "",
+      "tags": []
+    },
+    {
       "title": "美股早盤》Anthropic上市第2天跳水逾1成！晶片股續殺費半挫逾3% 台積電ADR跌3%",
       "url": "https://tw.news.yahoo.com/%E7%BE%8E%E8%82%A1%E6%97%A9%E7%9B%A4-anthropic%E4%B8%8A%E5%B8%82%E7%AC%AC2%E5%A4%A9%E8%B7%B3%E6%B0%B4%E9%80%BE1%E6%88%90-%E6%99%B6%E7%89%87%E8%82%A1%E7%BA%8C%E6%AE%BA%E8%B2%BB%E5%8D%8A%E6%8C%AB%E9%80%BE3-%E5%8F%B0%E7%A9%8D%E9%9B%BBadr%E8%B7%8C3-171107902.html",
       "source": "Yahoo 股市",
       "published": "2026-11-21T01:11+08:00",
       "summary": "AI新創Anthropic上市首日大漲後，第2個交易日隨即回落。美股20日開盤，Anthropic以89.86美元開出，早盤一度跌到87.26美元，較前一日收盤價下跌超過1成，隨後暫報91.39美元，",
-      "tags": []
-    },
-    {
-      "title": "快訊／費半、台積電ADR皆挫逾6%！台指期跌642點暫守35K大關",
-      "url": "https://tw.news.yahoo.com/%E5%BF%AB%E8%A8%8A-%E8%B2%BB%E5%8D%8A-%E5%8F%B0%E7%A9%8D%E9%9B%BBadr%E7%9A%86%E6%8C%AB%E9%80%BE6-%E5%8F%B0%E6%8C%87%E6%9C%9F%E8%B7%8C642%E9%BB%9E%E6%9A%AB%E5%AE%8835k%E5%A4%A7%E9%97%9C-163100495.html",
-      "source": "Yahoo 股市",
-      "published": "2026-11-21T00:31+08:00",
-      "summary": "美國參議院通過能源法案，明定資料中心須自付電網升級費用。市場焦點集中於AI大廠Anthropic上市後的股價表現與產業展望，連帶影響科技股賣壓，而Google擬直接採購AI晶片也受關注。非科技股部分，",
-      "tags": []
-    },
-    {
-      "title": "台積電驚傳下封殺令！路透：中國訂單16奈米以下全面叫停、禁用先進封裝",
-      "url": "https://tw.news.yahoo.com/%E5%8F%B0%E7%A9%8D%E9%9B%BB%E9%A9%9A%E5%82%B3%E4%B8%8B%E5%B0%81%E6%AE%BA%E4%BB%A4-%E8%B7%AF%E9%80%8F-%E4%B8%AD%E5%9C%8B%E8%A8%82%E5%96%AE16%E5%A5%88%E7%B1%B3%E4%BB%A5%E4%B8%8B%E5%85%A8%E9%9D%A2%E5%8F%AB%E5%81%9C-%E7%A6%81%E7%94%A8%E5%85%88%E9%80%B2%E5%B0%81%E8%A3%9D-162436196.html",
-      "source": "Yahoo 股市",
-      "published": "2026-11-21T00:24+08:00",
-      "summary": "美國商務部公布新規，進一步加嚴先進晶片的出口管制，而外媒《路透社》最新報導指出，據2名知情人士透露，台積電也正收緊針對中國的出口限制，「使用16奈米與以下製程技術的訂單必須暫停」，中國業者將被限制使用",
-      "tags": []
-    },
-    {
-      "title": "台股創36年來最大單週跌幅 緊抱營收強11檔",
-      "url": "https://tw.news.yahoo.com/%E5%8F%B0%E8%82%A1%E5%89%B536%E5%B9%B4%E4%BE%86%E6%9C%80%E5%A4%A7%E5%96%AE%E9%80%B1%E8%B7%8C%E5%B9%85-%E7%B7%8A%E6%8A%B1%E7%87%9F%E6%94%B6%E5%BC%B711%E6%AA%94-160500671.html",
-      "source": "Yahoo 股市",
-      "published": "2026-11-21T00:05+08:00",
-      "summary": "台股日前創下歷史最大單週跌幅，但法人強調我國半導體基本面強勁。產業呈現上游強、下游弱的分歧結構，AI浪潮與先進製程推動上游獲利優於預期，消費電子與傳統下游則因成本上揚承壓。法人建議投資人聚焦具備高定價",
-      "tags": []
-    },
-    {
-      "title": "美股開盤繼續殺！台積電ADR重挫4.65% 台指期夜盤卡35K",
-      "url": "https://tw.news.yahoo.com/%E7%BE%8E%E8%82%A1%E9%96%8B%E7%9B%A4%E7%B9%BC%E7%BA%8C%E6%AE%BA-%E5%8F%B0%E7%A9%8D%E9%9B%BBadr%E9%87%8D%E6%8C%AB4-65-%E5%8F%B0%E6%8C%87%E6%9C%9F%E5%A4%9C%E7%9B%A4%E5%8D%A135k-144700486.html",
-      "source": "Yahoo 股市",
-      "published": "2026-11-20T22:47+08:00",
-      "summary": "美國參議院今通過能源改革法案，規範資料中心須自付電網升級費，美中俄也發表拒絕核武聲明。市場焦點轉向AI大廠Anthropic上市後續、Google擬自採TPU衝擊博通，以及財報優於預期但下調第四季財測",
-      "tags": []
-    },
-    {
-      "title": "美分析師點名「台灣這檔AI神股」抱到2030年 點出「本益比25.8倍」關鍵",
-      "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFBfYnNtXy1CTmlGWXZfYTg3Ri1MbkdFMFlJNDVzSmRjTWtSVFl2cWpXa3h6SEktTFFXdUd5ZTg0WG42bFFyU19YQWVJbw?oc=5",
-      "source": "三立新聞網SETN.com",
-      "published": "2026-11-20T21:29+08:00",
-      "summary": "",
-      "tags": []
-    },
-    {
-      "title": "AI信心潰散 台股再崩2393點",
-      "url": "https://tw.news.yahoo.com/ai%E4%BF%A1%E5%BF%83%E6%BD%B0%E6%95%A3-%E5%8F%B0%E8%82%A1%E5%86%8D%E5%B4%A92393%E9%BB%9E-132410788.html",
-      "source": "Yahoo 股市",
-      "published": "2026-11-20T21:24+08:00",
-      "summary": "昨（廿）日台股各類股全面走跌，集中市場大盤開低走低，一度重挫二六八八‧二一點，最低觸及三五七三八‧六八點，櫃買指數（OTC）跳空開低後，盤中大跌逾七‧八%。終場加權指數暴跌二三九三‧六點，以三六○三三",
-      "tags": []
-    },
-    {
-      "title": "Anthropic 成功上市 為何反而給全球 AI 概念股潑冷水？",
-      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5CWkVSa3dwV0RIQWJRYkVzdUpXSVFFYlB2ZUp0RjNlV0dESzczWk1lZGgyNGNvb2hsZFZMdk9aNnoxLThfUGp2bkIwUDQ4dWZkUkFtZ0o0MFJZQdIBX0FVX3lxTE1VSFFCR2NPcDBJQlN1UmVaX1ZuTllVMVl4UFhjX1BuVWZfXzhScDBUQVdIcUpvcG5VNVVRdnRsWUQwNVMyemo2dkNVM2VTQk9IZmRGcHVwTHgyWjdHOFow?oc=5",
-      "source": "經濟日報",
-      "published": "2026-11-20T21:03+08:00",
-      "summary": "",
-      "tags": []
-    },
-    {
-      "title": "光通訊｜明泰投資兆輝電子，布局AI資料中心Micro LED光互連",
-      "url": "https://news.cnyes.com/news/id/6669429",
-      "source": "鉅亨網",
-      "published": "2026-11-20T21:00+08:00",
-      "summary": "2026年11月20日（優分析／產業數據中心報導）⸺ 佳世達集團旗下網通廠明泰(3380-TW)11月19日宣布投資光通訊新創兆輝電子，雙方將探索Micro LED光互連技術的共同驗證與系統整合。明泰已推出1.6T高速交換器，這次投資把布局",
       "tags": []
     }
   ]
