@@ -1,9 +1,49 @@
 {
-  "updated": "2026-11-20T20:45:03+08:00",
+  "updated": "2026-11-21T00:06:40+08:00",
   "ai_summary": false,
   "model": null,
-  "candidates_sig": "c2de186cd079534a95859cebce76a42f428d755d",
+  "candidates_sig": "e92721b371d2a823eadbf48bf33928fdb1d4526e",
   "items": [
+    {
+      "title": "美股開盤繼續殺！台積電ADR重挫4.65% 台指期夜盤卡35K",
+      "url": "https://tw.news.yahoo.com/%E7%BE%8E%E8%82%A1%E9%96%8B%E7%9B%A4%E7%B9%BC%E7%BA%8C%E6%AE%BA-%E5%8F%B0%E7%A9%8D%E9%9B%BBadr%E9%87%8D%E6%8C%AB4-65-%E5%8F%B0%E6%8C%87%E6%9C%9F%E5%A4%9C%E7%9B%A4%E5%8D%A135k-144700486.html",
+      "source": "Yahoo 股市",
+      "published": "2026-11-20T22:47+08:00",
+      "summary": "美國參議院今通過能源改革法案，規範資料中心須自付電網升級費，美中俄也發表拒絕核武聲明。市場焦點轉向AI大廠Anthropic上市後續、Google擬自採TPU衝擊博通，以及財報優於預期但下調第四季財測",
+      "tags": []
+    },
+    {
+      "title": "AI信心潰散 台股再崩2393點",
+      "url": "https://tw.news.yahoo.com/ai%E4%BF%A1%E5%BF%83%E6%BD%B0%E6%95%A3-%E5%8F%B0%E8%82%A1%E5%86%8D%E5%B4%A92393%E9%BB%9E-132410788.html",
+      "source": "Yahoo 股市",
+      "published": "2026-11-20T21:24+08:00",
+      "summary": "昨（廿）日台股各類股全面走跌，集中市場大盤開低走低，一度重挫二六八八‧二一點，最低觸及三五七三八‧六八點，櫃買指數（OTC）跳空開低後，盤中大跌逾七‧八%。終場加權指數暴跌二三九三‧六點，以三六○三三",
+      "tags": []
+    },
+    {
+      "title": "Anthropic 成功上市 為何反而給全球 AI 概念股潑冷水？",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5CWkVSa3dwV0RIQWJRYkVzdUpXSVFFYlB2ZUp0RjNlV0dESzczWk1lZGgyNGNvb2hsZFZMdk9aNnoxLThfUGp2bkIwUDQ4dWZkUkFtZ0o0MFJZQdIBX0FVX3lxTE1VSFFCR2NPcDBJQlN1UmVaX1ZuTllVMVl4UFhjX1BuVWZfXzhScDBUQVdIcUpvcG5VNVVRdnRsWUQwNVMyemo2dkNVM2VTQk9IZmRGcHVwTHgyWjdHOFow?oc=5",
+      "source": "經濟日報",
+      "published": "2026-11-20T21:03+08:00",
+      "summary": "",
+      "tags": []
+    },
+    {
+      "title": "集中市場融資餘額單日大減491億元 降幅超越指數跌幅",
+      "url": "https://tw.stock.yahoo.com/news/%E9%9B%86%E4%B8%AD%E5%B8%82%E5%A0%B4%E8%9E%8D%E8%B3%87%E9%A4%98%E9%A1%8D%E5%96%AE%E6%97%A5%E5%A4%A7%E6%B8%9B491%E5%84%84%E5%85%83-%E9%99%8D%E5%B9%85%E8%B6%85%E8%B6%8A%E6%8C%87%E6%95%B8%E8%B7%8C%E5%B9%85-130024541.html",
+      "source": "Yahoo 股市",
+      "published": "2026-11-20T21:00+08:00",
+      "summary": "（中央社記者曾仁凱台北2026年11月20日電）AI利空頻傳，台股今天下跌2393.60點或6.23%，終場集中市場指數收在36033.29點，根據台灣證券交易所統計，今天最新上市融資餘額為新台幣43",
+      "tags": []
+    },
+    {
+      "title": "光通訊｜明泰投資兆輝電子，布局AI資料中心Micro LED光互連",
+      "url": "https://news.cnyes.com/news/id/6669429",
+      "source": "鉅亨網",
+      "published": "2026-11-20T21:00+08:00",
+      "summary": "2026年11月20日（優分析／產業數據中心報導）⸺ 佳世達集團旗下網通廠明泰(3380-TW)11月19日宣布投資光通訊新創兆輝電子，雙方將探索Micro LED光互連技術的共同驗證與系統整合。明泰已推出1.6T高速交換器，這次投資把布局",
+      "tags": []
+    },
     {
       "title": "亞太股市重挫迎「黑色星期五」 A股與台日韓無一倖免 AI概念股估值面臨重置",
       "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE0za1JIbHhMT2ZUcHhTN1BJWTRKZHEyOG1aeHFfUVF6dl9FWDhlNDNraDY1dW5BNlYwbjA4VkpYb0t4blRkQ05BcWZsUjBBcmc?oc=5",
@@ -42,46 +82,6 @@
       "source": "Yahoo 股市",
       "published": "2026-11-20T20:30+08:00",
       "summary": "[FTNN新聞網]記者邱梓欣／綜合報導即使金管會出手祭出「限空令」仍難敵賣壓，台股今（20）日以37,646.13開低後下殺，終場慘摔2393.60點，以36,033.29點作收，...",
-      "tags": []
-    },
-    {
-      "title": "研揚推BOX PC新品搶攻實體AI商機 布局人形機器人新市場",
-      "url": "https://news.cnyes.com/news/id/6669360",
-      "source": "鉅亨網",
-      "published": "2026-11-20T20:15+08:00",
-      "summary": "工業電腦廠研揚(6579-TW)推出首款搭載NVIDIA Jetson Thor平台的嵌入式Box PC BOXER-8741AI，採用NVIDIA Jetson T5000模組，具備最高2070 FP4 TFLOPS AI運算效能，並配置",
-      "tags": []
-    },
-    {
-      "title": "台股大崩盤！副閣揆鄭麗君急研「第3波護盤」 國安基金擬修法倍增至1兆",
-      "url": "https://tw.news.yahoo.com/%E5%8F%B0%E8%82%A1%E5%A4%A7%E5%B4%A9%E7%9B%A4-%E5%89%AF%E9%96%A3%E6%8F%86%E9%84%AD%E9%BA%97%E5%90%9B%E6%80%A5%E7%A0%94-%E7%AC%AC3%E6%B3%A2%E8%AD%B7%E7%9B%A4-%E5%9C%8B%E5%AE%89%E5%9F%BA%E9%87%91%E6%93%AC%E4%BF%AE%E6%B3%95%E5%80%8D%E5%A2%9E%E8%87%B31%E5%85%86-114400303.html",
-      "source": "Yahoo 股市",
-      "published": "2026-11-20T19:44+08:00",
-      "summary": "受AI利空與信心崩盤衝擊，台股今（20）日暴跌2393點，創史上第3大跌點，本週累計重挫逾7600點。為挽救市場信心，行政院副院長鄭麗君緊急召集財金部會首長會商，預計最快今晚或週日宣布第三波護盤措施，",
-      "tags": []
-    },
-    {
-      "title": "台股跳水創7個月新低 卓榮泰今明兩日召財經首長開會",
-      "url": "https://tw.news.yahoo.com/%E5%8F%B0%E8%82%A1%E8%B7%B3%E6%B0%B4%E5%89%B57%E5%80%8B%E6%9C%88%E6%96%B0%E4%BD%8E-%E5%8D%93%E6%A6%AE%E6%B3%B0%E4%BB%8A%E6%98%8E%E5%85%A9%E6%97%A5%E5%8F%AC%E8%B2%A1%E7%B6%93%E9%A6%96%E9%95%B7%E9%96%8B%E6%9C%83-113957333.html",
-      "source": "Yahoo 股市",
-      "published": "2026-11-20T19:39+08:00",
-      "summary": "市場對於AI產業前景疑慮加深，又有美國收緊出口管制等因素，多重利空籠罩之下，台股連日跳水，今（20）天再崩2393點，創下近7個月新低。為此，行政院長卓榮泰今天下午召集財經相關首長，聽取國內股市近期表",
-      "tags": []
-    },
-    {
-      "title": "KONST 參展 Data Center Asia 吉隆坡，以賽城與雅加達兩座旗艦專案，推進東南亞 Token Factory 布局",
-      "url": "https://tw.stock.yahoo.com/news/konst-%E5%8F%83%E5%B1%95-data-center-asia-113800335.html",
-      "source": "Yahoo 股市",
-      "published": "2026-11-20T19:38+08:00",
-      "summary": "立足台灣、布局亞洲的 AI 算力服務公司康斯特（KONST），參加於吉隆坡 MITEC 舉行的 Data Center Asia Malaysia（DCA-MY）資料中心專業展（攤位編號 Hall 2",
-      "tags": []
-    },
-    {
-      "title": "美分析師點名「台灣這檔AI神股」抱到2030年 點出「本益比25.8倍」關鍵",
-      "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFBfYnNtXy1CTmlGWXZfYTg3Ri1MbkdFMFlJNDVzSmRjTWtSVFl2cWpXa3h6SEktTFFXdUd5ZTg0WG42bFFyU19YQWVJbw?oc=5",
-      "source": "三立新聞網SETN.com",
-      "published": "2026-11-20T19:26+08:00",
-      "summary": "",
       "tags": []
     }
   ]
