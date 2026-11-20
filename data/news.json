@@ -1,8 +1,8 @@
 {
-  "updated": "2026-11-21T00:54:47+08:00",
+  "updated": "2026-11-21T01:06:24+08:00",
   "ai_summary": false,
   "model": null,
-  "candidates_sig": "3f5b529c21566f4e14fd1cb9fd20b6a32c04fd62",
+  "candidates_sig": "3253f2213885011522ffdec690747b76fd997242",
   "items": [
     {
       "title": "快訊／費半、台積電ADR皆挫逾6%！台指期跌642點暫守35K大關",
@@ -53,14 +53,6 @@
       "tags": []
     },
     {
-      "title": "集中市場融資餘額單日大減491億元 降幅超越指數跌幅",
-      "url": "https://tw.stock.yahoo.com/news/%E9%9B%86%E4%B8%AD%E5%B8%82%E5%A0%B4%E8%9E%8D%E8%B3%87%E9%A4%98%E9%A1%8D%E5%96%AE%E6%97%A5%E5%A4%A7%E6%B8%9B491%E5%84%84%E5%85%83-%E9%99%8D%E5%B9%85%E8%B6%85%E8%B6%8A%E6%8C%87%E6%95%B8%E8%B7%8C%E5%B9%85-130024541.html",
-      "source": "Yahoo 股市",
-      "published": "2026-11-20T21:00+08:00",
-      "summary": "（中央社記者曾仁凱台北2026年11月20日電）AI利空頻傳，台股今天下跌2393.60點或6.23%，終場集中市場指數收在36033.29點，根據台灣證券交易所統計，今天最新上市融資餘額為新台幣43",
-      "tags": []
-    },
-    {
       "title": "光通訊｜明泰投資兆輝電子，布局AI資料中心Micro LED光互連",
       "url": "https://news.cnyes.com/news/id/6669429",
       "source": "鉅亨網",
@@ -82,6 +74,14 @@
       "source": "Yahoo 股市",
       "published": "2026-11-20T20:34+08:00",
       "summary": "台股今（20）日再度上演恐慌殺盤，加權指數盤中一度重挫逾2400點、跌破36000點大關，終場下跌2393.60點、跌幅6.23%，收在36033.29點，寫下台股史上第3大收盤跌點；權值股台積電盤中",
+      "tags": []
+    },
+    {
+      "title": "Anthropic掛牌漲17％救不了AI股 拖累台股跌2393點、日韓同步重挫",
+      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFA3bDNCZExXUk1RNEtnN3p0b3h4Vlp2d2x1cEt5U0g5dUFIVWRWZFcwQW9jbUp3c0FBUEJWWnRMTmFUb3Y1cGZOMEdFRUlNS2QyZnfSAVBBVV95cUxOaGxYbXJHNkE5YkMwSWhtaGRjS3I3bWVYU19tRlVnRzR1TmZ4WWw2M28xaTk4WlRoeEFlRXEtdm1pOV9UWFZrYmVMOE9wUmwzdQ?oc=5",
+      "source": "ETtoday財經雲",
+      "published": "2026-11-20T20:34+08:00",
+      "summary": "",
       "tags": []
     }
   ]
