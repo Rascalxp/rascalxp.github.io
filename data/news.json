@@ -1,9 +1,25 @@
 {
-  "updated": "2026-11-21T00:20:31+08:00",
+  "updated": "2026-11-21T00:54:47+08:00",
   "ai_summary": false,
   "model": null,
-  "candidates_sig": "b3970d7043659063886c30ce752f4aef2da7255f",
+  "candidates_sig": "3f5b529c21566f4e14fd1cb9fd20b6a32c04fd62",
   "items": [
+    {
+      "title": "快訊／費半、台積電ADR皆挫逾6%！台指期跌642點暫守35K大關",
+      "url": "https://tw.news.yahoo.com/%E5%BF%AB%E8%A8%8A-%E8%B2%BB%E5%8D%8A-%E5%8F%B0%E7%A9%8D%E9%9B%BBadr%E7%9A%86%E6%8C%AB%E9%80%BE6-%E5%8F%B0%E6%8C%87%E6%9C%9F%E8%B7%8C642%E9%BB%9E%E6%9A%AB%E5%AE%8835k%E5%A4%A7%E9%97%9C-163100495.html",
+      "source": "Yahoo 股市",
+      "published": "2026-11-21T00:31+08:00",
+      "summary": "美國參議院通過能源法案，明定資料中心須自付電網升級費用。市場焦點集中於AI大廠Anthropic上市後的股價表現與產業展望，連帶影響科技股賣壓，而Google擬直接採購AI晶片也受關注。非科技股部分，",
+      "tags": []
+    },
+    {
+      "title": "台積電驚傳下封殺令！路透：中國訂單16奈米以下全面叫停、禁用先進封裝",
+      "url": "https://tw.news.yahoo.com/%E5%8F%B0%E7%A9%8D%E9%9B%BB%E9%A9%9A%E5%82%B3%E4%B8%8B%E5%B0%81%E6%AE%BA%E4%BB%A4-%E8%B7%AF%E9%80%8F-%E4%B8%AD%E5%9C%8B%E8%A8%82%E5%96%AE16%E5%A5%88%E7%B1%B3%E4%BB%A5%E4%B8%8B%E5%85%A8%E9%9D%A2%E5%8F%AB%E5%81%9C-%E7%A6%81%E7%94%A8%E5%85%88%E9%80%B2%E5%B0%81%E8%A3%9D-162436196.html",
+      "source": "Yahoo 股市",
+      "published": "2026-11-21T00:24+08:00",
+      "summary": "美國商務部公布新規，進一步加嚴先進晶片的出口管制，而外媒《路透社》最新報導指出，據2名知情人士透露，台積電也正收緊針對中國的出口限制，「使用16奈米與以下製程技術的訂單必須暫停」，中國業者將被限制使用",
+      "tags": []
+    },
     {
       "title": "台股創36年來最大單週跌幅 緊抱營收強11檔",
       "url": "https://tw.news.yahoo.com/%E5%8F%B0%E8%82%A1%E5%89%B536%E5%B9%B4%E4%BE%86%E6%9C%80%E5%A4%A7%E5%96%AE%E9%80%B1%E8%B7%8C%E5%B9%85-%E7%B7%8A%E6%8A%B1%E7%87%9F%E6%94%B6%E5%BC%B711%E6%AA%94-160500671.html",
@@ -66,22 +82,6 @@
       "source": "Yahoo 股市",
       "published": "2026-11-20T20:34+08:00",
       "summary": "台股今（20）日再度上演恐慌殺盤，加權指數盤中一度重挫逾2400點、跌破36000點大關，終場下跌2393.60點、跌幅6.23%，收在36033.29點，寫下台股史上第3大收盤跌點；權值股台積電盤中",
-      "tags": []
-    },
-    {
-      "title": "Anthropic掛牌漲17％救不了AI股 拖累台股跌2393點、日韓同步重挫",
-      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFA3bDNCZExXUk1RNEtnN3p0b3h4Vlp2d2x1cEt5U0g5dUFIVWRWZFcwQW9jbUp3c0FBUEJWWnRMTmFUb3Y1cGZOMEdFRUlNS2QyZnfSAVBBVV95cUxOaGxYbXJHNkE5YkMwSWhtaGRjS3I3bWVYU19tRlVnRzR1TmZ4WWw2M28xaTk4WlRoeEFlRXEtdm1pOV9UWFZrYmVMOE9wUmwzdQ?oc=5",
-      "source": "ETtoday財經雲",
-      "published": "2026-11-20T20:34+08:00",
-      "summary": "",
-      "tags": []
-    },
-    {
-      "title": "AI訂單大增也更吃資金！央行：伺服器備料到收款時間長，台廠周轉需求提高",
-      "url": "https://news.cnyes.com/news/id/6669420",
-      "source": "鉅亨網",
-      "published": "2026-11-20T20:30+08:00",
-      "summary": "2026年11月20日（優分析／產業數據中心報導）⸺ 央行公布第三季國際收支時指出，台廠因應擴產及資本支出增加，今年前三季新增國內銀行外幣借款超過162億美元，並發行116億美元海外可轉債及77億美元海外存託憑證(GDR)。企業保留美元收入",
       "tags": []
     }
   ]
