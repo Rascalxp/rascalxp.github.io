@@ -1,87 +1,87 @@
 {
-  "updated": "2026-11-21T12:10:49+08:00",
+  "updated": "2026-11-21T20:10:51+08:00",
   "ai_summary": false,
   "model": null,
-  "candidates_sig": "64df93942317c23fc72912db3f9a1cf207a2fc83",
+  "candidates_sig": "d01c5db1cd4e8827bbd2acf42baf802249a9cb2e",
   "items": [
     {
-      "title": "AI 概念股血洗華爾街：從 Arm 到 CoreWeave，資金從「AI 狂熱」全面轉向風險撤退",
-      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOTTdabzAyRTlLRWR2emRYVEdJMUpUYnR4Q3pqQTF2QmxMZ3ZHdlBRSTd2aGV1Y2o4cHBzZ3N5dHVGYWJNRXdpb1ZMLXY2eGdENlVDamdqQ3lCcDYweDVod0VvSGpWOERqVllwREkxSlRvd2l6dkV0ZjJFT0NrM3FNc0RXWXRQYWM1VG91STZR?oc=5",
-      "source": "CMoney投資網誌",
-      "published": "2026-11-21T12:00+08:00",
+      "title": "黃仁勳去職推倒台股？ 經濟部：AI趨勢不因「個別公司」影響",
+      "url": "https://tw.stock.yahoo.com/news/%E9%BB%83%E4%BB%81%E5%8B%B3%E5%8E%BB%E8%81%B7%E6%8E%A8%E5%80%92%E5%8F%B0%E8%82%A1-%E7%B6%93%E6%BF%9F%E9%83%A8-ai%E8%B6%A8%E5%8B%A2%E4%B8%8D%E5%9B%A0-%E5%80%8B%E5%88%A5%E5%85%AC%E5%8F%B8-%E5%BD%B1%E9%9F%BF-114520086.html",
+      "source": "Yahoo 股市",
+      "published": "2026-11-21T19:45+08:00",
+      "summary": "台股跳水式大跌，輝達（NVIDIA）執行長黃仁勳去職，所造成的不確定氛圍被認為是重要原因。對此經濟部今(21)緊急喊話，AI基礎建設長期趨勢不變，台灣產業仍具備扎實的競爭力與發展動能，不會因為「個別公",
+      "tags": []
+    },
+    {
+      "title": "技嘉舉辦 AI 夥伴峰會 展示企業級 AI Agent 落地解方",
+      "url": "https://tw.stock.yahoo.com/news/%E6%8A%80%E5%98%89%E8%88%89%E8%BE%A6-ai-%E5%A4%A5%E4%BC%B4%E5%B3%B0%E6%9C%83-%E5%B1%95%E7%A4%BA%E4%BC%81%E6%A5%AD%E7%B4%9A-ai-105833225.html",
+      "source": "Yahoo 股市",
+      "published": "2026-11-21T18:58+08:00",
+      "summary": "圖／本報資料庫商傳媒｜何映辰／台北報導台灣伺服器與硬體大廠技嘉於 11 月 13 日在美國加州工業市的太平洋棕櫚度假酒店（Pacific Palms Resort）舉辦 AI 合作夥伴峰會。這場活動以",
+      "tags": []
+    },
+    {
+      "title": "台股周跌逾7600點引恐慌！詹惟中急喊「3不原則」 曝2027年盤勢",
+      "url": "https://tw.news.yahoo.com/%E5%8F%B0%E8%82%A1%E5%91%A8%E8%B7%8C%E9%80%BE7600%E9%BB%9E%E5%BC%95%E6%81%90%E6%85%8C-%E8%A9%B9%E6%83%9F%E4%B8%AD%E6%80%A5%E5%96%8A-3%E4%B8%8D%E5%8E%9F%E5%89%87-%E6%9B%9D2027%E5%B9%B4%E7%9B%A4%E5%8B%A2-104851236.html",
+      "source": "Yahoo 股市",
+      "published": "2026-11-21T18:48+08:00",
+      "summary": "在黃仁勳坦承外遇、道歉下台後，輝達（Nvidia）高層面臨人事異動，而超微（AMD）也疑似有監管疑慮，引發國際股市劇烈動盪，台股也是慘遭大血洗，週五大跌2393點，收在36033點，夜盤表現更是續跌，",
+      "tags": []
+    },
+    {
+      "title": "下班國際線》台股跌幅超越日韓！黃仁勳下台還不是最慘？簡立峰揭台廠「更要緊的風險」 | 林庭瑤 | 新聞",
+      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1NRXNuZ3g5ME10WFRycDJpUFVvOUduUWVIYmtKTXN1U1JCSHVCT3M0dTdlbDR2QUhyYzk0dk9OelV6MnEyaDdQeVFlZ1lfQQ?oc=5",
+      "source": "風傳媒",
+      "published": "2026-11-21T18:30+08:00",
       "summary": "",
       "tags": []
     },
     {
-      "title": "郭明錤：Google明年下修博通TPU出貨約百萬顆 「聯發科」可望受惠",
-      "url": "https://news.cnyes.com/news/id/6669649",
+      "title": "經部：台灣經濟動能強勁未受台股短期波動影響 籲對產業發展有信心",
+      "url": "https://tw.news.yahoo.com/%E7%B6%93%E9%83%A8-%E5%8F%B0%E7%81%A3%E7%B6%93%E6%BF%9F%E5%8B%95%E8%83%BD%E5%BC%B7%E5%8B%81%E6%9C%AA%E5%8F%97%E5%8F%B0%E8%82%A1%E7%9F%AD%E6%9C%9F%E6%B3%A2%E5%8B%95%E5%BD%B1%E9%9F%BF-%E7%B1%B2%E5%B0%8D%E7%94%A2%E6%A5%AD%E7%99%BC%E5%B1%95%E6%9C%89%E4%BF%A1%E5%BF%83-102125787.html",
+      "source": "Yahoo 股市",
+      "published": "2026-11-21T18:21+08:00",
+      "summary": "針對近期台股受美國費城半導體指數及國際科技大廠股價重挫影響下跌，經濟部今（廿一）日表示，AI基礎建設長期趨勢不變，近期台灣經濟成長、工業生產、外銷訂單及進出口等主要指標均展現成長動能，顯示我國經濟基本",
+      "tags": []
+    },
+    {
+      "title": "台積電周線重挫15.8%！台股創36年最慘單周紀錄、美收緊AI晶片出口管制添壓",
+      "url": "https://news.cnyes.com/news/id/6669709",
       "source": "鉅亨網",
-      "published": "2026-11-21T12:00+08:00",
-      "summary": "郭明錤：Google 2027年TPU 8i出貨下修約100萬顆，約原估全年量20%。 下修集中於博通設計的8i Max（Whalefish）；Google稱前沿模型研發優先取得算力。 聯發科設計的8t出貨預計增加，但數量未定，暫難抵銷8i",
+      "published": "2026-11-21T18:12+08:00",
+      "summary": "台積電股價疲弱，台股周五跌6.23%，本周累跌約17.5%，創1990年來最大單周跌幅 美國商務部對海外資料中心出租AI運算能力、向中國企業提供服務加嚴出口管制，BIS新規11月19日生效 台積電ADR收318.71美元，跌至4月2日來低點",
       "tags": []
     },
     {
-      "title": "台股單週蒸發25兆元！國泰郭經緯吐「12字真言」 高價股需先回穩",
-      "url": "https://tw.news.yahoo.com/%E5%8F%B0%E8%82%A1%E5%96%AE%E9%80%B1%E8%92%B8%E7%99%BC25%E5%85%86%E5%85%83-%E5%9C%8B%E6%B3%B0%E9%83%AD%E7%B6%93%E7%B7%AF%E5%90%90-12%E5%AD%97%E7%9C%9F%E8%A8%80-%E9%AB%98%E5%83%B9%E8%82%A1%E9%9C%80%E5%85%88%E5%9B%9E%E7%A9%A9-035900991.html",
+      "title": "費半重挫逾10%金管會強化禁空令 法人：台股靜待打底",
+      "url": "https://tw.stock.yahoo.com/news/%E8%B2%BB%E5%8D%8A%E9%87%8D%E6%8C%AB%E9%80%BE10-%E9%87%91%E7%AE%A1%E6%9C%83%E5%BC%B7%E5%8C%96%E7%A6%81%E7%A9%BA%E4%BB%A4-%E6%B3%95%E4%BA%BA-%E5%8F%B0%E8%82%A1%E9%9D%9C%E5%BE%85%E6%89%93%E5%BA%95-100024573.html",
       "source": "Yahoo 股市",
-      "published": "2026-11-21T11:59+08:00",
-      "summary": "台股單週暴跌7,641點，市值蒸發25兆元退居全球第7。國泰分析師郭經緯指出，AI疑慮引爆多殺多，大盤失守年線進入築底期。他提出四大止跌指標，建議投資人現階段宜多看少做、去槓桿，靜待外資賣壓收斂、新台",
+      "published": "2026-11-21T18:00+08:00",
+      "summary": "（中央社記者潘智義台北2026年11月21日電）面對美股重挫，金管會今天再祭出強化版禁空令，法人認為，所有空頭工具都限縮，將可穩定投資人信心；因台股本波跌幅近3成，短線可靜待止跌打底。AI產業前景疑慮",
       "tags": []
     },
     {
-      "title": "台股周一開盤慘了？美股AI股血洗「費半崩跌10%」 2內行齊喊周末盯緊一指標",
-      "url": "https://tw.news.yahoo.com/%E5%8F%B0%E8%82%A1%E5%91%A8-%E9%96%8B%E7%9B%A4%E6%85%98%E4%BA%86-%E7%BE%8E%E8%82%A1ai%E8%82%A1%E8%A1%80%E6%B4%97-%E8%B2%BB%E5%8D%8A%E5%B4%A9%E8%B7%8C10-2%E5%85%A7%E8%A1%8C%E9%BD%8A%E5%96%8A%E5%91%A8%E6%9C%AB%E7%9B%AF%E7%B7%8A-034200776.html",
-      "source": "Yahoo 股市",
-      "published": "2026-11-21T11:42+08:00",
-      "summary": "台美股市持續震盪，台股周五市場賣壓進一步擴大，儘管金管會20日起實施第二波限空令，加權指數20日仍重挫2688.21點，創下台股史上第3大單日收盤跌點，面臨3萬6000點保衛戰；美股AI科技股則遭遇新",
+      "title": "【即時新聞】AI概念股爆量跳水！Astera Labs(ALAB)受科技股拖累狂跌逾14%",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNb1N5M3Zqa21MMHpXLVVtRmNNeVVNRUNUcHZvZEQxX05LRWVxVm1RREVPQzZMNGo0cDJQVnZuSU9yX1BodG5NUkRxeGdCUlR2MUxJck1NWWZhZWpLaHloTUxUOGNmNFQ2cHFfSktDdUF3S19hR2RRYkxJU2Rrajh5ZF9hb3E3UWotdXFBaW5kODE?oc=5",
+      "source": "CMoney投資網誌",
+      "published": "2026-11-21T17:49+08:00",
+      "summary": "",
       "tags": []
     },
     {
-      "title": "台股何時止跌？費半崩10%添壓力 法人揭4大落底訊號",
-      "url": "https://tw.news.yahoo.com/%E5%8F%B0%E8%82%A1%E4%BD%95%E6%99%82%E6%AD%A2%E8%B7%8C-%E8%B2%BB%E5%8D%8A%E5%B4%A910-%E6%B7%BB%E5%A3%93%E5%8A%9B-%E6%B3%95%E4%BA%BA%E6%8F%AD4%E5%A4%A7%E8%90%BD%E5%BA%95%E8%A8%8A%E8%99%9F-025401905.html",
+      "title": "台股恐慌性拋售！專家點「止跌2關鍵」：未來4個月仍難熬",
+      "url": "https://tw.stock.yahoo.com/news/%E5%8F%B0%E8%82%A1%E6%81%90%E6%85%8C%E6%80%A7%E6%8B%8B%E5%94%AE-%E5%B0%88%E5%AE%B6%E9%BB%9E-%E6%AD%A2%E8%B7%8C2%E9%97%9C%E9%8D%B5-%E6%9C%AA%E4%BE%864%E5%80%8B%E6%9C%88%E4%BB%8D%E9%9B%A3%E7%86%AC-090300972.html",
       "source": "Yahoo 股市",
-      "published": "2026-11-21T10:54+08:00",
-      "summary": "台股連日重挫，金管會祭出第二波限空令仍難擋賣壓，美股科技股又遭遇猛烈拋售，台股20日暴跌2393.6點，單週狂瀉逾7600點，費城半導體指數同日更崩跌10.73%，輝達（NVIDIA）重挫逾14%，為",
+      "published": "2026-11-21T17:03+08:00",
+      "summary": "[FTNN新聞網]實習記者周宗怡／綜合報導台股近期連續重挫，財經評論家吳嘉隆認為，這波恐慌性拋售主要與輝達（NVIDIA）前執行長黃仁勳去職有關，不僅接班人難...",
       "tags": []
     },
     {
-      "title": "台股跳水式大跌！AI泡沫化了？他揭「關鍵原因」：接下來4個月難熬",
-      "url": "https://tw.news.yahoo.com/%E5%8F%B0%E8%82%A1%E8%B7%B3%E6%B0%B4%E5%BC%8F%E5%A4%A7%E8%B7%8C-ai%E6%B3%A1%E6%B2%AB%E5%8C%96%E4%BA%86-%E4%BB%96%E6%8F%AD-%E9%97%9C%E9%8D%B5%E5%8E%9F%E5%9B%A0-%E6%8E%A5%E4%B8%8B%E4%BE%864%E5%80%8B%E6%9C%88%E9%9B%A3%E7%86%AC-024500995.html",
+      "title": "台股暴跌！國安基金罕見喊話了：跨部會維護股市穩定 請投資人保持信心",
+      "url": "https://tw.stock.yahoo.com/news/%E5%8F%B0%E8%82%A1%E6%9A%B4%E8%B7%8C-%E5%9C%8B%E5%AE%89%E5%9F%BA%E9%87%91%E7%BD%95%E8%A6%8B%E5%96%8A%E8%A9%B1%E4%BA%86-%E8%B7%A8%E9%83%A8%E6%9C%83%E7%B6%AD%E8%AD%B7%E8%82%A1%E5%B8%82%E7%A9%A9%E5%AE%9A-%E8%AB%8B%E6%8A%95%E8%B3%87%E4%BA%BA%E4%BF%9D%E6%8C%81%E4%BF%A1%E5%BF%83-085226122.html",
       "source": "Yahoo 股市",
-      "published": "2026-11-21T10:45+08:00",
-      "summary": "輝達（NVIDIA）前執行長黃仁勳爆出婚外情，隨後火速請辭，引發市場對輝達未來的疑慮，全球股市受到衝擊，台股也出現重挫。對此，總體經濟學家吳嘉隆在臉書發文透露，「很可能11月、12月、1月、2月這四個",
-      "tags": []
-    },
-    {
-      "title": "美電網擴建需求帶動儲能概念股 兩大業者在手訂單飆破百億美元",
-      "url": "https://tw.stock.yahoo.com/news/%E7%BE%8E%E9%9B%BB%E7%B6%B2%E6%93%B4%E5%BB%BA%E9%9C%80%E6%B1%82%E5%B8%B6%E5%8B%95%E5%84%B2%E8%83%BD%E6%A6%82%E5%BF%B5%E8%82%A1-%E5%85%A9%E5%A4%A7%E6%A5%AD%E8%80%85%E5%9C%A8%E6%89%8B%E8%A8%82%E5%96%AE%E9%A3%86%E7%A0%B4%E7%99%BE%E5%84%84%E7%BE%8E%E5%85%83-023620369.html",
-      "source": "Yahoo 股市",
-      "published": "2026-11-21T10:36+08:00",
-      "summary": "圖／本報資料庫商傳媒｜責任編輯／綜合外電報導隨著美國參議院通過 BAAJA 相關表決，市場資金開始將目光從傳統的太陽能板與風力發電機，轉移至輸配電網擴建等清潔能源基礎設施。在資料中心、工業與交通電氣化",
-      "tags": []
-    },
-    {
-      "title": "黃仁勳倒台震台股！謝金河嘆「台灣如斷腳」引他說法：明年首季衝5萬點",
-      "url": "https://tw.news.yahoo.com/%E9%BB%83%E4%BB%81%E5%8B%B3%E5%80%92%E5%8F%B0%E9%9C%87%E5%8F%B0%E8%82%A1-%E8%AC%9D%E9%87%91%E6%B2%B3%E5%98%86-%E5%8F%B0%E7%81%A3%E5%A6%82%E6%96%B7%E8%85%B3-%E5%BC%95%E4%BB%96%E8%AA%AA%E6%B3%95-%E6%98%8E%E5%B9%B4%E9%A6%96%E5%AD%A3%E8%A1%9D5%E8%90%AC%E9%BB%9E-022700121.html",
-      "source": "Yahoo 股市",
-      "published": "2026-11-21T10:27+08:00",
-      "summary": "輝達前執行長黃仁勳因婚外情醜聞與涉中國情報接觸辭職，引發全球金融市場核彈級殺傷力。財信傳媒董事長謝金河指出，黃仁勳下台導致台股崩跌與全球股市暴跌，台灣供應鏈面臨嚴峻挑戰，AI產業估值恐將重新評價。不過",
-      "tags": []
-    },
-    {
-      "title": "台股36k保衛戰開打？ 專家曝「這段期間」投資人最難熬",
-      "url": "https://tw.news.yahoo.com/%E5%8F%B0%E8%82%A136k%E4%BF%9D%E8%A1%9B%E6%88%B0%E9%96%8B%E6%89%93-%E5%B0%88%E5%AE%B6%E6%9B%9D-%E9%80%99%E6%AE%B5%E6%9C%9F%E9%96%93-%E6%8A%95%E8%B3%87%E4%BA%BA%E6%9C%80%E9%9B%A3%E7%86%AC-021721911.html",
-      "source": "Yahoo 股市",
-      "published": "2026-11-21T10:17+08:00",
-      "summary": "總體經濟學家吳嘉隆表示，跳水原因當然是輝達前執行長黃仁勳的去職。台股何時反彈還要看外資動向，再看美國對輝達動作。吳嘉隆坦言，到明年2月前投資人會很難過，只要給股市一段時間整理，行情還會捲土重來。吳嘉隆",
-      "tags": []
-    },
-    {
-      "title": "台股恐慌拋售潮！吳嘉隆揭暴跌幕後元凶 點名「這4個月」最煎熬：終究會雨過天晴",
-      "url": "https://tw.news.yahoo.com/%E5%8F%B0%E8%82%A1%E6%81%90%E6%85%8C%E6%8B%8B%E5%94%AE%E6%BD%AE-%E5%90%B3%E5%98%89%E9%9A%86%E6%8F%AD%E6%9A%B4%E8%B7%8C%E5%B9%95%E5%BE%8C%E5%85%83%E5%87%B6-%E9%BB%9E%E5%90%8D-%E9%80%994%E5%80%8B%E6%9C%88-%E6%9C%80%E7%85%8E%E7%86%AC-015700561.html",
-      "source": "Yahoo 股市",
-      "published": "2026-11-21T09:57+08:00",
-      "summary": "台北股市近日出現連續跳水式重挫，市場恐慌情緒蔓延，總體經濟學家吳嘉隆昨（20日）在臉書發文分析，這波賣壓雖看似泡沫破裂，但實際上並非真正的泡沫化，真正的導火線正是輝達（Nvidia）執行長黃仁勳去職所",
+      "published": "2026-11-21T16:52+08:00",
+      "summary": "即時中心／徐子為報導近日受美國AI監管政策可能趨嚴、龐大資本支出之投資效益、特定企業之特殊因素及融資風險等因素影響，引發市場對AI產業營運展望產生疑慮，導致美股多日重挫，並波及臺股及其他亞股，對此，國",
       "tags": []
     }
   ]
