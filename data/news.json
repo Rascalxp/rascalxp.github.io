@@ -1,23 +1,55 @@
 {
-  "updated": "2026-11-21T20:10:51+08:00",
+  "updated": "2026-11-22T03:07:21+08:00",
   "ai_summary": false,
   "model": null,
-  "candidates_sig": "d01c5db1cd4e8827bbd2acf42baf802249a9cb2e",
+  "candidates_sig": "464000f2b6d0f6acec5fa58d88f344cc84cc9bb0",
   "items": [
+    {
+      "title": "【即時新聞】Vicor(VICR)慘遭血洗狂跌逾11%，AI概念股拉回這檔還能追嗎",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQMmd2bzBRU3JJWXQyUDdqUkplSHlZc0JLY2cxdzdaZFB1ZjdCNVNwd0FYTUxoNHEwTGMxZVZfdjJ1LWdZa0xmSGRLQXAydWxwRC1fOG1XTE5BU0hpU3EzcjVBa3FfZjE1ZUZzTEZtSWt1S0hBTmQ5dFM0S09sWkJ6WEpHNHZOSmFwZlptOWRIVTc?oc=5",
+      "source": "CMoney投資網誌",
+      "published": "2026-11-22T00:55+08:00",
+      "summary": "",
+      "tags": []
+    },
+    {
+      "title": "【即時新聞】AI概念股跳水！Bloom Energy(BE)重挫逾15%，資料中心電力需求要反轉了？",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNdHM3WXNCeWxoTXY5bGNibDZFWGE0VVhmUmlLZXo1SmhrYWwwWHg4QzJGbWdEQjJpR0liekNkSnZrTDA5MW5LWTNEQUR1LW8zSTlzc0FQaFNRaDVkMTV2WC05ckc5VHdCSVczOWd1ZEJHSjlNX3hfX3Q5TWt3Y09RSkE4TnNyN3pWMS1OS0FPSnE?oc=5",
+      "source": "CMoney投資網誌",
+      "published": "2026-11-21T23:51+08:00",
+      "summary": "",
+      "tags": []
+    },
+    {
+      "title": "標題 : Nebius股價挫近14％！AI 概念股暴跌、資本支出與融資疑慮浮現",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOUUY3NnhVYlFIWV9yS0lXU1JCZ3NOWXN2Q3FONHR4Q2dQQVN6LWV3djBxclNTLXRsamtLaHZFQ0xkaFJ5QlhGMDlPS2FMNFdoN2RMQ3c5SjVUdFUyc0hSMGVHb2ctNTZGLVRGbFFDWXpYWjNNQ1hYcXVaazdWRjY0TUQycGxaYmtURHl5dlp3?oc=5",
+      "source": "CMoney投資網誌",
+      "published": "2026-11-21T22:32+08:00",
+      "summary": "",
+      "tags": []
+    },
+    {
+      "title": "Adobe推MCP串接外部AI 同時拉攏懷疑者與擁護者",
+      "url": "https://tw.stock.yahoo.com/news/adobe%E6%8E%A8mcp%E4%B8%B2%E6%8E%A5%E5%A4%96%E9%83%A8ai-%E5%90%8C%E6%99%82%E6%8B%89%E6%94%8F%E6%87%B7%E7%96%91%E8%80%85%E8%88%87%E6%93%81%E8%AD%B7%E8%80%85-133447018.html",
+      "source": "Yahoo 股市",
+      "published": "2026-11-21T21:34+08:00",
+      "summary": "圖／本報資料庫商傳媒｜何映辰／台北報導面對生成式人工智慧熱潮，創意軟體巨頭 Adobe 採取了雙軌策略，一方面擴大技術整合，另一方面也試圖安撫對新科技抱持疑慮的創作者。 根據外媒《Fast Compa",
+      "tags": []
+    },
+    {
+      "title": "費半狂殺10.73%、輝達血崩14%！台股週一剉咧等 金管會緊急再開大絕全面鎖空",
+      "url": "https://tw.news.yahoo.com/%E8%B2%BB%E5%8D%8A%E7%8B%82%E6%AE%BA10-73-%E8%BC%9D%E9%81%94%E8%A1%80%E5%B4%A914-%E5%8F%B0%E8%82%A1%E9%80%B1-%E5%89%89%E5%92%A7%E7%AD%89-115500654.html",
+      "source": "Yahoo 股市",
+      "published": "2026-11-21T19:55+08:00",
+      "summary": "選舉行情變逃命行情？台股一週血洗7641點，金管會才把借券賣出委託上限狠砍至1%，週五（20日）大盤照樣崩跌2393點，限空令被當塑膠！更慘的是，台股週五收盤後，美股四大指數接著潰敗，費半慘殺10.7",
+      "tags": []
+    },
     {
       "title": "黃仁勳去職推倒台股？ 經濟部：AI趨勢不因「個別公司」影響",
       "url": "https://tw.stock.yahoo.com/news/%E9%BB%83%E4%BB%81%E5%8B%B3%E5%8E%BB%E8%81%B7%E6%8E%A8%E5%80%92%E5%8F%B0%E8%82%A1-%E7%B6%93%E6%BF%9F%E9%83%A8-ai%E8%B6%A8%E5%8B%A2%E4%B8%8D%E5%9B%A0-%E5%80%8B%E5%88%A5%E5%85%AC%E5%8F%B8-%E5%BD%B1%E9%9F%BF-114520086.html",
       "source": "Yahoo 股市",
       "published": "2026-11-21T19:45+08:00",
       "summary": "台股跳水式大跌，輝達（NVIDIA）執行長黃仁勳去職，所造成的不確定氛圍被認為是重要原因。對此經濟部今(21)緊急喊話，AI基礎建設長期趨勢不變，台灣產業仍具備扎實的競爭力與發展動能，不會因為「個別公",
-      "tags": []
-    },
-    {
-      "title": "技嘉舉辦 AI 夥伴峰會 展示企業級 AI Agent 落地解方",
-      "url": "https://tw.stock.yahoo.com/news/%E6%8A%80%E5%98%89%E8%88%89%E8%BE%A6-ai-%E5%A4%A5%E4%BC%B4%E5%B3%B0%E6%9C%83-%E5%B1%95%E7%A4%BA%E4%BC%81%E6%A5%AD%E7%B4%9A-ai-105833225.html",
-      "source": "Yahoo 股市",
-      "published": "2026-11-21T18:58+08:00",
-      "summary": "圖／本報資料庫商傳媒｜何映辰／台北報導台灣伺服器與硬體大廠技嘉於 11 月 13 日在美國加州工業市的太平洋棕櫚度假酒店（Pacific Palms Resort）舉辦 AI 合作夥伴峰會。這場活動以",
       "tags": []
     },
     {
@@ -50,38 +82,6 @@
       "source": "鉅亨網",
       "published": "2026-11-21T18:12+08:00",
       "summary": "台積電股價疲弱，台股周五跌6.23%，本周累跌約17.5%，創1990年來最大單周跌幅 美國商務部對海外資料中心出租AI運算能力、向中國企業提供服務加嚴出口管制，BIS新規11月19日生效 台積電ADR收318.71美元，跌至4月2日來低點",
-      "tags": []
-    },
-    {
-      "title": "費半重挫逾10%金管會強化禁空令 法人：台股靜待打底",
-      "url": "https://tw.stock.yahoo.com/news/%E8%B2%BB%E5%8D%8A%E9%87%8D%E6%8C%AB%E9%80%BE10-%E9%87%91%E7%AE%A1%E6%9C%83%E5%BC%B7%E5%8C%96%E7%A6%81%E7%A9%BA%E4%BB%A4-%E6%B3%95%E4%BA%BA-%E5%8F%B0%E8%82%A1%E9%9D%9C%E5%BE%85%E6%89%93%E5%BA%95-100024573.html",
-      "source": "Yahoo 股市",
-      "published": "2026-11-21T18:00+08:00",
-      "summary": "（中央社記者潘智義台北2026年11月21日電）面對美股重挫，金管會今天再祭出強化版禁空令，法人認為，所有空頭工具都限縮，將可穩定投資人信心；因台股本波跌幅近3成，短線可靜待止跌打底。AI產業前景疑慮",
-      "tags": []
-    },
-    {
-      "title": "【即時新聞】AI概念股爆量跳水！Astera Labs(ALAB)受科技股拖累狂跌逾14%",
-      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNb1N5M3Zqa21MMHpXLVVtRmNNeVVNRUNUcHZvZEQxX05LRWVxVm1RREVPQzZMNGo0cDJQVnZuSU9yX1BodG5NUkRxeGdCUlR2MUxJck1NWWZhZWpLaHloTUxUOGNmNFQ2cHFfSktDdUF3S19hR2RRYkxJU2Rrajh5ZF9hb3E3UWotdXFBaW5kODE?oc=5",
-      "source": "CMoney投資網誌",
-      "published": "2026-11-21T17:49+08:00",
-      "summary": "",
-      "tags": []
-    },
-    {
-      "title": "台股恐慌性拋售！專家點「止跌2關鍵」：未來4個月仍難熬",
-      "url": "https://tw.stock.yahoo.com/news/%E5%8F%B0%E8%82%A1%E6%81%90%E6%85%8C%E6%80%A7%E6%8B%8B%E5%94%AE-%E5%B0%88%E5%AE%B6%E9%BB%9E-%E6%AD%A2%E8%B7%8C2%E9%97%9C%E9%8D%B5-%E6%9C%AA%E4%BE%864%E5%80%8B%E6%9C%88%E4%BB%8D%E9%9B%A3%E7%86%AC-090300972.html",
-      "source": "Yahoo 股市",
-      "published": "2026-11-21T17:03+08:00",
-      "summary": "[FTNN新聞網]實習記者周宗怡／綜合報導台股近期連續重挫，財經評論家吳嘉隆認為，這波恐慌性拋售主要與輝達（NVIDIA）前執行長黃仁勳去職有關，不僅接班人難...",
-      "tags": []
-    },
-    {
-      "title": "台股暴跌！國安基金罕見喊話了：跨部會維護股市穩定 請投資人保持信心",
-      "url": "https://tw.stock.yahoo.com/news/%E5%8F%B0%E8%82%A1%E6%9A%B4%E8%B7%8C-%E5%9C%8B%E5%AE%89%E5%9F%BA%E9%87%91%E7%BD%95%E8%A6%8B%E5%96%8A%E8%A9%B1%E4%BA%86-%E8%B7%A8%E9%83%A8%E6%9C%83%E7%B6%AD%E8%AD%B7%E8%82%A1%E5%B8%82%E7%A9%A9%E5%AE%9A-%E8%AB%8B%E6%8A%95%E8%B3%87%E4%BA%BA%E4%BF%9D%E6%8C%81%E4%BF%A1%E5%BF%83-085226122.html",
-      "source": "Yahoo 股市",
-      "published": "2026-11-21T16:52+08:00",
-      "summary": "即時中心／徐子為報導近日受美國AI監管政策可能趨嚴、龐大資本支出之投資效益、特定企業之特殊因素及融資風險等因素影響，引發市場對AI產業營運展望產生疑慮，導致美股多日重挫，並波及臺股及其他亞股，對此，國",
       "tags": []
     }
   ]
