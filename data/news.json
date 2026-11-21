@@ -1,9 +1,33 @@
 {
-  "updated": "2026-11-21T11:54:33+08:00",
+  "updated": "2026-11-21T12:10:49+08:00",
   "ai_summary": false,
   "model": null,
-  "candidates_sig": "1baf84b07a7b2b6fef01d93a64ff608c40038388",
+  "candidates_sig": "64df93942317c23fc72912db3f9a1cf207a2fc83",
   "items": [
+    {
+      "title": "AI 概念股血洗華爾街：從 Arm 到 CoreWeave，資金從「AI 狂熱」全面轉向風險撤退",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOTTdabzAyRTlLRWR2emRYVEdJMUpUYnR4Q3pqQTF2QmxMZ3ZHdlBRSTd2aGV1Y2o4cHBzZ3N5dHVGYWJNRXdpb1ZMLXY2eGdENlVDamdqQ3lCcDYweDVod0VvSGpWOERqVllwREkxSlRvd2l6dkV0ZjJFT0NrM3FNc0RXWXRQYWM1VG91STZR?oc=5",
+      "source": "CMoney投資網誌",
+      "published": "2026-11-21T12:00+08:00",
+      "summary": "",
+      "tags": []
+    },
+    {
+      "title": "郭明錤：Google明年下修博通TPU出貨約百萬顆 「聯發科」可望受惠",
+      "url": "https://news.cnyes.com/news/id/6669649",
+      "source": "鉅亨網",
+      "published": "2026-11-21T12:00+08:00",
+      "summary": "郭明錤：Google 2027年TPU 8i出貨下修約100萬顆，約原估全年量20%。 下修集中於博通設計的8i Max（Whalefish）；Google稱前沿模型研發優先取得算力。 聯發科設計的8t出貨預計增加，但數量未定，暫難抵銷8i",
+      "tags": []
+    },
+    {
+      "title": "台股單週蒸發25兆元！國泰郭經緯吐「12字真言」 高價股需先回穩",
+      "url": "https://tw.news.yahoo.com/%E5%8F%B0%E8%82%A1%E5%96%AE%E9%80%B1%E8%92%B8%E7%99%BC25%E5%85%86%E5%85%83-%E5%9C%8B%E6%B3%B0%E9%83%AD%E7%B6%93%E7%B7%AF%E5%90%90-12%E5%AD%97%E7%9C%9F%E8%A8%80-%E9%AB%98%E5%83%B9%E8%82%A1%E9%9C%80%E5%85%88%E5%9B%9E%E7%A9%A9-035900991.html",
+      "source": "Yahoo 股市",
+      "published": "2026-11-21T11:59+08:00",
+      "summary": "台股單週暴跌7,641點，市值蒸發25兆元退居全球第7。國泰分析師郭經緯指出，AI疑慮引爆多殺多，大盤失守年線進入築底期。他提出四大止跌指標，建議投資人現階段宜多看少做、去槓桿，靜待外資賣壓收斂、新台",
+      "tags": []
+    },
     {
       "title": "台股周一開盤慘了？美股AI股血洗「費半崩跌10%」 2內行齊喊周末盯緊一指標",
       "url": "https://tw.news.yahoo.com/%E5%8F%B0%E8%82%A1%E5%91%A8-%E9%96%8B%E7%9B%A4%E6%85%98%E4%BA%86-%E7%BE%8E%E8%82%A1ai%E8%82%A1%E8%A1%80%E6%B4%97-%E8%B2%BB%E5%8D%8A%E5%B4%A9%E8%B7%8C10-2%E5%85%A7%E8%A1%8C%E9%BD%8A%E5%96%8A%E5%91%A8%E6%9C%AB%E7%9B%AF%E7%B7%8A-034200776.html",
@@ -58,30 +82,6 @@
       "source": "Yahoo 股市",
       "published": "2026-11-21T09:57+08:00",
       "summary": "台北股市近日出現連續跳水式重挫，市場恐慌情緒蔓延，總體經濟學家吳嘉隆昨（20日）在臉書發文分析，這波賣壓雖看似泡沫破裂，但實際上並非真正的泡沫化，真正的導火線正是輝達（Nvidia）執行長黃仁勳去職所",
-      "tags": []
-    },
-    {
-      "title": "黃仁勳衝擊AI台廠 謝金河談台股後市與變數",
-      "url": "https://news.google.com/rss/articles/CBMirwJBVV95cUxQczUwTjc0ekl0MHNjOGk2dXJoNnRMdDM5RFBlS090aTgtV3V4ZXFlLVRPUGxFb3hub0tnZWZHT3o3c2daaWFKd2pDOEYwVGdla0RwdUJkeUtTcExyME5PYXhMbW9lOGI0b2xNRDJtSWNOU2N6MlVkU0dTZkZEbmpkdDFJVXNBR3doYlVFZ3JuRWlIVV9UX2NWSkw5TlFaY1F6S1RuNThLNlJaQklleTFZUHJncUUwVzFqYU1NZFdURGVTR1BQeHE4ckdMVFZfTDR2bXVHZzV6YTRmc0xRRVJUcUoxT1U1d2tIaFNYUzI1bVY0aTdOODh4a0dBOWJyV1V1cDBJOWtOU2J6OGtGVWVVRC0zbFhCZWJidW5TSHVVdDhocnJEdUkycTdTZVhEUXM?oc=5",
-      "source": "Yahoo新聞",
-      "published": "2026-11-21T09:51+08:00",
-      "summary": "",
-      "tags": []
-    },
-    {
-      "title": "台股漲跌牽動情緒！醫揭「盯盤成癮」代價：失眠、心悸、自律神經失調",
-      "url": "https://tw.news.yahoo.com/%E5%8F%B0%E8%82%A1%E6%BC%B2%E8%B7%8C%E7%89%BD%E5%8B%95%E6%83%85%E7%B7%92-%E9%86%AB%E6%8F%AD-%E7%9B%AF%E7%9B%A4%E6%88%90%E7%99%AE-%E4%BB%A3%E5%83%B9-%E5%A4%B1%E7%9C%A0-010005698.html",
-      "source": "Yahoo 股市",
-      "published": "2026-11-21T09:00+08:00",
-      "summary": "近期全球股市受到AI產業熱潮、國際經濟情勢及市場大幅度波動影響，行情起伏牽動投資",
-      "tags": []
-    },
-    {
-      "title": "〈熱門股〉川湖股價拉回修正仍獲外資承接 前3季狂賺逾23個股本",
-      "url": "https://news.cnyes.com/news/id/6669495",
-      "source": "鉅亨網",
-      "published": "2026-11-21T08:50+08:00",
-      "summary": "伺服器滑軌廠川湖(2059-TW)近期遭遇大盤拖累賣壓，20日股價持續走弱並打入跌停板5350元作收，下跌590元或9.93%，累計已連7個交易日收黑且波段跌幅達38.72%。儘管本周股價大幅修正，不過外資逆勢買超42張並寫下連2買，累計買",
       "tags": []
     }
   ]
