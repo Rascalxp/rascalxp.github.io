@@ -7,7 +7,7 @@
 // - 開頭動畫影片、後台、GitHub API：一律不經過這裡
 //
 // 改了 CSS/JS 後如果想讓大家立刻拿到新版，把下面的版本號加 1 即可。
-const VERSION = "v1";
+const VERSION = "v2";
 const CACHE = `taiex-board-${VERSION}`;
 
 const PRECACHE = [
