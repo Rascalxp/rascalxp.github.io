@@ -1,8 +1,8 @@
 {
-  "updated": "2026-11-24T04:04:42+08:00",
+  "updated": "2026-11-24T04:27:18+08:00",
   "ai_summary": false,
   "model": null,
-  "candidates_sig": "acd378525225816a6b954eecfad990a47404b45b",
+  "candidates_sig": "916cc15177ca126aee043e3b485ffdce2d499371",
   "items": [
     {
       "title": "黃仁勳回任輝達執行長！輝達開盤飆33%、那斯達克漲7.3%，法人看台股V型反轉仍待觀察",
@@ -18,6 +18,14 @@
       "source": "Yahoo 股市",
       "published": "2026-11-24T03:15+08:00",
       "summary": "輝達財報亮眼但股價走跌，分析師賽比爾建議想布局AI的投資人可考慮買進台積電。台積電客戶結構多元且本業體質穩健，不論哪家企業成為AI龍頭，最終都須與其合作。加上美國新廠擴產與本益比僅約23倍，具備高度投",
+      "tags": []
+    },
+    {
+      "title": "卓揆擬擴大國安基金 黃仁勳回歸解除警報",
+      "url": "https://tw.news.yahoo.com/%E5%8D%93%E6%8F%86%E6%93%AC%E6%93%B4%E5%A4%A7%E5%9C%8B%E5%AE%89%E5%9F%BA%E9%87%91-%E9%BB%83%E4%BB%81%E5%8B%B3%E5%9B%9E%E6%AD%B8%E8%A7%A3%E9%99%A4%E8%AD%A6%E5%A0%B1-191118989.html",
+      "source": "Yahoo 股市",
+      "published": "2026-11-24T03:11+08:00",
+      "summary": "禁空令發酵，台股大漲778點，融資追繳門檻降低，國安基金將擴大(圖/pexels)",
       "tags": []
     },
     {
@@ -37,27 +45,11 @@
       "tags": []
     },
     {
-      "title": "【即時新聞】輝達(NVDA)黃仁勳回歸帶動AI概念股狂飆，這3檔科技股暴漲逾10%迎反彈！",
-      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPMm1PUVhKQV9vbHNLT1ZxOW5vTXdEanhzMUxMRVZXd09VZ3UwLTV0d2xlQnVKcjE0ZWg0enRPQlQ5ZW11LW5NVm1aRTZhVTIzNG5FemxfemlxTFJjeThmclNSMi1yVGREdUpoZ1p4RzVNU3ZwWjhacVZVYzBseXJVTW9FbXppRGE1RFpNVUdWcnA?oc=5",
-      "source": "CMoney投資網誌",
-      "published": "2026-11-24T02:15+08:00",
-      "summary": "",
-      "tags": []
-    },
-    {
       "title": "黃仁勳震撼重返輝達！本人發聲「等不及上班」真心話全說了",
       "url": "https://tw.stock.yahoo.com/news/%E9%BB%83%E4%BB%81%E5%8B%B3%E9%9C%87%E6%92%BC%E9%87%8D%E8%BF%94%E8%BC%9D%E9%81%94-%E6%9C%AC%E4%BA%BA%E7%99%BC%E8%81%B2-%E7%AD%89%E4%B8%8D%E5%8F%8A%E4%B8%8A%E7%8F%AD-%E7%9C%9F%E5%BF%83%E8%A9%B1%E5%85%A8%E8%AA%AA%E4%BA%86-144037067.html",
       "source": "Yahoo 股市",
       "published": "2026-11-24T01:20+08:00",
       "summary": "財經中心／綜合報導輝達（NVIDIA）創辦人黃仁勳正式回歸！輝達震撼於台灣時間23日晚間宣布，董事會經過一系列討論與會議後，一致投票通過恢復黃仁勳總裁、執行長及董事職務，即日起正式生效。對於重新掌舵這",
-      "tags": []
-    },
-    {
-      "title": "【即時新聞】輝達(NVDA)宣布黃仁勳重掌執行長！川普發聲力挺，AI概念股迎強勢反彈",
-      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPSS1oV3Zmc2hVYzZQOS1WSzJEalVGTzBfeUFEYUhGQ1QzOHEyM1FYb0wxeWVNWXpDRkozcXo4VFhRYk0yTk1oMlZPSG41X25PM01WbkdQWjc5aGY4MzYyajg1ZlBmM1BhaW82NXVqX2s2UVRLei0xZ0NrTHFEeWlsMDNVMnFtWUJoek5QYy1yVGc?oc=5",
-      "source": "CMoney投資網誌",
-      "published": "2026-11-24T01:09+08:00",
-      "summary": "",
       "tags": []
     },
     {
@@ -69,19 +61,27 @@
       "tags": []
     },
     {
-      "title": "【即時新聞】輝達(NVDA)迎回黃仁勳股價狂飆逾30%，引爆AI概念股報復性大漲",
-      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOYVh4SW1IWjZmOFZ5U1kxa1hzWXVnT0NBWTljX3NXRk05Z2lraGVhcXJ0M0RLSjBOWFd5clJhSnNiMFJLd1VCS2t4eks5MUptUDFtYXFiXzVYbk1FTUtYUFVpRWw4Ty10STFIMVltcEo3UDJoWVhJdWNLTGJ5ZklFZEctdjJESXNHMGdwQ2JvVUY?oc=5",
-      "source": "CMoney投資網誌",
-      "published": "2026-11-24T00:16+08:00",
-      "summary": "",
+      "title": "輝達董事會宣布黃仁勳復職 川普表示歡迎 台指期夜盤、台積電期貨飆漲停",
+      "url": "https://tw.news.yahoo.com/%E8%BC%9D%E9%81%94%E8%91%A3%E4%BA%8B%E6%9C%83%E5%AE%A3%E5%B8%83%E9%BB%83%E4%BB%81%E5%8B%B3%E5%BE%A9%E8%81%B7-%E5%B7%9D%E6%99%AE%E8%A1%A8%E7%A4%BA%E6%AD%A1%E8%BF%8E-%E5%8F%B0%E6%8C%87%E6%9C%9F%E5%A4%9C%E7%9B%A4-%E5%8F%B0%E7%A9%8D%E9%9B%BB%E6%9C%9F%E8%B2%A8%E9%A3%86%E6%BC%B2%E5%81%9C-161054906.html",
+      "source": "Yahoo 股市",
+      "published": "2026-11-24T00:10+08:00",
+      "summary": "輝達董事會在官網聲明中稱，恢復黃仁勳職位的決定經全體一致投票通過；在作出決定的過程中，董事...",
       "tags": []
     },
     {
-      "title": "【即時新聞】黃仁勳重返輝達(NVDA)重掌執行長大位，帶動相關AI雲端概念股狂飆逾30%",
-      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNYkpRNURydDZjUG55Qi1PN1ItSHlUQjByNnloTXMyNm5xMTR3OEgtbks2YW1KcU9MUUFwRUZUb21pRkxXQmpBMUUtN1ZOOEh0eDY2aGpzWl9GSEZwMzJlTF8tWk15MjZxbnl5Szdjbm1GRlZQRDhLRzdXcGRDOWhzejJQbGxOUkdYZ1FaR3ZOb0U?oc=5",
-      "source": "CMoney投資網誌",
-      "published": "2026-11-24T00:14+08:00",
-      "summary": "",
+      "title": "黃仁勳「王者歸來」！台指期夜盤狂飆3665點攻漲停 衝破4萬點",
+      "url": "https://tw.stock.yahoo.com/news/%E9%BB%83%E4%BB%81%E5%8B%B3%E3%80%8C%E7%8E%8B%E8%80%85%E6%AD%B8%E4%BE%86%E3%80%8D%EF%BC%81%E5%8F%B0%E6%8C%87%E6%9C%9F%E5%A4%9C%E7%9B%A4%E7%8B%82%E9%A3%863665%E9%BB%9E%E6%94%BB%E6%BC%B2%E5%81%9C-%E8%A1%9D%E7%A0%B44%E8%90%AC%E9%BB%9E-153610840.html",
+      "source": "Yahoo 股市",
+      "published": "2026-11-23T23:24+08:00",
+      "summary": "輝達（NVIDIA）今（23）日晚間宣布，董事會一致通過創辦人黃仁勳回任總裁、執行長及董事，即刻生效，距他11月12日請辭僅隔11天。消息一出，輝達美股盤前一度飆漲逾30%，激勵美股四大指數開盤全面走",
+      "tags": []
+    },
+    {
+      "title": "台指數漲停！阮慕驊激動發文「外資被幹掉700億」 網友開嗨：台股漲三天慶祝",
+      "url": "https://tw.stock.yahoo.com/news/%E5%8F%B0%E6%8C%87%E6%95%B8%E6%BC%B2%E5%81%9C-%E9%98%AE%E6%85%95%E9%A9%8A%E6%BF%80%E5%8B%95%E7%99%BC%E6%96%87-%E5%A4%96%E8%B3%87%E8%A2%AB%E5%B9%B9%E6%8E%89700%E5%84%84-%E7%B6%B2%E5%8F%8B%E9%96%8B%E5%97%A8-%E5%8F%B0%E8%82%A1%E6%BC%B2%E4%B8%89%E5%A4%A9%E6%85%B6%E7%A5%9D-152000988.html",
+      "source": "Yahoo 股市",
+      "published": "2026-11-23T23:20+08:00",
+      "summary": "[FTNN新聞網]記者周雅琦／綜合報導台指期夜盤今（23）日上演史詩級暴漲行情！盤面原本走勢疲弱，早盤一度下探3萬6280點，未料市場傳出輝達（NVIDIA）董事會全...",
       "tags": []
     }
   ]
