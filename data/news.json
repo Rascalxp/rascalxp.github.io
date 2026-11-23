@@ -1,9 +1,65 @@
 {
-  "updated": "2026-11-24T07:11:26+08:00",
+  "updated": "2026-11-24T07:48:04+08:00",
   "ai_summary": false,
   "model": null,
-  "candidates_sig": "1b7d9d679406f667c046421346cce2142b29de52",
+  "candidates_sig": "f610a48777dc9d985d7d1ea81c8c3b794d3edab3",
   "items": [
+    {
+      "title": "KONST 參與波蘭華沙 TEEMA 科學園區產業日，以「The Neocloud Built in Taiwan」分享製造業 AI 導入路徑",
+      "url": "https://tw.stock.yahoo.com/news/konst-%E5%8F%83%E8%88%87%E6%B3%A2%E8%98%AD%E8%8F%AF%E6%B2%99-teema-%E7%A7%91%E5%AD%B8%E5%9C%92%E5%8D%80%E7%94%A2%E6%A5%AD%E6%97%A5-%E4%BB%A5-233400485.html",
+      "source": "Yahoo 股市",
+      "published": "2026-11-24T07:34+08:00",
+      "summary": "立足台灣、布局亞洲的 AI 算力服務公司康斯特（KONST）參與由台灣區電機電子工業同業公會（TEEMA）主辦、於 11 月 17 日至 18 日在華沙 Hilton Warsaw City 舉行的",
+      "tags": []
+    },
+    {
+      "title": "黃仁勳重返輝達股價暴漲31%! 美股費半飆漲1179點、台積電ADR勁揚14%",
+      "url": "https://tw.news.yahoo.com/%E9%BB%83%E4%BB%81%E5%8B%B3%E9%87%8D%E8%BF%94%E8%BC%9D%E9%81%94%E8%82%A1%E5%83%B9%E6%9A%B4%E6%BC%B231-%E7%BE%8E%E8%82%A1%E8%B2%BB%E5%8D%8A%E9%A3%86%E6%BC%B21179%E9%BB%9E-%E5%8F%B0%E7%A9%8D%E9%9B%BBadr%E5%8B%81%E6%8F%9A14-232619704.html",
+      "source": "Yahoo 股市",
+      "published": "2026-11-24T07:26+08:00",
+      "summary": "[Newtalk新聞] AI（人工智慧）晶片大廠輝達（NVIDIA）執行長黃仁勳閃電復職，震撼科技界和金融市場。輝達23日宣布，董事會一致投票通過，即日起恢復黃仁勳擔任公司總裁、執行長及董事職務，重新",
+      "tags": []
+    },
+    {
+      "title": "黃仁勳復職，台股權值股帶頭、ABF、被動元件、光纖及設備股輪彈",
+      "url": "https://tw.stock.yahoo.com/news/%E9%BB%83%E4%BB%81%E5%8B%B3%E5%BE%A9%E8%81%B7-%E5%8F%B0%E8%82%A1%E6%AC%8A%E5%80%BC%E8%82%A1%E5%B8%B6%E9%A0%AD-abf-%E8%A2%AB%E5%8B%95%E5%85%83%E4%BB%B6-%E5%85%89%E7%BA%96%E5%8F%8A%E8%A8%AD%E5%82%99%E8%82%A1%E8%BC%AA%E5%BD%88-232423428.html",
+      "source": "Yahoo 股市",
+      "published": "2026-11-24T07:24+08:00",
+      "summary": "【財訊快報／方亞申】近期美股出現大震盪，美國國會選舉，較反對大幅興建資料中心的民主黨大獲全勝，股價持續下跌。再來就是12日黃仁勳意外請辭，不論是婚外情或是偷賣晶片至中國，造成股價更大震撼，股市加速下跌",
+      "tags": []
+    },
+    {
+      "title": "台股準備爆噴！黃仁勳回歸輝達狂漲31% 台積電夜盤拉3665點亮燈漲停",
+      "url": "https://tw.stock.yahoo.com/news/%E5%8F%B0%E8%82%A1%E6%BA%96%E5%82%99%E7%88%86%E5%99%B4-%E9%BB%83%E4%BB%81%E5%8B%B3%E5%9B%9E%E6%AD%B8%E8%BC%9D%E9%81%94%E7%8B%82%E6%BC%B231-%E5%8F%B0%E7%A9%8D%E9%9B%BB%E5%A4%9C%E7%9B%A4%E6%8B%893665%E9%BB%9E%E4%BA%AE%E7%87%88%E6%BC%B2%E5%81%9C-231600212.html",
+      "source": "Yahoo 股市",
+      "published": "2026-11-24T07:16+08:00",
+      "summary": "[FTNN新聞網]記者陳献朋／綜合報導輝達（NVIDIA）昨（23）晚宣布，黃仁勳正式回任執行長一職，消息一出帶動美股及台指期夜盤同步大漲，輝達更衝出31.48%，收...",
+      "tags": []
+    },
+    {
+      "title": "【即時新聞】黃仁勳驚喜回歸任CEO！輝達(NVDA)領漲AI概念股，美股那斯達克狂飆6.5%",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPZFhEdmRWb2xUNHJKUS1UYXVUQjNibFM1bW42TGFldmcxQjJvSFdQbGsyZGdmRm95TExhSGh5cl9vRmNuWDVqTmd4QWpKREI2Ums0Mk5tV2tLQko4THBQTFVXeTdfWnJ3T1pfa3pJR0kxbnVlZW91UnBDT2VpZjNOc1dkS3VPSzJEWHI2bzRaOUQ?oc=5",
+      "source": "CMoney投資網誌",
+      "published": "2026-11-24T07:12+08:00",
+      "summary": "",
+      "tags": []
+    },
+    {
+      "title": "黃仁勳上演王者歸來！分析師神預言曝光 大票網友驚呼：未來人",
+      "url": "https://tw.stock.yahoo.com/news/%E9%BB%83%E4%BB%81%E5%8B%B3%E4%B8%8A%E6%BC%94%E7%8E%8B%E8%80%85%E6%AD%B8%E4%BE%86-%E5%88%86%E6%9E%90%E5%B8%AB%E7%A5%9E%E9%A0%90%E8%A8%80%E6%9B%9D%E5%85%89-%E5%A4%A7%E7%A5%A8%E7%B6%B2%E5%8F%8B%E9%A9%9A%E5%91%BC-%E6%9C%AA%E4%BE%86%E4%BA%BA-230530220.html",
+      "source": "Yahoo 股市",
+      "published": "2026-11-24T07:05+08:00",
+      "summary": "前陣子台股重挫，過去看好股市發展的知名分析師郭哲榮坦言，自己砸下2.3億元買0050，帳面損失已達3千萬元。不過23日下午一點，他就預言，輝達（Nvidia）創辦人黃仁勳有機會回歸。隨著晚間傳出黃仁勳",
+      "tags": []
+    },
+    {
+      "title": "黃仁勳回來了！美股收盤勁揚 台積電ADR飆漲14%",
+      "url": "https://tw.news.yahoo.com/%E9%BB%83%E4%BB%81%E5%8B%B3%E5%9B%9E%E4%BE%86%E4%BA%86-%E7%BE%8E%E8%82%A1%E6%94%B6%E7%9B%A4%E5%8B%81%E6%8F%9A-%E5%8F%B0%E7%A9%8D%E9%9B%BBadr%E9%A3%86%E6%BC%B214-230311253.html",
+      "source": "Yahoo 股市",
+      "published": "2026-11-24T07:03+08:00",
+      "summary": "人工智慧（AI）晶片巨擘輝達重新任命黃仁勳為執行長，推動投資人搶進上週暴跌的AI類股，美股主要指數週一（23日）全面收紅，費城半導體指數勁揚14%，台積電ADR飆漲44.89美元或14.08%，收在3",
+      "tags": []
+    },
     {
       "title": "黃仁勳回歸／剛喊黃仁勳快回來了「馬上成真」！ 哲哲嗨喊台股5萬點：拚就對了",
       "url": "https://tw.news.yahoo.com/%E9%BB%83%E4%BB%81%E5%8B%B3%E5%9B%9E%E6%AD%B8-%E5%89%9B%E5%96%8A%E9%BB%83%E4%BB%81%E5%8B%B3%E5%BF%AB%E5%9B%9E%E4%BE%86%E4%BA%86-%E9%A6%AC%E4%B8%8A%E6%88%90%E7%9C%9F-%E5%93%B2%E5%93%B2%E5%97%A8%E5%96%8A%E5%8F%B0%E8%82%A15%E8%90%AC%E9%BB%9E-%E6%8B%9A%E5%B0%B1%E5%B0%8D%E4%BA%86-225955103.html",
@@ -21,67 +77,11 @@
       "tags": []
     },
     {
-      "title": "影/黃仁勳重返輝達「王者歸來公司」直擊：第2次會做更好",
+      "title": "影/黃仁勳重返輝達總部「員工熱烈歡迎」！喊：第2次會做更好",
       "url": "https://tw.news.yahoo.com/%E5%BD%B1-%E9%BB%83%E4%BB%81%E5%8B%B3%E9%87%8D%E8%BF%94%E8%BC%9D%E9%81%94-%E7%8E%8B%E8%80%85%E6%AD%B8%E4%BE%86%E5%85%AC%E5%8F%B8-%E7%9B%B4%E6%93%8A-%E7%AC%AC2%E6%AC%A1%E6%9C%83%E5%81%9A%E6%9B%B4%E5%A5%BD-225311957.html",
       "source": "Yahoo 股市",
       "published": "2026-11-24T06:53+08:00",
       "summary": "黃仁勳辭去輝達總裁執行長職務僅約12天，輝達董事會台灣時間23日深夜宣布，他即日起重返公司，回任總裁、執行長及董事。他回到總部時，大批員工擠滿大廳熱烈歡迎，相關影片隨即在社群流傳。",
-      "tags": []
-    },
-    {
-      "title": "記憶體股絕地大反攻！花旗喊美光上看1300美元、SanDisk潛在漲幅逾兩倍",
-      "url": "https://news.cnyes.com/news/id/6670387",
-      "source": "鉅亨網",
-      "published": "2026-11-24T06:50+08:00",
-      "summary": "黃仁勳回鍋執掌輝達，帶動美股記憶體與儲存族群週一大漲，美光收漲19.04%，SanDisk漲10.69%。 花旗估即使輝達相關融資全停，全球DRAM需求僅衝擊12%、NAND約7%，看好HBM與伺服器記憶體供給吃緊。 花旗維持美光、SanD",
-      "tags": []
-    },
-    {
-      "title": "台積電罕見喊話：先進製程需求強勁 打臉泡沫化疑慮",
-      "url": "https://tw.news.yahoo.com/%E5%8F%B0%E7%A9%8D%E9%9B%BB%E7%BD%95%E8%A6%8B%E5%96%8A%E8%A9%B1-%E5%85%88%E9%80%B2%E8%A3%BD%E7%A8%8B%E9%9C%80%E6%B1%82%E5%BC%B7%E5%8B%81-%E6%89%93%E8%87%89%E6%B3%A1%E6%B2%AB%E5%8C%96%E7%96%91%E6%85%AE-224158218.html",
-      "source": "Yahoo 股市",
-      "published": "2026-11-24T06:41+08:00",
-      "summary": "AI市場雜音頻傳，衝擊全球股市，台積電昨（23）日罕見在非法說會期間打破沉默，對市場信心喊話，強調全球AI需求與日俱增，長期展望持續看好，高喊「市場對先進製程技術需求依然強勁」，產能持續供不應求。",
-      "tags": []
-    },
-    {
-      "title": "台股開盤將火箭式噴發？黃仁勳成功重掌輝達 台指期夜盤飆漲3170點",
-      "url": "https://tw.stock.yahoo.com/news/%E5%8F%B0%E8%82%A1%E9%96%8B%E7%9B%A4%E5%B0%87%E7%81%AB%E7%AE%AD%E5%BC%8F%E5%99%B4%E7%99%BC-%E9%BB%83%E4%BB%81%E5%8B%B3%E6%88%90%E5%8A%9F%E9%87%8D%E6%8E%8C%E8%BC%9D%E9%81%94-%E5%8F%B0%E6%8C%87%E6%9C%9F%E5%A4%9C%E7%9B%A4%E9%A3%86%E6%BC%B23170%E9%BB%9E-223458693.html",
-      "source": "Yahoo 股市",
-      "published": "2026-11-24T06:34+08:00",
-      "summary": "即時中心／綜合報導人工智慧晶片大廠輝達（Nvidia）宣布黃仁勳回任執行長，人事令即刻生效，成功重燃AI投資熱潮，帶動美股週一（23日）全線收紅。台指期夜盤一度在平盤上下游走，但隨著黃仁勳重返輝達消息",
-      "tags": []
-    },
-    {
-      "title": "【盤前】黃仁勳回鍋費半暴漲14%！台指夜盤漲3170點 台股反攻號角響起",
-      "url": "https://tw.news.yahoo.com/%E7%9B%A4%E5%89%8D-%E9%BB%83%E4%BB%81%E5%8B%B3%E5%9B%9E%E9%8D%8B%E8%BC%9D%E9%81%94%E7%8B%82%E9%A3%8631-%E5%8F%B0%E6%8C%87%E5%A4%9C%E7%9B%A4%E6%BC%B23170%E9%BB%9E-%E5%8F%B0%E8%82%A1%E5%8F%8D%E6%94%BB%E8%99%9F%E8%A7%92%E9%9F%BF%E8%B5%B7-222700423.html",
-      "source": "Yahoo 股市",
-      "published": "2026-11-24T06:27+08:00",
-      "summary": "美股週一（23日）上演驚天大反攻！輝達宣布黃仁勳回任執行長、總裁及董事，重新點燃人工智慧（AI）投資熱潮，帶動半導體、伺服器及資料中心供應鏈全面大漲。美股四大指數全面狂飆，費半暴漲14.03%，台指期",
-      "tags": []
-    },
-    {
-      "title": "【即時新聞】健鼎受惠AI伺服器需求大增，昨日盤中強勢亮燈衝上漲停板！",
-      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOVGtPb2RvNTFCR1pEYjViREVlYzk4Ulc2bmtVSVdrZHFBMVR0TnU2ajJzWThhSnVmWHJVRjNGMDZRT2JtVjhOWlhBM3JBLUZJeTJhTnE3enpFWmUwTEhpTkpnYzZ0eVJWcXFjN191VlRLYUFWT0V4a0t6ZEdTNmx6ZFB5WU5Va196a1c4dkdWN3o?oc=5",
-      "source": "CMoney投資網誌",
-      "published": "2026-11-24T06:09+08:00",
-      "summary": "",
-      "tags": []
-    },
-    {
-      "title": "台股崩跌1／45天狂瀉1萬4千點 資金避風港在四大類股族群",
-      "url": "https://tw.news.yahoo.com/%E5%8F%B0%E8%82%A1%E5%B4%A9%E8%B7%8C1-45%E5%A4%A9%E7%8B%82%E7%80%891%E8%90%AC4%E5%8D%83%E9%BB%9E-%E8%B3%87%E9%87%91%E9%81%BF%E9%A2%A8%E6%B8%AF%E5%9C%A8%E5%9B%9B%E5%A4%A7%E9%A1%9E%E8%82%A1%E6%97%8F%E7%BE%A4-220000848.html",
-      "source": "Yahoo 股市",
-      "published": "2026-11-24T06:00+08:00",
-      "summary": "台股從歷史高點49968.92 點跌至36000 點大關，總共花了45天、約一個半月，累計狂瀉近1萬4000點、跌幅高達28%。在美國總統川普公開對輝達董事會喊話，邀請黃仁勳回來NVIDA，帶動市場對",
-      "tags": []
-    },
-    {
-      "title": "台股崩跌2／生技股「這二種題材」不受AI影響 高價權值股竟成外資提款機",
-      "url": "https://tw.news.yahoo.com/%E5%8F%B0%E8%82%A1%E5%B4%A9%E8%B7%8C2-%E7%94%9F%E6%8A%80%E8%82%A1-%E9%80%99%E4%BA%8C%E7%A8%AE%E9%A1%8C%E6%9D%90-%E4%B8%8D%E5%8F%97ai%E5%BD%B1%E9%9F%BF-%E9%AB%98%E5%83%B9%E6%AC%8A%E5%80%BC%E8%82%A1%E7%AB%9F%E6%88%90%E5%A4%96%E8%B3%87%E6%8F%90%E6%AC%BE%E6%A9%9F-220000054.html",
-      "source": "Yahoo 股市",
-      "published": "2026-11-24T06:00+08:00",
-      "summary": "CTWANT調查，生技族群近一周盤中走勢戲劇化，葡萄王（1707）、南光（1752）、杏輝（1734）、精華（1565）、訊聯（1784）等股價有所表現之外；藥華藥（6446）、保瑞（6472）、美時",
       "tags": []
     }
   ]
