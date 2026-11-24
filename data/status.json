@@ -1,28 +1,22 @@
 {
   "chips": {
-    "time": "2026-11-24T15:30:43+08:00",
+    "time": "2026-11-24T15:45:31+08:00",
     "ok": true,
-    "errors": [
-      "三大法人抓取失敗：HTTPSConnectionPool(host='www.twse.com.tw', port=443): Max retries exceeded with url: /rwd/zh/fund/BFI82U?type=day&dayDate=20261124&response=json (Caused by NameResolutionError(\"HTTPSConnection(host='www.twse.com.tw', port=443): Failed to resolve 'www.twse.com.tw' ([Errno -2] Name or service not known)\"))"
-    ]
+    "errors": []
   },
   "news": {
-    "time": "2026-11-24T15:31:02+08:00",
+    "time": "2026-11-24T15:45:50+08:00",
     "ok": true,
-    "errors": [
-      "from_google 失敗：429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=%E5%8F%B0%E8%82%A1+AI%E6%A6%82%E5%BF%B5%E8%82%A1+when%3A2d&hl=zh-TW&gl=TW&ceid=TW%3Azh-Hant"
-    ]
+    "errors": []
   },
   "media": {
-    "time": "2026-11-24T15:30:59+08:00",
+    "time": "2026-11-24T15:45:47+08:00",
     "ok": true,
     "errors": []
   },
   "sectors": {
-    "time": "2026-11-24T15:30:55+08:00",
+    "time": "2026-11-24T15:45:43+08:00",
     "ok": true,
-    "errors": [
-      "上市公司基本資料抓取失敗，改用快取：HTTPSConnectionPool(host='openapi.twse.com.tw', port=443): Max retries exceeded with url: /v1/opendata/t187ap03_L (Caused by NameResolutionError(\"HTTPSConnection(host='openapi.twse.com.tw', port=443): Failed to resolve 'openapi.twse.com.tw' ([Errno -2] Name or service not known)\"))"
-    ]
+    "errors": []
   }
 }
