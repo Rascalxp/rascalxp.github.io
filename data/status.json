@@ -1,21 +1,25 @@
 {
   "chips": {
-    "time": "2026-11-24T14:54:47+08:00",
+    "time": "2026-11-24T15:00:45+08:00",
     "ok": true,
-    "errors": []
+    "errors": [
+      "tmf_from_taifex 失敗：403 Client Error: Forbidden for url: https://www.taifex.com.tw/cht/3/futContractsDateDown",
+      "tmf_from_openapi 失敗：403 Client Error: Forbidden for url: https://openapi.taifex.com.tw/v1/MarketDataOfMajorInstitutionalTradersDetailsOfFuturesContractsBytheDate",
+      "散戶微台：找不到資料"
+    ]
   },
   "news": {
-    "time": "2026-11-24T14:55:05+08:00",
+    "time": "2026-11-24T15:01:04+08:00",
     "ok": true,
     "errors": []
   },
   "media": {
-    "time": "2026-11-24T14:55:02+08:00",
+    "time": "2026-11-24T15:01:02+08:00",
     "ok": true,
     "errors": []
   },
   "sectors": {
-    "time": "2026-11-24T14:54:58+08:00",
+    "time": "2026-11-24T15:00:57+08:00",
     "ok": true,
     "errors": []
   }
