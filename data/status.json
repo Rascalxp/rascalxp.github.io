@@ -1,29 +1,21 @@
 {
   "chips": {
-    "time": "2026-11-24T16:00:55+08:00",
+    "time": "2026-11-24T16:30:45+08:00",
     "ok": true,
     "errors": []
   },
   "news": {
-    "time": "2026-11-24T16:01:22+08:00",
+    "time": "2026-11-24T16:31:04+08:00",
     "ok": true,
-    "errors": [
-      "from_google 失敗：503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=%E5%8F%B0%E8%82%A1+AI%E6%A6%82%E5%BF%B5%E8%82%A1+when%3A2d&hl=zh-TW&gl=TW&ceid=TW%3Azh-Hant"
-    ]
+    "errors": []
   },
   "media": {
-    "time": "2026-11-24T16:01:11+08:00",
+    "time": "2026-11-24T16:31:01+08:00",
     "ok": true,
-    "errors": [
-      "影片 px9BPU0xfrk 詳細資料讀取失敗：429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.youtube.com/watch%3Fv%3Dpx9BPU0xfrk&q=EgQDKdJ4GMSIldgGIjDx279Cwi2pyK9sMjlL_c39ajjsCQ9_SjrEKsUimptsb7Tcnczk8I8gUCLCgfLM5PoyAnJSWgFDYMj3opKWspfMbA",
-      "影片 T_SB6H8C84I 詳細資料讀取失敗：429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.youtube.com/watch%3Fv%3DT_SB6H8C84I&q=EgQDKdJ4GMWIldgGIjA3HDmgeV1YaNjrtH1v55XJjAn0kVJRF3xvJ475aTvpZzwBfgtfLOwYVXYURIXyESYyAnJSWgFDYI6Sjq-LlcPq2wE",
-      "影片 aqGjM_Lla3w 詳細資料讀取失敗：429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.youtube.com/watch%3Fv%3DaqGjM_Lla3w&q=EgQDKdJ4GMWIldgGIjDMPJ5tYwaT4AzHx7D5oYR06Fk45h-fizjKJ46EAT6rVbULkDXBLZdNL6yFrNE0TrkyAnJSWgFDYNiW18XBp8T99QE",
-      "影片 fnhjdm8peMI 詳細資料讀取失敗：429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.youtube.com/watch%3Fv%3Dfnhjdm8peMI&q=EgQDKdJ4GMaIldgGIjAwQTosODAbnGanbQ1cVPezJtwUc74gnL2v4jQHjegK7mgTYcUD19FNIOQSbLRhKGoyAnJSWgFDYK-wxujDv96IBg",
-      "影片 mqXgCOm4aBM 詳細資料讀取失敗：429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.youtube.com/watch%3Fv%3DmqXgCOm4aBM&q=EgQDKdJ4GMaIldgGIjDMjjOUDyG1OP2yi5-8MyxWJCmmJ_k-XzYL5gZvqmqYuIEjYa8QpZ8jUAb0M6T6SWgyAnJSWgFDYIyVqo3XvpK6PQ"
-    ]
+    "errors": []
   },
   "sectors": {
-    "time": "2026-11-24T16:01:08+08:00",
+    "time": "2026-11-24T16:30:57+08:00",
     "ok": true,
     "errors": []
   }
