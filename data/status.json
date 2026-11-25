@@ -1,27 +1,21 @@
 {
   "chips": {
-    "time": "2026-11-25T16:45:30+08:00",
+    "time": "2026-11-25T20:10:33+08:00",
     "ok": true,
     "errors": []
   },
   "news": {
-    "time": "2026-11-25T16:45:48+08:00",
+    "time": "2026-11-25T20:10:53+08:00",
     "ok": true,
     "errors": []
   },
   "media": {
-    "time": "2026-11-25T16:45:46+08:00",
+    "time": "2026-11-25T20:10:50+08:00",
     "ok": true,
-    "errors": [
-      "影片 iejicdmdEqg 詳細資料讀取失敗：429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.youtube.com/watch%3Fv%3DiejicdmdEqg&q=EgQUcz5DGLjAmtgGIjAxUUb8jr8N_LqV9hmKEyErM_0JYaT1SvT-LBiloJrJG32omVsG3CeIogOBQ5e6ywcyAnJSWgFDYMuDr_Sd_9-0xgE",
-      "影片 px9BPU0xfrk 詳細資料讀取失敗：429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.youtube.com/watch%3Fv%3Dpx9BPU0xfrk&q=EgQUcz5DGLjAmtgGIjCUWML6EiLpdMdkJ8WUA0gSf7N8q5NVEYlLN5n7iLZYycbgP9qMEvOwi6xN2ziSJmgyAnJSWgFDYIqi99Xxr6fEYA",
-      "影片 T_SB6H8C84I 詳細資料讀取失敗：429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.youtube.com/watch%3Fv%3DT_SB6H8C84I&q=EgQUcz5DGLnAmtgGIjDC3GkPhwAQaG2j0IsPv8PmuwsgYPujsbzvBf9jV6CfzGt1GCWqxXLxuO8S-IfVosIyAnJSWgFDYIu-7qmh8If0kwE",
-      "影片 TqK0Da-opyk 詳細資料讀取失敗：429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.youtube.com/watch%3Fv%3DTqK0Da-opyk&q=EgQUcz5DGLnAmtgGIjCFAyIrjPXr7hbizuUIrFjVYA1ev-gGa4cYLxOZ1-F9JppONFwf5_YXK3eFusqSkiMyAnJSWgFDYMys6dHEqOn30gE",
-      "影片 fnhjdm8peMI 詳細資料讀取失敗：429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.youtube.com/watch%3Fv%3Dfnhjdm8peMI&q=EgQUcz5DGLnAmtgGIjDPMb4P3Kh9h6x0intUTQuNAnEqwuyUkcx14UA-CEU9iHn_S9XNz7gXz3_MkxZIzQkyAnJSWgFDYKu_rZa_t5LtmQE"
-    ]
+    "errors": []
   },
   "sectors": {
-    "time": "2026-11-25T16:45:43+08:00",
+    "time": "2026-11-25T20:10:46+08:00",
     "ok": true,
     "errors": []
   }
