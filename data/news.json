@@ -1,9 +1,49 @@
 {
-  "updated": "2026-11-26T02:45:48+08:00",
+  "updated": "2026-11-26T05:36:42+08:00",
   "ai_summary": false,
   "model": null,
-  "candidates_sig": "e027151ae8b0735278efcbfe6efdcfe3cd24f2ec",
+  "candidates_sig": "e9111fdfc04ad15158e0655c7201b2195e917cc0",
   "items": [
+    {
+      "title": "〈台股盤前要聞〉匯市爆63.62億美元創第三大、鴻海印度子公司遭控欠款",
+      "url": "https://news.cnyes.com/news/id/6671817",
+      "source": "鉅亨網",
+      "published": "2026-11-26T05:10+08:00",
+      "summary": "台股盤前要聞 1.美國川普政府擬調高關稅利空衝擊，台灣金融市場25日上演股匯雙殺。台股在昨日大漲逾3300點後隨即變臉，終場重挫1926.92點收在38195.43點，外資單日狂賣1236.54億元。在熱錢大舉匯出壓力下， 新台幣 兌美元匯",
+      "tags": []
+    },
+    {
+      "title": "標題 : 黃仁勳回歸也救不了！「Jensen put」未能阻止AI概念股崩盤，市場風險加劇",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQckRzVmpjbmdWX2dwOHNHaUNrNUYtOG81cUo0T0NJRHA1eDFnQ002RlVqTTF0TTFxdGFrcDZWbTBacUdlS1ZvX3htRy1HVVN3YnVMUXg5X0JkcWtDd0dmRzlHM2ZJOC1mSWtNT0ZaLW5hV2VxVm5zZ3hMaDFmZTRmWEJuZGRwQ05BN3pRTEJ3?oc=5",
+      "source": "CMoney投資網誌",
+      "published": "2026-11-26T03:37+08:00",
+      "summary": "",
+      "tags": []
+    },
+    {
+      "title": "大跌大買 台股ETF受益人連6周創高",
+      "url": "https://tw.news.yahoo.com/%E5%A4%A7%E8%B7%8C%E5%A4%A7%E8%B2%B7-%E5%8F%B0%E8%82%A1etf%E5%8F%97%E7%9B%8A%E4%BA%BA%E9%80%A36%E5%91%A8%E5%89%B5%E9%AB%98-192850711.html",
+      "source": "Yahoo 股市",
+      "published": "2026-11-26T03:28+08:00",
+      "summary": "【記者柯安聰台北報導】受美股科技股全面重挫、費城半導體指數大跌影響，加上市場對AI投資回報、輝達管理層異動及美國科技出口管制的疑慮持續升溫，投資人信心再度潰散，上週大盤大跌7641.83點，刷新史上最",
+      "tags": []
+    },
+    {
+      "title": "【即時新聞】麥當勞(MCD)抗跌發威！美股AI股殺盤之際，這4檔低波動概念股逆勢突圍",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOZVhpdnRaVmpicEZoVjkxbkFNU1VTc0w5N1pZQzRQUjRlRGRudHA4Z19JaF93eXk1Nks1UzJNV1NtZXRQcG5JalY0ei1QMy1ZdV9SajhIS05FVUxDeWVxZVhmQWlpQW1ZZ2djTmF2VWt4TnJ6THFHX1VrcFpBbVQzTE92c2ltVmhEd2lKTGlsNFg?oc=5",
+      "source": "CMoney投資網誌",
+      "published": "2026-11-26T02:50+08:00",
+      "summary": "",
+      "tags": []
+    },
+    {
+      "title": "焦點股／戴爾AI伺服器訂單再創高！鴻海、廣達、仁寶等卻一度摔跌停| 產經",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBpX3VBOEZtOW9VdlZ1RVlPaUpWcEJsZGQweTAzWGJIYjVFN18yTnE5M0xWV1RGYjRRcVlMVWFvMDdLMTZLWTZ6X2U4QkpSTmFuSDVJa2FBVGpUdTk3X0x0WA?oc=5",
+      "source": "非凡新聞台",
+      "published": "2026-11-26T01:57+08:00",
+      "summary": "",
+      "tags": []
+    },
     {
       "title": "快訊／美股血洗！費半、台積電ADR崩逾7% 台指期夜盤狂瀉1983點",
       "url": "https://tw.news.yahoo.com/%E5%BF%AB%E8%A8%8A-%E7%BE%8E%E8%82%A1%E8%A1%80%E6%B4%97-%E8%B2%BB%E5%8D%8A-%E5%8F%B0%E7%A9%8D%E9%9B%BBadr%E5%B4%A9%E9%80%BE7-%E5%8F%B0%E6%8C%87%E6%9C%9F%E5%A4%9C%E7%9B%A4%E7%8B%82%E7%80%891983%E9%BB%9E-165600088.html",
@@ -42,46 +82,6 @@
       "source": "Yahoo 股市",
       "published": "2026-11-25T23:20+08:00",
       "summary": "美股25日開盤，道瓊工業指數重挫逾千點，費城半導體指數跌近7%。台指期夜盤25日遭拖累，開低走低並一路摜破36000點大關，美股開盤後最低下探35933點，截至發稿前少許回升報36173，單日暴跌19",
-      "tags": []
-    },
-    {
-      "title": "目標價給到9字頭！「黑馬滑軌廠」逆勢台股噴近半根…EPS衝刺245.59元 AI伺服器動能挹注",
-      "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE14MDZrNVZLeVk4c25GUjlUQV9KUnBNbmxKcFhSdTB6cm9nOUlac0R0T3JzODhpTDJmX0ZhU3NDZXY1MFozTUREUV9xTQ?oc=5",
-      "source": "FTNN 新聞網",
-      "published": "2026-11-25T23:20+08:00",
-      "summary": "",
-      "tags": []
-    },
-    {
-      "title": "美股開盤全面跳水！那斯達克狂瀉3.31％ AI概念股成重災區",
-      "url": "https://tw.stock.yahoo.com/news/%E7%BE%8E%E8%82%A1%E9%96%8B%E7%9B%A4%E5%85%A8%E9%9D%A2%E8%B7%B3%E6%B0%B4-%E9%82%A3%E6%96%AF%E9%81%94%E5%85%8B%E7%8B%82%E7%80%893-31-ai%E6%A6%82%E5%BF%B5%E8%82%A1%E6%88%90%E9%87%8D%E7%81%BD%E5%8D%80-151044454.html",
-      "source": "Yahoo 股市",
-      "published": "2026-11-25T23:10+08:00",
-      "summary": "即時中心／廖予瑄報導美股今（25）天開盤全面重挫，隨著AI概念股賣壓持續，那史達克跌幅更超過3%。此外，投資人也正評估美國最新關稅提案，以及通膨數據對市場帶來的影響。截稿前，道瓊下跌548.8點，跌幅",
-      "tags": []
-    },
-    {
-      "title": "美股四指開盤全倒「費半大跌7%」！輝達重挫8.6%、美光暴跌近11% 台積電ADR跌7%、台指期夜盤殺1900點",
-      "url": "https://tw.stock.yahoo.com/news/%E7%BE%8E%E8%82%A1%E5%9B%9B%E6%8C%87%E9%96%8B%E7%9B%A4%E5%85%A8%E5%80%92-%E8%B2%BB%E5%8D%8A%E5%A4%A7%E8%B7%8C7-%E8%BC%9D%E9%81%94%E9%87%8D%E6%8C%AB8-6-%E7%BE%8E%E5%85%89%E6%9A%B4%E8%B7%8C%E8%BF%9111-145500741.html",
-      "source": "Yahoo 股市",
-      "published": "2026-11-25T22:55+08:00",
-      "summary": "[FTNN新聞網]記者王凱暄／綜合報導美國經濟分析局稍早公布10月核心個人消費支出指數（PCE）指數年增3.3%，高於市場預期的3.2%，較前值3.1%大增；按月來看則維...",
-      "tags": []
-    },
-    {
-      "title": "【即時新聞】大摩看好台光電奪下市占，AI伺服器需求旺盛毛利率看逾40%！",
-      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPd0NfMkZkS2NYdzFLRGFZMXN1UUwwQy1iODNqWVB3VHRjN016MmlKOUR0a3dHbERWazhweUtJMkY5SHowUTZfaTJyWE5Fazd5NFo4T005WlVhT1N6VlNROE9YbzlIMmktemc2MlFVNDhQVnU0OHJKTEZGT3pCUUFCR2pZUmIzLTRVMURMWjhhbEc?oc=5",
-      "source": "CMoney投資網誌",
-      "published": "2026-11-25T22:53+08:00",
-      "summary": "",
-      "tags": []
-    },
-    {
-      "title": "【22:51 即時新聞】Coherent(COHR) 重挫逾10％／AI 概念股短線漲多拉回",
-      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOS1hVaWF1WDA1ZzRUM2c0MTBSa0N3Qjd2ZE9YT2tVUGowUnBhdmlJTnUwUEZXMWkwczFzSkluaUNBbXlFcUt5bkRDUUFvWDdURVByT2NwY1hQUm1zdVpHVFh0a2k3RVNZZWNyNVhZLU9iTlhndHNqLU1NN0lhZmMwblV0UnhnU3pIeFo0bTZB?oc=5",
-      "source": "CMoney投資網誌",
-      "published": "2026-11-25T22:51+08:00",
-      "summary": "",
       "tags": []
     }
   ]
