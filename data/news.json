@@ -1,87 +1,87 @@
 {
-  "updated": "2026-11-26T07:10:54+08:00",
+  "updated": "2026-11-26T12:10:59+08:00",
   "ai_summary": false,
   "model": null,
-  "candidates_sig": "83502e2fc85c5274d73e192e5a1d10f93e0a64e3",
+  "candidates_sig": "f8ee26a1deca671cf4db7e1559213de384d5c1c2",
   "items": [
     {
-      "title": "錢鏡你家1／台股狂瀉14000點還沒完？杜金龍曝2大短底訊號、1空頭警訊",
-      "url": "https://tw.news.yahoo.com/%E9%8C%A2%E9%8F%A1%E4%BD%A0%E5%AE%B61-%E5%8F%B0%E8%82%A1%E7%8B%82%E7%80%8914000%E9%BB%9E%E9%82%84%E6%B2%92%E5%AE%8C-%E6%9D%9C%E9%87%91%E9%BE%8D%E6%9B%9D2%E5%A4%A7%E7%9F%AD%E5%BA%95%E8%A8%8A%E8%99%9F-1%E7%A9%BA%E9%A0%AD%E8%AD%A6%E8%A8%8A-230000757.html",
-      "source": "Yahoo 股市",
-      "published": "2026-11-26T07:00+08:00",
-      "summary": "黃仁勳重返輝達，台股一天漲逾3千點，隔天卻把漲點吐了回去。剛搶進的投資人最想知道，台股還要再跌一隻腳嗎？資深分析師杜金龍把大盤與融資餘額的跌幅擺在一起看，認為短底條件已浮現，但要站穩，還得看外資何時收",
-      "tags": []
-    },
-    {
-      "title": "K線煉金術1／台股狂瀉14000點她老神在在！ 達人揭多頭回歸3關鍵",
-      "url": "https://tw.news.yahoo.com/k%E7%B7%9A%E7%85%89%E9%87%91%E8%A1%931-%E5%8F%B0%E8%82%A1%E7%8B%82%E7%80%8914000%E9%BB%9E%E5%A5%B9%E8%80%81%E7%A5%9E%E5%9C%A8%E5%9C%A8-%E9%81%94%E4%BA%BA%E6%8F%AD%E5%A4%9A%E9%A0%AD%E5%9B%9E%E6%AD%B83%E9%97%9C%E9%8D%B5-225859154.html",
-      "source": "Yahoo 股市",
-      "published": "2026-11-26T06:58+08:00",
-      "summary": "台股從近5萬點高峰狂瀉逾14000點，沒想到輝達執行長黃仁勳突然回歸，市場歡呼聲不斷，但隔天（11/25）台股又轉弱！面對暴漲暴跌的行情，技術分析達人林穎老神在在，因為她早在台股高檔時逐步減碼，將逾半",
-      "tags": []
-    },
-    {
-      "title": "台積電美國擴廠典禮川普要來 凸顯AI鏈關鍵戰略地位",
-      "url": "https://tw.news.yahoo.com/%E5%8F%B0%E7%A9%8D%E9%9B%BB%E7%BE%8E%E5%9C%8B%E6%93%B4%E5%BB%A0%E5%85%B8%E7%A6%AE%E5%B7%9D%E6%99%AE%E8%A6%81%E4%BE%86-%E5%87%B8%E9%A1%AFai%E9%8F%88%E9%97%9C%E9%8D%B5%E6%88%B0%E7%95%A5%E5%9C%B0%E4%BD%8D-224504725.html",
-      "source": "Yahoo 股市",
-      "published": "2026-11-26T06:45+08:00",
-      "summary": "彭博資訊25日報導，美國總統川普將出席台積電亞利桑那州鳳凰城廠區的擴建典禮，凸顯台積電在美國半導體產業政策及AI供應鏈的關鍵戰略地位。據了解，台積電董事長暨總裁魏哲家將率領兩位共同營運長及兩位副共同營",
-      "tags": []
-    },
-    {
-      "title": "【即時新聞】台光電受惠AI伺服器需求大爆發，大摩看好搶下關鍵專案重申買進！",
-      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNTC1ZYWs1aVo0UUFNYWdnZlhXbENqTXZNZnhiRHBURGJ5eVJYX3VwT1hfR3QtVTlneXg4bmQxLUtsMFZ6U3M0RjVLR3FBTHFmWERnQTJPRWo1MVgtbThCS1c5d3JqeFlfeU04V2tHYnJwdmZ4T3FPNVgtNXdVNjEzX0FOZmZiZTBBR1NWTVlHMUc?oc=5",
-      "source": "CMoney投資網誌",
-      "published": "2026-11-26T06:00+08:00",
+      "title": "AI股撐盤台股26日強勢反彈 欣興不到10分攻上漲停鎖住",
+      "url": "https://news.google.com/rss/articles/CBMizAJBVV95cUxOWUlUTUY5X0VsRndxVUk5VmlJY1B5Sndac1NQbC1UQWpGQW0wRGFDbzlFQWtqcFJRNkFMQ2J5Zm5FTXNJeEFxbDhHWHk1MlNiQjVweDZKZmgwYjhVYjdJYWx3a1lQTGNyZW95c0hYZEFmVjJ4dkVCSnBDTWxyRGsyV1p4WWxIOG1hYWY1UWlnQnJkRDcwQ2pxVFdCWFI3SVJVUkZyZWFFNFVOT2R1MVdYc2t3bTdDOUVNYm9CRmJFQjhYb2R6ZlpIR3BjN2oxcWlOMk9VbWVNUTVjMklpUVFROU5VQ2xfZzdncWxTWnp4LUV6ZTdCc3pLQzhqc2tJaVZKaGdjWGFXS2kwQk5mU2M3bU41b1ZUdkphX1pfQTczcjBoTl9UTS1zSEp0YzRRTTA2RzJBbklZeWJDWF9tSzJGaE5DcjZMQzJNZzJpcg?oc=5",
+      "source": "LIFE 生活網",
+      "published": "2026-11-26T11:56+08:00",
       "summary": "",
       "tags": []
     },
     {
-      "title": "道瓊工業指數收復跌幅，AI概念股下跌",
-      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOU1FDcHluY3pYVGZoR1Z3ZTVDRHZ5ZVpZcWxhUEFfWkFuMkxjT241Q3NyOG84YklhSXFxcnRzOVJmQlMwbWFoeUpFNG9Bb1huZUJLMThGUEkwME5YQmpOM1VJSTBGb2FTMHZQaFpGdzhrZHVjYXZnRnBZTlpfLXFQS19tWWQ3WHhFRGlWVTVENkE0am0zcXNFZzQ1SHhOdWllQmNzb3JjZTlfaW9qdzJmTG1JNlJvZktSLTktMFVKLWJmR1ptUEZWTnEybXRrUQ?oc=5",
-      "source": "www.tmgm.com",
-      "published": "2026-11-26T05:51+08:00",
-      "summary": "",
+      "title": "美301調查豁免清單 台股14廠快筆記",
+      "url": "https://tw.news.yahoo.com/%E7%BE%8E301%E8%AA%BF%E6%9F%A5%E8%B1%81%E5%85%8D%E6%B8%85%E5%96%AE-%E5%8F%B0%E8%82%A114%E5%BB%A0%E5%BF%AB%E7%AD%86%E8%A8%98-033800872.html",
+      "source": "Yahoo 股市",
+      "published": "2026-11-26T11:38+08:00",
+      "summary": "美國貿易代表署公布301條款調查結果，對台灣提出最高15%關稅方案並規劃豁免半導體、電腦與伺服器等科技產品，涵蓋台積電、鴻海等供應鏈。美方亦保留替代方案最高25%關稅。相關電源與散熱設備豁免設有民用航",
       "tags": []
     },
     {
-      "title": "〈台股盤前要聞〉匯市爆63.62億美元創第三大、鴻海印度子公司遭控欠款",
-      "url": "https://news.cnyes.com/news/id/6671817",
+      "title": "專家看盤》感恩節效應發酵！台股量能恐降溫 買盤回溫族群來了",
+      "url": "https://tw.news.yahoo.com/%E5%B0%88%E5%AE%B6%E7%9C%8B%E7%9B%A4-%E6%84%9F%E6%81%A9%E7%AF%80%E6%95%88%E6%87%89%E7%99%BC%E9%85%B5-%E5%8F%B0%E8%82%A1%E9%87%8F%E8%83%BD%E6%81%90%E9%99%8D%E6%BA%AB-%E8%B2%B7%E7%9B%A4%E5%9B%9E%E6%BA%AB%E6%97%8F%E7%BE%A4%E4%BE%86%E4%BA%86-032329098.html",
+      "source": "Yahoo 股市",
+      "published": "2026-11-26T11:23+08:00",
+      "summary": "[Newtalk新聞] 「台股今天(26日)預計量縮橫向盤整！受到美國關稅與升息疑慮影響，美股AI科技股持續疲弱，所幸尾盤跌幅快速收斂，台指期夜盤反而上漲274點。」分析師林漢偉表示，適逢美國感恩節假",
+      "tags": []
+    },
+    {
+      "title": "〈SemiAnalysis報告解析〉AI加速器需求與出貨預測大降！輝達受衝擊最大 博通相對抗跌",
+      "url": "https://news.cnyes.com/news/id/6672045",
       "source": "鉅亨網",
-      "published": "2026-11-26T05:10+08:00",
-      "summary": "台股盤前要聞 1.美國川普政府擬調高關稅利空衝擊，台灣金融市場25日上演股匯雙殺。台股在昨日大漲逾3300點後隨即變臉，終場重挫1926.92點收在38195.43點，外資單日狂賣1236.54億元。在熱錢大舉匯出壓力下， 新台幣 兌美元匯",
+      "published": "2026-11-26T11:20+08:00",
+      "summary": "SemiAnalysis大幅下修全球AI加速器需求、出貨量與資本支出預測，2030年支出估值較舊模型減少約40%。 下修主因是前沿AI實驗室營收成長放緩、資本市場融資轉緊，以及美國資料中心建設延後。 輝達受衝擊最大；博通相對抗跌，聯發科TP",
       "tags": []
     },
     {
-      "title": "焦點股／戴爾AI伺服器訂單再創高！鴻海、廣達、仁寶等卻一度摔跌停| 產經",
-      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBpX3VBOEZtOW9VdlZ1RVlPaUpWcEJsZGQweTAzWGJIYjVFN18yTnE5M0xWV1RGYjRRcVlMVWFvMDdLMTZLWTZ6X2U4QkpSTmFuSDVJa2FBVGpUdTk3X0x0WA?oc=5",
-      "source": "非凡新聞台",
-      "published": "2026-11-26T04:34+08:00",
-      "summary": "",
-      "tags": []
-    },
-    {
-      "title": "標題 : 黃仁勳回歸也救不了！「Jensen put」未能阻止AI概念股崩盤，市場風險加劇",
-      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQckRzVmpjbmdWX2dwOHNHaUNrNUYtOG81cUo0T0NJRHA1eDFnQ002RlVqTTF0TTFxdGFrcDZWbTBacUdlS1ZvX3htRy1HVVN3YnVMUXg5X0JkcWtDd0dmRzlHM2ZJOC1mSWtNT0ZaLW5hV2VxVm5zZ3hMaDFmZTRmWEJuZGRwQ05BN3pRTEJ3?oc=5",
-      "source": "CMoney投資網誌",
-      "published": "2026-11-26T03:37+08:00",
-      "summary": "",
-      "tags": []
-    },
-    {
-      "title": "大跌大買 台股ETF受益人連6周創高",
-      "url": "https://tw.news.yahoo.com/%E5%A4%A7%E8%B7%8C%E5%A4%A7%E8%B2%B7-%E5%8F%B0%E8%82%A1etf%E5%8F%97%E7%9B%8A%E4%BA%BA%E9%80%A36%E5%91%A8%E5%89%B5%E9%AB%98-192850711.html",
+      "title": "明年AI趨勢不變，先進封裝成必備，台積電佔比最高、日月光集團最受益",
+      "url": "https://tw.stock.yahoo.com/news/%E6%98%8E%E5%B9%B4ai%E8%B6%A8%E5%8B%A2%E4%B8%8D%E8%AE%8A-%E5%85%88%E9%80%B2%E5%B0%81%E8%A3%9D%E6%88%90%E5%BF%85%E5%82%99-%E5%8F%B0%E7%A9%8D%E9%9B%BB%E4%BD%94%E6%AF%94%E6%9C%80%E9%AB%98-%E6%97%A5%E6%9C%88%E5%85%89%E9%9B%86%E5%9C%98%E6%9C%80%E5%8F%97%E7%9B%8A-031208597.html",
       "source": "Yahoo 股市",
-      "published": "2026-11-26T03:28+08:00",
-      "summary": "【記者柯安聰台北報導】受美股科技股全面重挫、費城半導體指數大跌影響，加上市場對AI投資回報、輝達管理層異動及美國科技出口管制的疑慮持續升溫，投資人信心再度潰散，上週大盤大跌7641.83點，刷新史上最",
+      "published": "2026-11-26T11:12+08:00",
+      "summary": "【財訊快報／記者李純君報導】雖然近期因為美國政治局勢、AI教父黃仁勳去職又回鍋、CSP業者AI投資能否回收等議題，引爆市場上對AI前景的質疑，然，從訓練模型到推論模式、從雲端到地端，AI發展趨勢路徑不",
       "tags": []
     },
     {
-      "title": "【即時新聞】麥當勞(MCD)抗跌發威！美股AI股殺盤之際，這4檔低波動概念股逆勢突圍",
-      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOZVhpdnRaVmpicEZoVjkxbkFNU1VTc0w5N1pZQzRQUjRlRGRudHA4Z19JaF93eXk1Nks1UzJNV1NtZXRQcG5JalY0ei1QMy1ZdV9SajhIS05FVUxDeWVxZVhmQWlpQW1ZZ2djTmF2VWt4TnJ6THFHX1VrcFpBbVQzTE92c2ltVmhEd2lKTGlsNFg?oc=5",
-      "source": "CMoney投資網誌",
-      "published": "2026-11-26T02:50+08:00",
-      "summary": "",
+      "title": "〈焦點股〉SpaceX獲准部署百萬顆衛星 啟碁、兆赫、友訊強攻漲停領軍網通族群",
+      "url": "https://news.cnyes.com/news/id/6672049",
+      "source": "鉅亨網",
+      "published": "2026-11-26T11:11+08:00",
+      "summary": "FCC有條件核准SpaceX發射最多100萬顆衛星建太空資料中心網路，台股低軌衛星與網通族群今全面走揚 啟碁前三季EPS 10.1元、10月營收169億元創新高；友訊打入SpaceX供應鏈，供星鏈專用交換機約2萬台 法人看好2027年低軌衛",
+      "tags": []
+    },
+    {
+      "title": "AI債信警訊響起！CoreWeave違約率飆68%、通膨升溫，台股止穩必看「兩大關鍵指標」",
+      "url": "https://news.cnyes.com/news/id/6672042",
+      "source": "鉅亨網",
+      "published": "2026-11-26T10:50+08:00",
+      "summary": "標普500上週跌8.6%，今年高點回檔11.9%；那指跌18.4%、費半跌42.6%。 文中指AI股修正主因是美國中期選舉、限制中國AI算力新規與黃仁勳離職疑慮。 市場續憂AI債務，CoreWeave與甲骨文CDS創高；費半與新台幣走勢被視",
+      "tags": []
+    },
+    {
+      "title": "高階運算晶片封裝明年台積電主導！ CoWoS外溢OSAT需求增5.5倍",
+      "url": "https://tw.news.yahoo.com/%E9%AB%98%E9%9A%8E%E9%81%8B%E7%AE%97%E6%99%B6%E7%89%87%E5%B0%81%E8%A3%9D%E6%98%8E%E5%B9%B4%E5%8F%B0%E7%A9%8D%E9%9B%BB%E4%B8%BB%E5%B0%8E-cowos%E5%A4%96%E6%BA%A2osat%E9%9C%80%E6%B1%82%E5%A2%9E5-5%E5%80%8D-024342834.html",
+      "source": "Yahoo 股市",
+      "published": "2026-11-26T10:43+08:00",
+      "summary": "DIGITIMES最新研究指出，台積電將主導2027年高階雲端AI加速器封裝市場。DIGITIMES預估，2027年全球高階雲端AI加速器出貨量將達2,600萬顆，其中85.8%採用台積電封裝，CoW",
+      "tags": []
+    },
+    {
+      "title": "台積電CoWoS產能滿載 研調：日月光、艾克爾料受惠",
+      "url": "https://tw.stock.yahoo.com/news/%E5%8F%B0%E7%A9%8D%E9%9B%BBcowos%E7%94%A2%E8%83%BD%E6%BB%BF%E8%BC%89-%E7%A0%94%E8%AA%BF-%E6%97%A5%E6%9C%88%E5%85%89-%E8%89%BE%E5%85%8B%E7%88%BE%E6%96%99%E5%8F%97%E6%83%A0-024200392.html",
+      "source": "Yahoo 股市",
+      "published": "2026-11-26T10:42+08:00",
+      "summary": "MoneyDJ新聞 2026-11-26 10:42:45 新聞中心 發佈根據DIGITIMES最新研究指出，台積電(2330)將主導2027年高階雲端AI加速器封裝市場。DIGITIMES預估，20",
+      "tags": []
+    },
+    {
+      "title": "台股今反攻11強領漲 但1風險週五必看",
+      "url": "https://tw.news.yahoo.com/%E5%8F%B0%E8%82%A1%E4%BB%8A%E5%8F%8D%E6%94%BB11%E5%BC%B7%E9%A0%98%E6%BC%B2-%E4%BD%861%E9%A2%A8%E9%9A%AA%E9%80%B1%E4%BA%94%E5%BF%85%E7%9C%8B-023900944.html",
+      "source": "Yahoo 股市",
+      "published": "2026-11-26T10:39+08:00",
+      "summary": "受美股震盪與川普關稅不確定性降低激勵，台股今（26）日開盤跌深反彈，加權指數大漲逾240點。電子權值股重啟多頭，大立光亮燈漲停，鴻海、聯發科等同步走揚；此外，受惠SpaceX獲准部署百萬顆AI衛星，低",
       "tags": []
     }
   ]
