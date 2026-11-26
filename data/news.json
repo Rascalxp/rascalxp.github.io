@@ -1,9 +1,33 @@
 {
-  "updated": "2026-11-26T20:10:52+08:00",
+  "updated": "2026-11-26T21:46:51+08:00",
   "ai_summary": false,
   "model": null,
-  "candidates_sig": "4a668020876a73eb0033f7cb4dbf179c1c444245",
+  "candidates_sig": "886973325650dce9dd3a9836e02bcf2c9865e72d",
   "items": [
+    {
+      "title": "輝達於印度推RTX Spark新平台 攜手台廠搶攻AI PC",
+      "url": "https://tw.stock.yahoo.com/news/%E8%BC%9D%E9%81%94%E6%96%BC%E5%8D%B0%E5%BA%A6%E6%8E%A8rtx-spark%E6%96%B0%E5%B9%B3%E5%8F%B0-%E6%94%9C%E6%89%8B%E5%8F%B0%E5%BB%A0%E6%90%B6%E6%94%BBai-pc-125152549.html",
+      "source": "Yahoo 股市",
+      "published": "2026-11-26T20:51+08:00",
+      "summary": "圖／示意圖商傳媒｜何映辰／台北報導美國晶片巨擘輝達（NVIDIA）日前在印度舉辦「RTX Spark Experience」體驗活動，正式向當地創作者與開發者展示專為便攜型 Windows PC 設計",
+      "tags": []
+    },
+    {
+      "title": "〈華南金法說〉央行不排除年底前升息！蕭玉美看AI與出口支撐動能 台幣震盪偏升",
+      "url": "https://news.cnyes.com/news/id/6673210",
+      "source": "鉅亨網",
+      "published": "2026-11-26T20:21+08:00",
+      "summary": "華南金估明年台灣經濟成長率5.82%，受AI產業、出口與投資需求續強帶動。 蕭玉美指美國聯準會今年底至明年第1季仍有升息空間，台灣央行年底前亦不排除升息。 台幣料區間震盪偏升；華南銀台債3600億、外債4600億，利率風險可控。",
+      "tags": []
+    },
+    {
+      "title": "施振榮：台灣可攜手國際引領AI智慧化",
+      "url": "https://tw.stock.yahoo.com/news/%E6%96%BD%E6%8C%AF%E6%A6%AE-%E5%8F%B0%E7%81%A3%E5%8F%AF%E6%94%9C%E6%89%8B%E5%9C%8B%E9%9A%9B%E5%BC%95%E9%A0%98ai%E6%99%BA%E6%85%A7%E5%8C%96-121210951.html",
+      "source": "Yahoo 股市",
+      "published": "2026-11-26T20:12+08:00",
+      "summary": "（中央社記者吳家豪台北2026年11月26日電）宏碁(2353)集團創辦人施振榮今天指出，他日前在APEC領袖會議中強調台灣的晶片與伺服器在全球人工智慧（AI）基礎建設中扮演關鍵角色，展望下一步，他呼",
+      "tags": []
+    },
     {
       "title": "00981A漲停也能出事？驚爆1.03億違約交割 網猜：放空被軋到鎖死",
       "url": "https://tw.stock.yahoo.com/news/00981a%E6%BC%B2%E5%81%9C%E4%B9%9F%E8%83%BD%E5%87%BA%E4%BA%8B%EF%BC%9F%E9%A9%9A%E7%88%86103%E5%84%84%E9%81%95%E7%B4%84%E4%BA%A4%E5%89%B2-%E7%B6%B2%E7%8C%9C%EF%BC%9A%E6%94%BE%E7%A9%BA%E8%A2%AB%E8%BB%8B%E5%88%B0%E9%8E%96%E6%AD%BB-120211830.html",
@@ -13,11 +37,19 @@
       "tags": []
     },
     {
-      "title": "侯永清：3D堆疊促AI快速發展 盧超群20年前即提出",
-      "url": "https://tw.stock.yahoo.com/news/%E4%BE%AF%E6%B0%B8%E6%B8%85-3d%E5%A0%86%E7%96%8A%E4%BF%83ai%E5%BF%AB%E9%80%9F%E7%99%BC%E5%B1%95-%E7%9B%A7%E8%B6%85%E7%BE%A420%E5%B9%B4%E5%89%8D%E5%8D%B3%E6%8F%90%E5%87%BA-114031082.html",
+      "title": "盧超群：台灣可整合資源切入中型邊緣資料中心",
+      "url": "https://tw.stock.yahoo.com/news/%E7%9B%A7%E8%B6%85%E7%BE%A4-%E5%8F%B0%E7%81%A3%E5%8F%AF%E6%95%B4%E5%90%88%E8%B3%87%E6%BA%90%E5%88%87%E5%85%A5%E4%B8%AD%E5%9E%8B%E9%82%8A%E7%B7%A3%E8%B3%87%E6%96%99%E4%B8%AD%E5%BF%83-115100563.html",
       "source": "Yahoo 股市",
-      "published": "2026-11-26T19:40+08:00",
-      "summary": "（中央社記者張建中新竹2026年11月26日電）台積電資深副總經理暨副共同營運長侯永清今天出席盧超群名譽博士頒授典禮，表示盧超群是半導體產業的先驅，20年前就提出異質整合、3D堆疊，今天產業界終於追上",
+      "published": "2026-11-26T19:51+08:00",
+      "summary": "MoneyDJ新聞 2026-11-26 19:51:14 周佩宇 發佈鈺創(5351)董事長盧超群(附圖)今(26)日獲頒陽明交通大學名譽工學博士，演講中以輝達（NVIDIA）B200到Vera R",
+      "tags": []
+    },
+    {
+      "title": "健策三片式均熱片明年量產，多家客戶導入",
+      "url": "https://tw.stock.yahoo.com/news/%E5%81%A5%E7%AD%96%E4%B8%89%E7%89%87%E5%BC%8F%E5%9D%87%E7%86%B1%E7%89%87%E6%98%8E%E5%B9%B4%E9%87%8F%E7%94%A2-%E5%A4%9A%E5%AE%B6%E5%AE%A2%E6%88%B6%E5%B0%8E%E5%85%A5-115100815.html",
+      "source": "Yahoo 股市",
+      "published": "2026-11-26T19:51+08:00",
+      "summary": "MoneyDJ新聞 2026-11-26 19:51:19 周佩宇 發佈散熱廠健策(3653)26日舉行法說會，公司表示，三片式均熱片已進入備料階段，預計明(2027)年量產，首年將有多家客戶導入，未",
       "tags": []
     },
     {
@@ -50,38 +82,6 @@
       "source": "鉅亨網",
       "published": "2026-11-26T18:45+08:00",
       "summary": "遠東商銀(2845-TW)今(26)日舉行第三季法說會，總經理林建忠指出，進駐亞資中心高雄專區案預計今年底獲准、明(2027)年1月8日正式開業，將進一步推展高資產與家族辦公室業務。AI 轉型方面，全行 127 項提案中 88 項為 AI ",
-      "tags": []
-    },
-    {
-      "title": "英柏得明年營運拚續創高；看好工業機器人儲存商機",
-      "url": "https://tw.stock.yahoo.com/news/%E8%8B%B1%E6%9F%8F%E5%BE%97%E6%98%8E%E5%B9%B4%E7%87%9F%E9%81%8B%E6%8B%9A%E7%BA%8C%E5%89%B5%E9%AB%98-%E7%9C%8B%E5%A5%BD%E5%B7%A5%E6%A5%AD%E6%A9%9F%E5%99%A8%E4%BA%BA%E5%84%B2%E5%AD%98%E5%95%86%E6%A9%9F-103700764.html",
-      "source": "Yahoo 股市",
-      "published": "2026-11-26T18:37+08:00",
-      "summary": "MoneyDJ新聞 2026-11-26 18:37:32 周佩宇 發佈工業級儲存裝置廠英柏得(7843)預計12月中旬轉上市，今(26)日舉行上市前媒體茶敘，公司表示，看好明(2027)年營運維持兩",
-      "tags": []
-    },
-    {
-      "title": "2027台北自行車展以「信任驅動未來」為主題 11/26參觀預先登記開跑",
-      "url": "https://news.cnyes.com/news/id/6673073",
-      "source": "鉅亨網",
-      "published": "2026-11-26T18:35+08:00",
-      "summary": "全球自行車產業正面臨市場轉型、智慧科技與永續發展等多重挑戰，深化國際合作，成為產業關注焦點，由貿協主辦的「台北國際自行車展(TAIPEI CYCLE 2027)」將於明(2027)年3月24至27日在南港展覽館登場，此次以「信任驅動未來」為",
-      "tags": []
-    },
-    {
-      "title": "【即時新聞】艾司摩爾(ASML)等AI概念股強勢反彈，泛歐指數上漲1.50%化解估值擔憂",
-      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPVUJwSWdaMEdXcTVIaTd6M3lpWXZpZFFwSk8wd0Jqa0h3V1Nya29qbkZlcS1CbUVOMzNaWkxKT2NjYTJnOHZlYlYtR0JqR1AtLTc2d2FWZnJ2TzlQVURUUVlaNGUtbFBQcVNYcTRzSVQyaFpGdGc4Ny1iWThLMFVuWXdnclVNa0RJMFhRQ3l4SXo?oc=5",
-      "source": "CMoney投資網誌",
-      "published": "2026-11-26T17:54+08:00",
-      "summary": "",
-      "tags": []
-    },
-    {
-      "title": "大盤反攻號角響起！重磅數據＋科技展倒數下波主角鎖定誰？",
-      "url": "https://news.cnyes.com/news/id/6673002",
-      "source": "鉅亨網",
-      "published": "2026-11-26T17:44+08:00",
-      "summary": "台股反彈956.38點收39151.81點，成交8174.68億，站穩五日線 外資賣超491.81億連賣9日；投信、自營商轉買，AI與權值股撐盤 12月聚焦輝達GTC、Cybercab展示；看好AI基建、先進製程供應鏈",
       "tags": []
     }
   ]
