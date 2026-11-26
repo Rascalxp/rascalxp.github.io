@@ -1,87 +1,87 @@
 {
-  "updated": "2026-11-26T12:56:28+08:00",
+  "updated": "2026-11-26T15:01:40+08:00",
   "ai_summary": false,
   "model": null,
-  "candidates_sig": "8c138627b690df73a492c5904e245309fd38b7fb",
+  "candidates_sig": "bb6073c3d885726d76aeb5bf24826c117656d174",
   "items": [
     {
-      "title": "今年績效勝過89%同業！這家亞洲基金提前減碼科技股、轉抱防禦股",
-      "url": "https://news.cnyes.com/news/id/6671897",
+      "title": "AI趨勢擋不住！穎崴拚明年底產能2,400萬支/月，未來幾年續擴廠",
+      "url": "https://tw.stock.yahoo.com/news/ai%E8%B6%A8%E5%8B%A2%E6%93%8B%E4%B8%8D%E4%BD%8F-%E7%A9%8E%E5%B4%B4%E6%8B%9A%E6%98%8E%E5%B9%B4%E5%BA%95%E7%94%A2%E8%83%BD2-400%E8%90%AC%E6%94%AF-%E6%9C%88-%E6%9C%AA%E4%BE%86%E5%B9%BE%E5%B9%B4%E7%BA%8C%E6%93%B4%E5%BB%A0-065643743.html",
+      "source": "Yahoo 股市",
+      "published": "2026-11-26T14:56+08:00",
+      "summary": "【財訊快報／記者李純君報導】受股市大跌影響，近期市場上對於AI前景有疑慮，半導體測試基座龍頭穎崴(6515)董事長王嘉煌透露，從訂單來看明年沒有問題，且依據客戶提供的預估，明年需求確定比今年更多，穎崴",
+      "tags": []
+    },
+    {
+      "title": "朋程拚ULLD升級與48V回溫，佈局SiC與IGBT搶攻AI高壓及工控商機",
+      "url": "https://tw.stock.yahoo.com/news/%E6%9C%8B%E7%A8%8B%E6%8B%9Aulld%E5%8D%87%E7%B4%9A%E8%88%8748v%E5%9B%9E%E6%BA%AB-%E4%BD%88%E5%B1%80sic%E8%88%87igbt%E6%90%B6%E6%94%BBai%E9%AB%98%E5%A3%93%E5%8F%8A%E5%B7%A5%E6%8E%A7%E5%95%86%E6%A9%9F-063034363.html",
+      "source": "Yahoo 股市",
+      "published": "2026-11-26T14:30+08:00",
+      "summary": "【財訊快報／記者張家瑋報導】雖然傳統燃油車需求持續趨緩，車用整流二極體廠朋程(8255)經歷2026年策略調整，明年將以產品組合升級與新業務布局為核心成長動能，其中IGBT於數位相機應用及碳化矽（Si",
+      "tags": []
+    },
+    {
+      "title": "美股修正藏買進良機！外媒點名「3檔AI概念股」台積電榜上有名 現在還是甜甜價",
+      "url": "https://tw.stock.yahoo.com/news/%E7%BE%8E%E8%82%A1%E4%BF%AE%E6%AD%A3%E8%97%8F%E8%B2%B7%E9%80%B2%E8%89%AF%E6%A9%9F-%E5%A4%96%E5%AA%92%E9%BB%9E%E5%90%8D-3%E6%AA%94ai%E6%A6%82%E5%BF%B5%E8%82%A1-%E5%8F%B0%E7%A9%8D%E9%9B%BB%E6%A6%9C%E4%B8%8A%E6%9C%89%E5%90%8D-%E7%8F%BE%E5%9C%A8%E9%82%84%E6%98%AF%E7%94%9C%E7%94%9C%E5%83%B9-063000299.html",
+      "source": "Yahoo 股市",
+      "published": "2026-11-26T14:30+08:00",
+      "summary": "[FTNN新聞網]實習記者林子云／綜合報導近期美股波動加劇，科技股修正幅度尤為明顯。《TheMotleyFool》25日分析指出，若股市進一步出現崩盤走勢，具備穩固市場...",
+      "tags": []
+    },
+    {
+      "title": "魏哲家領軍台積電AZ廠擴建典禮 川普將出席!",
+      "url": "https://tw.stock.yahoo.com/news/%E9%AD%8F%E5%93%B2%E5%AE%B6%E9%A0%98%E8%BB%8D%E5%8F%B0%E7%A9%8D%E9%9B%BBaz%E5%BB%A0%E6%93%B4%E5%BB%BA%E5%85%B8%E7%A6%AE-%E5%B7%9D%E6%99%AE%E5%B0%87%E5%87%BA%E5%B8%AD-062107151.html",
+      "source": "Yahoo 股市",
+      "published": "2026-11-26T14:21+08:00",
+      "summary": "[非凡新聞]記者洪芷茵,攝影陳昱志《彭博社》報導，美國總統川普將出席台積電亞利桑那州鳳凰城廠區的擴建典禮，顯示台積電在美國半導體產業政策及AI供應鏈的關鍵戰略地位。而台積電加快美國擴產之際，先進封裝客",
+      "tags": []
+    },
+    {
+      "title": "族群全面反攻，台股強彈956點、櫃買大漲逾5%",
+      "url": "https://tw.stock.yahoo.com/news/%E6%97%8F%E7%BE%A4%E5%85%A8%E9%9D%A2%E5%8F%8D%E6%94%BB-%E5%8F%B0%E8%82%A1%E5%BC%B7%E5%BD%88956%E9%BB%9E-%E6%AB%83%E8%B2%B7%E5%A4%A7%E6%BC%B2%E9%80%BE5-061855381.html",
+      "source": "Yahoo 股市",
+      "published": "2026-11-26T14:18+08:00",
+      "summary": "【財訊快報／黃冠豪】美股週三劇烈震盪，輝達(NVDA)下跌3.91%至149.30美元，台積電ADR下跌近2%，收在342.34美元，但道瓊尾盤收復千點跌幅、翻紅作收，台指期夜盤反彈274點。亞股週四",
+      "tags": []
+    },
+    {
+      "title": "【盤後焦點】台股收漲956點站回39000點 法人：短線年線震盪",
+      "url": "https://tw.stock.yahoo.com/news/%E7%9B%A4%E5%BE%8C%E7%84%A6%E9%BB%9E-%E5%8F%B0%E8%82%A1%E6%94%B6%E6%BC%B2956%E9%BB%9E%E7%AB%99%E5%9B%9E39000%E9%BB%9E-%E6%B3%95%E4%BA%BA-%E7%9F%AD%E7%B7%9A%E5%B9%B4%E7%B7%9A%E9%9C%87%E7%9B%AA-061548344.html",
+      "source": "Yahoo 股市",
+      "published": "2026-11-26T14:15+08:00",
+      "summary": "（中央社記者吳家豪台北2026年11月26日電）美國301條款調查結果緩解市場疑慮，台股今天由電子股領軍反攻，盤中上攻39459.95點、大漲1264.52點，載板、印刷電路板（PCB）及散熱族群跌深",
+      "tags": []
+    },
+    {
+      "title": "台股收漲956點站回39000點 法人：短線年線震盪",
+      "url": "https://tw.news.yahoo.com/%E5%8F%B0%E8%82%A1%E6%94%B6%E6%BC%B2956%E9%BB%9E%E7%AB%99%E5%9B%9E39000%E9%BB%9E-%E6%B3%95%E4%BA%BA-%E7%9F%AD%E7%B7%9A%E5%B9%B4%E7%B7%9A%E9%9C%87%E7%9B%AA-061303633.html",
+      "source": "Yahoo 股市",
+      "published": "2026-11-26T14:13+08:00",
+      "summary": "（中央社記者吳家豪台北26日電）美國301條款調查結果緩解市場疑慮，台股今天由電子股領軍反攻，盤中上攻39459.95點、大漲1264.52點，載板、印刷電路板（PCB）及散熱族群跌深反彈；終場指數收",
+      "tags": []
+    },
+    {
+      "title": "〈台股盤後〉電子族群強勢反彈帶動收漲近千點 護盤指標股台積電收小跌",
+      "url": "https://news.cnyes.com/news/id/6672829",
       "source": "鉅亨網",
-      "published": "2026-11-26T12:50+08:00",
-      "summary": "木星亞洲收益基金今年報酬近25%，擊敗89%同業，關鍵在AI熱潮降溫前先降科技曝險。 基金轉向澳洲、新加坡等高殖利率防禦股，前三大持股為台積電、三星電子、聯發科。 Konrad看好新加坡、澳洲、南韓、台灣與印度，並認為AI長期仍有上漲空間。",
+      "published": "2026-11-26T14:09+08:00",
+      "summary": "台股今早盤由電子股領軍反彈，終場大漲956.38點至39151.81點，成交值8174.68億元。 LEO、散熱、被動元件與記憶體走強，華通、昇達科受LEO大量部署激勵先攻漲停。 台積電終場小跌5元收2145元，國安基金與限空令支撐；簡伯儀",
       "tags": []
     },
     {
-      "title": "施羅德在台首檔ETF 00419A掛牌 首日迎蜜月行情漲逾6%",
-      "url": "https://tw.stock.yahoo.com/news/%E6%96%BD%E7%BE%85%E5%BE%B7%E5%9C%A8%E5%8F%B0%E9%A6%96%E6%AA%94etf-00419a%E6%8E%9B%E7%89%8C-%E9%A6%96%E6%97%A5%E8%BF%8E%E8%9C%9C%E6%9C%88%E8%A1%8C%E6%83%85%E6%BC%B2%E9%80%BE6-044113389.html",
-      "source": "Yahoo 股市",
-      "published": "2026-11-26T12:40+08:00",
-      "summary": "台灣主動式ETF再添生力軍！施羅德投信看好AI投資的長線機會，在台首檔主動式ETF 施羅德AI科技台股主動式ETF（00419A）今（26）日正式掛牌。00419A掛牌首日便遇上台股大漲千點，自身也上",
+      "title": "科技股修正後還有機會？野村投信解析2027台股布局方向 「台股基金老字號」以研究實力掌握產業新局",
+      "url": "https://news.cnyes.com/news/id/6671284",
+      "source": "鉅亨網",
+      "published": "2026-11-26T14:06+08:00",
+      "summary": "野村投信看2027年全球經濟續成長、台灣出口與企業盈餘仍有支撐，台股宜聚焦半導體、電源散熱、高速傳輸供應鏈 姚郁如稱AI需求擴至推論與代理型AI，雲端業者2027年資本支出估近1.8兆美元，供電不足仍是資料中心進度變數",
       "tags": []
     },
     {
-      "title": "外媒揭中國帳號用AI影像攻擊台灣選舉候選人",
-      "url": "https://tw.news.yahoo.com/%E5%A4%96%E5%AA%92%E6%8F%AD%E4%B8%AD%E5%9C%8B%E5%B8%B3%E8%99%9F%E7%94%A8ai%E5%BD%B1%E5%83%8F%E6%94%BB%E6%93%8A%E5%8F%B0%E7%81%A3%E9%81%B8%E8%88%89%E5%80%99%E9%81%B8%E4%BA%BA-043850019.html",
-      "source": "Yahoo 股市",
-      "published": "2026-11-26T12:38+08:00",
-      "summary": "[NOWNEWS今日新聞]2026九合一選舉將至，社群平台Threads以及臉書、X上，大量匿名無頭貼或AI頭貼的假帳號，到處散布台灣政治人物假照片和假影片，甚至製作深偽桃色影片，試圖操作議題，企圖令",
-      "tags": []
-    },
-    {
-      "title": "【12:38 即時新聞】緯創(3231)亮燈漲停，AI伺服器題材成盤中焦點",
-      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOMnNQZ2o0MGFiSHlqSEp6VlRzS2NSeWpzWGcwNWU1Y0RDMWNuMHlqR3Ewc2s4bGdmSm5KWFVOVVN6MGN4Znlyb0haN1pCeTc0NUsxSzZ5MUFCTXo0UDVwWUd6WVNCNDlOSDBuS19kUnpwTmFydnBHVl9CbnotZm9tOGQtTmJGaGFHcHU1OGF3?oc=5",
-      "source": "CMoney投資網誌",
-      "published": "2026-11-26T12:38+08:00",
-      "summary": "",
-      "tags": []
-    },
-    {
-      "title": "看好台股明年續強！中信投顧總座：農曆年後上看5萬點",
-      "url": "https://tw.stock.yahoo.com/news/%E7%9C%8B%E5%A5%BD%E5%8F%B0%E8%82%A1%E6%98%8E%E5%B9%B4%E7%BA%8C%E5%BC%B7-%E4%B8%AD%E4%BF%A1%E6%8A%95%E9%A1%A7%E7%B8%BD%E5%BA%A7-%E8%BE%B2%E6%9B%86%E5%B9%B4%E5%BE%8C%E4%B8%8A%E7%9C%8B5%E8%90%AC%E9%BB%9E-043500253.html",
-      "source": "Yahoo 股市",
-      "published": "2026-11-26T12:35+08:00",
-      "summary": "受到黃仁勳回歸及美國再祭出301關稅等消息影響，台股近日宛如「大怒神」般震盪，中國信託證券投顧總經理陳柏州表示，台股目前經歷高檔震盪，預計年底前有機會蓄勢反彈至46000點以上，2027年全年則有望穩",
-      "tags": []
-    },
-    {
-      "title": "AI推升晶片投資布局 川普將出席台積電亞利桑那州新廠動土典禮",
-      "url": "https://tw.stock.yahoo.com/news/ai%E6%8E%A8%E5%8D%87%E6%99%B6%E7%89%87%E6%8A%95%E8%B3%87%E5%B8%83%E5%B1%80-%E5%B7%9D%E6%99%AE%E5%B0%87%E5%87%BA%E5%B8%AD%E5%8F%B0%E7%A9%8D%E9%9B%BB%E4%BA%9E%E5%88%A9%E6%A1%91%E9%82%A3%E5%B7%9E%E6%96%B0%E5%BB%A0%E5%8B%95%E5%9C%9F%E5%85%B8%E7%A6%AE-042300540.html",
-      "source": "Yahoo 股市",
-      "published": "2026-11-26T12:23+08:00",
-      "summary": "（中央社華盛頓2026年11月25日綜合外電報導）白宮與台積電雙雙證實，將經濟政策寄望於人工智慧（AI）產業成長的美國總統川普，將於12月4日前往亞利桑那州，在台積電新晶圓廠的動土典禮發表演說。美聯社",
-      "tags": []
-    },
-    {
-      "title": "SpaceX獲准部署百萬顆衛星「建太空資料中心」！台廠供應鏈4檔股攻漲停",
-      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFA2Q1dVN3c0RlFiVXJOYVFnUU0wRkd6TmZia2JvWjVEUjktWFVnX1RGcFByV1l2T3g2SV9tTF92b080NFhwLUVWc3dMUkhWLVZNa0o4NmFRSkJpM1VKdVluQ2hBMTFJdmFXZjVGQUZxbVVrZkY5eGxBaWd5LWo?oc=5",
-      "source": "加密城市CryptoCity",
-      "published": "2026-11-26T12:22+08:00",
-      "summary": "",
-      "tags": []
-    },
-    {
-      "title": "【12:14 即時新聞】勤誠(8210)盤中走強，AI伺服器機殼題材再受關注",
-      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPU0hGSWl6TnVvV2dRMnVpXzlaTGNfLTBKaTNOdzh4N0NPRldXX0tqSFRVQm5MOXJvcUZfdnViaU1oOXZ0THBjR25RRDBtLVkwT2ZhVk5fUWJEdi1RLTZfT2lSWXFxZWZjTllwZ2tHMW5SNzdzTmktWWRUYjc4dWxiOHhydFRRNDVFTUQ2eHJn?oc=5",
-      "source": "CMoney投資網誌",
-      "published": "2026-11-26T12:14+08:00",
-      "summary": "",
-      "tags": []
-    },
-    {
-      "title": "麗臺AI業務升空，獲高盛大啖逾5%股權，大訊也通吃私募全餐",
-      "url": "https://tw.stock.yahoo.com/news/%E9%BA%97%E8%87%BAai%E6%A5%AD%E5%8B%99%E5%8D%87%E7%A9%BA-%E7%8D%B2%E9%AB%98%E7%9B%9B%E5%A4%A7%E5%95%96%E9%80%BE5-%E8%82%A1%E6%AC%8A-%E5%A4%A7%E8%A8%8A%E4%B9%9F%E9%80%9A%E5%90%83%E7%A7%81%E5%8B%9F%E5%85%A8%E9%A4%90-041451035.html",
-      "source": "Yahoo 股市",
-      "published": "2026-11-26T12:14+08:00",
-      "summary": "【財訊快報／記者王宜弘報導】顯卡暨AI解決方案供應商麗臺(2465)強勁的成長展望獲得國際重量級投資機構青睞！根據公告，美國投資銀行高盛(GOLDMAN SACHS)今年自5月以來陸續收購麗臺股票，至",
-      "tags": []
-    },
-    {
-      "title": "佳世達旗下凱圖發表IQMR平台，導入棒球AI分析攻精準復能商機",
-      "url": "https://tw.stock.yahoo.com/news/%E4%BD%B3%E4%B8%96%E9%81%94%E6%97%97%E4%B8%8B%E5%87%B1%E5%9C%96%E7%99%BC%E8%A1%A8iqmr%E5%B9%B3%E5%8F%B0-%E5%B0%8E%E5%85%A5%E6%A3%92%E7%90%83ai%E5%88%86%E6%9E%90%E6%94%BB%E7%B2%BE%E6%BA%96%E5%BE%A9%E8%83%BD%E5%95%86%E6%A9%9F-040200874.html",
-      "source": "Yahoo 股市",
-      "published": "2026-11-26T12:02+08:00",
-      "summary": "【財訊快報／記者張家瑋報導】佳世達集團(2352)持續深化「AI醫療與健康照護」布局，旗下凱圖國際將於2026台灣醫療科技展中，首度展示AI運動醫學平台（IQMR）。該平台全面整合基礎體適能、復健訓練",
+      "title": "亞洲首發！施羅德00419A聚焦半導體與AI基建今上市 證交所掛牌衝245檔",
+      "url": "https://news.cnyes.com/news/id/6672692",
+      "source": "鉅亨網",
+      "published": "2026-11-26T14:04+08:00",
+      "summary": "施羅德投信首檔主動式ETF「主動施羅德AI台股」今在證交所掛牌，成為施羅德在亞洲首發的主動式ETF。 證交所表示，台灣ETF總數達245檔主動式ETF增至40檔；施羅德在台管理資產逾6千億元。 看好台灣AI供應鏈與主動選股價值，估00419",
       "tags": []
     }
   ]
