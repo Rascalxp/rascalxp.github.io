@@ -1,9 +1,25 @@
 {
-  "updated": "2026-11-28T02:22:08+08:00",
+  "updated": "2026-11-28T05:07:49+08:00",
   "ai_summary": false,
   "model": null,
-  "candidates_sig": "9d8710db9914f132acd9f1c58b10f8bd1aaeff47",
+  "candidates_sig": "9e72ed368255b5389e8a1ba188f5c4ae9b78aaee",
   "items": [
+    {
+      "title": "10月景氣燈號連11紅 創史上最長熱絡紀錄",
+      "url": "https://tw.news.yahoo.com/10%E6%9C%88%E6%99%AF%E6%B0%A3%E7%87%88%E8%99%9F%E9%80%A311%E7%B4%85-%E5%89%B5%E5%8F%B2%E4%B8%8A%E6%9C%80%E9%95%B7%E7%86%B1%E7%B5%A1%E7%B4%80%E9%8C%84-193741171.html",
+      "source": "Yahoo 股市",
+      "published": "2026-11-28T03:37+08:00",
+      "summary": "AI應用深化將挹注台灣相關供應鏈出口，支撐國內景氣連亮11個紅燈(圖/pexels)",
+      "tags": []
+    },
+    {
+      "title": "華爾街急彈！AI 概念股反攻帶動三大指數周線收紅，費半、記憶體股回神",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNQmxyZmg3RmpZQk1McmRCODExNzMxek9IRjZsOExDODY0cUhOZ0k2d3Fxd0l0bE1keU5kWUFWdFotVVF6VFYzaTJuQVJhazdCeFYzRHhMZGpzMFE0b3pRYmcxOXdkTWdFRWpHc1h0WEJ1bnJkLUk5Q0VfT3ljLTF0V3dKc2JEWFRqSVRLczZn?oc=5",
+      "source": "CMoney投資網誌",
+      "published": "2026-11-28T03:08+08:00",
+      "summary": "",
+      "tags": []
+    },
     {
       "title": "觀望氣氛濃厚 台股短線有壓待AI重整",
       "url": "https://tw.news.yahoo.com/%E8%A7%80%E6%9C%9B%E6%B0%A3%E6%B0%9B%E6%BF%83%E5%8E%9A-%E5%8F%B0%E8%82%A1%E7%9F%AD%E7%B7%9A%E6%9C%89%E5%A3%93%E5%BE%85ai%E9%87%8D%E6%95%B4-173403702.html",
@@ -18,14 +34,6 @@
       "source": "Yahoo 股市",
       "published": "2026-11-27T23:00+08:00",
       "summary": "[FTNN新聞網]記者蕭廷芬／綜合報導美國總統川普繼出手促成輝達（NVIDIA）執行長黃仁勳回歸後，再度將焦點轉向半導體產業。《華盛頓郵報》今（27）日晚間報導...",
-      "tags": []
-    },
-    {
-      "title": "黃仁勳重掌輝達執行長 台北101點燈相挺、供應鏈吞定心丸",
-      "url": "https://tw.stock.yahoo.com/news/%E9%BB%83%E4%BB%81%E5%8B%B3%E9%87%8D%E6%8E%8C%E8%BC%9D%E9%81%94%E5%9F%B7%E8%A1%8C%E9%95%B7-%E5%8F%B0%E5%8C%97101%E9%BB%9E%E7%87%88%E7%9B%B8%E6%8C%BA-%E4%BE%9B%E6%87%89%E9%8F%88%E5%90%9E%E5%AE%9A%E5%BF%83%E4%B8%B8-144922542.html",
-      "source": "Yahoo 股市",
-      "published": "2026-11-27T22:49+08:00",
-      "summary": "圖／本報資料庫商傳媒｜何映辰／台北報導台北101大樓近日亮起「Taiwan Loves Jensen」字樣，由台灣企業界自發出資點燈，熱烈歡迎黃仁勳重新出任輝達（Nvidia）執行長。這股被稱為「Je",
       "tags": []
     },
     {
@@ -50,14 +58,6 @@
       "source": "Yahoo 股市",
       "published": "2026-11-27T22:38+08:00",
       "summary": "[FTNN新聞網]記者蕭廷芬／綜合報導美股結束感恩節休市，今（27）日迎來「黑色星期五」半日交易，四大指數早盤全面走揚。截至美東時間上午9時31分左右，道瓊工...",
-      "tags": []
-    },
-    {
-      "title": "華碩推頂級行動工作站筆電 配備輝達超級晶片開價逾20萬",
-      "url": "https://tw.stock.yahoo.com/news/%E8%8F%AF%E7%A2%A9%E6%8E%A8%E9%A0%82%E7%B4%9A%E8%A1%8C%E5%8B%95%E5%B7%A5%E4%BD%9C%E7%AB%99%E7%AD%86%E9%9B%BB-%E9%85%8D%E5%82%99%E8%BC%9D%E9%81%94%E8%B6%85%E7%B4%9A%E6%99%B6%E7%89%87%E9%96%8B%E5%83%B9%E9%80%BE20%E8%90%AC-134557198.html",
-      "source": "Yahoo 股市",
-      "published": "2026-11-27T21:45+08:00",
-      "summary": "商傳媒｜責任編輯／綜合外電報導華碩在馬來西亞發表專為人工智慧開發者、研究人員及專業創作者打造的行動工作站筆電 ASUS ProArt P14，頂規 128GB 版本定價高達 29,999 令吉（馬來西",
       "tags": []
     },
     {
