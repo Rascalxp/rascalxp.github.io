@@ -1,8 +1,8 @@
 {
-  "updated": "2026-11-27T16:31:01+08:00",
+  "updated": "2026-11-27T16:46:23+08:00",
   "ai_summary": false,
   "model": null,
-  "candidates_sig": "1abe12199b88534d11e8ee5889b227ca5643d7ad",
+  "candidates_sig": "27d1cf98c53e5c2e05028952a5b3d12ba7a47e84",
   "items": [
     {
       "title": "AI投資熱潮推升，主計總處上修Q3 GDP為14.39％、全年上看13.28％",
@@ -26,6 +26,22 @@
       "source": "鉅亨網",
       "published": "2026-11-27T16:15+08:00",
       "summary": "國安基金進場、投信與官股券商買超，台股仍受外資賣壓影響；融資已降至今年4、5月附近，有利築底。 11月30日MSCI季度調整生效，若指數開高走高形成帶量長紅K棒，底部型態可望成形；年底有機會挑戰46,000點。 AI進入效率調整期，明年台股",
+      "tags": []
+    },
+    {
+      "title": "全球晶圓代工排名！台積電狂吞75％霸榜 三星急了…快被中芯逼到牆角",
+      "url": "https://tw.stock.yahoo.com/news/%E5%85%A8%E7%90%83%E6%99%B6%E5%9C%93%E4%BB%A3%E5%B7%A5%E6%8E%92%E5%90%8D-%E5%8F%B0%E7%A9%8D%E9%9B%BB%E7%8B%82%E5%90%9E75-%E9%9C%B8%E6%A6%9C-%E4%B8%89%E6%98%9F%E6%80%A5%E4%BA%86-%E5%BF%AB%E8%A2%AB%E4%B8%AD%E8%8A%AF%E9%80%BC%E5%88%B0%E7%89%86%E8%A7%92-081420351.html",
+      "source": "Yahoo 股市",
+      "published": "2026-11-27T16:14+08:00",
+      "summary": "全球純晶圓代工最新排名出爐！研調機構Counterpoint Research公布2026年第三季數據，受AI晶片需求、先進製程與先進封裝產能吃緊，加上晶圓報價走揚帶動，全球純晶圓代工營收年增36%、",
+      "tags": []
+    },
+    {
+      "title": "主計總處上修今年經濟成長率至13.28% 寫48年來新高",
+      "url": "https://tw.news.yahoo.com/%E4%B8%BB%E8%A8%88%E7%B8%BD%E8%99%95%E4%B8%8A%E4%BF%AE%E4%BB%8A%E5%B9%B4%E7%B6%93%E6%BF%9F%E6%88%90%E9%95%B7%E7%8E%87%E8%87%B313-28-%E5%AF%AB48%E5%B9%B4%E4%BE%86%E6%96%B0%E9%AB%98-080851519.html",
+      "source": "Yahoo 股市",
+      "published": "2026-11-27T16:08+08:00",
+      "summary": "受惠於全球AI需求強勁，帶動台灣出口及民間投資，行政院主計總處今天(27日)公布最新經濟預測，將今年經濟成長率上修至13.28%，比8月的預測提高2.23個百分點，可望創民國68年(1979年)以來、",
       "tags": []
     },
     {
@@ -66,22 +82,6 @@
       "source": "Yahoo 股市",
       "published": "2026-11-27T15:37+08:00",
       "summary": "鴻海發布新聞稿指出，鴻海研究院開發的大型語言模型FoxBrain v2.1，在數位發展部「AI產品與系統評測中心」的「台灣主權AI基礎評測指標」中，整體排名全球第2。 鴻海指出，FoxBrain v2",
-      "tags": []
-    },
-    {
-      "title": "統一期貨：台股適逢週選結算，盤中震盪，尾盤權值股拉抬黑翻紅",
-      "url": "https://tw.stock.yahoo.com/news/%E7%B5%B1-%E6%9C%9F%E8%B2%A8-%E5%8F%B0%E8%82%A1%E9%81%A9%E9%80%A2%E9%80%B1%E9%81%B8%E7%B5%90%E7%AE%97-%E7%9B%A4%E4%B8%AD%E9%9C%87%E7%9B%AA-%E5%B0%BE%E7%9B%A4%E6%AC%8A%E5%80%BC%E8%82%A1%E6%8B%89%E6%8A%AC%E9%BB%91%E7%BF%BB%E7%B4%85-073230159.html",
-      "source": "Yahoo 股市",
-      "published": "2026-11-27T15:32+08:00",
-      "summary": "【財訊快報／編輯部】美股感恩節休市、消息面平淡，台股適逢週選結算，盤中多空拉鋸於平盤上下震盪，尾盤在台積電、鴻海等權值股拉抬下由黑翻紅；ASIC、PCB與光通訊股拉回，中小型電子股表現偏弱。綜觀法人籌",
-      "tags": []
-    },
-    {
-      "title": "2027伺服器展望出爐！黃仁勳回歸 這5家散熱台廠吃香",
-      "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE0xVm54c096YjdveUdzZTNKQ0IwR3p6UW16Q0o1cHpsWHZTci1vSnoxcVlINUVqM3V4anRTZkptWWNzYXgzYUhoNTJUVQ?oc=5",
-      "source": "三立新聞",
-      "published": "2026-11-27T15:31+08:00",
-      "summary": "",
       "tags": []
     }
   ]
