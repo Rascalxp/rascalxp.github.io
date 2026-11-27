@@ -1,21 +1,23 @@
 {
   "chips": {
-    "time": "2026-11-27T15:00:48+08:00",
+    "time": "2026-11-27T15:30:39+08:00",
     "ok": true,
     "errors": []
   },
   "news": {
-    "time": "2026-11-27T15:01:08+08:00",
+    "time": "2026-11-27T15:30:59+08:00",
     "ok": true,
-    "errors": []
+    "errors": [
+      "from_google 失敗：429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=%E5%8F%B0%E8%82%A1+AI%E6%A6%82%E5%BF%B5%E8%82%A1+when%3A2d&hl=zh-TW&gl=TW&ceid=TW%3Azh-Hant"
+    ]
   },
   "media": {
-    "time": "2026-11-27T15:01:05+08:00",
+    "time": "2026-11-27T15:30:57+08:00",
     "ok": true,
     "errors": []
   },
   "sectors": {
-    "time": "2026-11-27T15:01:01+08:00",
+    "time": "2026-11-27T15:30:53+08:00",
     "ok": true,
     "errors": []
   }
