@@ -1,9 +1,57 @@
 {
-  "updated": "2026-11-27T16:01:07+08:00",
+  "updated": "2026-11-27T16:31:01+08:00",
   "ai_summary": false,
   "model": null,
-  "candidates_sig": "fd41e325dc871c63e1a627978d3f207bb63baffc",
+  "candidates_sig": "1abe12199b88534d11e8ee5889b227ca5643d7ad",
   "items": [
+    {
+      "title": "AI投資熱潮推升，主計總處上修Q3 GDP為14.39％、全年上看13.28％",
+      "url": "https://tw.stock.yahoo.com/news/ai%E6%8A%95%E8%B3%87%E7%86%B1%E6%BD%AE%E6%8E%A8%E5%8D%87-%E4%B8%BB%E8%A8%88%E7%B8%BD%E8%99%95%E4%B8%8A%E4%BF%AEq3-gdp%E7%82%BA14-39-%E5%85%A8%E5%B9%B4%E4%B8%8A%E7%9C%8B13-082733404.html",
+      "source": "Yahoo 股市",
+      "published": "2026-11-27T16:27+08:00",
+      "summary": "【財訊快報／編輯部】行政院主計總處27日召開國民所得統計評審會，公布最新國民所得統計修正及經濟情勢預測，受惠全球AI基礎建設投資熱潮延續，帶動台灣出口及企業投資大幅成長，將115年全年經濟成長率預測由",
+      "tags": []
+    },
+    {
+      "title": "〈景氣燈號〉連11紅！10月續亮40分紅燈 國發會點名3大潛在風險",
+      "url": "https://news.cnyes.com/news/id/6673800",
+      "source": "鉅亨網",
+      "published": "2026-11-27T16:15+08:00",
+      "summary": "國發會公布10月景氣對策信號分數40分，月減1分但連11顆紅燈，顯示台灣經濟動能仍強。 受AI應用深化帶動，機械電機進口、工業生產與製造業銷售量年增率大幅走揚；出口、股價與零售餐飲仍在紅燈。 領先與同時指標續升，國發會看好AI與擴產支撐出口",
+      "tags": []
+    },
+    {
+      "title": "國家隊護盤失靈？台股築底迎來關鍵轉折",
+      "url": "https://news.cnyes.com/news/id/6673821",
+      "source": "鉅亨網",
+      "published": "2026-11-27T16:15+08:00",
+      "summary": "國安基金進場、投信與官股券商買超，台股仍受外資賣壓影響；融資已降至今年4、5月附近，有利築底。 11月30日MSCI季度調整生效，若指數開高走高形成帶量長紅K棒，底部型態可望成形；年底有機會挑戰46,000點。 AI進入效率調整期，明年台股",
+      "tags": []
+    },
+    {
+      "title": "名人揭不敢追AI股原因、坐等兩大進場時機 台積電300元買進續抱",
+      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBaczZMX19Cd3VTbmZDZC1RREltMlNJSEhuUFZNSnRweVo2ZklCemF6bGlpZV8wZHlYdEhXaG5yNTY2eGZuRzY1azZvbjlYcW5hZ1HSAVdBVV95cUxOX1V4NzRYZ1RzZ1YzRW5HeDNETWJKa20tRHIwVkp5Z2Y2UHR4dGs2TVl5WUF4RFp3VEtPaUhlWHA0T3Q1S2RQZFFoSnJZbHpQMHF3VTJMVnM?oc=5",
+      "source": "UDN",
+      "published": "2026-11-27T16:06+08:00",
+      "summary": "",
+      "tags": []
+    },
+    {
+      "title": "鴻海研究院FoxBrain臺灣主權AI評測奪全球第二名，展現強大自主研發實力",
+      "url": "https://tw.stock.yahoo.com/news/%E9%B4%BB%E6%B5%B7%E7%A0%94%E7%A9%B6%E9%99%A2foxbrain%E8%87%BA%E7%81%A3%E4%B8%BB%E6%AC%8Aai%E8%A9%95%E6%B8%AC%E5%A5%AA%E5%85%A8%E7%90%83%E7%AC%AC%E4%BA%8C%E5%90%8D-%E5%B1%95%E7%8F%BE%E5%BC%B7%E5%A4%A7%E8%87%AA%E4%B8%BB%E7%A0%94%E7%99%BC%E5%AF%A6%E5%8A%9B-080432249.html",
+      "source": "Yahoo 股市",
+      "published": "2026-11-27T16:04+08:00",
+      "summary": "【財訊快報／記者戴海茜報導】全球最大科技製造平台服務商鴻海科技集團(2317)旗下鴻海研究院，最新公布之大型語言模型FoxBrain v2.1在數位發展部「AI產品與系統評測中心」（AIEC）的「臺灣",
+      "tags": []
+    },
+    {
+      "title": "施羅德投信在台發行亞洲首檔主動式ETF正式掛牌 國際資產管理業者深化臺灣布局",
+      "url": "https://tw.stock.yahoo.com/news/%E6%96%BD%E7%BE%85%E5%BE%B7%E6%8A%95%E4%BF%A1%E5%9C%A8%E5%8F%B0%E7%99%BC%E8%A1%8C%E4%BA%9E%E6%B4%B2%E9%A6%96%E6%AA%94%E4%B8%BB%E5%8B%95%E5%BC%8Fetf%E6%AD%A3%E5%BC%8F%E6%8E%9B%E7%89%8C-%E5%9C%8B%E9%9A%9B%E8%B3%87%E7%94%A2%E7%AE%A1%E7%90%86%E6%A5%AD%E8%80%85%E6%B7%B1%E5%8C%96%E8%87%BA%E7%81%A3%E5%B8%83%E5%B1%80-080016579.html",
+      "source": "Yahoo 股市",
+      "published": "2026-11-27T16:00+08:00",
+      "summary": "財經中心／綜合報導由施羅德投信募集發行的「施羅德AI科技台股主動式ETF」（證券代碼：00419A）昨日正式於證交所掛牌上市。這是施羅德投信在臺發行的首檔ETF，也是施羅德集團在亞洲推出的首檔主動式E",
+      "tags": []
+    },
     {
       "title": "台積電炸819億成交額逆勢收高價！欣興、台達電站穩紅盤 「這ASIC大廠」卻慘淪刀下魂",
       "url": "https://tw.stock.yahoo.com/news/%E5%8F%B0%E7%A9%8D%E9%9B%BB%E7%82%B8819%E5%84%84%E6%88%90%E4%BA%A4%E9%A1%8D%E9%80%86%E5%8B%A2%E6%94%B6%E9%AB%98%E5%83%B9-%E6%AC%A3%E8%88%88-%E5%8F%B0%E9%81%94%E9%9B%BB%E7%AB%99%E7%A9%A9%E7%B4%85%E7%9B%A4-%E9%80%99asic%E5%A4%A7%E5%BB%A0-%E5%8D%BB%E6%85%98%E6%B7%AA%E5%88%80%E4%B8%8B%E9%AD%82-075000668.html",
@@ -13,11 +61,11 @@
       "tags": []
     },
     {
-      "title": "良維前10月資料中心占比達43%，客戶提貨、訂單需求續強",
-      "url": "https://tw.stock.yahoo.com/news/%E8%89%AF%E7%B6%AD%E5%89%8D10%E6%9C%88%E8%B3%87%E6%96%99%E4%B8%AD%E5%BF%83%E5%8D%A0%E6%AF%94%E9%81%9443-%E5%AE%A2%E6%88%B6%E6%8F%90%E8%B2%A8-%E8%A8%82%E5%96%AE%E9%9C%80%E6%B1%82%E7%BA%8C%E5%BC%B7-073801909.html",
+      "title": "鴻海AI模型主權AI評測居全球第2 台灣價值觀正確率達98%",
+      "url": "https://tw.news.yahoo.com/%E9%B4%BB%E6%B5%B7ai%E6%A8%A1%E5%9E%8B%E4%B8%BB%E6%AC%8Aai%E8%A9%95%E6%B8%AC%E5%B1%85%E5%85%A8%E7%90%83%E7%AC%AC2-%E5%8F%B0%E7%81%A3%E5%83%B9%E5%80%BC%E8%A7%80%E6%AD%A3%E7%A2%BA%E7%8E%87%E9%81%9498-073704682.html",
       "source": "Yahoo 股市",
-      "published": "2026-11-27T15:38+08:00",
-      "summary": "【財訊快報／記者陳浩寧報導】良維(6290)第三季營收、獲利雙創單季歷史新高，展望後市，公司於法說會中表示，今年前10月資料中心營收比重已由去年的36%提升至43%，雖近期市場對於AI基建出現雜音，但",
+      "published": "2026-11-27T15:37+08:00",
+      "summary": "鴻海發布新聞稿指出，鴻海研究院開發的大型語言模型FoxBrain v2.1，在數位發展部「AI產品與系統評測中心」的「台灣主權AI基礎評測指標」中，整體排名全球第2。 鴻海指出，FoxBrain v2",
       "tags": []
     },
     {
@@ -29,59 +77,11 @@
       "tags": []
     },
     {
-      "title": "美晶片管制牽動AI布局 泰國資料中心協會：台灣具優勢",
-      "url": "https://tw.stock.yahoo.com/news/%E7%BE%8E%E6%99%B6%E7%89%87%E7%AE%A1%E5%88%B6%E7%89%BD%E5%8B%95ai%E5%B8%83%E5%B1%80-%E6%B3%B0%E5%9C%8B%E8%B3%87%E6%96%99%E4%B8%AD%E5%BF%83%E5%8D%94%E6%9C%83-%E5%8F%B0%E7%81%A3%E5%85%B7%E5%84%AA%E5%8B%A2-071407563.html",
-      "source": "Yahoo 股市",
-      "published": "2026-11-27T15:14+08:00",
-      "summary": "（中央社記者李宗憲曼谷2026年11月27日專電）美國收緊AI晶片出口管制，泰國相關產業面臨挑戰。泰國資料中心協會副主席素帕叻告訴中央社，政府近期開始分配資料中心電力，業者仍有能力調整客戶布局，降低衝",
-      "tags": []
-    },
-    {
-      "title": "鴻海研究院FoxBrain 台灣主權AI評測居全球第2",
-      "url": "https://tw.stock.yahoo.com/news/%E9%B4%BB%E6%B5%B7%E7%A0%94%E7%A9%B6%E9%99%A2foxbrain-%E5%8F%B0%E7%81%A3%E4%B8%BB%E6%AC%8Aai%E8%A9%95%E6%B8%AC%E5%B1%85%E5%85%A8%E7%90%83%E7%AC%AC2-071158316.html",
-      "source": "Yahoo 股市",
-      "published": "2026-11-27T15:11+08:00",
-      "summary": "（中央社記者張建中新竹2026年11月27日電）鴻海集團旗下鴻海研究院今天表示，新公布的大型語言模型FoxBrain v2.1在數位發展部「AI產品與系統評測中心」（AIEC）的「台灣主權AI基礎評測",
-      "tags": []
-    },
-    {
-      "title": "2026九合一選舉行情會來嗎？過去三屆選後60日全上漲，這次台股為何不同？",
-      "url": "https://news.cnyes.com/news/id/6673734",
-      "source": "鉅亨網",
-      "published": "2026-11-27T14:56+08:00",
-      "summary": "2026九合一選舉11月28日投票，台股選前未延續過去三屆選前20日上漲，反而明顯回檔。 2014、2018、2022年選後5日皆漲，選後60日漲幅4.73%至7.47%，但樣本僅3次。 選後仍看AI供應鏈、台美利率、外資籌碼與MSCI調整",
-      "tags": []
-    },
-    {
-      "title": "川普想帶黃仁勳同赴台積電！首訪亞利桑那廠",
-      "url": "https://tw.news.yahoo.com/%E5%B7%9D%E6%99%AE%E6%83%B3%E5%B8%B6%E9%BB%83%E4%BB%81%E5%8B%B3%E5%90%8C%E8%B5%B4%E5%8F%B0%E7%A9%8D%E9%9B%BB-%E9%A6%96%E8%A8%AA%E4%BA%9E%E5%88%A9%E6%A1%91%E9%82%A3%E5%BB%A0-063316553.html",
-      "source": "Yahoo 股市",
-      "published": "2026-11-27T14:33+08:00",
-      "summary": "[NOWNEWS今日新聞]美國總統川普感恩節返回佛州海湖莊園度假，仍然不忘替輝達（NVIDIA）執行長黃仁勳背書。川普26日受訪時強調，沒有情報顯示黃仁勳危害美國國安，「我認為他會沒事的」，還說很樂意",
-      "tags": []
-    },
-    {
-      "title": "台股震盪！主動式ETF「多檔打7折」變存骨 1高股息逆轉勝超抗跌",
-      "url": "https://tw.news.yahoo.com/%E5%8F%B0%E8%82%A1%E9%9C%87%E7%9B%AA-%E4%B8%BB%E5%8B%95%E5%BC%8Fetf-%E5%A4%9A%E6%AA%94%E6%89%937%E6%8A%98-%E8%AE%8A%E5%AD%98%E9%AA%A8-1%E9%AB%98%E8%82%A1%E6%81%AF%E9%80%86%E8%BD%89%E5%8B%9D%E8%B6%85%E6%8A%97%E8%B7%8C-055100442.html",
-      "source": "Yahoo 股市",
-      "published": "2026-11-27T13:51+08:00",
-      "summary": "輝達（Nvidia）執行長黃仁勳爆出婚外情，在火速請辭後又回鍋擔任執行長，這場風波讓全球股市震盪，台股也受到影響。財經達人「棒棒的理財失控週記」發布貼文，攤開10月以來幾檔熱門台股ETF的表現，盤面只",
-      "tags": []
-    },
-    {
-      "title": "台股暴跌是衰退前兆？阮慕驊示警AI股「違約保險費」集體飆新高：市場不是怕倒帳",
-      "url": "https://tw.news.yahoo.com/%E5%8F%B0%E8%82%A1%E6%9A%B4%E8%B7%8C%E6%98%AF%E8%A1%B0%E9%80%80%E5%89%8D%E5%85%86-%E9%98%AE%E6%85%95%E9%A9%8A%E7%A4%BA%E8%AD%A6ai%E8%82%A1-%E9%81%95%E7%B4%84%E4%BF%9D%E9%9A%AA%E8%B2%BB-%E9%9B%86%E9%AB%94%E9%A3%86%E6%96%B0%E9%AB%98-%E5%B8%82%E5%A0%B4%E4%B8%8D%E6%98%AF%E6%80%95%E5%80%92%E5%B8%B3-054920088.html",
-      "source": "Yahoo 股市",
-      "published": "2026-11-27T13:49+08:00",
-      "summary": "美股AI類股近期遭遇猛烈修正，費城半導體指數20日單日暴跌10.73%、單周重挫17.13%，創2001年9月以來最差表現。台股也在16日至20日一周狂瀉7641.83點，創史上最大單周跌點紀錄，金管",
-      "tags": []
-    },
-    {
-      "title": "〈台股盤後〉尾盤強拉197點由黑翻紅 收漲156點守3萬9 PCB、光通訊股走弱",
-      "url": "https://news.cnyes.com/news/id/6673677",
-      "source": "鉅亨網",
-      "published": "2026-11-27T13:42+08:00",
-      "summary": "台股27日終場由黑翻紅，收39,308.08點，上漲156.27點、漲幅0.40%，守住39,000點。 台積電漲1.63%收2,180元、鴻海漲1.15%收219元支撐大盤；聯發科、廣達收黑。 ASIC、PCB與光通訊股走弱，創意跌5.5",
+      "title": "2027伺服器展望出爐！黃仁勳回歸 這5家散熱台廠吃香",
+      "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE0xVm54c096YjdveUdzZTNKQ0IwR3p6UW16Q0o1cHpsWHZTci1vSnoxcVlINUVqM3V4anRTZkptWWNzYXgzYUhoNTJUVQ?oc=5",
+      "source": "三立新聞",
+      "published": "2026-11-27T15:31+08:00",
+      "summary": "",
       "tags": []
     }
   ]
