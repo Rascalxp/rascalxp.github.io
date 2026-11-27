@@ -1,87 +1,87 @@
 {
-  "updated": "2026-11-27T16:46:23+08:00",
+  "updated": "2026-11-27T20:10:53+08:00",
   "ai_summary": false,
   "model": null,
-  "candidates_sig": "27d1cf98c53e5c2e05028952a5b3d12ba7a47e84",
+  "candidates_sig": "6e04e2090cd924fc9b1cb1f94e688c8a724a0f23",
   "items": [
     {
-      "title": "AI投資熱潮推升，主計總處上修Q3 GDP為14.39％、全年上看13.28％",
-      "url": "https://tw.stock.yahoo.com/news/ai%E6%8A%95%E8%B3%87%E7%86%B1%E6%BD%AE%E6%8E%A8%E5%8D%87-%E4%B8%BB%E8%A8%88%E7%B8%BD%E8%99%95%E4%B8%8A%E4%BF%AEq3-gdp%E7%82%BA14-39-%E5%85%A8%E5%B9%B4%E4%B8%8A%E7%9C%8B13-082733404.html",
-      "source": "Yahoo 股市",
-      "published": "2026-11-27T16:27+08:00",
-      "summary": "【財訊快報／編輯部】行政院主計總處27日召開國民所得統計評審會，公布最新國民所得統計修正及經濟情勢預測，受惠全球AI基礎建設投資熱潮延續，帶動台灣出口及企業投資大幅成長，將115年全年經濟成長率預測由",
-      "tags": []
-    },
-    {
-      "title": "〈景氣燈號〉連11紅！10月續亮40分紅燈 國發會點名3大潛在風險",
-      "url": "https://news.cnyes.com/news/id/6673800",
+      "title": "鴻海大語言模型FoxBrain 臺灣主權AI評測奪全球第二",
+      "url": "https://news.cnyes.com/news/id/6674029",
       "source": "鉅亨網",
-      "published": "2026-11-27T16:15+08:00",
-      "summary": "國發會公布10月景氣對策信號分數40分，月減1分但連11顆紅燈，顯示台灣經濟動能仍強。 受AI應用深化帶動，機械電機進口、工業生產與製造業銷售量年增率大幅走揚；出口、股價與零售餐飲仍在紅燈。 領先與同時指標續升，國發會看好AI與擴產支撐出口",
+      "published": "2026-11-27T19:50+08:00",
+      "summary": "鴻海研究院FoxBrain v2.1在AIEC「臺灣主權AI基礎評測指標」暫列全球第二，31B參數可部署於單台AI伺服器。 國學素養、公民素養、臺灣核心價值觀正確率96.20%、91.37%、98%，核心價值觀居彙整名單國際模型之冠。 鴻海",
       "tags": []
     },
     {
-      "title": "國家隊護盤失靈？台股築底迎來關鍵轉折",
-      "url": "https://news.cnyes.com/news/id/6673821",
+      "title": "蘇威元：三集瑞-KY打入輝達+ASIC供應鏈 獲利高成長",
+      "url": "https://tw.stock.yahoo.com/news/%E8%98%87%E5%A8%81%E5%85%83-%E4%B8%89%E9%9B%86%E7%91%9E-ky%E6%89%93%E5%85%A5%E8%BC%9D%E9%81%94-asic%E4%BE%9B%E6%87%89%E9%8F%88-%E7%8D%B2%E5%88%A9%E9%AB%98%E6%88%90%E9%95%B7-105708881.html",
+      "source": "Yahoo 股市",
+      "published": "2026-11-27T18:57+08:00",
+      "summary": "論壇中心／綜合報導AI伺服器規格持續升級，被動元件供應鏈迎來新一波機會，資深分析師蘇威元在《財經週日趴》指出，三集瑞-KY(6862)是台灣少數同時取得輝達與Google ASIC認證的AI電感廠商，",
+      "tags": []
+    },
+    {
+      "title": "免驚美國反AI聲浪？主計上修今明年台灣GDP 創80年代來新高峰",
+      "url": "https://news.cnyes.com/news/id/6673977",
       "source": "鉅亨網",
-      "published": "2026-11-27T16:15+08:00",
-      "summary": "國安基金進場、投信與官股券商買超，台股仍受外資賣壓影響；融資已降至今年4、5月附近，有利築底。 11月30日MSCI季度調整生效，若指數開高走高形成帶量長紅K棒，底部型態可望成形；年底有機會挑戰46,000點。 AI進入效率調整期，明年台股",
+      "published": "2026-11-27T18:28+08:00",
+      "summary": "主計總處上修台灣今年GDP至13.28%，較上次提高2.23個百分點，為48年來新高。 第4季商品出口估2771億美元、年增達47.88%，AI供應鏈與傳產回溫帶動外需。 明年GDP估6.51%。",
       "tags": []
     },
     {
-      "title": "全球晶圓代工排名！台積電狂吞75％霸榜 三星急了…快被中芯逼到牆角",
-      "url": "https://tw.stock.yahoo.com/news/%E5%85%A8%E7%90%83%E6%99%B6%E5%9C%93%E4%BB%A3%E5%B7%A5%E6%8E%92%E5%90%8D-%E5%8F%B0%E7%A9%8D%E9%9B%BB%E7%8B%82%E5%90%9E75-%E9%9C%B8%E6%A6%9C-%E4%B8%89%E6%98%9F%E6%80%A5%E4%BA%86-%E5%BF%AB%E8%A2%AB%E4%B8%AD%E8%8A%AF%E9%80%BC%E5%88%B0%E7%89%86%E8%A7%92-081420351.html",
+      "title": "本土資金力抗外資賣壓 台股週線大漲逾3200點",
+      "url": "https://tw.news.yahoo.com/%E6%9C%AC%E5%9C%9F%E8%B3%87%E9%87%91%E5%8A%9B%E6%8A%97%E5%A4%96%E8%B3%87%E8%B3%A3%E5%A3%93-%E5%8F%B0%E8%82%A1%E9%80%B1%E7%B7%9A%E5%A4%A7%E6%BC%B2%E9%80%BE3200%E9%BB%9E-101648149.html",
       "source": "Yahoo 股市",
-      "published": "2026-11-27T16:14+08:00",
-      "summary": "全球純晶圓代工最新排名出爐！研調機構Counterpoint Research公布2026年第三季數據，受AI晶片需求、先進製程與先進封裝產能吃緊，加上晶圓報價走揚帶動，全球純晶圓代工營收年增36%、",
+      "published": "2026-11-27T18:16+08:00",
+      "summary": "台北股市本週歷經輝達執行長黃仁勳回歸、研究機構下修全球AI基礎設施投資預測，呈現較大幅度震盪。今天(27日)受亞洲主要股市翻紅激勵，終場收漲156點，漲幅0.4%，收39,308點。外資在台股已連10",
       "tags": []
     },
     {
-      "title": "主計總處上修今年經濟成長率至13.28% 寫48年來新高",
-      "url": "https://tw.news.yahoo.com/%E4%B8%BB%E8%A8%88%E7%B8%BD%E8%99%95%E4%B8%8A%E4%BF%AE%E4%BB%8A%E5%B9%B4%E7%B6%93%E6%BF%9F%E6%88%90%E9%95%B7%E7%8E%87%E8%87%B313-28-%E5%AF%AB48%E5%B9%B4%E4%BE%86%E6%96%B0%E9%AB%98-080851519.html",
+      "title": "個股評價》台達電前三季賺贏去年全年 2027年EPS上看59元",
+      "url": "https://tw.news.yahoo.com/%E5%80%8B%E8%82%A1%E8%A9%95%E5%83%B9-%E5%8F%B0%E9%81%94%E9%9B%BB%E5%89%8D%E4%B8%89%E5%AD%A3%E8%B3%BA%E8%B4%8F%E5%8E%BB%E5%B9%B4%E5%85%A8%E5%B9%B4-2027%E5%B9%B4eps%E4%B8%8A%E7%9C%8B59%E5%85%83-094706467.html",
       "source": "Yahoo 股市",
-      "published": "2026-11-27T16:08+08:00",
-      "summary": "受惠於全球AI需求強勁，帶動台灣出口及民間投資，行政院主計總處今天(27日)公布最新經濟預測，將今年經濟成長率上修至13.28%，比8月的預測提高2.23個百分點，可望創民國68年(1979年)以來、",
+      "published": "2026-11-27T17:47+08:00",
+      "summary": "[Newtalk新聞] 台達電受惠AI資料中心需求持續強勁，第三季營收續創單季歷史新高，獲利同步成長，前三季EPS更已超越去年全年，10月營收再創單月歷史新高，展現AI商機帶動的強勁成長動能。 以下是",
       "tags": []
     },
     {
-      "title": "名人揭不敢追AI股原因、坐等兩大進場時機 台積電300元買進續抱",
-      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBaczZMX19Cd3VTbmZDZC1RREltMlNJSEhuUFZNSnRweVo2ZklCemF6bGlpZV8wZHlYdEhXaG5yNTY2eGZuRzY1azZvbjlYcW5hZ1HSAVdBVV95cUxOX1V4NzRYZ1RzZ1YzRW5HeDNETWJKa20tRHIwVkp5Z2Y2UHR4dGs2TVl5WUF4RFp3VEtPaUhlWHA0T3Q1S2RQZFFoSnJZbHpQMHF3VTJMVnM?oc=5",
-      "source": "UDN",
-      "published": "2026-11-27T16:06+08:00",
-      "summary": "",
+      "title": "非紅供應鏈發威！國發會：高階製造回流明顯 資通訊海外生產自9成跌至7成",
+      "url": "https://news.cnyes.com/news/id/6673884",
+      "source": "鉅亨網",
+      "published": "2026-11-27T17:41+08:00",
+      "summary": "明年9大CSP資本支出估達1.5兆美元，AI算力需求仍強，循環融資雜音多集中小型雲端業者。 10月景氣對策信號40分、較上月減1分；領先指標104.64連15月升，外銷訂單1238.2億美元續成長。 台灣10月出口967.6億美元創新高，全",
       "tags": []
     },
     {
-      "title": "鴻海研究院FoxBrain臺灣主權AI評測奪全球第二名，展現強大自主研發實力",
-      "url": "https://tw.stock.yahoo.com/news/%E9%B4%BB%E6%B5%B7%E7%A0%94%E7%A9%B6%E9%99%A2foxbrain%E8%87%BA%E7%81%A3%E4%B8%BB%E6%AC%8Aai%E8%A9%95%E6%B8%AC%E5%A5%AA%E5%85%A8%E7%90%83%E7%AC%AC%E4%BA%8C%E5%90%8D-%E5%B1%95%E7%8F%BE%E5%BC%B7%E5%A4%A7%E8%87%AA%E4%B8%BB%E7%A0%94%E7%99%BC%E5%AF%A6%E5%8A%9B-080432249.html",
+      "title": "鴻海FoxBrain v2.1主權AI評測全球第二！臺灣價值觀正確率98%，31B模型可單機部署",
+      "url": "https://tw.news.yahoo.com/%E9%B4%BB%E6%B5%B7foxbrain-v2-1%E4%B8%BB%E6%AC%8Aai%E8%A9%95%E6%B8%AC%E5%85%A8%E7%90%83%E7%AC%AC%E4%BA%8C-%E8%87%BA%E7%81%A3%E5%83%B9%E5%80%BC%E8%A7%80%E6%AD%A3%E7%A2%BA%E7%8E%8798-31b%E6%A8%A1%E5%9E%8B%E5%8F%AF%E5%96%AE%E6%A9%9F%E9%83%A8%E7%BD%B2-093740932.html",
       "source": "Yahoo 股市",
-      "published": "2026-11-27T16:04+08:00",
-      "summary": "【財訊快報／記者戴海茜報導】全球最大科技製造平台服務商鴻海科技集團(2317)旗下鴻海研究院，最新公布之大型語言模型FoxBrain v2.1在數位發展部「AI產品與系統評測中心」（AIEC）的「臺灣",
+      "published": "2026-11-27T17:37+08:00",
+      "summary": "鴻海（2317）旗下鴻海研究院今（27）日公布，大型語言模型FoxBrain v2.1依研究院彙整的資料，在數位發展部AI產品與系統評測中心（AIEC）的「臺灣主權AI基礎評測指標」中，於納入比較的國",
       "tags": []
     },
     {
-      "title": "施羅德投信在台發行亞洲首檔主動式ETF正式掛牌 國際資產管理業者深化臺灣布局",
-      "url": "https://tw.stock.yahoo.com/news/%E6%96%BD%E7%BE%85%E5%BE%B7%E6%8A%95%E4%BF%A1%E5%9C%A8%E5%8F%B0%E7%99%BC%E8%A1%8C%E4%BA%9E%E6%B4%B2%E9%A6%96%E6%AA%94%E4%B8%BB%E5%8B%95%E5%BC%8Fetf%E6%AD%A3%E5%BC%8F%E6%8E%9B%E7%89%8C-%E5%9C%8B%E9%9A%9B%E8%B3%87%E7%94%A2%E7%AE%A1%E7%90%86%E6%A5%AD%E8%80%85%E6%B7%B1%E5%8C%96%E8%87%BA%E7%81%A3%E5%B8%83%E5%B1%80-080016579.html",
-      "source": "Yahoo 股市",
-      "published": "2026-11-27T16:00+08:00",
-      "summary": "財經中心／綜合報導由施羅德投信募集發行的「施羅德AI科技台股主動式ETF」（證券代碼：00419A）昨日正式於證交所掛牌上市。這是施羅德投信在臺發行的首檔ETF，也是施羅德集團在亞洲推出的首檔主動式E",
+      "title": "台股3萬9千點暗藏變盤訊號？下一波主流?!",
+      "url": "https://news.cnyes.com/news/id/6673891",
+      "source": "鉅亨網",
+      "published": "2026-11-27T17:29+08:00",
+      "summary": "台股開高震盪走高，終場漲156.27點收39308.08點，成交量6660.70億。 三大法人合計賣超213.04億元，外資連賣十日；投信連買四日共買超935.05億元。 資金轉向散熱、光學、低軌衛星與AI題材，台積電、鴻海、昇達科、萊德光",
       "tags": []
     },
     {
-      "title": "台積電炸819億成交額逆勢收高價！欣興、台達電站穩紅盤 「這ASIC大廠」卻慘淪刀下魂",
-      "url": "https://tw.stock.yahoo.com/news/%E5%8F%B0%E7%A9%8D%E9%9B%BB%E7%82%B8819%E5%84%84%E6%88%90%E4%BA%A4%E9%A1%8D%E9%80%86%E5%8B%A2%E6%94%B6%E9%AB%98%E5%83%B9-%E6%AC%A3%E8%88%88-%E5%8F%B0%E9%81%94%E9%9B%BB%E7%AB%99%E7%A9%A9%E7%B4%85%E7%9B%A4-%E9%80%99asic%E5%A4%A7%E5%BB%A0-%E5%8D%BB%E6%85%98%E6%B7%AA%E5%88%80%E4%B8%8B%E9%AD%82-075000668.html",
-      "source": "Yahoo 股市",
-      "published": "2026-11-27T15:50+08:00",
-      "summary": "[FTNN新聞網]記者何亞軒／綜合報導今（27）日台股加權指數終場收盤39,308.08點，漲156.27點，漲幅0.4%，觀察今日個股盤後成交額前五名，儘管台積電盤中一度摔...",
+      "title": "時間讓小麥更茁壯、鎖定被錯殺的成長飆股",
+      "url": "https://news.cnyes.com/news/id/6673888",
+      "source": "鉅亨網",
+      "published": "2026-11-27T17:19+08:00",
+      "summary": "台股量縮震盪收紅，上漲156點收39,308點，成交量約6,670億元，重新站回10日線。 自10月6日高點49,968點跌至11月21日35,442點，融資餘額減至4,352億元，顯示浮額去化。 AI長線需求、台美關稅趨勢與企業獲利仍為支",
       "tags": []
     },
     {
-      "title": "鴻海AI模型主權AI評測居全球第2 台灣價值觀正確率達98%",
-      "url": "https://tw.news.yahoo.com/%E9%B4%BB%E6%B5%B7ai%E6%A8%A1%E5%9E%8B%E4%B8%BB%E6%AC%8Aai%E8%A9%95%E6%B8%AC%E5%B1%85%E5%85%A8%E7%90%83%E7%AC%AC2-%E5%8F%B0%E7%81%A3%E5%83%B9%E5%80%BC%E8%A7%80%E6%AD%A3%E7%A2%BA%E7%8E%87%E9%81%9498-073704682.html",
-      "source": "Yahoo 股市",
-      "published": "2026-11-27T15:37+08:00",
-      "summary": "鴻海發布新聞稿指出，鴻海研究院開發的大型語言模型FoxBrain v2.1，在數位發展部「AI產品與系統評測中心」的「台灣主權AI基礎評測指標」中，整體排名全球第2。 鴻海指出，FoxBrain v2",
+      "title": "鴻海增持雲智匯獲越南放行首批股權預計12月3日交割",
+      "url": "https://news.cnyes.com/news/id/6673864",
+      "source": "鉅亨網",
+      "published": "2026-11-27T17:00+08:00",
+      "summary": "2026年11月27日（優分析／產業數據中心報導）⸺ 鴻海(2317-TW)旗下Foxconn (Far East)增持香港上市的雲智匯科技服務Maxnerva(1037-HK)一案，已於26日獲越南競爭委員會核准。雙方27日公告，若其他交",
       "tags": []
     }
   ]
